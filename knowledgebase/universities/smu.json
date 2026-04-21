@@ -1,0 +1,108 @@
+{
+  "name": "Southern Methodist University",
+  "short_name": "SMU",
+  "slug": "smu",
+  "rank": 68,
+  "official_domain": "smu.edu",
+  "source_urls": {
+    "admissions": [
+      "https://www.smu.edu/admission",
+      "https://www.smu.edu/admission/apply/undergraduate-admission/testing",
+      "https://www.smu.edu/admission/apply?utm_medium=alias%20redirect&utm_source=smu&utm_campaign=%2fapply",
+      "https://www.smu.edu/admission/majors-minors"
+    ],
+    "majors": [
+      "https://www.smu.edu/academics",
+      "https://www.smu.edu/admission/majors-minors"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.smu.edu"
+    ]
+  },
+  "majors": {
+    "count": 100,
+    "count_method": "explicit official page sentence",
+    "titles": [],
+    "notes": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  "admissions": {
+    "application_platform": null,
+    "testing_policy": "SMU is fully test-optional; applicants who do not submit ACT or SAT scores are evaluated on other factors including grades, r\u00e9sum\u00e9, essays, and recommendation letters.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "course_rigor": "unknown",
+    "recommendations": "unknown",
+    "essays": "unknown",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "Engage in research projects."
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 100",
+      "classification": "official_requirement",
+      "source_url": "https://www.smu.edu/academics",
+      "source_excerpt": "SMU\u2019s strength lies in fusing teaching and research into breakthrough academic experiences. This balance is rare among national institutions, yet fitting for a university like SMU that values balance and breadth in education. With more than 100 majors and 85 minors to choose from, as well as double and triple major opportunities and accelerated degree programs, you can go as far as you want and as quickly, too.",
+      "retrieved_at": "2026-04-20T03:06:56.384941+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "You\u2019ll be transformed by the knowledge and experiences gained through the Embrey Human Rights Program, whose mission is to educate students and other members of the global community to understand, promote and defend human rights as responsible citizens of the world. You\u2019ll have many opportunities to learn, travel and act for human rights as a student at SMU, the first university in the South, and only the fifth in the country, to offer an undergraduate major in human rights.",
+      "classification": "official_requirement",
+      "source_url": "https://www.smu.edu/admission",
+      "source_excerpt": "You\u2019ll be transformed by the knowledge and experiences gained through the Embrey Human Rights Program, whose mission is to educate students and other members of the global community to understand, promote and defend human rights as responsible citizens of the world. You\u2019ll have many opportunities to learn, travel and act for human rights as a student at SMU, the first university in the South, and only the fifth in the country, to offer an undergraduate major in human rights.",
+      "retrieved_at": "2026-04-20T03:06:56.384953+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "classification": "reported_profile",
+      "source_url": "https://www.smu.edu/admission",
+      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:06:56.384956+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "Benefit from a program that emphasizes rigorous education in modern methods of economic analysis.",
+      "classification": "reported_profile",
+      "source_url": "https://www.smu.edu/admission",
+      "source_excerpt": "Benefit from a program that emphasizes rigorous education in modern methods of economic analysis.",
+      "retrieved_at": "2026-04-20T03:06:56.384959+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "SMU is fully test-optional; applicants who do not submit ACT or SAT scores are evaluated on other factors including grades, r\u00e9sum\u00e9, essays, and recommendation letters.",
+      "classification": "official_requirement",
+      "source_url": "https://www.smu.edu/admission/apply/undergraduate-admission/testing",
+      "source_excerpt": "SMU is fully test-optional. Under SMU\u2019s test-optional policy, applicants who choose not to submit ACT or SAT scores will be evaluated on the other factors, including grades, r\u00e9sum\u00e9, essays and recommendation letters.",
+      "retrieved_at": "2026-04-20T03:48:33.020732+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-20T03:48:33.020744+00:00",
+    "confidence": "phase-5-manual-repair",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays"
+    ],
+    "warnings": [
+      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
+      "admissions.course_rigor was reset to unknown during manual cleanup because the earlier auto-extracted text was unrelated to the requested admissions field.",
+      "SMU testing policy was manually repaired from the official undergraduate admission testing page after the auto-crawl captured unrelated program-marketing text."
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "name": "Northwestern University",
+  "short_name": "Northwestern",
+  "slug": "northwestern",
+  "rank": 12,
+  "official_domain": "northwestern.edu",
+  "source_urls": {
+    "admissions": [
+      "https://admissions.northwestern.edu/",
+      "https://admissions.northwestern.edu/academics/",
+      "https://admissions.northwestern.edu/apply/requirements.html",
+      "https://www.northwestern.edu/admission",
+      "https://www.northwestern.edu/admissions/",
+      "https://www.northwestern.edu/apply"
+    ],
+    "majors": [
+      "https://admissions.northwestern.edu/academics/",
+      "https://www.northwestern.edu/academics/"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.northwestern.edu"
+    ]
+  },
+  "majors": {
+    "count": 23,
+    "count_method": "counted 23 unique major/program-like entries from the cited official page DOM",
+    "titles": [],
+    "notes": "counted 23 unique major/program-like entries from the cited official page DOM",
+    "confidence": "medium"
+  },
+  "admissions": {
+    "application_platform": "Common Application",
+    "testing_policy": "Self-reporting SAT and/or ACT scores",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "course_rigor": "A strong high school curriculum, including a year of calculus, is required for admission.",
+    "recommendations": "Letters of Recommendation",
+    "essays": "Personal Statement and Supplemental Essay(s)",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "explore our research impact"
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 23",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.northwestern.edu/academics/",
+      "source_excerpt": "Find study abroad programs in every continent",
+      "retrieved_at": "2026-04-20T03:01:16.166072+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Self-reporting SAT and/or ACT scores",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.northwestern.edu/apply/requirements.html",
+      "source_excerpt": "Self-reporting SAT and/or ACT scores",
+      "retrieved_at": "2026-04-20T03:01:16.166083+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.northwestern.edu/apply/requirements.html",
+      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:01:16.166086+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "A strong high school curriculum, including a year of calculus, is required for admission.",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.northwestern.edu/apply/requirements.html",
+      "source_excerpt": "A strong high school curriculum, including a year of calculus, is required for admission.",
+      "retrieved_at": "2026-04-20T03:01:16.166089+00:00"
+    },
+    {
+      "field": "admissions.recommendations",
+      "claim": "Letters of Recommendation",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.northwestern.edu/apply/requirements.html",
+      "source_excerpt": "Letters of Recommendation",
+      "retrieved_at": "2026-04-20T03:01:16.166091+00:00"
+    },
+    {
+      "field": "admissions.essays",
+      "claim": "Personal Statement and Supplemental Essay(s)",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.northwestern.edu/apply/requirements.html",
+      "source_excerpt": "Personal Statement and Supplemental Essay(s)",
+      "retrieved_at": "2026-04-20T03:01:16.166094+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-20T03:01:16.166097+00:00",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [],
+    "warnings": [
+      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages."
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "name": "Carnegie Mellon University",
+  "short_name": "Carnegie Mellon",
+  "slug": "carnegie-mellon",
+  "rank": 22,
+  "official_domain": "cmu.edu",
+  "source_urls": {
+    "admissions": [
+      "https://www.cmu.edu/admission/",
+      "https://www.cmu.edu/admissions",
+      "https://www.cmu.edu/apply"
+    ],
+    "majors": [
+      "https://www.cmu.edu/academic-programs",
+      "https://www.cmu.edu/academics",
+      "https://www.cmu.edu/majors"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.cmu.edu"
+    ]
+  },
+  "majors": {
+    "count": 1,
+    "count_method": "explicit official page sentence",
+    "titles": [],
+    "notes": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  "admissions": {
+    "application_platform": null,
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "course_rigor": "unknown",
+    "recommendations": "unknown",
+    "essays": "unknown",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "Research & Creativity at CMU"
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 1",
+      "classification": "official_requirement",
+      "source_url": "https://www.cmu.edu/academics",
+      "source_excerpt": "Academics Academics Academics at CMU Schools & Colleges Majors & Programs Graduate Programs Interdisciplinary Programs Online Education Continuing Education Academic Calendar Pre-College Programs Learning for a Lifetime Top 20 University in the United States Earning a place among the top 20 universities in the United States , Carnegie Mellon ranks No. 1 in seven undergraduate programs, including analytics and programming languages, artificial intelligence, cybersecurity, information systems, mobile/web applications and software engineering.",
+      "retrieved_at": "2026-04-20T03:02:19.419419+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "classification": "official_requirement",
+      "source_url": "https://www.cmu.edu/admission/",
+      "source_excerpt": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:02:19.419430+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "classification": "reported_profile",
+      "source_url": "https://www.cmu.edu/admission/",
+      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:02:19.419434+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-20T03:02:19.419439+00:00",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays"
+    ],
+    "warnings": [
+      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
+      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence."
+    ]
+  }
+}

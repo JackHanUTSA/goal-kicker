@@ -1,0 +1,632 @@
+[
+  {
+    "slug": "johns-hopkins",
+    "name": "Johns Hopkins University",
+    "majors_count": 0,
+    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "confidence": "low"
+  },
+  {
+    "slug": "northwestern",
+    "name": "Northwestern University",
+    "majors_count": 23,
+    "count_method": "counted 23 unique major/program-like entries from the cited official page DOM",
+    "confidence": "medium"
+  },
+  {
+    "slug": "dartmouth",
+    "name": "Dartmouth College",
+    "majors_count": 0,
+    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "confidence": "low"
+  },
+  {
+    "slug": "brown",
+    "name": "Brown University",
+    "majors_count": 80,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "cornell",
+    "name": "Cornell University",
+    "majors_count": 40,
+    "count_method": "counted 40 unique major/program-like entries from the cited official page DOM",
+    "confidence": "medium"
+  },
+  {
+    "slug": "vanderbilt",
+    "name": "Vanderbilt University",
+    "majors_count": 65,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "rice",
+    "name": "Rice University",
+    "majors_count": 50,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "washu",
+    "name": "Washington University in St. Louis",
+    "majors_count": 100,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "notre-dame",
+    "name": "University of Notre Dame",
+    "majors_count": 70,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "uc-berkeley",
+    "name": "University of California, Berkeley",
+    "majors_count": 113,
+    "count_method": "counted official UC Berkeley Catalog results after enabling the 'Major' filter on the Programs page",
+    "confidence": "medium"
+  },
+  {
+    "slug": "ucla",
+    "name": "University of California, Los Angeles",
+    "majors_count": 0,
+    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "confidence": "low"
+  },
+  {
+    "slug": "carnegie-mellon",
+    "name": "Carnegie Mellon University",
+    "majors_count": 1,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "emory",
+    "name": "Emory University",
+    "majors_count": 15,
+    "count_method": "counted 15 unique major/program-like entries from the cited official page DOM",
+    "confidence": "medium"
+  },
+  {
+    "slug": "georgetown",
+    "name": "Georgetown University",
+    "majors_count": 0,
+    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "confidence": "low"
+  },
+  {
+    "slug": "michigan",
+    "name": "University of Michigan",
+    "majors_count": null,
+    "count_method": "blocked by bot protection during phase 3 checks",
+    "confidence": "low"
+  },
+  {
+    "slug": "usc",
+    "name": "University of Southern California",
+    "majors_count": 0,
+    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "confidence": "low"
+  },
+  {
+    "slug": "nyu",
+    "name": "New York University",
+    "majors_count": 30,
+    "count_method": "counted 30 unique major/program-like entries from the cited official page DOM",
+    "confidence": "medium"
+  },
+  {
+    "slug": "uva",
+    "name": "University of Virginia",
+    "majors_count": 0,
+    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "confidence": "low"
+  },
+  {
+    "slug": "unc-chapel-hill",
+    "name": "University of North Carolina at Chapel Hill",
+    "majors_count": 0,
+    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "confidence": "low"
+  },
+  {
+    "slug": "tufts",
+    "name": "Tufts University",
+    "majors_count": 0,
+    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "confidence": "low"
+  },
+  {
+    "slug": "wake-forest",
+    "name": "Wake Forest University",
+    "majors_count": 50,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "boston-college",
+    "name": "Boston College",
+    "majors_count": 0,
+    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "confidence": "low"
+  },
+  {
+    "slug": "georgia-tech",
+    "name": "Georgia Institute of Technology",
+    "majors_count": 21,
+    "count_method": "counted 21 unique major/program-like entries from the cited official page DOM",
+    "confidence": "medium"
+  },
+  {
+    "slug": "uc-san-diego",
+    "name": "University of California, San Diego",
+    "majors_count": 100,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "uf",
+    "name": "University of Florida",
+    "majors_count": 0,
+    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "confidence": "low"
+  },
+  {
+    "slug": "ut-austin",
+    "name": "University of Texas at Austin",
+    "majors_count": 0,
+    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "confidence": "low"
+  },
+  {
+    "slug": "uiuc",
+    "name": "University of Illinois Urbana-Champaign",
+    "majors_count": 0,
+    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "confidence": "low"
+  },
+  {
+    "slug": "wisconsin-madison",
+    "name": "University of Wisconsin-Madison",
+    "majors_count": 600,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "ohio-state",
+    "name": "The Ohio State University",
+    "majors_count": 278,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "university-of-washington",
+    "name": "University of Washington",
+    "majors_count": 0,
+    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "confidence": "low"
+  },
+  {
+    "slug": "purdue",
+    "name": "Purdue University",
+    "majors_count": 400,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "boston-university",
+    "name": "Boston University",
+    "majors_count": 300,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "northeastern",
+    "name": "Northeastern University",
+    "majors_count": 200,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "case-western",
+    "name": "Case Western Reserve University",
+    "majors_count": 100,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "uc-davis",
+    "name": "University of California, Davis",
+    "majors_count": 10,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "william-and-mary",
+    "name": "William & Mary",
+    "majors_count": 100,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "rochester",
+    "name": "University of Rochester",
+    "majors_count": 200,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "brandeis",
+    "name": "Brandeis University",
+    "majors_count": 47,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "tulane",
+    "name": "Tulane University",
+    "majors_count": 0,
+    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "confidence": "low"
+  },
+  {
+    "slug": "lehigh",
+    "name": "Lehigh University",
+    "majors_count": 100,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "university-of-georgia",
+    "name": "University of Georgia",
+    "majors_count": 0,
+    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "confidence": "low"
+  },
+  {
+    "slug": "pepperdine",
+    "name": "Pepperdine University",
+    "majors_count": 46,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "rutgers-new-brunswick",
+    "name": "Rutgers University-New Brunswick",
+    "majors_count": 150,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "santa-clara",
+    "name": "Santa Clara University",
+    "majors_count": 50,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "texas-am",
+    "name": "Texas A&M University",
+    "majors_count": 400,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "villanova",
+    "name": "Villanova University",
+    "majors_count": 0,
+    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "confidence": "low"
+  },
+  {
+    "slug": "indiana-bloomington",
+    "name": "Indiana University Bloomington",
+    "majors_count": 0,
+    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "confidence": "low"
+  },
+  {
+    "slug": "syracuse",
+    "name": "Syracuse University",
+    "majors_count": 200,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "university-of-miami",
+    "name": "University of Miami",
+    "majors_count": 180,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "michigan-state",
+    "name": "Michigan State University",
+    "majors_count": 400,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "penn-state",
+    "name": "Pennsylvania State University",
+    "majors_count": 275,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "baylor",
+    "name": "Baylor University",
+    "majors_count": 0,
+    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "confidence": "low"
+  },
+  {
+    "slug": "binghamton",
+    "name": "Binghamton University",
+    "majors_count": 150,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "clemson",
+    "name": "Clemson University",
+    "majors_count": 32,
+    "count_method": "counted 32 unique major/program-like entries from the cited official page DOM",
+    "confidence": "medium"
+  },
+  {
+    "slug": "fordham",
+    "name": "Fordham University",
+    "majors_count": 36,
+    "count_method": "counted 36 unique major/program-like entries from the cited official page DOM",
+    "confidence": "medium"
+  },
+  {
+    "slug": "george-washington",
+    "name": "George Washington University",
+    "majors_count": 100,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "marquette",
+    "name": "Marquette University",
+    "majors_count": 0,
+    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "confidence": "low"
+  },
+  {
+    "slug": "smu",
+    "name": "Southern Methodist University",
+    "majors_count": 100,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "tcu",
+    "name": "Texas Christian University",
+    "majors_count": 0,
+    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "confidence": "low"
+  },
+  {
+    "slug": "yeshiva",
+    "name": "Yeshiva University",
+    "majors_count": 32,
+    "count_method": "counted 32 unique major/program-like entries from the cited official page DOM",
+    "confidence": "medium"
+  },
+  {
+    "slug": "gonzaga",
+    "name": "Gonzaga University",
+    "majors_count": 53,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "loyola-marymount",
+    "name": "Loyola Marymount University",
+    "majors_count": 100,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "stevens",
+    "name": "Stevens Institute of Technology",
+    "majors_count": 35,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "temple",
+    "name": "Temple University",
+    "majors_count": 600,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "virginia-tech",
+    "name": "Virginia Tech",
+    "majors_count": 150,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "uconn",
+    "name": "University of Connecticut",
+    "majors_count": 125,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "colorado-school-of-mines",
+    "name": "Colorado School of Mines",
+    "majors_count": 0,
+    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "confidence": "low"
+  },
+  {
+    "slug": "drexel",
+    "name": "Drexel University",
+    "majors_count": 100,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "njit",
+    "name": "New Jersey Institute of Technology",
+    "majors_count": 125,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "pittsburgh",
+    "name": "University of Pittsburgh",
+    "majors_count": 0,
+    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "confidence": "low"
+  },
+  {
+    "slug": "rit",
+    "name": "Rochester Institute of Technology",
+    "majors_count": 44,
+    "count_method": "counted 44 unique major/program-like entries from the cited official page DOM",
+    "confidence": "medium"
+  },
+  {
+    "slug": "american",
+    "name": "American University",
+    "majors_count": 0,
+    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "confidence": "low"
+  },
+  {
+    "slug": "florida-state",
+    "name": "Florida State University",
+    "majors_count": 0,
+    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "confidence": "low"
+  },
+  {
+    "slug": "nc-state",
+    "name": "North Carolina State University",
+    "majors_count": 100,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "stony-brook",
+    "name": "Stony Brook University",
+    "majors_count": 200,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "buffalo",
+    "name": "University at Buffalo",
+    "majors_count": 350,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "uc-irvine",
+    "name": "University of California, Irvine",
+    "majors_count": 15,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "uc-santa-barbara",
+    "name": "University of California, Santa Barbara",
+    "majors_count": 200,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "wpi",
+    "name": "Worcester Polytechnic Institute",
+    "majors_count": 70,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "auburn",
+    "name": "Auburn University",
+    "majors_count": 0,
+    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "confidence": "low"
+  },
+  {
+    "slug": "iowa-state",
+    "name": "Iowa State University",
+    "majors_count": 200,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "university-of-delaware",
+    "name": "University of Delaware",
+    "majors_count": 4,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "umass-amherst",
+    "name": "University of Massachusetts Amherst",
+    "majors_count": 0,
+    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "confidence": "low"
+  },
+  {
+    "slug": "minnesota-twin-cities",
+    "name": "University of Minnesota Twin Cities",
+    "majors_count": 0,
+    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "confidence": "low"
+  },
+  {
+    "slug": "university-of-san-diego",
+    "name": "University of San Diego",
+    "majors_count": 0,
+    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "confidence": "low"
+  },
+  {
+    "slug": "uc-riverside",
+    "name": "University of California, Riverside",
+    "majors_count": 150,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "uc-santa-cruz",
+    "name": "University of California, Santa Cruz",
+    "majors_count": 74,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "university-of-denver",
+    "name": "University of Denver",
+    "majors_count": 15,
+    "count_method": "counted 15 unique major/program-like entries from the cited official page DOM",
+    "confidence": "medium"
+  },
+  {
+    "slug": "oregon-state",
+    "name": "Oregon State University",
+    "majors_count": 200,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  {
+    "slug": "tennessee-knoxville",
+    "name": "University of Tennessee, Knoxville",
+    "majors_count": 0,
+    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "confidence": "low"
+  }
+]

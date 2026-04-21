@@ -1,0 +1,97 @@
+{
+  "name": "New York University",
+  "short_name": "NYU",
+  "slug": "nyu",
+  "rank": 27,
+  "official_domain": "nyu.edu",
+  "source_urls": {
+    "admissions": [
+      "https://www.nyu.edu/admission",
+      "https://www.nyu.edu/admissions.html",
+      "https://www.nyu.edu/admissions/undergraduate-admissions.html",
+      "https://www.nyu.edu/apply"
+    ],
+    "majors": [
+      "https://www.nyu.edu/academics.html",
+      "https://www.nyu.edu/majors"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.nyu.edu"
+    ]
+  },
+  "majors": {
+    "count": 30,
+    "count_method": "counted 30 unique major/program-like entries from the cited official page DOM",
+    "titles": [],
+    "notes": "counted 30 unique major/program-like entries from the cited official page DOM",
+    "confidence": "medium"
+  },
+  "admissions": {
+    "application_platform": null,
+    "testing_policy": "The NYU Center brings together researchers tapping into AI to develop intelligent machines that can sense, navigate, and act autonomously in complex real-world environments, from operating rooms to disaster zones",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "course_rigor": "Academic programs at NYU are designed to support exploration and depth. Students can shape their education through interdisciplinary coursework, global opportunities, and accelerated or continuing study options.",
+    "recommendations": "unknown",
+    "essays": "unknown",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "Undergrad Research Notebook: The Hidden Consequences of Orders of Protection"
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 30",
+      "classification": "official_requirement",
+      "source_url": "https://www.nyu.edu/academics.html",
+      "source_excerpt": "NYU's Study Abroad Locations",
+      "retrieved_at": "2026-04-20T03:02:37.391757+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "The NYU Center brings together researchers tapping into AI to develop intelligent machines that can sense, navigate, and act autonomously in complex real-world environments, from operating rooms to disaster zones",
+      "classification": "official_requirement",
+      "source_url": "https://www.nyu.edu/admissions/undergraduate-admissions.html",
+      "source_excerpt": "The NYU Center brings together researchers tapping into AI to develop intelligent machines that can sense, navigate, and act autonomously in complex real-world environments, from operating rooms to disaster zones",
+      "retrieved_at": "2026-04-20T03:02:37.391769+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "classification": "reported_profile",
+      "source_url": "https://www.nyu.edu/admissions/undergraduate-admissions.html",
+      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:02:37.391773+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "Academic programs at NYU are designed to support exploration and depth. Students can shape their education through interdisciplinary coursework, global opportunities, and accelerated or continuing study options.",
+      "classification": "reported_profile",
+      "source_url": "https://www.nyu.edu/admissions/undergraduate-admissions.html",
+      "source_excerpt": "Academic programs at NYU are designed to support exploration and depth. Students can shape their education through interdisciplinary coursework, global opportunities, and accelerated or continuing study options.",
+      "retrieved_at": "2026-04-20T03:02:37.391775+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-20T03:02:37.391779+00:00",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ],
+    "warnings": [
+      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages."
+    ]
+  }
+}

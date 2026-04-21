@@ -1,0 +1,105 @@
+{
+  "name": "Boston College",
+  "short_name": "Boston College",
+  "slug": "boston-college",
+  "rank": 32,
+  "official_domain": "bc.edu",
+  "source_urls": {
+    "admissions": [
+      "https://www.bc.edu/admissions",
+      "https://www.bc.edu/bc-web/admission/apply.html",
+      "https://www.bc.edu/content/bc-web/admission.html",
+      "https://www.bc.edu/content/bc-web/admission/",
+      "https://www.bc.edu/content/bc-web/admission/academics.html",
+      "https://www.bc.edu/content/bc-web/admission/apply.html",
+      "https://www.bc.edu/content/bc-web/admission/apply/admission-offices.html"
+    ],
+    "majors": [
+      "https://www.bc.edu/content/bc-web/admission/academics.html"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.bc.edu"
+    ]
+  },
+  "majors": {
+    "count": 0,
+    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "titles": [],
+    "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "confidence": "low"
+  },
+  "admissions": {
+    "application_platform": "Common Application",
+    "testing_policy": "Official standardized test results sent at the time of application or upon enrollment must be sent directly from the testing agency to Boston College (SAT Code: 3083 and ACT Code: 1788). If having score reports sent from the College Board or ACT to Boston College presents a financial hardship, applicants should have their high school counselor contact the Office of Undergraduate Admission. Alternatives will be explored on a case-by-case basis.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "course_rigor": "Submitting Your Transcript(s)",
+    "recommendations": "No. All required materials (transcripts, recommendations, test scores, etc.) must be submitted electronically or via mail. All documents must be official with the exception of self-reported test scores. You may use your portal to upload an optional resume, but this is not required for admission.",
+    "essays": "The Boston College Writing Supplement must be submitted along with your application to Boston College at www.commonapp.org . Please do not mail or email your essay response.",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "Vice Provost for Research"
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Official standardized test results sent at the time of application or upon enrollment must be sent directly from the testing agency to Boston College (SAT Code: 3083 and ACT Code: 1788). If having score reports sent from the College Board or ACT to Boston College presents a financial hardship, applicants should have their high school counselor contact the Office of Undergraduate Admission. Alternatives will be explored on a case-by-case basis.",
+      "classification": "official_requirement",
+      "source_url": "https://www.bc.edu/content/bc-web/admission/apply.html",
+      "source_excerpt": "Official standardized test results sent at the time of application or upon enrollment must be sent directly from the testing agency to Boston College (SAT Code: 3083 and ACT Code: 1788). If having score reports sent from the College Board or ACT to Boston College presents a financial hardship, applicants should have their high school counselor contact the Office of Undergraduate Admission. Alternatives will be explored on a case-by-case basis.",
+      "retrieved_at": "2026-04-20T03:02:57.515591+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "classification": "reported_profile",
+      "source_url": "https://www.bc.edu/content/bc-web/admission/apply.html",
+      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:02:57.515602+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "Submitting Your Transcript(s)",
+      "classification": "reported_profile",
+      "source_url": "https://www.bc.edu/content/bc-web/admission/apply.html",
+      "source_excerpt": "Submitting Your Transcript(s)",
+      "retrieved_at": "2026-04-20T03:02:57.515606+00:00"
+    },
+    {
+      "field": "admissions.recommendations",
+      "claim": "No. All required materials (transcripts, recommendations, test scores, etc.) must be submitted electronically or via mail. All documents must be official with the exception of self-reported test scores. You may use your portal to upload an optional resume, but this is not required for admission.",
+      "classification": "official_requirement",
+      "source_url": "https://www.bc.edu/content/bc-web/admission/apply.html",
+      "source_excerpt": "No. All required materials (transcripts, recommendations, test scores, etc.) must be submitted electronically or via mail. All documents must be official with the exception of self-reported test scores. You may use your portal to upload an optional resume, but this is not required for admission.",
+      "retrieved_at": "2026-04-20T03:02:57.515608+00:00"
+    },
+    {
+      "field": "admissions.essays",
+      "claim": "The Boston College Writing Supplement must be submitted along with your application to Boston College at www.commonapp.org . Please do not mail or email your essay response.",
+      "classification": "official_requirement",
+      "source_url": "https://www.bc.edu/content/bc-web/admission/apply.html",
+      "source_excerpt": "The Boston College Writing Supplement must be submitted along with your application to Boston College at www.commonapp.org . Please do not mail or email your essay response.",
+      "retrieved_at": "2026-04-20T03:02:57.515611+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-20T03:02:57.515615+00:00",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [],
+    "warnings": [
+      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
+      "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page."
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "$schema_version": "1.0",
+  "required_fields": [
+    "name",
+    "short_name",
+    "slug",
+    "official_domain",
+    "source_urls",
+    "majors",
+    "admissions",
+    "competitive_signals",
+    "verification"
+  ],
+  "record_template": {
+    "name": "",
+    "short_name": "",
+    "slug": "",
+    "rank": null,
+    "official_domain": "",
+    "source_urls": {
+      "admissions": [],
+      "majors": [],
+      "testing_policy": [],
+      "general": []
+    },
+    "majors": {
+      "count": null,
+      "count_method": "unknown",
+      "titles": [],
+      "notes": "",
+      "confidence": "unknown"
+    },
+    "admissions": {
+      "application_platform": null,
+      "testing_policy": null,
+      "gpa_policy": null,
+      "course_rigor": null,
+      "recommendations": null,
+      "essays": null,
+      "portfolio_or_audition": null,
+      "international_notes": null,
+      "deadlines": []
+    },
+    "competitive_signals": {
+      "academics": [],
+      "projects_research": [],
+      "extracurriculars": [],
+      "leadership": [],
+      "service": [],
+      "special_notes": []
+    },
+    "evidence": [
+      {
+        "field": "",
+        "claim": "",
+        "classification": "official_requirement",
+        "source_url": "",
+        "source_excerpt": "",
+        "retrieved_at": ""
+      }
+    ],
+    "verification": {
+      "last_verified_at": "",
+      "confidence": "unknown",
+      "unknown_fields": [],
+      "warnings": []
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "name": "University of Miami",
+  "short_name": "Miami",
+  "slug": "university-of-miami",
+  "rank": 59,
+  "official_domain": "miami.edu",
+  "source_urls": {
+    "admissions": [
+      "https://admissions.miami.edu/undergraduate/academics/majors-by-school-or-college/index.html",
+      "https://admissions.miami.edu/undergraduate/application-process/index.html",
+      "https://admissions.miami.edu/undergraduate/index.html",
+      "https://welcome.miami.edu/admissions/"
+    ],
+    "majors": [
+      "https://admissions.miami.edu/undergraduate/academics/majors-by-school-or-college/index.html",
+      "https://welcome.miami.edu/academics/"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.miami.edu"
+    ]
+  },
+  "majors": {
+    "count": 180,
+    "count_method": "explicit official page sentence",
+    "titles": [],
+    "notes": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  "admissions": {
+    "application_platform": "Common Application",
+    "testing_policy": "Starting Fall 2026, t he University of Miami will require standardized test scores for most applicants. This means that when applying via the Common Application, prospective students should self-report their SAT/ACT test scores.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "course_rigor": "Learn what steps you must follow to have your college-level coursework evaluated for UM credit.",
+    "recommendations": "unknown",
+    "essays": "unknown",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "Redefining Dementia Research"
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 180",
+      "classification": "official_requirement",
+      "source_url": "https://welcome.miami.edu/academics/",
+      "source_excerpt": "The University of Miami\u2019s 12 schools and colleges offer a wide variety of experiences to students. There are more than 180 undergraduate majors and programs; graduate students have access to a wide range of fields with an emphasis on research.",
+      "retrieved_at": "2026-04-20T03:05:58.796784+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Starting Fall 2026, t he University of Miami will require standardized test scores for most applicants. This means that when applying via the Common Application, prospective students should self-report their SAT/ACT test scores.",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.miami.edu/undergraduate/index.html",
+      "source_excerpt": "Starting Fall 2026, t he University of Miami will require standardized test scores for most applicants. This means that when applying via the Common Application, prospective students should self-report their SAT/ACT test scores.",
+      "retrieved_at": "2026-04-20T03:05:58.796798+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.miami.edu/undergraduate/index.html",
+      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:05:58.796801+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "Learn what steps you must follow to have your college-level coursework evaluated for UM credit.",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.miami.edu/undergraduate/index.html",
+      "source_excerpt": "Learn what steps you must follow to have your college-level coursework evaluated for UM credit.",
+      "retrieved_at": "2026-04-20T03:05:58.796804+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-20T03:05:58.796809+00:00",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ],
+    "warnings": [
+      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages."
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "name": "Georgia Institute of Technology",
+  "short_name": "Georgia Tech",
+  "slug": "georgia-tech",
+  "rank": 33,
+  "official_domain": "gatech.edu",
+  "source_urls": {
+    "admissions": [
+      "https://admission.gatech.edu/",
+      "https://admission.gatech.edu/apply/",
+      "https://www.gatech.edu/admission",
+      "https://www.gatech.edu/apply"
+    ],
+    "majors": [
+      "https://www.gatech.edu/academics",
+      "https://www.gatech.edu/majors"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.gatech.edu"
+    ]
+  },
+  "majors": {
+    "count": 21,
+    "count_method": "counted 21 unique major/program-like entries from the cited official page DOM",
+    "titles": [],
+    "notes": "counted 21 unique major/program-like entries from the cited official page DOM",
+    "confidence": "medium"
+  },
+  "admissions": {
+    "application_platform": null,
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "course_rigor": "Learn how we review international students' backgrounds, and review transcript requirements.",
+    "recommendations": "unknown",
+    "essays": "unknown",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "Georgia Tech Research Institute"
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 21",
+      "classification": "official_requirement",
+      "source_url": "https://www.gatech.edu/academics",
+      "source_excerpt": "Academics at Georgia Tech",
+      "retrieved_at": "2026-04-20T03:03:04.579758+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "classification": "official_requirement",
+      "source_url": "https://admission.gatech.edu/",
+      "source_excerpt": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:03:04.579769+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "classification": "reported_profile",
+      "source_url": "https://admission.gatech.edu/",
+      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:03:04.579773+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "Learn how we review international students' backgrounds, and review transcript requirements.",
+      "classification": "reported_profile",
+      "source_url": "https://admission.gatech.edu/",
+      "source_excerpt": "Learn how we review international students' backgrounds, and review transcript requirements.",
+      "retrieved_at": "2026-04-20T03:03:04.579775+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-20T03:03:04.579779+00:00",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ],
+    "warnings": [
+      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
+      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence."
+    ]
+  }
+}

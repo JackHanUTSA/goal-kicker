@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "mit",
+    "name": "Massachusetts Institute of Technology",
+    "testing_policy": "MIT requires the SAT or the ACT.",
+    "confidence": "structured-pilot"
+  },
+  {
+    "slug": "stanford",
+    "name": "Stanford University",
+    "testing_policy": "ACT or SAT scores are required for first-year and transfer students.",
+    "confidence": "structured-pilot"
+  },
+  {
+    "slug": "harvard",
+    "name": "Harvard University",
+    "testing_policy": "Harvard requires SAT or ACT, with alternative exams accepted in exceptional cases when those tests are not accessible.",
+    "confidence": "structured-pilot"
+  },
+  {
+    "slug": "uc-berkeley",
+    "name": "University of California, Berkeley",
+    "testing_policy": "unknown from the Berkeley-specific pilot source",
+    "confidence": "structured-pilot"
+  },
+  {
+    "slug": "michigan",
+    "name": "University of Michigan",
+    "testing_policy": "unknown",
+    "confidence": "structured-pilot"
+  }
+]

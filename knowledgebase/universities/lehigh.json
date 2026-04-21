@@ -1,0 +1,110 @@
+{
+  "name": "Lehigh University",
+  "short_name": "Lehigh",
+  "slug": "lehigh",
+  "rank": 50,
+  "official_domain": "lehigh.edu",
+  "source_urls": {
+    "admissions": [
+      "https://www.lehigh.edu/admission",
+      "https://www2.lehigh.edu/admissions",
+      "https://www2.lehigh.edu/admissions/apply",
+      "https://www2.lehigh.edu/admissions/programs"
+    ],
+    "majors": [
+      "https://www2.lehigh.edu/academics",
+      "https://www2.lehigh.edu/admissions/programs"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.lehigh.edu"
+    ]
+  },
+  "majors": {
+    "count": 100,
+    "count_method": "explicit official page sentence",
+    "titles": [],
+    "notes": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  "admissions": {
+    "application_platform": "Common Application",
+    "testing_policy": "Higher Education Opportunity Act",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "course_rigor": "Lehigh boasts a vibrant and genuine campus community, rigorous academics, a commitment to student belonging and a track record of strong graduate outcomes. This is Lehigh.",
+    "recommendations": "Comments and recommendations from the principal, headmaster, guidance counselor, teachers, or other professional educators within the school system",
+    "essays": "Our holistic review recognizes the individual\u2019s characteristics and achievements\u2014which can be found in the school transcript, recommendations, essays, extracurricular accomplishments, leadership experiences, and other factors which might be unique to the applicant. We also take into consideration the influence of the environments in which a student lives and learns has on the individual\u2014noted in the school profile, student\u2019s personal background and more.",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "Student Research Experience"
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 100",
+      "classification": "official_requirement",
+      "source_url": "https://www2.lehigh.edu/admissions/programs",
+      "source_excerpt": "With more than 100 majors, minors and programs across four colleges, Lehigh offers students a broad selection of academic options. Take the time to explore what might be right for you.",
+      "retrieved_at": "2026-04-20T03:05:03.197986+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Higher Education Opportunity Act",
+      "classification": "official_requirement",
+      "source_url": "https://www2.lehigh.edu/admissions",
+      "source_excerpt": "Higher Education Opportunity Act",
+      "retrieved_at": "2026-04-20T03:05:03.197998+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "classification": "reported_profile",
+      "source_url": "https://www2.lehigh.edu/admissions",
+      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:05:03.198002+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "Lehigh boasts a vibrant and genuine campus community, rigorous academics, a commitment to student belonging and a track record of strong graduate outcomes. This is Lehigh.",
+      "classification": "reported_profile",
+      "source_url": "https://www2.lehigh.edu/admissions",
+      "source_excerpt": "Lehigh boasts a vibrant and genuine campus community, rigorous academics, a commitment to student belonging and a track record of strong graduate outcomes. This is Lehigh.",
+      "retrieved_at": "2026-04-20T03:05:03.198005+00:00"
+    },
+    {
+      "field": "admissions.recommendations",
+      "claim": "Comments and recommendations from the principal, headmaster, guidance counselor, teachers, or other professional educators within the school system",
+      "classification": "official_requirement",
+      "source_url": "https://www2.lehigh.edu/admissions/apply",
+      "source_excerpt": "Comments and recommendations from the principal, headmaster, guidance counselor, teachers, or other professional educators within the school system",
+      "retrieved_at": "2026-04-20T03:05:03.198009+00:00"
+    },
+    {
+      "field": "admissions.essays",
+      "claim": "Our holistic review recognizes the individual\u2019s characteristics and achievements\u2014which can be found in the school transcript, recommendations, essays, extracurricular accomplishments, leadership experiences, and other factors which might be unique to the applicant. We also take into consideration the influence of the environments in which a student lives and learns has on the individual\u2014noted in the school profile, student\u2019s personal background and more.",
+      "classification": "official_requirement",
+      "source_url": "https://www2.lehigh.edu/admissions/apply",
+      "source_excerpt": "Our holistic review recognizes the individual\u2019s characteristics and achievements\u2014which can be found in the school transcript, recommendations, essays, extracurricular accomplishments, leadership experiences, and other factors which might be unique to the applicant. We also take into consideration the influence of the environments in which a student lives and learns has on the individual\u2014noted in the school profile, student\u2019s personal background and more.",
+      "retrieved_at": "2026-04-20T03:05:03.198013+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-20T03:05:03.198017+00:00",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [],
+    "warnings": [
+      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages."
+    ]
+  }
+}

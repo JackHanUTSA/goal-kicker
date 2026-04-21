@@ -1,0 +1,110 @@
+{
+  "name": "William & Mary",
+  "short_name": "William & Mary",
+  "slug": "william-and-mary",
+  "rank": 46,
+  "official_domain": "wm.edu",
+  "source_urls": {
+    "admissions": [
+      "https://www.wm.edu/admission/",
+      "https://www.wm.edu/admission/undergraduateadmission/how-to-apply/"
+    ],
+    "majors": [
+      "https://www.wm.edu/academic-programs",
+      "https://www.wm.edu/academics/",
+      "https://www.wm.edu/majors"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.wm.edu"
+    ]
+  },
+  "majors": {
+    "count": 100,
+    "count_method": "explicit official page sentence",
+    "titles": [],
+    "notes": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  "admissions": {
+    "application_platform": "Common Application",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "course_rigor": "Undergraduate teacher preparation and advanced degrees in curriculum and instruction, counseling, school psychology and educational leadership are offered in-person and online.",
+    "recommendations": "William & Mary practices holistic review; decisions are not based solely on one aspect of your application (Common App) . Rather, we review your essays, letters of recommendation, extracurricular involvements, and yes, those numbers like GPAs and standardized test scores (which are optional). Each application is read at least twice, including once by your regional counselor . At the end of this process, our goal is to bring together a class of dynamic, diverse and academically engaged students.",
+    "essays": "William & Mary practices holistic review; decisions are not based solely on one aspect of your application (Common App) . Rather, we review your essays, letters of recommendation, extracurricular involvements, and yes, those numbers like GPAs and standardized test scores (which are optional). Each application is read at least twice, including once by your regional counselor . At the end of this process, our goal is to bring together a class of dynamic, diverse and academically engaged students.",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "Research & Applied Learning"
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 100",
+      "classification": "official_requirement",
+      "source_url": "https://www.wm.edu/academics/",
+      "source_excerpt": "College of Arts & Sciences The largest academic unit on campus, A&S includes 100+ undergraduate majors, minors and pre-professional programs, 11 graduate programs and 20 research centers and institutions.",
+      "retrieved_at": "2026-04-20T03:04:42.567869+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "classification": "official_requirement",
+      "source_url": "https://www.wm.edu/admission/",
+      "source_excerpt": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:04:42.567883+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "classification": "reported_profile",
+      "source_url": "https://www.wm.edu/admission/",
+      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:04:42.567886+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "Undergraduate teacher preparation and advanced degrees in curriculum and instruction, counseling, school psychology and educational leadership are offered in-person and online.",
+      "classification": "reported_profile",
+      "source_url": "https://www.wm.edu/admission/",
+      "source_excerpt": "Undergraduate teacher preparation and advanced degrees in curriculum and instruction, counseling, school psychology and educational leadership are offered in-person and online.",
+      "retrieved_at": "2026-04-20T03:04:42.567889+00:00"
+    },
+    {
+      "field": "admissions.recommendations",
+      "claim": "William & Mary practices holistic review; decisions are not based solely on one aspect of your application (Common App) . Rather, we review your essays, letters of recommendation, extracurricular involvements, and yes, those numbers like GPAs and standardized test scores (which are optional). Each application is read at least twice, including once by your regional counselor . At the end of this process, our goal is to bring together a class of dynamic, diverse and academically engaged students.",
+      "classification": "official_requirement",
+      "source_url": "https://www.wm.edu/admission/undergraduateadmission/how-to-apply/",
+      "source_excerpt": "William & Mary practices holistic review; decisions are not based solely on one aspect of your application (Common App) . Rather, we review your essays, letters of recommendation, extracurricular involvements, and yes, those numbers like GPAs and standardized test scores (which are optional). Each application is read at least twice, including once by your regional counselor . At the end of this process, our goal is to bring together a class of dynamic, diverse and academically engaged students.",
+      "retrieved_at": "2026-04-20T03:04:42.567893+00:00"
+    },
+    {
+      "field": "admissions.essays",
+      "claim": "William & Mary practices holistic review; decisions are not based solely on one aspect of your application (Common App) . Rather, we review your essays, letters of recommendation, extracurricular involvements, and yes, those numbers like GPAs and standardized test scores (which are optional). Each application is read at least twice, including once by your regional counselor . At the end of this process, our goal is to bring together a class of dynamic, diverse and academically engaged students.",
+      "classification": "official_requirement",
+      "source_url": "https://www.wm.edu/admission/undergraduateadmission/how-to-apply/",
+      "source_excerpt": "William & Mary practices holistic review; decisions are not based solely on one aspect of your application (Common App) . Rather, we review your essays, letters of recommendation, extracurricular involvements, and yes, those numbers like GPAs and standardized test scores (which are optional). Each application is read at least twice, including once by your regional counselor . At the end of this process, our goal is to bring together a class of dynamic, diverse and academically engaged students.",
+      "retrieved_at": "2026-04-20T03:04:42.567897+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-20T03:04:42.567902+00:00",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [],
+    "warnings": [
+      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
+      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence."
+    ]
+  }
+}

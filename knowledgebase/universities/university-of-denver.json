@@ -1,0 +1,106 @@
+{
+  "name": "University of Denver",
+  "short_name": "Denver",
+  "slug": "university-of-denver",
+  "rank": 98,
+  "official_domain": "du.edu",
+  "source_urls": {
+    "admissions": [
+      "https://www.du.edu/admission-aid",
+      "https://www.du.edu/admission-aid/undergraduate",
+      "https://www.du.edu/admission-aid/undergraduate/first-year-applicants/admission-standards",
+      "https://www.du.edu/admissions"
+    ],
+    "majors": [
+      "https://www.du.edu/academics",
+      "https://www.du.edu/majors"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.du.edu"
+    ]
+  },
+  "majors": {
+    "count": 15,
+    "count_method": "counted 15 unique major/program-like entries from the cited official page DOM",
+    "titles": [],
+    "notes": "counted 15 unique major/program-like entries from the cited official page DOM",
+    "confidence": "medium"
+  },
+  "admissions": {
+    "application_platform": "Common Application",
+    "testing_policy": "The University of Denver is test-optional; submitting SAT or ACT scores is the applicant\u2019s choice, and scores are considered with the rest of the application if submitted.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "course_rigor": "unknown",
+    "recommendations": "Our application requirements vary by program and school. Depending on your degree of choice, you may need to submit test scores, letters of recommendation and resumes.",
+    "essays": "unknown",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "Congratulations to the following faculty and staff members who received grants and awards in May and June 2021. Yoli Anyon, research professor at the Graduate School of So..."
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 15",
+      "classification": "official_requirement",
+      "source_url": "https://www.du.edu/academics",
+      "source_excerpt": "Request Graduate Program Information",
+      "retrieved_at": "2026-04-20T03:12:30.482383+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "The University promotes a healthy and safe educational, professional, and residential community where drugs and alcohol do not interfere with individual performance, personal success, public safety or the integrity of the learning environment. Compliance with the federal requirements under the Drug Free Schools and Communities Act and Drug Free Workplace is available here.",
+      "classification": "official_requirement",
+      "source_url": "https://www.du.edu/admission-aid/undergraduate",
+      "source_excerpt": "The University promotes a healthy and safe educational, professional, and residential community where drugs and alcohol do not interfere with individual performance, personal success, public safety or the integrity of the learning environment. Compliance with the federal requirements under the Drug Free Schools and Communities Act and Drug Free Workplace is available here.",
+      "retrieved_at": "2026-04-20T03:12:30.482393+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "classification": "reported_profile",
+      "source_url": "https://www.du.edu/admission-aid/undergraduate",
+      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:12:30.482396+00:00"
+    },
+    {
+      "field": "admissions.recommendations",
+      "claim": "Our application requirements vary by program and school. Depending on your degree of choice, you may need to submit test scores, letters of recommendation and resumes.",
+      "classification": "official_requirement",
+      "source_url": "https://www.du.edu/admission-aid/undergraduate",
+      "source_excerpt": "Our application requirements vary by program and school. Depending on your degree of choice, you may need to submit test scores, letters of recommendation and resumes.",
+      "retrieved_at": "2026-04-20T03:12:30.482400+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "The University of Denver is test-optional; submitting SAT or ACT scores is the applicant\u2019s choice, and scores are considered with the rest of the application if submitted.",
+      "classification": "official_requirement",
+      "source_url": "https://www.du.edu/admission-aid/undergraduate/first-year-applicants/admission-standards",
+      "source_excerpt": "However, we are a test-optional university, and submitting test scores is your choice. If you choose to submit your SAT and/or ACT scores, they will be considered along with your other application materials for both admission and merit scholarships.",
+      "retrieved_at": "2026-04-20T03:48:33.021412+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-20T03:48:33.021420+00:00",
+    "confidence": "phase-5-manual-repair",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.essays"
+    ],
+    "warnings": [
+      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
+      "University of Denver testing policy was manually repaired from the official admission standards page after the auto-crawl captured drug/alcohol compliance text."
+    ]
+  }
+}

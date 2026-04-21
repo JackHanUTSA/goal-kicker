@@ -1,0 +1,112 @@
+{
+  "name": "Rice University",
+  "short_name": "Rice",
+  "slug": "rice",
+  "rank": 17,
+  "official_domain": "rice.edu",
+  "source_urls": {
+    "admissions": [
+      "https://admission.rice.edu",
+      "https://admission.rice.edu/",
+      "https://admission.rice.edu/academics",
+      "https://admission.rice.edu/apply",
+      "https://admission.rice.edu/apply/first-year-domestic-applicants",
+      "https://www.rice.edu/admission",
+      "https://www.rice.edu/admissions"
+    ],
+    "majors": [
+      "https://admission.rice.edu/academics"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.rice.edu"
+    ]
+  },
+  "majors": {
+    "count": 50,
+    "count_method": "explicit official page sentence",
+    "titles": [],
+    "notes": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  "admissions": {
+    "application_platform": "Common Application",
+    "testing_policy": "Essay sections: The ACT Essay and SAT Essay sections are not required and not considered for admission.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "course_rigor": "Official high school transcript",
+    "recommendations": "Teacher Letters of Recommendation",
+    "essays": "Essay Prompts (2025-2026)",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "RICE RESEARCH REVIEW (R3)"
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 50",
+      "classification": "official_requirement",
+      "source_url": "https://admission.rice.edu/academics",
+      "source_excerpt": "With more than 50 undergraduate majors across seven divisions of study, and flexible distribution requirements that give you the freedom to take the courses that interest you most, Rice invites you to immerse, explore, question, experiment, combine and create your own path.",
+      "retrieved_at": "2026-04-20T03:02:01.384709+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Essay sections: The ACT Essay and SAT Essay sections are not required and not considered for admission.",
+      "classification": "official_requirement",
+      "source_url": "https://admission.rice.edu/apply/first-year-domestic-applicants",
+      "source_excerpt": "Essay sections: The ACT Essay and SAT Essay sections are not required and not considered for admission.",
+      "retrieved_at": "2026-04-20T03:02:01.384721+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "classification": "reported_profile",
+      "source_url": "https://admission.rice.edu/apply/first-year-domestic-applicants",
+      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:02:01.384725+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "Official high school transcript",
+      "classification": "reported_profile",
+      "source_url": "https://admission.rice.edu/apply/first-year-domestic-applicants",
+      "source_excerpt": "Official high school transcript",
+      "retrieved_at": "2026-04-20T03:02:01.384728+00:00"
+    },
+    {
+      "field": "admissions.recommendations",
+      "claim": "Teacher Letters of Recommendation",
+      "classification": "official_requirement",
+      "source_url": "https://admission.rice.edu/apply/first-year-domestic-applicants",
+      "source_excerpt": "Teacher Letters of Recommendation",
+      "retrieved_at": "2026-04-20T03:02:01.384731+00:00"
+    },
+    {
+      "field": "admissions.essays",
+      "claim": "Essay Prompts (2025-2026)",
+      "classification": "official_requirement",
+      "source_url": "https://admission.rice.edu/apply/first-year-domestic-applicants",
+      "source_excerpt": "Essay Prompts (2025-2026)",
+      "retrieved_at": "2026-04-20T03:02:01.384734+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-20T03:02:01.384739+00:00",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [],
+    "warnings": [
+      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages."
+    ]
+  }
+}

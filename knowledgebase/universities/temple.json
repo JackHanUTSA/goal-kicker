@@ -1,0 +1,119 @@
+{
+  "name": "Temple University",
+  "short_name": "Temple",
+  "slug": "temple",
+  "rank": 74,
+  "official_domain": "temple.edu",
+  "source_urls": {
+    "admissions": [
+      "https://admissions.temple.edu/",
+      "https://admissions.temple.edu/apply/first-year-students/test-optional",
+      "https://apply.temple.edu/",
+      "https://www.temple.edu/admission",
+      "https://www.temple.edu/admissions"
+    ],
+    "majors": [
+      "https://www.temple.edu/academics",
+      "https://www.temple.edu/majors"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.temple.edu"
+    ]
+  },
+  "majors": {
+    "count": 600,
+    "count_method": "explicit official page sentence",
+    "titles": [],
+    "notes": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  "admissions": {
+    "application_platform": null,
+    "testing_policy": "Temple is test-optional for first-year applicants; SAT or ACT scores are entirely optional and are not required for admission.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "course_rigor": "unknown",
+    "recommendations": "unknown",
+    "essays": "unknown",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "Faculty and Research News"
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 600",
+      "classification": "official_requirement",
+      "source_url": "https://www.temple.edu/academics",
+      "source_excerpt": "Pursue your intellectual and personal passions through Temple\u2019s 600+ dynamic academic programs. You\u2019ll study with faculty at the forefront of their fields in both scholarship and teaching. Learn to question your own assumptions and test innovative hypotheses as part of a diverse, engaged student body.",
+      "retrieved_at": "2026-04-20T03:07:50.658508+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.temple.edu/",
+      "source_excerpt": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:07:50.658522+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.temple.edu/",
+      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:07:50.658525+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "Use a summer session to delve into a challenging course without interruption or get ahead in your coursework outside the regular semester\u2019s constraints. Learn about Temple\u2019s Continuing Education program and summer sessions .",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.temple.edu/",
+      "source_excerpt": "Use a summer session to delve into a challenging course without interruption or get ahead in your coursework outside the regular semester\u2019s constraints. Learn about Temple\u2019s Continuing Education program and summer sessions .",
+      "retrieved_at": "2026-04-20T03:07:50.658528+00:00"
+    },
+    {
+      "field": "admissions.recommendations",
+      "claim": "After receiving recommendations from multiple professors to apply for a Goldwater Scholarship, one of the most prestigious undergraduate STEM awards, Leo Battalora won the award for his coveted research in Temple\u2019s Electrical and Computer Engineering Department.",
+      "classification": "official_requirement",
+      "source_url": "https://apply.temple.edu/",
+      "source_excerpt": "After receiving recommendations from multiple professors to apply for a Goldwater Scholarship, one of the most prestigious undergraduate STEM awards, Leo Battalora won the award for his coveted research in Temple\u2019s Electrical and Computer Engineering Department.",
+      "retrieved_at": "2026-04-20T03:07:50.658531+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Temple is test-optional for first-year applicants; SAT or ACT scores are entirely optional and are not required for admission.",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.temple.edu/apply/first-year-students/test-optional",
+      "source_excerpt": "Standardized test scores are otherwise entirely optional and in no way required for admission.",
+      "retrieved_at": "2026-04-20T03:48:33.021807+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-20T03:48:33.021819+00:00",
+    "confidence": "phase-5-manual-repair",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays"
+    ],
+    "warnings": [
+      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
+      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",
+      "admissions.course_rigor was reset to unknown during manual cleanup because the earlier auto-extracted text was unrelated to the requested admissions field.",
+      "admissions.recommendations was reset to unknown during manual cleanup because the earlier auto-extracted text was unrelated to the requested admissions field.",
+      "Temple testing policy was manually repaired from the official first-year test-optional page after the auto-crawl missed a clean policy sentence."
+    ]
+  }
+}

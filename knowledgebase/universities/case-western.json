@@ -1,0 +1,100 @@
+{
+  "name": "Case Western Reserve University",
+  "short_name": "Case Western",
+  "slug": "case-western",
+  "rank": 44,
+  "official_domain": "case.edu",
+  "source_urls": {
+    "admissions": [
+      "https://case.edu/admission/",
+      "https://case.edu/admissions/",
+      "https://case.edu/apply"
+    ],
+    "majors": [
+      "https://case.edu/academic-programs",
+      "https://case.edu/academics/",
+      "https://case.edu/majors"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.case.edu"
+    ]
+  },
+  "majors": {
+    "count": 100,
+    "count_method": "explicit official page sentence",
+    "titles": [],
+    "notes": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  "admissions": {
+    "application_platform": null,
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "course_rigor": "unknown",
+    "recommendations": "unknown",
+    "essays": "unknown",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "of recent humanities graduates participated in research or creative endeavors"
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 100",
+      "classification": "official_requirement",
+      "source_url": "https://case.edu/academics/",
+      "source_excerpt": "At Case Western Reserve University, learning and discovery are at the heart of everything we do. We offer more than 100+ undergraduate programs , about 160 graduate and professional options , and more than 145 dual-degree programs . Or you can study in one of our seven online master\u00e2\u0080\u0099s degrees or more than a dozen non-credit online courses.",
+      "retrieved_at": "2026-04-20T03:04:32.620244+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "classification": "official_requirement",
+      "source_url": "https://case.edu/admission/",
+      "source_excerpt": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:04:32.620258+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "classification": "reported_profile",
+      "source_url": "https://case.edu/admission/",
+      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:04:32.620261+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "The School of Law \u00e2\u0080\u0099s curriculum allows you to work with clients from day one, develop leadership skills and hone your writing\u00e2\u0080\u0094not to mention learn the core tenets of a legal education. Here, you\u00e2\u0080\u0099ll have access to the nation\u00e2\u0080\u0099s top firms and organizations\u00e2\u0080\u0094and graduate ready to lead.",
+      "classification": "reported_profile",
+      "source_url": "https://case.edu/admission/",
+      "source_excerpt": "The School of Law \u00e2\u0080\u0099s curriculum allows you to work with clients from day one, develop leadership skills and hone your writing\u00e2\u0080\u0094not to mention learn the core tenets of a legal education. Here, you\u00e2\u0080\u0099ll have access to the nation\u00e2\u0080\u0099s top firms and organizations\u00e2\u0080\u0094and graduate ready to lead.",
+      "retrieved_at": "2026-04-20T03:04:32.620264+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-20T03:28:30.273154+00:00",
+    "confidence": "phase-5-manual-repair",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays"
+    ],
+    "warnings": [
+      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
+      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",
+      "admissions.course_rigor was reset to unknown during manual cleanup because the earlier auto-extracted text was unrelated to the requested admissions field."
+    ]
+  }
+}

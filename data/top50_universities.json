@@ -1,0 +1,902 @@
+[
+  {
+    "rank": 1,
+    "name": "Massachusetts Institute of Technology",
+    "short_name": "MIT",
+    "slug": "mit",
+    "official_domain": "mit.edu",
+    "notes": "Pilot school",
+    "status": "pending"
+  },
+  {
+    "rank": 2,
+    "name": "Stanford University",
+    "short_name": "Stanford",
+    "slug": "stanford",
+    "official_domain": "stanford.edu",
+    "notes": "Pilot school",
+    "status": "pending"
+  },
+  {
+    "rank": 3,
+    "name": "Harvard University",
+    "short_name": "Harvard",
+    "slug": "harvard",
+    "official_domain": "harvard.edu",
+    "notes": "Pilot school",
+    "status": "pending"
+  },
+  {
+    "rank": 4,
+    "name": "Princeton University",
+    "short_name": "Princeton",
+    "slug": "princeton",
+    "official_domain": "princeton.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 5,
+    "name": "Yale University",
+    "short_name": "Yale",
+    "slug": "yale",
+    "official_domain": "yale.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 6,
+    "name": "California Institute of Technology",
+    "short_name": "Caltech",
+    "slug": "caltech",
+    "official_domain": "caltech.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 7,
+    "name": "University of Chicago",
+    "short_name": "UChicago",
+    "slug": "uchicago",
+    "official_domain": "uchicago.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 8,
+    "name": "University of Pennsylvania",
+    "short_name": "UPenn",
+    "slug": "upenn",
+    "official_domain": "upenn.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 9,
+    "name": "Columbia University",
+    "short_name": "Columbia",
+    "slug": "columbia",
+    "official_domain": "columbia.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 10,
+    "name": "Duke University",
+    "short_name": "Duke",
+    "slug": "duke",
+    "official_domain": "duke.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 11,
+    "name": "Johns Hopkins University",
+    "short_name": "Johns Hopkins",
+    "slug": "johns-hopkins",
+    "official_domain": "jhu.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 12,
+    "name": "Northwestern University",
+    "short_name": "Northwestern",
+    "slug": "northwestern",
+    "official_domain": "northwestern.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 13,
+    "name": "Dartmouth College",
+    "short_name": "Dartmouth",
+    "slug": "dartmouth",
+    "official_domain": "dartmouth.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 14,
+    "name": "Brown University",
+    "short_name": "Brown",
+    "slug": "brown",
+    "official_domain": "brown.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 15,
+    "name": "Cornell University",
+    "short_name": "Cornell",
+    "slug": "cornell",
+    "official_domain": "cornell.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 16,
+    "name": "Vanderbilt University",
+    "short_name": "Vanderbilt",
+    "slug": "vanderbilt",
+    "official_domain": "vanderbilt.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 17,
+    "name": "Rice University",
+    "short_name": "Rice",
+    "slug": "rice",
+    "official_domain": "rice.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 18,
+    "name": "Washington University in St. Louis",
+    "short_name": "WashU",
+    "slug": "washu",
+    "official_domain": "wustl.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 19,
+    "name": "University of Notre Dame",
+    "short_name": "Notre Dame",
+    "slug": "notre-dame",
+    "official_domain": "nd.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 20,
+    "name": "University of California, Berkeley",
+    "short_name": "UC Berkeley",
+    "slug": "uc-berkeley",
+    "official_domain": "berkeley.edu",
+    "notes": "Pilot school",
+    "status": "pending"
+  },
+  {
+    "rank": 21,
+    "name": "University of California, Los Angeles",
+    "short_name": "UCLA",
+    "slug": "ucla",
+    "official_domain": "ucla.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 22,
+    "name": "Carnegie Mellon University",
+    "short_name": "Carnegie Mellon",
+    "slug": "carnegie-mellon",
+    "official_domain": "cmu.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 23,
+    "name": "Emory University",
+    "short_name": "Emory",
+    "slug": "emory",
+    "official_domain": "emory.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 24,
+    "name": "Georgetown University",
+    "short_name": "Georgetown",
+    "slug": "georgetown",
+    "official_domain": "georgetown.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 25,
+    "name": "University of Michigan",
+    "short_name": "Michigan",
+    "slug": "michigan",
+    "official_domain": "umich.edu",
+    "notes": "Pilot school",
+    "status": "pending"
+  },
+  {
+    "rank": 26,
+    "name": "University of Southern California",
+    "short_name": "USC",
+    "slug": "usc",
+    "official_domain": "usc.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 27,
+    "name": "New York University",
+    "short_name": "NYU",
+    "slug": "nyu",
+    "official_domain": "nyu.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 28,
+    "name": "University of Virginia",
+    "short_name": "UVA",
+    "slug": "uva",
+    "official_domain": "virginia.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 29,
+    "name": "University of North Carolina at Chapel Hill",
+    "short_name": "UNC Chapel Hill",
+    "slug": "unc-chapel-hill",
+    "official_domain": "unc.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 30,
+    "name": "Tufts University",
+    "short_name": "Tufts",
+    "slug": "tufts",
+    "official_domain": "tufts.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 31,
+    "name": "Wake Forest University",
+    "short_name": "Wake Forest",
+    "slug": "wake-forest",
+    "official_domain": "wfu.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 32,
+    "name": "Boston College",
+    "short_name": "Boston College",
+    "slug": "boston-college",
+    "official_domain": "bc.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 33,
+    "name": "Georgia Institute of Technology",
+    "short_name": "Georgia Tech",
+    "slug": "georgia-tech",
+    "official_domain": "gatech.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 34,
+    "name": "University of California, San Diego",
+    "short_name": "UC San Diego",
+    "slug": "uc-san-diego",
+    "official_domain": "ucsd.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 35,
+    "name": "University of Florida",
+    "short_name": "UF",
+    "slug": "uf",
+    "official_domain": "ufl.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 36,
+    "name": "University of Texas at Austin",
+    "short_name": "UT Austin",
+    "slug": "ut-austin",
+    "official_domain": "utexas.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 37,
+    "name": "University of Illinois Urbana-Champaign",
+    "short_name": "UIUC",
+    "slug": "uiuc",
+    "official_domain": "illinois.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 38,
+    "name": "University of Wisconsin-Madison",
+    "short_name": "Wisconsin",
+    "slug": "wisconsin-madison",
+    "official_domain": "wisc.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 39,
+    "name": "The Ohio State University",
+    "short_name": "Ohio State",
+    "slug": "ohio-state",
+    "official_domain": "osu.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 40,
+    "name": "University of Washington",
+    "short_name": "Washington",
+    "slug": "university-of-washington",
+    "official_domain": "washington.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 41,
+    "name": "Purdue University",
+    "short_name": "Purdue",
+    "slug": "purdue",
+    "official_domain": "purdue.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 42,
+    "name": "Boston University",
+    "short_name": "Boston University",
+    "slug": "boston-university",
+    "official_domain": "bu.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 43,
+    "name": "Northeastern University",
+    "short_name": "Northeastern",
+    "slug": "northeastern",
+    "official_domain": "northeastern.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 44,
+    "name": "Case Western Reserve University",
+    "short_name": "Case Western",
+    "slug": "case-western",
+    "official_domain": "case.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 45,
+    "name": "University of California, Davis",
+    "short_name": "UC Davis",
+    "slug": "uc-davis",
+    "official_domain": "ucdavis.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 46,
+    "name": "William & Mary",
+    "short_name": "William & Mary",
+    "slug": "william-and-mary",
+    "official_domain": "wm.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 47,
+    "name": "University of Rochester",
+    "short_name": "Rochester",
+    "slug": "rochester",
+    "official_domain": "rochester.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 48,
+    "name": "Brandeis University",
+    "short_name": "Brandeis",
+    "slug": "brandeis",
+    "official_domain": "brandeis.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 49,
+    "name": "Tulane University",
+    "short_name": "Tulane",
+    "slug": "tulane",
+    "official_domain": "tulane.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 50,
+    "name": "Lehigh University",
+    "short_name": "Lehigh",
+    "slug": "lehigh",
+    "official_domain": "lehigh.edu",
+    "notes": "",
+    "status": "pending"
+  },
+  {
+    "rank": 51,
+    "name": "University of Georgia",
+    "short_name": "Georgia",
+    "slug": "university-of-georgia",
+    "official_domain": "uga.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 52,
+    "name": "Pepperdine University",
+    "short_name": "Pepperdine",
+    "slug": "pepperdine",
+    "official_domain": "pepperdine.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 53,
+    "name": "Rutgers University-New Brunswick",
+    "short_name": "Rutgers",
+    "slug": "rutgers-new-brunswick",
+    "official_domain": "rutgers.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 54,
+    "name": "Santa Clara University",
+    "short_name": "Santa Clara",
+    "slug": "santa-clara",
+    "official_domain": "scu.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 55,
+    "name": "Texas A&M University",
+    "short_name": "Texas A&M",
+    "slug": "texas-am",
+    "official_domain": "tamu.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 56,
+    "name": "Villanova University",
+    "short_name": "Villanova",
+    "slug": "villanova",
+    "official_domain": "villanova.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 57,
+    "name": "Indiana University Bloomington",
+    "short_name": "Indiana",
+    "slug": "indiana-bloomington",
+    "official_domain": "iu.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 58,
+    "name": "Syracuse University",
+    "short_name": "Syracuse",
+    "slug": "syracuse",
+    "official_domain": "syracuse.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 59,
+    "name": "University of Miami",
+    "short_name": "Miami",
+    "slug": "university-of-miami",
+    "official_domain": "miami.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 60,
+    "name": "Michigan State University",
+    "short_name": "Michigan State",
+    "slug": "michigan-state",
+    "official_domain": "msu.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 61,
+    "name": "Pennsylvania State University",
+    "short_name": "Penn State",
+    "slug": "penn-state",
+    "official_domain": "psu.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 62,
+    "name": "Baylor University",
+    "short_name": "Baylor",
+    "slug": "baylor",
+    "official_domain": "baylor.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 63,
+    "name": "Binghamton University",
+    "short_name": "Binghamton",
+    "slug": "binghamton",
+    "official_domain": "binghamton.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 64,
+    "name": "Clemson University",
+    "short_name": "Clemson",
+    "slug": "clemson",
+    "official_domain": "clemson.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 65,
+    "name": "Fordham University",
+    "short_name": "Fordham",
+    "slug": "fordham",
+    "official_domain": "fordham.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 66,
+    "name": "George Washington University",
+    "short_name": "George Washington",
+    "slug": "george-washington",
+    "official_domain": "gwu.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 67,
+    "name": "Marquette University",
+    "short_name": "Marquette",
+    "slug": "marquette",
+    "official_domain": "marquette.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 68,
+    "name": "Southern Methodist University",
+    "short_name": "SMU",
+    "slug": "smu",
+    "official_domain": "smu.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 69,
+    "name": "Texas Christian University",
+    "short_name": "TCU",
+    "slug": "tcu",
+    "official_domain": "tcu.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 70,
+    "name": "Yeshiva University",
+    "short_name": "Yeshiva",
+    "slug": "yeshiva",
+    "official_domain": "yu.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 71,
+    "name": "Gonzaga University",
+    "short_name": "Gonzaga",
+    "slug": "gonzaga",
+    "official_domain": "gonzaga.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 72,
+    "name": "Loyola Marymount University",
+    "short_name": "Loyola Marymount",
+    "slug": "loyola-marymount",
+    "official_domain": "lmu.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 73,
+    "name": "Stevens Institute of Technology",
+    "short_name": "Stevens",
+    "slug": "stevens",
+    "official_domain": "stevens.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 74,
+    "name": "Temple University",
+    "short_name": "Temple",
+    "slug": "temple",
+    "official_domain": "temple.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 75,
+    "name": "Virginia Tech",
+    "short_name": "Virginia Tech",
+    "slug": "virginia-tech",
+    "official_domain": "vt.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 76,
+    "name": "University of Connecticut",
+    "short_name": "UConn",
+    "slug": "uconn",
+    "official_domain": "uconn.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 77,
+    "name": "Colorado School of Mines",
+    "short_name": "Colorado Mines",
+    "slug": "colorado-school-of-mines",
+    "official_domain": "mines.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 78,
+    "name": "Drexel University",
+    "short_name": "Drexel",
+    "slug": "drexel",
+    "official_domain": "drexel.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 79,
+    "name": "New Jersey Institute of Technology",
+    "short_name": "NJIT",
+    "slug": "njit",
+    "official_domain": "njit.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 80,
+    "name": "University of Pittsburgh",
+    "short_name": "Pittsburgh",
+    "slug": "pittsburgh",
+    "official_domain": "pitt.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 81,
+    "name": "Rochester Institute of Technology",
+    "short_name": "RIT",
+    "slug": "rit",
+    "official_domain": "rit.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 82,
+    "name": "American University",
+    "short_name": "American",
+    "slug": "american",
+    "official_domain": "american.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 83,
+    "name": "Florida State University",
+    "short_name": "Florida State",
+    "slug": "florida-state",
+    "official_domain": "fsu.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 84,
+    "name": "North Carolina State University",
+    "short_name": "NC State",
+    "slug": "nc-state",
+    "official_domain": "ncsu.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 85,
+    "name": "Stony Brook University",
+    "short_name": "Stony Brook",
+    "slug": "stony-brook",
+    "official_domain": "stonybrook.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 86,
+    "name": "University at Buffalo",
+    "short_name": "Buffalo",
+    "slug": "buffalo",
+    "official_domain": "buffalo.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 87,
+    "name": "University of California, Irvine",
+    "short_name": "UC Irvine",
+    "slug": "uc-irvine",
+    "official_domain": "uci.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 88,
+    "name": "University of California, Santa Barbara",
+    "short_name": "UC Santa Barbara",
+    "slug": "uc-santa-barbara",
+    "official_domain": "ucsb.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 89,
+    "name": "Worcester Polytechnic Institute",
+    "short_name": "WPI",
+    "slug": "wpi",
+    "official_domain": "wpi.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 90,
+    "name": "Auburn University",
+    "short_name": "Auburn",
+    "slug": "auburn",
+    "official_domain": "auburn.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 91,
+    "name": "Iowa State University",
+    "short_name": "Iowa State",
+    "slug": "iowa-state",
+    "official_domain": "iastate.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 92,
+    "name": "University of Delaware",
+    "short_name": "Delaware",
+    "slug": "university-of-delaware",
+    "official_domain": "udel.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 93,
+    "name": "University of Massachusetts Amherst",
+    "short_name": "UMass Amherst",
+    "slug": "umass-amherst",
+    "official_domain": "umass.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 94,
+    "name": "University of Minnesota Twin Cities",
+    "short_name": "Minnesota",
+    "slug": "minnesota-twin-cities",
+    "official_domain": "umn.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 95,
+    "name": "University of San Diego",
+    "short_name": "San Diego",
+    "slug": "university-of-san-diego",
+    "official_domain": "sandiego.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 96,
+    "name": "University of California, Riverside",
+    "short_name": "UC Riverside",
+    "slug": "uc-riverside",
+    "official_domain": "ucr.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 97,
+    "name": "University of California, Santa Cruz",
+    "short_name": "UC Santa Cruz",
+    "slug": "uc-santa-cruz",
+    "official_domain": "ucsc.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 98,
+    "name": "University of Denver",
+    "short_name": "Denver",
+    "slug": "university-of-denver",
+    "official_domain": "du.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 99,
+    "name": "Oregon State University",
+    "short_name": "Oregon State",
+    "slug": "oregon-state",
+    "official_domain": "oregonstate.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  },
+  {
+    "rank": 100,
+    "name": "University of Tennessee, Knoxville",
+    "short_name": "Tennessee",
+    "slug": "tennessee-knoxville",
+    "official_domain": "utk.edu",
+    "notes": "Expansion seed",
+    "status": "pending"
+  }
+]

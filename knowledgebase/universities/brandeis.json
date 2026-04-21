@@ -1,0 +1,100 @@
+{
+  "name": "Brandeis University",
+  "short_name": "Brandeis",
+  "slug": "brandeis",
+  "rank": 48,
+  "official_domain": "brandeis.edu",
+  "source_urls": {
+    "admissions": [
+      "https://www.brandeis.edu/admissions/",
+      "https://www.brandeis.edu/admissions/academics/index.html?utm_source=viewbook&utm_medium=print&utm_campaign=ugrad-admissions-Q029-book2",
+      "https://www.brandeis.edu/admissions/academics/majors-minors.html",
+      "https://www.brandeis.edu/admissions/apply/index.html?utm_source=brochure&utm_medium=print&utm_campaign=ugrad-admissions-2023TravelBrochure",
+      "https://www.brandeis.edu:443/admissions/",
+      "https://www.brandeis.edu:443/admissions/apply/index.html"
+    ],
+    "majors": [
+      "https://www.brandeis.edu/admissions/academics/index.html?utm_source=viewbook&utm_medium=print&utm_campaign=ugrad-admissions-Q029-book2",
+      "https://www.brandeis.edu/admissions/academics/majors-minors.html"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.brandeis.edu"
+    ]
+  },
+  "majors": {
+    "count": 47,
+    "count_method": "explicit official page sentence",
+    "titles": [],
+    "notes": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  "admissions": {
+    "application_platform": "Common Application",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "course_rigor": "What is the second transcript?",
+    "recommendations": "unknown",
+    "essays": "unknown",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "Student Research Highlights"
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 47",
+      "classification": "official_requirement",
+      "source_url": "https://www.brandeis.edu/admissions/academics/index.html?utm_source=viewbook&utm_medium=print&utm_campaign=ugrad-admissions-Q029-book2",
+      "source_excerpt": "Mix, match and explore \u2014 47 majors, 50 minors, and interdisciplinary pathways that let you create your own journey.",
+      "retrieved_at": "2026-04-20T03:04:51.590329+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "classification": "official_requirement",
+      "source_url": "https://www.brandeis.edu:443/admissions/",
+      "source_excerpt": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:04:51.590341+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "classification": "reported_profile",
+      "source_url": "https://www.brandeis.edu:443/admissions/",
+      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:04:51.590344+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "What is the second transcript?",
+      "classification": "reported_profile",
+      "source_url": "https://www.brandeis.edu:443/admissions/",
+      "source_excerpt": "What is the second transcript?",
+      "retrieved_at": "2026-04-20T03:04:51.590347+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-20T03:04:51.590352+00:00",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ],
+    "warnings": [
+      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
+      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence."
+    ]
+  }
+}

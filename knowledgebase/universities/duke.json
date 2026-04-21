@@ -1,0 +1,106 @@
+{
+  "name": "Duke University",
+  "short_name": "Duke",
+  "slug": "duke",
+  "rank": 10,
+  "official_domain": "duke.edu",
+  "source_urls": {
+    "admissions": [
+      "https://admissions.duke.edu/apply/",
+      "https://admissions.duke.edu/what-we-look-for/"
+    ],
+    "majors": [
+      "https://admissions.duke.edu/academic-possibilities/"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.duke.edu"
+    ]
+  },
+  "majors": {
+    "count": 63,
+    "count_method": "official Duke 'Majors, Minors, and More' page states Duke offers 63 majors, 61 minors, and 23 certificates",
+    "titles": [],
+    "notes": "official Duke 'Majors, Minors, and More' page states Duke offers 63 majors, 61 minors, and 23 certificates",
+    "confidence": "medium"
+  },
+  "admissions": {
+    "application_platform": null,
+    "testing_policy": "Duke is test-optional for first-year and transfer applicants in the 2026-2027 admissions cycle.",
+    "gpa_policy": "Duke does not publish a minimum GPA on the cited admissions pages.",
+    "course_rigor": "Duke says it is guided by the rigor of a candidate's academic program and generally expects students to enroll in five academic courses per year, taking the best available and most challenging courses.",
+    "recommendations": "Duke requires a secondary school report with counselor recommendation and two teacher recommendations.",
+    "essays": "Duke requires a one-page personal essay and short-answer questions specific to Duke.",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "Duke highlights undergraduate research as an academic opportunity and says extracurricular activities are one of its five primary review factors."
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 63",
+      "classification": "official_recommendation",
+      "source_url": "https://admissions.duke.edu/academic-possibilities/",
+      "source_excerpt": "Duke University offers 63 majors, 61 minors, and 23 certificates.",
+      "retrieved_at": "2026-04-17T16:56:49.340821+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Duke is test-optional for first-year and transfer applicants in the 2026-2027 admissions cycle.",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.duke.edu/apply/",
+      "source_excerpt": "Duke University is test-optional for both first-year and transfer applicants in the 2026-2027 admissions cycle. Students who apply without SAT or ACT scores this year will not be at a disadvantage.",
+      "retrieved_at": "2026-04-17T16:56:49.340824+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "Duke says it is guided by the rigor of a candidate's academic program and generally expects students to enroll in five academic courses per year, taking the best available and most challenging courses.",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.duke.edu/what-we-look-for/",
+      "source_excerpt": "The rigor of a candidate's academic program ... Enroll in the best available and most challenging courses. We generally expect students to enroll in five academic courses per year.",
+      "retrieved_at": "2026-04-17T16:56:49.340825+00:00"
+    },
+    {
+      "field": "admissions.recommendations",
+      "claim": "Duke requires a secondary school report with counselor recommendation and two teacher recommendations.",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.duke.edu/apply/",
+      "source_excerpt": "Secondary School Report with Counselor Recommendation Two Teacher Recommendations",
+      "retrieved_at": "2026-04-17T16:56:49.340827+00:00"
+    },
+    {
+      "field": "admissions.essays",
+      "claim": "Duke requires a one-page personal essay and short-answer questions specific to Duke.",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.duke.edu/what-we-look-for/",
+      "source_excerpt": "Applications for admission require a one-page personal essay, along with short-answer questions specific to Duke.",
+      "retrieved_at": "2026-04-17T16:56:49.340829+00:00"
+    },
+    {
+      "field": "competitive_signals.projects_research",
+      "claim": "Duke highlights undergraduate research as an academic opportunity and says extracurricular activities are one of its five primary review factors.",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.duke.edu/academic-possibilities/",
+      "source_excerpt": "Academic Opportunities ... Undergraduate Research ... Duke says extracurricular activities are one of its five primary review factors.",
+      "retrieved_at": "2026-04-17T16:56:49.340831+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-17T16:56:49.340835+00:00",
+    "confidence": "phase-4-top10-structured",
+    "unknown_fields": [],
+    "warnings": [
+      "Phase 4 structured upgrade applied to top-10 expansion schools."
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "name": "Vanderbilt University",
+  "short_name": "Vanderbilt",
+  "slug": "vanderbilt",
+  "rank": 16,
+  "official_domain": "vanderbilt.edu",
+  "source_urls": {
+    "admissions": [
+      "https://admissions.vanderbilt.edu/",
+      "https://apply.vanderbilt.edu/apply/",
+      "https://www.vanderbilt.edu/admission",
+      "https://www.vanderbilt.edu/admissions",
+      "https://www.vanderbilt.edu/apply"
+    ],
+    "majors": [
+      "https://www.vanderbilt.edu/academics",
+      "https://www.vanderbilt.edu/majors"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.vanderbilt.edu"
+    ]
+  },
+  "majors": {
+    "count": 65,
+    "count_method": "explicit official page sentence",
+    "titles": [],
+    "notes": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  "admissions": {
+    "application_platform": null,
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "course_rigor": "For an undergraduate or a postdoc, a cellist or a cellular biologist, a researcher or a writer, Vanderbilt offers a unique learning experience. The university is immersive, collaborative, rigorous, multifaceted and grounded in the commitment to educational and community excellence. Choose a discipline, learn about the available nationally renowned financial aid programs and apply today.",
+    "recommendations": "unknown",
+    "essays": "unknown",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "Research News @Vanderbilt"
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 65",
+      "classification": "official_requirement",
+      "source_url": "https://www.vanderbilt.edu/academics",
+      "source_excerpt": "Vanderbilt is a private research university in Nashville, Tennessee , that is a global hub for learning, innovation and leadership. Its 11 schools and colleges offer students more than 65 undergraduate majors , a full range of graduate and professional degrees , and faculty who are leaders in their fields. The 340-acre campus\u2014an accredited arboretum just 1.5 miles from downtown\u2014is home to groundbreaking interdisciplinary research , SEC athletics , and a community dedicated to free expression and civil discourse that lives by its motto, Crescere aude , dare to grow.",
+      "retrieved_at": "2026-04-20T03:01:31.531709+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.vanderbilt.edu/",
+      "source_excerpt": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:01:31.531722+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.vanderbilt.edu/",
+      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:01:31.531726+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "For an undergraduate or a postdoc, a cellist or a cellular biologist, a researcher or a writer, Vanderbilt offers a unique learning experience. The university is immersive, collaborative, rigorous, multifaceted and grounded in the commitment to educational and community excellence. Choose a discipline, learn about the available nationally renowned financial aid programs and apply today.",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.vanderbilt.edu/",
+      "source_excerpt": "For an undergraduate or a postdoc, a cellist or a cellular biologist, a researcher or a writer, Vanderbilt offers a unique learning experience. The university is immersive, collaborative, rigorous, multifaceted and grounded in the commitment to educational and community excellence. Choose a discipline, learn about the available nationally renowned financial aid programs and apply today.",
+      "retrieved_at": "2026-04-20T03:01:31.531729+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-20T03:01:31.531734+00:00",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ],
+    "warnings": [
+      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
+      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence."
+    ]
+  }
+}

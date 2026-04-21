@@ -1,0 +1,989 @@
+[
+  {
+    "slug": "johns-hopkins",
+    "name": "Johns Hopkins University",
+    "testing_policy": "Higher Education Act Disclosures",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "northwestern",
+    "name": "Northwestern University",
+    "testing_policy": "Self-reporting SAT and/or ACT scores",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": []
+  },
+  {
+    "slug": "dartmouth",
+    "name": "Dartmouth College",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "brown",
+    "name": "Brown University",
+    "testing_policy": "Not determinative, but informative, we have always utilized testing in context as a metric when evaluating student applications. Brown does not have minimum test scores required for admission, and a score that may be below our average test ranges should not deter a student from applying. Considering testing in context means that our understanding of a student\u2019s scores is based on multiple factors, including educational background, socioeconomic status, home and school community, and accessibility to well-equipped testing centers. This type of contextual evaluation is one more resource we can use to ensure equitable consideration of standardized test scores and support academic preparation as we work to create a diverse and dynamic class. This policy will provide greater clarity and consistency in Brown\u2019s admission process and will allow us to be mission-driven and data-informed.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": []
+  },
+  {
+    "slug": "cornell",
+    "name": "Cornell University",
+    "testing_policy": "All first-year applicants are required to submit SAT or ACT scores fall 2026 and beyond. For more information, review the standardized testing policy .",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": []
+  },
+  {
+    "slug": "vanderbilt",
+    "name": "Vanderbilt University",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "rice",
+    "name": "Rice University",
+    "testing_policy": "Essay sections: The ACT Essay and SAT Essay sections are not required and not considered for admission.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": []
+  },
+  {
+    "slug": "washu",
+    "name": "Washington University in St. Louis",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "notre-dame",
+    "name": "University of Notre Dame",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "uc-berkeley",
+    "name": "University of California, Berkeley",
+    "testing_policy": "UC Berkeley follows the University of California first-year requirements page cited here, which lists A-G coursework and GPA requirements and does not require SAT/ACT scores on that page; this pass does not attach a Berkeley-only test-policy sentence.",
+    "gpa_policy": "Students applying to Berkeley should meet minimum requirements including a 3.0 GPA in A-G courses taken in the 10th and 11th grades, but Berkeley warns that satisfying minimum requirements is often not enough to be competitive for selection.",
+    "confidence": "phase-3-structured",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "ucla",
+    "name": "University of California, Los Angeles",
+    "testing_policy": "Deadline for applicants to submit their financial aid application (FAFSA), Dream Act, and Cal Grant GPA verification forms",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "carnegie-mellon",
+    "name": "Carnegie Mellon University",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "emory",
+    "name": "Emory University",
+    "testing_policy": "SAT/ACT (Optional): You may self-report scores in the Common App or send official ones.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": []
+  },
+  {
+    "slug": "georgetown",
+    "name": "Georgetown University",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays",
+      "competitive_signals.projects_research"
+    ]
+  },
+  {
+    "slug": "michigan",
+    "name": "University of Michigan",
+    "testing_policy": "unknown",
+    "gpa_policy": "unknown",
+    "confidence": "phase-3-structured",
+    "unknown_fields": [
+      "majors.count",
+      "admissions.testing_policy",
+      "admissions.gpa_policy",
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays",
+      "competitive_signals.projects_research"
+    ]
+  },
+  {
+    "slug": "usc",
+    "name": "University of Southern California",
+    "testing_policy": "2 Optional: Official Test Scores For students who submit test scores, USC records the highest scores from tests taken more than once. The highest scores for each section of the SAT and ACT exams will be recorded, even if achieved in different sittings. Find answers to questions you may have about how our test-optional policy will affect your application. We require official test scores sent from the testing agencies for those who choose to submit them as a part of their application. We do not accept self-reported scores. Our SAT school code is 4852. Our ACT school code is 0470.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "nyu",
+    "name": "New York University",
+    "testing_policy": "The NYU Center brings together researchers tapping into AI to develop intelligent machines that can sense, navigate, and act autonomously in complex real-world environments, from operating rooms to disaster zones",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "uva",
+    "name": "University of Virginia",
+    "testing_policy": "The ACT Writing sections are not used in our review.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": []
+  },
+  {
+    "slug": "unc-chapel-hill",
+    "name": "University of North Carolina at Chapel Hill",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays",
+      "competitive_signals.projects_research"
+    ]
+  },
+  {
+    "slug": "tufts",
+    "name": "Tufts University",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "wake-forest",
+    "name": "Wake Forest University",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "boston-college",
+    "name": "Boston College",
+    "testing_policy": "Official standardized test results sent at the time of application or upon enrollment must be sent directly from the testing agency to Boston College (SAT Code: 3083 and ACT Code: 1788). If having score reports sent from the College Board or ACT to Boston College presents a financial hardship, applicants should have their high school counselor contact the Office of Undergraduate Admission. Alternatives will be explored on a case-by-case basis.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": []
+  },
+  {
+    "slug": "georgia-tech",
+    "name": "Georgia Institute of Technology",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "uc-san-diego",
+    "name": "University of California, San Diego",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "uf",
+    "name": "University of Florida",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "ut-austin",
+    "name": "University of Texas at Austin",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations"
+    ]
+  },
+  {
+    "slug": "uiuc",
+    "name": "University of Illinois Urbana-Champaign",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "wisconsin-madison",
+    "name": "University of Wisconsin-Madison",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "ohio-state",
+    "name": "The Ohio State University",
+    "testing_policy": "The Advance Ohio Higher Education Act (SB 1) went into effect on June 27, 2025, though a number of provisions in the bill have delayed effective dates. Ohio State is working to implement SB 1 in a way that is consistent with our mission to conduct research, support creative expression, prepare students for their careers, and make a positive difference in our state.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "university-of-washington",
+    "name": "University of Washington",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "purdue",
+    "name": "Purdue University",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "boston-university",
+    "name": "Boston University",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "northeastern",
+    "name": "Northeastern University",
+    "testing_policy": "We are pleased to announce that Northeastern will remain test-optional for the foreseeable future. At Northeastern, we have always been committed to providing every application with a thorough and holistic review, and we will continue to do so. To learn more, visit our Application Information page.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "case-western",
+    "name": "Case Western Reserve University",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "uc-davis",
+    "name": "University of California, Davis",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "william-and-mary",
+    "name": "William & Mary",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": []
+  },
+  {
+    "slug": "rochester",
+    "name": "University of Rochester",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations"
+    ]
+  },
+  {
+    "slug": "brandeis",
+    "name": "Brandeis University",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "tulane",
+    "name": "Tulane University",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "lehigh",
+    "name": "Lehigh University",
+    "testing_policy": "Higher Education Opportunity Act",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": []
+  },
+  {
+    "slug": "university-of-georgia",
+    "name": "University of Georgia",
+    "testing_policy": "Tags: ACT , file reading , final decisions , grades , SAT",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays",
+      "competitive_signals.projects_research"
+    ]
+  },
+  {
+    "slug": "pepperdine",
+    "name": "Pepperdine University",
+    "testing_policy": "Undergraduate students who demonstrate substantial potential of achieving academic success are considered for admission. The University's Admission Committee reviews applicants' current academic record, grade point average, and types of completed classes, as well as SAT Reasoning Test or American College Test scores.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "rutgers-new-brunswick",
+    "name": "Rutgers University-New Brunswick",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "santa-clara",
+    "name": "Santa Clara University",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "texas-am",
+    "name": "Texas A&M University",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "villanova",
+    "name": "Villanova University",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "indiana-bloomington",
+    "name": "Indiana University Bloomington",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "syracuse",
+    "name": "Syracuse University",
+    "testing_policy": "SAT/ACT scores will not be required for students applying for Fall 2025, Spring 2026, Fall 2026 or Spring 2027 admission.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "university-of-miami",
+    "name": "University of Miami",
+    "testing_policy": "Starting Fall 2026, t he University of Miami will require standardized test scores for most applicants. This means that when applying via the Common Application, prospective students should self-report their SAT/ACT test scores.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "michigan-state",
+    "name": "Michigan State University",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "penn-state",
+    "name": "Pennsylvania State University",
+    "testing_policy": "If you have applied to the Accelerated Premedical-Medical Program , SAT or ACT scores are required for consideration and and must be submitted by program's October 14 deadline.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "baylor",
+    "name": "Baylor University",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "binghamton",
+    "name": "Binghamton University",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "clemson",
+    "name": "Clemson University",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "fordham",
+    "name": "Fordham University",
+    "testing_policy": "SAT or ACT scores (SAT code: 2259; ACT code: 2748) Please review our additional guidance on test score submission",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": []
+  },
+  {
+    "slug": "george-washington",
+    "name": "George Washington University",
+    "testing_policy": "The George Washington University does not unlawfully discriminate against any person on any basis prohibited by federal law, the District of Columbia Human Rights Act, or other applicable law, including without limitation, age, color, disability, gender, gender identity or expression, genetic information, marital or familial status, national origin (including shared ancestry and ethnic characteristics), pregnancy, race, religion, sex, sexual orientation, veteran status, and/or other characteristics protected by applicable law. This policy covers all programs, services, policies, and procedures of the university, including admission to education programs and employment.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "marquette",
+    "name": "Marquette University",
+    "testing_policy": "For a distribution of admitted students' GPA, ACT and SAT data, visit application averages.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": []
+  },
+  {
+    "slug": "smu",
+    "name": "Southern Methodist University",
+    "testing_policy": "You\u2019ll be transformed by the knowledge and experiences gained through the Embrey Human Rights Program, whose mission is to educate students and other members of the global community to understand, promote and defend human rights as responsible citizens of the world. You\u2019ll have many opportunities to learn, travel and act for human rights as a student at SMU, the first university in the South, and only the fifth in the country, to offer an undergraduate major in human rights.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "tcu",
+    "name": "Texas Christian University",
+    "testing_policy": "1150-1340 SAT mid-50% range",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "yeshiva",
+    "name": "Yeshiva University",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "gonzaga",
+    "name": "Gonzaga University",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "loyola-marymount",
+    "name": "Loyola Marymount University",
+    "testing_policy": "Jesuit education forms people who think boldly, lead with purpose, and serve others with conviction. Grounded in a 500-year Ignatian tradition, LMU empowers students to pursue excellence, take on real issues, and act with courage and compassion. We shape leaders for and with others, ready for what\u2019s ahead and prepared to move the future forward. This is the LMU difference. This is Jesuit Educated.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": []
+  },
+  {
+    "slug": "stevens",
+    "name": "Stevens Institute of Technology",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "temple",
+    "name": "Temple University",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "virginia-tech",
+    "name": "Virginia Tech",
+    "testing_policy": "Federal CARES Act Reporting Disclosure",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "uconn",
+    "name": "University of Connecticut",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "colorado-school-of-mines",
+    "name": "Colorado School of Mines",
+    "testing_policy": "31 AVERAGE ACT COMPOSITE SCORE",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "drexel",
+    "name": "Drexel University",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "njit",
+    "name": "New Jersey Institute of Technology",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "pittsburgh",
+    "name": "University of Pittsburgh",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "rit",
+    "name": "Rochester Institute of Technology",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "american",
+    "name": "American University",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays",
+      "competitive_signals.projects_research"
+    ]
+  },
+  {
+    "slug": "florida-state",
+    "name": "Florida State University",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "nc-state",
+    "name": "North Carolina State University",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "stony-brook",
+    "name": "Stony Brook University",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "buffalo",
+    "name": "University at Buffalo",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "uc-irvine",
+    "name": "University of California, Irvine",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "uc-santa-barbara",
+    "name": "University of California, Santa Barbara",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "wpi",
+    "name": "Worcester Polytechnic Institute",
+    "testing_policy": "One Big Beautiful Bill Act (OBBB)",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "auburn",
+    "name": "Auburn University",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "iowa-state",
+    "name": "Iowa State University",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "university-of-delaware",
+    "name": "University of Delaware",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "umass-amherst",
+    "name": "University of Massachusetts Amherst",
+    "testing_policy": "Think Big. Act Together. Be the Future.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "minnesota-twin-cities",
+    "name": "University of Minnesota Twin Cities",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "university-of-san-diego",
+    "name": "University of San Diego",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays",
+      "competitive_signals.projects_research"
+    ]
+  },
+  {
+    "slug": "uc-riverside",
+    "name": "University of California, Riverside",
+    "testing_policy": "CLERY ACT NOTICE OF AVAILABILITY",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "uc-santa-cruz",
+    "name": "University of California, Santa Cruz",
+    "testing_policy": "At UC Santa Cruz, we have resources to support your physical, mental, and emotional health, as well as safety services such as fire safety and crime prevention. UC Santa Cruz publishes an Annual Security & Fire Safety Report, based on the Jeanne Clery Disclosure of Campus Safety and Campus Crime Statistics Act (commonly referred to as the Clery Act). The report contains detailed information on the campus\u2019s crime and fire prevention programs, as well as campus crime and fire statistics for the past three years. A paper version of the report is available upon request.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "university-of-denver",
+    "name": "University of Denver",
+    "testing_policy": "The University promotes a healthy and safe educational, professional, and residential community where drugs and alcohol do not interfere with individual performance, personal success, public safety or the integrity of the learning environment. Compliance with the federal requirements under the Drug Free Schools and Communities Act and Drug Free Workplace is available here.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "oregon-state",
+    "name": "Oregon State University",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "tennessee-knoxville",
+    "name": "University of Tennessee, Knoxville",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  }
+]

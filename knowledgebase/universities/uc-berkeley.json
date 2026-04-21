@@ -1,0 +1,148 @@
+{
+  "name": "University of California, Berkeley",
+  "short_name": "UC Berkeley",
+  "slug": "uc-berkeley",
+  "rank": 20,
+  "official_domain": "berkeley.edu",
+  "source_urls": {
+    "admissions": [
+      "https://admissions.berkeley.edu/"
+    ],
+    "majors": [
+      "https://registrar.berkeley.edu/catalog/"
+    ],
+    "testing_policy": [],
+    "general": []
+  },
+  "majors": {
+    "count": 113,
+    "count_method": "counted official UC Berkeley Catalog results after enabling the 'Major' filter on the Programs page",
+    "titles": [],
+    "notes": "counted official UC Berkeley Catalog results after enabling the 'Major' filter on the Programs page",
+    "confidence": "medium"
+  },
+  "admissions": {
+    "application_platform": null,
+    "testing_policy": "UC Berkeley follows the University of California first-year requirements page cited here, which lists A-G coursework and GPA requirements and does not require SAT/ACT scores on that page; this pass does not attach a Berkeley-only test-policy sentence.",
+    "gpa_policy": "Students applying to Berkeley should meet minimum requirements including a 3.0 GPA in A-G courses taken in the 10th and 11th grades, but Berkeley warns that satisfying minimum requirements is often not enough to be competitive for selection.",
+    "course_rigor": "Berkeley says it selects first-year students through a holistic review that considers weighted and unweighted UC GPA, planned 12th-grade courses, and the full record of achievement in college preparatory courses.",
+    "recommendations": "unknown from the official Berkeley and UC pages used in this pass",
+    "essays": "unknown from the official Berkeley and UC pages used in this pass",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "Berkeley considers personal qualities including leadership ability, character, motivation, insight, tenacity, initiative, originality, intellectual independence, responsibility, maturity, and demonstrated concern for others and for the community.",
+      "Berkeley considers accomplishments in a field of intellectual or creative endeavor, extracurricular activities, leadership, employment, and volunteer service."
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "source_urls.admissions",
+      "claim": "Home - Office of Undergraduate Admissions",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.berkeley.edu/",
+      "source_excerpt": "Home - Office of Undergraduate Admissions try{Typekit.load();}catch(e){} !function(e,c){e[c]=e[c]+(e[c]&&\" \")+\"quform-js\"}(document.documentElement,\"className\"); img:is([sizes=\"auto\" i], [sizes^=\"auto,\" i]) { contain-intrinsic-size: 3000px 1500px } {\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\"",
+      "retrieved_at": "2026-04-17T00:17:34.522841+00:00"
+    },
+    {
+      "field": "source_urls.majors",
+      "claim": "Catalog - Office of the Registrar",
+      "classification": "official_recommendation",
+      "source_url": "https://registrar.berkeley.edu/catalog/",
+      "source_excerpt": "(window.NREUM||(NREUM={})).init={privacy:{cookies_enabled:true},ajax:{deny_list:[\"bam.nr-data.net\"]},feature_flags:[\"soft_nav\"],distributed_tracing:{enabled:true}};(window.NREUM||(NREUM={})).loader_config={agentID:\"1120037665\",accountID:\"3406677\",trustKey:\"66686\",xpid:\"VwIHV1BUDxAJU1FXAgECVVQ=\",lice",
+      "retrieved_at": "2026-04-17T00:17:36.665845+00:00"
+    },
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 237",
+      "classification": "official_recommendation",
+      "source_url": "https://undergraduate.catalog.berkeley.edu/programs",
+      "source_excerpt": "237 results found.",
+      "retrieved_at": "2026-04-17T00:54:04.731772+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "Satisfying Berkeley's minimum requirements is often not enough to be competitive for selection.",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.berkeley.edu/apply-to-berkeley/first-year-applicants-uc-berkeley/",
+      "source_excerpt": "Since Berkeley is a competitive campus, satisfying the minimum requirements is often not enough to be competitive for selection.",
+      "retrieved_at": "2026-04-17T00:54:04.731773+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "Berkeley uses a holistic review and considers the full record of achievement in college preparatory courses.",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.berkeley.edu/apply-to-berkeley/first-year-applicants-uc-berkeley/",
+      "source_excerpt": "Using a broad concept of merit ... the applicant's full record of achievement in college preparatory courses.",
+      "retrieved_at": "2026-04-17T00:54:04.731774+00:00"
+    },
+    {
+      "field": "competitive_signals.projects_research",
+      "claim": "Berkeley considers accomplishments in a field of intellectual or creative endeavor.; Berkeley considers accomplishments in extracurricular activities, leadership, employment, and volunteer service.",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.berkeley.edu/apply-to-berkeley/first-year-applicants-uc-berkeley/",
+      "source_excerpt": "accomplishments in a field of intellectual or creative endeavor; accomplishments in extracurricular activities ... leadership ... employment; and volunteer service.",
+      "retrieved_at": "2026-04-17T00:54:04.731776+00:00"
+    },
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 113",
+      "classification": "official_recommendation",
+      "source_url": "https://undergraduate.catalog.berkeley.edu/programs",
+      "source_excerpt": "With the official 'Major' filter selected, the Programs page reports 113 results found.",
+      "retrieved_at": "2026-04-17T16:25:22.951124+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "UC Berkeley follows the University of California first-year requirements page cited here, which lists A-G coursework and GPA requirements and does not require SAT/ACT scores on that page; this pass does not attach a Berkeley-only test-policy sentence.",
+      "classification": "official_requirement",
+      "source_url": "https://admission.universityofcalifornia.edu/admission-requirements/freshman-requirements/index.html",
+      "source_excerpt": "The UC first-year requirements page lists A-G coursework and GPA requirements and does not list SAT/ACT as a required step on the page used in this pass.",
+      "retrieved_at": "2026-04-17T16:25:22.951127+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "Students applying to Berkeley should meet minimum requirements including a 3.0 GPA in A-G courses taken in the 10th and 11th grades, but Berkeley warns that satisfying minimum requirements is often not enough to be competitive for selection.",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.berkeley.edu/apply-to-berkeley/first-year-applicants-uc-berkeley/",
+      "source_excerpt": "Students who apply to Berkeley should meet the following minimum requirements ... Have a 3.0 GPA in A-G courses taken in the 10th and 11th grades ... satisfying the minimum requirements is often not enough to be competitive for selection.",
+      "retrieved_at": "2026-04-17T16:25:22.951129+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "Berkeley says it selects first-year students through a holistic review that considers weighted and unweighted UC GPA, planned 12th-grade courses, and the full record of achievement in college preparatory courses.",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.berkeley.edu/apply-to-berkeley/first-year-applicants-uc-berkeley/",
+      "source_excerpt": "The campus selects its first-year class through an assessment that includes a holistic review of your academic performance ... your weighted and unweighted UC GPA ... planned 12th grade courses ... full record of achievement in college preparatory courses.",
+      "retrieved_at": "2026-04-17T16:25:22.951131+00:00"
+    },
+    {
+      "field": "competitive_signals.projects_research",
+      "claim": "Berkeley considers personal qualities including leadership ability, character, motivation, insight, tenacity, initiative, originality, intellectual independence, responsibility, maturity, and demonstrated concern for others and for the community.; Berkeley considers accomplishments in a field of intellectual or creative endeavor, extracurricular activities, leadership, employment, and volunteer service.",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.berkeley.edu/apply-to-berkeley/first-year-applicants-uc-berkeley/",
+      "source_excerpt": "Personal qualities ... leadership ability ... initiative ... concern for others and for the community ... accomplishments in extracurricular activities ... leadership ... employment; and volunteer service.",
+      "retrieved_at": "2026-04-17T16:25:22.951133+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-17T16:25:22.951136+00:00",
+    "confidence": "phase-3-structured",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ],
+    "warnings": [
+      "Phase 3 structured upgrade completed with improved majors counting, admissions extraction, and query-ready records.",
+      "Berkeley testing policy is still tied to the broader University of California requirements page rather than a Berkeley-only sentence captured in this pass."
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "name": "University at Buffalo",
+  "short_name": "Buffalo",
+  "slug": "buffalo",
+  "rank": 86,
+  "official_domain": "buffalo.edu",
+  "source_urls": {
+    "admissions": [
+      "https://www.buffalo.edu/admission.html",
+      "https://www.buffalo.edu/admissions.html",
+      "https://www.buffalo.edu/apply.html"
+    ],
+    "majors": [
+      "https://www.buffalo.edu/academic-programs.html",
+      "https://www.buffalo.edu/home/academics.html",
+      "https://www.buffalo.edu/majors.html"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.buffalo.edu"
+    ]
+  },
+  "majors": {
+    "count": 350,
+    "count_method": "explicit official page sentence",
+    "titles": [],
+    "notes": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  "admissions": {
+    "application_platform": null,
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "course_rigor": "unknown",
+    "recommendations": "unknown",
+    "essays": "unknown",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "See how our research improves lives"
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 350",
+      "classification": "official_requirement",
+      "source_url": "https://www.buffalo.edu/home/academics.html",
+      "source_excerpt": "UB ranks first among public universities in the Northeast for our range of programs, with 150+ undergrad degrees, 85+ combined degrees and 350+ graduate programs.",
+      "retrieved_at": "2026-04-20T03:10:03.799917+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "classification": "official_requirement",
+      "source_url": "https://www.buffalo.edu/admissions.html",
+      "source_excerpt": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:10:03.799931+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "classification": "reported_profile",
+      "source_url": "https://www.buffalo.edu/admissions.html",
+      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:10:03.799934+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-20T03:10:03.799939+00:00",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays"
+    ],
+    "warnings": [
+      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
+      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence."
+    ]
+  }
+}

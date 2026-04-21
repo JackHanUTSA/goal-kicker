@@ -1,0 +1,99 @@
+{
+  "name": "Princeton University",
+  "short_name": "Princeton",
+  "slug": "princeton",
+  "rank": 4,
+  "official_domain": "princeton.edu",
+  "source_urls": {
+    "admissions": [
+      "https://admission.princeton.edu/apply/application-checklist",
+      "https://admission.princeton.edu/apply/standardized-testing",
+      "https://admission.princeton.edu/apply/princeton-specific-questions"
+    ],
+    "majors": [
+      "https://admission.princeton.edu/academics/degrees-departments"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.princeton.edu"
+    ]
+  },
+  "majors": {
+    "count": 37,
+    "count_method": "official Princeton Admission Degrees & Departments page states students can choose from among 37 concentrations",
+    "titles": [],
+    "notes": "official Princeton Admission Degrees & Departments page states students can choose from among 37 concentrations",
+    "confidence": "medium"
+  },
+  "admissions": {
+    "application_platform": null,
+    "testing_policy": "Princeton is test-optional for first-year applicants applying for fall 2026 and fall 2027 entry; Princeton says it will once again require testing for students applying for fall 2028 entry.",
+    "gpa_policy": "Princeton does not publish a minimum GPA on the cited admissions pages.",
+    "course_rigor": "No simple minimum course-rigor formula is stated on the cited Princeton pages, but Princeton asks for teacher recommendations from higher level courses in core academic areas.",
+    "recommendations": "Princeton requires a counselor recommendation plus two teacher recommendations from higher level courses in different academic areas.",
+    "essays": "Princeton requires Princeton-specific questions and a graded written paper for first-year applicants.",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "Princeton describes itself as a research institution that also prides itself on its liberal arts curriculum."
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 37",
+      "classification": "official_recommendation",
+      "source_url": "https://admission.princeton.edu/academics/degrees-departments",
+      "source_excerpt": "Within these degree programs, students can choose from among 37 concentrations (computer science offers both A.B. and B.S.E.) and over 50 minors and interdepartmental certificate programs.",
+      "retrieved_at": "2026-04-17T16:56:49.339963+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Princeton is test-optional for first-year applicants applying for fall 2026 and fall 2027 entry; Princeton says it will once again require testing for students applying for fall 2028 entry.",
+      "classification": "official_requirement",
+      "source_url": "https://admission.princeton.edu/apply/application-checklist",
+      "source_excerpt": "Our test optional policy continues to be in place for first-year applicants applying for fall 2026 and fall 2027 entry. We will once again require testing for students applying for fall 2028 entry.",
+      "retrieved_at": "2026-04-17T16:56:49.339975+00:00"
+    },
+    {
+      "field": "admissions.recommendations",
+      "claim": "Princeton requires a counselor recommendation plus two teacher recommendations from higher level courses in different academic areas.",
+      "classification": "official_requirement",
+      "source_url": "https://admission.princeton.edu/apply/application-checklist",
+      "source_excerpt": "Counselor Recommendation ... Two (2) Teacher Recommendations. Please ask two of your teachers who have taught you in higher level courses ... in different academic areas of study.",
+      "retrieved_at": "2026-04-17T16:56:49.339977+00:00"
+    },
+    {
+      "field": "admissions.essays",
+      "claim": "Princeton requires Princeton-specific questions and a graded written paper for first-year applicants.",
+      "classification": "official_requirement",
+      "source_url": "https://admission.princeton.edu/apply/princeton-specific-questions",
+      "source_excerpt": "Princeton University requires you to answer Princeton-specific questions ... Princeton also requires you to submit a graded written paper as part of your application.",
+      "retrieved_at": "2026-04-17T16:56:49.339980+00:00"
+    },
+    {
+      "field": "competitive_signals.projects_research",
+      "claim": "Princeton describes itself as a research institution that also prides itself on its liberal arts curriculum.",
+      "classification": "reported_profile",
+      "source_url": "https://admission.princeton.edu/apply/princeton-specific-questions",
+      "source_excerpt": "As a research institution that also prides itself on its liberal arts curriculum, Princeton allows students to explore areas across the humanities and the arts, the natural sciences, and the social sciences.",
+      "retrieved_at": "2026-04-17T16:56:49.339982+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-17T16:56:49.339986+00:00",
+    "confidence": "phase-4-top10-structured",
+    "unknown_fields": [],
+    "warnings": [
+      "Phase 4 structured upgrade applied to top-10 expansion schools."
+    ]
+  }
+}

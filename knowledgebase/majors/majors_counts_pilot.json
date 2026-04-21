@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "mit",
+    "name": "Massachusetts Institute of Technology",
+    "majors_count": 109,
+    "count_method": "counted unique undergraduate degree-chart links on MIT Course Catalog Degree Charts page"
+  },
+  {
+    "slug": "stanford",
+    "name": "Stanford University",
+    "majors_count": 200,
+    "count_method": "counted text-only 'Majors and Offerings' opportunity links on Stanford Explore Majors page; this is offerings count, not a pure major-only count"
+  },
+  {
+    "slug": "harvard",
+    "name": "Harvard University",
+    "majors_count": 50,
+    "count_method": "official Harvard Liberal Arts & Sciences page states 50 undergraduate fields of study"
+  },
+  {
+    "slug": "uc-berkeley",
+    "name": "University of California, Berkeley",
+    "majors_count": 237,
+    "count_method": "official Berkeley undergraduate catalog programs page reports 237 results; this includes majors, minors, joint programs, and dual degrees, so pure majors count remains unresolved"
+  },
+  {
+    "slug": "michigan",
+    "name": "University of Michigan",
+    "majors_count": null,
+    "count_method": "blocked by bot protection during pilot ingestion"
+  }
+]

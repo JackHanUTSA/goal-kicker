@@ -1,0 +1,97 @@
+{
+  "name": "University of Connecticut",
+  "short_name": "UConn",
+  "slug": "uconn",
+  "rank": 76,
+  "official_domain": "uconn.edu",
+  "source_urls": {
+    "admissions": [
+      "https://admissions.uconn.edu/",
+      "https://uconn.edu/admissions/",
+      "https://uconn.edu/apply"
+    ],
+    "majors": [
+      "https://uconn.edu/academics/",
+      "https://uconn.edu/majors"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.uconn.edu"
+    ]
+  },
+  "majors": {
+    "count": 125,
+    "count_method": "explicit official page sentence",
+    "titles": [],
+    "notes": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  "admissions": {
+    "application_platform": null,
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "course_rigor": "Whether you want to learn from the past by studying history or you want to set the course for the future with groundbreaking scientific research, learning opportunities here abound. Challenge yourself to reach new academic heights in rigorous courses taught by our expert faculty. Take advantage of undergraduate research awards including the Summer Undergraduate Research Fund or UConn IDEA Grants ; study in a lab; or pursue a creative endeavor. Push yourself further, supplementing traditional coursework with enrichment such as Education Abroad or our acclaimed Honors Program .",
+    "recommendations": "unknown",
+    "essays": "unknown",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "Summer Undergraduate Research Fund"
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 125",
+      "classification": "official_requirement",
+      "source_url": "https://uconn.edu/academics/",
+      "source_excerpt": "Learning and academics are about exploring the things that interest you, growing with that knowledge, and finding the path on which you\u2019ll be most successful. With 14 schools and colleges and more than 125 undergraduate majors , you\u2019ll find what you\u2019re looking for at UConn. And what if you come up with something unique to study? You can create your own major.",
+      "retrieved_at": "2026-04-20T03:08:04.488408+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.uconn.edu/",
+      "source_excerpt": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:08:04.488421+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.uconn.edu/",
+      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:08:04.488425+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "Whether you want to learn from the past by studying history or you want to set the course for the future with groundbreaking scientific research, learning opportunities here abound. Challenge yourself to reach new academic heights in rigorous courses taught by our expert faculty. Take advantage of undergraduate research awards including the Summer Undergraduate Research Fund or UConn IDEA Grants ; study in a lab; or pursue a creative endeavor. Push yourself further, supplementing traditional coursework with enrichment such as Education Abroad or our acclaimed Honors Program .",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.uconn.edu/",
+      "source_excerpt": "Whether you want to learn from the past by studying history or you want to set the course for the future with groundbreaking scientific research, learning opportunities here abound. Challenge yourself to reach new academic heights in rigorous courses taught by our expert faculty. Take advantage of undergraduate research awards including the Summer Undergraduate Research Fund or UConn IDEA Grants ; study in a lab; or pursue a creative endeavor. Push yourself further, supplementing traditional coursework with enrichment such as Education Abroad or our acclaimed Honors Program .",
+      "retrieved_at": "2026-04-20T03:08:04.488428+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-20T03:08:04.488433+00:00",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ],
+    "warnings": [
+      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
+      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence."
+    ]
+  }
+}

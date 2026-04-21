@@ -1,0 +1,98 @@
+{
+  "name": "Worcester Polytechnic Institute",
+  "short_name": "WPI",
+  "slug": "wpi",
+  "rank": 89,
+  "official_domain": "wpi.edu",
+  "source_urls": {
+    "admissions": [
+      "https://www.wpi.edu/admission",
+      "https://www.wpi.edu/admissions",
+      "https://www.wpi.edu/apply"
+    ],
+    "majors": [
+      "https://www.wpi.edu/academic-programs",
+      "https://www.wpi.edu/academics",
+      "https://www.wpi.edu/majors",
+      "https://www.wpi.edu/undergraduate/programs"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.wpi.edu"
+    ]
+  },
+  "majors": {
+    "count": 70,
+    "count_method": "explicit official page sentence",
+    "titles": [],
+    "notes": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  "admissions": {
+    "application_platform": null,
+    "testing_policy": "One Big Beautiful Bill Act (OBBB)",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "course_rigor": "Our curriculum and degree requirements are designed to help students graduate as thoughtful global citizens, ready for impactful personal and professional lives\u2014and to find and fulfill their passions along the way.",
+    "recommendations": "unknown",
+    "essays": "unknown",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "Find a Research Opportunity"
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 70",
+      "classification": "official_requirement",
+      "source_url": "https://www.wpi.edu/academics",
+      "source_excerpt": "At WPI learning has always been about combining theory and practice. WPI graduates emerge ready to take on critical challenges in science and technology, knowing how their work can impact society and improve the quality of life. WPI\u2019s 18 academic departments offer 70+ undergraduate and graduate degree programs in science, engineering, technology, business and management, the social sciences, and the humanities and arts, leading to the BA, BS, MS, ME, MBA, MFA, and PhD. Our world-class faculty is both renowned and accomplished--and they are accessible, priding themselves on the quality time they invest in their students.",
+      "retrieved_at": "2026-04-20T03:10:18.373433+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "One Big Beautiful Bill Act (OBBB)",
+      "classification": "official_requirement",
+      "source_url": "https://www.wpi.edu/admissions",
+      "source_excerpt": "One Big Beautiful Bill Act (OBBB)",
+      "retrieved_at": "2026-04-20T03:10:18.373446+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "classification": "reported_profile",
+      "source_url": "https://www.wpi.edu/admissions",
+      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:10:18.373450+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "Our curriculum and degree requirements are designed to help students graduate as thoughtful global citizens, ready for impactful personal and professional lives\u2014and to find and fulfill their passions along the way.",
+      "classification": "reported_profile",
+      "source_url": "https://www.wpi.edu/admissions",
+      "source_excerpt": "Our curriculum and degree requirements are designed to help students graduate as thoughtful global citizens, ready for impactful personal and professional lives\u2014and to find and fulfill their passions along the way.",
+      "retrieved_at": "2026-04-20T03:10:18.373454+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-20T03:10:18.373460+00:00",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ],
+    "warnings": [
+      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages."
+    ]
+  }
+}

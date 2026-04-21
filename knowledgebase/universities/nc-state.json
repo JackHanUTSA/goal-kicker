@@ -1,0 +1,99 @@
+{
+  "name": "North Carolina State University",
+  "short_name": "NC State",
+  "slug": "nc-state",
+  "rank": 84,
+  "official_domain": "ncsu.edu",
+  "source_urls": {
+    "admissions": [
+      "https://admissions.ncsu.edu/",
+      "https://www.ncsu.edu/admission",
+      "https://www.ncsu.edu/apply"
+    ],
+    "majors": [
+      "https://www.ncsu.edu/academics",
+      "https://www.ncsu.edu/academic-programs",
+      "https://www.ncsu.edu/majors",
+      "https://www.ncsu.edu/undergraduate/programs"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.ncsu.edu"
+    ]
+  },
+  "majors": {
+    "count": 100,
+    "count_method": "explicit official page sentence",
+    "titles": [],
+    "notes": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  "admissions": {
+    "application_platform": null,
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "course_rigor": "Need help with coursework or advice on your degree path? We\u2019ll walk you through it all with our Academic Success Center and advising services.",
+    "recommendations": "unknown",
+    "essays": "unknown",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "$374K+ in Funding for Student Research"
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 100",
+      "classification": "official_requirement",
+      "source_url": "https://www.ncsu.edu/",
+      "source_excerpt": "An NC State education is the key to whatever door you want to open. We offer more than 100 undergraduate majors and more than 200 master\u2019s and doctoral programs. Our students graduate ready for successful careers and meaningful lives. Our Pack is strong, and we\u2019re always looking for more thinkers and doers from all over the world to help us get even stronger.",
+      "retrieved_at": "2026-04-20T03:09:56.143055+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.ncsu.edu/",
+      "source_excerpt": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:09:56.143069+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.ncsu.edu/",
+      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:09:56.143072+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "Need help with coursework or advice on your degree path? We\u2019ll walk you through it all with our Academic Success Center and advising services.",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.ncsu.edu/",
+      "source_excerpt": "Need help with coursework or advice on your degree path? We\u2019ll walk you through it all with our Academic Success Center and advising services.",
+      "retrieved_at": "2026-04-20T03:09:56.143075+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-20T03:09:56.143080+00:00",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ],
+    "warnings": [
+      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
+      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence."
+    ]
+  }
+}

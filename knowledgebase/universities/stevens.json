@@ -1,0 +1,99 @@
+{
+  "name": "Stevens Institute of Technology",
+  "short_name": "Stevens",
+  "slug": "stevens",
+  "rank": 73,
+  "official_domain": "stevens.edu",
+  "source_urls": {
+    "admissions": [
+      "https://www.stevens.edu/admission",
+      "https://www.stevens.edu/admissions",
+      "https://www.stevens.edu/apply"
+    ],
+    "majors": [
+      "https://www.stevens.edu/academic-programs",
+      "https://www.stevens.edu/academics",
+      "https://www.stevens.edu/majors",
+      "https://www.stevens.edu/undergraduate/programs"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.stevens.edu"
+    ]
+  },
+  "majors": {
+    "count": 35,
+    "count_method": "explicit official page sentence",
+    "titles": [],
+    "notes": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  "admissions": {
+    "application_platform": null,
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "course_rigor": "SUCCESS - The Stevens Core Curriculum",
+    "recommendations": "unknown",
+    "essays": "unknown",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "Stevens Institute of Technology Establishes School of Computing to Lead the Next Era in AI and Technology Education and Research"
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 35",
+      "classification": "official_requirement",
+      "source_url": "https://www.stevens.edu/academics",
+      "source_excerpt": "Admission & Aid Admission & Aid With 35 undergraduate majors, 58 master\u2019s degree programs and 20 Ph.D. programs, your potential is limitless. When you enroll at Stevens, your dreams are in reach and we\u2019re here to help make them a reality. Why Stevens Undergraduate Admissions Undergraduate Admissions How to Apply Dates and Deadlines Visit Campus Accepted Students Meet Our Staff Graduate Admissions Graduate Admissions Apply to a Graduate Program Costs and Funding Deadlines Visits and Events Chat with a Student Tuition and Financial Aid Tuition and Financial Aid Undergraduate Cost of Attendance and Aid Graduate Cost of Attendance and Funding Applying for Aid Student Resources Contact Financial Aid International Students Veterans and Military Veterans and Military Military Education and Leadership Programs Stevens ROTC Programs Using Your GI Bill Pre-College Programs Visit Us",
+      "retrieved_at": "2026-04-20T03:07:46.139369+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "classification": "official_requirement",
+      "source_url": "https://www.stevens.edu/admissions",
+      "source_excerpt": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:07:46.139383+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "classification": "reported_profile",
+      "source_url": "https://www.stevens.edu/admissions",
+      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:07:46.139386+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "SUCCESS - The Stevens Core Curriculum",
+      "classification": "reported_profile",
+      "source_url": "https://www.stevens.edu/admissions",
+      "source_excerpt": "SUCCESS - The Stevens Core Curriculum",
+      "retrieved_at": "2026-04-20T03:07:46.139390+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-20T03:07:46.139394+00:00",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ],
+    "warnings": [
+      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
+      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence."
+    ]
+  }
+}

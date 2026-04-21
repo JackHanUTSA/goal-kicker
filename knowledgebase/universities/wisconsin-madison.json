@@ -1,0 +1,99 @@
+{
+  "name": "University of Wisconsin-Madison",
+  "short_name": "Wisconsin",
+  "slug": "wisconsin-madison",
+  "rank": 38,
+  "official_domain": "wisc.edu",
+  "source_urls": {
+    "admissions": [
+      "https://admissions.wisc.edu/",
+      "https://www.wisc.edu/admission",
+      "https://www.wisc.edu/admissions/",
+      "https://www.wisc.edu/apply"
+    ],
+    "majors": [
+      "https://www.wisc.edu/academic-programs",
+      "https://www.wisc.edu/academics/",
+      "https://www.wisc.edu/majors"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.wisc.edu"
+    ]
+  },
+  "majors": {
+    "count": 600,
+    "count_method": "explicit official page sentence",
+    "titles": [],
+    "notes": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  "admissions": {
+    "application_platform": null,
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "course_rigor": "UW\u00e2\u0080\u0093Madison's professional schools combine rigorous curricula with real-world experiences to jumpstart your career.",
+    "recommendations": "unknown",
+    "essays": "unknown",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "Research benefiting Wisconsin"
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 600",
+      "classification": "official_requirement",
+      "source_url": "https://www.wisc.edu/academics/",
+      "source_excerpt": "At UW\u00e2\u0080\u0093Madison you\u00e2\u0080\u0099ll find your fit. Our campus offers some 600 undergraduate and graduate majors and more than 9,000 courses \u00e2\u0080\u0094 from accounting to zoology and everything in between. Whether you\u00e2\u0080\u0099re decided or still discovering, we\u00e2\u0080\u0099ll help match your dream to your degree.",
+      "retrieved_at": "2026-04-20T03:03:33.093787+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.wisc.edu/",
+      "source_excerpt": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:03:33.093798+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.wisc.edu/",
+      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:03:33.093801+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "UW\u00e2\u0080\u0093Madison's professional schools combine rigorous curricula with real-world experiences to jumpstart your career.",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.wisc.edu/",
+      "source_excerpt": "UW\u00e2\u0080\u0093Madison's professional schools combine rigorous curricula with real-world experiences to jumpstart your career.",
+      "retrieved_at": "2026-04-20T03:03:33.093804+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-20T03:03:33.093809+00:00",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ],
+    "warnings": [
+      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
+      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence."
+    ]
+  }
+}

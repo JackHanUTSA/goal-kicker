@@ -1,0 +1,98 @@
+{
+  "name": "Pepperdine University",
+  "short_name": "Pepperdine",
+  "slug": "pepperdine",
+  "rank": 52,
+  "official_domain": "pepperdine.edu",
+  "source_urls": {
+    "admissions": [
+      "https://www.pepperdine.edu/admission/",
+      "https://www.pepperdine.edu/admissions",
+      "https://www.pepperdine.edu/apply"
+    ],
+    "majors": [
+      "https://www.pepperdine.edu/academic-programs",
+      "https://www.pepperdine.edu/academics/",
+      "https://www.pepperdine.edu/majors",
+      "https://www.pepperdine.edu/undergraduate/programs"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.pepperdine.edu"
+    ]
+  },
+  "majors": {
+    "count": 46,
+    "count_method": "explicit official page sentence",
+    "titles": [],
+    "notes": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  "admissions": {
+    "application_platform": null,
+    "testing_policy": "Undergraduate students who demonstrate substantial potential of achieving academic success are considered for admission. The University's Admission Committee reviews applicants' current academic record, grade point average, and types of completed classes, as well as SAT Reasoning Test or American College Test scores.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "course_rigor": "Pepperdine offers rigorous programs, valuable resources, and countless opportunities that will enable you to pursue your desired course of study.",
+    "recommendations": "unknown",
+    "essays": "unknown",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "Faculty and students at Pepperdine conduct world-class research across multiple disciplines. Discover an exceptional educational experience that puts students at the center of the institution."
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 46",
+      "classification": "official_requirement",
+      "source_url": "https://www.pepperdine.edu/academics/",
+      "source_excerpt": "Seaver College has over 46 majors and 47 minors to choose from within eight, interdisciplinary academic divisions of liberal arts and business programs.",
+      "retrieved_at": "2026-04-20T03:05:16.842920+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Undergraduate students who demonstrate substantial potential of achieving academic success are considered for admission. The University's Admission Committee reviews applicants' current academic record, grade point average, and types of completed classes, as well as SAT Reasoning Test or American College Test scores.",
+      "classification": "official_requirement",
+      "source_url": "https://www.pepperdine.edu/admissions",
+      "source_excerpt": "Undergraduate students who demonstrate substantial potential of achieving academic success are considered for admission. The University's Admission Committee reviews applicants' current academic record, grade point average, and types of completed classes, as well as SAT Reasoning Test or American College Test scores.",
+      "retrieved_at": "2026-04-20T03:05:16.842932+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "classification": "reported_profile",
+      "source_url": "https://www.pepperdine.edu/admissions",
+      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:05:16.842936+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "Pepperdine offers rigorous programs, valuable resources, and countless opportunities that will enable you to pursue your desired course of study.",
+      "classification": "reported_profile",
+      "source_url": "https://www.pepperdine.edu/admissions",
+      "source_excerpt": "Pepperdine offers rigorous programs, valuable resources, and countless opportunities that will enable you to pursue your desired course of study.",
+      "retrieved_at": "2026-04-20T03:05:16.842939+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-20T03:05:16.842944+00:00",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ],
+    "warnings": [
+      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages."
+    ]
+  }
+}

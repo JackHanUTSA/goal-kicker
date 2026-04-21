@@ -1,0 +1,105 @@
+{
+  "name": "Wake Forest University",
+  "short_name": "Wake Forest",
+  "slug": "wake-forest",
+  "rank": 31,
+  "official_domain": "wfu.edu",
+  "source_urls": {
+    "admissions": [
+      "https://admissions.wfu.edu/",
+      "https://admissions.wfu.edu/academics/",
+      "https://admissions.wfu.edu/apply/",
+      "https://www.wfu.edu/admission"
+    ],
+    "majors": [
+      "https://about.wfu.edu/academics/",
+      "https://admissions.wfu.edu/academics/"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.wfu.edu"
+    ]
+  },
+  "majors": {
+    "count": 50,
+    "count_method": "explicit official page sentence",
+    "titles": [],
+    "notes": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  "admissions": {
+    "application_platform": "Common Application",
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "course_rigor": "Final high school transcript",
+    "recommendations": "Teacher Recommendation Form",
+    "essays": "unknown",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "Research at Wake Forest \u00bb"
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 50",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.wfu.edu/academics/",
+      "source_excerpt": "Wake Forest prides itself on its reputation for outstanding academics. A student may choose to pursue study in one its nearly 50 academic majors and a wide variety of minors, concentrations, and certificates . Following the liberal-arts ideal, we encourage and expect each student to take courses in a host of areas that are available to them.",
+      "retrieved_at": "2026-04-20T03:02:53.580963+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.wfu.edu/apply/",
+      "source_excerpt": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:02:53.580976+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.wfu.edu/apply/",
+      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:02:53.580980+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "Final high school transcript",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.wfu.edu/apply/",
+      "source_excerpt": "Final high school transcript",
+      "retrieved_at": "2026-04-20T03:02:53.580984+00:00"
+    },
+    {
+      "field": "admissions.recommendations",
+      "claim": "Teacher Recommendation Form",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.wfu.edu/apply/",
+      "source_excerpt": "Teacher Recommendation Form",
+      "retrieved_at": "2026-04-20T03:02:53.580986+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-20T03:02:53.580991+00:00",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.essays"
+    ],
+    "warnings": [
+      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
+      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence."
+    ]
+  }
+}

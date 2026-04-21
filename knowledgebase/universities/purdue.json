@@ -1,0 +1,89 @@
+{
+  "name": "Purdue University",
+  "short_name": "Purdue",
+  "slug": "purdue",
+  "rank": 41,
+  "official_domain": "purdue.edu",
+  "source_urls": {
+    "admissions": [
+      "https://admissions.purdue.edu/",
+      "https://admissions.purdue.edu/next-steps/apply-for-financial-aid/",
+      "https://www.purdue.edu/admission"
+    ],
+    "majors": [
+      "https://www.purdue.edu/home/academics/"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.purdue.edu"
+    ]
+  },
+  "majors": {
+    "count": 400,
+    "count_method": "explicit official page sentence",
+    "titles": [],
+    "notes": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  "admissions": {
+    "application_platform": null,
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "course_rigor": "unknown",
+    "recommendations": "unknown",
+    "essays": "unknown",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "Research and Partnerships"
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 400",
+      "classification": "official_requirement",
+      "source_url": "https://www.purdue.edu/home/academics/",
+      "source_excerpt": "Study Abroad Choose from over 400 programs in more than 50 countries for experiences you\u2019ll never forget.",
+      "retrieved_at": "2026-04-20T03:03:48.980284+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.purdue.edu/",
+      "source_excerpt": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:03:48.980297+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.purdue.edu/",
+      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:03:48.980301+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-20T03:03:48.980307+00:00",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays"
+    ],
+    "warnings": [
+      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
+      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence."
+    ]
+  }
+}

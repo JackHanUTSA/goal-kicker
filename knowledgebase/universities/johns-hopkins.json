@@ -1,0 +1,113 @@
+{
+  "name": "Johns Hopkins University",
+  "short_name": "Johns Hopkins",
+  "slug": "johns-hopkins",
+  "rank": 11,
+  "official_domain": "jhu.edu",
+  "source_urls": {
+    "admissions": [
+      "https://admissions.jhu.edu/academics",
+      "https://admissions.jhu.edu/account/login?r=https%3A%2F%2Fadmissions.jhu.edu%2Fapply%2Fstatus&cookie=1",
+      "https://apply.jhu.edu/",
+      "https://apply.jhu.edu/apply/first-year-applicants/",
+      "https://www.commonapp.org/explore/johns-hopkins-university/",
+      "https://www.jhu.edu/admissions"
+    ],
+    "majors": [
+      "https://admissions.jhu.edu/academics",
+      "https://e-catalogue.jhu.edu/arts-sciences/full-time-residential-programs-of-study/",
+      "https://e-catalogue.jhu.edu/engineering/full-time-residential-programs-of-study/"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.jhu.edu"
+    ]
+  },
+  "majors": {
+    "count": 0,
+    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "titles": [],
+    "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "confidence": "low"
+  },
+  "admissions": {
+    "application_platform": "Common Application",
+    "testing_policy": "unknown",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "course_rigor": "unknown",
+    "recommendations": "Letters of Recommendation",
+    "essays": "unknown",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "AS.475 ( Research Administration)"
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Higher Education Act Disclosures",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.jhu.edu/account/login?r=https%3A%2F%2Fadmissions.jhu.edu%2Fapply%2Fstatus&cookie=1",
+      "source_excerpt": "Higher Education Act Disclosures",
+      "retrieved_at": "2026-04-20T03:01:12.873714+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.jhu.edu/account/login?r=https%3A%2F%2Fadmissions.jhu.edu%2Fapply%2Fstatus&cookie=1",
+      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:01:12.873726+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "Rigor, Reproducibility and Responsibility in Scientific Practice, Certificate",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.jhu.edu/account/login?r=https%3A%2F%2Fadmissions.jhu.edu%2Fapply%2Fstatus&cookie=1",
+      "source_excerpt": "Rigor, Reproducibility and Responsibility in Scientific Practice, Certificate",
+      "retrieved_at": "2026-04-20T03:01:12.873730+00:00"
+    },
+    {
+      "field": "admissions.recommendations",
+      "claim": "Letters of Recommendation",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.jhu.edu/account/login?r=https%3A%2F%2Fadmissions.jhu.edu%2Fapply%2Fstatus&cookie=1",
+      "source_excerpt": "Letters of Recommendation",
+      "retrieved_at": "2026-04-20T03:01:12.873733+00:00"
+    },
+    {
+      "field": "admissions.application_platform",
+      "claim": "Cross-verified from the Common App school page: Johns Hopkins uses the Common Application.",
+      "classification": "cross_verification",
+      "source_url": "https://www.commonapp.org/explore/johns-hopkins-university/",
+      "source_excerpt": "The Common App school profile for Johns Hopkins is itself an application-site source and lists Johns Hopkins within the Common Application explore directory.",
+      "retrieved_at": "2026-04-20T15:15:15.610513+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-20T15:15:15.610518+00:00",
+    "confidence": "phase-5-cross-verified",
+    "unknown_fields": [
+      "admissions.testing_policy",
+      "admissions.course_rigor",
+      "admissions.essays"
+    ],
+    "warnings": [
+      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
+      "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page.",
+      "admissions.course_rigor was reset to unknown during manual cleanup because the earlier auto-extracted text was unrelated to the requested admissions field.",
+      "Johns Hopkins auto-extraction captured unrelated disclosure/catalog text; testing policy, course rigor, and majors count need a cleaner official-source pass.",
+      "Johns Hopkins application platform was cross-verified from the Common App school profile, but first-year testing-policy details were not exposed there and official JHU admissions pages remained bot-protected in this environment."
+    ]
+  }
+}

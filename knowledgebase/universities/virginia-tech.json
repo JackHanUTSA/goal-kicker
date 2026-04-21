@@ -1,0 +1,111 @@
+{
+  "name": "Virginia Tech",
+  "short_name": "Virginia Tech",
+  "slug": "virginia-tech",
+  "rank": 75,
+  "official_domain": "vt.edu",
+  "source_urls": {
+    "admissions": [
+      "https://www.vt.edu/admission.html",
+      "https://www.vt.edu/admissions.html",
+      "https://www.vt.edu/admissions/undergraduate.html",
+      "https://www.vt.edu/admissions/undergraduate/apply.html",
+      "https://www.vt.edu/admissions/undergraduate/apply.html?utm_campaign=fy26enrollment&utm_source=billboard&utm_medium=ooh&utm_program=undergrad",
+      "https://www.vt.edu/admissions/undergraduate/apply/freshman-requirements.html"
+    ],
+    "majors": [
+      "https://www.vt.edu/academics.html",
+      "https://www.vt.edu/academics/majors.html",
+      "https://www.vt.edu/admissions/undergraduate/apply.html?utm_campaign=fy26enrollment&utm_source=billboard&utm_medium=ooh&utm_program=undergrad"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.vt.edu"
+    ]
+  },
+  "majors": {
+    "count": 150,
+    "count_method": "explicit official page sentence",
+    "titles": [],
+    "notes": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  "admissions": {
+    "application_platform": "Common Application",
+    "testing_policy": "Virginia Tech is test-optional for students entering through Fall 2028, and applicants can choose on the application whether scores should be reviewed.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "course_rigor": "unknown",
+    "recommendations": "unknown",
+    "essays": "unknown",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "Whatever destination you\u2019re looking for, degrees in these programs can help start you on the right track. Opportunities in undergraduate research, hands-on learning, and real-world experiences are ample throughout the university."
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 150",
+      "classification": "official_requirement",
+      "source_url": "https://www.vt.edu/academics/majors.html",
+      "source_excerpt": "With more than 150 majors and options to choose from, you\u2019ll experience a matchless education at Virginia Tech.",
+      "retrieved_at": "2026-04-20T03:07:56.857449+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Federal CARES Act Reporting Disclosure",
+      "classification": "official_requirement",
+      "source_url": "https://www.vt.edu/admissions/undergraduate.html",
+      "source_excerpt": "Federal CARES Act Reporting Disclosure",
+      "retrieved_at": "2026-04-20T03:07:56.857462+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "classification": "reported_profile",
+      "source_url": "https://www.vt.edu/admissions/undergraduate.html",
+      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:07:56.857466+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "Self-reported Transcript and Academic Record System (STARS)",
+      "classification": "reported_profile",
+      "source_url": "https://www.vt.edu/admissions/undergraduate.html",
+      "source_excerpt": "Self-reported Transcript and Academic Record System (STARS)",
+      "retrieved_at": "2026-04-20T03:07:56.857469+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Virginia Tech is test-optional for students entering through Fall 2028, and applicants can choose on the application whether scores should be reviewed.",
+      "classification": "official_requirement",
+      "source_url": "https://www.vt.edu/admissions/undergraduate/apply/freshman-requirements.html",
+      "source_excerpt": "Virginia Tech is test-optional for students entering through Fall 2028. On the application for admission, you will be able to select whether or not you would like your scores to be reviewed as part of your application.",
+      "retrieved_at": "2026-04-20T03:48:33.021042+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-20T03:48:33.021052+00:00",
+    "confidence": "phase-5-manual-repair",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays"
+    ],
+    "warnings": [
+      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
+      "admissions.course_rigor was reset to unknown during manual cleanup because the earlier auto-extracted text was unrelated to the requested admissions field.",
+      "Virginia Tech testing policy was manually repaired from the official freshman requirements page after the auto-crawl captured a CARES Act disclosure title."
+    ]
+  }
+}

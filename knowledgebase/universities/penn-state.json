@@ -1,0 +1,117 @@
+{
+  "name": "Pennsylvania State University",
+  "short_name": "Penn State",
+  "slug": "penn-state",
+  "rank": 61,
+  "official_domain": "psu.edu",
+  "source_urls": {
+    "admissions": [
+      "https://www.psu.edu/admission",
+      "https://www.psu.edu/admission/undergraduate",
+      "https://www.psu.edu/admission/undergraduate/how-to-apply?utm_campaign=rec26&utm_source=enrollment&utm_medium=publications&utm_content=pa-and-oos-app-reminder&utm_term=dml",
+      "https://www.psu.edu/resources/faq/test-optional"
+    ],
+    "majors": [
+      "https://www.psu.edu/academics",
+      "https://www.psu.edu/majors"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.psu.edu"
+    ]
+  },
+  "majors": {
+    "count": 275,
+    "count_method": "explicit official page sentence",
+    "titles": [],
+    "notes": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  "admissions": {
+    "application_platform": "Common Application",
+    "testing_policy": "Penn State is test-optional for first-year applicants; students can decide whether SAT or ACT scores should be considered, and scores are not required for the application.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "course_rigor": "unknown",
+    "recommendations": "unknown",
+    "essays": "unknown",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "Interdisciplinary Research"
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 275",
+      "classification": "official_requirement",
+      "source_url": "https://www.psu.edu/academics",
+      "source_excerpt": "Pursuing a Penn State degree means access to faculty experts and state-of-the-art resources that will help you make an impact on the world. Explore all degree options ranging from more than 275 undergraduate majors, including top-ranked programs like engineering and business, to more than 300 graduate and professional programs, including medical and legal studies.",
+      "retrieved_at": "2026-04-20T03:06:14.363333+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "If you have applied to the Accelerated Premedical-Medical Program , SAT or ACT scores are required for consideration and and must be submitted by program's October 14 deadline.",
+      "classification": "official_requirement",
+      "source_url": "https://www.psu.edu/admission/undergraduate",
+      "source_excerpt": "If you have applied to the Accelerated Premedical-Medical Program , SAT or ACT scores are required for consideration and and must be submitted by program's October 14 deadline.",
+      "retrieved_at": "2026-04-20T03:06:14.363346+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "classification": "reported_profile",
+      "source_url": "https://www.psu.edu/admission/undergraduate",
+      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:06:14.363349+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "Continue developing your expertise with a professional degree from Penn State\u2019s law school or medical schools. Experience rigorous courses, hands-on learning environments, and a powerful alumni network that will help you build connections in your industry.",
+      "classification": "reported_profile",
+      "source_url": "https://www.psu.edu/admission/undergraduate",
+      "source_excerpt": "Continue developing your expertise with a professional degree from Penn State\u2019s law school or medical schools. Experience rigorous courses, hands-on learning environments, and a powerful alumni network that will help you build connections in your industry.",
+      "retrieved_at": "2026-04-20T03:06:14.363352+00:00"
+    },
+    {
+      "field": "admissions.recommendations",
+      "claim": "Take the Find Your Fit quiz to get recommendations for majors, campuses, and activities that align with your preferences.",
+      "classification": "official_requirement",
+      "source_url": "https://www.psu.edu/admission/undergraduate/how-to-apply?utm_campaign=rec26&utm_source=enrollment&utm_medium=publications&utm_content=pa-and-oos-app-reminder&utm_term=dml",
+      "source_excerpt": "Take the Find Your Fit quiz to get recommendations for majors, campuses, and activities that align with your preferences.",
+      "retrieved_at": "2026-04-20T03:06:14.363356+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Penn State is test-optional for first-year applicants; students can decide whether SAT or ACT scores should be considered, and scores are not required for the application.",
+      "classification": "official_requirement",
+      "source_url": "https://www.psu.edu/resources/faq/test-optional",
+      "source_excerpt": "For First-year applicants Penn State is test-optional, so submitting scores is not required for your application.",
+      "retrieved_at": "2026-04-20T03:48:33.021531+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-20T03:48:33.021542+00:00",
+    "confidence": "phase-5-manual-repair",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays"
+    ],
+    "warnings": [
+      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
+      "admissions.course_rigor was reset to unknown during manual cleanup because the earlier auto-extracted text was unrelated to the requested admissions field.",
+      "admissions.recommendations was reset to unknown during manual cleanup because the earlier auto-extracted text was unrelated to the requested admissions field.",
+      "Penn State testing policy was manually repaired from the official test-optional FAQ after the auto-crawl captured a program-specific exception."
+    ]
+  }
+}

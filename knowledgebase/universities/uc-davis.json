@@ -1,0 +1,98 @@
+{
+  "name": "University of California, Davis",
+  "short_name": "UC Davis",
+  "slug": "uc-davis",
+  "rank": 45,
+  "official_domain": "ucdavis.edu",
+  "source_urls": {
+    "admissions": [
+      "https://www.ucdavis.edu/admission",
+      "https://www.ucdavis.edu/admissions",
+      "https://www.ucdavis.edu/admissions/apply",
+      "https://www.ucdavis.edu/admissions/undergraduate"
+    ],
+    "majors": [
+      "https://www.ucdavis.edu/academics",
+      "https://www.ucdavis.edu/academics/majors"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.ucdavis.edu"
+    ]
+  },
+  "majors": {
+    "count": 10,
+    "count_method": "explicit official page sentence",
+    "titles": [],
+    "notes": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  "admissions": {
+    "application_platform": null,
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "course_rigor": "Academics Curriculum Practicum Projects Meet Your Faculty",
+    "recommendations": "unknown",
+    "essays": "unknown",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "Completed IMP MBA Projects"
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 10",
+      "classification": "official_requirement",
+      "source_url": "https://www.ucdavis.edu/academics",
+      "source_excerpt": "Academics Majors Majors Blog Career Preparation Research Advising Beyond the Classroom Honors Programs Internships Individual Majors Undeclared and Exploratory Majors Subscribe Top 10 majors Minors Graduate Programs Professional Programs Colleges and Schools Academic Departments College of Agricultural and Environmental Science College of Biological Sciences College of Engineering College of Letters and Science Graduate School of Management Graduate Studies School of Education School of Law School of Medicine School of Nursing School of Veterinary Medicine Our Faculty Faculty Resources Teaching Resources Women in STEM Battling Barriers, Bias to Retain and Recruit STEM Talent Building Community to Benefit Physics Students For the love of wild things Heart health pioneer, STEM champion The STEM Road Less Traveled Using STEM to improve lives Study Abroad",
+      "retrieved_at": "2026-04-20T03:04:37.813736+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "classification": "official_requirement",
+      "source_url": "https://www.ucdavis.edu/admissions/undergraduate",
+      "source_excerpt": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:04:37.813749+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ucdavis.edu/admissions/undergraduate",
+      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:04:37.813752+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "Academics Curriculum Practicum Projects Meet Your Faculty",
+      "classification": "reported_profile",
+      "source_url": "https://www.ucdavis.edu/admissions/undergraduate",
+      "source_excerpt": "Academics Curriculum Practicum Projects Meet Your Faculty",
+      "retrieved_at": "2026-04-20T03:04:37.813755+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-20T03:04:37.813760+00:00",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ],
+    "warnings": [
+      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
+      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence."
+    ]
+  }
+}

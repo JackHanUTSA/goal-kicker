@@ -1,0 +1,111 @@
+{
+  "name": "University of Texas at Austin",
+  "short_name": "UT Austin",
+  "slug": "ut-austin",
+  "rank": 36,
+  "official_domain": "utexas.edu",
+  "source_urls": {
+    "admissions": [
+      "https://admissions.utexas.edu/",
+      "https://admissions.utexas.edu/apply/freshman/",
+      "https://www.utexas.edu/apply"
+    ],
+    "majors": [
+      "https://www.utexas.edu/academic-programs",
+      "https://www.utexas.edu/academics/academic-experience",
+      "https://www.utexas.edu/majors"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.utexas.edu"
+    ]
+  },
+  "majors": {
+    "count": 0,
+    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "titles": [],
+    "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "confidence": "low"
+  },
+  "admissions": {
+    "application_platform": null,
+    "testing_policy": "UT Austin requires official SAT or ACT scores for freshman applicants to be considered, and scores must be submitted by the application deadline.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "course_rigor": "unknown",
+    "recommendations": "unknown",
+    "essays": "unknown",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "Learn More About UT Research"
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.utexas.edu/",
+      "source_excerpt": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:03:21.412368+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.utexas.edu/",
+      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:03:21.412378+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "Application Materials Transcript Info Essays & Short Answers High School Prerequisites",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.utexas.edu/",
+      "source_excerpt": "Application Materials Transcript Info Essays & Short Answers High School Prerequisites",
+      "retrieved_at": "2026-04-20T03:03:21.412382+00:00"
+    },
+    {
+      "field": "admissions.essays",
+      "claim": "Application Materials Transcript Info Essays & Short Answers High School Prerequisites",
+      "classification": "official_requirement",
+      "source_url": "https://www.utexas.edu/apply",
+      "source_excerpt": "Application Materials Transcript Info Essays & Short Answers High School Prerequisites",
+      "retrieved_at": "2026-04-20T03:03:21.412386+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "UT Austin requires official SAT or ACT scores for freshman applicants to be considered, and scores must be submitted by the application deadline.",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.utexas.edu/apply/freshman/",
+      "source_excerpt": "SAT and ACT official test scores must be submitted by the appropriate deadline to be considered.",
+      "retrieved_at": "2026-04-20T03:48:33.021935+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-20T03:48:33.021947+00:00",
+    "confidence": "phase-5-manual-repair",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays"
+    ],
+    "warnings": [
+      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
+      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",
+      "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page.",
+      "admissions.course_rigor was reset to unknown during manual cleanup because the earlier auto-extracted text was unrelated to the requested admissions field.",
+      "admissions.essays was reset to unknown during manual cleanup because the earlier auto-extracted text was unrelated to the requested admissions field.",
+      "UT Austin testing policy was manually repaired from the official freshman application page after the auto-crawl left testing policy unresolved."
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "name": "University of Pennsylvania",
+  "short_name": "UPenn",
+  "slug": "upenn",
+  "rank": 8,
+  "official_domain": "upenn.edu",
+  "source_urls": {
+    "admissions": [
+      "https://admissions.upenn.edu/how-to-apply/preparing-your-application/testing",
+      "https://admissions.upenn.edu/how-to-apply/preparing-your-application/academics",
+      "https://admissions.upenn.edu/how-to-apply/preparing-your-application/letters-of-recommendation",
+      "https://admissions.upenn.edu/how-to-apply/preparing-your-application/writing"
+    ],
+    "majors": [
+      "https://admissions.upenn.edu/academics/exploring-academics/majors-minors"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.upenn.edu"
+    ]
+  },
+  "majors": {
+    "count": 86,
+    "count_method": "counted visible major/concentration/program entries listed across Penn's undergraduate schools on the official Penn Admissions 'Majors and Minors' page; minors were excluded from the count",
+    "titles": [],
+    "notes": "counted visible major/concentration/program entries listed across Penn's undergraduate schools on the official Penn Admissions 'Majors and Minors' page; minors were excluded from the count",
+    "confidence": "medium"
+  },
+  "admissions": {
+    "application_platform": null,
+    "testing_policy": "Penn requires applicants to submit the SAT or ACT for the 2025-26 application cycle, with a waiver available for hardship cases.",
+    "gpa_policy": "Penn does not publish a minimum GPA on the cited admissions pages.",
+    "course_rigor": "Penn evaluates the rigor available at a student's high school and asks whether the student took advantage of rigorous courses available in core subjects.",
+    "recommendations": "Penn requires recommendation letters from two people: a school counselor or other school administrator and a teacher in a core subject area; one additional recommendation is optional.",
+    "essays": "Penn asks every applicant to complete two prompts and a school-specific prompt based on the undergraduate school or dual-degree program.",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "Penn says there are endless opportunities for every student to engage in research that aligns with their interests."
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 86",
+      "classification": "official_recommendation",
+      "source_url": "https://admissions.upenn.edu/academics/exploring-academics/majors-minors",
+      "source_excerpt": "A phase-4 DOM count of major/concentration/program entries on Penn's official 'Majors and Minors' page yielded 86 non-minor undergraduate pathways across Penn's schools.",
+      "retrieved_at": "2026-04-17T16:56:49.340577+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Penn requires applicants to submit the SAT or ACT for the 2025-26 application cycle, with a waiver available for hardship cases.",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.upenn.edu/how-to-apply/preparing-your-application/testing",
+      "source_excerpt": "Penn applicants are required to submit the SAT or ACT for the 2025-26 application cycle. Applicants who face hardship in meeting this requirement can submit a waiver instead.",
+      "retrieved_at": "2026-04-17T16:56:49.340579+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "Penn evaluates the rigor available at a student's high school and asks whether the student took advantage of rigorous courses available in core subjects.",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.upenn.edu/how-to-apply/preparing-your-application/academics",
+      "source_excerpt": "Are you taking advantage of rigorous courses available in your high school? ... Do your grades in core subject areas show you are prepared for the specific academic program you have selected?",
+      "retrieved_at": "2026-04-17T16:56:49.340581+00:00"
+    },
+    {
+      "field": "admissions.recommendations",
+      "claim": "Penn requires recommendation letters from two people: a school counselor or other school administrator and a teacher in a core subject area; one additional recommendation is optional.",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.upenn.edu/how-to-apply/preparing-your-application/letters-of-recommendation",
+      "source_excerpt": "You will need to request recommendation letters from two people: your school counselor or other school administrator; a teacher in a core subject area ... You may also opt to submit one additional letter of recommendation.",
+      "retrieved_at": "2026-04-17T16:56:49.340582+00:00"
+    },
+    {
+      "field": "admissions.essays",
+      "claim": "Penn asks every applicant to complete two prompts and a school-specific prompt based on the undergraduate school or dual-degree program.",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.upenn.edu/how-to-apply/preparing-your-application/writing",
+      "source_excerpt": "There are two prompts we ask every Penn applicant to complete. Additionally, there is a school-specific prompt based on the undergraduate school or dual-degree program to which you are applying.",
+      "retrieved_at": "2026-04-17T16:56:49.340584+00:00"
+    },
+    {
+      "field": "competitive_signals.projects_research",
+      "claim": "Penn says there are endless opportunities for every student to engage in research that aligns with their interests.",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.upenn.edu/academics/research",
+      "source_excerpt": "Through Penn's wide-ranging network spanning our graduate schools, hospitals, and more, there are endless opportunities for every Penn student to engage in research that aligns with their interests.",
+      "retrieved_at": "2026-04-17T16:56:49.340586+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-17T16:56:49.340588+00:00",
+    "confidence": "phase-4-top10-structured",
+    "unknown_fields": [],
+    "warnings": [
+      "Phase 4 structured upgrade applied to top-10 expansion schools.",
+      "Penn majors count is a curated admissions-page count of visible undergraduate pathways across multiple schools, not a registrar-issued single-major total from one academic catalog page."
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "name": "Cornell University",
+  "short_name": "Cornell",
+  "slug": "cornell",
+  "rank": 15,
+  "official_domain": "cornell.edu",
+  "source_urls": {
+    "admissions": [
+      "https://admissions.cornell.edu/",
+      "https://admissions.cornell.edu/academics/majors",
+      "https://admissions.cornell.edu/how-to-apply/first-year-applicants",
+      "https://admissions.cornell.edu/how-to-apply/first-year-applicants/college-and-school-admissions-requirements",
+      "https://www.cornell.edu/admission",
+      "https://www.cornell.edu/admissions/",
+      "https://www.cornell.edu/apply"
+    ],
+    "majors": [
+      "https://admissions.cornell.edu/academics/majors"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.cornell.edu"
+    ]
+  },
+  "majors": {
+    "count": 40,
+    "count_method": "counted 40 unique major/program-like entries from the cited official page DOM",
+    "titles": [],
+    "notes": "counted 40 unique major/program-like entries from the cited official page DOM",
+    "confidence": "medium"
+  },
+  "admissions": {
+    "application_platform": "Common Application",
+    "testing_policy": "All first-year applicants are required to submit SAT or ACT scores fall 2026 and beyond. For more information, review the standardized testing policy .",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "course_rigor": "Prospective design students: coursework in art and/or design",
+    "recommendations": "The two teacher recommendations highlight the applicant\u2019s academic strengths and contributions in the classroom.",
+    "essays": "Establish a strong match with the CHE's mission and programs as demonstrated through engaged participation in school and greater community, and clearly articulated in the CHE supplemental essay.",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "Cornell Research & Innovation"
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 40",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.cornell.edu/academics/majors",
+      "source_excerpt": "Visit Biological Engineering Major Page",
+      "retrieved_at": "2026-04-20T03:01:27.390190+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "All first-year applicants are required to submit SAT or ACT scores fall 2026 and beyond. For more information, review the standardized testing policy .",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.cornell.edu/how-to-apply/first-year-applicants",
+      "source_excerpt": "All first-year applicants are required to submit SAT or ACT scores fall 2026 and beyond. For more information, review the standardized testing policy .",
+      "retrieved_at": "2026-04-20T03:01:27.390200+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.cornell.edu/how-to-apply/first-year-applicants",
+      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:01:27.390203+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "Prospective design students: coursework in art and/or design",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.cornell.edu/how-to-apply/first-year-applicants",
+      "source_excerpt": "Prospective design students: coursework in art and/or design",
+      "retrieved_at": "2026-04-20T03:01:27.390206+00:00"
+    },
+    {
+      "field": "admissions.recommendations",
+      "claim": "The two teacher recommendations highlight the applicant\u2019s academic strengths and contributions in the classroom.",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.cornell.edu/how-to-apply/first-year-applicants",
+      "source_excerpt": "The two teacher recommendations highlight the applicant\u2019s academic strengths and contributions in the classroom.",
+      "retrieved_at": "2026-04-20T03:01:27.390209+00:00"
+    },
+    {
+      "field": "admissions.essays",
+      "claim": "Establish a strong match with the CHE's mission and programs as demonstrated through engaged participation in school and greater community, and clearly articulated in the CHE supplemental essay.",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.cornell.edu/how-to-apply/first-year-applicants",
+      "source_excerpt": "Establish a strong match with the CHE's mission and programs as demonstrated through engaged participation in school and greater community, and clearly articulated in the CHE supplemental essay.",
+      "retrieved_at": "2026-04-20T03:01:27.390212+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-20T03:01:27.390215+00:00",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [],
+    "warnings": [
+      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages."
+    ]
+  }
+}

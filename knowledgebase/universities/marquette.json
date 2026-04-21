@@ -1,0 +1,111 @@
+{
+  "name": "Marquette University",
+  "short_name": "Marquette",
+  "slug": "marquette",
+  "rank": 67,
+  "official_domain": "marquette.edu",
+  "source_urls": {
+    "admissions": [
+      "https://www.marquette.edu/admissions/",
+      "https://www.marquette.edu/admissions/undergraduate/",
+      "https://www.marquette.edu/apply/apply.php",
+      "https://www.marquette.edu/apply/test-optional.php"
+    ],
+    "majors": [
+      "https://www.marquette.edu/academics/"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.marquette.edu"
+    ]
+  },
+  "majors": {
+    "count": 0,
+    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "titles": [],
+    "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "confidence": "low"
+  },
+  "admissions": {
+    "application_platform": "Common Application",
+    "testing_policy": "Marquette is test-optional; students may choose to submit ACT or SAT scores, and those who do not submit a score are not penalized.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "course_rigor": "Official high school transcript(s) \u2014 required",
+    "recommendations": "Letters of recommendation",
+    "essays": "Marquette's holistic admission review considers academic achievement in conjunction with a student's unique talents, leadership and service activities, application essay, school profile, letters of recommendation and any other information a student wishes to submit.",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "Research and Sponsored Programs"
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "admissions.testing_policy",
+      "claim": "For a distribution of admitted students' GPA, ACT and SAT data, visit application averages.",
+      "classification": "official_requirement",
+      "source_url": "https://www.marquette.edu/admissions/undergraduate/",
+      "source_excerpt": "For a distribution of admitted students' GPA, ACT and SAT data, visit application averages.",
+      "retrieved_at": "2026-04-20T03:06:51.718571+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "classification": "reported_profile",
+      "source_url": "https://www.marquette.edu/admissions/undergraduate/",
+      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:06:51.718582+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "Official high school transcript(s) \u2014 required",
+      "classification": "reported_profile",
+      "source_url": "https://www.marquette.edu/admissions/undergraduate/",
+      "source_excerpt": "Official high school transcript(s) \u2014 required",
+      "retrieved_at": "2026-04-20T03:06:51.718585+00:00"
+    },
+    {
+      "field": "admissions.recommendations",
+      "claim": "Letters of recommendation",
+      "classification": "official_requirement",
+      "source_url": "https://www.marquette.edu/apply/apply.php",
+      "source_excerpt": "Letters of recommendation",
+      "retrieved_at": "2026-04-20T03:06:51.718588+00:00"
+    },
+    {
+      "field": "admissions.essays",
+      "claim": "Marquette's holistic admission review considers academic achievement in conjunction with a student's unique talents, leadership and service activities, application essay, school profile, letters of recommendation and any other information a student wishes to submit.",
+      "classification": "official_requirement",
+      "source_url": "https://www.marquette.edu/apply/apply.php",
+      "source_excerpt": "Marquette's holistic admission review considers academic achievement in conjunction with a student's unique talents, leadership and service activities, application essay, school profile, letters of recommendation and any other information a student wishes to submit.",
+      "retrieved_at": "2026-04-20T03:06:51.718591+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Marquette is test-optional; students may choose to submit ACT or SAT scores, and those who do not submit a score are not penalized.",
+      "classification": "official_requirement",
+      "source_url": "https://www.marquette.edu/apply/test-optional.php",
+      "source_excerpt": "Students may choose to submit their ACT and/or SAT scores to be included among the materials evaluated in the review process. Students not submitting a test score will not be penalized for making this choice.",
+      "retrieved_at": "2026-04-20T03:48:33.021670+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-20T03:48:33.021680+00:00",
+    "confidence": "phase-5-manual-repair",
+    "unknown_fields": [],
+    "warnings": [
+      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
+      "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page.",
+      "Marquette testing policy was manually repaired from the official test-optional policy page after the auto-crawl captured a stats-navigation snippet."
+    ]
+  }
+}

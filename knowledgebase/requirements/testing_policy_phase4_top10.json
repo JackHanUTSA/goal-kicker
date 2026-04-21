@@ -1,0 +1,59 @@
+[
+  {
+    "slug": "princeton",
+    "name": "Princeton University",
+    "testing_policy": "Princeton is test-optional for first-year applicants applying for fall 2026 and fall 2027 entry; Princeton says it will once again require testing for students applying for fall 2028 entry.",
+    "confidence": "phase-4-top10-structured",
+    "unknown_fields": []
+  },
+  {
+    "slug": "yale",
+    "name": "Yale University",
+    "testing_policy": "Yale uses a test-flexible policy that requires first-year applicants to submit scores from one or more of the following: ACT, AP, IB, or SAT.",
+    "confidence": "phase-4-top10-structured",
+    "unknown_fields": []
+  },
+  {
+    "slug": "caltech",
+    "name": "California Institute of Technology",
+    "testing_policy": "Caltech requires first-year applicants to submit either the SAT or the ACT.",
+    "confidence": "phase-4-top10-structured",
+    "unknown_fields": []
+  },
+  {
+    "slug": "uchicago",
+    "name": "University of Chicago",
+    "testing_policy": "UChicago is test-optional and says submitting an SAT or ACT is optional and not required for admission; it also uses a 'No Harm' testing policy.",
+    "confidence": "phase-4-top10-structured",
+    "unknown_fields": []
+  },
+  {
+    "slug": "upenn",
+    "name": "University of Pennsylvania",
+    "testing_policy": "Penn requires applicants to submit the SAT or ACT for the 2025-26 application cycle, with a waiver available for hardship cases.",
+    "confidence": "phase-4-top10-structured",
+    "unknown_fields": []
+  },
+  {
+    "slug": "columbia",
+    "name": "Columbia University",
+    "testing_policy": "unknown",
+    "confidence": "phase-4-partial",
+    "unknown_fields": [
+      "majors.count",
+      "admissions.testing_policy",
+      "admissions.gpa_policy",
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays",
+      "competitive_signals.projects_research"
+    ]
+  },
+  {
+    "slug": "duke",
+    "name": "Duke University",
+    "testing_policy": "Duke is test-optional for first-year and transfer applicants in the 2026-2027 admissions cycle.",
+    "confidence": "phase-4-top10-structured",
+    "unknown_fields": []
+  }
+]

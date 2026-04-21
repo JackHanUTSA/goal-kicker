@@ -1,0 +1,91 @@
+{
+  "name": "New Jersey Institute of Technology",
+  "short_name": "NJIT",
+  "slug": "njit",
+  "rank": 79,
+  "official_domain": "njit.edu",
+  "source_urls": {
+    "admissions": [
+      "https://connect.njit.edu/apply/",
+      "https://www.njit.edu/admission",
+      "https://www.njit.edu/admissions",
+      "https://www.njit.edu/apply-now"
+    ],
+    "majors": [
+      "https://www.njit.edu/academics",
+      "https://www.njit.edu/majors"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.njit.edu"
+    ]
+  },
+  "majors": {
+    "count": 125,
+    "count_method": "explicit official page sentence",
+    "titles": [],
+    "notes": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  "admissions": {
+    "application_platform": null,
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "course_rigor": "unknown",
+    "recommendations": "unknown",
+    "essays": "unknown",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "Research Staff Assignments"
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 125",
+      "classification": "official_requirement",
+      "source_url": "https://www.njit.edu/academics",
+      "source_excerpt": "NJIT, a top-ranked public research university, offers undergraduate and graduate students over 125 degree programs ranging from the STEM disciplines to architecture and design, as well as management and humanities.",
+      "retrieved_at": "2026-04-20T03:08:31.151736+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "classification": "official_requirement",
+      "source_url": "https://www.njit.edu/admissions",
+      "source_excerpt": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:08:31.151748+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "classification": "reported_profile",
+      "source_url": "https://www.njit.edu/admissions",
+      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:08:31.151751+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-20T03:08:31.151757+00:00",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays"
+    ],
+    "warnings": [
+      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
+      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence."
+    ]
+  }
+}

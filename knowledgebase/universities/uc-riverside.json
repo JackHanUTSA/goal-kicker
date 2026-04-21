@@ -1,0 +1,92 @@
+{
+  "name": "University of California, Riverside",
+  "short_name": "UC Riverside",
+  "slug": "uc-riverside",
+  "rank": 96,
+  "official_domain": "ucr.edu",
+  "source_urls": {
+    "admissions": [
+      "https://admissions.ucr.edu/",
+      "https://admissions.ucr.edu/majors",
+      "https://www.ucr.edu/admission",
+      "https://www.ucr.edu/admissions",
+      "https://www.ucr.edu/apply"
+    ],
+    "majors": [
+      "https://admissions.ucr.edu/majors",
+      "https://www.ucr.edu/academic-programs",
+      "https://www.ucr.edu/academics"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.ucr.edu"
+    ]
+  },
+  "majors": {
+    "count": 150,
+    "count_method": "explicit official page sentence",
+    "titles": [],
+    "notes": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  "admissions": {
+    "application_platform": null,
+    "testing_policy": "CLERY ACT NOTICE OF AVAILABILITY",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "course_rigor": "unknown",
+    "recommendations": "unknown",
+    "essays": "unknown",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "UCR offers a wide range of opportunities for graduate study and research."
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 150",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.ucr.edu/majors",
+      "source_excerpt": "Engage with brilliant faculty and bold research at the University of California, Riverside (UCR). Choose from over 150 majors and minors, and be guided by leaders in your field of interest. You'll be empowered by peer mentors, learning communities, internships, and undergraduate research as early as your first year.",
+      "retrieved_at": "2026-04-20T03:12:21.566630+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "CLERY ACT NOTICE OF AVAILABILITY",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.ucr.edu/",
+      "source_excerpt": "CLERY ACT NOTICE OF AVAILABILITY",
+      "retrieved_at": "2026-04-20T03:12:21.566642+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.ucr.edu/",
+      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:12:21.566645+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-20T03:12:21.566650+00:00",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays"
+    ],
+    "warnings": [
+      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages."
+    ]
+  }
+}

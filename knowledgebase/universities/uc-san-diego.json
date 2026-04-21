@@ -1,0 +1,91 @@
+{
+  "name": "University of California, San Diego",
+  "short_name": "UC San Diego",
+  "slug": "uc-san-diego",
+  "rank": 34,
+  "official_domain": "ucsd.edu",
+  "source_urls": {
+    "admissions": [
+      "https://admissions.ucsd.edu/",
+      "https://apply.ucsd.edu/login.php",
+      "https://ucsd.edu/admissions-aid/",
+      "https://www.ucsd.edu/admission",
+      "https://www.ucsd.edu/apply"
+    ],
+    "majors": [
+      "https://www.ucsd.edu/academics/"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.ucsd.edu"
+    ]
+  },
+  "majors": {
+    "count": 100,
+    "count_method": "explicit official page sentence",
+    "titles": [],
+    "notes": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  "admissions": {
+    "application_platform": null,
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "course_rigor": "unknown",
+    "recommendations": "unknown",
+    "essays": "unknown",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "Public university in the nation for research."
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 100",
+      "classification": "official_requirement",
+      "source_url": "https://www.ucsd.edu/academics/",
+      "source_excerpt": "Work closely with brilliant faculty, engage in a field you are passionate about and begin shaping the academic journey you have always envisioned. Explore the more than 100 degrees and programs we offer.",
+      "retrieved_at": "2026-04-20T03:03:09.926403+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.ucsd.edu/",
+      "source_excerpt": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:03:09.926416+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.ucsd.edu/",
+      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:03:09.926419+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-20T03:03:09.926424+00:00",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays"
+    ],
+    "warnings": [
+      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
+      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence."
+    ]
+  }
+}

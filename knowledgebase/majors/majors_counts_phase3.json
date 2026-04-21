@@ -1,0 +1,37 @@
+[
+  {
+    "slug": "mit",
+    "name": "Massachusetts Institute of Technology",
+    "majors_count": 55,
+    "count_method": "counted official MIT undergraduate SB degree-chart links on the MIT Course Catalog Degree Charts page; count includes named SB degree options and interdisciplinary SB programs",
+    "confidence": "medium"
+  },
+  {
+    "slug": "stanford",
+    "name": "Stanford University",
+    "majors_count": 100,
+    "count_method": "counted unique Stanford Explore Majors opportunity pages on the official text-only list, excluding the one explicit minor-labeled entry 'Dance (TAPS Minor)'",
+    "confidence": "medium"
+  },
+  {
+    "slug": "harvard",
+    "name": "Harvard University",
+    "majors_count": 50,
+    "count_method": "official Harvard page states 50 undergraduate fields of study (concentrations)",
+    "confidence": "medium"
+  },
+  {
+    "slug": "uc-berkeley",
+    "name": "University of California, Berkeley",
+    "majors_count": 113,
+    "count_method": "counted official UC Berkeley Catalog results after enabling the 'Major' filter on the Programs page",
+    "confidence": "medium"
+  },
+  {
+    "slug": "michigan",
+    "name": "University of Michigan",
+    "majors_count": null,
+    "count_method": "blocked by bot protection during phase 3 checks",
+    "confidence": "low"
+  }
+]

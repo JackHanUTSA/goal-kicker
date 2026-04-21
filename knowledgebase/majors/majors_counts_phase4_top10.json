@@ -1,0 +1,51 @@
+[
+  {
+    "slug": "princeton",
+    "name": "Princeton University",
+    "majors_count": 37,
+    "count_method": "official Princeton Admission Degrees & Departments page states students can choose from among 37 concentrations",
+    "confidence": "medium"
+  },
+  {
+    "slug": "yale",
+    "name": "Yale University",
+    "majors_count": 81,
+    "count_method": "counted unique Yale College major entries (B.A./B.S.) on the official Yale catalog page 'Majors in Yale College'",
+    "confidence": "medium"
+  },
+  {
+    "slug": "caltech",
+    "name": "California Institute of Technology",
+    "majors_count": 31,
+    "count_method": "counted unique program pages linked from the official Caltech 'Majors & Minors' page",
+    "confidence": "medium"
+  },
+  {
+    "slug": "uchicago",
+    "name": "University of Chicago",
+    "majors_count": 70,
+    "count_method": "official UChicago Areas of Study page says the College includes nearly 70 majors and 60 minors",
+    "confidence": "medium"
+  },
+  {
+    "slug": "upenn",
+    "name": "University of Pennsylvania",
+    "majors_count": 86,
+    "count_method": "counted visible major/concentration/program entries listed across Penn's undergraduate schools on the official Penn Admissions 'Majors and Minors' page; minors were excluded from the count",
+    "confidence": "medium"
+  },
+  {
+    "slug": "columbia",
+    "name": "Columbia University",
+    "majors_count": null,
+    "count_method": "official Columbia admissions pages were blocked by CloudFront in this environment; Columbia bulletin pages were partially accessible but not enough to derive a reliable undergraduate majors total here",
+    "confidence": "low"
+  },
+  {
+    "slug": "duke",
+    "name": "Duke University",
+    "majors_count": 63,
+    "count_method": "official Duke 'Majors, Minors, and More' page states Duke offers 63 majors, 61 minors, and 23 certificates",
+    "confidence": "medium"
+  }
+]

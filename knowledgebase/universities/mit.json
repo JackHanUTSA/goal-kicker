@@ -1,0 +1,112 @@
+{
+  "name": "Massachusetts Institute of Technology",
+  "short_name": "MIT",
+  "slug": "mit",
+  "rank": 1,
+  "official_domain": "mit.edu",
+  "source_urls": {
+    "admissions": [
+      "https://mitadmissions.org/"
+    ],
+    "majors": [
+      "https://firstyear.mit.edu/academics-exploration/major-exploration/"
+    ],
+    "testing_policy": [],
+    "general": []
+  },
+  "majors": {
+    "count": 55,
+    "count_method": "counted official MIT undergraduate SB degree-chart links on the MIT Course Catalog Degree Charts page; count includes named SB degree options and interdisciplinary SB programs",
+    "titles": [],
+    "notes": "counted official MIT undergraduate SB degree-chart links on the MIT Course Catalog Degree Charts page; count includes named SB degree options and interdisciplinary SB programs",
+    "confidence": "medium"
+  },
+  "admissions": {
+    "application_platform": null,
+    "testing_policy": "MIT requires the SAT or the ACT.",
+    "gpa_policy": "MIT does not publish a minimum GPA cutoff on the cited first-year pages.",
+    "course_rigor": "MIT asks applicants to submit transcripts and evaluates essays, activities, academics, and the overall academic record; no simple minimum course-rigor rule is stated on the cited pages.",
+    "recommendations": "MIT requires letters of recommendation as part of the first-year application materials.",
+    "essays": "MIT requires an essays, activities, and academics section as part of the first-year application.",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "MIT explicitly evaluates essays, activities, and academics as part of the first-year application process."
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "source_urls.admissions",
+      "claim": "MIT Admissions",
+      "classification": "official_requirement",
+      "source_url": "https://mitadmissions.org/",
+      "source_excerpt": "window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-G61VQBBGXM'); MIT Admissions (window.NREUM||(NREUM={})).init={ajax:{deny_list:[\"bam.nr-data.net\"]},feature_flags:[\"soft_nav\"]};(window.NREUM||(NREUM={})).loader_config=",
+      "retrieved_at": "2026-04-17T00:17:32.135745+00:00"
+    },
+    {
+      "field": "source_urls.majors",
+      "claim": "Major Exploration &#8211; MIT Office of the First Year",
+      "classification": "official_recommendation",
+      "source_url": "https://firstyear.mit.edu/academics-exploration/major-exploration/",
+      "source_excerpt": "Major Exploration &#8211; MIT Office of the First Year img:is([sizes=auto i],[sizes^=\"auto,\" i]){contain-intrinsic-size:3000px 1500px} /*# sourceURL=wp-img-auto-sizes-contain-inline-css */ .wp-block-site-logo{box-sizing:border-box;line-height:0}.wp-block-site-logo a{display:inline-block;line-height:",
+      "retrieved_at": "2026-04-17T00:17:32.515941+00:00"
+    },
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 109",
+      "classification": "official_recommendation",
+      "source_url": "https://catalog.mit.edu/degree-charts/",
+      "source_excerpt": "Degree Charts > Undergraduate Degrees with multiple undergraduate degree chart links.",
+      "retrieved_at": "2026-04-17T00:54:04.731298+00:00"
+    },
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 55",
+      "classification": "official_recommendation",
+      "source_url": "https://catalog.mit.edu/degree-charts/",
+      "source_excerpt": "The undergraduate degree charts page lists undergraduate SB degree-chart links; a phase-3 filtered count of SB charts yielded 55.",
+      "retrieved_at": "2026-04-17T16:25:22.950615+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "MIT requires the SAT or the ACT.",
+      "classification": "official_requirement",
+      "source_url": "https://mitadmissions.org/apply/firstyear/tests-scores/",
+      "source_excerpt": "Testing requirement: We require the SAT or the ACT.",
+      "retrieved_at": "2026-04-17T16:25:22.950628+00:00"
+    },
+    {
+      "field": "admissions.recommendations",
+      "claim": "MIT requires letters of recommendation as part of the first-year application materials.",
+      "classification": "official_requirement",
+      "source_url": "https://mitadmissions.org/apply/firstyear/",
+      "source_excerpt": "First-year applicants page lists application materials including 'Letters of recommendation'.",
+      "retrieved_at": "2026-04-17T16:25:22.950631+00:00"
+    },
+    {
+      "field": "admissions.essays",
+      "claim": "MIT requires an essays, activities, and academics section as part of the first-year application.",
+      "classification": "official_requirement",
+      "source_url": "https://mitadmissions.org/apply/firstyear/essays-activities-academics/",
+      "source_excerpt": "Essays, activities & academics | MIT Admissions",
+      "retrieved_at": "2026-04-17T16:25:22.950632+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-17T16:25:22.950637+00:00",
+    "confidence": "phase-3-structured",
+    "unknown_fields": [],
+    "warnings": [
+      "Phase 3 structured upgrade completed with improved majors counting, admissions extraction, and query-ready records.",
+      "MIT majors count is a curated count of official undergraduate SB degree-chart links, not a registrar-published sentence like 'MIT offers X majors'."
+    ]
+  }
+}

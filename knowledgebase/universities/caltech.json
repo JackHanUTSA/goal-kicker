@@ -1,0 +1,109 @@
+{
+  "name": "California Institute of Technology",
+  "short_name": "Caltech",
+  "slug": "caltech",
+  "rank": 6,
+  "official_domain": "caltech.edu",
+  "source_urls": {
+    "admissions": [
+      "https://www.admissions.caltech.edu/apply/first-year-applicants/application-requirements",
+      "https://www.admissions.caltech.edu/apply/first-year-applicants/standardized-tests",
+      "https://www.admissions.caltech.edu/apply/first-year-applicants/academic-requirements-for-first-year-applicants",
+      "https://www.admissions.caltech.edu/apply/first-year-applicants/letters-of-recommendation",
+      "https://www.admissions.caltech.edu/apply/first-year-applicants/supplemental-application-essays"
+    ],
+    "majors": [
+      "https://www.admissions.caltech.edu/why-caltech/academics/majors-minors"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.caltech.edu"
+    ]
+  },
+  "majors": {
+    "count": 31,
+    "count_method": "counted unique program pages linked from the official Caltech 'Majors & Minors' page",
+    "titles": [],
+    "notes": "counted unique program pages linked from the official Caltech 'Majors & Minors' page",
+    "confidence": "medium"
+  },
+  "admissions": {
+    "application_platform": null,
+    "testing_policy": "Caltech requires first-year applicants to submit either the SAT or the ACT.",
+    "gpa_policy": "Caltech does not publish a minimum GPA on the cited admissions pages.",
+    "course_rigor": "Caltech expects mastery in four years of math including calculus, one year each of physics and chemistry, one year of biology recommended, four years of English, and two years of history and/or social sciences with three or more years recommended.",
+    "recommendations": "Caltech requires two teacher or instructor recommendations, one STEM and one humanities/social sciences.",
+    "essays": "Caltech requires multiple supplemental essay responses, including a required STEM academic interest question, one STEM experience prompt, a creativity in action question, and two required short-answer questions.",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "Caltech highlights undergraduate research as a core part of the undergraduate experience."
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 31",
+      "classification": "official_recommendation",
+      "source_url": "https://www.admissions.caltech.edu/why-caltech/academics/majors-minors",
+      "source_excerpt": "A phase-4 count of unique major/minor program pages linked from Caltech's official 'Majors & Minors' page yielded 31 programs.",
+      "retrieved_at": "2026-04-17T16:56:49.340332+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Caltech requires first-year applicants to submit either the SAT or the ACT.",
+      "classification": "official_requirement",
+      "source_url": "https://www.admissions.caltech.edu/apply/first-year-applicants/standardized-tests",
+      "source_excerpt": "Caltech requires first-year applicants to submit either the SAT or the ACT for admissions to Caltech.",
+      "retrieved_at": "2026-04-17T16:56:49.340335+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "Caltech expects mastery in four years of math including calculus, one year each of physics and chemistry, one year of biology recommended, four years of English, and two years of history and/or social sciences with three or more years recommended.",
+      "classification": "reported_profile",
+      "source_url": "https://www.admissions.caltech.edu/apply/first-year-applicants/academic-requirements-for-first-year-applicants",
+      "source_excerpt": "Four years of math, including one year of calculus ... One year of physics ... One year of chemistry ... One year of biology (recommended) ... Four years of English ... Two years of history and/or social sciences courses (3+ years recommended).",
+      "retrieved_at": "2026-04-17T16:56:49.340337+00:00"
+    },
+    {
+      "field": "admissions.recommendations",
+      "claim": "Caltech requires two teacher or instructor recommendations, one STEM and one humanities/social sciences.",
+      "classification": "official_requirement",
+      "source_url": "https://www.admissions.caltech.edu/apply/first-year-applicants/letters-of-recommendation",
+      "source_excerpt": "Caltech requires letters of recommendation from two teachers or instructors ... One letter each from the subjects below: STEM ... Humanities/Social Sciences ...",
+      "retrieved_at": "2026-04-17T16:56:49.340339+00:00"
+    },
+    {
+      "field": "admissions.essays",
+      "claim": "Caltech requires multiple supplemental essay responses, including a required STEM academic interest question, one STEM experience prompt, a creativity in action question, and two required short-answer questions.",
+      "classification": "official_requirement",
+      "source_url": "https://www.admissions.caltech.edu/apply/first-year-applicants/supplemental-application-essays",
+      "source_excerpt": "Required STEM Academic Interest Question ... Select one of the following two STEM Experience prompts ... Creativity in Action Question ... Required Short Answer Questions ... Choose two of the four questions below and answer both.",
+      "retrieved_at": "2026-04-17T16:56:49.340341+00:00"
+    },
+    {
+      "field": "competitive_signals.projects_research",
+      "claim": "Caltech highlights undergraduate research as a core part of the undergraduate experience.",
+      "classification": "reported_profile",
+      "source_url": "https://www.admissions.caltech.edu/why-caltech/research/undergraduate-research",
+      "source_excerpt": "Undergraduate Research - Undergraduate Admissions",
+      "retrieved_at": "2026-04-17T16:56:49.340343+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-17T16:56:49.340345+00:00",
+    "confidence": "phase-4-top10-structured",
+    "unknown_fields": [],
+    "warnings": [
+      "Phase 4 structured upgrade applied to top-10 expansion schools."
+    ]
+  }
+}

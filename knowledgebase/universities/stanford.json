@@ -1,0 +1,120 @@
+{
+  "name": "Stanford University",
+  "short_name": "Stanford",
+  "slug": "stanford",
+  "rank": 2,
+  "official_domain": "stanford.edu",
+  "source_urls": {
+    "admissions": [
+      "https://admission.stanford.edu/"
+    ],
+    "majors": [
+      "https://majors.stanford.edu/"
+    ],
+    "testing_policy": [],
+    "general": []
+  },
+  "majors": {
+    "count": 100,
+    "count_method": "counted unique Stanford Explore Majors opportunity pages on the official text-only list, excluding the one explicit minor-labeled entry 'Dance (TAPS Minor)'",
+    "titles": [],
+    "notes": "counted unique Stanford Explore Majors opportunity pages on the official text-only list, excluding the one explicit minor-labeled entry 'Dance (TAPS Minor)'",
+    "confidence": "medium"
+  },
+  "admissions": {
+    "application_platform": null,
+    "testing_policy": "ACT or SAT scores are required for first-year and transfer students; Stanford also says there are no minimum test scores required for admission.",
+    "gpa_policy": "No explicit minimum GPA found in the cited Stanford first-year pages.",
+    "course_rigor": "Stanford says every component of the application is valuable and that there is no score guaranteeing admission; the cited pages do not state a simple minimum course-rigor formula.",
+    "recommendations": "Stanford requires a school report form and counselor letter of recommendation plus letters of recommendation from two teachers.",
+    "essays": "Stanford's first-year application materials include application and essays guidance, but a structured official essay-count extraction was not completed in this pass.",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "source_urls.admissions",
+      "claim": "Undergraduate Admission : Stanford University",
+      "classification": "official_requirement",
+      "source_url": "https://admission.stanford.edu/",
+      "source_excerpt": "Undergraduate Admission : Stanford University --> /* QUICK LINKS */ #quicklinks-nav h4 { /* text-transform: uppercase;*/ display: none } #quicklinks { margin: 0; padding-top: 5px; padding-right: 5px; z-index: 9999; list-style: none; position: relative } #quicklinks li { display: inline; padding-bott",
+      "retrieved_at": "2026-04-17T00:17:32.966458+00:00"
+    },
+    {
+      "field": "source_urls.majors",
+      "claim": "Explore Majors",
+      "classification": "official_recommendation",
+      "source_url": "https://majors.stanford.edu/",
+      "source_excerpt": "Explore Majors {\"path\":{\"baseUrl\":\"\\/\",\"pathPrefix\":\"\",\"currentPath\":\"node\\/51\",\"currentPathIsAdmin\":false,\"isFront\":true,\"currentLanguage\":\"en\"},\"pluralDelimiter\":\"\\u0003\",\"suppressDeprecationErrors\":true,\"gtag\":{\"tagId\":\"\",\"consentMode\":false,\"otherIds\":[],\"events\":[],\"additionalConfigInfo\":[]},\"a",
+      "retrieved_at": "2026-04-17T00:17:33.453815+00:00"
+    },
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 200",
+      "classification": "official_recommendation",
+      "source_url": "https://majors.stanford.edu/majors/text-only-lists-majors-and-offerings",
+      "source_excerpt": "Text-Only Lists of Majors and Offerings ... counted opportunity links on the official page.",
+      "retrieved_at": "2026-04-17T00:54:04.731482+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "ACT or SAT scores are required for first-year and transfer students.",
+      "classification": "official_requirement",
+      "source_url": "https://admission.stanford.edu/apply/first-year/testing.html",
+      "source_excerpt": "Testing Requirements ACT or SAT scores are required for first-year and transfer students.",
+      "retrieved_at": "2026-04-17T00:54:04.731485+00:00"
+    },
+    {
+      "field": "admissions.recommendations",
+      "claim": "Stanford requires a school report form and counselor letter plus letters of recommendation from two teachers.",
+      "classification": "official_requirement",
+      "source_url": "https://admission.stanford.edu/apply/first-year/index.html",
+      "source_excerpt": "School Report form and counselor letter of recommendation ... Letters of recommendation from two teachers.",
+      "retrieved_at": "2026-04-17T00:54:04.731486+00:00"
+    },
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 100",
+      "classification": "official_recommendation",
+      "source_url": "https://majors.stanford.edu/majors/text-only-lists-majors-and-offerings",
+      "source_excerpt": "The official Stanford text-only list contains 101 unique opportunity pages; excluding the explicit minor-labeled entry leaves 100 major/offering pages.",
+      "retrieved_at": "2026-04-17T16:25:22.950835+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "ACT or SAT scores are required for first-year and transfer students; Stanford also says there are no minimum test scores required for admission.",
+      "classification": "official_requirement",
+      "source_url": "https://admission.stanford.edu/apply/first-year/testing.html",
+      "source_excerpt": "ACT or SAT scores are required for first-year and transfer students. There are no minimum test scores required to be admitted to Stanford.",
+      "retrieved_at": "2026-04-17T16:25:22.950838+00:00"
+    },
+    {
+      "field": "admissions.recommendations",
+      "claim": "Stanford requires a school report form and counselor letter of recommendation plus letters of recommendation from two teachers.",
+      "classification": "official_requirement",
+      "source_url": "https://admission.stanford.edu/apply/first-year/index.html",
+      "source_excerpt": "School Report form and counselor letter of recommendation ... Letters of recommendation from two teachers.",
+      "retrieved_at": "2026-04-17T16:25:22.950840+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-17T16:25:22.950844+00:00",
+    "confidence": "phase-3-structured",
+    "unknown_fields": [
+      "competitive_signals.projects_research"
+    ],
+    "warnings": [
+      "Phase 3 structured upgrade completed with improved majors counting, admissions extraction, and query-ready records.",
+      "Stanford majors count comes from the official 'Majors and Offerings' site and likely still includes some offerings that are not standalone majors."
+    ]
+  }
+}

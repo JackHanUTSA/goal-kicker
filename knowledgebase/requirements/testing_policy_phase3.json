@@ -1,0 +1,50 @@
+[
+  {
+    "slug": "mit",
+    "name": "Massachusetts Institute of Technology",
+    "testing_policy": "MIT requires the SAT or the ACT.",
+    "confidence": "phase-3-structured",
+    "unknown_fields": []
+  },
+  {
+    "slug": "stanford",
+    "name": "Stanford University",
+    "testing_policy": "ACT or SAT scores are required for first-year and transfer students; Stanford also says there are no minimum test scores required for admission.",
+    "confidence": "phase-3-structured",
+    "unknown_fields": [
+      "competitive_signals.projects_research"
+    ]
+  },
+  {
+    "slug": "harvard",
+    "name": "Harvard University",
+    "testing_policy": "Harvard requires SAT or ACT, with alternative exams accepted in exceptional cases when those tests are not accessible.",
+    "confidence": "phase-3-structured",
+    "unknown_fields": []
+  },
+  {
+    "slug": "uc-berkeley",
+    "name": "University of California, Berkeley",
+    "testing_policy": "UC Berkeley follows the University of California first-year requirements page cited here, which lists A-G coursework and GPA requirements and does not require SAT/ACT scores on that page; this pass does not attach a Berkeley-only test-policy sentence.",
+    "confidence": "phase-3-structured",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ]
+  },
+  {
+    "slug": "michigan",
+    "name": "University of Michigan",
+    "testing_policy": "unknown",
+    "confidence": "phase-3-structured",
+    "unknown_fields": [
+      "majors.count",
+      "admissions.testing_policy",
+      "admissions.gpa_policy",
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays",
+      "competitive_signals.projects_research"
+    ]
+  }
+]

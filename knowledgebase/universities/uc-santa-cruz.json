@@ -1,0 +1,110 @@
+{
+  "name": "University of California, Santa Cruz",
+  "short_name": "UC Santa Cruz",
+  "slug": "uc-santa-cruz",
+  "rank": 97,
+  "official_domain": "ucsc.edu",
+  "source_urls": {
+    "admissions": [
+      "https://admissions.ucsc.edu/",
+      "https://admissions.ucsc.edu/first-year-student",
+      "https://www.ucsc.edu/admission",
+      "https://www.ucsc.edu/admissions/",
+      "https://www.ucsc.edu/apply"
+    ],
+    "majors": [
+      "https://www.ucsc.edu/academic-programs",
+      "https://www.ucsc.edu/academics/",
+      "https://www.ucsc.edu/majors"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.ucsc.edu"
+    ]
+  },
+  "majors": {
+    "count": 74,
+    "count_method": "explicit official page sentence",
+    "titles": [],
+    "notes": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  "admissions": {
+    "application_platform": "UC Application",
+    "testing_policy": "UC Santa Cruz does not use ACT or SAT scores in its comprehensive review and selection process.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "course_rigor": "unknown",
+    "recommendations": "unknown",
+    "essays": "unknown",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "in the nation for research influence"
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 74",
+      "classification": "official_requirement",
+      "source_url": "https://www.ucsc.edu/academics/",
+      "source_excerpt": "With 74 majors, world-class teachers, and modern facilities, a wealth of knowledge is at your doorstep\u2014or your fingertips.",
+      "retrieved_at": "2026-04-20T03:12:25.426173+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "At UC Santa Cruz, we have resources to support your physical, mental, and emotional health, as well as safety services such as fire safety and crime prevention. UC Santa Cruz publishes an Annual Security & Fire Safety Report, based on the Jeanne Clery Disclosure of Campus Safety and Campus Crime Statistics Act (commonly referred to as the Clery Act). The report contains detailed information on the campus\u2019s crime and fire prevention programs, as well as campus crime and fire statistics for the past three years. A paper version of the report is available upon request.",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.ucsc.edu/",
+      "source_excerpt": "At UC Santa Cruz, we have resources to support your physical, mental, and emotional health, as well as safety services such as fire safety and crime prevention. UC Santa Cruz publishes an Annual Security & Fire Safety Report, based on the Jeanne Clery Disclosure of Campus Safety and Campus Crime Statistics Act (commonly referred to as the Clery Act). The report contains detailed information on the campus\u2019s crime and fire prevention programs, as well as campus crime and fire statistics for the past three years. A paper version of the report is available upon request.",
+      "retrieved_at": "2026-04-20T03:12:25.426184+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.ucsc.edu/",
+      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:12:25.426187+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "One of the most extraordinary campuses in the world, UC Santa Cruz pairs high-impact research with 10 residential colleges\u2014offering students the experience of a small liberal arts college with the depth and rigor of a major research university.",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.ucsc.edu/",
+      "source_excerpt": "One of the most extraordinary campuses in the world, UC Santa Cruz pairs high-impact research with 10 residential colleges\u2014offering students the experience of a small liberal arts college with the depth and rigor of a major research university.",
+      "retrieved_at": "2026-04-20T03:12:25.426190+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "UC Santa Cruz does not use ACT or SAT scores in its comprehensive review and selection process.",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.ucsc.edu/first-year-student",
+      "source_excerpt": "UC Santa Cruz does not use standardized exam scores (ACT/SAT) in our comprehensive review and selection process.",
+      "retrieved_at": "2026-04-20T03:48:33.021289+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-20T03:48:33.021299+00:00",
+    "confidence": "phase-5-manual-repair",
+    "unknown_fields": [
+      "admissions.course_rigor",
+      "admissions.recommendations",
+      "admissions.essays"
+    ],
+    "warnings": [
+      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
+      "admissions.course_rigor was reset to unknown during manual cleanup because the earlier auto-extracted text was unrelated to the requested admissions field.",
+      "UC Santa Cruz testing policy was manually repaired from the official first-year student page after the auto-crawl captured Clery/safety disclosure text."
+    ]
+  }
+}

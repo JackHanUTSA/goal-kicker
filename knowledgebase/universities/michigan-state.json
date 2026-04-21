@@ -1,0 +1,99 @@
+{
+  "name": "Michigan State University",
+  "short_name": "Michigan State",
+  "slug": "michigan-state",
+  "rank": 60,
+  "official_domain": "msu.edu",
+  "source_urls": {
+    "admissions": [
+      "https://admissions.msu.edu/",
+      "https://admissions.msu.edu/apply",
+      "https://msu.edu/admission",
+      "https://msu.edu/admissions"
+    ],
+    "majors": [
+      "https://msu.edu/academic-programs",
+      "https://msu.edu/academics",
+      "https://msu.edu/majors"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.msu.edu"
+    ]
+  },
+  "majors": {
+    "count": 400,
+    "count_method": "explicit official page sentence",
+    "titles": [],
+    "notes": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  "admissions": {
+    "application_platform": null,
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "course_rigor": "Enjoy unparalleled academic freedom and flexibility while tailoring a rigorous program of study that fits all of your interests.",
+    "recommendations": "unknown",
+    "essays": "unknown",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "University Research Corridor"
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 400",
+      "classification": "official_requirement",
+      "source_url": "https://msu.edu/academics",
+      "source_excerpt": "Academics Overview Colleges & Programs Education Abroad Graduate Programs Honors College Undergraduate Research Online Programs Academic Calendar Enrollment & Registration Advising Libraries Resource Center for Persons with Disabilities More than 400 programs of study Find yours",
+      "retrieved_at": "2026-04-20T03:06:09.693868+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.msu.edu/",
+      "source_excerpt": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:06:09.693880+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.msu.edu/",
+      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:06:09.693884+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "Enjoy unparalleled academic freedom and flexibility while tailoring a rigorous program of study that fits all of your interests.",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.msu.edu/",
+      "source_excerpt": "Enjoy unparalleled academic freedom and flexibility while tailoring a rigorous program of study that fits all of your interests.",
+      "retrieved_at": "2026-04-20T03:06:09.693887+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-20T03:06:09.693893+00:00",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ],
+    "warnings": [
+      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
+      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence."
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "project_name": "Goal Kicker",
+  "description": "Hermes-like agent that builds a source-backed knowledgebase for top 100 U.S. universities, their majors, and applicant expectations.",
+  "status": "scaffolded",
+  "next_steps": [
+    "Create top 100 university seed list",
+    "Define normalized schema",
+    "Implement one-university ingestion pipeline",
+    "Write markdown and JSON knowledgebase outputs"
+  ],
+  "paths": {
+    "knowledgebase": "knowledgebase/",
+    "implementation_plan": "docs/goal-kicker-implementation-plan.md",
+    "readme": "README.md"
+  }
+}

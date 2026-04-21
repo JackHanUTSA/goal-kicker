@@ -1,0 +1,110 @@
+{
+  "name": "Fordham University",
+  "short_name": "Fordham",
+  "slug": "fordham",
+  "rank": 65,
+  "official_domain": "fordham.edu",
+  "source_urls": {
+    "admissions": [
+      "https://www.fordham.edu/admissions-and-aid/",
+      "https://www.fordham.edu/undergraduate-admission/",
+      "https://www.fordham.edu/undergraduate-admission/apply/"
+    ],
+    "majors": [
+      "https://www.fordham.edu/academic-programs",
+      "https://www.fordham.edu/academics/",
+      "https://www.fordham.edu/majors"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.fordham.edu"
+    ]
+  },
+  "majors": {
+    "count": 36,
+    "count_method": "counted 36 unique major/program-like entries from the cited official page DOM",
+    "titles": [],
+    "notes": "counted 36 unique major/program-like entries from the cited official page DOM",
+    "confidence": "medium"
+  },
+  "admissions": {
+    "application_platform": "Common Application",
+    "testing_policy": "SAT or ACT scores (SAT code: 2259; ACT code: 2748) Please review our additional guidance on test score submission",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "course_rigor": "Fordham is a place where our core curriculum helps you to develop a capacity for critical thought before you ever choose a major .",
+    "recommendations": "Letter of Recommendation from non-family member",
+    "essays": "Visiting Student Application with essay",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "Fordham is a world-class comprehensive research institution ."
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 36",
+      "classification": "official_requirement",
+      "source_url": "https://www.fordham.edu/academics/",
+      "source_excerpt": "Explore Study Abroad Options",
+      "retrieved_at": "2026-04-20T03:06:39.017249+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "SAT or ACT scores (SAT code: 2259; ACT code: 2748) Please review our additional guidance on test score submission",
+      "classification": "official_requirement",
+      "source_url": "https://www.fordham.edu/undergraduate-admission/",
+      "source_excerpt": "SAT or ACT scores (SAT code: 2259; ACT code: 2748) Please review our additional guidance on test score submission",
+      "retrieved_at": "2026-04-20T03:06:39.017259+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "classification": "reported_profile",
+      "source_url": "https://www.fordham.edu/undergraduate-admission/",
+      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:06:39.017263+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "Fordham is a place where our core curriculum helps you to develop a capacity for critical thought before you ever choose a major .",
+      "classification": "reported_profile",
+      "source_url": "https://www.fordham.edu/undergraduate-admission/",
+      "source_excerpt": "Fordham is a place where our core curriculum helps you to develop a capacity for critical thought before you ever choose a major .",
+      "retrieved_at": "2026-04-20T03:06:39.017265+00:00"
+    },
+    {
+      "field": "admissions.recommendations",
+      "claim": "Letter of Recommendation from non-family member",
+      "classification": "official_requirement",
+      "source_url": "https://www.fordham.edu/undergraduate-admission/apply/",
+      "source_excerpt": "Letter of Recommendation from non-family member",
+      "retrieved_at": "2026-04-20T03:06:39.017269+00:00"
+    },
+    {
+      "field": "admissions.essays",
+      "claim": "Visiting Student Application with essay",
+      "classification": "official_requirement",
+      "source_url": "https://www.fordham.edu/undergraduate-admission/apply/",
+      "source_excerpt": "Visiting Student Application with essay",
+      "retrieved_at": "2026-04-20T03:06:39.017273+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-20T03:06:39.017277+00:00",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [],
+    "warnings": [
+      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages."
+    ]
+  }
+}

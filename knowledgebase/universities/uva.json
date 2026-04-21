@@ -1,0 +1,105 @@
+{
+  "name": "University of Virginia",
+  "short_name": "UVA",
+  "slug": "uva",
+  "rank": 28,
+  "official_domain": "virginia.edu",
+  "source_urls": {
+    "admissions": [
+      "https://admission.virginia.edu/",
+      "https://admission.virginia.edu/academics",
+      "https://admission.virginia.edu/admission/deadlines-instructions",
+      "https://admission.virginia.edu/admission/first-year-admission",
+      "https://admissions.virginia.edu/",
+      "https://www.virginia.edu/admission/",
+      "https://www.virginia.edu/admissions"
+    ],
+    "majors": [
+      "https://admission.virginia.edu/academics"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.virginia.edu"
+    ]
+  },
+  "majors": {
+    "count": 0,
+    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "titles": [],
+    "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "confidence": "low"
+  },
+  "admissions": {
+    "application_platform": "Common Application",
+    "testing_policy": "The ACT Writing sections are not used in our review.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "course_rigor": "Your school counselor can submit the secondary school report online. A counselor recommendation can be submitted with the secondary school report. Your academic teacher recommendation should also be submitted online. In addition to the secondary school report, your counselor should submit the school profile and your transcript(s) online.",
+    "recommendations": "Your school counselor can submit the secondary school report online. A counselor recommendation can be submitted with the secondary school report. Your academic teacher recommendation should also be submitted online. In addition to the secondary school report, your counselor should submit the school profile and your transcript(s) online.",
+    "essays": "We are interested in who you are, and we value what you have to say. While AI tools can be helpful in generating ideas and centering your thoughts, essays and personal statements that rely more on AI than your original thoughts miss the mark in one incredibly important way: they lack your voice, your ideas, and your very personal reflection on how your experiences have shaped you.",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "We do not accept resumes, research papers, or supplemental application items that do not fit the criteria for arts supplements."
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "admissions.testing_policy",
+      "claim": "The ACT Writing sections are not used in our review.",
+      "classification": "official_requirement",
+      "source_url": "https://admission.virginia.edu/admission/first-year-admission",
+      "source_excerpt": "The ACT Writing sections are not used in our review.",
+      "retrieved_at": "2026-04-20T03:02:40.808264+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "classification": "reported_profile",
+      "source_url": "https://admission.virginia.edu/admission/first-year-admission",
+      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:02:40.808276+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "Your school counselor can submit the secondary school report online. A counselor recommendation can be submitted with the secondary school report. Your academic teacher recommendation should also be submitted online. In addition to the secondary school report, your counselor should submit the school profile and your transcript(s) online.",
+      "classification": "reported_profile",
+      "source_url": "https://admission.virginia.edu/admission/first-year-admission",
+      "source_excerpt": "Your school counselor can submit the secondary school report online. A counselor recommendation can be submitted with the secondary school report. Your academic teacher recommendation should also be submitted online. In addition to the secondary school report, your counselor should submit the school profile and your transcript(s) online.",
+      "retrieved_at": "2026-04-20T03:02:40.808279+00:00"
+    },
+    {
+      "field": "admissions.recommendations",
+      "claim": "Your school counselor can submit the secondary school report online. A counselor recommendation can be submitted with the secondary school report. Your academic teacher recommendation should also be submitted online. In addition to the secondary school report, your counselor should submit the school profile and your transcript(s) online.",
+      "classification": "official_requirement",
+      "source_url": "https://admission.virginia.edu/admission/first-year-admission",
+      "source_excerpt": "Your school counselor can submit the secondary school report online. A counselor recommendation can be submitted with the secondary school report. Your academic teacher recommendation should also be submitted online. In addition to the secondary school report, your counselor should submit the school profile and your transcript(s) online.",
+      "retrieved_at": "2026-04-20T03:02:40.808285+00:00"
+    },
+    {
+      "field": "admissions.essays",
+      "claim": "We are interested in who you are, and we value what you have to say. While AI tools can be helpful in generating ideas and centering your thoughts, essays and personal statements that rely more on AI than your original thoughts miss the mark in one incredibly important way: they lack your voice, your ideas, and your very personal reflection on how your experiences have shaped you.",
+      "classification": "official_requirement",
+      "source_url": "https://admission.virginia.edu/admission/first-year-admission",
+      "source_excerpt": "We are interested in who you are, and we value what you have to say. While AI tools can be helpful in generating ideas and centering your thoughts, essays and personal statements that rely more on AI than your original thoughts miss the mark in one incredibly important way: they lack your voice, your ideas, and your very personal reflection on how your experiences have shaped you.",
+      "retrieved_at": "2026-04-20T03:02:40.808290+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-20T03:02:40.808295+00:00",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [],
+    "warnings": [
+      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
+      "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page."
+    ]
+  }
+}

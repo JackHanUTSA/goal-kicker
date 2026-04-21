@@ -1,0 +1,99 @@
+{
+  "name": "University of Notre Dame",
+  "short_name": "Notre Dame",
+  "slug": "notre-dame",
+  "rank": 19,
+  "official_domain": "nd.edu",
+  "source_urls": {
+    "admissions": [
+      "https://admissions.nd.edu/",
+      "https://www.nd.edu:443/admission/",
+      "https://www.nd.edu:443/admissions/",
+      "https://www.nd.edu:443/apply/"
+    ],
+    "majors": [
+      "https://www.nd.edu:443/academic-programs/",
+      "https://www.nd.edu:443/academics/",
+      "https://www.nd.edu:443/majors/"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.nd.edu"
+    ]
+  },
+  "majors": {
+    "count": 70,
+    "count_method": "explicit official page sentence",
+    "titles": [],
+    "notes": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  "admissions": {
+    "application_platform": null,
+    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "course_rigor": "At Notre Dame, academic rigor and ethical reflection go hand in hand\u2014preparing students to meet complex global challenges.",
+    "recommendations": "unknown",
+    "essays": "unknown",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "33% of undergraduates involved in research"
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 70",
+      "classification": "official_requirement",
+      "source_url": "https://www.nd.edu:443/academics/",
+      "source_excerpt": "With over 70 undergraduate degree programs and a wide range of renowned graduate and professional programs, Notre Dame provides students with countless ways to explore their interests, grow in knowledge, and become leaders in their chosen fields.",
+      "retrieved_at": "2026-04-20T03:02:10.680876+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.nd.edu/",
+      "source_excerpt": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:02:10.680889+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.nd.edu/",
+      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:02:10.680892+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "At Notre Dame, academic rigor and ethical reflection go hand in hand\u2014preparing students to meet complex global challenges.",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.nd.edu/",
+      "source_excerpt": "At Notre Dame, academic rigor and ethical reflection go hand in hand\u2014preparing students to meet complex global challenges.",
+      "retrieved_at": "2026-04-20T03:02:10.680896+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-20T03:02:10.680902+00:00",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ],
+    "warnings": [
+      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
+      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence."
+    ]
+  }
+}

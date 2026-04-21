@@ -1,0 +1,91 @@
+{
+  "name": "Colorado School of Mines",
+  "short_name": "Colorado Mines",
+  "slug": "colorado-school-of-mines",
+  "rank": 77,
+  "official_domain": "mines.edu",
+  "source_urls": {
+    "admissions": [
+      "https://www.mines.edu/admission",
+      "https://www.mines.edu/admissions/",
+      "https://www.mines.edu/undergraduate-admissions/",
+      "https://www.mines.edu/undergraduate-admissions/apply/"
+    ],
+    "majors": [
+      "https://www.mines.edu/academic-programs",
+      "https://www.mines.edu/academics/",
+      "https://www.mines.edu/majors"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.mines.edu"
+    ]
+  },
+  "majors": {
+    "count": 0,
+    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "titles": [],
+    "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "confidence": "low"
+  },
+  "admissions": {
+    "application_platform": "Common Application",
+    "testing_policy": "31 AVERAGE ACT COMPOSITE SCORE",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "course_rigor": "An official transcript must be requested from the college that awarded the college credit for your CE classes and sent directly to Mines.",
+    "recommendations": "unknown",
+    "essays": "unknown",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "$95M in total research awards"
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "admissions.testing_policy",
+      "claim": "31 AVERAGE ACT COMPOSITE SCORE",
+      "classification": "official_requirement",
+      "source_url": "https://www.mines.edu/undergraduate-admissions/",
+      "source_excerpt": "31 AVERAGE ACT COMPOSITE SCORE",
+      "retrieved_at": "2026-04-20T03:08:15.660725+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "classification": "reported_profile",
+      "source_url": "https://www.mines.edu/undergraduate-admissions/",
+      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:08:15.660736+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "An official transcript must be requested from the college that awarded the college credit for your CE classes and sent directly to Mines.",
+      "classification": "reported_profile",
+      "source_url": "https://www.mines.edu/undergraduate-admissions/",
+      "source_excerpt": "An official transcript must be requested from the college that awarded the college credit for your CE classes and sent directly to Mines.",
+      "retrieved_at": "2026-04-20T03:08:15.660740+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-20T03:08:15.660744+00:00",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ],
+    "warnings": [
+      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
+      "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page."
+    ]
+  }
+}

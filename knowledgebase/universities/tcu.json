@@ -1,0 +1,90 @@
+{
+  "name": "Texas Christian University",
+  "short_name": "TCU",
+  "slug": "tcu",
+  "rank": 69,
+  "official_domain": "tcu.edu",
+  "source_urls": {
+    "admissions": [
+      "https://admissions.tcu.edu/",
+      "https://admissions.tcu.edu/apply/index.php",
+      "https://www.tcu.edu/admission",
+      "https://www.tcu.edu/admissions"
+    ],
+    "majors": [
+      "https://www.tcu.edu/majors",
+      "https://www.tcu.edu:443/academics/"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.tcu.edu"
+    ]
+  },
+  "majors": {
+    "count": 0,
+    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "titles": [],
+    "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "confidence": "low"
+  },
+  "admissions": {
+    "application_platform": null,
+    "testing_policy": "1150-1340 SAT mid-50% range",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "course_rigor": "Academics Contract Academics Menu Colleges & Schools College Credits Majors & Programs Core Curriculum",
+    "recommendations": "unknown",
+    "essays": "unknown",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "Undergraduate Research Stories"
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "admissions.testing_policy",
+      "claim": "1150-1340 SAT mid-50% range",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.tcu.edu/",
+      "source_excerpt": "1150-1340 SAT mid-50% range",
+      "retrieved_at": "2026-04-20T03:07:01.134413+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.tcu.edu/",
+      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:07:01.134425+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "Academics Contract Academics Menu Colleges & Schools College Credits Majors & Programs Core Curriculum",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.tcu.edu/",
+      "source_excerpt": "Academics Contract Academics Menu Colleges & Schools College Credits Majors & Programs Core Curriculum",
+      "retrieved_at": "2026-04-20T03:07:01.134428+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-20T03:07:01.134432+00:00",
+    "confidence": "phase-5-auto-enriched",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ],
+    "warnings": [
+      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
+      "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page."
+    ]
+  }
+}

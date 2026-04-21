@@ -1,0 +1,123 @@
+{
+  "name": "Loyola Marymount University",
+  "short_name": "Loyola Marymount",
+  "slug": "loyola-marymount",
+  "rank": 72,
+  "official_domain": "lmu.edu",
+  "source_urls": {
+    "admissions": [
+      "https://admission.lmu.edu/",
+      "https://admission.lmu.edu/learnmore/prospectivestudents/first-yearapplicants/",
+      "https://www.lmu.edu/apply/"
+    ],
+    "majors": [
+      "https://www.lmu.edu/academics/",
+      "https://www.lmu.edu/majors"
+    ],
+    "testing_policy": [],
+    "general": [
+      "https://www.lmu.edu"
+    ]
+  },
+  "majors": {
+    "count": 100,
+    "count_method": "explicit official page sentence",
+    "titles": [],
+    "notes": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  "admissions": {
+    "application_platform": "Common Application",
+    "testing_policy": "LMU is test-optional for first-year applicants, and it says there is no minimum GPA or test score required for admission.",
+    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "course_rigor": "University Core Curriculum",
+    "recommendations": "unknown",
+    "essays": "unknown",
+    "portfolio_or_audition": null,
+    "international_notes": null,
+    "deadlines": []
+  },
+  "competitive_signals": {
+    "academics": [],
+    "projects_research": [
+      "Coastal Research Institute"
+    ],
+    "extracurriculars": [],
+    "leadership": [],
+    "service": [],
+    "special_notes": []
+  },
+  "evidence": [
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 100",
+      "classification": "official_requirement",
+      "source_url": "https://www.lmu.edu/academics/",
+      "source_excerpt": "LMU offers more than 100 study abroad programs in 47 countries.",
+      "retrieved_at": "2026-04-20T03:07:39.993509+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Jesuit education forms people who think boldly, lead with purpose, and serve others with conviction. Grounded in a 500-year Ignatian tradition, LMU empowers students to pursue excellence, take on real issues, and act with courage and compassion. We shape leaders for and with others, ready for what\u2019s ahead and prepared to move the future forward. This is the LMU difference. This is Jesuit Educated.",
+      "classification": "official_requirement",
+      "source_url": "https://admission.lmu.edu/",
+      "source_excerpt": "Jesuit education forms people who think boldly, lead with purpose, and serve others with conviction. Grounded in a 500-year Ignatian tradition, LMU empowers students to pursue excellence, take on real issues, and act with courage and compassion. We shape leaders for and with others, ready for what\u2019s ahead and prepared to move the future forward. This is the LMU difference. This is Jesuit Educated.",
+      "retrieved_at": "2026-04-20T03:07:39.993521+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "classification": "reported_profile",
+      "source_url": "https://admission.lmu.edu/",
+      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "retrieved_at": "2026-04-20T03:07:39.993525+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "University Core Curriculum",
+      "classification": "reported_profile",
+      "source_url": "https://admission.lmu.edu/",
+      "source_excerpt": "University Core Curriculum",
+      "retrieved_at": "2026-04-20T03:07:39.993528+00:00"
+    },
+    {
+      "field": "admissions.recommendations",
+      "claim": "Admission to LMU is competitive, and the applicant review process is guided by the same philosophy as our education: we consider the whole person. Along with strong academic performance, thoughtful essay responses, and positive recommendations, LMU also takes the time to learn more about you, your achievements, and community contribution. Our thorough evaluation results in a competitive selection of qualified students who are ready to become leaders, entrepreneurs, and unique individuals with and for others.",
+      "classification": "official_requirement",
+      "source_url": "https://www.lmu.edu/apply/",
+      "source_excerpt": "Admission to LMU is competitive, and the applicant review process is guided by the same philosophy as our education: we consider the whole person. Along with strong academic performance, thoughtful essay responses, and positive recommendations, LMU also takes the time to learn more about you, your achievements, and community contribution. Our thorough evaluation results in a competitive selection of qualified students who are ready to become leaders, entrepreneurs, and unique individuals with and for others.",
+      "retrieved_at": "2026-04-20T03:07:39.993532+00:00"
+    },
+    {
+      "field": "admissions.essays",
+      "claim": "Admission to LMU is competitive, and the applicant review process is guided by the same philosophy as our education: we consider the whole person. Along with strong academic performance, thoughtful essay responses, and positive recommendations, LMU also takes the time to learn more about you, your achievements, and community contribution. Our thorough evaluation results in a competitive selection of qualified students who are ready to become leaders, entrepreneurs, and unique individuals with and for others.",
+      "classification": "official_requirement",
+      "source_url": "https://www.lmu.edu/apply/",
+      "source_excerpt": "Admission to LMU is competitive, and the applicant review process is guided by the same philosophy as our education: we consider the whole person. Along with strong academic performance, thoughtful essay responses, and positive recommendations, LMU also takes the time to learn more about you, your achievements, and community contribution. Our thorough evaluation results in a competitive selection of qualified students who are ready to become leaders, entrepreneurs, and unique individuals with and for others.",
+      "retrieved_at": "2026-04-20T03:07:39.993537+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "LMU is test-optional for first-year applicants, and it says there is no minimum GPA or test score required for admission.",
+      "classification": "official_requirement",
+      "source_url": "https://admission.lmu.edu/learnmore/prospectivestudents/first-yearapplicants/",
+      "source_excerpt": "National SAT/ACT test scores (test optional). The ACT or SAT is optional for students. There is no minimum GPA or test score required for admission to LMU, but admission is selective.",
+      "retrieved_at": "2026-04-20T03:48:33.020895+00:00"
+    }
+  ],
+  "verification": {
+    "last_verified_at": "2026-04-20T03:48:33.020908+00:00",
+    "confidence": "phase-5-manual-repair",
+    "unknown_fields": [
+      "admissions.recommendations",
+      "admissions.essays"
+    ],
+    "warnings": [
+      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
+      "admissions.recommendations was reset to unknown during manual cleanup because the earlier auto-extracted text was unrelated to the requested admissions field.",
+      "admissions.essays was reset to unknown during manual cleanup because the earlier auto-extracted text was unrelated to the requested admissions field.",
+      "Loyola Marymount testing policy was manually repaired from the official first-year applicants page after the auto-crawl captured Jesuit brand copy."
+    ]
+  }
+}

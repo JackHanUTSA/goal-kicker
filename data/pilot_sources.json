@@ -1,0 +1,42 @@
+{
+  "mit": {
+    "admissions": [
+      "https://mitadmissions.org/"
+    ],
+    "majors": [
+      "https://firstyear.mit.edu/academics-exploration/major-exploration/"
+    ]
+  },
+  "stanford": {
+    "admissions": [
+      "https://admission.stanford.edu/"
+    ],
+    "majors": [
+      "https://majors.stanford.edu/"
+    ]
+  },
+  "harvard": {
+    "admissions": [
+      "https://college.harvard.edu/admissions"
+    ],
+    "majors": [
+      "https://college.harvard.edu/academics"
+    ]
+  },
+  "uc-berkeley": {
+    "admissions": [
+      "https://admissions.berkeley.edu/"
+    ],
+    "majors": [
+      "https://guide.berkeley.edu/undergraduate/degree-programs/"
+    ]
+  },
+  "michigan": {
+    "admissions": [
+      "https://admissions.umich.edu/"
+    ],
+    "majors": [
+      "https://admissions.umich.edu/academics-majors"
+    ]
+  }
+}
