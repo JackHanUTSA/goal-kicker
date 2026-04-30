@@ -12,18 +12,53 @@
     ],
     "majors": [
       "https://www.clemson.edu/academic-programs",
-      "https://www.clemson.edu/academics/"
+      "https://www.clemson.edu/academics/",
+      "https://www.clemson.edu/admissions/"
     ],
     "testing_policy": [],
     "general": [
       "https://www.clemson.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/242"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_Clemson_University_alumni"
     ]
   },
   "majors": {
     "count": 32,
     "count_method": "counted 32 unique major/program-like entries from the cited official page DOM",
-    "titles": [],
-    "notes": "counted 32 unique major/program-like entries from the cited official page DOM",
+    "titles": [
+      "Discover",
+      "Discover Overview",
+      "Pathways",
+      "High School Counselor Information",
+      "Parent Information",
+      "College Preparation",
+      "Visit",
+      "Visit Overview",
+      "Choose Your Tour",
+      "Things To Do in Clemson",
+      "Travel and Parking",
+      "Become a Tiger",
+      "First-Year Student",
+      "Transfer Student",
+      "International Student",
+      "Veterans",
+      "Returning Student",
+      "Nondegree-Seeking Student",
+      "Afford",
+      "Enroll",
+      "Enroll Overview",
+      "Why Clemson",
+      "New Student Checklist",
+      "Connect",
+      "First-Year Application Guide",
+      "Cost and Aid",
+      "Pathways to Clemson"
+    ],
+    "notes": "counted 32 unique major/program-like entries from the cited official page DOM; titles extracted from official page: https://www.clemson.edu/admissions/",
     "confidence": "medium"
   },
   "admissions": {
@@ -79,19 +114,212 @@
       "source_url": "https://www.clemson.edu/admissions/",
       "source_excerpt": "Dr. Lisa Sams Ebner is among the founding faculty of the Harvey S. Peeler Jr. College of Veterinary Medicine, shaping curriculum and helping set the vision for South Carolina's next generation of veterinarians.",
       "retrieved_at": "2026-04-20T03:06:34.052284+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 27 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://www.clemson.edu/admissions/",
+      "source_excerpt": "Discover; Discover Overview; Pathways; High School Counselor Information; Parent Information; College Preparation; Visit; Visit Overview; Choose Your Tour; Things To Do in Clemson; Travel and Parking; Become a Tiger",
+      "retrieved_at": "2026-04-24T06:55:44.443576+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/242",
+      "source_excerpt": "Matched RateMyProfessors school 'Clemson University' (legacyId=242) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T07:02:53.435902+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 10 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_Clemson_University_alumni",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T08:07:53.642544+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:06:34.052288+00:00",
+    "last_verified_at": "2026-04-25T08:07:53.642548+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.recommendations",
       "admissions.essays"
     ],
     "warnings": [
+      "Major titles extracted from official school source (27 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
-      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence."
+      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'Clemson University' (legacyId=242) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T07:02:53.435891+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Philip Flower",
+          "department": "Physics & Astronomy",
+          "average_rating": 3,
+          "rating_count": 306,
+          "would_take_again_percent": -1,
+          "average_difficulty": 3.3,
+          "legacy_id": 411442,
+          "profile_url": "https://www.ratemyprofessors.com/professor/411442",
+          "source_url": "https://www.ratemyprofessors.com/school/242"
+        },
+        {
+          "rank": 2,
+          "name": "Stephen Schvaneveldt",
+          "department": "Chemistry",
+          "average_rating": 4.9,
+          "rating_count": 286,
+          "would_take_again_percent": 99.3,
+          "average_difficulty": 2.7,
+          "legacy_id": 877511,
+          "profile_url": "https://www.ratemyprofessors.com/professor/877511",
+          "source_url": "https://www.ratemyprofessors.com/school/242"
+        },
+        {
+          "rank": 3,
+          "name": "Nora Espinoza",
+          "department": "Biology",
+          "average_rating": 3.4,
+          "rating_count": 281,
+          "would_take_again_percent": 56.6,
+          "average_difficulty": 3.9,
+          "legacy_id": 1197364,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1197364",
+          "source_url": "https://www.ratemyprofessors.com/school/242"
+        },
+        {
+          "rank": 4,
+          "name": "Dennis Taylor",
+          "department": "Chemistry",
+          "average_rating": 3.4,
+          "rating_count": 242,
+          "would_take_again_percent": 65.5,
+          "average_difficulty": 3.6,
+          "legacy_id": 737550,
+          "profile_url": "https://www.ratemyprofessors.com/professor/737550",
+          "source_url": "https://www.ratemyprofessors.com/school/242"
+        },
+        {
+          "rank": 5,
+          "name": "Amy Pope",
+          "department": "Physics",
+          "average_rating": 3.4,
+          "rating_count": 241,
+          "would_take_again_percent": 74.0,
+          "average_difficulty": 3.2,
+          "legacy_id": 348062,
+          "profile_url": "https://www.ratemyprofessors.com/professor/348062",
+          "source_url": "https://www.ratemyprofessors.com/school/242"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T08:07:53.642523+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Nikki Haley",
+          "description": "American politician and diplomat (born 1972)",
+          "wikipedia_title": "Nikki Haley",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Nikki_Haley",
+          "recent_pageviews": 850434,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Clemson_University_alumni"
+        },
+        {
+          "rank": 2,
+          "name": "Strom Thurmond",
+          "description": "American politician (1902\u20132003)",
+          "wikipedia_title": "Strom Thurmond",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Strom_Thurmond",
+          "recent_pageviews": 644208,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Clemson_University_alumni"
+        },
+        {
+          "rank": 3,
+          "name": "Mark Tremonti",
+          "description": "American rock musician (born 1974)",
+          "wikipedia_title": "Mark Tremonti",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Mark_Tremonti",
+          "recent_pageviews": 239591,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Clemson_University_alumni"
+        },
+        {
+          "rank": 4,
+          "name": "James Michael Tyler",
+          "description": "American actor (1962\u20132021)",
+          "wikipedia_title": "James Michael Tyler",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/James_Michael_Tyler",
+          "recent_pageviews": 239151,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Clemson_University_alumni"
+        },
+        {
+          "rank": 5,
+          "name": "Ian (rapper)",
+          "description": "American rapper (born 2005)",
+          "wikipedia_title": "Ian (rapper)",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Ian_(rapper)",
+          "recent_pageviews": 165902,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Clemson_University_alumni"
+        },
+        {
+          "rank": 6,
+          "name": "Rob Huebel",
+          "description": "American actor and comedian",
+          "wikipedia_title": "Rob Huebel",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Rob_Huebel",
+          "recent_pageviews": 135931,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Clemson_University_alumni"
+        },
+        {
+          "rank": 7,
+          "name": "Mohnish Pabrai",
+          "description": "Indian-American businessman (born 1964)",
+          "wikipedia_title": "Mohnish Pabrai",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Mohnish_Pabrai",
+          "recent_pageviews": 110408,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Clemson_University_alumni"
+        },
+        {
+          "rank": 8,
+          "name": "Nancy O'Dell",
+          "description": "American television personality (born 1966)",
+          "wikipedia_title": "Nancy O'Dell",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Nancy_O'Dell",
+          "recent_pageviews": 104585,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Clemson_University_alumni"
+        },
+        {
+          "rank": 9,
+          "name": "Shawn Weatherly",
+          "description": "American 1980 beauty queen, actress",
+          "wikipedia_title": "Shawn Weatherly",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Shawn_Weatherly",
+          "recent_pageviews": 100890,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Clemson_University_alumni"
+        },
+        {
+          "rank": 10,
+          "name": "James F. Byrnes",
+          "description": "American politician (1882\u20131972)",
+          "wikipedia_title": "James F. Byrnes",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/James_F._Byrnes",
+          "recent_pageviews": 81587,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Clemson_University_alumni"
+        }
+      ]
+    },
+    "warnings": []
   }
 }

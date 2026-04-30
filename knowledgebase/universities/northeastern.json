@@ -17,6 +17,12 @@
     "testing_policy": [],
     "general": [
       "https://www.northeastern.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/696"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_Northeastern_University_people"
     ]
   },
   "majors": {
@@ -71,10 +77,26 @@
       "source_url": "https://admissions.northeastern.edu/",
       "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
       "retrieved_at": "2026-04-20T03:04:27.039151+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/696",
+      "source_excerpt": "Matched RateMyProfessors school 'Northeastern University' (legacyId=696) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T02:22:18.738573+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 10 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_Northeastern_University_people",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T03:25:11.191705+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:04:27.039156+00:00",
+    "last_verified_at": "2026-04-30T00:33:11.199278+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.course_rigor",
@@ -82,8 +104,177 @@
       "admissions.essays"
     ],
     "warnings": [
+      "Major titles still need manual follow-up; no reliable official title list was extracted in this pass.",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
-      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages."
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'Northeastern University' (legacyId=696) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T02:22:18.738560+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Patrick Hurley",
+          "department": "Accounting",
+          "average_rating": 4.9,
+          "rating_count": 249,
+          "would_take_again_percent": 99.1,
+          "average_difficulty": 3,
+          "legacy_id": 2128186,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2128186",
+          "source_url": "https://www.ratemyprofessors.com/school/696"
+        },
+        {
+          "rank": 2,
+          "name": "Sadie Piatt",
+          "department": "Chemistry",
+          "average_rating": 1.5,
+          "rating_count": 217,
+          "would_take_again_percent": 11.1,
+          "average_difficulty": 4.8,
+          "legacy_id": 2935875,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2935875",
+          "source_url": "https://www.ratemyprofessors.com/school/696"
+        },
+        {
+          "rank": 3,
+          "name": "Mary Sue Potts-Santone",
+          "department": "Health Science",
+          "average_rating": 2.9,
+          "rating_count": 214,
+          "would_take_again_percent": 31.7,
+          "average_difficulty": 4.1,
+          "legacy_id": 129984,
+          "profile_url": "https://www.ratemyprofessors.com/professor/129984",
+          "source_url": "https://www.ratemyprofessors.com/school/696"
+        },
+        {
+          "rank": 4,
+          "name": "Balasubrama Maheswaran",
+          "department": "Physics",
+          "average_rating": 4.2,
+          "rating_count": 201,
+          "would_take_again_percent": 70.8,
+          "average_difficulty": 3.2,
+          "legacy_id": 1302816,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1302816",
+          "source_url": "https://www.ratemyprofessors.com/school/696"
+        },
+        {
+          "rank": 5,
+          "name": "Duane Lefevre",
+          "department": "Business",
+          "average_rating": 4.5,
+          "rating_count": 187,
+          "would_take_again_percent": 84.1,
+          "average_difficulty": 3.1,
+          "legacy_id": 1769278,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1769278",
+          "source_url": "https://www.ratemyprofessors.com/school/696"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T03:25:11.191692+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Maggie Hassan",
+          "description": "American politician (born 1958)",
+          "wikipedia_title": "Maggie Hassan",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Maggie_Hassan",
+          "recent_pageviews": 197334,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Northeastern_University_people"
+        },
+        {
+          "rank": 2,
+          "name": "Nikesh Arora",
+          "description": "Indian-American business executive (born 1968)",
+          "wikipedia_title": "Nikesh Arora",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Nikesh_Arora",
+          "recent_pageviews": 173242,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Northeastern_University_people"
+        },
+        {
+          "rank": 3,
+          "name": "Gregory Jarvis",
+          "description": "American engineer and astronaut (1944\u20131986)",
+          "wikipedia_title": "Gregory Jarvis",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Gregory_Jarvis",
+          "recent_pageviews": 170084,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Northeastern_University_people"
+        },
+        {
+          "rank": 4,
+          "name": "Robert DeLeo",
+          "description": "American rock musician",
+          "wikipedia_title": "Robert DeLeo",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_DeLeo",
+          "recent_pageviews": 119876,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Northeastern_University_people"
+        },
+        {
+          "rank": 5,
+          "name": "Biz Stone",
+          "description": "American blogger and co-founder of Twitter (born 1974)",
+          "wikipedia_title": "Biz Stone",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Biz_Stone",
+          "recent_pageviews": 50717,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Northeastern_University_people"
+        },
+        {
+          "rank": 6,
+          "name": "Don Orsillo",
+          "description": "American sportscaster (born 1968)",
+          "wikipedia_title": "Don Orsillo",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Don_Orsillo",
+          "recent_pageviews": 47890,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Northeastern_University_people"
+        },
+        {
+          "rank": 7,
+          "name": "Walter V. Robinson",
+          "description": "American journalist",
+          "wikipedia_title": "Walter V. Robinson",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Walter_V._Robinson",
+          "recent_pageviews": 42346,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Northeastern_University_people"
+        },
+        {
+          "rank": 8,
+          "name": "Mo Cowan",
+          "description": "American politician (born 1969)",
+          "wikipedia_title": "Mo Cowan",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Mo_Cowan",
+          "recent_pageviews": 26767,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Northeastern_University_people"
+        },
+        {
+          "rank": 9,
+          "name": "Andrew Left",
+          "description": "Short seller and author (born 1970)",
+          "wikipedia_title": "Andrew Left",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Andrew_Left",
+          "recent_pageviews": 24645,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Northeastern_University_people"
+        },
+        {
+          "rank": 10,
+          "name": "James Franklin Jeffrey",
+          "description": "American diplomat (born 1946)",
+          "wikipedia_title": "James Franklin Jeffrey",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/James_Franklin_Jeffrey",
+          "recent_pageviews": 18790,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Northeastern_University_people"
+        }
+      ]
+    },
+    "warnings": []
   }
 }

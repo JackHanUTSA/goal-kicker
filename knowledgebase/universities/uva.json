@@ -15,18 +15,73 @@
       "https://www.virginia.edu/admissions"
     ],
     "majors": [
-      "https://admission.virginia.edu/academics"
+      "https://admission.virginia.edu/academics",
+      "https://www.virginia.edu/majors-minors/"
     ],
     "testing_policy": [],
     "general": [
       "https://www.virginia.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/1277"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_University_of_Virginia_people"
     ]
   },
   "majors": {
-    "count": 0,
-    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
-    "titles": [],
-    "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "count": 47,
+    "count_method": "counted extracted undergraduate-major titles from an official page",
+    "titles": [
+      "More to Explore",
+      "Undergraduate Studies",
+      "Aerospace Engineering",
+      "African American and African Studies",
+      "Anthropology",
+      "Architectural History",
+      "Architecture",
+      "Biology",
+      "Chemical Engineering",
+      "Chemistry",
+      "Civil Engineering",
+      "Classics",
+      "Computer Science, B.A. and B.S.",
+      "Drama",
+      "Early Childhood Education, B.S.Ed.",
+      "Electrical Engineering",
+      "Elementary Education, B.S.Ed.",
+      "Engineering Science",
+      "English",
+      "Environmental Sciences",
+      "French",
+      "German",
+      "Interdisciplinary Studies",
+      "Italian",
+      "Jewish Studies",
+      "Materials Science and Engineering",
+      "Mathematics",
+      "Mechanical Engineering",
+      "Media Studies",
+      "Medieval Studies",
+      "Middle Eastern and South Asian Languages and Cultures",
+      "Music",
+      "Neuroscience",
+      "Philosophy",
+      "Political and Social Thought",
+      "Politics",
+      "Psychology",
+      "Public Policy and Leadership",
+      "Religious Studies",
+      "Slavic Languages and Literatures",
+      "South Asian Languages and Literatures",
+      "Special Education, B.S.Ed.",
+      "Speech Communication Disorders, B.S.Ed.",
+      "Systems Engineering",
+      "Urban and Environmental Planning",
+      "Youth & Social Innovation, B.S.Ed.",
+      "National Criminal Justice Command College"
+    ],
+    "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass; titles extracted from official page: https://www.virginia.edu/majors-minors/",
     "confidence": "low"
   },
   "admissions": {
@@ -90,16 +145,209 @@
       "source_url": "https://admission.virginia.edu/admission/first-year-admission",
       "source_excerpt": "We are interested in who you are, and we value what you have to say. While AI tools can be helpful in generating ideas and centering your thoughts, essays and personal statements that rely more on AI than your original thoughts miss the mark in one incredibly important way: they lack your voice, your ideas, and your very personal reflection on how your experiences have shaped you.",
       "retrieved_at": "2026-04-20T03:02:40.808290+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/1277",
+      "source_excerpt": "Matched RateMyProfessors school 'University of Virginia' (legacyId=1277) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T00:20:18.926281+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 10 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Virginia_people",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T00:31:32.055955+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 47 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://www.virginia.edu/majors-minors/",
+      "source_excerpt": "More to Explore; Undergraduate Studies; Aerospace Engineering; African American and African Studies; Anthropology; Architectural History; Architecture; Biology; Chemical Engineering; Chemistry; Civil Engineering; Classics",
+      "retrieved_at": "2026-04-29T23:35:48.481706+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:02:40.808295+00:00",
+    "last_verified_at": "2026-04-29T23:35:48.481715+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [],
     "warnings": [
+      "Major titles extracted from official school source (47 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
-      "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page."
+      "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'University of Virginia' (legacyId=1277) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T00:20:18.926270+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Kenneth Elzinga",
+          "department": "Economics",
+          "average_rating": 3.9,
+          "rating_count": 230,
+          "would_take_again_percent": 46.2,
+          "average_difficulty": 3.3,
+          "legacy_id": 2730,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2730",
+          "source_url": "https://www.ratemyprofessors.com/school/1277"
+        },
+        {
+          "rank": 2,
+          "name": "David Kittlesen",
+          "department": "Biology",
+          "average_rating": 3.9,
+          "rating_count": 200,
+          "would_take_again_percent": 59.7,
+          "average_difficulty": 3.7,
+          "legacy_id": 860968,
+          "profile_url": "https://www.ratemyprofessors.com/professor/860968",
+          "source_url": "https://www.ratemyprofessors.com/school/1277"
+        },
+        {
+          "rank": 3,
+          "name": "Lee Coppock",
+          "department": "Economics",
+          "average_rating": 3.5,
+          "rating_count": 149,
+          "would_take_again_percent": 80,
+          "average_difficulty": 3.3,
+          "legacy_id": 383717,
+          "profile_url": "https://www.ratemyprofessors.com/professor/383717",
+          "source_url": "https://www.ratemyprofessors.com/school/1277"
+        },
+        {
+          "rank": 4,
+          "name": "Dave Metcalf",
+          "department": "Science",
+          "average_rating": 2.5,
+          "rating_count": 119,
+          "would_take_again_percent": 8.3,
+          "average_difficulty": 3.6,
+          "legacy_id": 20749,
+          "profile_url": "https://www.ratemyprofessors.com/professor/20749",
+          "source_url": "https://www.ratemyprofessors.com/school/1277"
+        },
+        {
+          "rank": 5,
+          "name": "Dean Harman",
+          "department": "Chemistry",
+          "average_rating": 4.6,
+          "rating_count": 111,
+          "would_take_again_percent": 92,
+          "average_difficulty": 3.4,
+          "legacy_id": 6004,
+          "profile_url": "https://www.ratemyprofessors.com/professor/6004",
+          "source_url": "https://www.ratemyprofessors.com/school/1277"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T00:31:32.055936+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Georgia O'Keeffe",
+          "description": "American modernist artist (1887\u20131986)",
+          "wikipedia_title": "Georgia O'Keeffe",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Georgia_O'Keeffe",
+          "recent_pageviews": 623623,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Virginia_people"
+        },
+        {
+          "rank": 2,
+          "name": "Steve Huffman",
+          "description": "American web developer and entrepreneur (born 1983)",
+          "wikipedia_title": "Steve Huffman",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Steve_Huffman",
+          "recent_pageviews": 218733,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Virginia_people"
+        },
+        {
+          "rank": 3,
+          "name": "Jerry Falwell Jr.",
+          "description": "American lawyer (born 1962)",
+          "wikipedia_title": "Jerry Falwell Jr.",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Jerry_Falwell_Jr.",
+          "recent_pageviews": 183298,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Virginia_people"
+        },
+        {
+          "rank": 4,
+          "name": "Paul Tudor Jones",
+          "description": "American hedge fund manager and investor (born 1954)",
+          "wikipedia_title": "Paul Tudor Jones",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Paul_Tudor_Jones",
+          "recent_pageviews": 167648,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Virginia_people"
+        },
+        {
+          "rank": 5,
+          "name": "Joanne B. Freeman",
+          "description": "American historian (born 1962)",
+          "wikipedia_title": "Joanne B. Freeman",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Joanne_B._Freeman",
+          "recent_pageviews": 59380,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Virginia_people"
+        },
+        {
+          "rank": 6,
+          "name": "Bank of Canada",
+          "description": "Monetary authority of Canada",
+          "wikipedia_title": "Bank of Canada",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Bank_of_Canada",
+          "recent_pageviews": 55084,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Virginia_people"
+        },
+        {
+          "rank": 7,
+          "name": "Meredith Kopit Levien",
+          "description": "American publisher (born 1971)",
+          "wikipedia_title": "Meredith Kopit Levien",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Meredith_Kopit_Levien",
+          "recent_pageviews": 45149,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Virginia_people"
+        },
+        {
+          "rank": 8,
+          "name": "Engineering physics",
+          "description": "Study of the combined disciplines in natural science and engineering",
+          "wikipedia_title": "Engineering physics",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Engineering_physics",
+          "recent_pageviews": 33177,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Virginia_people"
+        },
+        {
+          "rank": 9,
+          "name": "Larry Sabato",
+          "description": "American political scientist and analyst (born 1952)",
+          "wikipedia_title": "Larry Sabato",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Larry_Sabato",
+          "recent_pageviews": 29059,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Virginia_people"
+        },
+        {
+          "rank": 10,
+          "name": "Lee Ainslie",
+          "description": "American businessman (born 1964)",
+          "wikipedia_title": "Lee Ainslie",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Lee_Ainslie",
+          "recent_pageviews": 19689,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Virginia_people"
+        }
+      ]
+    },
+    "warnings": []
   }
 }

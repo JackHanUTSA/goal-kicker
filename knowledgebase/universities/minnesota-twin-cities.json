@@ -14,18 +14,39 @@
       "https://www.umn.edu/academic-programs",
       "https://www.umn.edu/academics",
       "https://www.umn.edu/majors",
-      "https://www.umn.edu/undergraduate/programs"
+      "https://www.umn.edu/undergraduate/programs",
+      "https://cla.umn.edu/global-studies/undergraduate/major-minor/ba-global-studies"
     ],
     "testing_policy": [],
     "general": [
       "https://www.umn.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/1257"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_University_of_Minnesota_people"
     ]
   },
   "majors": {
-    "count": 0,
-    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
-    "titles": [],
-    "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "count": 13,
+    "count_method": "counted extracted undergraduate-major titles from an official page",
+    "titles": [
+      "BA in Global Studies",
+      "Career Exploration",
+      "Learning Abroad",
+      "Real-World Experience",
+      "Courses",
+      "Scholarships & Grants",
+      "Advising",
+      "Meet Our Students",
+      "Transfer Guide",
+      "Career Paths",
+      "second language requirement",
+      "Global Studies Department Advising",
+      "University of Minnesota Global Undergraduate Leaders Program"
+    ],
+    "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass; titles extracted from official page: https://cla.umn.edu/global-studies/undergraduate/major-minor/ba-global-studies",
     "confidence": "low"
   },
   "admissions": {
@@ -65,10 +86,34 @@
       "source_url": "https://www.umn.edu/admissions",
       "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
       "retrieved_at": "2026-04-20T03:11:48.383553+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/1257",
+      "source_excerpt": "Matched RateMyProfessors school 'University of Minnesota - Twin Cities' (legacyId=1257) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T21:05:10.932244+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 10 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Minnesota_people",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T21:17:22.177769+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 13 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://cla.umn.edu/global-studies/undergraduate/major-minor/ba-global-studies",
+      "source_excerpt": "BA in Global Studies; Career Exploration; Learning Abroad; Real-World Experience; Courses; Scholarships & Grants; Advising; Meet Our Students; Transfer Guide; Career Paths; second language requirement; Global Studies Department Advising",
+      "retrieved_at": "2026-04-30T00:03:00.929373+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:11:48.383557+00:00",
+    "last_verified_at": "2026-04-30T00:03:00.929382+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.course_rigor",
@@ -76,10 +121,179 @@
       "admissions.essays"
     ],
     "warnings": [
+      "Major titles extracted from official school source (13 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
       "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",
-      "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page."
+      "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'University of Minnesota - Twin Cities' (legacyId=1257) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T21:05:10.932232+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Emily Pelton",
+          "department": "Chemistry",
+          "average_rating": 2.3,
+          "rating_count": 748,
+          "would_take_again_percent": 26.2,
+          "average_difficulty": 4.1,
+          "legacy_id": 1925835,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1925835",
+          "source_url": "https://www.ratemyprofessors.com/school/1257"
+        },
+        {
+          "rank": 2,
+          "name": "Michelle Driessen",
+          "department": "Chemistry",
+          "average_rating": 2.5,
+          "rating_count": 570,
+          "would_take_again_percent": 23.6,
+          "average_difficulty": 3.9,
+          "legacy_id": 260962,
+          "profile_url": "https://www.ratemyprofessors.com/professor/260962",
+          "source_url": "https://www.ratemyprofessors.com/school/1257"
+        },
+        {
+          "rank": 3,
+          "name": "Mark Stellmack",
+          "department": "Psychology",
+          "average_rating": 3.9,
+          "rating_count": 301,
+          "would_take_again_percent": 66.3,
+          "average_difficulty": 2.7,
+          "legacy_id": 530037,
+          "profile_url": "https://www.ratemyprofessors.com/professor/530037",
+          "source_url": "https://www.ratemyprofessors.com/school/1257"
+        },
+        {
+          "rank": 4,
+          "name": "Kent Kirkby",
+          "department": "Geology",
+          "average_rating": 4.7,
+          "rating_count": 288,
+          "would_take_again_percent": 85.4,
+          "average_difficulty": 2.5,
+          "legacy_id": 260542,
+          "profile_url": "https://www.ratemyprofessors.com/professor/260542",
+          "source_url": "https://www.ratemyprofessors.com/school/1257"
+        },
+        {
+          "rank": 5,
+          "name": "Chris Dovolis",
+          "department": "Computer Science",
+          "average_rating": 3.3,
+          "rating_count": 281,
+          "would_take_again_percent": 50.8,
+          "average_difficulty": 3.4,
+          "legacy_id": 65686,
+          "profile_url": "https://www.ratemyprofessors.com/professor/65686",
+          "source_url": "https://www.ratemyprofessors.com/school/1257"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T21:17:22.177753+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Ron Johnson",
+          "description": "American politician (born 1955)",
+          "wikipedia_title": "Ron Johnson",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Ron_Johnson",
+          "recent_pageviews": 255505,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Minnesota_people"
+        },
+        {
+          "rank": 2,
+          "name": "Eugene McCarthy",
+          "description": "American politician (1916\u20132005)",
+          "wikipedia_title": "Eugene McCarthy",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Eugene_McCarthy",
+          "recent_pageviews": 215694,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Minnesota_people"
+        },
+        {
+          "rank": 3,
+          "name": "Thomas L. Friedman",
+          "description": "American journalist and author (born 1953)",
+          "wikipedia_title": "Thomas L. Friedman",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Thomas_L._Friedman",
+          "recent_pageviews": 82206,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Minnesota_people"
+        },
+        {
+          "rank": 4,
+          "name": "Nick Begich Sr.",
+          "description": "American politician and educator (1932\u20131972)",
+          "wikipedia_title": "Nick Begich Sr.",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Nick_Begich_Sr.",
+          "recent_pageviews": 71288,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Minnesota_people"
+        },
+        {
+          "rank": 5,
+          "name": "Everett Dirksen",
+          "description": "American politician (1896\u20131969)",
+          "wikipedia_title": "Everett Dirksen",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Everett_Dirksen",
+          "recent_pageviews": 62042,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Minnesota_people"
+        },
+        {
+          "rank": 6,
+          "name": "Brad Finstad",
+          "description": "American politician (born 1976)",
+          "wikipedia_title": "Brad Finstad",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Brad_Finstad",
+          "recent_pageviews": 47529,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Minnesota_people"
+        },
+        {
+          "rank": 7,
+          "name": "Wayne Morse",
+          "description": "American politician (1900\u20131974)",
+          "wikipedia_title": "Wayne Morse",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Wayne_Morse",
+          "recent_pageviews": 31391,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Minnesota_people"
+        },
+        {
+          "rank": 8,
+          "name": "Rick Larsen",
+          "description": "American politician (born 1965)",
+          "wikipedia_title": "Rick Larsen",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Rick_Larsen",
+          "recent_pageviews": 30710,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Minnesota_people"
+        },
+        {
+          "rank": 9,
+          "name": "Dean Barkley",
+          "description": "American lawyer and politician (born 1950)",
+          "wikipedia_title": "Dean Barkley",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Dean_Barkley",
+          "recent_pageviews": 26648,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Minnesota_people"
+        },
+        {
+          "rank": 10,
+          "name": "Ron Kind",
+          "description": "American politician and lawyer (born 1963)",
+          "wikipedia_title": "Ron Kind",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Ron_Kind",
+          "recent_pageviews": 21232,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Minnesota_people"
+        }
+      ]
+    },
+    "warnings": []
   }
 }

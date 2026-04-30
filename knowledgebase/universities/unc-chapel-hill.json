@@ -20,6 +20,12 @@
     "testing_policy": [],
     "general": [
       "https://www.unc.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/1232"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_University_of_North_Carolina_at_Chapel_Hill_alumni"
     ]
   },
   "majors": {
@@ -64,10 +70,26 @@
       "source_url": "https://admissions.unc.edu/apply/first-year-students/",
       "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
       "retrieved_at": "2026-04-20T03:02:43.402523+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/1232",
+      "source_excerpt": "Matched RateMyProfessors school 'The University of North Carolina at Chapel Hill' (legacyId=1232) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-24T16:57:21.862720+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 10 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_North_Carolina_at_Chapel_Hill_alumni",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-24T17:00:36.792596+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:02:43.402527+00:00",
+    "last_verified_at": "2026-04-30T00:26:34.372976+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.course_rigor",
@@ -76,10 +98,179 @@
       "competitive_signals.projects_research"
     ],
     "warnings": [
+      "Major titles still need manual follow-up; no reliable official title list was extracted in this pass.",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
       "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",
-      "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page."
+      "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'The University of North Carolina at Chapel Hill' (legacyId=1232) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-24T16:57:21.862710+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Ketan Mayer-Patel",
+          "department": "Computer Science",
+          "average_rating": 3.7,
+          "rating_count": 451,
+          "would_take_again_percent": 67.3,
+          "average_difficulty": 3.3,
+          "legacy_id": 1592023,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1592023",
+          "source_url": "https://www.ratemyprofessors.com/school/1232"
+        },
+        {
+          "rank": 2,
+          "name": "Elizabeth McLaughlin",
+          "department": "Mathematics",
+          "average_rating": 3.4,
+          "rating_count": 443,
+          "would_take_again_percent": 62.0,
+          "average_difficulty": 3.5,
+          "legacy_id": 488975,
+          "profile_url": "https://www.ratemyprofessors.com/professor/488975",
+          "source_url": "https://www.ratemyprofessors.com/school/1232"
+        },
+        {
+          "rank": 3,
+          "name": "Alaina Garland",
+          "department": "Biology",
+          "average_rating": 3.1,
+          "rating_count": 422,
+          "would_take_again_percent": 53.0,
+          "average_difficulty": 3.9,
+          "legacy_id": 2282569,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2282569",
+          "source_url": "https://www.ratemyprofessors.com/school/1232"
+        },
+        {
+          "rank": 4,
+          "name": "Kristopher Jordan",
+          "department": "Computer Science",
+          "average_rating": 4.3,
+          "rating_count": 377,
+          "would_take_again_percent": 79.5,
+          "average_difficulty": 3.3,
+          "legacy_id": 2057674,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2057674",
+          "source_url": "https://www.ratemyprofessors.com/school/1232"
+        },
+        {
+          "rank": 5,
+          "name": "Todd Austell",
+          "department": "Chemistry",
+          "average_rating": 3.4,
+          "rating_count": 352,
+          "would_take_again_percent": 53.6,
+          "average_difficulty": 4.1,
+          "legacy_id": 179501,
+          "profile_url": "https://www.ratemyprofessors.com/professor/179501",
+          "source_url": "https://www.ratemyprofessors.com/school/1232"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-24T17:00:36.792580+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Christine Blasey Ford",
+          "description": "American professor of psychology (born 1966)",
+          "wikipedia_title": "Christine Blasey Ford",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Christine_Blasey_Ford",
+          "recent_pageviews": 168163,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_North_Carolina_at_Chapel_Hill_alumni"
+        },
+        {
+          "rank": 2,
+          "name": "Dan Ariely",
+          "description": "Israeli-American professor of psychology and behavioral economics (born 1967)",
+          "wikipedia_title": "Dan Ariely",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Dan_Ariely",
+          "recent_pageviews": 157073,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_North_Carolina_at_Chapel_Hill_alumni"
+        },
+        {
+          "rank": 3,
+          "name": "Blake Crouch",
+          "description": "American author (born 1978)",
+          "wikipedia_title": "Blake Crouch",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Blake_Crouch",
+          "recent_pageviews": 138834,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_North_Carolina_at_Chapel_Hill_alumni"
+        },
+        {
+          "rank": 4,
+          "name": "Poppy Z. Brite",
+          "description": "American author (born 1967)",
+          "wikipedia_title": "Poppy Z. Brite",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Poppy_Z._Brite",
+          "recent_pageviews": 65038,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_North_Carolina_at_Chapel_Hill_alumni"
+        },
+        {
+          "rank": 5,
+          "name": "Russell Banks",
+          "description": "American writer of fiction and poetry (1940\u20132023)",
+          "wikipedia_title": "Russell Banks",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Russell_Banks",
+          "recent_pageviews": 39783,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_North_Carolina_at_Chapel_Hill_alumni"
+        },
+        {
+          "rank": 6,
+          "name": "Terry Sanford",
+          "description": "American lawyer and politician (1917\u20131998)",
+          "wikipedia_title": "Terry Sanford",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Terry_Sanford",
+          "recent_pageviews": 38126,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_North_Carolina_at_Chapel_Hill_alumni"
+        },
+        {
+          "rank": 7,
+          "name": "Gordon Gray (politician)",
+          "description": "American politician (1909\u20131982)",
+          "wikipedia_title": "Gordon Gray (politician)",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Gordon_Gray_(politician)",
+          "recent_pageviews": 35280,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_North_Carolina_at_Chapel_Hill_alumni"
+        },
+        {
+          "rank": 8,
+          "name": "Richard Adler",
+          "description": "American lyricist, writer, composer and producer (1921\u20132012)",
+          "wikipedia_title": "Richard Adler",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Richard_Adler",
+          "recent_pageviews": 34385,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_North_Carolina_at_Chapel_Hill_alumni"
+        },
+        {
+          "rank": 9,
+          "name": "Erskine Bowles",
+          "description": "American politician and businessman",
+          "wikipedia_title": "Erskine Bowles",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Erskine_Bowles",
+          "recent_pageviews": 28189,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_North_Carolina_at_Chapel_Hill_alumni"
+        },
+        {
+          "rank": 10,
+          "name": "Odd Arne Westad",
+          "description": "Norwegian historian (born 1960)",
+          "wikipedia_title": "Odd Arne Westad",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Odd_Arne_Westad",
+          "recent_pageviews": 22399,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_North_Carolina_at_Chapel_Hill_alumni"
+        }
+      ]
+    },
+    "warnings": []
   }
 }

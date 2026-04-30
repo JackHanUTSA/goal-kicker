@@ -20,13 +20,64 @@
     "testing_policy": [],
     "general": [
       "https://www.brandeis.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/129"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_Brandeis_University_people"
     ]
   },
   "majors": {
     "count": 47,
     "count_method": "explicit official page sentence",
-    "titles": [],
-    "notes": "explicit official page sentence",
+    "titles": [
+      "unique and exciting careers",
+      "African and African American Studies",
+      "American Studies",
+      "Anthropology",
+      "Art History",
+      "Biochemistry",
+      "Biological Physics",
+      "Biology",
+      "Business",
+      "Classical and Early Mediterranean Studies",
+      "Communication and Media Studies",
+      "Comparative Literature and Culture",
+      "Computer Science",
+      "East Asian Studies",
+      "Economics",
+      "Your Degree, Your Way",
+      "English",
+      "Environmental Studies",
+      "European Cultural Studies",
+      "Film, Television and Interactive Media",
+      "German Studies",
+      "History",
+      "International and Global Studies",
+      "Latin American, Caribbean and Latinx Studies",
+      "Linguistics",
+      "Mathematics",
+      "Music",
+      "Near Eastern and Judaic Studies",
+      "Neuroscience",
+      "Physics",
+      "Politics",
+      "Psychology",
+      "Quantitative Economics",
+      "Russian Studies",
+      "Sociology",
+      "Studio Art",
+      "Theater Arts",
+      "Women's, Gender, and Sexuality Studies",
+      "Arabic Language, Literature and Culture",
+      "Architectural Studies",
+      "Climate Justice, Science, and Policy",
+      "History of Ideas",
+      "Journalism",
+      "Women's, Gender and Sexuality Studies"
+    ],
+    "notes": "explicit official page sentence; titles extracted from official page: https://www.brandeis.edu/admissions/academics/majors-minors.html",
     "confidence": "medium"
   },
   "admissions": {
@@ -82,19 +133,212 @@
       "source_url": "https://www.brandeis.edu:443/admissions/",
       "source_excerpt": "What is the second transcript?",
       "retrieved_at": "2026-04-20T03:04:51.590347+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 44 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://www.brandeis.edu/admissions/academics/majors-minors.html",
+      "source_excerpt": "unique and exciting careers; African and African American Studies; American Studies; Anthropology; Art History; Biochemistry; Biological Physics; Biology; Business; Classical and Early Mediterranean Studies; Communication and Media Studies; Comparative Literature and Culture",
+      "retrieved_at": "2026-04-24T13:55:44.036406+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/129",
+      "source_excerpt": "Matched RateMyProfessors school 'Brandeis University' (legacyId=129) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-24T20:00:38.014362+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 10 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_Brandeis_University_people",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-24T20:01:10.511837+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:04:51.590352+00:00",
+    "last_verified_at": "2026-04-26T23:50:31.183495+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.recommendations",
       "admissions.essays"
     ],
     "warnings": [
+      "Major titles extracted from official school source (44 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
-      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence."
+      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'Brandeis University' (legacyId=129) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-24T20:00:38.014348+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Claudia Novak",
+          "department": "Chemistry",
+          "average_rating": 2.9,
+          "rating_count": 92,
+          "would_take_again_percent": 33.8,
+          "average_difficulty": 4.4,
+          "legacy_id": 1428281,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1428281",
+          "source_url": "https://www.ratemyprofessors.com/school/129"
+        },
+        {
+          "rank": 2,
+          "name": "Antonella Di Lillo",
+          "department": "Computer Science",
+          "average_rating": 3.7,
+          "rating_count": 85,
+          "would_take_again_percent": 61.8,
+          "average_difficulty": 3.9,
+          "legacy_id": 1382565,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1382565",
+          "source_url": "https://www.ratemyprofessors.com/school/129"
+        },
+        {
+          "rank": 3,
+          "name": "Claudia Novack",
+          "department": "Chemistry",
+          "average_rating": 2.6,
+          "rating_count": 83,
+          "would_take_again_percent": 41.0,
+          "average_difficulty": 4.6,
+          "legacy_id": 2156521,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2156521",
+          "source_url": "https://www.ratemyprofessors.com/school/129"
+        },
+        {
+          "rank": 4,
+          "name": "Harry (Michael) Coiner",
+          "department": "Economics",
+          "average_rating": 4.7,
+          "rating_count": 78,
+          "would_take_again_percent": 100,
+          "average_difficulty": 2.4,
+          "legacy_id": 39144,
+          "profile_url": "https://www.ratemyprofessors.com/professor/39144",
+          "source_url": "https://www.ratemyprofessors.com/school/129"
+        },
+        {
+          "rank": 5,
+          "name": "Eli Hirsch",
+          "department": "Philosophy",
+          "average_rating": 4.7,
+          "rating_count": 76,
+          "would_take_again_percent": 100,
+          "average_difficulty": 1.5,
+          "legacy_id": 46085,
+          "profile_url": "https://www.ratemyprofessors.com/professor/46085",
+          "source_url": "https://www.ratemyprofessors.com/school/129"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-24T20:01:10.511823+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Tony Goldwyn",
+          "description": "American actor and director (born 1960)",
+          "wikipedia_title": "Tony Goldwyn",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Tony_Goldwyn",
+          "recent_pageviews": 1193513,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Brandeis_University_people"
+        },
+        {
+          "rank": 2,
+          "name": "Angela Davis",
+          "description": "American academic and political activist (born 1944)",
+          "wikipedia_title": "Angela Davis",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Angela_Davis",
+          "recent_pageviews": 697691,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Brandeis_University_people"
+        },
+        {
+          "rank": 3,
+          "name": "Tyne Daly",
+          "description": "American actress (born 1946)",
+          "wikipedia_title": "Tyne Daly",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Tyne_Daly",
+          "recent_pageviews": 627263,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Brandeis_University_people"
+        },
+        {
+          "rank": 4,
+          "name": "Loretta Devine",
+          "description": "American actress (born 1949)",
+          "wikipedia_title": "Loretta Devine",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Loretta_Devine",
+          "recent_pageviews": 361000,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Brandeis_University_people"
+        },
+        {
+          "rank": 5,
+          "name": "Mitch Albom",
+          "description": "American author and journalist (born 1958)",
+          "wikipedia_title": "Mitch Albom",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Mitch_Albom",
+          "recent_pageviews": 271719,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Brandeis_University_people"
+        },
+        {
+          "rank": 6,
+          "name": "Edward Witten",
+          "description": "American theoretical physicist",
+          "wikipedia_title": "Edward Witten",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Edward_Witten",
+          "recent_pageviews": 218045,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Brandeis_University_people"
+        },
+        {
+          "rank": 7,
+          "name": "Alexander Gould",
+          "description": "American actor (born 1994)",
+          "wikipedia_title": "Alexander Gould",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Alexander_Gould",
+          "recent_pageviews": 170127,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Brandeis_University_people"
+        },
+        {
+          "rank": 8,
+          "name": "Karen Lynn Gorney",
+          "description": "American actress (born 1945)",
+          "wikipedia_title": "Karen Lynn Gorney",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Karen_Lynn_Gorney",
+          "recent_pageviews": 130874,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Brandeis_University_people"
+        },
+        {
+          "rank": 9,
+          "name": "Stuart Damon",
+          "description": "American actor (1937\u20132021)",
+          "wikipedia_title": "Stuart Damon",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Stuart_Damon",
+          "recent_pageviews": 120062,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Brandeis_University_people"
+        },
+        {
+          "rank": 10,
+          "name": "David Crane (producer)",
+          "description": "American writer and producer",
+          "wikipedia_title": "David Crane (producer)",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/David_Crane_(producer)",
+          "recent_pageviews": 117292,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Brandeis_University_people"
+        }
+      ]
+    },
+    "warnings": []
   }
 }

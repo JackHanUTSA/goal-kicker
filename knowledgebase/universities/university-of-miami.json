@@ -18,13 +18,127 @@
     "testing_policy": [],
     "general": [
       "https://www.miami.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/1241"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_University_of_Miami_alumni"
     ]
   },
   "majors": {
     "count": 180,
     "count_method": "explicit official page sentence",
-    "titles": [],
-    "notes": "explicit official page sentence",
+    "titles": [
+      "Audio Technology",
+      "Music",
+      "Music Engineering Technology",
+      "Music Industry",
+      "Default",
+      "More Sites",
+      "\u2019Canes Success Center",
+      "Cognates",
+      "Honors & Scholars Programs",
+      "Dual-Degree Programs",
+      "Experiential Learning",
+      "Academic Resources",
+      "First-Year",
+      "Transfer",
+      "Veterans",
+      "My Application Status",
+      "Transferring Credits",
+      "Counselor Hub",
+      "Scholarships",
+      "Connect",
+      "Group Tours",
+      "Meet Your Guides",
+      "Our City",
+      "About Us",
+      "Class Profile",
+      "Informaci\u00f3n en Espa\u00f1ol",
+      "Find Your Counselor",
+      "Submit My Application",
+      "Visit",
+      "2 Visit",
+      "Academic Bulletin",
+      "Africana Studies",
+      "American Studies",
+      "Anthropology",
+      "Art History",
+      "Biochemistry",
+      "Biology",
+      "Biology Pre-Health",
+      "Chemistry",
+      "Criminology",
+      "Data Science and Artificial Intelligence",
+      "English",
+      "French",
+      "Majors by School or College",
+      "Geography and Sustainable Development",
+      "History",
+      "Judaic Studies",
+      "Materials Science",
+      "Political Science",
+      "Psychology",
+      "Religion and Health Care",
+      "Religious Studies",
+      "Sociology",
+      "Spanish",
+      "Studio Art",
+      "Theatre Arts",
+      "Accounting",
+      "Accounting and Finance",
+      "Business Analytics",
+      "Business Technology",
+      "Economics",
+      "Entrepreneurship",
+      "Finance",
+      "General Business",
+      "Global Business (co-major)",
+      "Legal Studies",
+      "Management",
+      "Marketing",
+      "Organizational Leadership",
+      "Real Estate",
+      "Supply Chain Analytics",
+      "Sustainable Business (co-major)",
+      "Immersive Media",
+      "Community and Applied Psychological Studies",
+      "Data Analytics and Intelligence for Social Impact",
+      "Elementary Education/Exceptional Student Education",
+      "Exercise Physiology",
+      "Sport Administration",
+      "Sports Medicine",
+      "Engineering Science",
+      "Innovation, Technology, and Design",
+      "Software Engineering",
+      "Geological Sciences",
+      "Marine Affairs",
+      "Marine Biology and Ecology",
+      "Marine Science/Biology",
+      "Marine Science/Chemistry",
+      "Marine Science/Computer Science",
+      "Marine Science/Geological Sciences",
+      "Marine Science/Microbiology and Immunology",
+      "Marine Science/Physics",
+      "Meteorology",
+      "Meteorology/Marine Science",
+      "Miami Herbert Business School",
+      "Meteorology/Mathematics",
+      "Oceanography",
+      "Keyboard Performance",
+      "Music Education",
+      "Music Theory and Composition",
+      "Music Therapy",
+      "Studio Music and Jazz Instrumental",
+      "Studio Music and Jazz Voice",
+      "Pre-Professional Tracks",
+      "Biochemistry and Molecular Biology",
+      "Computer Science",
+      "Latin American Studies",
+      "Marine Geology"
+    ],
+    "notes": "explicit official page sentence; titles extracted from official page: https://admissions.miami.edu/undergraduate/academics/majors-by-school-or-college/index.html",
     "confidence": "medium"
   },
   "admissions": {
@@ -80,18 +194,211 @@
       "source_url": "https://admissions.miami.edu/undergraduate/index.html",
       "source_excerpt": "Learn what steps you must follow to have your college-level coursework evaluated for UM credit.",
       "retrieved_at": "2026-04-20T03:05:58.796804+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 107 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://admissions.miami.edu/undergraduate/academics/majors-by-school-or-college/index.html",
+      "source_excerpt": "Audio Technology; Music; Music Engineering Technology; Music Industry; Default; More Sites; \u2019Canes Success Center; Cognates; Honors & Scholars Programs; Dual-Degree Programs; Experiential Learning; Academic Resources",
+      "retrieved_at": "2026-04-24T06:55:28.712572+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/1241",
+      "source_excerpt": "Matched RateMyProfessors school 'University of Miami' (legacyId=1241) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T06:03:43.288883+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 10 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Miami_alumni",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T07:02:48.641513+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:05:58.796809+00:00",
+    "last_verified_at": "2026-04-25T07:02:48.641515+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.recommendations",
       "admissions.essays"
     ],
     "warnings": [
+      "Major titles extracted from official school source (107 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
-      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages."
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'University of Miami' (legacyId=1241) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T06:03:43.288865+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Edward Dauer",
+          "department": "Engineering",
+          "average_rating": 4.4,
+          "rating_count": 418,
+          "would_take_again_percent": 100,
+          "average_difficulty": 2.7,
+          "legacy_id": 154290,
+          "profile_url": "https://www.ratemyprofessors.com/professor/154290",
+          "source_url": "https://www.ratemyprofessors.com/school/1241"
+        },
+        {
+          "rank": 2,
+          "name": "Michael Gaines",
+          "department": "Biology",
+          "average_rating": 2.9,
+          "rating_count": 303,
+          "would_take_again_percent": 32.6,
+          "average_difficulty": 4.4,
+          "legacy_id": 1318252,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1318252",
+          "source_url": "https://www.ratemyprofessors.com/school/1241"
+        },
+        {
+          "rank": 3,
+          "name": "Roderick Gillis",
+          "department": "Psychology",
+          "average_rating": 4.2,
+          "rating_count": 271,
+          "would_take_again_percent": 83.0,
+          "average_difficulty": 2.6,
+          "legacy_id": 343857,
+          "profile_url": "https://www.ratemyprofessors.com/professor/343857",
+          "source_url": "https://www.ratemyprofessors.com/school/1241"
+        },
+        {
+          "rank": 4,
+          "name": "Charles Mallery",
+          "department": "Biology",
+          "average_rating": 2.7,
+          "rating_count": 219,
+          "would_take_again_percent": 33.3,
+          "average_difficulty": 3.4,
+          "legacy_id": 559271,
+          "profile_url": "https://www.ratemyprofessors.com/professor/559271",
+          "source_url": "https://www.ratemyprofessors.com/school/1241"
+        },
+        {
+          "rank": 5,
+          "name": "Joy Beverly",
+          "department": "Mathematics",
+          "average_rating": 3.8,
+          "rating_count": 212,
+          "would_take_again_percent": 58.2,
+          "average_difficulty": 3.1,
+          "legacy_id": 152856,
+          "profile_url": "https://www.ratemyprofessors.com/professor/152856",
+          "source_url": "https://www.ratemyprofessors.com/school/1241"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T07:02:48.641472+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Rohan Marley",
+          "description": "Son of Bob Marley (born 1972)",
+          "wikipedia_title": "Rohan Marley",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Rohan_Marley",
+          "recent_pageviews": 485221,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Miami_alumni"
+        },
+        {
+          "rank": 2,
+          "name": "Majel Barrett",
+          "description": "American actress (1932\u20132008)",
+          "wikipedia_title": "Majel Barrett",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Majel_Barrett",
+          "recent_pageviews": 393255,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Miami_alumni"
+        },
+        {
+          "rank": 3,
+          "name": "David A. Siegel",
+          "description": "American businessman (1935\u20132025)",
+          "wikipedia_title": "David A. Siegel",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/David_A._Siegel",
+          "recent_pageviews": 193850,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Miami_alumni"
+        },
+        {
+          "rank": 4,
+          "name": "Somy Ali",
+          "description": "Pakistani actress (born 1976)",
+          "wikipedia_title": "Somy Ali",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Somy_Ali",
+          "recent_pageviews": 136124,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Miami_alumni"
+        },
+        {
+          "rank": 5,
+          "name": "Micky Arison",
+          "description": "American billionaire and businessman",
+          "wikipedia_title": "Micky Arison",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Micky_Arison",
+          "recent_pageviews": 111269,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Miami_alumni"
+        },
+        {
+          "rank": 6,
+          "name": "Bakr bin Laden",
+          "description": "Saudi businessman (born 1946)",
+          "wikipedia_title": "Bakr bin Laden",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Bakr_bin_Laden",
+          "recent_pageviews": 98210,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Miami_alumni"
+        },
+        {
+          "rank": 7,
+          "name": "Lyor Cohen",
+          "description": "American music industry executive",
+          "wikipedia_title": "Lyor Cohen",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Lyor_Cohen",
+          "recent_pageviews": 86851,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Miami_alumni"
+        },
+        {
+          "rank": 8,
+          "name": "Maurice R. Greenberg",
+          "description": "American business executive (born 1925)",
+          "wikipedia_title": "Maurice R. Greenberg",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Maurice_R._Greenberg",
+          "recent_pageviews": 55208,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Miami_alumni"
+        },
+        {
+          "rank": 9,
+          "name": "Alan Campbell (actor)",
+          "description": "American actor (born 1957)",
+          "wikipedia_title": "Alan Campbell (actor)",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Alan_Campbell_(actor)",
+          "recent_pageviews": 33542,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Miami_alumni"
+        },
+        {
+          "rank": 10,
+          "name": "Noah Tepperberg",
+          "description": "American businessman",
+          "wikipedia_title": "Noah Tepperberg",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Noah_Tepperberg",
+          "recent_pageviews": 30550,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Miami_alumni"
+        }
+      ]
+    },
+    "warnings": []
   }
 }

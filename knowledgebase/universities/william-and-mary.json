@@ -12,18 +12,33 @@
     "majors": [
       "https://www.wm.edu/academic-programs",
       "https://www.wm.edu/academics/",
-      "https://www.wm.edu/majors"
+      "https://www.wm.edu/majors",
+      "https://www.wm.edu/academics/undergraduateprograms/"
     ],
     "testing_policy": [],
     "general": [
       "https://www.wm.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/269"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_College_of_William_%26_Mary_alumni"
     ]
   },
   "majors": {
     "count": 100,
     "count_method": "explicit official page sentence",
-    "titles": [],
-    "notes": "explicit official page sentence",
+    "titles": [
+      "Find Academic Support at W&M",
+      "Topics",
+      "Academic Resources",
+      "Program Finder",
+      "Explore All Programs",
+      "COLL Curriculum",
+      "Explore Programs"
+    ],
+    "notes": "explicit official page sentence; titles extracted from official page: https://www.wm.edu/academics/undergraduateprograms/",
     "confidence": "medium"
   },
   "admissions": {
@@ -95,16 +110,176 @@
       "source_url": "https://www.wm.edu/admission/undergraduateadmission/how-to-apply/",
       "source_excerpt": "William & Mary practices holistic review; decisions are not based solely on one aspect of your application (Common App) . Rather, we review your essays, letters of recommendation, extracurricular involvements, and yes, those numbers like GPAs and standardized test scores (which are optional). Each application is read at least twice, including once by your regional counselor . At the end of this process, our goal is to bring together a class of dynamic, diverse and academically engaged students.",
       "retrieved_at": "2026-04-20T03:04:42.567897+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/269",
+      "source_excerpt": "Matched RateMyProfessors school 'College of William and Mary' (legacyId=269) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-24T19:57:31.528095+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 6 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_College_of_William_%26_Mary_alumni",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-24T20:00:16.727879+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 7 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://www.wm.edu/academics/undergraduateprograms/",
+      "source_excerpt": "Find Academic Support at W&M; Topics; Academic Resources; Program Finder; Explore All Programs; COLL Curriculum; Explore Programs",
+      "retrieved_at": "2026-04-29T23:37:00.912448+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:04:42.567902+00:00",
+    "last_verified_at": "2026-04-29T23:37:00.912459+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [],
     "warnings": [
+      "Major titles extracted from official school source (7 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
-      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence."
+      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
+    ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'College of William and Mary' (legacyId=269) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-24T19:57:31.528080+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "M. Christine Porter",
+          "department": "Psychology",
+          "average_rating": 3.7,
+          "rating_count": 231,
+          "would_take_again_percent": 71.9,
+          "average_difficulty": 2.8,
+          "legacy_id": 521119,
+          "profile_url": "https://www.ratemyprofessors.com/professor/521119",
+          "source_url": "https://www.ratemyprofessors.com/school/269"
+        },
+        {
+          "rank": 2,
+          "name": "Constance Pilkington",
+          "department": "Psychology",
+          "average_rating": 3.2,
+          "rating_count": 224,
+          "would_take_again_percent": 31.2,
+          "average_difficulty": 2.7,
+          "legacy_id": 1635,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1635",
+          "source_url": "https://www.ratemyprofessors.com/school/269"
+        },
+        {
+          "rank": 3,
+          "name": "Katie Lopresti",
+          "department": "Economics",
+          "average_rating": 3.8,
+          "rating_count": 204,
+          "would_take_again_percent": 64.3,
+          "average_difficulty": 3.2,
+          "legacy_id": 2070596,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2070596",
+          "source_url": "https://www.ratemyprofessors.com/school/269"
+        },
+        {
+          "rank": 4,
+          "name": "Patricia Habersham",
+          "department": "Biology",
+          "average_rating": 3,
+          "rating_count": 203,
+          "would_take_again_percent": 45.8,
+          "average_difficulty": 4.2,
+          "legacy_id": 2505417,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2505417",
+          "source_url": "https://www.ratemyprofessors.com/school/269"
+        },
+        {
+          "rank": 5,
+          "name": "Peter McHenry",
+          "department": "Economics",
+          "average_rating": 4.2,
+          "rating_count": 178,
+          "would_take_again_percent": 82.0,
+          "average_difficulty": 3,
+          "legacy_id": 1318778,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1318778",
+          "source_url": "https://www.ratemyprofessors.com/school/269"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-24T20:00:16.727866+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Virginia House of Delegates",
+          "description": "Lower house of the Virginia General Assembly",
+          "wikipedia_title": "Virginia House of Delegates",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Virginia_House_of_Delegates",
+          "recent_pageviews": 170707,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_College_of_William_%26_Mary_alumni"
+        },
+        {
+          "rank": 2,
+          "name": "Kentucky House of Representatives",
+          "description": "Lower house of the Kentucky General Assembly",
+          "wikipedia_title": "Kentucky House of Representatives",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Kentucky_House_of_Representatives",
+          "recent_pageviews": 40091,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_College_of_William_%26_Mary_alumni"
+        },
+        {
+          "rank": 3,
+          "name": "Virginia Senate",
+          "description": "Upper house of the Virginia General Assembly",
+          "wikipedia_title": "Virginia Senate",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Virginia_Senate",
+          "recent_pageviews": 33370,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_College_of_William_%26_Mary_alumni"
+        },
+        {
+          "rank": 4,
+          "name": "Guy D. Goff",
+          "description": "American lawyer and politician (1866\u20131933)",
+          "wikipedia_title": "Guy D. Goff",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Guy_D._Goff",
+          "recent_pageviews": 2547,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_College_of_William_%26_Mary_alumni"
+        },
+        {
+          "rank": 5,
+          "name": "Warren Buck",
+          "description": "African American physicist",
+          "wikipedia_title": "Warren Buck",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Warren_Buck",
+          "recent_pageviews": 1019,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_College_of_William_%26_Mary_alumni"
+        },
+        {
+          "rank": 6,
+          "name": "New Jersey Attorney General",
+          "description": "Member of the New Jersey executive cabinet",
+          "wikipedia_title": "New Jersey Attorney General",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/New_Jersey_Attorney_General",
+          "recent_pageviews": 122,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_College_of_William_%26_Mary_alumni"
+        }
+      ]
+    },
+    "warnings": [
+      "Only identified 6 alumni candidates that looked like people.",
+      "Only ranked 6 successful alumni items."
     ]
   }
 }

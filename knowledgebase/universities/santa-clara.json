@@ -17,6 +17,12 @@
     "testing_policy": [],
     "general": [
       "https://www.scu.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/882"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_Santa_Clara_University_people"
     ]
   },
   "majors": {
@@ -79,19 +85,204 @@
       "source_url": "https://slate.scu.edu/apply/",
       "source_excerpt": "community-based coursework",
       "retrieved_at": "2026-04-20T03:05:29.727286+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/882",
+      "source_excerpt": "Matched RateMyProfessors school 'Santa Clara University' (legacyId=882) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T21:30:34.943323+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 10 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_Santa_Clara_University_people",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T22:10:22.188745+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:05:29.727291+00:00",
+    "last_verified_at": "2026-04-30T00:37:07.758846+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.recommendations",
       "admissions.essays"
     ],
     "warnings": [
+      "Major titles still need manual follow-up; no reliable official title list was extracted in this pass.",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
-      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence."
+      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'Santa Clara University' (legacyId=882) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T21:30:34.943314+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Amr Elkady",
+          "department": "Computer Science",
+          "average_rating": 4.5,
+          "rating_count": 194,
+          "would_take_again_percent": 89.6,
+          "average_difficulty": 3.7,
+          "legacy_id": 1996092,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1996092",
+          "source_url": "https://www.ratemyprofessors.com/school/882"
+        },
+        {
+          "rank": 2,
+          "name": "Laurie Poe",
+          "department": "Mathematics",
+          "average_rating": 4.5,
+          "rating_count": 170,
+          "would_take_again_percent": 83,
+          "average_difficulty": 3.3,
+          "legacy_id": 47839,
+          "profile_url": "https://www.ratemyprofessors.com/professor/47839",
+          "source_url": "https://www.ratemyprofessors.com/school/882"
+        },
+        {
+          "rank": 3,
+          "name": "Sumana Sur",
+          "department": "Business",
+          "average_rating": 3.2,
+          "rating_count": 146,
+          "would_take_again_percent": 56.6,
+          "average_difficulty": 2.8,
+          "legacy_id": 125677,
+          "profile_url": "https://www.ratemyprofessors.com/professor/125677",
+          "source_url": "https://www.ratemyprofessors.com/school/882"
+        },
+        {
+          "rank": 4,
+          "name": "Keyvan Moataghed",
+          "department": "Computer Science",
+          "average_rating": 4.3,
+          "rating_count": 132,
+          "would_take_again_percent": 72.7,
+          "average_difficulty": 2.7,
+          "legacy_id": 992788,
+          "profile_url": "https://www.ratemyprofessors.com/professor/992788",
+          "source_url": "https://www.ratemyprofessors.com/school/882"
+        },
+        {
+          "rank": 5,
+          "name": "Natalie Linnell",
+          "department": "Computer Science",
+          "average_rating": 2,
+          "rating_count": 123,
+          "would_take_again_percent": 22.5,
+          "average_difficulty": 4,
+          "legacy_id": 1803411,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1803411",
+          "source_url": "https://www.ratemyprofessors.com/school/882"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T22:10:22.188730+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Shemar Moore",
+          "description": "American actor (born 1970)",
+          "wikipedia_title": "Shemar Moore",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Shemar_Moore",
+          "recent_pageviews": 959509,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Santa_Clara_University_people"
+        },
+        {
+          "rank": 2,
+          "name": "Ezra Klein",
+          "description": "American journalist (born 1984)",
+          "wikipedia_title": "Ezra Klein",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Ezra_Klein",
+          "recent_pageviews": 691692,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Santa_Clara_University_people"
+        },
+        {
+          "rank": 3,
+          "name": "Jackie Coogan",
+          "description": "American actor (1914\u20131984)",
+          "wikipedia_title": "Jackie Coogan",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Jackie_Coogan",
+          "recent_pageviews": 527583,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Santa_Clara_University_people"
+        },
+        {
+          "rank": 4,
+          "name": "Kurtwood Smith",
+          "description": "American actor (born 1943)",
+          "wikipedia_title": "Kurtwood Smith",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Kurtwood_Smith",
+          "recent_pageviews": 447204,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Santa_Clara_University_people"
+        },
+        {
+          "rank": 5,
+          "name": "Chris Malachowsky",
+          "description": "American electrical engineer (born 1959)",
+          "wikipedia_title": "Chris Malachowsky",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Chris_Malachowsky",
+          "recent_pageviews": 275791,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Santa_Clara_University_people"
+        },
+        {
+          "rank": 6,
+          "name": "Michael Trucco",
+          "description": "American actor (born 1970)",
+          "wikipedia_title": "Michael Trucco",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Trucco",
+          "recent_pageviews": 258704,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Santa_Clara_University_people"
+        },
+        {
+          "rank": 7,
+          "name": "Khaled Hosseini",
+          "description": "Afghan-American novelist (born 1965)",
+          "wikipedia_title": "Khaled Hosseini",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Khaled_Hosseini",
+          "recent_pageviews": 247475,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Santa_Clara_University_people"
+        },
+        {
+          "rank": 8,
+          "name": "Jorma Kaukonen",
+          "description": "American guitarist (born 1940)",
+          "wikipedia_title": "Jorma Kaukonen",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Jorma_Kaukonen",
+          "recent_pageviews": 199284,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Santa_Clara_University_people"
+        },
+        {
+          "rank": 9,
+          "name": "Andy Devine",
+          "description": "American actor (1905\u20131977)",
+          "wikipedia_title": "Andy Devine",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Andy_Devine",
+          "recent_pageviews": 191880,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Santa_Clara_University_people"
+        },
+        {
+          "rank": 10,
+          "name": "Paul Kantner",
+          "description": "American rock musician (1941\u20132016)",
+          "wikipedia_title": "Paul Kantner",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Paul_Kantner",
+          "recent_pageviews": 168416,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Santa_Clara_University_people"
+        }
+      ]
+    },
+    "warnings": []
   }
 }

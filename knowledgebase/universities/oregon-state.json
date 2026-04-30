@@ -11,18 +11,42 @@
     ],
     "majors": [
       "https://oregonstate.edu/academics",
-      "https://oregonstate.edu/majors"
+      "https://oregonstate.edu/majors",
+      "https://ecampus.oregonstate.edu/online-degrees/topics/"
     ],
     "testing_policy": [],
     "general": [
       "https://www.oregonstate.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/742"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_Oregon_State_University_alumni"
     ]
   },
   "majors": {
     "count": 200,
     "count_method": "explicit official page sentence",
-    "titles": [],
-    "notes": "explicit official page sentence",
+    "titles": [
+      "Liberal Studies",
+      "Aging Studies",
+      "Climate Change Solutions",
+      "Cybersecurity",
+      "Design for Social Impact",
+      "Environmental Justice",
+      "Food in Culture and Social Justice",
+      "Geographic Information Science (GIScience)",
+      "Global Learning",
+      "Horticultural Therapy",
+      "Humanitarian Engineering",
+      "Medical Humanities",
+      "Organizational Leadership",
+      "Women, Gender, and Sexuality Studies",
+      "Undergraduate Degrees & Courses Undergraduate Degrees",
+      "Honors Degree"
+    ],
+    "notes": "explicit official page sentence; titles extracted from official page: https://ecampus.oregonstate.edu/online-degrees/topics/",
     "confidence": "medium"
   },
   "admissions": {
@@ -70,10 +94,34 @@
       "source_url": "https://admissions.oregonstate.edu/",
       "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
       "retrieved_at": "2026-04-20T03:12:35.477777+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/742",
+      "source_excerpt": "Matched RateMyProfessors school 'Oregon State University' (legacyId=742) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T16:03:20.793963+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 10 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_Oregon_State_University_alumni",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T17:04:07.913412+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 16 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://ecampus.oregonstate.edu/online-degrees/topics/",
+      "source_excerpt": "Liberal Studies; Aging Studies; Climate Change Solutions; Cybersecurity; Design for Social Impact; Environmental Justice; Food in Culture and Social Justice; Geographic Information Science (GIScience); Global Learning; Horticultural Therapy; Humanitarian Engineering; Medical Humanities",
+      "retrieved_at": "2026-04-29T23:40:07.426685+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:12:35.477783+00:00",
+    "last_verified_at": "2026-04-29T23:40:07.426695+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.course_rigor",
@@ -81,9 +129,178 @@
       "admissions.essays"
     ],
     "warnings": [
+      "Major titles extracted from official school source (16 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
-      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence."
+      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'Oregon State University' (legacyId=742) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T16:03:20.793947+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Richard Nafshun",
+          "department": "Chemistry",
+          "average_rating": 4.7,
+          "rating_count": 443,
+          "would_take_again_percent": 93.7,
+          "average_difficulty": 2.2,
+          "legacy_id": 156874,
+          "profile_url": "https://www.ratemyprofessors.com/professor/156874",
+          "source_url": "https://www.ratemyprofessors.com/school/742"
+        },
+        {
+          "rank": 2,
+          "name": "Kenneth C Walsh",
+          "department": "Physics",
+          "average_rating": 4,
+          "rating_count": 288,
+          "would_take_again_percent": 61.5,
+          "average_difficulty": 4.1,
+          "legacy_id": 1600214,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1600214",
+          "source_url": "https://www.ratemyprofessors.com/school/742"
+        },
+        {
+          "rank": 3,
+          "name": "Daniel Myles",
+          "department": "Chemistry",
+          "average_rating": 4.8,
+          "rating_count": 276,
+          "would_take_again_percent": 98.3,
+          "average_difficulty": 3.1,
+          "legacy_id": 1083513,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1083513",
+          "source_url": "https://www.ratemyprofessors.com/school/742"
+        },
+        {
+          "rank": 4,
+          "name": "Stephen Scarborough",
+          "department": "Mathematics",
+          "average_rating": 2.4,
+          "rating_count": 234,
+          "would_take_again_percent": 33.3,
+          "average_difficulty": 3.9,
+          "legacy_id": 132556,
+          "profile_url": "https://www.ratemyprofessors.com/professor/132556",
+          "source_url": "https://www.ratemyprofessors.com/school/742"
+        },
+        {
+          "rank": 5,
+          "name": "Scott Peterson",
+          "department": "Mathematics",
+          "average_rating": 2,
+          "rating_count": 221,
+          "would_take_again_percent": 10.1,
+          "average_difficulty": 4,
+          "legacy_id": 169344,
+          "profile_url": "https://www.ratemyprofessors.com/professor/169344",
+          "source_url": "https://www.ratemyprofessors.com/school/742"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T17:04:07.913394+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Sara Jean Underwood",
+          "description": "American model (born 1984)",
+          "wikipedia_title": "Sara Jean Underwood",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Sara_Jean_Underwood",
+          "recent_pageviews": 254277,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Oregon_State_University_alumni"
+        },
+        {
+          "rank": 2,
+          "name": "Kendra Sunderland",
+          "description": "American pornographic actress (born 1995)",
+          "wikipedia_title": "Kendra Sunderland",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Kendra_Sunderland",
+          "recent_pageviews": 232539,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Oregon_State_University_alumni"
+        },
+        {
+          "rank": 3,
+          "name": "Beau Mirchoff",
+          "description": "American and Canadian actor (born 1989)",
+          "wikipedia_title": "Beau Mirchoff",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Beau_Mirchoff",
+          "recent_pageviews": 141169,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Oregon_State_University_alumni"
+        },
+        {
+          "rank": 4,
+          "name": "John Brotherton",
+          "description": "American actor born (born 1980)",
+          "wikipedia_title": "John Brotherton",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/John_Brotherton",
+          "recent_pageviews": 100737,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Oregon_State_University_alumni"
+        },
+        {
+          "rank": 5,
+          "name": "Kevin Hagen",
+          "description": "American actor (1928-2005)",
+          "wikipedia_title": "Kevin Hagen",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Kevin_Hagen",
+          "recent_pageviews": 92932,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Oregon_State_University_alumni"
+        },
+        {
+          "rank": 6,
+          "name": "Pinto Colvig",
+          "description": "American voice actor (1892\u20131967)",
+          "wikipedia_title": "Pinto Colvig",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Pinto_Colvig",
+          "recent_pageviews": 77480,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Oregon_State_University_alumni"
+        },
+        {
+          "rank": 7,
+          "name": "Peggy Cherng",
+          "description": "American businesswoman (born 1947/48)",
+          "wikipedia_title": "Peggy Cherng",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Peggy_Cherng",
+          "recent_pageviews": 64967,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Oregon_State_University_alumni"
+        },
+        {
+          "rank": 8,
+          "name": "Jodi Ann Paterson",
+          "description": "Indonesian-born American actress and model (born 1975)",
+          "wikipedia_title": "Jodi Ann Paterson",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Jodi_Ann_Paterson",
+          "recent_pageviews": 48640,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Oregon_State_University_alumni"
+        },
+        {
+          "rank": 9,
+          "name": "Meghna Chakrabarti",
+          "description": "American journalist and radio producer",
+          "wikipedia_title": "Meghna Chakrabarti",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Meghna_Chakrabarti",
+          "recent_pageviews": 45015,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Oregon_State_University_alumni"
+        },
+        {
+          "rank": 10,
+          "name": "John Ensign",
+          "description": "American veterinarian and politician (born 1958)",
+          "wikipedia_title": "John Ensign",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/John_Ensign",
+          "recent_pageviews": 35606,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Oregon_State_University_alumni"
+        }
+      ]
+    },
+    "warnings": []
   }
 }

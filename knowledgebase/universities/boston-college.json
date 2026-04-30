@@ -15,18 +15,93 @@
       "https://www.bc.edu/content/bc-web/admission/apply/admission-offices.html"
     ],
     "majors": [
-      "https://www.bc.edu/content/bc-web/admission/academics.html"
+      "https://www.bc.edu/content/bc-web/admission/academics.html",
+      "https://www.bc.edu/content/bc-web/admission/majors-minors.html"
     ],
     "testing_policy": [],
     "general": [
       "https://www.bc.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/122"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_Boston_College_people"
     ]
   },
   "majors": {
-    "count": 0,
-    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
-    "titles": [],
-    "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "count": 67,
+    "count_method": "counted extracted undergraduate-major titles from an official page",
+    "titles": [
+      "Carroll School Undergraduate Programs",
+      "Connell School Undergraduate Programs",
+      "Nursin",
+      "Global Public Health and the Common Good",
+      "Lynch School Undergraduate Programs",
+      "American Heritages",
+      "Applied Psychology and Human Development",
+      "Elementary Education",
+      "Mathematics/Computer Science",
+      "Perspectives on Spanish America",
+      "Secondary Education",
+      "Transformative Educational Studies",
+      "Communication",
+      "Cyberstrategy and Design",
+      "Design Thinking and Innovation",
+      "Educational Theatre",
+      "Leadership in Higher Education and Community Settings",
+      "Immigration, Education, and Humanitarian Studies",
+      "Restorative and Transformational Justice",
+      "Special Education",
+      "Foundation in Education",
+      "Inclusive Education",
+      "Morrissey College Undergraduate Programs",
+      "African and African Diaspora Studies",
+      "Applied Physics",
+      "Art History",
+      "Biochemistry",
+      "Biology",
+      "Chemistry",
+      "Classical Studies",
+      "Economics",
+      "Environmental Geoscience",
+      "Environmental Studies",
+      "Film Studies",
+      "French",
+      "Geological Sciences",
+      "German Studies",
+      "Hispanic Studies",
+      "History",
+      "Independent",
+      "Islamic Civilization and Societies",
+      "Italian",
+      "Linguistics",
+      "Mathematics",
+      "Music",
+      "Neuroscience",
+      "Philosophy",
+      "Physics",
+      "Political Science",
+      "Psychology",
+      "Russian",
+      "Slavic Studies",
+      "Sociology",
+      "Theatre",
+      "Theology",
+      "Ancient Civilization",
+      "Ancient Greek",
+      "Arabic",
+      "Chinese",
+      "Dance",
+      "Data Science",
+      "East European and Eurasian Studies",
+      "German",
+      "Medical Humanities, Health, and Culture",
+      "Women's & Gender Studies",
+      "BC Core Courses",
+      "Explore Courses"
+    ],
+    "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass; titles extracted from official page: https://www.bc.edu/content/bc-web/admission/majors-minors.html",
     "confidence": "low"
   },
   "admissions": {
@@ -90,16 +165,209 @@
       "source_url": "https://www.bc.edu/content/bc-web/admission/apply.html",
       "source_excerpt": "The Boston College Writing Supplement must be submitted along with your application to Boston College at www.commonapp.org . Please do not mail or email your essay response.",
       "retrieved_at": "2026-04-20T03:02:57.515611+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/122",
+      "source_excerpt": "Matched RateMyProfessors school 'Boston College' (legacyId=122) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-24T18:00:06.210129+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 10 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_Boston_College_people",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-24T18:00:41.378063+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 67 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://www.bc.edu/content/bc-web/admission/majors-minors.html",
+      "source_excerpt": "Carroll School Undergraduate Programs; Connell School Undergraduate Programs; Nursin; Global Public Health and the Common Good; Lynch School Undergraduate Programs; American Heritages; Applied Psychology and Human Development; Elementary Education; Mathematics/Computer Science; Perspectives on Spanish America; Secondary Education; Transformative Educational Studies",
+      "retrieved_at": "2026-04-29T23:36:10.829287+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:02:57.515615+00:00",
+    "last_verified_at": "2026-04-29T23:36:10.829296+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [],
     "warnings": [
+      "Major titles extracted from official school source (67 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
-      "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page."
+      "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'Boston College' (legacyId=122) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-24T18:00:06.210115+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Lynne O'Connell",
+          "department": "Chemistry",
+          "average_rating": 1.1,
+          "rating_count": 93,
+          "would_take_again_percent": 2.2,
+          "average_difficulty": 4.8,
+          "legacy_id": 2406137,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2406137",
+          "source_url": "https://www.ratemyprofessors.com/school/122"
+        },
+        {
+          "rank": 2,
+          "name": "Tracy Regan",
+          "department": "Economics",
+          "average_rating": 2.5,
+          "rating_count": 61,
+          "would_take_again_percent": 36.1,
+          "average_difficulty": 4,
+          "legacy_id": 2597574,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2597574",
+          "source_url": "https://www.ratemyprofessors.com/school/122"
+        },
+        {
+          "rank": 3,
+          "name": "Can Erbil",
+          "department": "Economics",
+          "average_rating": 4.6,
+          "rating_count": 57,
+          "would_take_again_percent": 87.0,
+          "average_difficulty": 2.8,
+          "legacy_id": 1752145,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1752145",
+          "source_url": "https://www.ratemyprofessors.com/school/122"
+        },
+        {
+          "rank": 4,
+          "name": "Nate Hartmann",
+          "department": "Chemistry",
+          "average_rating": 3.5,
+          "rating_count": 50,
+          "would_take_again_percent": 66,
+          "average_difficulty": 3.8,
+          "legacy_id": 2641456,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2641456",
+          "source_url": "https://www.ratemyprofessors.com/school/122"
+        },
+        {
+          "rank": 5,
+          "name": "Gene Heyman",
+          "department": "Psychology",
+          "average_rating": 2.9,
+          "rating_count": 49,
+          "would_take_again_percent": 40.8,
+          "average_difficulty": 3.6,
+          "legacy_id": 2633845,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2633845",
+          "source_url": "https://www.ratemyprofessors.com/school/122"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-24T18:00:41.378033+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Amy Poehler",
+          "description": "American actress and comedian (born 1971)",
+          "wikipedia_title": "Amy Poehler",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Amy_Poehler",
+          "recent_pageviews": 2067096,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Boston_College_people"
+        },
+        {
+          "rank": 2,
+          "name": "Chris O'Donnell",
+          "description": "American actor (born 1970)",
+          "wikipedia_title": "Chris O'Donnell",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Chris_O'Donnell",
+          "recent_pageviews": 1080552,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Boston_College_people"
+        },
+        {
+          "rank": 3,
+          "name": "Leonard Nimoy",
+          "description": "American actor (1931\u20132015)",
+          "wikipedia_title": "Leonard Nimoy",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Leonard_Nimoy",
+          "recent_pageviews": 1000141,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Boston_College_people"
+        },
+        {
+          "rank": 4,
+          "name": "Rikishi (wrestler)",
+          "description": "American professional wrestler (born 1965)",
+          "wikipedia_title": "Rikishi (wrestler)",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Rikishi_(wrestler)",
+          "recent_pageviews": 833481,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Boston_College_people"
+        },
+        {
+          "rank": 5,
+          "name": "Eric Nam",
+          "description": "American K-pop singer (born 1988)",
+          "wikipedia_title": "Eric Nam",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Eric_Nam",
+          "recent_pageviews": 686761,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Boston_College_people"
+        },
+        {
+          "rank": 6,
+          "name": "Elisabeth Hasselbeck",
+          "description": "American television personality (born 1977)",
+          "wikipedia_title": "Elisabeth Hasselbeck",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Elisabeth_Hasselbeck",
+          "recent_pageviews": 376493,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Boston_College_people"
+        },
+        {
+          "rank": 7,
+          "name": "Nancy Carell",
+          "description": "American actress, comedian and writer",
+          "wikipedia_title": "Nancy Carell",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Nancy_Carell",
+          "recent_pageviews": 303997,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Boston_College_people"
+        },
+        {
+          "rank": 8,
+          "name": "Kofi Kingston",
+          "description": "American professional wrestler (born 1981)",
+          "wikipedia_title": "Kofi Kingston",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Kofi_Kingston",
+          "recent_pageviews": 263123,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Boston_College_people"
+        },
+        {
+          "rank": 9,
+          "name": "Christopher G. Kennedy",
+          "description": "American businessman (born 1963)",
+          "wikipedia_title": "Christopher G. Kennedy",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Christopher_G._Kennedy",
+          "recent_pageviews": 234425,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Boston_College_people"
+        },
+        {
+          "rank": 10,
+          "name": "P. J. Byrne",
+          "description": "American actor (born 1974)",
+          "wikipedia_title": "P. J. Byrne",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/P._J._Byrne",
+          "recent_pageviews": 216000,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Boston_College_people"
+        }
+      ]
+    },
+    "warnings": []
   }
 }

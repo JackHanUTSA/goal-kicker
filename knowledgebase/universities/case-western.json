@@ -13,18 +13,125 @@
     "majors": [
       "https://case.edu/academic-programs",
       "https://case.edu/academics/",
-      "https://case.edu/majors"
+      "https://case.edu/majors",
+      "https://case.edu/programs/"
     ],
     "testing_policy": [],
     "general": [
       "https://www.case.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/186"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_Case_Western_Reserve_University_people"
     ]
   },
   "majors": {
     "count": 100,
     "count_method": "explicit official page sentence",
-    "titles": [],
-    "notes": "explicit official page sentence",
+    "titles": [
+      "BS Full-Time",
+      "BS/MAcc Full-Time",
+      "BS/MS Full-Time",
+      "BA Full-Time",
+      "BA Part-Time Full-Time",
+      "BS Part-Time Full-Time",
+      "BSE Full-Time",
+      "BS/MS",
+      "BSN Full-Time",
+      "BA/MA Full-Time",
+      "Economics BA with Quantitative Methods concentration",
+      "Accounting",
+      "MAcc",
+      "BS/MAcc",
+      "Aerospace Engineering",
+      "Anthropology",
+      "Applied Data Science",
+      "Art History",
+      "MA in Art History and Museum Studies",
+      "CBM Program",
+      "Biochemistry",
+      "MBA/MS",
+      "MA/MSN",
+      "MA/MPH",
+      "MA/MSW",
+      "Biology",
+      "MS \u2013 Online",
+      "Biomedical Engineering",
+      "Biomedical sciences training program",
+      "Business Information Technology",
+      "Executive MBA",
+      "Chinese",
+      "Classics",
+      "Cognitive Science",
+      "Honors Program",
+      "Communication Sciences",
+      "Computer Engineering",
+      "Computer Science",
+      "MS (Online)",
+      "Dance",
+      "Data Science and Analytics",
+      "Economics",
+      "Electrical Engineering",
+      "MEng. \u2013 Online",
+      "Engineering Physics",
+      "English",
+      "Environmental Geology",
+      "Finance",
+      "French",
+      "MS/MA",
+      "Geological Sciences",
+      "German",
+      "History",
+      "History and Philosophy of Science",
+      "Humanity and Technology",
+      "Italian",
+      "Japanese Studies",
+      "BS/MS (Polymer Science and Engineering)",
+      "Marketing",
+      "Materials Science and Engineering",
+      "Mathematics",
+      "Mathematics and Physics",
+      "Mechanical Engineering",
+      "MS/MBA",
+      "Natural Sciences",
+      "MSW/MNO",
+      "MN (Graduate Entry)",
+      "DNP - Nurse Anesthesia",
+      "MSN/MPH",
+      "MSN/DNP",
+      "Nutrition",
+      "MS/MPH",
+      "Nutritional Biochemistry and Metabolism",
+      "Origins Sciences",
+      "Philosophy",
+      "Physics",
+      "Political Science",
+      "Polymer Science and Engineering",
+      "BS/MS (Macromolecular Science and Engineering)",
+      "Pre-Architecture",
+      "Psychology",
+      "MA (Developmental)",
+      "BA/MA",
+      "MS in Nutrition/MPH",
+      "MPH/MSW",
+      "Religious Studies",
+      "MSW (on-campus)",
+      "MSW (online)",
+      "MSW (Weekend)",
+      "3+2 Social Work",
+      "MSW/MPH",
+      "MSW/MA (Bioethics and Medical Humanities)",
+      "Sociology",
+      "Spanish",
+      "Statistics",
+      "Systems Biology",
+      "Theater",
+      "Women's and Gender Studies",
+      "World Literature"
+    ],
+    "notes": "explicit official page sentence; titles extracted from official page: https://case.edu/programs/",
     "confidence": "medium"
   },
   "admissions": {
@@ -80,10 +187,34 @@
       "source_url": "https://case.edu/admission/",
       "source_excerpt": "The School of Law \u00e2\u0080\u0099s curriculum allows you to work with clients from day one, develop leadership skills and hone your writing\u00e2\u0080\u0094not to mention learn the core tenets of a legal education. Here, you\u00e2\u0080\u0099ll have access to the nation\u00e2\u0080\u0099s top firms and organizations\u00e2\u0080\u0094and graduate ready to lead.",
       "retrieved_at": "2026-04-20T03:04:32.620264+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 99 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://case.edu/programs/",
+      "source_excerpt": "BS Full-Time; BS/MAcc Full-Time; BS/MS Full-Time; BA Full-Time; BA Part-Time Full-Time; BS Part-Time Full-Time; BSE Full-Time; BS/MS; BSN Full-Time; BA/MA Full-Time; Economics BA with Quantitative Methods concentration; Accounting",
+      "retrieved_at": "2026-04-24T06:54:43.656660+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/186",
+      "source_excerpt": "Matched RateMyProfessors school 'Case Western Reserve University' (legacyId=186) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T02:22:15.982246+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 10 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_Case_Western_Reserve_University_people",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T03:24:28.128697+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:28:30.273154+00:00",
+    "last_verified_at": "2026-04-25T03:24:28.128701+00:00",
     "confidence": "phase-5-manual-repair",
     "unknown_fields": [
       "admissions.course_rigor",
@@ -91,10 +222,179 @@
       "admissions.essays"
     ],
     "warnings": [
+      "Major titles extracted from official school source (99 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
       "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",
-      "admissions.course_rigor was reset to unknown during manual cleanup because the earlier auto-extracted text was unrelated to the requested admissions field."
+      "admissions.course_rigor was reset to unknown during manual cleanup because the earlier auto-extracted text was unrelated to the requested admissions field.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'Case Western Reserve University' (legacyId=186) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T02:22:15.982234+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Christopher (Chris) Butler",
+          "department": "Mathematics",
+          "average_rating": 4.4,
+          "rating_count": 404,
+          "would_take_again_percent": 84.7,
+          "average_difficulty": 3,
+          "legacy_id": 16705,
+          "profile_url": "https://www.ratemyprofessors.com/professor/16705",
+          "source_url": "https://www.ratemyprofessors.com/school/186"
+        },
+        {
+          "rank": 2,
+          "name": "Drew Meyer",
+          "department": "Chemistry",
+          "average_rating": 3.6,
+          "rating_count": 330,
+          "would_take_again_percent": 71.3,
+          "average_difficulty": 3.4,
+          "legacy_id": 1869141,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1869141",
+          "source_url": "https://www.ratemyprofessors.com/school/186"
+        },
+        {
+          "rank": 3,
+          "name": "Rekha Srinivasan",
+          "department": "Chemistry",
+          "average_rating": 4,
+          "rating_count": 268,
+          "would_take_again_percent": 76.2,
+          "average_difficulty": 3.6,
+          "legacy_id": 761267,
+          "profile_url": "https://www.ratemyprofessors.com/professor/761267",
+          "source_url": "https://www.ratemyprofessors.com/school/186"
+        },
+        {
+          "rank": 4,
+          "name": "James Bader",
+          "department": "Biology",
+          "average_rating": 2.3,
+          "rating_count": 203,
+          "would_take_again_percent": 24.2,
+          "average_difficulty": 3.7,
+          "legacy_id": 16802,
+          "profile_url": "https://www.ratemyprofessors.com/professor/16802",
+          "source_url": "https://www.ratemyprofessors.com/school/186"
+        },
+        {
+          "rank": 5,
+          "name": "Barbara Kuemerle",
+          "department": "Biology",
+          "average_rating": 2.2,
+          "rating_count": 196,
+          "would_take_again_percent": 25.9,
+          "average_difficulty": 4.2,
+          "legacy_id": 1267974,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1267974",
+          "source_url": "https://www.ratemyprofessors.com/school/186"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T03:24:28.128681+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Rich Sommer",
+          "description": "American actor (born 1978)",
+          "wikipedia_title": "Rich Sommer",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Rich_Sommer",
+          "recent_pageviews": 218423,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Case_Western_Reserve_University_people"
+        },
+        {
+          "rank": 2,
+          "name": "Alan Rosenberg",
+          "description": "American actor (born 1950)",
+          "wikipedia_title": "Alan Rosenberg",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Alan_Rosenberg",
+          "recent_pageviews": 198196,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Case_Western_Reserve_University_people"
+        },
+        {
+          "rank": 3,
+          "name": "Dennis Kucinich",
+          "description": "American politician (born 1946)",
+          "wikipedia_title": "Dennis Kucinich",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Dennis_Kucinich",
+          "recent_pageviews": 137952,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Case_Western_Reserve_University_people"
+        },
+        {
+          "rank": 4,
+          "name": "Fran\u00e7ois-Philippe Champagne",
+          "description": "Canadian politician (born 1970)",
+          "wikipedia_title": "Fran\u00e7ois-Philippe Champagne",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Fran%C3%A7ois-Philippe_Champagne",
+          "recent_pageviews": 125191,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Case_Western_Reserve_University_people"
+        },
+        {
+          "rank": 5,
+          "name": "Roger Zelazny",
+          "description": "American science fiction and fantasy writer and poet (1937\u20131995)",
+          "wikipedia_title": "Roger Zelazny",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Roger_Zelazny",
+          "recent_pageviews": 103449,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Case_Western_Reserve_University_people"
+        },
+        {
+          "rank": 6,
+          "name": "Richard Thaler",
+          "description": "American economist and Nobel Laureate (born 1945)",
+          "wikipedia_title": "Richard Thaler",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Richard_Thaler",
+          "recent_pageviews": 92591,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Case_Western_Reserve_University_people"
+        },
+        {
+          "rank": 7,
+          "name": "Benjamin O. Davis Jr.",
+          "description": "World War II pilot & first African-American US Air Force general officer (1912\u20132002)",
+          "wikipedia_title": "Benjamin O. Davis Jr.",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Benjamin_O._Davis_Jr.",
+          "recent_pageviews": 85635,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Case_Western_Reserve_University_people"
+        },
+        {
+          "rank": 8,
+          "name": "Craig Newmark",
+          "description": "American entrepreneur, Craigslist founder",
+          "wikipedia_title": "Craig Newmark",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Craig_Newmark",
+          "recent_pageviews": 83522,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Case_Western_Reserve_University_people"
+        },
+        {
+          "rank": 9,
+          "name": "Franklin Cover",
+          "description": "American actor (1928\u20132006)",
+          "wikipedia_title": "Franklin Cover",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Franklin_Cover",
+          "recent_pageviews": 78734,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Case_Western_Reserve_University_people"
+        },
+        {
+          "rank": 10,
+          "name": "Robin Ficker",
+          "description": "American political activist and candidate (born 1943)",
+          "wikipedia_title": "Robin Ficker",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Robin_Ficker",
+          "recent_pageviews": 46373,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Case_Western_Reserve_University_people"
+        }
+      ]
+    },
+    "warnings": []
   }
 }

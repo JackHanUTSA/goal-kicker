@@ -19,6 +19,12 @@
     "testing_policy": [],
     "general": [
       "https://www.temple.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/999"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_Temple_University_people"
     ]
   },
   "majors": {
@@ -97,10 +103,26 @@
       "source_url": "https://admissions.temple.edu/apply/first-year-students/test-optional",
       "source_excerpt": "Standardized test scores are otherwise entirely optional and in no way required for admission.",
       "retrieved_at": "2026-04-20T03:48:33.021807+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/999",
+      "source_excerpt": "Matched RateMyProfessors school 'Temple University' (legacyId=999) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T09:26:26.423086+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 10 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_Temple_University_people",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T10:29:48.384147+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:48:33.021819+00:00",
+    "last_verified_at": "2026-04-30T00:45:15.129885+00:00",
     "confidence": "phase-5-manual-repair",
     "unknown_fields": [
       "admissions.course_rigor",
@@ -108,12 +130,181 @@
       "admissions.essays"
     ],
     "warnings": [
+      "Major titles still need manual follow-up; no reliable official title list was extracted in this pass.",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
       "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",
       "admissions.course_rigor was reset to unknown during manual cleanup because the earlier auto-extracted text was unrelated to the requested admissions field.",
       "admissions.recommendations was reset to unknown during manual cleanup because the earlier auto-extracted text was unrelated to the requested admissions field.",
-      "Temple testing policy was manually repaired from the official first-year test-optional page after the auto-crawl missed a clean policy sentence."
+      "Temple testing policy was manually repaired from the official first-year test-optional page after the auto-crawl missed a clean policy sentence.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'Temple University' (legacyId=999) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T09:26:26.423074+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Darin Kapanjie",
+          "department": "Statistics",
+          "average_rating": 4.5,
+          "rating_count": 340,
+          "would_take_again_percent": 82.2,
+          "average_difficulty": 2.1,
+          "legacy_id": 979908,
+          "profile_url": "https://www.ratemyprofessors.com/professor/979908",
+          "source_url": "https://www.ratemyprofessors.com/school/999"
+        },
+        {
+          "rank": 2,
+          "name": "Michael McCloskey",
+          "department": "Business",
+          "average_rating": 4,
+          "rating_count": 334,
+          "would_take_again_percent": 70.6,
+          "average_difficulty": 3.6,
+          "legacy_id": 323167,
+          "profile_url": "https://www.ratemyprofessors.com/professor/323167",
+          "source_url": "https://www.ratemyprofessors.com/school/999"
+        },
+        {
+          "rank": 3,
+          "name": "Christian Wurst",
+          "department": "Accounting",
+          "average_rating": 3.2,
+          "rating_count": 331,
+          "would_take_again_percent": 50,
+          "average_difficulty": 3.4,
+          "legacy_id": 136448,
+          "profile_url": "https://www.ratemyprofessors.com/professor/136448",
+          "source_url": "https://www.ratemyprofessors.com/school/999"
+        },
+        {
+          "rank": 4,
+          "name": "Rob Drennan",
+          "department": "Business",
+          "average_rating": 3.4,
+          "rating_count": 291,
+          "would_take_again_percent": 54.5,
+          "average_difficulty": 4.3,
+          "legacy_id": 195476,
+          "profile_url": "https://www.ratemyprofessors.com/professor/195476",
+          "source_url": "https://www.ratemyprofessors.com/school/999"
+        },
+        {
+          "rank": 5,
+          "name": "Robert Pred",
+          "department": "Statistics",
+          "average_rating": 3.2,
+          "rating_count": 258,
+          "would_take_again_percent": 47.4,
+          "average_difficulty": 3.4,
+          "legacy_id": 96679,
+          "profile_url": "https://www.ratemyprofessors.com/professor/96679",
+          "source_url": "https://www.ratemyprofessors.com/school/999"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T10:29:48.384125+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Colman Domingo",
+          "description": "American actor and playwright (born 1969)",
+          "wikipedia_title": "Colman Domingo",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Colman_Domingo",
+          "recent_pageviews": 2689942,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Temple_University_people"
+        },
+        {
+          "rank": 2,
+          "name": "Bill Cosby",
+          "description": "American entertainer (born 1937)",
+          "wikipedia_title": "Bill Cosby",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Bill_Cosby",
+          "recent_pageviews": 2644928,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Temple_University_people"
+        },
+        {
+          "rank": 3,
+          "name": "Bob Saget",
+          "description": "American comedian and actor (1956\u20132022)",
+          "wikipedia_title": "Bob Saget",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Bob_Saget",
+          "recent_pageviews": 1216373,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Temple_University_people"
+        },
+        {
+          "rank": 4,
+          "name": "Quinta Brunson",
+          "description": "American actress, writer, comedian and producer (born 1989)",
+          "wikipedia_title": "Quinta Brunson",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Quinta_Brunson",
+          "recent_pageviews": 986649,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Temple_University_people"
+        },
+        {
+          "rank": 5,
+          "name": "Mark Levin",
+          "description": "American lawyer, radio and television personality (born 1957)",
+          "wikipedia_title": "Mark Levin",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Mark_Levin",
+          "recent_pageviews": 820852,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Temple_University_people"
+        },
+        {
+          "rank": 6,
+          "name": "Kunal Nayyar",
+          "description": "British actor (born 1981)",
+          "wikipedia_title": "Kunal Nayyar",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Kunal_Nayyar",
+          "recent_pageviews": 807842,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Temple_University_people"
+        },
+        {
+          "rank": 7,
+          "name": "Da'Vine Joy Randolph",
+          "description": "American actress (born 1986)",
+          "wikipedia_title": "Da'Vine Joy Randolph",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Da'Vine_Joy_Randolph",
+          "recent_pageviews": 601271,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Temple_University_people"
+        },
+        {
+          "rank": 8,
+          "name": "Tim Heidecker",
+          "description": "American actor, director, producer and screenwriter (born 1976)",
+          "wikipedia_title": "Tim Heidecker",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Tim_Heidecker",
+          "recent_pageviews": 500841,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Temple_University_people"
+        },
+        {
+          "rank": 9,
+          "name": "Robert Prosky",
+          "description": "American actor (1930\u20132008)",
+          "wikipedia_title": "Robert Prosky",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_Prosky",
+          "recent_pageviews": 279726,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Temple_University_people"
+        },
+        {
+          "rank": 10,
+          "name": "Tamron Hall",
+          "description": "American journalist, talk show host (born 1970)",
+          "wikipedia_title": "Tamron Hall",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Tamron_Hall",
+          "recent_pageviews": 259829,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Temple_University_people"
+        }
+      ]
+    },
+    "warnings": []
   }
 }

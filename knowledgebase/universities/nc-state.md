@@ -20,17 +20,367 @@ status: phase-5-auto-enriched
 - https://www.ncsu.edu/academic-programs
 - https://www.ncsu.edu/majors
 - https://www.ncsu.edu/undergraduate/programs
+- https://catalog.ncsu.edu/azindex/
 
-## Structured extraction
-- Majors count: 100
+## Majors
+- Count: 100
 - Count method: explicit official page sentence
-- Testing policy: Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.
-- GPA policy: No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.
-- Course rigor: Need help with coursework or advice on your degree path? We’ll walk you through it all with our Academic Success Center and advising services.
-- Recommendations: unknown
-- Essays: unknown
+- Titles extracted: 349
+
+### Titles
+- Accounting
+- Aerospace Engineering
+- Agricultural Education
+- Agricultural Science
+- Agroecology & Sustainable Food Systems
+- Animal Science
+- Anthropology
+- Applied Education Studies
+- Arts Studies
+- Biochemistry
+- Biological, Agricultural, and Ecological Engineering
+- Biological and Agricultural Engineering Technology
+- Biological Engineering
+- Biological Sciences
+- Biomedical Engineering
+- Bioprocessing Science
+- Business Administration
+- Chemical Engineering
+- Chemistry
+- Civil Engineering
+- Communication
+- Computer Engineering
+- Computer Science
+- Construction Engineering
+- Criminology
+- Crop and Soil Sciences
+- Design Studies
+- Economics
+- Electrical Engineering
+- Elementary Education
+- Engineering
+- English
+- Environmental Engineering
+- Environmental Sciences
+- Fashion and Textile Design
+- Fisheries, Wildlife, and Conservation Biology
+- Food Science
+- Genetics
+- Geology
+- History
+- Horticultural Science
+- Industrial Engineering
+- Interdisciplinary Studies
+- International Studies
+- Leadership in the Public Sector
+- Marine Sciences
+- Materials Science and Engineering
+- Mathematics
+- Mathematics Education
+- Mechanical Engineering
+- Meteorology
+- Microbiology
+- Middle Grades Education
+- Music Technology
+- Natural Resources
+- Nuclear Engineering
+- Nutrition Sciences
+- Paper Science and Engineering
+- Philosophy
+- Physics
+- Plant Biology
+- Political Science
+- Polymer and Color Chemistry
+- Poultry Science
+- Psychology
+- Religious Studies
+- Science Education
+- Science, Technology and Society
+- Sociology
+- Statistics
+- Technology, Engineering and Design Education
+- Textile Engineering
+- Textile Technology
+- World Languages and Cultures
+- Zoology
+- Academic Advising
+- Academic Honors
+- Academic Policies and Procedures
+- Academic Standing
+- Adding or Changing a Program
+- Africana Studies Program
+- Agricultural Education (BS): Agricultural Business Concentration
+- Agricultural Education (BS): Agricultural Engineering Technology Concentration
+- Agricultural Education (BS): Agronomy Concentration
+- Agricultural Education (BS): Animal Science Concentration
+- Agricultural Education (BS): Horticultural Science Concentration
+- Agricultural Education (BS): Natural Resources Concentration
+- Agricultural Education (BS): Poultry Science Concentration
+- Agricultural Institute
+- Agricultural Science (BS): Online
+- Agroecology & Sustainable Food Systems (BS): Community Food Systems Concentration
+- Agroecology & Sustainable Food Systems (BS): Urban Horticulture Concentration
+- Animal Science (BS): Industry Concentration
+- Animal Science (BS): Science Concentration
+- Animal Science (BS): Veterinary Bioscience Concentration
+- Anthropology (BA): General Anthropology Concentration
+- Applied Education Studies (BS): Learning Design and Technology
+- Architecture (Bachelor): One-Year Professional Degree
+- Architecture (MR): History and Theory of Architecture Concentration
+- Art and Design
+- Arts Studies (BA): Film Studies Concentration
+- Arts Studies (BA): Music Concentration
+- Arts Studies (BA): Theater Concentration
+- Arts Studies (BA): Visual Arts Concentration
+- Arts Studies Program
+- Biological and Agricultural Engineering (MS): Systems Analysis Concentration
+- Biological Engineering (BS): Agricultural Engineering Concentration
+- Biological Engineering (BS): Bioprocessing Engineering Concentration
+- Biological Engineering (BS): Ecological Engineering Concentration
+- Biological Engineering (BS): Environmental Engineering Concentration
+- Biological Sciences (BS): Ecology, Evolution and Conservation Biology Concentration
+- Biological Sciences (BS): Human Biology Concentration
+- Biological Sciences (BS): Integrative Physiology and Neurobiology Concentration
+- Biological Sciences (BS): Molecular, Cellular, and Developmental Biology Concentration
+- Biological Sciences (Honors)
+- Biomedical Engineering Honors Program (Honors)
+- Biomedical Engineering (MS): MedTech Innovation and Entrepreneurship Concentration
+- Biomedical Engineering (MS): Traditional Concentration
+- Business Administration (BS): Business Analytics Concentration
+- Business Administration (BS): Entrepreneurship Concentration
+- Business Administration (BS): Finance Concentration
+- Business Administration (BS): Information Technology Concentration
+- Business Administration (BS): Undeclared
+- Center for Geospatial Analytics
+- Centers and Institutes
+- Chemical Engineering (BS): Biomanufacturing Sciences Concentration
+- Chemical Engineering (BS): Biomolecular Concentration
+- Chemical Engineering (BS): Honors Concentration
+- Chemical Engineering (BS): Nanoscience Concentration
+- Chemical Engineering (BS): Sustainable Engineering, Energy, and the Environment
+- Comparative Biomedical Sciences (MR): Food Animals Concentration (PSM)
+- Computer Engineering (BS): Computer Architecture and Emerging Systems Concentration
+- Computer Engineering (BS): Computer Systems Software Concentration
+- Computer Engineering (BS): Networking Hardware Concentration
+- Computer Engineering (BS): Networking Software Concentration
+- Computer Engineering (MS): Internship Concentration
+- Computer Networking (MS): Internship Concentration
+- Computer Science (BS): Artificial Intelligence Concentration
+- Computer Science (BS): Cybersecurity Concentration
+- Computer Science (BS): Game Development Concentration
+- Courses and Grading
+- Crop and Soil Sciences (BS): Agronomy
+- Crop and Soil Sciences (BS): Crop Biotechnology
+- Crop and Soil Sciences (BS): Soil Science
+- Crop and Soil Sciences (BS): Turfgrass Science
+- Curriculum and Instruction (MEd): Educational Psychology Concentration
+- Design Studies (BA): Business Administration Concentration
+- Design Studies (BA): Nonprofit Studies Concentration
+- Economics (BA): Business Analytics Concentration
+- Economics (BA): Finance Concentration
+- Economics (BS): Business Analytics Concentration
+- Economics (BS): Finance Concentration
+- Edward P. Fitts Department of Industrial and Systems Engineering
+- Electrical Engineering (BS): Analog Circuits Concentration
+- Electrical Engineering (BS): Biomedical Instrumentation Concentration
+- Electrical Engineering (BS): Communications and Signal Processing Concentration
+- Electrical Engineering (BS): Controls and Robotics Concentration
+- Electrical Engineering (BS): Digital Circuits Concentration
+- Electrical Engineering (BS): Electronic Devices Concentrations
+- Electrical Engineering (BS): Music Technology Concentration
+- Electrical Engineering (BS): Optics and Photonics Concentration
+- Electrical Engineering (BS): Power Systems Concentration
+- Electrical Engineering (BS): Radio Frequency Circuits Concentration
+- Electrical Engineering (BS): Renewable Electric Energy Systems Concentration
+- Electrical Engineering (MS): Internship Concentration
+- Electric Power System Engineering (MS): Internship Concentration
+- Electric Power System Engineering (MS): Wide Bandgap Power Electronics Concentration
+- Engineering (BS): Electrical Engineering Systems Concentration
+- Engineering (BS): Mechanical Engineering Systems Concentration
+- Engineering (BS): Mechatronics Concentration
+- Engineering (BS): Nuclear Power Concentration
+- Engineering First Year
+- Engineering in Havelock
+- Engineering (MR): Aerospace Engineering Concentration
+- Engineering (MR): Chemical Engineering Concentration
+- Engineering (MR): Computer Engineering Concentration
+- Engineering (MR): Computer Science Concentration
+- Engineering (MR): Industrial Engineering Concentration
+- Engineering (MR): Mechanical Engineering Concentration
+- Engineering (MR): Nuclear Engineering Concentration
+- English (BA): Creative Writing Concentration
+- English (BA): Film Studies Concentration
+- English (BA): Linguistics Concentration
+- English (BA): Literature Concentration
+- English (BA): Rhetoric and Professional Writing Concentration
+- English (BA): Teacher Education Concentration
+- English (MA): Film Studies Concentration
+- English (MA): Linguistics Concentration
+- English (MA): Literature Concentration
+- English (MA): Rhetoric and Composition
+- Environmental Design in Architecture
+- Environmental First Year Program
+- Exploratory Studies
+- Fashion and Textile Design (BS): Fashion Design Concentration
+- Fashion and Textile Design (BS): Textile Design Concentration
+- Field Crops Technology (AAS)
+- Fisheries, Wildlife, and Conservation Biology (BS): Conservation Biology Concentration
+- Fisheries, Wildlife, and Conservation Biology (BS): Fisheries Science Concentration
+- Fisheries, Wildlife, and Conservation Biology (BS): Wildlife Science Concentration
+- Food Science (BS): Business & Technology Concentration
+- Food Science (BS): Science Concentration
+- Foundations of Data Science (MS): Computer Science Concentration
+- Foundations of Data Science (MS): Statistics Concentration
+- General Agriculture (AAS)
+- General Education Program
+- GEP Additional Breadth
+- GEP Computer Literacy/Technology Fluency
+- GEP Foundations of American Democracy
+- GEP Global Knowledge
+- GEP Health and Exercise Studies
+- GEP Humanities
+- GEP Interdisciplinary Perspectives
+- GEP Introduction to Writing
+- GEP Natural Sciences
+- GEP Social Sciences
+- GEP Visual and Performing Arts
+- GEP World Language Proficiency
+- Getting Your Degree
+- Graduation Requirements
+- Graphic & Experience Design
+- History (BA): Legal History Concentration
+- History (BA): Teacher Education Concentration
+- Horticultural Science (BS): Plant Breeding and Biotechnology in Horticulture Concentration
+- Horticultural Science (BS): Production Systems and Entrepreneurship in Horticulture Concentration
+- Industrial Design
+- Integrative Humanities and Social Sciences
+- Inter-College Transfer
+- Interdisciplinary
+- Interdisciplinary Studies (BA): Africana Studies Community Studies Concentration
+- Interdisciplinary Studies (BA): Africana Studies Concentration
+- Interdisciplinary Studies (BA): Self Design Concentration
+- Interdisciplinary Studies (BA): Women's, Gender and Sexuality Studies Concentration
+- Interdisciplinary Studies (BS): Self Design Concentration
+- Interdisciplinary Studies (BS): Women’s, Gender and Sexuality Studies Concentration
+- International Studies (BA): Africa Concentration
+- International Studies (BA): East and Southeast Asia Concentration
+- International Studies (BA): Europe Concentration
+- International Studies (BA): Global Cultural Studies Concentration
+- International Studies (BA): Global Relations Concentration
+- International Studies (BA): Global Sustainability and Development Concentration
+- International Studies (BA): Latin America Concentration
+- International Studies (BA): South Asia and Middle East Concentration
+- International Studies Program
+- Lampe Joint Department of Biomedical Engineering
+- Leadership in the Public Sector (BA): Distance Education
+- Life Sciences First Year
+- Management (MR): Risk and Analytics Concentration
+- Marine Sciences (BS): Biological Oceanography Concentration
+- Marine Sciences (BS): Chemistry Concentration
+- Marine Sciences (BS): Geology Concentration
+- Marine Sciences (BS): Meteorology Concentration
+- Marine Sciences (BS): Physics Concentration
+- Materials Science and Engineering (BS): Biomaterials Concentration
+- Materials Science and Engineering (BS): Nanomaterials Concentration
+- Mathematics Education (BS): Computer Specialization
+- Mathematics Education (BS): Statistics Specialization
+- Mathematics Education, Secondary
+- Microbiology (BS): Microbial Biotechnology Concentration
+- Microbiology (BS): Microbial Health Science Concentration
+- Middle Grades Education (BS): English Language Arts and Social Studies Concentration
+- Music Technology (BS): Electronics & Circuits Concentration
+- Music Technology (BS): Software & Digital Hardware
+- Nanoengineering (MR): Biomedical Sciences in Nanoengineering Concentration
+- Nanoengineering (MR): Nanoelectronics and Nanophotonics Concentration
+- Natural Resources (BS): Ecosystem Assessment Concentration
+- Natural Resources (BS): Policy and Administration Concentration
+- Natural Resources (BS): Soil, Water and Land Use Concentration
+- Non-Degree Studies
+- North Carolina Cooperative Extension Service
+- Nuclear Engineering (BS): Plasma Sciences and Fusion Energy
+- Nuclear Engineering (BS): Radiological Engineering
+- Nutrition Sciences (BS): Applied Nutrition Concentration
+- Paper Science and Engineering (BS): Sustainable Packaging Production
+- Philosophy (BA): Ethics Concentration
+- Philosophy (BA): Philosophy and Law Concentration
+- Philosophy (BS): Logic, Representation and Reasoning Concentration
+- Physics (BS): Interdisciplinary Physics Concentration
+- Political Science (BA): American Politics Concentration
+- Political Science (BA): International Politics Concentration
+- Political Science (BA): Law and Justice Concentration
+- Political Science (BA): Public Policy Concentration
+- Polymer and Color Chemistry (BS): ACS Certification Concentration
+- Polymer and Color Chemistry (BS): Medical Sciences Concentration
+- Polymer and Color Chemistry (BS): Science and Operations Concentration
+- Poultry Science (BS): Science Concentration
+- Poultry Science (BS): Technology Concentration
+- Prestage Department of Poultry Science
+- Psychology (BA): General Psychology Concentration
+- Psychology (MS): School Psychology Concentration
+- Satisfactory Academic Progress
+- Science Education (BS): Biology Concentration
+- Science Education (BS): Chemistry Concentration
+- Science Education (BS): Earth Science Concentration
+- Science Education (BS): Middle Grades Science Concentration
+- Science Education (BS): Physics Concentration
+- Science Education, Secondary
+- Science, Technology, and Society Program
+- Social Work
+- Statistics (BS): Data Science Concentration
+- Statistics (MR): Biostatistics Concentration
+- Statistics (MR): Environmental Statistics Concentration
+- Statistics (MR): Financial Concentration
+- Statistics (MR): Statistical Genetics Concentration
+- Student Conduct
+- Student Records
+- Student Status and Honors
+- Teaching (MA): Elementary Education Concentration
+- Teaching (MA): English Education Concentration
+- Teaching (MA): K-12 Reading Concentration
+- Teaching (MA): Middle Grades English Language Arts Education Concentration
+- Teaching (MA): Middle Grades Science Concentration
+- Teaching (MA): Middle Grades Social Studies Concentration
+- Teaching (MA): Multilingual Education Concentration
+- Teaching (MA): Science Education Concentration
+- Teaching (MA): Social Studies Education Concentration
+- Teaching (MA): Special Education Concentration
+- Teaching (MA): Technology Education Concentration
+- Technology, Engineering and Design Education (BS): Graphic Communication Concentration
+- Technology, Engineering and Design Education (BS): Licensure Concentration
+- Textile Engineering (BS): Chemical Processing Concentration
+- Textile Engineering (BS): Information Systems Concentration
+- Textile Engineering (BS): Product Engineering Concentration
+- Textile Engineering Program
+- Textile Technology (BS): Medical Textiles Concentration
+- Textile Technology (BS): Supply Chain Operations Concentration
+- Textile Technology (BS): Technical Textiles Concentration
+- The First Year Experience
+- Transfer and Exam Credit
+- Catalog A-Z Index
+- University Advising and Exploratory Studies
+- University College
+- University Honors Program
+- Wilson College of Textiles
+- Withdrawal
+- Women's, Gender and Sexuality Studies Program
+- World Languages and Cultures (BA): Arabic Studies Concentration
+- World Languages and Cultures (BA): Asian Language Concentration
+- World Languages and Cultures (BA): Chinese Education Concentration
+- World Languages and Cultures (BA): French Education Concentration
+- World Languages and Cultures (BA): French Studies Concentration
+- World Languages and Cultures (BA): German Education Concentration
+- World Languages and Cultures (BA): German Studies Concentration
+- World Languages and Cultures (BA): German Studies International Economics Concentration
+- World Languages and Cultures (BA): German Studies Science and Technology Concentration
+- World Languages and Cultures (BA): Spanish Education Concentration
+- World Languages and Cultures (BA): Spanish Language and Literature Concentration
+- World Languages and Cultures (MA): French Language and Literature Concentration
+- World Languages and Cultures (MA): Spanish Language and Literature Concentration
+- Zoology (BS): Applied Zoology
 
 ## Warnings
+- Major titles extracted from official school source (349 titles).
 - Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.
 - GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.
 - Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.
+- School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data.

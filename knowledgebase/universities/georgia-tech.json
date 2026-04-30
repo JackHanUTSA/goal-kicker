@@ -13,18 +13,76 @@
     ],
     "majors": [
       "https://www.gatech.edu/academics",
-      "https://www.gatech.edu/majors"
+      "https://www.gatech.edu/majors",
+      "https://www.gatech.edu/academics/all-degree-programs"
     ],
     "testing_policy": [],
     "general": [
       "https://www.gatech.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/361"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_Georgia_Institute_of_Technology_alumni"
     ]
   },
   "majors": {
     "count": 21,
     "count_method": "counted 21 unique major/program-like entries from the cited official page DOM",
-    "titles": [],
-    "notes": "counted 21 unique major/program-like entries from the cited official page DOM",
+    "titles": [
+      "Main navigation",
+      "Georgia Institute of Technology",
+      "Aerospace Engineering",
+      "Applied Language and Intercultural Studies",
+      "Applied Physics",
+      "Architecture",
+      "Arts, Entertainment, and Creative Technologies",
+      "Astrophysics",
+      "Atmospheric and Oceanic Sciences",
+      "Biochemistry",
+      "Biology",
+      "Biomedical Engineering",
+      "Business Administration",
+      "Chemical and Biomolecular Engineering",
+      "Chemical and Biomolecular Engineering (BS) \u2013 Biotechnology Option",
+      "Chemistry",
+      "Civil Engineering",
+      "Computational Media",
+      "Computational Media & Digital Media",
+      "Computer Engineering",
+      "Computer Engineering (Dual BS)",
+      "Computer Science",
+      "Earth and Atmospheric Sciences",
+      "Economics",
+      "Economics and International Affairs",
+      "Electrical and Computer Engineering",
+      "Electrical Engineering",
+      "Environmental Engineering",
+      "Environmental Science",
+      "Global Economics and Modern Languages",
+      "History, Technology, and Society",
+      "Industrial Design",
+      "Industrial Engineering",
+      "International Affairs",
+      "International Affairs and Modern Languages",
+      "Literature, Media, and Communication",
+      "Literature, Media, and Communication & Digital Media",
+      "Materials Science and Engineering",
+      "Mathematics",
+      "Mathematics and Computing",
+      "Mechanical Engineering",
+      "Music Technology",
+      "Neuroscience",
+      "Nuclear and Radiological Engineering",
+      "Physics",
+      "Psychology",
+      "Public Policy",
+      "Solid Earth and Planetary Sciences",
+      "Urban Planning and Spatial Analytics",
+      "Undergraduate Education"
+    ],
+    "notes": "counted 21 unique major/program-like entries from the cited official page DOM; titles extracted from official page: https://www.gatech.edu/academics/all-degree-programs",
     "confidence": "medium"
   },
   "admissions": {
@@ -80,19 +138,212 @@
       "source_url": "https://admission.gatech.edu/",
       "source_excerpt": "Learn how we review international students' backgrounds, and review transcript requirements.",
       "retrieved_at": "2026-04-20T03:03:04.579775+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/361",
+      "source_excerpt": "Matched RateMyProfessors school 'Georgia Institute of Technology' (legacyId=361) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-24T18:00:47.159300+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 10 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_Georgia_Institute_of_Technology_alumni",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-24T18:01:16.177389+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 50 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://www.gatech.edu/academics/all-degree-programs",
+      "source_excerpt": "Main navigation; Georgia Institute of Technology; Aerospace Engineering; Applied Language and Intercultural Studies; Applied Physics; Architecture; Arts, Entertainment, and Creative Technologies; Astrophysics; Atmospheric and Oceanic Sciences; Biochemistry; Biology; Biomedical Engineering",
+      "retrieved_at": "2026-04-29T23:32:34.570856+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:03:04.579779+00:00",
+    "last_verified_at": "2026-04-29T23:32:34.570874+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.recommendations",
       "admissions.essays"
     ],
     "warnings": [
+      "Major titles extracted from official school source (50 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
-      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence."
+      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'Georgia Institute of Technology' (legacyId=361) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-24T18:00:47.159290+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Melinda McDaniel",
+          "department": "Computer Science",
+          "average_rating": 3.5,
+          "rating_count": 279,
+          "would_take_again_percent": 66.2,
+          "average_difficulty": 3.3,
+          "legacy_id": 2051964,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2051964",
+          "source_url": "https://www.ratemyprofessors.com/school/361"
+        },
+        {
+          "rank": 2,
+          "name": "Sal Barone",
+          "department": "Mathematics",
+          "average_rating": 4.1,
+          "rating_count": 212,
+          "would_take_again_percent": 79.4,
+          "average_difficulty": 3.6,
+          "legacy_id": 1841430,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1841430",
+          "source_url": "https://www.ratemyprofessors.com/school/361"
+        },
+        {
+          "rank": 3,
+          "name": "David Joyner",
+          "department": "Computer Science",
+          "average_rating": 4.2,
+          "rating_count": 181,
+          "would_take_again_percent": 79.6,
+          "average_difficulty": 2.8,
+          "legacy_id": 2267953,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2267953",
+          "source_url": "https://www.ratemyprofessors.com/school/361"
+        },
+        {
+          "rank": 4,
+          "name": "Olufisayo Omojokun",
+          "department": "Computer Science",
+          "average_rating": 3.2,
+          "rating_count": 175,
+          "would_take_again_percent": 55.3,
+          "average_difficulty": 3.5,
+          "legacy_id": 1347181,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1347181",
+          "source_url": "https://www.ratemyprofessors.com/school/361"
+        },
+        {
+          "rank": 5,
+          "name": "Mary Hudachek-Buswell",
+          "department": "Computer Science",
+          "average_rating": 3.5,
+          "rating_count": 174,
+          "would_take_again_percent": 66.9,
+          "average_difficulty": 3.3,
+          "legacy_id": 1931623,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1931623",
+          "source_url": "https://www.ratemyprofessors.com/school/361"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-24T18:01:16.177375+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "David Perdue",
+          "description": "American politician and diplomat (born 1949)",
+          "wikipedia_title": "David Perdue",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/David_Perdue",
+          "recent_pageviews": 198375,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Georgia_Institute_of_Technology_alumni"
+        },
+        {
+          "rank": 2,
+          "name": "Calvin Mackie",
+          "description": "American motivational speaker, entrepreneur (born 1967 or 1968)",
+          "wikipedia_title": "Calvin Mackie",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Calvin_Mackie",
+          "recent_pageviews": 67713,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Georgia_Institute_of_Technology_alumni"
+        },
+        {
+          "rank": 3,
+          "name": "Gil Amelio",
+          "description": "American technology executive (born 1943)",
+          "wikipedia_title": "Gil Amelio",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Gil_Amelio",
+          "recent_pageviews": 44080,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Georgia_Institute_of_Technology_alumni"
+        },
+        {
+          "rank": 4,
+          "name": "Joy Buolamwini",
+          "description": "Computer scientist and digital activist",
+          "wikipedia_title": "Joy Buolamwini",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Joy_Buolamwini",
+          "recent_pageviews": 28252,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Georgia_Institute_of_Technology_alumni"
+        },
+        {
+          "rank": 5,
+          "name": "Paul J. Brown",
+          "description": "American businessman",
+          "wikipedia_title": "Paul J. Brown",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Paul_J._Brown",
+          "recent_pageviews": 27300,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Georgia_Institute_of_Technology_alumni"
+        },
+        {
+          "rank": 6,
+          "name": "Ivan Allen Jr.",
+          "description": "American businessman and politician (1911\u20132003)",
+          "wikipedia_title": "Ivan Allen Jr.",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Ivan_Allen_Jr.",
+          "recent_pageviews": 16660,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Georgia_Institute_of_Technology_alumni"
+        },
+        {
+          "rank": 7,
+          "name": "Roger Krone",
+          "description": "Chief executive of Scouting America",
+          "wikipedia_title": "Roger Krone",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Roger_Krone",
+          "recent_pageviews": 14377,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Georgia_Institute_of_Technology_alumni"
+        },
+        {
+          "rank": 8,
+          "name": "Ben Chestnut",
+          "description": "American entrepreneur",
+          "wikipedia_title": "Ben Chestnut",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Ben_Chestnut",
+          "recent_pageviews": 13042,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Georgia_Institute_of_Technology_alumni"
+        },
+        {
+          "rank": 9,
+          "name": "James D. Robinson III",
+          "description": "American businessman (1935\u20132024)",
+          "wikipedia_title": "James D. Robinson III",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/James_D._Robinson_III",
+          "recent_pageviews": 12864,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Georgia_Institute_of_Technology_alumni"
+        },
+        {
+          "rank": 10,
+          "name": "Chris Klaus",
+          "description": "American technology entrepreneur (born 1973)",
+          "wikipedia_title": "Chris Klaus",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Chris_Klaus",
+          "recent_pageviews": 12309,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Georgia_Institute_of_Technology_alumni"
+        }
+      ]
+    },
+    "warnings": []
   }
 }

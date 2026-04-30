@@ -12,18 +12,36 @@
       "https://www.marquette.edu/apply/test-optional.php"
     ],
     "majors": [
-      "https://www.marquette.edu/academics/"
+      "https://www.marquette.edu/academics/",
+      "https://www.marquette.edu/data-science/data-programs.php"
     ],
     "testing_policy": [],
     "general": [
       "https://www.marquette.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/565"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_Marquette_University_alumni"
     ]
   },
   "majors": {
-    "count": 0,
-    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
-    "titles": [],
-    "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "count": 10,
+    "count_method": "counted extracted undergraduate-major titles from an official page",
+    "titles": [
+      "Explore Our Data Programs",
+      "Accounting Analytics",
+      "Business Analytics",
+      "Computer Engineering",
+      "Computer Science",
+      "Data Science",
+      "Statistical Science",
+      "Bioinformatics",
+      "Criminal Justice Data Analytics",
+      "Sports and Exercise Data Analytics"
+    ],
+    "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass; titles extracted from official page: https://www.marquette.edu/data-science/data-programs.php",
     "confidence": "low"
   },
   "admissions": {
@@ -95,17 +113,210 @@
       "source_url": "https://www.marquette.edu/apply/test-optional.php",
       "source_excerpt": "Students may choose to submit their ACT and/or SAT scores to be included among the materials evaluated in the review process. Students not submitting a test score will not be penalized for making this choice.",
       "retrieved_at": "2026-04-20T03:48:33.021670+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/565",
+      "source_excerpt": "Matched RateMyProfessors school 'Marquette University' (legacyId=565) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T20:53:30.626106+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 10 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_Marquette_University_alumni",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T21:05:00.127805+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 10 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://www.marquette.edu/data-science/data-programs.php",
+      "source_excerpt": "Explore Our Data Programs; Accounting Analytics; Business Analytics; Computer Engineering; Computer Science; Data Science; Statistical Science; Bioinformatics; Criminal Justice Data Analytics; Sports and Exercise Data Analytics",
+      "retrieved_at": "2026-04-29T23:38:14.861404+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:48:33.021680+00:00",
+    "last_verified_at": "2026-04-29T23:38:14.861413+00:00",
     "confidence": "phase-5-manual-repair",
     "unknown_fields": [],
     "warnings": [
+      "Major titles extracted from official school source (10 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
       "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page.",
-      "Marquette testing policy was manually repaired from the official test-optional policy page after the auto-crawl captured a stats-navigation snippet."
+      "Marquette testing policy was manually repaired from the official test-optional policy page after the auto-crawl captured a stats-navigation snippet.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'Marquette University' (legacyId=565) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T20:53:30.626091+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Llanie Nobile",
+          "department": "Chemistry",
+          "average_rating": 4.4,
+          "rating_count": 236,
+          "would_take_again_percent": 84,
+          "average_difficulty": 3.2,
+          "legacy_id": 2098148,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2098148",
+          "source_url": "https://www.ratemyprofessors.com/school/565"
+        },
+        {
+          "rank": 2,
+          "name": "Kim Norden",
+          "department": "Psychology",
+          "average_rating": 4.1,
+          "rating_count": 155,
+          "would_take_again_percent": 84.3,
+          "average_difficulty": 3.2,
+          "legacy_id": 402799,
+          "profile_url": "https://www.ratemyprofessors.com/professor/402799",
+          "source_url": "https://www.ratemyprofessors.com/school/565"
+        },
+        {
+          "rank": 3,
+          "name": "Terence Ow",
+          "department": "Business",
+          "average_rating": 4.5,
+          "rating_count": 142,
+          "would_take_again_percent": 86.7,
+          "average_difficulty": 3.7,
+          "legacy_id": 936174,
+          "profile_url": "https://www.ratemyprofessors.com/professor/936174",
+          "source_url": "https://www.ratemyprofessors.com/school/565"
+        },
+        {
+          "rank": 4,
+          "name": "Cindy Melis",
+          "department": "Accounting",
+          "average_rating": 4.6,
+          "rating_count": 117,
+          "would_take_again_percent": 92.7,
+          "average_difficulty": 3.3,
+          "legacy_id": 12022,
+          "profile_url": "https://www.ratemyprofessors.com/professor/12022",
+          "source_url": "https://www.ratemyprofessors.com/school/565"
+        },
+        {
+          "rank": 5,
+          "name": "Michael Dole",
+          "department": "Accounting",
+          "average_rating": 2.8,
+          "rating_count": 115,
+          "would_take_again_percent": 100,
+          "average_difficulty": 4.3,
+          "legacy_id": 43852,
+          "profile_url": "https://www.ratemyprofessors.com/professor/43852",
+          "source_url": "https://www.ratemyprofessors.com/school/565"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T21:05:00.127789+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Amy Madigan",
+          "description": "American actress (born 1950)",
+          "wikipedia_title": "Amy Madigan",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Amy_Madigan",
+          "recent_pageviews": 3814223,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Marquette_University_alumni"
+        },
+        {
+          "rank": 2,
+          "name": "Bob Odenkirk",
+          "description": "American actor and screenwriter (born 1962)",
+          "wikipedia_title": "Bob Odenkirk",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Bob_Odenkirk",
+          "recent_pageviews": 1833474,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Marquette_University_alumni"
+        },
+        {
+          "rank": 3,
+          "name": "Chris Farley",
+          "description": "American comedian and actor (1964\u20131997)",
+          "wikipedia_title": "Chris Farley",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Chris_Farley",
+          "recent_pageviews": 1533664,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Marquette_University_alumni"
+        },
+        {
+          "rank": 4,
+          "name": "Joseph McCarthy",
+          "description": "American politician (1908\u20131957)",
+          "wikipedia_title": "Joseph McCarthy",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Joseph_McCarthy",
+          "recent_pageviews": 928917,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Marquette_University_alumni"
+        },
+        {
+          "rank": 5,
+          "name": "Dan Harmon",
+          "description": "American screenwriter (born 1973)",
+          "wikipedia_title": "Dan Harmon",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Dan_Harmon",
+          "recent_pageviews": 553137,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Marquette_University_alumni"
+        },
+        {
+          "rank": 6,
+          "name": "Don Ameche",
+          "description": "American actor (1908\u20131993)",
+          "wikipedia_title": "Don Ameche",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Don_Ameche",
+          "recent_pageviews": 361844,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Marquette_University_alumni"
+        },
+        {
+          "rank": 7,
+          "name": "Garrison Keillor",
+          "description": "American author, storyteller, humorist, voice actor, and radio personality (born 1942)",
+          "wikipedia_title": "Garrison Keillor",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Garrison_Keillor",
+          "recent_pageviews": 277525,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Marquette_University_alumni"
+        },
+        {
+          "rank": 8,
+          "name": "Danny Pudi",
+          "description": "American actor (born 1979)",
+          "wikipedia_title": "Danny Pudi",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Danny_Pudi",
+          "recent_pageviews": 273019,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Marquette_University_alumni"
+        },
+        {
+          "rank": 9,
+          "name": "Kevin Farley",
+          "description": "American actor (b. 1965)",
+          "wikipedia_title": "Kevin Farley",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Kevin_Farley",
+          "recent_pageviews": 270566,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Marquette_University_alumni"
+        },
+        {
+          "rank": 10,
+          "name": "Nicholas D'Agosto",
+          "description": "American actor (born 1980)",
+          "wikipedia_title": "Nicholas D'Agosto",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Nicholas_D'Agosto",
+          "recent_pageviews": 194779,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Marquette_University_alumni"
+        }
+      ]
+    },
+    "warnings": []
   }
 }

@@ -18,6 +18,12 @@
     "testing_policy": [],
     "general": [
       "https://www.wfu.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/1130"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_Wake_Forest_University_people"
     ]
   },
   "majors": {
@@ -88,18 +94,203 @@
       "source_url": "https://admissions.wfu.edu/apply/",
       "source_excerpt": "Teacher Recommendation Form",
       "retrieved_at": "2026-04-20T03:02:53.580986+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/1130",
+      "source_excerpt": "Matched RateMyProfessors school 'Wake Forest University' (legacyId=1130) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-24T17:01:19.774074+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 10 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_Wake_Forest_University_people",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-24T18:00:00.860134+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:02:53.580991+00:00",
+    "last_verified_at": "2026-04-30T00:27:53.261903+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.essays"
     ],
     "warnings": [
+      "Major titles still need manual follow-up; no reliable official title list was extracted in this pass.",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
-      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence."
+      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'Wake Forest University' (legacyId=1130) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-24T17:01:19.774065+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Akbar Salam",
+          "department": "Chemistry",
+          "average_rating": 2.4,
+          "rating_count": 62,
+          "would_take_again_percent": 33.9,
+          "average_difficulty": 3.6,
+          "legacy_id": 1044922,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1044922",
+          "source_url": "https://www.ratemyprofessors.com/school/1130"
+        },
+        {
+          "rank": 2,
+          "name": "Heath Greene",
+          "department": "Psychology",
+          "average_rating": 3.4,
+          "rating_count": 53,
+          "would_take_again_percent": 59.6,
+          "average_difficulty": 3.6,
+          "legacy_id": 1267150,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1267150",
+          "source_url": "https://www.ratemyprofessors.com/school/1130"
+        },
+        {
+          "rank": 3,
+          "name": "Robert Whaples",
+          "department": "Economics",
+          "average_rating": 4.3,
+          "rating_count": 50,
+          "would_take_again_percent": 70,
+          "average_difficulty": 4,
+          "legacy_id": 595072,
+          "profile_url": "https://www.ratemyprofessors.com/professor/595072",
+          "source_url": "https://www.ratemyprofessors.com/school/1130"
+        },
+        {
+          "rank": 4,
+          "name": "David Wren",
+          "department": "Chemistry",
+          "average_rating": 4.8,
+          "rating_count": 47,
+          "would_take_again_percent": 95.7,
+          "average_difficulty": 3.2,
+          "legacy_id": 2525628,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2525628",
+          "source_url": "https://www.ratemyprofessors.com/school/1130"
+        },
+        {
+          "rank": 5,
+          "name": "Brian Tague",
+          "department": "Biology",
+          "average_rating": 3.1,
+          "rating_count": 44,
+          "would_take_again_percent": 51.1,
+          "average_difficulty": 4,
+          "legacy_id": 2583144,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2583144",
+          "source_url": "https://www.ratemyprofessors.com/school/1130"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-24T18:00:00.860119+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Jason Benetti",
+          "description": "American sportscaster (born 1983)",
+          "wikipedia_title": "Jason Benetti",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Jason_Benetti",
+          "recent_pageviews": 151866,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Wake_Forest_University_people"
+        },
+        {
+          "rank": 2,
+          "name": "Jesse Helms",
+          "description": "American politician (1921\u20132008)",
+          "wikipedia_title": "Jesse Helms",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Jesse_Helms",
+          "recent_pageviews": 151580,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Wake_Forest_University_people"
+        },
+        {
+          "rank": 3,
+          "name": "Richard Burr",
+          "description": "American businessman and politician (born 1955)",
+          "wikipedia_title": "Richard Burr",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Richard_Burr",
+          "recent_pageviews": 84320,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Wake_Forest_University_people"
+        },
+        {
+          "rank": 4,
+          "name": "Kay Hagan",
+          "description": "American lawyer, banking executive, and politician (1953\u20132019)",
+          "wikipedia_title": "Kay Hagan",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Kay_Hagan",
+          "recent_pageviews": 79624,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Wake_Forest_University_people"
+        },
+        {
+          "rank": 5,
+          "name": "Emily Giffin",
+          "description": "American writer",
+          "wikipedia_title": "Emily Giffin",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Emily_Giffin",
+          "recent_pageviews": 21468,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Wake_Forest_University_people"
+        },
+        {
+          "rank": 6,
+          "name": "Donna Edwards",
+          "description": "American politician (born 1958)",
+          "wikipedia_title": "Donna Edwards",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Donna_Edwards",
+          "recent_pageviews": 17985,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Wake_Forest_University_people"
+        },
+        {
+          "rank": 7,
+          "name": "George Holding",
+          "description": "American politician (born 1968)",
+          "wikipedia_title": "George Holding",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/George_Holding",
+          "recent_pageviews": 13776,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Wake_Forest_University_people"
+        },
+        {
+          "rank": 8,
+          "name": "Margaret Feinberg",
+          "description": "American writer",
+          "wikipedia_title": "Margaret Feinberg",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Margaret_Feinberg",
+          "recent_pageviews": 7460,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Wake_Forest_University_people"
+        },
+        {
+          "rank": 9,
+          "name": "W. J. Cash",
+          "description": "American journalist and writer",
+          "wikipedia_title": "W. J. Cash",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/W._J._Cash",
+          "recent_pageviews": 6578,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Wake_Forest_University_people"
+        },
+        {
+          "rank": 10,
+          "name": "Claude Kitchin",
+          "description": "American politician (1869\u20131923)",
+          "wikipedia_title": "Claude Kitchin",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Claude_Kitchin",
+          "recent_pageviews": 5317,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Wake_Forest_University_people"
+        }
+      ]
+    },
+    "warnings": []
   }
 }

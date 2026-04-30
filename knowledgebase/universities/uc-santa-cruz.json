@@ -15,18 +15,37 @@
     "majors": [
       "https://www.ucsc.edu/academic-programs",
       "https://www.ucsc.edu/academics/",
-      "https://www.ucsc.edu/majors"
+      "https://www.ucsc.edu/majors",
+      "https://admissions.ucsc.edu/find-your-program"
     ],
     "testing_policy": [],
     "general": [
       "https://www.ucsc.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/1078"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Santa_Cruz_people"
     ]
   },
   "majors": {
     "count": 74,
     "count_method": "explicit official page sentence",
-    "titles": [],
-    "notes": "explicit official page sentence",
+    "titles": [
+      "Ancient Studies (formerly Classical Studies)",
+      "Applied Linguistics and Multilingualism",
+      "Applied Physics",
+      "Art & Design: Games + Playable Media",
+      "Artificial Intelligence",
+      "Biochemistry and Molecular Biology",
+      "Biology",
+      "Biomolecular Engineering and Bioinformatics",
+      "Biotechnology",
+      "Black Studies",
+      "Business"
+    ],
+    "notes": "explicit official page sentence; titles extracted from official page: https://admissions.ucsc.edu/find-your-program",
     "confidence": "medium"
   },
   "admissions": {
@@ -90,10 +109,34 @@
       "source_url": "https://admissions.ucsc.edu/first-year-student",
       "source_excerpt": "UC Santa Cruz does not use standardized exam scores (ACT/SAT) in our comprehensive review and selection process.",
       "retrieved_at": "2026-04-20T03:48:33.021289+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/1078",
+      "source_excerpt": "Matched RateMyProfessors school 'University of California Santa Cruz' (legacyId=1078) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T15:21:38.771315+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 10 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Santa_Cruz_people",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T16:24:01.333895+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 11 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://admissions.ucsc.edu/find-your-program",
+      "source_excerpt": "Ancient Studies (formerly Classical Studies); Applied Linguistics and Multilingualism; Applied Physics; Art & Design: Games + Playable Media; Artificial Intelligence; Biochemistry and Molecular Biology; Biology; Biomolecular Engineering and Bioinformatics; Biotechnology; Black Studies; Business",
+      "retrieved_at": "2026-04-29T23:39:59.184940+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:48:33.021299+00:00",
+    "last_verified_at": "2026-04-29T23:39:59.184950+00:00",
     "confidence": "phase-5-manual-repair",
     "unknown_fields": [
       "admissions.course_rigor",
@@ -101,10 +144,179 @@
       "admissions.essays"
     ],
     "warnings": [
+      "Major titles extracted from official school source (11 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
       "admissions.course_rigor was reset to unknown during manual cleanup because the earlier auto-extracted text was unrelated to the requested admissions field.",
-      "UC Santa Cruz testing policy was manually repaired from the official first-year student page after the auto-crawl captured Clery/safety disclosure text."
+      "UC Santa Cruz testing policy was manually repaired from the official first-year student page after the auto-crawl captured Clery/safety disclosure text.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'University of California Santa Cruz' (legacyId=1078) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T15:21:38.771305+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Yonatan Katznelson",
+          "department": "Mathematics",
+          "average_rating": 2.7,
+          "rating_count": 581,
+          "would_take_again_percent": 45.5,
+          "average_difficulty": 3.8,
+          "legacy_id": 2303587,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2303587",
+          "source_url": "https://www.ratemyprofessors.com/school/1078"
+        },
+        {
+          "rank": 2,
+          "name": "Barun Dhar",
+          "department": "Physics",
+          "average_rating": 3.2,
+          "rating_count": 398,
+          "would_take_again_percent": 58.9,
+          "average_difficulty": 4.1,
+          "legacy_id": 2535492,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2535492",
+          "source_url": "https://www.ratemyprofessors.com/school/1078"
+        },
+        {
+          "rank": 3,
+          "name": "Patrick Tantalo",
+          "department": "Computer Science",
+          "average_rating": 3.7,
+          "rating_count": 385,
+          "would_take_again_percent": 77.3,
+          "average_difficulty": 3.3,
+          "legacy_id": 144099,
+          "profile_url": "https://www.ratemyprofessors.com/professor/144099",
+          "source_url": "https://www.ratemyprofessors.com/school/1078"
+        },
+        {
+          "rank": 4,
+          "name": "Frank Bauerle",
+          "department": "Mathematics",
+          "average_rating": 4,
+          "rating_count": 304,
+          "would_take_again_percent": 46.7,
+          "average_difficulty": 3.2,
+          "legacy_id": 153659,
+          "profile_url": "https://www.ratemyprofessors.com/professor/153659",
+          "source_url": "https://www.ratemyprofessors.com/school/1078"
+        },
+        {
+          "rank": 5,
+          "name": "Edward Migliore",
+          "department": "Mathematics",
+          "average_rating": 3.6,
+          "rating_count": 263,
+          "would_take_again_percent": 49.5,
+          "average_difficulty": 3.1,
+          "legacy_id": 218123,
+          "profile_url": "https://www.ratemyprofessors.com/professor/218123",
+          "source_url": "https://www.ratemyprofessors.com/school/1078"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T16:24:01.333883+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Victor Davis Hanson",
+          "description": "American classicist and military historian (born 1953)",
+          "wikipedia_title": "Victor Davis Hanson",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Victor_Davis_Hanson",
+          "recent_pageviews": 525431,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Santa_Cruz_people"
+        },
+        {
+          "rank": 2,
+          "name": "Jello Biafra",
+          "description": "American singer and activist (born 1958)",
+          "wikipedia_title": "Jello Biafra",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Jello_Biafra",
+          "recent_pageviews": 364974,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Santa_Cruz_people"
+        },
+        {
+          "rank": 3,
+          "name": "Bret Weinstein",
+          "description": "American podcaster and author (born 1969)",
+          "wikipedia_title": "Bret Weinstein",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Bret_Weinstein",
+          "recent_pageviews": 266699,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Santa_Cruz_people"
+        },
+        {
+          "rank": 4,
+          "name": "Miranda July",
+          "description": "American artist (born 1974)",
+          "wikipedia_title": "Miranda July",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Miranda_July",
+          "recent_pageviews": 261372,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Santa_Cruz_people"
+        },
+        {
+          "rank": 5,
+          "name": "Jonah Peretti",
+          "description": "American businessman (born 1974)",
+          "wikipedia_title": "Jonah Peretti",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Jonah_Peretti",
+          "recent_pageviews": 127286,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Santa_Cruz_people"
+        },
+        {
+          "rank": 6,
+          "name": "Brannon Braga",
+          "description": "American television producer, director, and screenwriter",
+          "wikipedia_title": "Brannon Braga",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Brannon_Braga",
+          "recent_pageviews": 73461,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Santa_Cruz_people"
+        },
+        {
+          "rank": 7,
+          "name": "David Talbot",
+          "description": "American investigative journalist and editor",
+          "wikipedia_title": "David Talbot",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/David_Talbot",
+          "recent_pageviews": 32712,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Santa_Cruz_people"
+        },
+        {
+          "rank": 8,
+          "name": "Mike Cagney",
+          "description": "American entrepreneur",
+          "wikipedia_title": "Mike Cagney",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Mike_Cagney",
+          "recent_pageviews": 29957,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Santa_Cruz_people"
+        },
+        {
+          "rank": 9,
+          "name": "Susie Bright",
+          "description": "American writer and feminist",
+          "wikipedia_title": "Susie Bright",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Susie_Bright",
+          "recent_pageviews": 29045,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Santa_Cruz_people"
+        },
+        {
+          "rank": 10,
+          "name": "Brett Dennen",
+          "description": "American musician",
+          "wikipedia_title": "Brett Dennen",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Brett_Dennen",
+          "recent_pageviews": 22710,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Santa_Cruz_people"
+        }
+      ]
+    },
+    "warnings": []
   }
 }

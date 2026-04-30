@@ -15,6 +15,46 @@ status: phase-3-structured
 
 ### Majors
 - https://firstyear.mit.edu/academics-exploration/major-exploration/
+- https://catalog.mit.edu/degree-charts/
+
+### Professors
+- https://www.eecs.mit.edu/people/
+- https://www.eecs.mit.edu/people/akintunde-akinwande/
+- https://www.eecs.mit.edu/people/anant-agarwal/
+- https://www.eecs.mit.edu/people/antonio-torralba/
+- https://www.eecs.mit.edu/people/armando-solar-lezama/
+- https://www.eecs.mit.edu/people/daniela-rus/
+- https://www.eecs.mit.edu/people/devavrat-shah/
+- https://www.eecs.mit.edu/people/dina-katabi/
+- https://www.eecs.mit.edu/people/fadel-adib/
+- https://www.eecs.mit.edu/people/hal-abelson/
+- https://www.eecs.mit.edu/people/hari-balakrishnan/
+- https://www.eecs.mit.edu/people/leslie-kaelbling/
+- https://www.eecs.mit.edu/people/marc-baldo/
+- https://www.eecs.mit.edu/people/mohammad-alizadeh/
+- https://www.eecs.mit.edu/people/pulkit-agrawal/
+- https://www.eecs.mit.edu/people/regina-barzilay/
+- https://www.eecs.mit.edu/people/sangeeta-bhatia/
+- https://www.eecs.mit.edu/people/sara-beery/
+- https://www.eecs.mit.edu/people/stefanie-mueller/
+- https://www.eecs.mit.edu/people/tamara-broderick/
+- https://www.eecs.mit.edu/people/tommi-jaakkola/
+- https://www.ratemyprofessors.com/school/580
+
+### Alumni
+- https://en.wikipedia.org/wiki/List_of_Massachusetts_Institute_of_Technology_alumni
+- https://news.mit.edu/2024/gates-cambridge-scholars-0227
+- https://news.mit.edu/2024/lara-ozkan-named-marshall-scholar-1216
+- https://news.mit.edu/2025/four-mit-named-2026-rhodes-scholars-1115
+- https://news.mit.edu/2025/gates-cambridge-scholars-0224
+- https://news.mit.edu/2025/mit-students-named-schwarzman-scholars-0115
+- https://news.mit.edu/2025/paul-daisy-soros-fellowships-for-new-americans-0410
+- https://news.mit.edu/2025/steven-truong-named-knight-hennessy-scholar-0514
+- https://news.mit.edu/2026/active-surfaces-aims-to-install-peel-and-stick-solar-panels-everywhere-0324
+- https://news.mit.edu/2026/akorfa-dagadu-named-2027-schwarzman-scholar-0122
+- https://news.mit.edu/2026/bringing-ai-driven-protein-design-tools-everywhere-0417
+- https://news.mit.edu/2026/mit-alumnae-named-gates-cambridge-scholars-0421
+- https://news.mit.edu/2026/tackling-housing-shortage-robotic-microfactories-0421
 
 ## Structured extraction
 - Majors count: 55
@@ -25,10 +65,293 @@ status: phase-3-structured
 - Recommendations: MIT requires letters of recommendation as part of the first-year application materials.
 - Essays: MIT requires an essays, activities, and academics section as part of the first-year application.
 
-## Competitive signals
-### projects_research
-- MIT explicitly evaluates essays, activities, and academics as part of the first-year application process.
+## School people
+- Popular professors basis: Curated from the official MIT EECS people directory, prioritizing current institute-wide academic leaders, named chairs, lab directors, and highly visible faculty with active MIT profile pages.
+- Popular professors target count: 20
+- Successful alumni basis: Curated from official MIT News and MIT Energy Initiative stories featuring recent MIT graduates and alumni with explicit degree-year evidence where available.
+- Successful alumni target count: 20
+- Recent alumni window requested: 10 years
+- Major specific alumni filtering enabled: True
+- Per-major alumni target count: 10
+
+### Alumni per-major gaps
+- Biological Engineering: 8
+- Aerospace Engineering: 9
+- Biological Engineering / Creative Writing: 9
+- Business Analytics: 9
+- Chemical Engineering: 9
+- Chemical-Biological Engineering: 9
+- Chemistry: 9
+- Chemistry and Biology: 9
+- City Planning / Architecture: 9
+- Civil and Environmental Engineering / Business (Leaders for Global Operations): 9
+- Computer Science: 9
+- Computer Science and Cognitive Sciences: 9
+- Computer Science and Molecular Biology: 9
+- Electrical Engineering and Computer Science: 9
+- Mathematics / Computer Science, Economics, and Data Science: 9
+- Mechanical Engineering: 9
+- PhD program (protein engineering / computational biology context not further specified on teaser): 9
+- Physics: 9
+- System Design and Management: 9
+
+### Alumni evidence quality counts
+- near_term_student_profile: 6
+- official_profile: 14
+
+### Alumni by major
+- Biological Engineering (2)
+  - #1 Mitali Chowdhury — 2026 Gates Cambridge Scholar and sequencing-diagnostics startup employee.
+  - #15 Sofia Lara — 2026 Rhodes Scholar pursuing clinical-medicine research.
+- Aerospace Engineering (1)
+  - #16 Sophia Wang — 2026 Rhodes Scholar with aerospace and physics focus.
+- Biological Engineering / Creative Writing (1)
+  - #18 Steven Truong — 2025 Knight-Hennessy Scholar and physician-scientist trainee.
+- Business Analytics (1)
+  - #13 Vivian Chinoda — 2026 Rhodes Scholar focused on social innovation and evidence-based policy.
+- Chemical Engineering (1)
+  - #14 Alice Hall — 2026 Rhodes Scholar focused on clean-energy engineering.
+- Chemical-Biological Engineering (1)
+  - #19 Akorfa Dagadu — 2027 Schwarzman Scholar and recycling-venture founder.
+- Chemistry (1)
+  - #12 Jupneet Singh — 2025 P.D. Soros Fellow, Rhodes Scholar, and future physician.
+- Chemistry and Biology (1)
+  - #2 Christina Kim — 2025 and 2026 Gates Cambridge Scholar; women’s-health researcher.
+- City Planning / Architecture (1)
+  - #5 Sera Tolgay — 2025 Gates Cambridge Scholar; urban planner and hydrologist.
+- Civil and Environmental Engineering / Business (Leaders for Global Operations) (1)
+  - #9 Shiv Bhakta — CEO and co-founder of Active Surfaces.
+- Computer Science (1)
+  - #10 Sadhana Lolla — 2024 Gates Cambridge winner focused on robotics, AI, and technology policy.
+- Computer Science and Cognitive Sciences (1)
+  - #20 Andrii Zahorodnii — 2026 Schwarzman Scholar with AI and cognitive-science focus.
+- Computer Science and Molecular Biology (1)
+  - #17 Lara Ozkan — 2025 Marshall Scholar focused on women’s health and computational biology.
+- Electrical Engineering and Computer Science (1)
+  - #8 Richard Swartwout — Co-founder and CTO of Active Surfaces.
+- Mathematics / Computer Science, Economics, and Data Science (1)
+  - #11 Rupert Li — 2025 P.D. Soros Fellow and future mathematics PhD student.
+- Mechanical Engineering (1)
+  - #3 Abigail Schipper — 2025 Gates Cambridge Scholar focused on medical devices for low-resource care.
+- PhD program (protein engineering / computational biology context not further specified on teaser) (1)
+  - #7 Tristan Bepler — Co-founder of OpenProtein.AI.
+- Physics (1)
+  - #4 Rachel Zhang — 2025 Gates Cambridge Scholar and astrophysics researcher.
+- System Design and Management (1)
+  - #6 Vikas Enti — Co-founder of Reframe Systems.
+
+### Top professors
+- #1 Daniela Rus — Electrical Engineering and Computer Science / Artificial Intelligence + Decision-making
+  - bio: Director of CSAIL, deputy dean of research for the MIT Schwarzman College of Computing, and Panasonic Professor, according to her official MIT EECS profile.
+  - Official MIT EECS profile: https://www.eecs.mit.edu/people/daniela-rus/
+  - official website: https://www.eecs.mit.edu/people/daniela-rus/
+- #2 Regina Barzilay — Artificial Intelligence + Decision-making
+  - bio: School of Engineering Distinguished Professor of AI and Health on her official MIT EECS profile.
+  - Official MIT EECS profile: https://www.eecs.mit.edu/people/regina-barzilay/
+  - official website: https://www.eecs.mit.edu/people/regina-barzilay/
+- #3 Dina Katabi — Computer Science / Artificial Intelligence + Decision-making
+  - bio: Thuan (1990) and Nicole Pham Professor on her official MIT EECS profile.
+  - Official MIT EECS profile: https://www.eecs.mit.edu/people/dina-katabi/
+  - official website: https://www.eecs.mit.edu/people/dina-katabi/
+- #4 Sangeeta Bhatia — Electrical Engineering / Artificial Intelligence + Decision-making
+  - bio: John and Dorothy Wilson Professor of EECS, per her official MIT EECS profile.
+  - Official MIT EECS profile: https://www.eecs.mit.edu/people/sangeeta-bhatia/
+  - official website: https://www.eecs.mit.edu/people/sangeeta-bhatia/
+- #5 Hari Balakrishnan — Computer Science / Artificial Intelligence + Decision-making
+  - bio: Fujitsu Professor in Electrical Engineering and Computer Science on his official MIT EECS profile.
+  - Official MIT EECS profile: https://www.eecs.mit.edu/people/hari-balakrishnan/
+  - official website: https://www.eecs.mit.edu/people/hari-balakrishnan/
+- #6 Antonio Torralba — Artificial Intelligence + Decision-making
+  - bio: Faculty head for AI+D and Delta Electronics Professor, according to his official MIT EECS profile.
+  - Official MIT EECS profile: https://www.eecs.mit.edu/people/antonio-torralba/
+  - official website: https://www.eecs.mit.edu/people/antonio-torralba/
+- #7 Tommi Jaakkola — Artificial Intelligence + Decision-making
+  - bio: Thomas M. Siebel Distinguished Professor on his official MIT EECS profile.
+  - Official MIT EECS profile: https://www.eecs.mit.edu/people/tommi-jaakkola/
+  - official website: https://www.eecs.mit.edu/people/tommi-jaakkola/
+- #8 Armando Solar-Lezama — Computer Science / Artificial Intelligence + Decision-making
+  - bio: Distinguished Professor of Computing in the MIT Schwarzman College of Computing and professor of EECS on his official MIT EECS profile.
+  - Official MIT EECS profile: https://www.eecs.mit.edu/people/armando-solar-lezama/
+  - official website: https://www.eecs.mit.edu/people/armando-solar-lezama/
+- #9 Mohammad Alizadeh — Computer Science / Artificial Intelligence + Decision-making
+  - bio: Professor in EECS, industry officer, and director of the 6-A MEng Thesis Program according to his official MIT EECS profile.
+  - Official MIT EECS profile: https://www.eecs.mit.edu/people/mohammad-alizadeh/
+  - official website: https://www.eecs.mit.edu/people/mohammad-alizadeh/
+- #10 Leslie Kaelbling — Artificial Intelligence + Decision-making
+  - bio: Panasonic Professor on her official MIT EECS profile.
+  - Official MIT EECS profile: https://www.eecs.mit.edu/people/leslie-kaelbling/
+  - official website: https://www.eecs.mit.edu/people/leslie-kaelbling/
+- #11 Hal Abelson — Computer Science / Artificial Intelligence + Decision-making
+  - bio: Class of 1922 Professor in computer science and AI+D according to his official MIT EECS profile.
+  - Official MIT EECS profile: https://www.eecs.mit.edu/people/hal-abelson/
+  - official website: https://www.eecs.mit.edu/people/hal-abelson/
+- #12 Anant Agarwal — Computer Science / Electrical Engineering
+  - bio: CEO of edX and Professor Post-Tenure in EECS, according to his official MIT EECS profile.
+  - Official MIT EECS profile: https://www.eecs.mit.edu/people/anant-agarwal/
+  - official website: https://www.eecs.mit.edu/people/anant-agarwal/
+- #13 Akintunde Akinwande — Electrical Engineering
+  - bio: Thomas and Gerd Perkins Professor of Electrical Engineering and Computer Science and Professor of EE on his official MIT EECS profile.
+  - Official MIT EECS profile: https://www.eecs.mit.edu/people/akintunde-akinwande/
+  - official website: https://www.eecs.mit.edu/people/akintunde-akinwande/
+- #14 Marc A Baldo — Electrical Engineering
+  - bio: Director of RLE and Dugald C. Jackson Professor in EE according to his official MIT EECS profile.
+  - Official MIT EECS profile: https://www.eecs.mit.edu/people/marc-baldo/
+  - official website: https://www.eecs.mit.edu/people/marc-baldo/
+- #15 Sara Beery — Artificial Intelligence + Decision-making
+  - bio: Homer A. Burnell Career Development Professor and Assistant Professor in AI+D on her official MIT EECS profile.
+  - Official MIT EECS profile: https://www.eecs.mit.edu/people/sara-beery/
+  - official website: https://www.eecs.mit.edu/people/sara-beery/
+- #16 Tamara Broderick — Artificial Intelligence + Decision-making
+  - bio: Associate Professor of EECS in AI+D according to her official MIT EECS profile.
+  - Official MIT EECS profile: https://www.eecs.mit.edu/people/tamara-broderick/
+  - official website: https://www.eecs.mit.edu/people/tamara-broderick/
+- #17 Devavrat Shah — Artificial Intelligence + Decision-making
+  - bio: Andrew (1956) and Erna Viterbi Professor in AI+D on his official MIT EECS profile.
+  - Official MIT EECS profile: https://www.eecs.mit.edu/people/devavrat-shah/
+  - official website: https://www.eecs.mit.edu/people/devavrat-shah/
+- #18 Stefanie Mueller — Computer Science / Electrical Engineering
+  - bio: TIBCO Founders Professor and Associate Professor in CS and EE according to her official MIT EECS profile.
+  - Official MIT EECS profile: https://www.eecs.mit.edu/people/stefanie-mueller/
+  - official website: https://www.eecs.mit.edu/people/stefanie-mueller/
+- #19 Pulkit Agrawal — Artificial Intelligence + Decision-making / Computer Science
+  - bio: Associate Professor in AI+D and CS on his official MIT EECS profile.
+  - Official MIT EECS profile: https://www.eecs.mit.edu/people/pulkit-agrawal/
+  - official website: https://www.eecs.mit.edu/people/pulkit-agrawal/
+- #20 Fadel Adib — Computer Science / Media Lab
+  - bio: Associate Professor at the Media Lab with a joint appointment in EECS, according to his official MIT EECS profile.
+  - Official MIT EECS profile: https://www.eecs.mit.edu/people/fadel-adib/
+  - official website: https://www.eecs.mit.edu/people/fadel-adib/
+
+### Top students / alumni
+- #1 Mitali Chowdhury — 2026 Gates Cambridge Scholar and sequencing-diagnostics startup employee.
+  - bio: MIT News says Chowdhury graduated in 2024 with a BS in biological engineering plus minors in urban planning and environment and sustainability and now works at a startup advancing sequencing-based diagnostics.
+  - major=Biological Engineering; graduation_year=2024; within_last_10_years=True
+  - evidence_quality=official_profile
+  - evidence_note: Official person-specific alumni, spotlight, or news profile with explicit school/program context and substantive narrative detail.
+  - Official MIT News profile: https://news.mit.edu/2026/mit-alumnae-named-gates-cambridge-scholars-0421
+- #2 Christina Kim — 2025 and 2026 Gates Cambridge Scholar; women’s-health researcher.
+  - bio: MIT News says Kim graduated in 2024 after majoring in chemistry and biology and worked as a researcher in women’s health at the Wellcome Sanger Institute.
+  - major=Chemistry and Biology; graduation_year=2024; within_last_10_years=True
+  - evidence_quality=official_profile
+  - evidence_note: Official person-specific alumni, spotlight, or news profile with explicit school/program context and substantive narrative detail.
+  - Official MIT News profile: https://news.mit.edu/2026/mit-alumnae-named-gates-cambridge-scholars-0421
+- #3 Abigail Schipper — 2025 Gates Cambridge Scholar focused on medical devices for low-resource care.
+  - bio: MIT News says Schipper graduated in 2024 with a BS in mechanical engineering and a minor in biology and is pursuing medical-device research for pre-hospital trauma systems.
+  - major=Mechanical Engineering; graduation_year=2024; within_last_10_years=True
+  - evidence_quality=official_profile
+  - evidence_note: Official person-specific alumni, spotlight, or news profile with explicit school/program context and substantive narrative detail.
+  - Official MIT News profile: https://news.mit.edu/2025/gates-cambridge-scholars-0224
+- #4 Rachel Zhang — 2025 Gates Cambridge Scholar and astrophysics researcher.
+  - bio: MIT News says Zhang graduated from MIT with a BS in physics in 2021, then earned an MS in astronomy at Northwestern and went on to pursue a Cambridge PhD in applied mathematics and theoretical physics.
+  - major=Physics; graduation_year=2021; within_last_10_years=True
+  - evidence_quality=official_profile
+  - evidence_note: Official person-specific alumni, spotlight, or news profile with explicit school/program context and substantive narrative detail.
+  - Official MIT News profile: https://news.mit.edu/2025/gates-cambridge-scholars-0224
+- #5 Sera Tolgay — 2025 Gates Cambridge Scholar; urban planner and hydrologist.
+  - bio: MIT News says Tolgay earned MIT master’s degrees in city planning and architecture in 2018 and works as an urban planner and hydrologist focused on climate adaptation, infrastructure planning, and water management.
+  - major=City Planning / Architecture; graduation_year=2018; within_last_10_years=True
+  - evidence_quality=official_profile
+  - evidence_note: Official person-specific alumni, spotlight, or news profile with explicit school/program context and substantive narrative detail.
+  - Official MIT News profile: https://news.mit.edu/2025/gates-cambridge-scholars-0224
+- #6 Vikas Enti — Co-founder of Reframe Systems.
+  - bio: MIT News says Reframe Systems was co-founded by Vikas Enti SM ’20 and describes him as using lessons from MIT’s System Design and Management program to build robotic microfactories for modular housing.
+  - major=System Design and Management; graduation_year=2020; within_last_10_years=True
+  - evidence_quality=official_profile
+  - evidence_note: Official person-specific alumni, spotlight, or news profile with explicit school/program context and substantive narrative detail.
+  - Official MIT News profile: https://news.mit.edu/2026/tackling-housing-shortage-robotic-microfactories-0421
+- #7 Tristan Bepler — Co-founder of OpenProtein.AI.
+  - bio: MIT News says OpenProtein.AI was founded by Tristan Bepler PhD ’20 and highlights his work bringing open-source AI models and protein-engineering tools to researchers.
+  - major=PhD program (protein engineering / computational biology context not further specified on teaser); graduation_year=2020; within_last_10_years=True
+  - evidence_quality=official_profile
+  - evidence_note: Official person-specific alumni, spotlight, or news profile with explicit school/program context and substantive narrative detail.
+  - Official MIT News profile: https://news.mit.edu/2026/bringing-ai-driven-protein-design-tools-everywhere-0417
+- #8 Richard Swartwout — Co-founder and CTO of Active Surfaces.
+  - bio: MIT News says Swartwout earned an SM in 2018 and a PhD in 2021 and co-founded Active Surfaces to commercialize lightweight peel-and-stick solar films.
+  - major=Electrical Engineering and Computer Science; graduation_year=2021; within_last_10_years=True
+  - evidence_quality=official_profile
+  - evidence_note: Official person-specific alumni, spotlight, or news profile with explicit school/program context and substantive narrative detail.
+  - Official MIT News profile: https://news.mit.edu/2026/active-surfaces-aims-to-install-peel-and-stick-solar-panels-everywhere-0324
+- #9 Shiv Bhakta — CEO and co-founder of Active Surfaces.
+  - bio: MIT News says Bhakta earned an MBA ’24 and SM ’24 through the Leaders for Global Operations program and co-founded Active Surfaces, where he serves as CEO.
+  - major=Civil and Environmental Engineering / Business (Leaders for Global Operations); graduation_year=2024; within_last_10_years=True
+  - evidence_quality=official_profile
+  - evidence_note: Official person-specific alumni, spotlight, or news profile with explicit school/program context and substantive narrative detail.
+  - Official MIT News profile: https://news.mit.edu/2026/active-surfaces-aims-to-install-peel-and-stick-solar-panels-everywhere-0324
+- #10 Sadhana Lolla — 2024 Gates Cambridge winner focused on robotics, AI, and technology policy.
+  - bio: MIT News identified Lolla as a 2024 MIT senior majoring in computer science, conducting robotics and trustworthy-AI research, and headed to Cambridge for an MPhil in technology policy; this entry treats the 2024 senior profile as a near-term alumni record.
+  - major=Computer Science; graduation_year=2024; within_last_10_years=True
+  - evidence_quality=near_term_student_profile
+  - evidence_note: Official school profile covers a current senior or very recent graduate and is being used as a near-term alumni proxy.
+  - Official MIT News profile: https://news.mit.edu/2024/gates-cambridge-scholars-0227
+- #11 Rupert Li — 2025 P.D. Soros Fellow and future mathematics PhD student.
+  - bio: MIT News says Li graduated from MIT in 2024 with a double major in mathematics and computer science, economics, and data science, and earned an MEng in computer science, economics, and data science; he is now pursuing advanced mathematics study and a future PhD in mathematics.
+  - major=Mathematics / Computer Science, Economics, and Data Science; graduation_year=2024; within_last_10_years=True
+  - evidence_quality=official_profile
+  - evidence_note: Official person-specific alumni, spotlight, or news profile with explicit school/program context and substantive narrative detail.
+  - Official MIT News profile: https://news.mit.edu/2025/paul-daisy-soros-fellowships-for-new-americans-0410
+- #12 Jupneet Singh — 2025 P.D. Soros Fellow, Rhodes Scholar, and future physician.
+  - bio: MIT News says Singh graduated from MIT in 2023 with a degree in chemistry and a concentration in history, won a Rhodes Scholarship, and is pursuing medical training with plans for military and public-health service.
+  - major=Chemistry; graduation_year=2023; within_last_10_years=True
+  - evidence_quality=official_profile
+  - evidence_note: Official person-specific alumni, spotlight, or news profile with explicit school/program context and substantive narrative detail.
+  - Official MIT News profile: https://news.mit.edu/2025/paul-daisy-soros-fellowships-for-new-americans-0410
+- #13 Vivian Chinoda — 2026 Rhodes Scholar focused on social innovation and evidence-based policy.
+  - bio: MIT News says Chinoda graduated in 2025 with a BS in business analytics and was named a Rhodes Scholar to pursue social data science and public policy at Oxford.
+  - major=Business Analytics; graduation_year=2025; within_last_10_years=True
+  - evidence_quality=official_profile
+  - evidence_note: Official person-specific alumni, spotlight, or news profile with explicit school/program context and substantive narrative detail.
+  - Official MIT News profile: https://news.mit.edu/2025/four-mit-named-2026-rhodes-scholars-1115
+- #14 Alice Hall — 2026 Rhodes Scholar focused on clean-energy engineering.
+  - bio: MIT News says Hall is a senior studying chemical engineering with a minor in Spanish and will pursue engineering research at Oxford focused on sustainable heating and cooling technologies; this entry treats her as a near-term alumni record.
+  - major=Chemical Engineering; graduation_year=2026; within_last_10_years=True
+  - evidence_quality=near_term_student_profile
+  - evidence_note: Official school profile covers a current senior or very recent graduate and is being used as a near-term alumni proxy.
+  - Official MIT News profile: https://news.mit.edu/2025/four-mit-named-2026-rhodes-scholars-1115
+- #15 Sofia Lara — 2026 Rhodes Scholar pursuing clinical-medicine research.
+  - bio: MIT News says Lara is a senior majoring in biological engineering with a minor in Spanish and will pursue clinical medicine research at Oxford; this entry treats her as a near-term alumni record.
+  - major=Biological Engineering; graduation_year=2026; within_last_10_years=True
+  - evidence_quality=near_term_student_profile
+  - evidence_note: Official school profile covers a current senior or very recent graduate and is being used as a near-term alumni proxy.
+  - Official MIT News profile: https://news.mit.edu/2025/four-mit-named-2026-rhodes-scholars-1115
+- #16 Sophia Wang — 2026 Rhodes Scholar with aerospace and physics focus.
+  - bio: MIT News says Wang graduated in 2024 with a BS in aerospace engineering and a concentration in the design of highly autonomous systems and will pursue mathematical and theoretical physics plus global governance study at Oxford.
+  - major=Aerospace Engineering; graduation_year=2024; within_last_10_years=True
+  - evidence_quality=official_profile
+  - evidence_note: Official person-specific alumni, spotlight, or news profile with explicit school/program context and substantive narrative detail.
+  - Official MIT News profile: https://news.mit.edu/2025/four-mit-named-2026-rhodes-scholars-1115
+- #17 Lara Ozkan — 2025 Marshall Scholar focused on women’s health and computational biology.
+  - bio: MIT News says Ozkan is a senior majoring in computer science and molecular biology and was named a 2025 Marshall Scholar to study biological science and AI in the U.K.; this entry treats her as a near-term alumni record.
+  - major=Computer Science and Molecular Biology; graduation_year=2025; within_last_10_years=True
+  - evidence_quality=near_term_student_profile
+  - evidence_note: Official school profile covers a current senior or very recent graduate and is being used as a near-term alumni proxy.
+  - Official MIT News profile: https://news.mit.edu/2024/lara-ozkan-named-marshall-scholar-1216
+- #18 Steven Truong — 2025 Knight-Hennessy Scholar and physician-scientist trainee.
+  - bio: MIT News says Truong graduated from MIT in 2020 with bachelor’s degrees in biological engineering and creative writing and is now an MD-PhD student focused on diabetes and metabolic disorders.
+  - major=Biological Engineering / Creative Writing; graduation_year=2020; within_last_10_years=True
+  - evidence_quality=official_profile
+  - evidence_note: Official person-specific alumni, spotlight, or news profile with explicit school/program context and substantive narrative detail.
+  - Official MIT News profile: https://news.mit.edu/2025/steven-truong-named-knight-hennessy-scholar-0514
+- #19 Akorfa Dagadu — 2027 Schwarzman Scholar and recycling-venture founder.
+  - bio: MIT News says Dagadu is a senior majoring in chemical-biological engineering, researching plastic-degrading enzyme-polymer systems and building a recycling venture in Ghana; this entry treats her as a near-term alumni record.
+  - major=Chemical-Biological Engineering; graduation_year=2026; within_last_10_years=True
+  - evidence_quality=near_term_student_profile
+  - evidence_note: Official school profile covers a current senior or very recent graduate and is being used as a near-term alumni proxy.
+  - Official MIT News profile: https://news.mit.edu/2026/akorfa-dagadu-named-2027-schwarzman-scholar-0122
+- #20 Andrii Zahorodnii — 2026 Schwarzman Scholar with AI and cognitive-science focus.
+  - bio: MIT News says Zahorodnii will graduate in 2025 with a BS and MEng in computer science and cognitive sciences and is using AI and neuroscience research to inform global decision-making; this entry treats him as a near-term alumni record.
+  - major=Computer Science and Cognitive Sciences; graduation_year=2025; within_last_10_years=True
+  - evidence_quality=near_term_student_profile
+  - evidence_note: Official school profile covers a current senior or very recent graduate and is being used as a near-term alumni proxy.
+  - Official MIT News profile: https://news.mit.edu/2025/mit-students-named-schwarzman-scholars-0115
+
+### School people warnings
+- Applied school-specific professor override data.
+- Applied school-specific alumni override data.
+- Per-major alumni target of 10 is not yet met for 19 major buckets in this pilot override.
 
 ## Warnings
+- Major titles extracted from official school source (179 titles).
 - Phase 3 structured upgrade completed with improved majors counting, admissions extraction, and query-ready records.
 - MIT majors count is a curated count of official undergraduate SB degree-chart links, not a registrar-published sentence like 'MIT offers X majors'.
+- School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data.
+- School-people enrichment includes school-specific override data sourced from official university domains for populated sections.

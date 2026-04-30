@@ -19,13 +19,34 @@
     "testing_policy": [],
     "general": [
       "https://www.pepperdine.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/759"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_Pepperdine_University_people"
     ]
   },
   "majors": {
     "count": 46,
     "count_method": "explicit official page sentence",
-    "titles": [],
-    "notes": "explicit official page sentence",
+    "titles": [
+      "Schools of Pepperdine",
+      "Seaver College of Letters, Arts, and Sciences",
+      "Caruso School of Law",
+      "Graziadio Business School",
+      "Graduate School of Education and Psychology",
+      "International Programs",
+      "Meet the Faculty",
+      "Accreditation",
+      "Seaver College",
+      "expected learning outcomes",
+      "Academic Calendar",
+      "Academic Catalog",
+      "Centers and Institutes",
+      "Faculty"
+    ],
+    "notes": "explicit official page sentence; titles extracted from official page: https://www.pepperdine.edu/academics/",
     "confidence": "medium"
   },
   "admissions": {
@@ -81,18 +102,211 @@
       "source_url": "https://www.pepperdine.edu/admissions",
       "source_excerpt": "Pepperdine offers rigorous programs, valuable resources, and countless opportunities that will enable you to pursue your desired course of study.",
       "retrieved_at": "2026-04-20T03:05:16.842939+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 14 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://www.pepperdine.edu/academics/",
+      "source_excerpt": "Schools of Pepperdine; Seaver College of Letters, Arts, and Sciences; Caruso School of Law; Graziadio Business School; Graduate School of Education and Psychology; International Programs; Meet the Faculty; Accreditation; Seaver College; expected learning outcomes; Academic Calendar; Academic Catalog",
+      "retrieved_at": "2026-04-24T13:56:00.122691+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/759",
+      "source_excerpt": "Matched RateMyProfessors school 'Pepperdine University' (legacyId=759) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T04:24:49.749176+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 10 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_Pepperdine_University_people",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T05:28:08.708485+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:05:16.842944+00:00",
+    "last_verified_at": "2026-04-25T05:28:08.708488+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.recommendations",
       "admissions.essays"
     ],
     "warnings": [
+      "Major titles extracted from official school source (14 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
-      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages."
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'Pepperdine University' (legacyId=759) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T04:24:49.749166+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Robert Sexton",
+          "department": "Economics",
+          "average_rating": 3.7,
+          "rating_count": 136,
+          "would_take_again_percent": 43.5,
+          "average_difficulty": 3,
+          "legacy_id": 64132,
+          "profile_url": "https://www.ratemyprofessors.com/professor/64132",
+          "source_url": "https://www.ratemyprofessors.com/school/759"
+        },
+        {
+          "rank": 2,
+          "name": "Sonia Sorrell",
+          "department": "Humanities",
+          "average_rating": 3.3,
+          "rating_count": 134,
+          "would_take_again_percent": -1,
+          "average_difficulty": 3.3,
+          "legacy_id": 64556,
+          "profile_url": "https://www.ratemyprofessors.com/professor/64556",
+          "source_url": "https://www.ratemyprofessors.com/school/759"
+        },
+        {
+          "rank": 3,
+          "name": "Gary Galles",
+          "department": "Economics",
+          "average_rating": 2.3,
+          "rating_count": 111,
+          "would_take_again_percent": 12.8,
+          "average_difficulty": 4.5,
+          "legacy_id": 64535,
+          "profile_url": "https://www.ratemyprofessors.com/professor/64535",
+          "source_url": "https://www.ratemyprofessors.com/school/759"
+        },
+        {
+          "rank": 4,
+          "name": "Robin Perrin",
+          "department": "Social Science",
+          "average_rating": 3.6,
+          "rating_count": 99,
+          "would_take_again_percent": 49.0,
+          "average_difficulty": 3.3,
+          "legacy_id": 64380,
+          "profile_url": "https://www.ratemyprofessors.com/professor/64380",
+          "source_url": "https://www.ratemyprofessors.com/school/759"
+        },
+        {
+          "rank": 5,
+          "name": "Chris Heard",
+          "department": "Theology",
+          "average_rating": 3.2,
+          "rating_count": 88,
+          "would_take_again_percent": 45.5,
+          "average_difficulty": 3.5,
+          "legacy_id": 291280,
+          "profile_url": "https://www.ratemyprofessors.com/professor/291280",
+          "source_url": "https://www.ratemyprofessors.com/school/759"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T05:28:08.708473+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Nicole Kidman",
+          "description": "Australian and American actress (born 1967)",
+          "wikipedia_title": "Nicole Kidman",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Nicole_Kidman",
+          "recent_pageviews": 4773692,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Pepperdine_University_people"
+        },
+        {
+          "rank": 2,
+          "name": "Joseph Baena",
+          "description": "American actor and bodybuilder (born 1997)",
+          "wikipedia_title": "Joseph Baena",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Joseph_Baena",
+          "recent_pageviews": 998678,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Pepperdine_University_people"
+        },
+        {
+          "rank": 3,
+          "name": "Chace Crawford",
+          "description": "American actor (born 1985)",
+          "wikipedia_title": "Chace Crawford",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Chace_Crawford",
+          "recent_pageviews": 609234,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Pepperdine_University_people"
+        },
+        {
+          "rank": 4,
+          "name": "Tia Mowry",
+          "description": "American actress (born 1978)",
+          "wikipedia_title": "Tia Mowry",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Tia_Mowry",
+          "recent_pageviews": 561838,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Pepperdine_University_people"
+        },
+        {
+          "rank": 5,
+          "name": "Kelly Hu",
+          "description": "American actress (born 1968)",
+          "wikipedia_title": "Kelly Hu",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Kelly_Hu",
+          "recent_pageviews": 484471,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Pepperdine_University_people"
+        },
+        {
+          "rank": 6,
+          "name": "Tamera Mowry",
+          "description": "American actress, singer, TV host (born 1978)",
+          "wikipedia_title": "Tamera Mowry",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Tamera_Mowry",
+          "recent_pageviews": 414387,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Pepperdine_University_people"
+        },
+        {
+          "rank": 7,
+          "name": "Eric Christian Olsen",
+          "description": "American actor",
+          "wikipedia_title": "Eric Christian Olsen",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Eric_Christian_Olsen",
+          "recent_pageviews": 372213,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Pepperdine_University_people"
+        },
+        {
+          "rank": 8,
+          "name": "Meredith Salenger",
+          "description": "American actress (born 1970)",
+          "wikipedia_title": "Meredith Salenger",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Meredith_Salenger",
+          "recent_pageviews": 370854,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Pepperdine_University_people"
+        },
+        {
+          "rank": 9,
+          "name": "Pierce Brown",
+          "description": "American science fiction author (born 1988)",
+          "wikipedia_title": "Pierce Brown",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Pierce_Brown",
+          "recent_pageviews": 316950,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Pepperdine_University_people"
+        },
+        {
+          "rank": 10,
+          "name": "Tahj Mowry",
+          "description": "American actor (born 1986)",
+          "wikipedia_title": "Tahj Mowry",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Tahj_Mowry",
+          "recent_pageviews": 286181,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Pepperdine_University_people"
+        }
+      ]
+    },
+    "warnings": []
   }
 }

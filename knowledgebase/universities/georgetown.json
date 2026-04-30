@@ -20,6 +20,12 @@
     "testing_policy": [],
     "general": [
       "https://www.georgetown.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/355"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_Georgetown_University_alumni"
     ]
   },
   "majors": {
@@ -64,10 +70,26 @@
       "source_url": "https://uadmissions.georgetown.edu/apply/first-year/",
       "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
       "retrieved_at": "2026-04-20T03:02:27.097375+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/355",
+      "source_excerpt": "Matched RateMyProfessors school 'Georgetown University' (legacyId=355) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-24T23:13:14.834987+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 7 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_Georgetown_University_alumni",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-24T23:22:08.961422+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:02:27.097380+00:00",
+    "last_verified_at": "2026-04-30T00:24:00.610361+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.course_rigor",
@@ -76,10 +98,155 @@
       "competitive_signals.projects_research"
     ],
     "warnings": [
+      "Major titles still need manual follow-up; no reliable official title list was extracted in this pass.",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
       "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",
-      "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page."
+      "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
+    ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'Georgetown University' (legacyId=355) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-24T23:13:14.834978+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Carol Rogers",
+          "department": "Economics",
+          "average_rating": 3.3,
+          "rating_count": 242,
+          "would_take_again_percent": 58.6,
+          "average_difficulty": 3.3,
+          "legacy_id": 365940,
+          "profile_url": "https://www.ratemyprofessors.com/professor/365940",
+          "source_url": "https://www.ratemyprofessors.com/school/355"
+        },
+        {
+          "rank": 2,
+          "name": "Arik Levinson",
+          "department": "Economics",
+          "average_rating": 3.6,
+          "rating_count": 207,
+          "would_take_again_percent": 61.5,
+          "average_difficulty": 3.2,
+          "legacy_id": 212290,
+          "profile_url": "https://www.ratemyprofessors.com/professor/212290",
+          "source_url": "https://www.ratemyprofessors.com/school/355"
+        },
+        {
+          "rank": 3,
+          "name": "David Burk",
+          "department": "Economics",
+          "average_rating": 3.7,
+          "rating_count": 195,
+          "would_take_again_percent": 72.8,
+          "average_difficulty": 3.3,
+          "legacy_id": 2627020,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2627020",
+          "source_url": "https://www.ratemyprofessors.com/school/355"
+        },
+        {
+          "rank": 4,
+          "name": "Oded Meyer",
+          "department": "Mathematics",
+          "average_rating": 4.6,
+          "rating_count": 183,
+          "would_take_again_percent": 92.6,
+          "average_difficulty": 2.6,
+          "legacy_id": 1513029,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1513029",
+          "source_url": "https://www.ratemyprofessors.com/school/355"
+        },
+        {
+          "rank": 5,
+          "name": "Eric Langenbacher",
+          "department": "Government",
+          "average_rating": 3.5,
+          "rating_count": 175,
+          "would_take_again_percent": 59.3,
+          "average_difficulty": 3.1,
+          "legacy_id": 133047,
+          "profile_url": "https://www.ratemyprofessors.com/professor/133047",
+          "source_url": "https://www.ratemyprofessors.com/school/355"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-24T23:22:08.961405+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Tiffany Trump",
+          "description": "Daughter of Donald Trump (born 1993)",
+          "wikipedia_title": "Tiffany Trump",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Tiffany_Trump",
+          "recent_pageviews": 1933622,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Georgetown_University_alumni"
+        },
+        {
+          "rank": 2,
+          "name": "Josh D'Amaro",
+          "description": "American business executive (born 1971)",
+          "wikipedia_title": "Josh D'Amaro",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Josh_D'Amaro",
+          "recent_pageviews": 347600,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Georgetown_University_alumni"
+        },
+        {
+          "rank": 3,
+          "name": "Eric Hotung",
+          "description": "Hong Kong billionaire businessman, financier, and philanthropist",
+          "wikipedia_title": "Eric Hotung",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Eric_Hotung",
+          "recent_pageviews": 9162,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Georgetown_University_alumni"
+        },
+        {
+          "rank": 4,
+          "name": "Tiffany Yu",
+          "description": "Entrepreneur and disability rights advocate (born 1988)",
+          "wikipedia_title": "Tiffany Yu",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Tiffany_Yu",
+          "recent_pageviews": 8535,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Georgetown_University_alumni"
+        },
+        {
+          "rank": 5,
+          "name": "Peter Corsell",
+          "description": "American technology entrepreneur and investor",
+          "wikipedia_title": "Peter Corsell",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Peter_Corsell",
+          "recent_pageviews": 3821,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Georgetown_University_alumni"
+        },
+        {
+          "rank": 6,
+          "name": "Alan Gallay",
+          "description": "American historian (born 1957)",
+          "wikipedia_title": "Alan Gallay",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Alan_Gallay",
+          "recent_pageviews": 833,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Georgetown_University_alumni"
+        },
+        {
+          "rank": 7,
+          "name": "\u00d6mer Ko\u00e7",
+          "description": "Turkish businessman",
+          "wikipedia_title": "\u00d6mer Ko\u00e7",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/%C3%96mer_Ko%C3%A7",
+          "recent_pageviews": 221,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Georgetown_University_alumni"
+        }
+      ]
+    },
+    "warnings": [
+      "Only identified 7 alumni candidates that looked like people.",
+      "Only ranked 7 successful alumni items."
     ]
   }
 }

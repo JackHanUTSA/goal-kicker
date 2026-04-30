@@ -18,13 +18,50 @@
     "testing_policy": [],
     "general": [
       "https://www.smu.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/927"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_Southern_Methodist_University_people"
     ]
   },
   "majors": {
     "count": 100,
     "count_method": "explicit official page sentence",
-    "titles": [],
-    "notes": "explicit official page sentence",
+    "titles": [
+      "Biochemistry",
+      "Biophysical Sciences",
+      "Business",
+      "Business Administration",
+      "Business Entrepreneurship",
+      "Chemistry",
+      "Chinese",
+      "Computer Science with Cyber Security Specialization",
+      "Educational Studies",
+      "English",
+      "Ethics",
+      "Ethnic Studies",
+      "Finance",
+      "French",
+      "German",
+      "Health and Society",
+      "History",
+      "International Studies",
+      "Management",
+      "Management Science",
+      "Marketing",
+      "Markets and Culture",
+      "Medieval Studies",
+      "Public Policy",
+      "Real Estate",
+      "Religious Studies",
+      "Sociology",
+      "Spanish",
+      "Women's and Gender Studies",
+      "Undergraduate Students"
+    ],
+    "notes": "explicit official page sentence; titles extracted from official page: https://www.smu.edu/admission/majors-minors",
     "confidence": "medium"
   },
   "admissions": {
@@ -88,10 +125,34 @@
       "source_url": "https://www.smu.edu/admission/apply/undergraduate-admission/testing",
       "source_excerpt": "SMU is fully test-optional. Under SMU\u2019s test-optional policy, applicants who choose not to submit ACT or SAT scores will be evaluated on the other factors, including grades, r\u00e9sum\u00e9, essays and recommendation letters.",
       "retrieved_at": "2026-04-20T03:48:33.020732+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 30 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://www.smu.edu/admission/majors-minors",
+      "source_excerpt": "Biochemistry; Biophysical Sciences; Business; Business Administration; Business Entrepreneurship; Chemistry; Chinese; Computer Science with Cyber Security Specialization; Educational Studies; English; Ethics; Ethnic Studies",
+      "retrieved_at": "2026-04-24T06:55:55.899290+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/927",
+      "source_excerpt": "Matched RateMyProfessors school 'SMU - Southern Methodist University' (legacyId=927) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T07:59:03.585478+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 10 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_Southern_Methodist_University_people",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T09:04:03.059277+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:48:33.020744+00:00",
+    "last_verified_at": "2026-04-25T09:04:03.059280+00:00",
     "confidence": "phase-5-manual-repair",
     "unknown_fields": [
       "admissions.course_rigor",
@@ -99,10 +160,179 @@
       "admissions.essays"
     ],
     "warnings": [
+      "Major titles extracted from official school source (30 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
       "admissions.course_rigor was reset to unknown during manual cleanup because the earlier auto-extracted text was unrelated to the requested admissions field.",
-      "SMU testing policy was manually repaired from the official undergraduate admission testing page after the auto-crawl captured unrelated program-marketing text."
+      "SMU testing policy was manually repaired from the official undergraduate admission testing page after the auto-crawl captured unrelated program-marketing text.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'SMU - Southern Methodist University' (legacyId=927) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T07:59:03.585461+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Kevin Wells",
+          "department": "English",
+          "average_rating": 4.8,
+          "rating_count": 392,
+          "would_take_again_percent": 96.2,
+          "average_difficulty": 2.5,
+          "legacy_id": 2309059,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2309059",
+          "source_url": "https://www.ratemyprofessors.com/school/927"
+        },
+        {
+          "rank": 2,
+          "name": "Mea Ahlberg",
+          "department": "Business",
+          "average_rating": 2.9,
+          "rating_count": 352,
+          "would_take_again_percent": 48.0,
+          "average_difficulty": 3.5,
+          "legacy_id": 2698447,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2698447",
+          "source_url": "https://www.ratemyprofessors.com/school/927"
+        },
+        {
+          "rank": 3,
+          "name": "Tania Jordan",
+          "department": "Economics",
+          "average_rating": 2.4,
+          "rating_count": 322,
+          "would_take_again_percent": 29.8,
+          "average_difficulty": 4,
+          "legacy_id": 508099,
+          "profile_url": "https://www.ratemyprofessors.com/professor/508099",
+          "source_url": "https://www.ratemyprofessors.com/school/927"
+        },
+        {
+          "rank": 4,
+          "name": "Alejandro D'Brot",
+          "department": "Biology",
+          "average_rating": 3.8,
+          "rating_count": 299,
+          "would_take_again_percent": 71,
+          "average_difficulty": 3.4,
+          "legacy_id": 2155567,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2155567",
+          "source_url": "https://www.ratemyprofessors.com/school/927"
+        },
+        {
+          "rank": 5,
+          "name": "Elizabeth Wheaton",
+          "department": "Economics",
+          "average_rating": 3.2,
+          "rating_count": 182,
+          "would_take_again_percent": 43.8,
+          "average_difficulty": 3.8,
+          "legacy_id": 894578,
+          "profile_url": "https://www.ratemyprofessors.com/professor/894578",
+          "source_url": "https://www.ratemyprofessors.com/school/927"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T09:04:03.059262+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Rick Scott",
+          "description": "American politician (born 1952)",
+          "wikipedia_title": "Rick Scott",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Rick_Scott",
+          "recent_pageviews": 570124,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Southern_Methodist_University_people"
+        },
+        {
+          "rank": 2,
+          "name": "Hope Hicks",
+          "description": "American public relations executive (born 1988)",
+          "wikipedia_title": "Hope Hicks",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Hope_Hicks",
+          "recent_pageviews": 222094,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Southern_Methodist_University_people"
+        },
+        {
+          "rank": 3,
+          "name": "S. M. Krishna",
+          "description": "Indian politician (1932\u20132024)",
+          "wikipedia_title": "S. M. Krishna",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/S._M._Krishna",
+          "recent_pageviews": 92708,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Southern_Methodist_University_people"
+        },
+        {
+          "rank": 4,
+          "name": "John Tower",
+          "description": "American politician and veteran (1925\u20131991)",
+          "wikipedia_title": "John Tower",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/John_Tower",
+          "recent_pageviews": 88890,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Southern_Methodist_University_people"
+        },
+        {
+          "rank": 5,
+          "name": "Chad Wolf",
+          "description": "American civil servant (born 1976)",
+          "wikipedia_title": "Chad Wolf",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Chad_Wolf",
+          "recent_pageviews": 87248,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Southern_Methodist_University_people"
+        },
+        {
+          "rank": 6,
+          "name": "Eddie Bernice Johnson",
+          "description": "American politician (1934\u20132023)",
+          "wikipedia_title": "Eddie Bernice Johnson",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Eddie_Bernice_Johnson",
+          "recent_pageviews": 72076,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Southern_Methodist_University_people"
+        },
+        {
+          "rank": 7,
+          "name": "Bill Clements",
+          "description": "American businessman and politician (1917\u20132011)",
+          "wikipedia_title": "Bill Clements",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Bill_Clements",
+          "recent_pageviews": 69004,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Southern_Methodist_University_people"
+        },
+        {
+          "rank": 8,
+          "name": "Jo Jorgensen",
+          "description": "American politician (born 1957)",
+          "wikipedia_title": "Jo Jorgensen",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Jo_Jorgensen",
+          "recent_pageviews": 65970,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Southern_Methodist_University_people"
+        },
+        {
+          "rank": 9,
+          "name": "John Ratcliffe",
+          "description": "American politician (born 1965)",
+          "wikipedia_title": "John Ratcliffe",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/John_Ratcliffe",
+          "recent_pageviews": 60561,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Southern_Methodist_University_people"
+        },
+        {
+          "rank": 10,
+          "name": "Sam Brown (military officer)",
+          "description": "American politician and military veteran",
+          "wikipedia_title": "Sam Brown (military officer)",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Sam_Brown_(military_officer)",
+          "recent_pageviews": 49833,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Southern_Methodist_University_people"
+        }
+      ]
+    },
+    "warnings": []
   }
 }

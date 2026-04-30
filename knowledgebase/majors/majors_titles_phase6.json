@@ -1,0 +1,708 @@
+{
+  "generated_at": "2026-04-24T06:58:03.921607+00:00",
+  "schools_total": 100,
+  "schools_with_titles": 18,
+  "schools_without_titles": 82,
+  "results": [
+    {
+      "slug": "mit",
+      "rank": 1,
+      "majors_count": 55,
+      "titles_count": 179,
+      "titles_source_url": "https://catalog.mit.edu/degree-charts/"
+    },
+    {
+      "slug": "stanford",
+      "rank": 2,
+      "majors_count": 100,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "harvard",
+      "rank": 3,
+      "majors_count": 50,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "princeton",
+      "rank": 4,
+      "majors_count": 37,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "yale",
+      "rank": 5,
+      "majors_count": 81,
+      "titles_count": 18,
+      "titles_source_url": "https://admissions.yale.edu/majors"
+    },
+    {
+      "slug": "caltech",
+      "rank": 6,
+      "majors_count": 31,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "uchicago",
+      "rank": 7,
+      "majors_count": 70,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "upenn",
+      "rank": 8,
+      "majors_count": 86,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "columbia",
+      "rank": 9,
+      "majors_count": 26,
+      "titles_count": 26,
+      "titles_source_url": "https://bulletin.columbia.edu/azindex/"
+    },
+    {
+      "slug": "duke",
+      "rank": 10,
+      "majors_count": 63,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "johns-hopkins",
+      "rank": 11,
+      "majors_count": 0,
+      "titles_count": 0,
+      "titles_source_url": "https://e-catalogue.jhu.edu/arts-sciences/full-time-residential-programs-of-study/"
+    },
+    {
+      "slug": "northwestern",
+      "rank": 12,
+      "majors_count": 23,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "dartmouth",
+      "rank": 13,
+      "majors_count": 0,
+      "titles_count": 0,
+      "titles_source_url": "https://home.dartmouth.edu/"
+    },
+    {
+      "slug": "brown",
+      "rank": 14,
+      "majors_count": 80,
+      "titles_count": 96,
+      "titles_source_url": "https://www.brown.edu/undergraduate-programs"
+    },
+    {
+      "slug": "cornell",
+      "rank": 15,
+      "majors_count": 40,
+      "titles_count": 11,
+      "titles_source_url": "https://admissions.cornell.edu/academics/majors"
+    },
+    {
+      "slug": "vanderbilt",
+      "rank": 16,
+      "majors_count": 65,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "rice",
+      "rank": 17,
+      "majors_count": 50,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "washu",
+      "rank": 18,
+      "majors_count": 100,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "notre-dame",
+      "rank": 19,
+      "majors_count": 70,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "uc-berkeley",
+      "rank": 20,
+      "majors_count": 113,
+      "titles_count": 0,
+      "titles_source_url": "https://registrar.berkeley.edu/catalog/"
+    },
+    {
+      "slug": "ucla",
+      "rank": 21,
+      "majors_count": 0,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "carnegie-mellon",
+      "rank": 22,
+      "majors_count": 1,
+      "titles_count": 0,
+      "titles_source_url": "https://www.cmu.edu/admission/majors-programs"
+    },
+    {
+      "slug": "emory",
+      "rank": 23,
+      "majors_count": 15,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "georgetown",
+      "rank": 24,
+      "majors_count": 0,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "michigan",
+      "rank": 25,
+      "majors_count": 146,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "usc",
+      "rank": 26,
+      "majors_count": 0,
+      "titles_count": 0,
+      "titles_source_url": "https://admission.usc.edu/prospective-students/how-to-apply/first-year-students/"
+    },
+    {
+      "slug": "nyu",
+      "rank": 27,
+      "majors_count": 30,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "uva",
+      "rank": 28,
+      "majors_count": 0,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "unc-chapel-hill",
+      "rank": 29,
+      "majors_count": 0,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "tufts",
+      "rank": 30,
+      "majors_count": 0,
+      "titles_count": 0,
+      "titles_source_url": "https://www.tufts.edu/academics"
+    },
+    {
+      "slug": "wake-forest",
+      "rank": 31,
+      "majors_count": 50,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "boston-college",
+      "rank": 32,
+      "majors_count": 0,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "georgia-tech",
+      "rank": 33,
+      "majors_count": 21,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "uc-san-diego",
+      "rank": 34,
+      "majors_count": 100,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "uf",
+      "rank": 35,
+      "majors_count": 0,
+      "titles_count": 0,
+      "titles_source_url": "https://www.ufl.edu/academics/programs-courses/"
+    },
+    {
+      "slug": "ut-austin",
+      "rank": 36,
+      "majors_count": 0,
+      "titles_count": 0,
+      "titles_source_url": "https://www.utexas.edu/academics/academic-experience"
+    },
+    {
+      "slug": "uiuc",
+      "rank": 37,
+      "majors_count": 0,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "wisconsin-madison",
+      "rank": 38,
+      "majors_count": 600,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "ohio-state",
+      "rank": 39,
+      "majors_count": 278,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "university-of-washington",
+      "rank": 40,
+      "majors_count": 0,
+      "titles_count": 0,
+      "titles_source_url": "https://www.washington.edu/academic-programs"
+    },
+    {
+      "slug": "purdue",
+      "rank": 41,
+      "majors_count": 400,
+      "titles_count": 0,
+      "titles_source_url": "https://www.purdue.edu/home/academics/"
+    },
+    {
+      "slug": "boston-university",
+      "rank": 42,
+      "majors_count": 300,
+      "titles_count": 235,
+      "titles_source_url": "https://www.bu.edu/academics/degree-programs/"
+    },
+    {
+      "slug": "northeastern",
+      "rank": 43,
+      "majors_count": 200,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "case-western",
+      "rank": 44,
+      "majors_count": 100,
+      "titles_count": 99,
+      "titles_source_url": "https://case.edu/programs/"
+    },
+    {
+      "slug": "uc-davis",
+      "rank": 45,
+      "majors_count": 10,
+      "titles_count": 0,
+      "titles_source_url": "https://www.ucdavis.edu/academics/majors"
+    },
+    {
+      "slug": "william-and-mary",
+      "rank": 46,
+      "majors_count": 100,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "rochester",
+      "rank": 47,
+      "majors_count": 200,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "brandeis",
+      "rank": 48,
+      "majors_count": 47,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "tulane",
+      "rank": 49,
+      "majors_count": 0,
+      "titles_count": 0,
+      "titles_source_url": "https://tulane.edu/majors"
+    },
+    {
+      "slug": "lehigh",
+      "rank": 50,
+      "majors_count": 100,
+      "titles_count": 125,
+      "titles_source_url": "https://www2.lehigh.edu/admissions/programs"
+    },
+    {
+      "slug": "university-of-georgia",
+      "rank": 51,
+      "majors_count": 0,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "pepperdine",
+      "rank": 52,
+      "majors_count": 46,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "rutgers-new-brunswick",
+      "rank": 53,
+      "majors_count": 150,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "santa-clara",
+      "rank": 54,
+      "majors_count": 50,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "texas-am",
+      "rank": 55,
+      "majors_count": 400,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "villanova",
+      "rank": 56,
+      "majors_count": 0,
+      "titles_count": 0,
+      "titles_source_url": "https://www.villanova.edu/university.html"
+    },
+    {
+      "slug": "indiana-bloomington",
+      "rank": 57,
+      "majors_count": 0,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "syracuse",
+      "rank": 58,
+      "majors_count": 200,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "university-of-miami",
+      "rank": 59,
+      "majors_count": 180,
+      "titles_count": 107,
+      "titles_source_url": "https://admissions.miami.edu/undergraduate/academics/majors-by-school-or-college/index.html"
+    },
+    {
+      "slug": "michigan-state",
+      "rank": 60,
+      "majors_count": 400,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "penn-state",
+      "rank": 61,
+      "majors_count": 275,
+      "titles_count": 0,
+      "titles_source_url": "https://www.psu.edu/academics"
+    },
+    {
+      "slug": "baylor",
+      "rank": 62,
+      "majors_count": 0,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "binghamton",
+      "rank": 63,
+      "majors_count": 150,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "clemson",
+      "rank": 64,
+      "majors_count": 32,
+      "titles_count": 27,
+      "titles_source_url": "https://www.clemson.edu/admissions/"
+    },
+    {
+      "slug": "fordham",
+      "rank": 65,
+      "majors_count": 36,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "george-washington",
+      "rank": 66,
+      "majors_count": 100,
+      "titles_count": 11,
+      "titles_source_url": "https://undergraduate.admissions.gwu.edu/first-year-applicants"
+    },
+    {
+      "slug": "marquette",
+      "rank": 67,
+      "majors_count": 0,
+      "titles_count": 0,
+      "titles_source_url": "https://www.marquette.edu/academics/"
+    },
+    {
+      "slug": "smu",
+      "rank": 68,
+      "majors_count": 100,
+      "titles_count": 30,
+      "titles_source_url": "https://www.smu.edu/admission/majors-minors"
+    },
+    {
+      "slug": "tcu",
+      "rank": 69,
+      "majors_count": 0,
+      "titles_count": 0,
+      "titles_source_url": "https://www.tcu.edu/"
+    },
+    {
+      "slug": "yeshiva",
+      "rank": 70,
+      "majors_count": 32,
+      "titles_count": 9,
+      "titles_source_url": "https://www.yu.edu/graduate"
+    },
+    {
+      "slug": "gonzaga",
+      "rank": 71,
+      "majors_count": 53,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "loyola-marymount",
+      "rank": 72,
+      "majors_count": 100,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "stevens",
+      "rank": 73,
+      "majors_count": 35,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "temple",
+      "rank": 74,
+      "majors_count": 600,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "virginia-tech",
+      "rank": 75,
+      "majors_count": 150,
+      "titles_count": 262,
+      "titles_source_url": "https://www.vt.edu/academics/majors.html"
+    },
+    {
+      "slug": "uconn",
+      "rank": 76,
+      "majors_count": 125,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "colorado-school-of-mines",
+      "rank": 77,
+      "majors_count": 0,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "drexel",
+      "rank": 78,
+      "majors_count": 100,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "njit",
+      "rank": 79,
+      "majors_count": 125,
+      "titles_count": 0,
+      "titles_source_url": "https://www.njit.edu/academics"
+    },
+    {
+      "slug": "pittsburgh",
+      "rank": 80,
+      "majors_count": 0,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "rit",
+      "rank": 81,
+      "majors_count": 44,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "american",
+      "rank": 82,
+      "majors_count": 0,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "florida-state",
+      "rank": 83,
+      "majors_count": 0,
+      "titles_count": 0,
+      "titles_source_url": "https://www.fsu.edu/academics/"
+    },
+    {
+      "slug": "nc-state",
+      "rank": 84,
+      "majors_count": 100,
+      "titles_count": 0,
+      "titles_source_url": "https://www.ncsu.edu/majors-and-careers/"
+    },
+    {
+      "slug": "stony-brook",
+      "rank": 85,
+      "majors_count": 200,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "buffalo",
+      "rank": 86,
+      "majors_count": 350,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "uc-irvine",
+      "rank": 87,
+      "majors_count": 15,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "uc-santa-barbara",
+      "rank": 88,
+      "majors_count": 200,
+      "titles_count": 9,
+      "titles_source_url": "https://psych.ucsb.edu/undergraduate/biopsychology-major"
+    },
+    {
+      "slug": "wpi",
+      "rank": 89,
+      "majors_count": 70,
+      "titles_count": 23,
+      "titles_source_url": "https://www.wpi.edu/academics"
+    },
+    {
+      "slug": "auburn",
+      "rank": 90,
+      "majors_count": 236,
+      "titles_count": 236,
+      "titles_source_url": "https://bulletin.auburn.edu/undergraduate/majors/"
+    },
+    {
+      "slug": "iowa-state",
+      "rank": 91,
+      "majors_count": 200,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "university-of-delaware",
+      "rank": 92,
+      "majors_count": 4,
+      "titles_count": 0,
+      "titles_source_url": "https://www.udel.edu/"
+    },
+    {
+      "slug": "umass-amherst",
+      "rank": 93,
+      "majors_count": 0,
+      "titles_count": 0,
+      "titles_source_url": "https://www.umass.edu/"
+    },
+    {
+      "slug": "minnesota-twin-cities",
+      "rank": 94,
+      "majors_count": 0,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "university-of-san-diego",
+      "rank": 95,
+      "majors_count": 0,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "uc-riverside",
+      "rank": 96,
+      "majors_count": 150,
+      "titles_count": 80,
+      "titles_source_url": "https://admissions.ucr.edu/majors"
+    },
+    {
+      "slug": "uc-santa-cruz",
+      "rank": 97,
+      "majors_count": 74,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "university-of-denver",
+      "rank": 98,
+      "majors_count": 15,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "oregon-state",
+      "rank": 99,
+      "majors_count": 200,
+      "titles_count": 0,
+      "titles_source_url": null
+    },
+    {
+      "slug": "tennessee-knoxville",
+      "rank": 100,
+      "majors_count": 0,
+      "titles_count": 0,
+      "titles_source_url": "https://www.utk.edu/"
+    }
+  ]
+}

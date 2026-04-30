@@ -18,13 +18,29 @@
     "testing_policy": [],
     "general": [
       "https://www.fordham.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/1325"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_Fordham_University_alumni"
     ]
   },
   "majors": {
     "count": 36,
     "count_method": "counted 36 unique major/program-like entries from the cited official page DOM",
-    "titles": [],
-    "notes": "counted 36 unique major/program-like entries from the cited official page DOM",
+    "titles": [
+      "8 schools. 3 campuses.",
+      "The Jesuit Tradition",
+      "Colleges and Schools",
+      "Undergraduate Education",
+      "core curriculum",
+      "major",
+      "Undergraduate Schools",
+      "Core Curriculum",
+      "Virtual Tour"
+    ],
+    "notes": "counted 36 unique major/program-like entries from the cited official page DOM; titles extracted from official page: https://www.fordham.edu/academics/",
     "confidence": "medium"
   },
   "admissions": {
@@ -96,15 +112,184 @@
       "source_url": "https://www.fordham.edu/undergraduate-admission/apply/",
       "source_excerpt": "Visiting Student Application with essay",
       "retrieved_at": "2026-04-20T03:06:39.017273+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 9 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://www.fordham.edu/academics/",
+      "source_excerpt": "8 schools. 3 campuses.; The Jesuit Tradition; Colleges and Schools; Undergraduate Education; core curriculum; major; Undergraduate Schools; Core Curriculum; Virtual Tour",
+      "retrieved_at": "2026-04-24T13:57:00.586209+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/1325",
+      "source_excerpt": "Matched RateMyProfessors school 'Fordham University - Rose Hill' (legacyId=1325) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T07:10:14.345433+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 7 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_Fordham_University_alumni",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T07:46:55.647274+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:06:39.017277+00:00",
+    "last_verified_at": "2026-04-25T07:46:55.647279+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [],
     "warnings": [
+      "Major titles extracted from official school source (9 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
-      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages."
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
+    ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'Fordham University - Rose Hill' (legacyId=1325) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T07:10:14.345416+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Moshe Gold",
+          "department": "English",
+          "average_rating": 4,
+          "rating_count": 140,
+          "would_take_again_percent": 89.2,
+          "average_difficulty": 4.2,
+          "legacy_id": 98117,
+          "profile_url": "https://www.ratemyprofessors.com/professor/98117",
+          "source_url": "https://www.ratemyprofessors.com/school/1325"
+        },
+        {
+          "rank": 2,
+          "name": "Booi Themeli",
+          "department": "Economics",
+          "average_rating": 4.3,
+          "rating_count": 130,
+          "would_take_again_percent": 84.8,
+          "average_difficulty": 2.4,
+          "legacy_id": 199752,
+          "profile_url": "https://www.ratemyprofessors.com/professor/199752",
+          "source_url": "https://www.ratemyprofessors.com/school/1325"
+        },
+        {
+          "rank": 3,
+          "name": "John J. Denniston",
+          "department": "Theology",
+          "average_rating": 4,
+          "rating_count": 130,
+          "would_take_again_percent": 86.7,
+          "average_difficulty": 1.9,
+          "legacy_id": 106114,
+          "profile_url": "https://www.ratemyprofessors.com/professor/106114",
+          "source_url": "https://www.ratemyprofessors.com/school/1325"
+        },
+        {
+          "rank": 4,
+          "name": "Evan Wood",
+          "department": "Mathematics",
+          "average_rating": 3.3,
+          "rating_count": 126,
+          "would_take_again_percent": 54.7,
+          "average_difficulty": 2.8,
+          "legacy_id": 1897080,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1897080",
+          "source_url": "https://www.ratemyprofessors.com/school/1325"
+        },
+        {
+          "rank": 5,
+          "name": "John Shon",
+          "department": "Accounting",
+          "average_rating": 4.3,
+          "rating_count": 120,
+          "would_take_again_percent": 98.1,
+          "average_difficulty": 3.1,
+          "legacy_id": 1194500,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1194500",
+          "source_url": "https://www.ratemyprofessors.com/school/1325"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T07:46:55.647255+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Bing Crosby",
+          "description": "American singer and actor (1903\u20131977)",
+          "wikipedia_title": "Bing Crosby",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Bing_Crosby",
+          "recent_pageviews": 1485115,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Fordham_University_alumni"
+        },
+        {
+          "rank": 2,
+          "name": "Chief operating officer",
+          "description": "Executive position",
+          "wikipedia_title": "Chief operating officer",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Chief_operating_officer",
+          "recent_pageviews": 250373,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Fordham_University_alumni"
+        },
+        {
+          "rank": 3,
+          "name": "Michael J. Dowling",
+          "description": "U.S. health insurance executive",
+          "wikipedia_title": "Michael J. Dowling",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_J._Dowling",
+          "recent_pageviews": 15558,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Fordham_University_alumni"
+        },
+        {
+          "rank": 4,
+          "name": "Wendy Craigg",
+          "description": "Bahamian economist",
+          "wikipedia_title": "Wendy Craigg",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Wendy_Craigg",
+          "recent_pageviews": 997,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Fordham_University_alumni"
+        },
+        {
+          "rank": 5,
+          "name": "Richard Guarasci",
+          "description": "American political scientist",
+          "wikipedia_title": "Richard Guarasci",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Richard_Guarasci",
+          "recent_pageviews": 553,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Fordham_University_alumni"
+        },
+        {
+          "rank": 6,
+          "name": "Lorraine Avila",
+          "description": "American writer and translator",
+          "wikipedia_title": "Lorraine Avila",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Lorraine_Avila",
+          "recent_pageviews": 388,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Fordham_University_alumni"
+        },
+        {
+          "rank": 7,
+          "name": "Thomas F. Woodlock",
+          "description": "Irish-born editor of the Wall Street Journal",
+          "wikipedia_title": "Thomas F. Woodlock",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Thomas_F._Woodlock",
+          "recent_pageviews": 0,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Fordham_University_alumni"
+        }
+      ]
+    },
+    "warnings": [
+      "Only identified 7 alumni candidates that looked like people.",
+      "Only ranked 7 successful alumni items."
     ]
   }
 }

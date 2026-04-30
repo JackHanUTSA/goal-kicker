@@ -13,18 +13,138 @@
     ],
     "majors": [
       "https://www.binghamton.edu/academics/",
-      "https://www.binghamton.edu/majors"
+      "https://www.binghamton.edu/majors",
+      "https://www.binghamton.edu/academics/programs/"
     ],
     "testing_policy": [],
     "general": [
       "https://www.binghamton.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/958"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_Binghamton_University_alumni"
     ]
   },
   "majors": {
     "count": 150,
     "count_method": "explicit official page sentence",
-    "titles": [],
-    "notes": "explicit official page sentence",
+    "titles": [
+      "Accounting",
+      "Africana Studies",
+      "Ancient Mediterranean Studies",
+      "Anthropology",
+      "Art History",
+      "Arts in Healthcare",
+      "Asian and Asian American Studies",
+      "Biochemistry",
+      "Biological Sciences",
+      "Biomedical Engineering",
+      "Business Administration",
+      "Chemistry",
+      "Chinese Studies",
+      "Cinema",
+      "Comparative Literature",
+      "Computer Engineering",
+      "Computer Science",
+      "Digital and Data Studies",
+      "East European and Eurasian Studies",
+      "Economics",
+      "Education",
+      "Electrical Engineering",
+      "English",
+      "Environmental Science and Environmental Studies",
+      "Evolutionary Studies",
+      "Forensic Health",
+      "French",
+      "Geography",
+      "Geological Sciences",
+      "German",
+      "Global Public Health",
+      "Global Studies",
+      "Health and Wellness Studies",
+      "History",
+      "Human Development",
+      "Human Rights",
+      "Immigration Studies",
+      "Industrial and Systems Engineering",
+      "Integrative Neuroscience",
+      "Israel Studies",
+      "Italian",
+      "Japanese Studies",
+      "Judaic and Hebrew Studies",
+      "Korean Studies",
+      "Latin American and Caribbean Studies",
+      "Lighting",
+      "Linguistics",
+      "Mathematical Sciences",
+      "Mechanical Engineering",
+      "Medieval and Early Modern Studies",
+      "Middle East Studies",
+      "Music",
+      "Musical Theatre",
+      "Nursing",
+      "Pharmaceutical Sciences",
+      "Philosophy",
+      "Philosophy, Politics and Law",
+      "Physics",
+      "Political Science",
+      "Psychology",
+      "Public Health",
+      "Religious Studies",
+      "Russian Studies",
+      "Social Work",
+      "Sociology",
+      "Sound Technologies",
+      "Spanish",
+      "Speech and Hearing Science",
+      "Studio Art",
+      "Theatre",
+      "Translation Studies",
+      "Women, Gender and Sexuality Studies",
+      "Writing Studies",
+      "Level of Study",
+      "Academic Interest",
+      "Adolescence Education",
+      "Adult-Gerontological Nursing",
+      "Behavioral Neuroscience",
+      "Biomedical Anthropology",
+      "Childhood and Early Childhood Education",
+      "Clinical Psychology",
+      "Cognitive and Brain Sciences",
+      "Community Health Nursing",
+      "Community Schools",
+      "Complex Systems Science and Engineering",
+      "Cybersecurity",
+      "Data Analytics",
+      "Data Science and Statistics",
+      "Educational Leadership",
+      "Educational Studies",
+      "Electrical and Computer Engineering",
+      "Family Health Nursing",
+      "Family Psychiatric Mental Health Nursing",
+      "Healthcare Systems Engineering",
+      "Higher Education & Student Affairs",
+      "Information Systems",
+      "Literacy Education",
+      "Management",
+      "Materials Science and Engineering",
+      "Non-Profit Administration",
+      "Nursing Education",
+      "Occupational Therapy, Entry Level Professional",
+      "Occupational Therapy, Post-Professional",
+      "Pharmacy",
+      "Physical Therapy",
+      "Public Administration",
+      "Public Policy",
+      "Special Education",
+      "Speech and Language Pathology",
+      "Sustainable Communities",
+      "Systems Science",
+      "Teaching English to Speakers of Other Languages"
+    ],
+    "notes": "explicit official page sentence; titles extracted from official page: https://www.binghamton.edu/academics/programs/",
     "confidence": "medium"
   },
   "admissions": {
@@ -80,19 +200,212 @@
       "source_url": "https://www.binghamton.edu/admissions/",
       "source_excerpt": "With more than 2,500 international students from 100+ different countries, Binghamton University is rich with different cultures and perspectives. Binghamton has won eight U.S. national awards for internationalizing the campus and its coursework.",
       "retrieved_at": "2026-04-20T03:06:27.131243+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 112 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://www.binghamton.edu/academics/programs/",
+      "source_excerpt": "Accounting; Africana Studies; Ancient Mediterranean Studies; Anthropology; Art History; Arts in Healthcare; Asian and Asian American Studies; Biochemistry; Biological Sciences; Biomedical Engineering; Business Administration; Chemistry",
+      "retrieved_at": "2026-04-24T13:56:55.361504+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/958",
+      "source_excerpt": "Matched RateMyProfessors school 'Binghamton University (SUNY)' (legacyId=958) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T06:53:16.071111+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 10 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_Binghamton_University_alumni",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T07:31:15.352039+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:06:27.131249+00:00",
+    "last_verified_at": "2026-04-26T23:50:31.174303+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.recommendations",
       "admissions.essays"
     ],
     "warnings": [
+      "Major titles extracted from official school source (112 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
-      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence."
+      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'Binghamton University (SUNY)' (legacyId=958) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T06:53:16.071100+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Joseph Morrissey",
+          "department": "Psychology",
+          "average_rating": 4.1,
+          "rating_count": 985,
+          "would_take_again_percent": 71.4,
+          "average_difficulty": 2.3,
+          "legacy_id": 18435,
+          "profile_url": "https://www.ratemyprofessors.com/professor/18435",
+          "source_url": "https://www.ratemyprofessors.com/school/958"
+        },
+        {
+          "rank": 2,
+          "name": "Ann Merriwether",
+          "department": "Psychology",
+          "average_rating": 3.9,
+          "rating_count": 618,
+          "would_take_again_percent": 65.2,
+          "average_difficulty": 3.7,
+          "legacy_id": 249898,
+          "profile_url": "https://www.ratemyprofessors.com/professor/249898",
+          "source_url": "https://www.ratemyprofessors.com/school/958"
+        },
+        {
+          "rank": 3,
+          "name": "Michael Armstrong",
+          "department": "Biology",
+          "average_rating": 3.1,
+          "rating_count": 512,
+          "would_take_again_percent": 35.9,
+          "average_difficulty": 4.1,
+          "legacy_id": 239262,
+          "profile_url": "https://www.ratemyprofessors.com/professor/239262",
+          "source_url": "https://www.ratemyprofessors.com/school/958"
+        },
+        {
+          "rank": 4,
+          "name": "Kenny Christianson",
+          "department": "Economics",
+          "average_rating": 3.6,
+          "rating_count": 467,
+          "would_take_again_percent": 60.1,
+          "average_difficulty": 2.8,
+          "legacy_id": 18043,
+          "profile_url": "https://www.ratemyprofessors.com/professor/18043",
+          "source_url": "https://www.ratemyprofessors.com/school/958"
+        },
+        {
+          "rank": 5,
+          "name": "Shiran Froymovich",
+          "department": "Accounting",
+          "average_rating": 4.8,
+          "rating_count": 388,
+          "would_take_again_percent": 96.6,
+          "average_difficulty": 2.5,
+          "legacy_id": 2846979,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2846979",
+          "source_url": "https://www.ratemyprofessors.com/school/958"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T07:31:15.352026+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Philosophy",
+          "description": "Study of general and fundamental questions",
+          "wikipedia_title": "Philosophy",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Philosophy",
+          "recent_pageviews": 1819090,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Binghamton_University_alumni"
+        },
+        {
+          "rank": 2,
+          "name": "Norman Finkelstein",
+          "description": "American political scientist (born 1953)",
+          "wikipedia_title": "Norman Finkelstein",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Norman_Finkelstein",
+          "recent_pageviews": 656021,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Binghamton_University_alumni"
+        },
+        {
+          "rank": 3,
+          "name": "Camille Paglia",
+          "description": "American feminist academic and critic (born 1947)",
+          "wikipedia_title": "Camille Paglia",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Camille_Paglia",
+          "recent_pageviews": 218541,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Binghamton_University_alumni"
+        },
+        {
+          "rank": 4,
+          "name": "Art Spiegelman",
+          "description": "American cartoonist (born 1948)",
+          "wikipedia_title": "Art Spiegelman",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Art_Spiegelman",
+          "recent_pageviews": 190883,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Binghamton_University_alumni"
+        },
+        {
+          "rank": 5,
+          "name": "Arthur Dantchik",
+          "description": "American businessman and philanthropist",
+          "wikipedia_title": "Arthur Dantchik",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Arthur_Dantchik",
+          "recent_pageviews": 23457,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Binghamton_University_alumni"
+        },
+        {
+          "rank": 6,
+          "name": "Deborah Tannen",
+          "description": "American sociolinguist (born 1945)",
+          "wikipedia_title": "Deborah Tannen",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Deborah_Tannen",
+          "recent_pageviews": 14007,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Binghamton_University_alumni"
+        },
+        {
+          "rank": 7,
+          "name": "Arnold J. Levine",
+          "description": "American molecular biologist (born 1939)",
+          "wikipedia_title": "Arnold J. Levine",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Arnold_J._Levine",
+          "recent_pageviews": 4182,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Binghamton_University_alumni"
+        },
+        {
+          "rank": 8,
+          "name": "Jonathan Gottschall",
+          "description": "American literary scholar (born 1972)",
+          "wikipedia_title": "Jonathan Gottschall",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Jonathan_Gottschall",
+          "recent_pageviews": 4069,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Binghamton_University_alumni"
+        },
+        {
+          "rank": 9,
+          "name": "Adam Gazzaley",
+          "description": "American neuroscientist (born 1968)",
+          "wikipedia_title": "Adam Gazzaley",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Adam_Gazzaley",
+          "recent_pageviews": 3947,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Binghamton_University_alumni"
+        },
+        {
+          "rank": 10,
+          "name": "Faisal Farooqui",
+          "description": "Indian entrepreneur",
+          "wikipedia_title": "Faisal Farooqui",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Faisal_Farooqui",
+          "recent_pageviews": 3649,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Binghamton_University_alumni"
+        }
+      ]
+    },
+    "warnings": []
   }
 }

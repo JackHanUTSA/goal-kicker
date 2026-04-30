@@ -19,6 +19,12 @@
     "testing_policy": [],
     "general": [
       "https://www.iu.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/440"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_Indiana_University_Bloomington_people"
     ]
   },
   "majors": {
@@ -73,20 +79,205 @@
       "source_url": "https://www.iu.edu/admissions/index.html",
       "source_excerpt": "Admission standards See coursework requirements and other standards for admission to each IU campus.",
       "retrieved_at": "2026-04-20T03:05:44.535722+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/440",
+      "source_excerpt": "Matched RateMyProfessors school 'Indiana University Bloomington' (legacyId=440) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T05:15:38.761019+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 10 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_Indiana_University_Bloomington_people",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T06:20:53.044062+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:05:44.535726+00:00",
+    "last_verified_at": "2026-04-30T00:39:45.828513+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.recommendations",
       "admissions.essays"
     ],
     "warnings": [
+      "Major titles still need manual follow-up; no reliable official title list was extracted in this pass.",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
       "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",
-      "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page."
+      "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'Indiana University Bloomington' (legacyId=440) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T05:15:38.761009+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "James Self",
+          "department": "Economics",
+          "average_rating": 2.1,
+          "rating_count": 382,
+          "would_take_again_percent": 25.7,
+          "average_difficulty": 4,
+          "legacy_id": 1056088,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1056088",
+          "source_url": "https://www.ratemyprofessors.com/school/440"
+        },
+        {
+          "rank": 2,
+          "name": "Jamie Seitz",
+          "department": "Accounting",
+          "average_rating": 2.1,
+          "rating_count": 379,
+          "would_take_again_percent": 25.5,
+          "average_difficulty": 3.8,
+          "legacy_id": 2729793,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2729793",
+          "source_url": "https://www.ratemyprofessors.com/school/440"
+        },
+        {
+          "rank": 3,
+          "name": "Irene Vlachos-Weber",
+          "department": "Psychology",
+          "average_rating": 4.9,
+          "rating_count": 368,
+          "would_take_again_percent": 96.2,
+          "average_difficulty": 1.8,
+          "legacy_id": 78319,
+          "profile_url": "https://www.ratemyprofessors.com/professor/78319",
+          "source_url": "https://www.ratemyprofessors.com/school/440"
+        },
+        {
+          "rank": 4,
+          "name": "Lisa Thomassen",
+          "department": "Psychology",
+          "average_rating": 3.8,
+          "rating_count": 278,
+          "would_take_again_percent": 66.7,
+          "average_difficulty": 3,
+          "legacy_id": 755785,
+          "profile_url": "https://www.ratemyprofessors.com/professor/755785",
+          "source_url": "https://www.ratemyprofessors.com/school/440"
+        },
+        {
+          "rank": 5,
+          "name": "Joseph Baird",
+          "department": "Business",
+          "average_rating": 4.9,
+          "rating_count": 245,
+          "would_take_again_percent": 97.6,
+          "average_difficulty": 3,
+          "legacy_id": 1540468,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1540468",
+          "source_url": "https://www.ratemyprofessors.com/school/440"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T06:20:53.044045+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Lee Majors",
+          "description": "American actor (born 1939)",
+          "wikipedia_title": "Lee Majors",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Lee_Majors",
+          "recent_pageviews": 2163891,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Indiana_University_Bloomington_people"
+        },
+        {
+          "rank": 2,
+          "name": "Jonathan Banks",
+          "description": "American actor (born 1947)",
+          "wikipedia_title": "Jonathan Banks",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Jonathan_Banks",
+          "recent_pageviews": 1239140,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Indiana_University_Bloomington_people"
+        },
+        {
+          "rank": 3,
+          "name": "Kevin Kline",
+          "description": "American actor (born 1947)",
+          "wikipedia_title": "Kevin Kline",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Kevin_Kline",
+          "recent_pageviews": 1173394,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Indiana_University_Bloomington_people"
+        },
+        {
+          "rank": 4,
+          "name": "Laverne Cox",
+          "description": "American actress and LGBTQ advocate (born 1972)",
+          "wikipedia_title": "Laverne Cox",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Laverne_Cox",
+          "recent_pageviews": 844417,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Indiana_University_Bloomington_people"
+        },
+        {
+          "rank": 5,
+          "name": "Joe Buck",
+          "description": "American sportscaster (born 1969)",
+          "wikipedia_title": "Joe Buck",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Joe_Buck",
+          "recent_pageviews": 526781,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Indiana_University_Bloomington_people"
+        },
+        {
+          "rank": 6,
+          "name": "Suzanne Collins",
+          "description": "American author and television writer (born 1962)",
+          "wikipedia_title": "Suzanne Collins",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Suzanne_Collins",
+          "recent_pageviews": 505354,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Indiana_University_Bloomington_people"
+        },
+        {
+          "rank": 7,
+          "name": "David Giuntoli",
+          "description": "American actor (born 1980)",
+          "wikipedia_title": "David Giuntoli",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/David_Giuntoli",
+          "recent_pageviews": 455470,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Indiana_University_Bloomington_people"
+        },
+        {
+          "rank": 8,
+          "name": "E. Jean Carroll",
+          "description": "American journalist (born 1943)",
+          "wikipedia_title": "E. Jean Carroll",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/E._Jean_Carroll",
+          "recent_pageviews": 443192,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Indiana_University_Bloomington_people"
+        },
+        {
+          "rank": 9,
+          "name": "Arian Moayed",
+          "description": "Iranian actor (born 1980)",
+          "wikipedia_title": "Arian Moayed",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Arian_Moayed",
+          "recent_pageviews": 423761,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Indiana_University_Bloomington_people"
+        },
+        {
+          "rank": 10,
+          "name": "Amanda Schull",
+          "description": "American actress",
+          "wikipedia_title": "Amanda Schull",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Amanda_Schull",
+          "recent_pageviews": 420549,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Indiana_University_Bloomington_people"
+        }
+      ]
+    },
+    "warnings": []
   }
 }

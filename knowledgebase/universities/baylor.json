@@ -18,6 +18,12 @@
     "testing_policy": [],
     "general": [
       "https://www.baylor.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/90"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_Baylor_University_people"
     ]
   },
   "majors": {
@@ -64,10 +70,26 @@
       "source_url": "https://admissions.web.baylor.edu/",
       "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
       "retrieved_at": "2026-04-20T03:06:23.149555+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/90",
+      "source_excerpt": "Matched RateMyProfessors school 'Baylor University' (legacyId=90) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T20:27:30.063292+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 10 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_Baylor_University_people",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T20:39:39.335305+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:06:23.149560+00:00",
+    "last_verified_at": "2026-04-30T00:42:35.266071+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.course_rigor",
@@ -75,10 +97,179 @@
       "admissions.essays"
     ],
     "warnings": [
+      "Major titles still need manual follow-up; no reliable official title list was extracted in this pass.",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
       "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",
-      "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page."
+      "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'Baylor University' (legacyId=90) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T20:27:30.063276+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Michael Korpi",
+          "department": "Film & Digital Media",
+          "average_rating": 3.8,
+          "rating_count": 108,
+          "would_take_again_percent": 50,
+          "average_difficulty": 2.7,
+          "legacy_id": 83524,
+          "profile_url": "https://www.ratemyprofessors.com/professor/83524",
+          "source_url": "https://www.ratemyprofessors.com/school/90"
+        },
+        {
+          "rank": 2,
+          "name": "Tony Talbert",
+          "department": "Education",
+          "average_rating": 4.8,
+          "rating_count": 69,
+          "would_take_again_percent": 100,
+          "average_difficulty": 2.5,
+          "legacy_id": 604100,
+          "profile_url": "https://www.ratemyprofessors.com/professor/604100",
+          "source_url": "https://www.ratemyprofessors.com/school/90"
+        },
+        {
+          "rank": 3,
+          "name": "Scott Wilde",
+          "department": "Mathematics",
+          "average_rating": 2.2,
+          "rating_count": 52,
+          "would_take_again_percent": 100,
+          "average_difficulty": 4.4,
+          "legacy_id": 440093,
+          "profile_url": "https://www.ratemyprofessors.com/professor/440093",
+          "source_url": "https://www.ratemyprofessors.com/school/90"
+        },
+        {
+          "rank": 4,
+          "name": "Steven Cates",
+          "department": "Mathematics",
+          "average_rating": 3.1,
+          "rating_count": 40,
+          "would_take_again_percent": 25,
+          "average_difficulty": 3.1,
+          "legacy_id": 227793,
+          "profile_url": "https://www.ratemyprofessors.com/professor/227793",
+          "source_url": "https://www.ratemyprofessors.com/school/90"
+        },
+        {
+          "rank": 5,
+          "name": "Jonathan Reynolds",
+          "department": "English",
+          "average_rating": 5,
+          "rating_count": 39,
+          "would_take_again_percent": 100,
+          "average_difficulty": 1.8,
+          "legacy_id": 2739337,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2739337",
+          "source_url": "https://www.ratemyprofessors.com/school/90"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T20:39:39.335289+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Willie Nelson",
+          "description": "American country musician (born 1933)",
+          "wikipedia_title": "Willie Nelson",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Willie_Nelson",
+          "recent_pageviews": 2270612,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Baylor_University_people"
+        },
+        {
+          "rank": 2,
+          "name": "Jeff Dunham",
+          "description": "American ventriloquist and comedian (born 1962)",
+          "wikipedia_title": "Jeff Dunham",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Jeff_Dunham",
+          "recent_pageviews": 491052,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Baylor_University_people"
+        },
+        {
+          "rank": 3,
+          "name": "Angela Kinsey",
+          "description": "American actress (born 1971)",
+          "wikipedia_title": "Angela Kinsey",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Angela_Kinsey",
+          "recent_pageviews": 475664,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Baylor_University_people"
+        },
+        {
+          "rank": 4,
+          "name": "Allison Tolman",
+          "description": "American actress",
+          "wikipedia_title": "Allison Tolman",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Allison_Tolman",
+          "recent_pageviews": 354414,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Baylor_University_people"
+        },
+        {
+          "rank": 5,
+          "name": "Thomas Harris",
+          "description": "American writer (born 1940)",
+          "wikipedia_title": "Thomas Harris",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Thomas_Harris",
+          "recent_pageviews": 234349,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Baylor_University_people"
+        },
+        {
+          "rank": 6,
+          "name": "Kara Killmer",
+          "description": "American actress",
+          "wikipedia_title": "Kara Killmer",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Kara_Killmer",
+          "recent_pageviews": 151729,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Baylor_University_people"
+        },
+        {
+          "rank": 7,
+          "name": "Noble Willingham",
+          "description": "American actor (1931\u20132004)",
+          "wikipedia_title": "Noble Willingham",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Noble_Willingham",
+          "recent_pageviews": 150610,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Baylor_University_people"
+        },
+        {
+          "rank": 8,
+          "name": "Mark Hurd",
+          "description": "American businessman (1957\u20132019)",
+          "wikipedia_title": "Mark Hurd",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Mark_Hurd",
+          "recent_pageviews": 130604,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Baylor_University_people"
+        },
+        {
+          "rank": 9,
+          "name": "David Phelps (musician)",
+          "description": "American singer (born 1969)",
+          "wikipedia_title": "David Phelps (musician)",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/David_Phelps_(musician)",
+          "recent_pageviews": 98058,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Baylor_University_people"
+        },
+        {
+          "rank": 10,
+          "name": "Carole Cook",
+          "description": "American actress (1924\u20132023)",
+          "wikipedia_title": "Carole Cook",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Carole_Cook",
+          "recent_pageviews": 83793,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Baylor_University_people"
+        }
+      ]
+    },
+    "warnings": []
   }
 }

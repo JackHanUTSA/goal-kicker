@@ -14,18 +14,33 @@
     ],
     "majors": [
       "https://www.osu.edu/academics",
-      "https://www.osu.edu/majors"
+      "https://www.osu.edu/majors",
+      "https://undergrad.osu.edu/majors-and-academics"
     ],
     "testing_policy": [],
     "general": [
       "https://www.osu.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/724"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_Ohio_State_University_people"
     ]
   },
   "majors": {
     "count": 278,
     "count_method": "explicit official page sentence",
-    "titles": [],
-    "notes": "explicit official page sentence",
+    "titles": [
+      "Majors and degrees",
+      "Undecided?",
+      "Academic communities",
+      "Experiences that set you apart",
+      "Academic mentorship, support and resources",
+      "Quick facts",
+      "Online degree applicants"
+    ],
+    "notes": "explicit official page sentence; titles extracted from official page: https://undergrad.osu.edu/majors-and-academics",
     "confidence": "medium"
   },
   "admissions": {
@@ -81,10 +96,34 @@
       "source_url": "https://undergrad.osu.edu/apply/freshmen-columbus/apply-step-by-step",
       "source_excerpt": "Yes, standardized test scores from ACT or SAT are required for first-year applicants to the Columbus campus.",
       "retrieved_at": "2026-04-20T03:48:33.020354+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/724",
+      "source_excerpt": "Matched RateMyProfessors school 'The Ohio State University' (legacyId=724) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T01:08:57.379522+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 10 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_Ohio_State_University_people",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T01:21:05.846207+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 7 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://undergrad.osu.edu/majors-and-academics",
+      "source_excerpt": "Majors and degrees; Undecided?; Academic communities; Experiences that set you apart; Academic mentorship, support and resources; Quick facts; Online degree applicants",
+      "retrieved_at": "2026-04-29T23:36:38.150404+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:48:33.020372+00:00",
+    "last_verified_at": "2026-04-29T23:36:38.150413+00:00",
     "confidence": "phase-5-manual-repair",
     "unknown_fields": [
       "admissions.course_rigor",
@@ -92,9 +131,178 @@
       "admissions.essays"
     ],
     "warnings": [
+      "Major titles extracted from official school source (7 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
-      "Ohio State testing policy was manually repaired from the official undergraduate admissions page after the auto-crawl captured unrelated SB 1 compliance text."
+      "Ohio State testing policy was manually repaired from the official undergraduate admissions page after the auto-crawl captured unrelated SB 1 compliance text.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'The Ohio State University' (legacyId=724) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T01:08:57.379509+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Marc Smith",
+          "department": "Accounting",
+          "average_rating": 3.9,
+          "rating_count": 682,
+          "would_take_again_percent": 71.1,
+          "average_difficulty": 3.8,
+          "legacy_id": 103717,
+          "profile_url": "https://www.ratemyprofessors.com/professor/103717",
+          "source_url": "https://www.ratemyprofessors.com/school/724"
+        },
+        {
+          "rank": 2,
+          "name": "Robert Zellmer",
+          "department": "Chemistry",
+          "average_rating": 3.6,
+          "rating_count": 499,
+          "would_take_again_percent": 48.3,
+          "average_difficulty": 4.2,
+          "legacy_id": 49002,
+          "profile_url": "https://www.ratemyprofessors.com/professor/49002",
+          "source_url": "https://www.ratemyprofessors.com/school/724"
+        },
+        {
+          "rank": 3,
+          "name": "Rosemary Bartoszek-Loza",
+          "department": "Chemistry",
+          "average_rating": 3.4,
+          "rating_count": 456,
+          "would_take_again_percent": 53.2,
+          "average_difficulty": 4,
+          "legacy_id": 55168,
+          "profile_url": "https://www.ratemyprofessors.com/professor/55168",
+          "source_url": "https://www.ratemyprofessors.com/school/724"
+        },
+        {
+          "rank": 4,
+          "name": "Matthew Stoltzfus",
+          "department": "Chemistry",
+          "average_rating": 4.1,
+          "rating_count": 445,
+          "would_take_again_percent": 84.5,
+          "average_difficulty": 3.8,
+          "legacy_id": 523786,
+          "profile_url": "https://www.ratemyprofessors.com/professor/523786",
+          "source_url": "https://www.ratemyprofessors.com/school/724"
+        },
+        {
+          "rank": 5,
+          "name": "Cynthia Bronson",
+          "department": "Physiology",
+          "average_rating": 3,
+          "rating_count": 431,
+          "would_take_again_percent": 34.6,
+          "average_difficulty": 4.3,
+          "legacy_id": 2022261,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2022261",
+          "source_url": "https://www.ratemyprofessors.com/school/724"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T01:21:05.846191+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Harlan Ellison",
+          "description": "American writer (1934\u20132018)",
+          "wikipedia_title": "Harlan Ellison",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Harlan_Ellison",
+          "recent_pageviews": 555805,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Ohio_State_University_people"
+        },
+        {
+          "rank": 2,
+          "name": "R. L. Stine",
+          "description": "American writer and producer (born 1943)",
+          "wikipedia_title": "R. L. Stine",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/R._L._Stine",
+          "recent_pageviews": 494833,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Ohio_State_University_people"
+        },
+        {
+          "rank": 3,
+          "name": "Roy Lichtenstein",
+          "description": "American pop artist (1923\u20131997)",
+          "wikipedia_title": "Roy Lichtenstein",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Roy_Lichtenstein",
+          "recent_pageviews": 231012,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Ohio_State_University_people"
+        },
+        {
+          "rank": 4,
+          "name": "James Thurber",
+          "description": "American cartoonist, author, journalist, and playwright (1894\u20131961)",
+          "wikipedia_title": "James Thurber",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/James_Thurber",
+          "recent_pageviews": 90004,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Ohio_State_University_people"
+        },
+        {
+          "rank": 5,
+          "name": "Lois McMaster Bujold",
+          "description": "American speculative fiction author (born 1949)",
+          "wikipedia_title": "Lois McMaster Bujold",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Lois_McMaster_Bujold",
+          "recent_pageviews": 70328,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Ohio_State_University_people"
+        },
+        {
+          "rank": 6,
+          "name": "Douglas Brinkley",
+          "description": "American historian (born 1960)",
+          "wikipedia_title": "Douglas Brinkley",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Douglas_Brinkley",
+          "recent_pageviews": 53203,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Ohio_State_University_people"
+        },
+        {
+          "rank": 7,
+          "name": "Rosaria Butterfield",
+          "description": "American writer (born 1962)",
+          "wikipedia_title": "Rosaria Butterfield",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Rosaria_Butterfield",
+          "recent_pageviews": 48636,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Ohio_State_University_people"
+        },
+        {
+          "rank": 8,
+          "name": "Gene Sharp",
+          "description": "American political scientist (1928\u20132018)",
+          "wikipedia_title": "Gene Sharp",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Gene_Sharp",
+          "recent_pageviews": 38472,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Ohio_State_University_people"
+        },
+        {
+          "rank": 9,
+          "name": "Cynthia Ozick",
+          "description": "American writer (born 1928)",
+          "wikipedia_title": "Cynthia Ozick",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Cynthia_Ozick",
+          "recent_pageviews": 34547,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Ohio_State_University_people"
+        },
+        {
+          "rank": 10,
+          "name": "Jeff Smith (cartoonist)",
+          "description": "American cartoonist (born 1960)",
+          "wikipedia_title": "Jeff Smith (cartoonist)",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Jeff_Smith_(cartoonist)",
+          "recent_pageviews": 34396,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Ohio_State_University_people"
+        }
+      ]
+    },
+    "warnings": []
   }
 }

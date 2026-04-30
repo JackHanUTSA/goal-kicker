@@ -19,6 +19,12 @@
     "testing_policy": [],
     "general": [
       "https://www.mines.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/274"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_Colorado_School_of_Mines_people"
     ]
   },
   "majors": {
@@ -73,19 +79,204 @@
       "source_url": "https://www.mines.edu/undergraduate-admissions/",
       "source_excerpt": "An official transcript must be requested from the college that awarded the college credit for your CE classes and sent directly to Mines.",
       "retrieved_at": "2026-04-20T03:08:15.660740+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/274",
+      "source_excerpt": "Matched RateMyProfessors school 'Colorado School of Mines' (legacyId=274) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T20:39:41.876614+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 10 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_Colorado_School_of_Mines_people",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T20:44:42.432196+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:08:15.660744+00:00",
+    "last_verified_at": "2026-04-30T00:48:00.094214+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.recommendations",
       "admissions.essays"
     ],
     "warnings": [
+      "Major titles still need manual follow-up; no reliable official title list was extracted in this pass.",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
-      "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page."
+      "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'Colorado School of Mines' (legacyId=274) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T20:39:41.876601+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Mark Seger",
+          "department": "Chemistry",
+          "average_rating": 3.8,
+          "rating_count": 92,
+          "would_take_again_percent": 90,
+          "average_difficulty": 3.1,
+          "legacy_id": 369124,
+          "profile_url": "https://www.ratemyprofessors.com/professor/369124",
+          "source_url": "https://www.ratemyprofessors.com/school/274"
+        },
+        {
+          "rank": 2,
+          "name": "Christian Shorey",
+          "department": "Geology",
+          "average_rating": 4.1,
+          "rating_count": 83,
+          "would_take_again_percent": 70.6,
+          "average_difficulty": 2.3,
+          "legacy_id": 1079719,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1079719",
+          "source_url": "https://www.ratemyprofessors.com/school/274"
+        },
+        {
+          "rank": 3,
+          "name": "Kristoph Kinzli",
+          "department": "Engineering",
+          "average_rating": 5,
+          "rating_count": 80,
+          "would_take_again_percent": 100,
+          "average_difficulty": 2.3,
+          "legacy_id": 2739439,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2739439",
+          "source_url": "https://www.ratemyprofessors.com/school/274"
+        },
+        {
+          "rank": 4,
+          "name": "Scott Strong",
+          "department": "Mathematics",
+          "average_rating": 4.5,
+          "rating_count": 78,
+          "would_take_again_percent": 90.9,
+          "average_difficulty": 2.8,
+          "legacy_id": 183467,
+          "profile_url": "https://www.ratemyprofessors.com/professor/183467",
+          "source_url": "https://www.ratemyprofessors.com/school/274"
+        },
+        {
+          "rank": 5,
+          "name": "Terry Bridgman",
+          "department": "Mathematics",
+          "average_rating": 4.5,
+          "rating_count": 75,
+          "would_take_again_percent": 94.6,
+          "average_difficulty": 2.9,
+          "legacy_id": 562529,
+          "profile_url": "https://www.ratemyprofessors.com/professor/562529",
+          "source_url": "https://www.ratemyprofessors.com/school/274"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T20:44:42.432186+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "George Saunders",
+          "description": "American writer (born 1958)",
+          "wikipedia_title": "George Saunders",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/George_Saunders",
+          "recent_pageviews": 254432,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Colorado_School_of_Mines_people"
+        },
+        {
+          "rank": 2,
+          "name": "Shane Carwin",
+          "description": "American mixed martial artist",
+          "wikipedia_title": "Shane Carwin",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Shane_Carwin",
+          "recent_pageviews": 84921,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Colorado_School_of_Mines_people"
+        },
+        {
+          "rank": 3,
+          "name": "James H. Dickinson",
+          "description": "U.S. Army general officer",
+          "wikipedia_title": "James H. Dickinson",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/James_H._Dickinson",
+          "recent_pageviews": 13469,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Colorado_School_of_Mines_people"
+        },
+        {
+          "rank": 4,
+          "name": "George R. Brown",
+          "description": "American businessman (1898\u20131983)",
+          "wikipedia_title": "George R. Brown",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/George_R._Brown",
+          "recent_pageviews": 11749,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Colorado_School_of_Mines_people"
+        },
+        {
+          "rank": 5,
+          "name": "Sao Kya Seng",
+          "description": "Myanmar politician, engineer, and agriculturalist",
+          "wikipedia_title": "Sao Kya Seng",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Sao_Kya_Seng",
+          "recent_pageviews": 7906,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Colorado_School_of_Mines_people"
+        },
+        {
+          "rank": 6,
+          "name": "Vance Haynes",
+          "description": "American archaeologist (born 1928)",
+          "wikipedia_title": "Vance Haynes",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Vance_Haynes",
+          "recent_pageviews": 7227,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Colorado_School_of_Mines_people"
+        },
+        {
+          "rank": 7,
+          "name": "Purnomo Yusgiantoro",
+          "description": "Indonesian politician (born 1951)",
+          "wikipedia_title": "Purnomo Yusgiantoro",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Purnomo_Yusgiantoro",
+          "recent_pageviews": 6584,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Colorado_School_of_Mines_people"
+        },
+        {
+          "rank": 8,
+          "name": "Sabr\u00e9 Cook",
+          "description": "American racing driver and mechanical engineer (born 1994)",
+          "wikipedia_title": "Sabr\u00e9 Cook",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Sabr%C3%A9_Cook",
+          "recent_pageviews": 6432,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Colorado_School_of_Mines_people"
+        },
+        {
+          "rank": 9,
+          "name": "Ant\u00f4nio Erm\u00edrio de Moraes",
+          "description": "Brazilian businessman (1928\u20132014)",
+          "wikipedia_title": "Ant\u00f4nio Erm\u00edrio de Moraes",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Ant%C3%B4nio_Erm%C3%ADrio_de_Moraes",
+          "recent_pageviews": 4703,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Colorado_School_of_Mines_people"
+        },
+        {
+          "rank": 10,
+          "name": "Cleave Simpson",
+          "description": "American politician",
+          "wikipedia_title": "Cleave Simpson",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Cleave_Simpson",
+          "recent_pageviews": 2896,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Colorado_School_of_Mines_people"
+        }
+      ]
+    },
+    "warnings": []
   }
 }

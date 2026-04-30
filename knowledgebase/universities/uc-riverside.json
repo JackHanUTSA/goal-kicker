@@ -20,13 +20,100 @@
     "testing_policy": [],
     "general": [
       "https://www.ucr.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/1076"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Riverside_people"
     ]
   },
   "majors": {
     "count": 150,
     "count_method": "explicit official page sentence",
-    "titles": [],
-    "notes": "explicit official page sentence",
+    "titles": [
+      "Bioengineering T BS+MS",
+      "Chemical Engineering T",
+      "Computer Engineering T BS+MS",
+      "Computer Science and Engineering M T BS+MS",
+      "Electrical Engineering T BS+MS",
+      "Entomology M T BS+MS",
+      "Environmental Engineering T",
+      "Mechanical Engineering T BS+MS",
+      "Public Policy M BA/MPP",
+      "Statistics M T BS+MS",
+      "Engineering BS+MS",
+      "Public Policy BA/MPP",
+      "Science: Entomology BS+MS or Statistics BS+MS",
+      "Actuarial Science",
+      "Art History",
+      "Art History/Administrative Studies",
+      "Art History/Religious Studies",
+      "Biochemistry",
+      "Bioengineering",
+      "Biology",
+      "Business Administration",
+      "Accounting & Auditing",
+      "Finance",
+      "Information Systems",
+      "Management",
+      "Marketing",
+      "Business Analytics",
+      "Business Economics",
+      "Cell, Molecular, and Developmental Biology",
+      "Chemistry",
+      "Computer Engineering",
+      "Computer Science and Business Applications",
+      "Computer Science and Engineering",
+      "Creative Writing",
+      "Dance",
+      "Data Science (Science Track)",
+      "Earth and Planetary Sciences",
+      "Economics",
+      "Economics/Administrative Studies",
+      "Education, Society, and Human Development",
+      "Electrical Engineering",
+      "Entomology",
+      "Environmental Sciences",
+      "Gender and Sexuality Studies",
+      "Geology",
+      "Geophysics",
+      "Global and Community Health",
+      "Global Studies",
+      "History",
+      "History/Administrative Studies",
+      "Chinese",
+      "Classical Studies",
+      "Comparative Ancient Civilizations",
+      "Comparative Literature",
+      "French",
+      "Germanic Studies",
+      "Japanese",
+      "Languages",
+      "Linguistics",
+      "Russian Studies",
+      "Liberal Studies",
+      "Materials Science and Engineering",
+      "Mathematics",
+      "Mathematics for Secondary School Teachers",
+      "Microbiology",
+      "Music",
+      "Music and Culture",
+      "Neuroscience (B.A.)",
+      "Neuroscience (B.S.)",
+      "Philosophy",
+      "Physics",
+      "Plant Biology",
+      "Psychology",
+      "Public Policy",
+      "Robotics",
+      "Sociology",
+      "Sociology/Administrative Studies",
+      "Spanish",
+      "Statistics BS+MS",
+      "Sciences"
+    ],
+    "notes": "explicit official page sentence; titles extracted from official page: https://admissions.ucr.edu/majors",
     "confidence": "medium"
   },
   "admissions": {
@@ -74,10 +161,34 @@
       "source_url": "https://admissions.ucr.edu/",
       "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
       "retrieved_at": "2026-04-20T03:12:21.566645+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 80 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://admissions.ucr.edu/majors",
+      "source_excerpt": "Bioengineering T BS+MS; Chemical Engineering T; Computer Engineering T BS+MS; Computer Science and Engineering M T BS+MS; Electrical Engineering T BS+MS; Entomology M T BS+MS; Environmental Engineering T; Mechanical Engineering T BS+MS; Public Policy M BA/MPP; Statistics M T BS+MS; Engineering BS+MS; Public Policy BA/MPP",
+      "retrieved_at": "2026-04-24T06:57:53.739448+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/1076",
+      "source_excerpt": "Matched RateMyProfessors school 'University of California Riverside' (legacyId=1076) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T15:06:07.001166+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 10 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Riverside_people",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T16:03:16.249070+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:12:21.566650+00:00",
+    "last_verified_at": "2026-04-25T16:03:16.249073+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.course_rigor",
@@ -85,8 +196,177 @@
       "admissions.essays"
     ],
     "warnings": [
+      "Major titles extracted from official school source (80 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
-      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages."
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'University of California Riverside' (legacyId=1076) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T15:06:07.001156+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Michael Curtis",
+          "department": "Mathematics",
+          "average_rating": 3.4,
+          "rating_count": 398,
+          "would_take_again_percent": 42.3,
+          "average_difficulty": 3.5,
+          "legacy_id": 125718,
+          "profile_url": "https://www.ratemyprofessors.com/professor/125718",
+          "source_url": "https://www.ratemyprofessors.com/school/1076"
+        },
+        {
+          "rank": 2,
+          "name": "Toby Gustafson",
+          "department": "Computer Science",
+          "average_rating": 4.1,
+          "rating_count": 378,
+          "would_take_again_percent": 91.4,
+          "average_difficulty": 2,
+          "legacy_id": 58964,
+          "profile_url": "https://www.ratemyprofessors.com/professor/58964",
+          "source_url": "https://www.ratemyprofessors.com/school/1076"
+        },
+        {
+          "rank": 3,
+          "name": "Sean Jasso",
+          "department": "Business",
+          "average_rating": 2.5,
+          "rating_count": 348,
+          "would_take_again_percent": 27.0,
+          "average_difficulty": 3.7,
+          "legacy_id": 551199,
+          "profile_url": "https://www.ratemyprofessors.com/professor/551199",
+          "source_url": "https://www.ratemyprofessors.com/school/1076"
+        },
+        {
+          "rank": 4,
+          "name": "Stefan Chrissanthos",
+          "department": "History",
+          "average_rating": 4.3,
+          "rating_count": 296,
+          "would_take_again_percent": 65.0,
+          "average_difficulty": 2.6,
+          "legacy_id": 68941,
+          "profile_url": "https://www.ratemyprofessors.com/professor/68941",
+          "source_url": "https://www.ratemyprofessors.com/school/1076"
+        },
+        {
+          "rank": 5,
+          "name": "Ludwig Bartels",
+          "department": "Chemistry",
+          "average_rating": 2,
+          "rating_count": 292,
+          "would_take_again_percent": 17.3,
+          "average_difficulty": 4.3,
+          "legacy_id": 214667,
+          "profile_url": "https://www.ratemyprofessors.com/professor/214667",
+          "source_url": "https://www.ratemyprofessors.com/school/1076"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T16:03:16.249057+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Jamie Chung",
+          "description": "American actress (born 1983)",
+          "wikipedia_title": "Jamie Chung",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Jamie_Chung",
+          "recent_pageviews": 688408,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Riverside_people"
+        },
+        {
+          "rank": 2,
+          "name": "James Holmes (mass murderer)",
+          "description": "American mass murderer (born 1987)",
+          "wikipedia_title": "James Holmes (mass murderer)",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/James_Holmes_(mass_murderer)",
+          "recent_pageviews": 457527,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Riverside_people"
+        },
+        {
+          "rank": 3,
+          "name": "Philip Michael Thomas",
+          "description": "American actor (born 1949)",
+          "wikipedia_title": "Philip Michael Thomas",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Philip_Michael_Thomas",
+          "recent_pageviews": 404707,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Riverside_people"
+        },
+        {
+          "rank": 4,
+          "name": "Fatima Farheen Mirza",
+          "description": "American author (born 1991)",
+          "wikipedia_title": "Fatima Farheen Mirza",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Fatima_Farheen_Mirza",
+          "recent_pageviews": 389591,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Riverside_people"
+        },
+        {
+          "rank": 5,
+          "name": "Lo Mutuc",
+          "description": "American comic actor (born 1986)",
+          "wikipedia_title": "Lo Mutuc",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Lo_Mutuc",
+          "recent_pageviews": 265653,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Riverside_people"
+        },
+        {
+          "rank": 6,
+          "name": "Joe Kelly (pitcher)",
+          "description": "American baseball player (born 1988)",
+          "wikipedia_title": "Joe Kelly (pitcher)",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Joe_Kelly_(pitcher)",
+          "recent_pageviews": 239015,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Riverside_people"
+        },
+        {
+          "rank": 7,
+          "name": "Ryan Holiday",
+          "description": "American author (born 1987)",
+          "wikipedia_title": "Ryan Holiday",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Ryan_Holiday",
+          "recent_pageviews": 223105,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Riverside_people"
+        },
+        {
+          "rank": 8,
+          "name": "Elizabeth George",
+          "description": "American mystery and thriller writer",
+          "wikipedia_title": "Elizabeth George",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Elizabeth_George",
+          "recent_pageviews": 135776,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Riverside_people"
+        },
+        {
+          "rank": 9,
+          "name": "Brendan Steele",
+          "description": "American professional golfer (born 1983)",
+          "wikipedia_title": "Brendan Steele",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Brendan_Steele",
+          "recent_pageviews": 59932,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Riverside_people"
+        },
+        {
+          "rank": 10,
+          "name": "Joanna Cameron",
+          "description": "American actress and model (1948\u20132021)",
+          "wikipedia_title": "Joanna Cameron",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Joanna_Cameron",
+          "recent_pageviews": 59620,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Riverside_people"
+        }
+      ]
+    },
+    "warnings": []
   }
 }

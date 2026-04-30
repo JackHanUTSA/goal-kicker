@@ -11,6 +11,9 @@
     "competitive_signals",
     "verification"
   ],
+  "optional_fields": [
+    "school_people"
+  ],
   "record_template": {
     "name": "",
     "short_name": "",
@@ -21,7 +24,9 @@
       "admissions": [],
       "majors": [],
       "testing_policy": [],
-      "general": []
+      "general": [],
+      "professors": [],
+      "alumni": []
     },
     "majors": {
       "count": null,
@@ -48,6 +53,21 @@
       "leadership": [],
       "service": [],
       "special_notes": []
+    },
+    "school_people": {
+      "popular_professors": {
+        "ranking_basis": "",
+        "source_summary": "",
+        "retrieved_at": "",
+        "items": []
+      },
+      "successful_alumni": {
+        "ranking_basis": "",
+        "source_summary": "",
+        "retrieved_at": "",
+        "items": []
+      },
+      "warnings": []
     },
     "evidence": [
       {

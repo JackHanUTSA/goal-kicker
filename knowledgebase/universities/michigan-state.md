@@ -21,16 +21,14 @@ status: phase-5-auto-enriched
 - https://msu.edu/academics
 - https://msu.edu/majors
 
-## Structured extraction
-- Majors count: 400
+## Majors
+- Count: 400
 - Count method: explicit official page sentence
-- Testing policy: Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.
-- GPA policy: No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.
-- Course rigor: Enjoy unparalleled academic freedom and flexibility while tailoring a rigorous program of study that fits all of your interests.
-- Recommendations: unknown
-- Essays: unknown
+- Titles extracted: 0
 
 ## Warnings
+- Major titles still need manual follow-up; no reliable official title list was extracted in this pass.
 - Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.
 - GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.
 - Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.
+- School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data.

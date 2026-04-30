@@ -13,18 +13,61 @@
     ],
     "majors": [
       "https://www.du.edu/academics",
-      "https://www.du.edu/majors"
+      "https://www.du.edu/majors",
+      "https://www.du.edu/admission-aid/undergraduate"
     ],
     "testing_policy": [],
     "general": [
       "https://www.du.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/1095"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_University_of_Denver_alumni"
     ]
   },
   "majors": {
     "count": 15,
     "count_method": "counted 15 unique major/program-like entries from the cited official page DOM",
-    "titles": [],
-    "notes": "counted 15 unique major/program-like entries from the cited official page DOM",
+    "titles": [
+      "Visit Our Campus",
+      "The World is Your Classroom",
+      "Why DU?",
+      "Helpful Undergraduate Links",
+      "Resources For",
+      "Checkout",
+      "Visit Us",
+      "Undergraduate Academics",
+      "Explore this Section",
+      "International Applicants",
+      "Admitted Students",
+      "Frequently Asked Questions",
+      "first-year student application checklist",
+      "First-Year Applicants",
+      "application checklist",
+      "Transfer Applicants",
+      "application checklist for international applicants",
+      "transfer guidelines",
+      "visa Information",
+      "English proficiency requirements",
+      "Undocumented Applicants",
+      "Schedule a Group Visit",
+      "High School Counselors",
+      "Deposited Students",
+      "Non-Degree Students",
+      "Online Bachelor\u2019s Completion Program",
+      "Access DU",
+      "Early Experience Program",
+      "Visit DU",
+      "Notice of Nondiscriminatory Policy",
+      "Clery Disclosure Act",
+      "Drug-Free Workplace Act",
+      "VISIT DU",
+      "Consent Preferences",
+      "Schedule a Visit"
+    ],
+    "notes": "counted 15 unique major/program-like entries from the cited official page DOM; titles extracted from official page: https://www.du.edu/admission-aid/undergraduate",
     "confidence": "medium"
   },
   "admissions": {
@@ -88,19 +131,212 @@
       "source_url": "https://www.du.edu/admission-aid/undergraduate/first-year-applicants/admission-standards",
       "source_excerpt": "However, we are a test-optional university, and submitting test scores is your choice. If you choose to submit your SAT and/or ACT scores, they will be considered along with your other application materials for both admission and merit scholarships.",
       "retrieved_at": "2026-04-20T03:48:33.021412+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 35 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://www.du.edu/admission-aid/undergraduate",
+      "source_excerpt": "Visit Our Campus; The World is Your Classroom; Why DU?; Helpful Undergraduate Links; Resources For; Checkout; Visit Us; Undergraduate Academics; Explore this Section; International Applicants; Admitted Students; Frequently Asked Questions",
+      "retrieved_at": "2026-04-24T13:59:25.279718+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/1095",
+      "source_excerpt": "Matched RateMyProfessors school 'University of Denver' (legacyId=1095) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T16:01:19.183087+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 10 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Denver_alumni",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T17:05:02.057354+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:48:33.021420+00:00",
+    "last_verified_at": "2026-04-25T17:05:02.057359+00:00",
     "confidence": "phase-5-manual-repair",
     "unknown_fields": [
       "admissions.course_rigor",
       "admissions.essays"
     ],
     "warnings": [
+      "Major titles extracted from official school source (35 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
-      "University of Denver testing policy was manually repaired from the official admission standards page after the auto-crawl captured drug/alcohol compliance text."
+      "University of Denver testing policy was manually repaired from the official admission standards page after the auto-crawl captured drug/alcohol compliance text.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'University of Denver' (legacyId=1095) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T16:01:19.183077+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Paige Baltzan",
+          "department": "Business",
+          "average_rating": 4.9,
+          "rating_count": 142,
+          "would_take_again_percent": 93.3,
+          "average_difficulty": 3.8,
+          "legacy_id": 752388,
+          "profile_url": "https://www.ratemyprofessors.com/professor/752388",
+          "source_url": "https://www.ratemyprofessors.com/school/1095"
+        },
+        {
+          "rank": 2,
+          "name": "Aimee Reichmann-Decker",
+          "department": "Psychology",
+          "average_rating": 4.5,
+          "rating_count": 119,
+          "would_take_again_percent": 91.9,
+          "average_difficulty": 2.9,
+          "legacy_id": 821026,
+          "profile_url": "https://www.ratemyprofessors.com/professor/821026",
+          "source_url": "https://www.ratemyprofessors.com/school/1095"
+        },
+        {
+          "rank": 3,
+          "name": "Kyle Camac",
+          "department": "Communication",
+          "average_rating": 5,
+          "rating_count": 109,
+          "would_take_again_percent": 100,
+          "average_difficulty": 2.7,
+          "legacy_id": 2503271,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2503271",
+          "source_url": "https://www.ratemyprofessors.com/school/1095"
+        },
+        {
+          "rank": 4,
+          "name": "Paula Cole",
+          "department": "Economics",
+          "average_rating": 2.3,
+          "rating_count": 99,
+          "would_take_again_percent": 29.8,
+          "average_difficulty": 3.1,
+          "legacy_id": 1333957,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1333957",
+          "source_url": "https://www.ratemyprofessors.com/school/1095"
+        },
+        {
+          "rank": 5,
+          "name": "Kerry-Ann Lewis Pearcy",
+          "department": "Statistics",
+          "average_rating": 4.4,
+          "rating_count": 90,
+          "would_take_again_percent": 87.8,
+          "average_difficulty": 2.8,
+          "legacy_id": 2536700,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2536700",
+          "source_url": "https://www.ratemyprofessors.com/school/1095"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T17:05:02.057336+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Condoleezza Rice",
+          "description": "American diplomat and political scientist (born 1954)",
+          "wikipedia_title": "Condoleezza Rice",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Condoleezza_Rice",
+          "recent_pageviews": 1244621,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Denver_alumni"
+        },
+        {
+          "rank": 2,
+          "name": "Michelle Kwan",
+          "description": "American figure skater and diplomat (born 1980)",
+          "wikipedia_title": "Michelle Kwan",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Michelle_Kwan",
+          "recent_pageviews": 964519,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Denver_alumni"
+        },
+        {
+          "rank": 3,
+          "name": "Mary Cheney",
+          "description": "American politician (born 1969)",
+          "wikipedia_title": "Mary Cheney",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Mary_Cheney",
+          "recent_pageviews": 370045,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Denver_alumni"
+        },
+        {
+          "rank": 4,
+          "name": "Jason Crow",
+          "description": "American lawyer & politician (born 1979)",
+          "wikipedia_title": "Jason Crow",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Jason_Crow",
+          "recent_pageviews": 347950,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Denver_alumni"
+        },
+        {
+          "rank": 5,
+          "name": "Mohammad Javad Zarif",
+          "description": "Iranian politician and former Vice President of Iran (born 1960)",
+          "wikipedia_title": "Mohammad Javad Zarif",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Mohammad_Javad_Zarif",
+          "recent_pageviews": 103793,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Denver_alumni"
+        },
+        {
+          "rank": 6,
+          "name": "Paula Broadwell",
+          "description": "American military figure (born 1974)",
+          "wikipedia_title": "Paula Broadwell",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Paula_Broadwell",
+          "recent_pageviews": 99654,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Denver_alumni"
+        },
+        {
+          "rank": 7,
+          "name": "Mo Udall",
+          "description": "American attorney and politician (1922\u20131998)",
+          "wikipedia_title": "Mo Udall",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Mo_Udall",
+          "recent_pageviews": 48150,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Denver_alumni"
+        },
+        {
+          "rank": 8,
+          "name": "David Malpass",
+          "description": "American economist and official (born 1956)",
+          "wikipedia_title": "David Malpass",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/David_Malpass",
+          "recent_pageviews": 45444,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Denver_alumni"
+        },
+        {
+          "rank": 9,
+          "name": "Najma Heptulla",
+          "description": "Indian politician",
+          "wikipedia_title": "Najma Heptulla",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Najma_Heptulla",
+          "recent_pageviews": 44117,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Denver_alumni"
+        },
+        {
+          "rank": 10,
+          "name": "Debra Crew",
+          "description": "Diageo CEO (born 1970)",
+          "wikipedia_title": "Debra Crew",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Debra_Crew",
+          "recent_pageviews": 34700,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Denver_alumni"
+        }
+      ]
+    },
+    "warnings": []
   }
 }

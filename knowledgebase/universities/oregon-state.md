@@ -17,17 +17,34 @@ status: phase-5-auto-enriched
 ### Majors
 - https://oregonstate.edu/academics
 - https://oregonstate.edu/majors
+- https://ecampus.oregonstate.edu/online-degrees/topics/
 
-## Structured extraction
-- Majors count: 200
+## Majors
+- Count: 200
 - Count method: explicit official page sentence
-- Testing policy: Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.
-- GPA policy: No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.
-- Course rigor: unknown
-- Recommendations: unknown
-- Essays: unknown
+- Titles extracted: 16
+
+### Titles
+- Liberal Studies
+- Aging Studies
+- Climate Change Solutions
+- Cybersecurity
+- Design for Social Impact
+- Environmental Justice
+- Food in Culture and Social Justice
+- Geographic Information Science (GIScience)
+- Global Learning
+- Horticultural Therapy
+- Humanitarian Engineering
+- Medical Humanities
+- Organizational Leadership
+- Women, Gender, and Sexuality Studies
+- Undergraduate Degrees & Courses Undergraduate Degrees
+- Honors Degree
 
 ## Warnings
+- Major titles extracted from official school source (16 titles).
 - Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.
 - GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.
 - Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.
+- School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data.

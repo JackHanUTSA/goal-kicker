@@ -20,16 +20,186 @@ status: phase-5-auto-enriched
 - https://www.syracuse.edu/academics/
 - https://www.syracuse.edu/majors/
 - https://www.syracuse.edu/undergraduate/programs/
+- https://www.syracuse.edu/academics/selecting-a-major/
 
-## Structured extraction
-- Majors count: 200
+## Majors
+- Count: 200
 - Count method: explicit official page sentence
-- Testing policy: SAT/ACT scores will not be required for students applying for Fall 2025, Spring 2026, Fall 2026 or Spring 2027 admission.
-- GPA policy: No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.
-- Course rigor: unknown
-- Recommendations: unknown
-- Essays: unknown
+- Titles extracted: 169
+
+### Titles
+- Find a Program
+- Accounting B.S.
+- African American Studies B.A.
+- Anthropology B.A.
+- Architecture B.Arch
+- Art History B.A.
+- Art Photography B.F.A.
+- Biology B.A.
+- Chemistry B.A.
+- Classics (Greek and Latin) B.A.
+- Communication Sciences and Disorders B.S.
+- Communication and Rhetorical Studies B.S.
+- Computer Engineering B.S.
+- Computer Science B.S.
+- Design Studies B.S.
+- Earth Sciences B.A.
+- Economics B.S.
+- Electrical Engineering B.S.
+- English and Textual Studies
+- Entrepreneurship and Emerging Enterprises
+- Finance B.S.
+- Fine Arts B.A.
+- Forensic Science B.A.
+- French and Francophone Studies B.A.
+- Geography B.A.
+- History B.A.
+- History of Architecture B.A.
+- Human Development and Family Science B.S.
+- Linguistics Studies B.A.
+- Mathematics B.A.
+- Middle Eastern Studies B.A.
+- Music History and Cultures B.A.
+- Music Industry B.Mus.
+- Nutrition Science B.S.
+- Philosophy B.A.
+- Physics B.A.
+- Policy Studies
+- Political Science B.A.
+- Psychology B.A.
+- Public Health B.S.
+- Real Estate B.S.
+- Religion B.A.
+- Sociology B.A.
+- Sport Analytics B.S.
+- Women's and Gender Studies B.A.
+- Creative Leadership Online B.P.S.
+- Healthcare Administration Online B.P.S.
+- Applied Data and Predictive Analytics Online B.P.S.
+- Advertising B.S.
+- Aerospace Engineering B.S.
+- Biochemistry
+- Biomedical Engineering
+- Biotechnology B.S.
+- Business Analytics B.S.
+- Chemical Engineering B.S.
+- Civil Engineering B.S.
+- Communications Design
+- Computer Art and Animation B.F.A.
+- Creative Writing B.A.
+- Digital Humanities B.A.
+- Environment, Sustainability, and Policy B.A.
+- Environmental Engineering B.S.
+- Ethics B.A.
+- Fashion Design B.F.A.
+- Film B.F.A.
+- German Language, Literature, and Culture B.A.
+- Health Humanities B.A.
+- Health and Exercise Science B.S.
+- Illustration B.F.A.
+- Industrial and Interaction Design B.I.D.
+- Innovation, Society, and Technology B.S.
+- International Relations B.A.
+- Italian Language, Literature, and Culture B.A.
+- Latino-Latin American Studies B.A.
+- Management B.S.
+- Mechanical Engineering B.S.
+- Modern Foreign Languages B.A.
+- Modern Jewish Studies B.A.
+- Music B.A.
+- Music Composition B.Mus.
+- Music Education (PreK-Grade 12) B.Mus.
+- Musical Theater B.F.A.
+- Neuroscience B.A.
+- Nutrition B.S.
+- Performance B.Mus.
+- Political Philosophy
+- Public Relations B.S.
+- Recording and Entertainment Industries B.S.
+- Russian Language, Literature, and Culture B.A.
+- Selected Studies in Education B.S.
+- Social Work B.S.
+- Sound Recording Technology B.Mus.
+- Spanish Language, Literature, and Culture B.A.
+- Statistics B.S.
+- Studio Arts B.F.A.
+- Studio Arts B.S.
+- Television, Radio and Film B.S.
+- Theater Design and Technology B.F.A.
+- Writing and Rhetoric B.A.
+- Acting B.F.A.
+- Applied Data Science B.S.
+- Environmental Geoscience B.S.
+- Visual Communications B.A.
+- Law, Society and Policy B.A.
+- Computer Programming Online B.P.S.
+- Chemistry B.S.
+- Classical Civilization
+- Mathematics B.S.
+- Neuroscience B.S.
+- Physics B.S.
+- Statistics B.A.
+- Environmental and Interior Design B.F.A.
+- Economics B.A.
+- International Relations B.S.
+- Psychology B.S.
+- Geology B.S.
+- Biology B.S.
+- Forensic Science B.S.
+- Environment, Sustainability, and Policy B.S.
+- Inclusive Childhood Education B.S.
+- Inclusive Adolescent Education B.S.
+- Strategic Communications Online B.S.
+- Journalism
+- Astronomy B.A.
+- Health Humanities B.S.
+- AI in Business Process Automation Online B.P.S
+- Pre-Med/Pre-Health
+- Communications and Writing
+- Visual Arts, Architecture, Film, and Design
+- Teaching and Human Services
+- Policy, Government, and Social Justice
+- Business and Technology
+- Music and Drama
+- Aerospace Engineering
+- Biology
+- Biotechnology
+- Computer Science
+- Geography
+- Health and Exercise Science
+- Human Development and Family Science
+- Nutrition Science and Dietetics
+- Bioengineering
+- Chemistry (Medicinal Chemistry Track)
+- Communication Sciences and Disorders
+- Physics
+- Public Health
+- Communication and Rhetorical Studies
+- Inclusive Adolescent Education
+- Visual Communications
+- Art Photography
+- Television, Radio, and Film
+- Writing and Rhetoric
+- Computer Art and Animation
+- Environmental and Interior Design
+- Fashion Design
+- Industrial and Interaction Design
+- Theater Design and Technology
+- Inclusive Childhood Education
+- Selected Studies in Education
+- Social Work
+- Environment, Sustainability, and Policy
+- Ethics
+- Economics
+- Real Estate
+- Recording and Entertainment Industries (The Bandier Program)
+- Sound Recording Technology
+- Acting
+- Music Industry
+- Musical Theater
 
 ## Warnings
+- Major titles extracted from official school source (169 titles).
 - Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.
 - GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.
+- School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data.

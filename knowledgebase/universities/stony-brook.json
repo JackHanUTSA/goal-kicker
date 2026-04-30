@@ -14,18 +14,57 @@
       "https://www.stonybrook.edu/academic-programs",
       "https://www.stonybrook.edu/academics/",
       "https://www.stonybrook.edu/majors",
-      "https://www.stonybrook.edu/undergraduate/programs"
+      "https://www.stonybrook.edu/undergraduate/programs",
+      "https://www.stonybrook.edu/undergraduate-admissions/info-for/pre-college-programs.php"
     ],
     "testing_policy": [],
     "general": [
       "https://www.stonybrook.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/971"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_Stony_Brook_University_people"
     ]
   },
   "majors": {
     "count": 200,
     "count_method": "explicit official page sentence",
-    "titles": [],
-    "notes": "explicit official page sentence",
+    "titles": [
+      "The SBU Difference",
+      "Pre-College Programs at Stony Brook",
+      "Cost & Aid",
+      "Visit",
+      "Request Info",
+      "back",
+      "The Education",
+      "Careers & Outcomes",
+      "Location",
+      "First Year/Freshman",
+      "Transfer",
+      "International",
+      "Second Degree",
+      "Majors & Degrees",
+      "Pre-Professional Programs",
+      "Accelerated/Combined Degrees",
+      "Honors Programs",
+      "Scholarships",
+      "Value",
+      "Campus Tour Opportunities",
+      "Highlights from Current Students",
+      "Virtual Info Sessions",
+      "Maps & Directions",
+      "Careers and Outcomes",
+      "Majors and Degrees",
+      "Information For",
+      "College Counselors",
+      "High School",
+      "Homeschoolers",
+      "Veterans",
+      "Outreach"
+    ],
+    "notes": "explicit official page sentence; titles extracted from official page: https://www.stonybrook.edu/undergraduate-admissions/info-for/pre-college-programs.php",
     "confidence": "medium"
   },
   "admissions": {
@@ -81,19 +120,212 @@
       "source_url": "https://www.stonybrook.edu/admissions/",
       "source_excerpt": "We're creating the next generation of scholars with an innovative curriculum while supporting students and postdocs as they pursue creative academic and research opportunities.",
       "retrieved_at": "2026-04-20T03:09:59.261395+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/971",
+      "source_excerpt": "Matched RateMyProfessors school 'Stony Brook University (SUNY)' (legacyId=971) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T12:16:39.917807+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 10 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_Stony_Brook_University_people",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T13:14:07.439722+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 31 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://www.stonybrook.edu/undergraduate-admissions/info-for/pre-college-programs.php",
+      "source_excerpt": "The SBU Difference; Pre-College Programs at Stony Brook; Cost & Aid; Visit; Request Info; back; The Education; Careers & Outcomes; Location; First Year/Freshman; Transfer; International",
+      "retrieved_at": "2026-04-30T00:02:40.175079+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:09:59.261400+00:00",
+    "last_verified_at": "2026-04-30T00:02:40.175088+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.recommendations",
       "admissions.essays"
     ],
     "warnings": [
+      "Major titles extracted from official school source (31 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
-      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence."
+      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'Stony Brook University (SUNY)' (legacyId=971) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T12:16:39.917796+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Paul Fodor",
+          "department": "Computer Science",
+          "average_rating": 4.8,
+          "rating_count": 339,
+          "would_take_again_percent": 98.1,
+          "average_difficulty": 2.9,
+          "legacy_id": 1614881,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1614881",
+          "source_url": "https://www.ratemyprofessors.com/school/971"
+        },
+        {
+          "rank": 2,
+          "name": "Nancy Franklin",
+          "department": "Psychology",
+          "average_rating": 3.3,
+          "rating_count": 308,
+          "would_take_again_percent": 66.7,
+          "average_difficulty": 3.6,
+          "legacy_id": 21597,
+          "profile_url": "https://www.ratemyprofessors.com/professor/21597",
+          "source_url": "https://www.ratemyprofessors.com/school/971"
+        },
+        {
+          "rank": 3,
+          "name": "David Marvin Hanson",
+          "department": "Chemistry",
+          "average_rating": 2.2,
+          "rating_count": 290,
+          "would_take_again_percent": 50,
+          "average_difficulty": 4.2,
+          "legacy_id": 393751,
+          "profile_url": "https://www.ratemyprofessors.com/professor/393751",
+          "source_url": "https://www.ratemyprofessors.com/school/971"
+        },
+        {
+          "rank": 4,
+          "name": "Bakoo Hagedorn",
+          "department": "Mathematics",
+          "average_rating": 4.2,
+          "rating_count": 273,
+          "would_take_again_percent": 67.5,
+          "average_difficulty": 2.8,
+          "legacy_id": 242375,
+          "profile_url": "https://www.ratemyprofessors.com/professor/242375",
+          "source_url": "https://www.ratemyprofessors.com/school/971"
+        },
+        {
+          "rank": 5,
+          "name": "Thomas Hemmick",
+          "department": "Physics",
+          "average_rating": 4.6,
+          "rating_count": 271,
+          "would_take_again_percent": 80.7,
+          "average_difficulty": 2.5,
+          "legacy_id": 206294,
+          "profile_url": "https://www.ratemyprofessors.com/professor/206294",
+          "source_url": "https://www.ratemyprofessors.com/school/971"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T13:14:07.439706+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Joy Behar",
+          "description": "American comedian and television host (born 1942)",
+          "wikipedia_title": "Joy Behar",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Joy_Behar",
+          "recent_pageviews": 477687,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Stony_Brook_University_people"
+        },
+        {
+          "rank": 2,
+          "name": "Glenn Dubin",
+          "description": "American hedge fund manager (born 1957)",
+          "wikipedia_title": "Glenn Dubin",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Glenn_Dubin",
+          "recent_pageviews": 476620,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Stony_Brook_University_people"
+        },
+        {
+          "rank": 3,
+          "name": "Dominick Reyes",
+          "description": "American mixed martial artist (born 1989)",
+          "wikipedia_title": "Dominick Reyes",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Dominick_Reyes",
+          "recent_pageviews": 390594,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Stony_Brook_University_people"
+        },
+        {
+          "rank": 4,
+          "name": "Diane Farr",
+          "description": "American actress, producer (born 1969)",
+          "wikipedia_title": "Diane Farr",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Diane_Farr",
+          "recent_pageviews": 265609,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Stony_Brook_University_people"
+        },
+        {
+          "rank": 5,
+          "name": "Laura Schlessinger",
+          "description": "American author and radio personality (born 1947)",
+          "wikipedia_title": "Laura Schlessinger",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Laura_Schlessinger",
+          "recent_pageviews": 140453,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Stony_Brook_University_people"
+        },
+        {
+          "rank": 6,
+          "name": "David Gelernter",
+          "description": "American computer scientist (born 1955)",
+          "wikipedia_title": "David Gelernter",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/David_Gelernter",
+          "recent_pageviews": 128299,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Stony_Brook_University_people"
+        },
+        {
+          "rank": 7,
+          "name": "Jason Stanley",
+          "description": "American philosopher (born 1969)",
+          "wikipedia_title": "Jason Stanley",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Jason_Stanley",
+          "recent_pageviews": 116781,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Stony_Brook_University_people"
+        },
+        {
+          "rank": 8,
+          "name": "John L. Hennessy",
+          "description": "American computer scientist (born 1952)",
+          "wikipedia_title": "John L. Hennessy",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/John_L._Hennessy",
+          "recent_pageviews": 110723,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Stony_Brook_University_people"
+        },
+        {
+          "rank": 9,
+          "name": "Jef Raskin",
+          "description": "American computer scientist (1943\u20132005)",
+          "wikipedia_title": "Jef Raskin",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Jef_Raskin",
+          "recent_pageviews": 66359,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Stony_Brook_University_people"
+        },
+        {
+          "rank": 10,
+          "name": "Chris Algieri",
+          "description": "American boxer (born 1984)",
+          "wikipedia_title": "Chris Algieri",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Chris_Algieri",
+          "recent_pageviews": 58685,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Stony_Brook_University_people"
+        }
+      ]
+    },
+    "warnings": []
   }
 }

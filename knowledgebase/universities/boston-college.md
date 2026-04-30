@@ -21,17 +21,85 @@ status: phase-5-auto-enriched
 
 ### Majors
 - https://www.bc.edu/content/bc-web/admission/academics.html
+- https://www.bc.edu/content/bc-web/admission/majors-minors.html
 
-## Structured extraction
-- Majors count: 0
-- Count method: auto-enrichment could not derive a reliable major/program count from the pages reached in this pass
-- Testing policy: Official standardized test results sent at the time of application or upon enrollment must be sent directly from the testing agency to Boston College (SAT Code: 3083 and ACT Code: 1788). If having score reports sent from the College Board or ACT to Boston College presents a financial hardship, applicants should have their high school counselor contact the Office of Undergraduate Admission. Alternatives will be explored on a case-by-case basis.
-- GPA policy: No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.
-- Course rigor: Submitting Your Transcript(s)
-- Recommendations: No. All required materials (transcripts, recommendations, test scores, etc.) must be submitted electronically or via mail. All documents must be official with the exception of self-reported test scores. You may use your portal to upload an optional resume, but this is not required for admission.
-- Essays: The Boston College Writing Supplement must be submitted along with your application to Boston College at www.commonapp.org . Please do not mail or email your essay response.
+## Majors
+- Count: 67
+- Count method: counted extracted undergraduate-major titles from an official page
+- Titles extracted: 67
+
+### Titles
+- Carroll School Undergraduate Programs
+- Connell School Undergraduate Programs
+- Nursin
+- Global Public Health and the Common Good
+- Lynch School Undergraduate Programs
+- American Heritages
+- Applied Psychology and Human Development
+- Elementary Education
+- Mathematics/Computer Science
+- Perspectives on Spanish America
+- Secondary Education
+- Transformative Educational Studies
+- Communication
+- Cyberstrategy and Design
+- Design Thinking and Innovation
+- Educational Theatre
+- Leadership in Higher Education and Community Settings
+- Immigration, Education, and Humanitarian Studies
+- Restorative and Transformational Justice
+- Special Education
+- Foundation in Education
+- Inclusive Education
+- Morrissey College Undergraduate Programs
+- African and African Diaspora Studies
+- Applied Physics
+- Art History
+- Biochemistry
+- Biology
+- Chemistry
+- Classical Studies
+- Economics
+- Environmental Geoscience
+- Environmental Studies
+- Film Studies
+- French
+- Geological Sciences
+- German Studies
+- Hispanic Studies
+- History
+- Independent
+- Islamic Civilization and Societies
+- Italian
+- Linguistics
+- Mathematics
+- Music
+- Neuroscience
+- Philosophy
+- Physics
+- Political Science
+- Psychology
+- Russian
+- Slavic Studies
+- Sociology
+- Theatre
+- Theology
+- Ancient Civilization
+- Ancient Greek
+- Arabic
+- Chinese
+- Dance
+- Data Science
+- East European and Eurasian Studies
+- German
+- Medical Humanities, Health, and Culture
+- Women's & Gender Studies
+- BC Core Courses
+- Explore Courses
 
 ## Warnings
+- Major titles extracted from official school source (67 titles).
 - Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.
 - GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.
 - Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page.
+- School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data.

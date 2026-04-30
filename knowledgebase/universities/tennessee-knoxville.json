@@ -13,18 +13,40 @@
     ],
     "majors": [
       "https://www.utk.edu/academics",
-      "https://www.utk.edu/majors"
+      "https://www.utk.edu/majors",
+      "https://www.utk.edu/academics/areas-of-study/agriculture-natural-resources-programs"
     ],
     "testing_policy": [],
     "general": [
       "https://www.utk.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/1385"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_University_of_Tennessee_people"
     ]
   },
   "majors": {
-    "count": 0,
-    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
-    "titles": [],
-    "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "count": 14,
+    "count_method": "counted extracted undergraduate-major titles from an official page",
+    "titles": [
+      "Request more info",
+      "Agriculture and natural resources",
+      "Architecture and design",
+      "Art and performance",
+      "Business",
+      "Communication and information sciences",
+      "Education",
+      "English and literature",
+      "Health, wellness, and human sciences",
+      "Languages, cultures, and humanities",
+      "Law and justice",
+      "Science",
+      "Social science and social work",
+      "Veterinary"
+    ],
+    "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass; titles extracted from official page: https://www.utk.edu/academics/areas-of-study/agriculture-natural-resources-programs",
     "confidence": "low"
   },
   "admissions": {
@@ -64,10 +86,34 @@
       "source_url": "https://admissions.utk.edu/",
       "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
       "retrieved_at": "2026-04-20T03:12:39.818966+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/1385",
+      "source_excerpt": "Matched RateMyProfessors school 'The University of Tennessee Knoxville' (legacyId=1385) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T16:24:08.159688+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 10 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Tennessee_people",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T17:11:02.405352+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 14 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://www.utk.edu/academics/areas-of-study/agriculture-natural-resources-programs",
+      "source_excerpt": "Request more info; Agriculture and natural resources; Architecture and design; Art and performance; Business; Communication and information sciences; Education; English and literature; Health, wellness, and human sciences; Languages, cultures, and humanities; Law and justice; Science",
+      "retrieved_at": "2026-04-29T23:40:11.566866+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:12:39.818970+00:00",
+    "last_verified_at": "2026-04-29T23:40:11.566875+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.course_rigor",
@@ -75,10 +121,179 @@
       "admissions.essays"
     ],
     "warnings": [
+      "Major titles extracted from official school source (14 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
       "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",
-      "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page."
+      "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'The University of Tennessee Knoxville' (legacyId=1385) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T16:24:08.159678+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Neal Eash",
+          "department": "Agriculture",
+          "average_rating": 4.2,
+          "rating_count": 885,
+          "would_take_again_percent": 88.0,
+          "average_difficulty": 2.4,
+          "legacy_id": 796964,
+          "profile_url": "https://www.ratemyprofessors.com/professor/796964",
+          "source_url": "https://www.ratemyprofessors.com/school/1385"
+        },
+        {
+          "rank": 2,
+          "name": "Kenneth Baker",
+          "department": "Economics",
+          "average_rating": 4.6,
+          "rating_count": 370,
+          "would_take_again_percent": 97.3,
+          "average_difficulty": 2.3,
+          "legacy_id": 76754,
+          "profile_url": "https://www.ratemyprofessors.com/professor/76754",
+          "source_url": "https://www.ratemyprofessors.com/school/1385"
+        },
+        {
+          "rank": 3,
+          "name": "Ryan Windeknecht",
+          "department": "Philosophy",
+          "average_rating": 4.6,
+          "rating_count": 357,
+          "would_take_again_percent": 90.6,
+          "average_difficulty": 2.2,
+          "legacy_id": 1772079,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1772079",
+          "source_url": "https://www.ratemyprofessors.com/school/1385"
+        },
+        {
+          "rank": 4,
+          "name": "Matthew Buehler",
+          "department": "Political Science",
+          "average_rating": 4.8,
+          "rating_count": 348,
+          "would_take_again_percent": 97.4,
+          "average_difficulty": 2.8,
+          "legacy_id": 2016773,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2016773",
+          "source_url": "https://www.ratemyprofessors.com/school/1385"
+        },
+        {
+          "rank": 5,
+          "name": "Heather Boyd",
+          "department": "Chemistry",
+          "average_rating": 4.2,
+          "rating_count": 316,
+          "would_take_again_percent": 93.4,
+          "average_difficulty": 3.4,
+          "legacy_id": 1277780,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1277780",
+          "source_url": "https://www.ratemyprofessors.com/school/1385"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T17:11:02.405333+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Albert Gore Sr.",
+          "description": "American politician (1907\u20131998)",
+          "wikipedia_title": "Albert Gore Sr.",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Albert_Gore_Sr.",
+          "recent_pageviews": 90548,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Tennessee_people"
+        },
+        {
+          "rank": 2,
+          "name": "Howard Baker",
+          "description": "American politician and diplomat (1925\u20132014)",
+          "wikipedia_title": "Howard Baker",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Howard_Baker",
+          "recent_pageviews": 83290,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Tennessee_people"
+        },
+        {
+          "rank": 3,
+          "name": "Lamar Alexander",
+          "description": "American politician and attorney (born 1940)",
+          "wikipedia_title": "Lamar Alexander",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Lamar_Alexander",
+          "recent_pageviews": 81592,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Tennessee_people"
+        },
+        {
+          "rank": 4,
+          "name": "Allen West (politician)",
+          "description": "American politician & military officer (born 1961)",
+          "wikipedia_title": "Allen West (politician)",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Allen_West_(politician)",
+          "recent_pageviews": 79601,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Tennessee_people"
+        },
+        {
+          "rank": 5,
+          "name": "Heath Shuler",
+          "description": "American football player and politician (born 1971)",
+          "wikipedia_title": "Heath Shuler",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Heath_Shuler",
+          "recent_pageviews": 58951,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Tennessee_people"
+        },
+        {
+          "rank": 6,
+          "name": "Bob Corker",
+          "description": "American businessman and politician (born 1952)",
+          "wikipedia_title": "Bob Corker",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Bob_Corker",
+          "recent_pageviews": 55162,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Tennessee_people"
+        },
+        {
+          "rank": 7,
+          "name": "Jim DeMint",
+          "description": "American politician (born 1951)",
+          "wikipedia_title": "Jim DeMint",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Jim_DeMint",
+          "recent_pageviews": 46884,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Tennessee_people"
+        },
+        {
+          "rank": 8,
+          "name": "Saxby Chambliss",
+          "description": "American politician (born 1943)",
+          "wikipedia_title": "Saxby Chambliss",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Saxby_Chambliss",
+          "recent_pageviews": 35406,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Tennessee_people"
+        },
+        {
+          "rank": 9,
+          "name": "Dan Lipinski",
+          "description": "American politician (born 1966)",
+          "wikipedia_title": "Dan Lipinski",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Dan_Lipinski",
+          "recent_pageviews": 24078,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Tennessee_people"
+        },
+        {
+          "rank": 10,
+          "name": "Ray Blanton",
+          "description": "American politician (1930\u20131996)",
+          "wikipedia_title": "Ray Blanton",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Ray_Blanton",
+          "recent_pageviews": 18771,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Tennessee_people"
+        }
+      ]
+    },
+    "warnings": []
   }
 }

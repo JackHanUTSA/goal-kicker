@@ -17,6 +17,12 @@
     "testing_policy": [],
     "general": [
       "https://www.lmu.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/538"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_Loyola_Marymount_University_people"
     ]
   },
   "majors": {
@@ -103,21 +109,206 @@
       "source_url": "https://admission.lmu.edu/learnmore/prospectivestudents/first-yearapplicants/",
       "source_excerpt": "National SAT/ACT test scores (test optional). The ACT or SAT is optional for students. There is no minimum GPA or test score required for admission to LMU, but admission is selective.",
       "retrieved_at": "2026-04-20T03:48:33.020895+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/538",
+      "source_excerpt": "Matched RateMyProfessors school 'Loyola Marymount University' (legacyId=538) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T09:12:20.876055+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 10 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_Loyola_Marymount_University_people",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T10:16:11.389863+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:48:33.020908+00:00",
+    "last_verified_at": "2026-04-30T00:43:55.118675+00:00",
     "confidence": "phase-5-manual-repair",
     "unknown_fields": [
       "admissions.recommendations",
       "admissions.essays"
     ],
     "warnings": [
+      "Major titles still need manual follow-up; no reliable official title list was extracted in this pass.",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
       "admissions.recommendations was reset to unknown during manual cleanup because the earlier auto-extracted text was unrelated to the requested admissions field.",
       "admissions.essays was reset to unknown during manual cleanup because the earlier auto-extracted text was unrelated to the requested admissions field.",
-      "Loyola Marymount testing policy was manually repaired from the official first-year applicants page after the auto-crawl captured Jesuit brand copy."
+      "Loyola Marymount testing policy was manually repaired from the official first-year applicants page after the auto-crawl captured Jesuit brand copy.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'Loyola Marymount University' (legacyId=538) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T09:12:20.876043+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Rachel Waterstradt",
+          "department": "Philosophy",
+          "average_rating": 2.2,
+          "rating_count": 212,
+          "would_take_again_percent": 12.7,
+          "average_difficulty": 4.3,
+          "legacy_id": 290693,
+          "profile_url": "https://www.ratemyprofessors.com/professor/290693",
+          "source_url": "https://www.ratemyprofessors.com/school/538"
+        },
+        {
+          "rank": 2,
+          "name": "Jodi Finkel",
+          "department": "Political Science",
+          "average_rating": 3.7,
+          "rating_count": 153,
+          "would_take_again_percent": 57.3,
+          "average_difficulty": 4.2,
+          "legacy_id": 199101,
+          "profile_url": "https://www.ratemyprofessors.com/professor/199101",
+          "source_url": "https://www.ratemyprofessors.com/school/538"
+        },
+        {
+          "rank": 3,
+          "name": "Karen Ellis",
+          "department": "Mathematics",
+          "average_rating": 4,
+          "rating_count": 128,
+          "would_take_again_percent": 77.0,
+          "average_difficulty": 2.7,
+          "legacy_id": 199873,
+          "profile_url": "https://www.ratemyprofessors.com/professor/199873",
+          "source_url": "https://www.ratemyprofessors.com/school/538"
+        },
+        {
+          "rank": 4,
+          "name": "Hooman Rahimizadeh",
+          "department": "Mathematics",
+          "average_rating": 3,
+          "rating_count": 128,
+          "would_take_again_percent": 56.5,
+          "average_difficulty": 2.8,
+          "legacy_id": 201353,
+          "profile_url": "https://www.ratemyprofessors.com/professor/201353",
+          "source_url": "https://www.ratemyprofessors.com/school/538"
+        },
+        {
+          "rank": 5,
+          "name": "Megan Granich",
+          "department": "Mathematics",
+          "average_rating": 4.5,
+          "rating_count": 124,
+          "would_take_again_percent": -1,
+          "average_difficulty": 2.6,
+          "legacy_id": 111183,
+          "profile_url": "https://www.ratemyprofessors.com/professor/111183",
+          "source_url": "https://www.ratemyprofessors.com/school/538"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T10:16:11.389844+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Linda Cardellini",
+          "description": "American actress (born 1975)",
+          "wikipedia_title": "Linda Cardellini",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Linda_Cardellini",
+          "recent_pageviews": 2789719,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Loyola_Marymount_University_people"
+        },
+        {
+          "rank": 2,
+          "name": "Mila Kunis",
+          "description": "American actress (born 1983)",
+          "wikipedia_title": "Mila Kunis",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Mila_Kunis",
+          "recent_pageviews": 2764669,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Loyola_Marymount_University_people"
+        },
+        {
+          "rank": 3,
+          "name": "Colin Hanks",
+          "description": "American actor (born 1977)",
+          "wikipedia_title": "Colin Hanks",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Colin_Hanks",
+          "recent_pageviews": 1464051,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Loyola_Marymount_University_people"
+        },
+        {
+          "rank": 4,
+          "name": "Scott Eastwood",
+          "description": "American actor and producer (born 1986)",
+          "wikipedia_title": "Scott Eastwood",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Scott_Eastwood",
+          "recent_pageviews": 1325732,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Loyola_Marymount_University_people"
+        },
+        {
+          "rank": 5,
+          "name": "Emily Bader",
+          "description": "American actress (born 1996)",
+          "wikipedia_title": "Emily Bader",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Emily_Bader",
+          "recent_pageviews": 1058354,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Loyola_Marymount_University_people"
+        },
+        {
+          "rank": 6,
+          "name": "Taylour Paige",
+          "description": "American actress (born 1990)",
+          "wikipedia_title": "Taylour Paige",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Taylour_Paige",
+          "recent_pageviews": 804868,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Loyola_Marymount_University_people"
+        },
+        {
+          "rank": 7,
+          "name": "Busy Philipps",
+          "description": "American actress, singer and comedian",
+          "wikipedia_title": "Busy Philipps",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Busy_Philipps",
+          "recent_pageviews": 796357,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Loyola_Marymount_University_people"
+        },
+        {
+          "rank": 8,
+          "name": "Kate Micucci",
+          "description": "American actress (born 1980)",
+          "wikipedia_title": "Kate Micucci",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Kate_Micucci",
+          "recent_pageviews": 577808,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Loyola_Marymount_University_people"
+        },
+        {
+          "rank": 9,
+          "name": "Holly Madison",
+          "description": "American television personality (born 1979)",
+          "wikipedia_title": "Holly Madison",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Holly_Madison",
+          "recent_pageviews": 480866,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Loyola_Marymount_University_people"
+        },
+        {
+          "rank": 10,
+          "name": "Bob Denver",
+          "description": "American actor (1935\u20132005)",
+          "wikipedia_title": "Bob Denver",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Bob_Denver",
+          "recent_pageviews": 441635,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Loyola_Marymount_University_people"
+        }
+      ]
+    },
+    "warnings": []
   }
 }

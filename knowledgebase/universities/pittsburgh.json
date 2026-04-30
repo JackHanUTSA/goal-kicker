@@ -14,18 +14,78 @@
     ],
     "majors": [
       "https://www.pitt.edu/academics",
-      "https://www.pitt.edu/majors"
+      "https://www.pitt.edu/majors",
+      "https://www.academics.pitt.edu/undergraduate-programs"
     ],
     "testing_policy": [],
     "general": [
       "https://www.pitt.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/1247"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_University_of_Pittsburgh_alumni"
     ]
   },
   "majors": {
-    "count": 0,
-    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
-    "titles": [],
-    "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "count": 52,
+    "count_method": "counted extracted undergraduate-major titles from an official page",
+    "titles": [
+      "College/School Web Sites",
+      "Academic Resources",
+      "Accounting",
+      "Africana Studies\u2013English",
+      "Arabic*",
+      "Astronomy",
+      "Biochemistry",
+      "Business Information Systems",
+      "Computational Biology",
+      "Computational Social Science",
+      "Data Science",
+      "Dental Hygiene",
+      "Digital Narrative and Interactive Design",
+      "Ecology and Evolution",
+      "Economics\u2013Statistics",
+      "Environmental Science",
+      "Environmental Studies",
+      "Exercise Science",
+      "Finance",
+      "French*",
+      "Geology",
+      "German*",
+      "Health Services",
+      "Information Science*",
+      "International and Area Studies",
+      "International Studies Co-Major",
+      "Italian Studies",
+      "Marketing",
+      "Mathematics*",
+      "Mathematical Biology",
+      "Mathematics-Economics",
+      "Museum Studies*",
+      "Natural Sciences",
+      "Physics*",
+      "Physics and Astronomy",
+      "Physics and Quantum Computing",
+      "Politics and Philosophy",
+      "Public and Professional Writing",
+      "Public Policy*",
+      "Public Service*",
+      "Statistics",
+      "Urban Planning and Geographic Analysis",
+      "Bosnian-Croatian-Montenegrin-Serbian",
+      "Chinese Heritage",
+      "Creative Writing",
+      "Environmental Engineering",
+      "Korean",
+      "Polish",
+      "Polymer Engineering",
+      "Swanson School of Engineering",
+      "Undergraduate Advising \u00bb",
+      "Undergraduate Studies \u00bb"
+    ],
+    "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass; titles extracted from official page: https://www.academics.pitt.edu/undergraduate-programs",
     "confidence": "low"
   },
   "admissions": {
@@ -73,20 +133,213 @@
       "source_url": "https://admissions.pitt.edu/",
       "source_excerpt": "Self-reported Transcript Academic Record System (STARS), formerly SRAR",
       "retrieved_at": "2026-04-20T03:08:36.218307+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/1247",
+      "source_excerpt": "Matched RateMyProfessors school 'University of Pittsburgh' (legacyId=1247) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T11:18:32.253323+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 10 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Pittsburgh_alumni",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T12:22:24.325854+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 52 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://www.academics.pitt.edu/undergraduate-programs",
+      "source_excerpt": "College/School Web Sites; Academic Resources; Accounting; Africana Studies\u2013English; Arabic*; Astronomy; Biochemistry; Business Information Systems; Computational Biology; Computational Social Science; Data Science; Dental Hygiene",
+      "retrieved_at": "2026-04-29T23:39:05.232062+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:08:36.218312+00:00",
+    "last_verified_at": "2026-04-29T23:39:05.232071+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.recommendations",
       "admissions.essays"
     ],
     "warnings": [
+      "Major titles extracted from official school source (52 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
       "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",
-      "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page."
+      "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'University of Pittsburgh' (legacyId=1247) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T11:18:32.253311+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Carol Fortney",
+          "department": "Chemistry",
+          "average_rating": 3,
+          "rating_count": 625,
+          "would_take_again_percent": 49.2,
+          "average_difficulty": 3.4,
+          "legacy_id": 1030107,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1030107",
+          "source_url": "https://www.ratemyprofessors.com/school/1247"
+        },
+        {
+          "rank": 2,
+          "name": "Laurel Roberts",
+          "department": "Biological Sciences",
+          "average_rating": 2.8,
+          "rating_count": 605,
+          "would_take_again_percent": 45.0,
+          "average_difficulty": 4,
+          "legacy_id": 8247,
+          "profile_url": "https://www.ratemyprofessors.com/professor/8247",
+          "source_url": "https://www.ratemyprofessors.com/school/1247"
+        },
+        {
+          "rank": 3,
+          "name": "Peter Bell",
+          "department": "Chemistry",
+          "average_rating": 2.6,
+          "rating_count": 422,
+          "would_take_again_percent": 39.7,
+          "average_difficulty": 4,
+          "legacy_id": 225480,
+          "profile_url": "https://www.ratemyprofessors.com/professor/225480",
+          "source_url": "https://www.ratemyprofessors.com/school/1247"
+        },
+        {
+          "rank": 4,
+          "name": "Erica McGreevy",
+          "department": "Biological Sciences",
+          "average_rating": 4.6,
+          "rating_count": 414,
+          "would_take_again_percent": 91.6,
+          "average_difficulty": 3.5,
+          "legacy_id": 1927298,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1927298",
+          "source_url": "https://www.ratemyprofessors.com/school/1247"
+        },
+        {
+          "rank": 5,
+          "name": "George Bandik",
+          "department": "Chemistry",
+          "average_rating": 4.6,
+          "rating_count": 384,
+          "would_take_again_percent": 81.7,
+          "average_difficulty": 4,
+          "legacy_id": 99312,
+          "profile_url": "https://www.ratemyprofessors.com/professor/99312",
+          "source_url": "https://www.ratemyprofessors.com/school/1247"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T12:22:24.325836+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Fred Rogers",
+          "description": "American television host and author (1928\u20132003)",
+          "wikipedia_title": "Fred Rogers",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Fred_Rogers",
+          "recent_pageviews": 1428465,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Pittsburgh_alumni"
+        },
+        {
+          "rank": 2,
+          "name": "Gene Kelly",
+          "description": "American actor, dancer, singer, and producer (1912\u20131996)",
+          "wikipedia_title": "Gene Kelly",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Gene_Kelly",
+          "recent_pageviews": 743898,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Pittsburgh_alumni"
+        },
+        {
+          "rank": 3,
+          "name": "Mike Ditka",
+          "description": "American football player, coach, and commentator (born 1939)",
+          "wikipedia_title": "Mike Ditka",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Mike_Ditka",
+          "recent_pageviews": 653662,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Pittsburgh_alumni"
+        },
+        {
+          "rank": 4,
+          "name": "Aaron Donald",
+          "description": "American football player (born 1991)",
+          "wikipedia_title": "Aaron Donald",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Aaron_Donald",
+          "recent_pageviews": 624741,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Pittsburgh_alumni"
+        },
+        {
+          "rank": 5,
+          "name": "Steven Adams",
+          "description": "New Zealand basketball player (born 1993)",
+          "wikipedia_title": "Steven Adams",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Steven_Adams",
+          "recent_pageviews": 558494,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Pittsburgh_alumni"
+        },
+        {
+          "rank": 6,
+          "name": "Larry Fitzgerald",
+          "description": "American football player (born 1983)",
+          "wikipedia_title": "Larry Fitzgerald",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Larry_Fitzgerald",
+          "recent_pageviews": 491776,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Pittsburgh_alumni"
+        },
+        {
+          "rank": 7,
+          "name": "John Irving",
+          "description": "American and Canadian novelist and screenwriter (born 1942)",
+          "wikipedia_title": "John Irving",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/John_Irving",
+          "recent_pageviews": 298860,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Pittsburgh_alumni"
+        },
+        {
+          "rank": 8,
+          "name": "Tony Dorsett",
+          "description": "American football player (born 1954)",
+          "wikipedia_title": "Tony Dorsett",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Tony_Dorsett",
+          "recent_pageviews": 243780,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Pittsburgh_alumni"
+        },
+        {
+          "rank": 9,
+          "name": "Zelda Rubinstein",
+          "description": "American actress and human rights activist",
+          "wikipedia_title": "Zelda Rubinstein",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Zelda_Rubinstein",
+          "recent_pageviews": 177765,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Pittsburgh_alumni"
+        },
+        {
+          "rank": 10,
+          "name": "Michael Chabon",
+          "description": "American author and Pulitzer Prize winner (born 1963)",
+          "wikipedia_title": "Michael Chabon",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Chabon",
+          "recent_pageviews": 167707,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Pittsburgh_alumni"
+        }
+      ]
+    },
+    "warnings": []
   }
 }

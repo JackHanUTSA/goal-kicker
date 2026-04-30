@@ -13,18 +13,109 @@
     "majors": [
       "https://www.rochester.edu/academic-programs",
       "https://www.rochester.edu/academics/",
-      "https://www.rochester.edu/majors"
+      "https://www.rochester.edu/majors",
+      "https://www.rochester.edu/academics/programs.html"
     ],
     "testing_policy": [],
     "general": [
       "https://www.rochester.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/1331"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_University_of_Rochester_people"
     ]
   },
   "majors": {
     "count": 200,
     "count_method": "explicit official page sentence",
-    "titles": [],
-    "notes": "explicit official page sentence",
+    "titles": [
+      "Arabic",
+      "Art History",
+      "Astronomy",
+      "Bioethics",
+      "Biological Sciences: Biochemistry",
+      "Biological Sciences: Cell and Developmental Biology",
+      "Biological Sciences: Computational Biology",
+      "Biological Sciences: Ecology and Evolutionary Biology",
+      "Biological Sciences: Microbiology",
+      "Biological Sciences: Molecular Genetics",
+      "Biological Sciences: Neuroscience",
+      "Biotechnology",
+      "Business: Accounting",
+      "Business: Business Analytics",
+      "Business: Entrepreneurship",
+      "Business: Finance",
+      "Business: Information Systems",
+      "Chinese",
+      "Classical Civilization",
+      "Classical Civilizations of Ancient Greece and Rome",
+      "Classics",
+      "Climate Change Science",
+      "Comparative Literature",
+      "Computational Biology",
+      "Earth and Planetary Sciences",
+      "Earth, Environmental, and Planetary Sciences",
+      "East Asian Studies",
+      "English: British and American Literature",
+      "English: Creative Writing",
+      "English: Language, Media, and Communication",
+      "English: Theater",
+      "English Literature",
+      "Environmental Health",
+      "Environmental Science",
+      "Environmental Studies",
+      "Epidemiology",
+      "Ethics in Philosophy",
+      "Financial Economics",
+      "French",
+      "Geological Sciences",
+      "Geomechanics",
+      "German",
+      "Greek",
+      "Health, Behavior, and Society",
+      "Health Policy",
+      "Health Psychology",
+      "Hebrew",
+      "History of Philosophy",
+      "International Relations",
+      "Italian",
+      "Japanese",
+      "Journalism",
+      "Latin",
+      "Latin American, Caribbean, and Latinx Studies",
+      "Legal Studies",
+      "Mathematics and Statistics",
+      "Medical Physics",
+      "Movement Studies",
+      "Philosophy of Science",
+      "Politics, Philosophy, and Economics",
+      "Religion",
+      "Religion, Politics, and Society",
+      "Russian",
+      "Russian Studies",
+      "Spanish",
+      "Studio Arts",
+      "Visual Science",
+      "Writing Studies",
+      "Audio Arts and Technology",
+      "Engineering and Applied Sciences",
+      "Environmental Engineering",
+      "Optical Engineering",
+      "Accountancy",
+      "Artificial Intelligence (AI) in Business (full-time)",
+      "Business Analytics (full-time)",
+      "Business Analytics and Applied AI (online, part-time)",
+      "Finance (full-time)",
+      "Marketing Analytics (full-time)",
+      "Applied Behavior Analysis",
+      "Digitally-Rich Teaching in K-12 Schools",
+      "Leadership in Disability and Inclusive Practices",
+      "Mind/Body Healing and Wellness",
+      "Teacher Leadership"
+    ],
+    "notes": "explicit official page sentence; titles extracted from official page: https://www.rochester.edu/academics/programs.html",
     "confidence": "medium"
   },
   "admissions": {
@@ -88,18 +179,160 @@
       "source_url": "https://admissions.rochester.edu/",
       "source_excerpt": "How to write your best college application essay",
       "retrieved_at": "2026-04-20T03:04:46.483534+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/1331",
+      "source_excerpt": "Matched RateMyProfessors school 'University of Rochester' (legacyId=1331) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-24T20:00:20.548138+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 4 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Rochester_people",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-24T20:00:34.654107+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 83 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://www.rochester.edu/academics/programs.html",
+      "source_excerpt": "Arabic; Art History; Astronomy; Bioethics; Biological Sciences: Biochemistry; Biological Sciences: Cell and Developmental Biology; Biological Sciences: Computational Biology; Biological Sciences: Ecology and Evolutionary Biology; Biological Sciences: Microbiology; Biological Sciences: Molecular Genetics; Biological Sciences: Neuroscience; Biotechnology",
+      "retrieved_at": "2026-04-29T23:37:05.509060+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:04:46.483540+00:00",
+    "last_verified_at": "2026-04-29T23:37:05.509070+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.recommendations"
     ],
     "warnings": [
+      "Major titles extracted from official school source (83 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
-      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence."
+      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
+    ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'University of Rochester' (legacyId=1331) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-24T20:00:20.548123+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Michael Rizzo",
+          "department": "Economics",
+          "average_rating": 3.5,
+          "rating_count": 272,
+          "would_take_again_percent": 59.8,
+          "average_difficulty": 3.8,
+          "legacy_id": 1176821,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1176821",
+          "source_url": "https://www.ratemyprofessors.com/school/1331"
+        },
+        {
+          "rank": 2,
+          "name": "Benjamin Hafensteiner",
+          "department": "Chemistry",
+          "average_rating": 3.3,
+          "rating_count": 217,
+          "would_take_again_percent": 55.8,
+          "average_difficulty": 3.6,
+          "legacy_id": 1652306,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1652306",
+          "source_url": "https://www.ratemyprofessors.com/school/1331"
+        },
+        {
+          "rank": 3,
+          "name": "Michael Clark",
+          "department": "Biology",
+          "average_rating": 4.4,
+          "rating_count": 176,
+          "would_take_again_percent": 92.6,
+          "average_difficulty": 3.2,
+          "legacy_id": 1620207,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1620207",
+          "source_url": "https://www.ratemyprofessors.com/school/1331"
+        },
+        {
+          "rank": 4,
+          "name": "Cantay Caliskan",
+          "department": "Computer Science",
+          "average_rating": 4.7,
+          "rating_count": 173,
+          "would_take_again_percent": 89.6,
+          "average_difficulty": 3.3,
+          "legacy_id": 2734328,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2734328",
+          "source_url": "https://www.ratemyprofessors.com/school/1331"
+        },
+        {
+          "rank": 5,
+          "name": "Ted Pawlicki",
+          "department": "Computer Science",
+          "average_rating": 2.1,
+          "rating_count": 171,
+          "would_take_again_percent": 19.6,
+          "average_difficulty": 3,
+          "legacy_id": 22421,
+          "profile_url": "https://www.ratemyprofessors.com/professor/22421",
+          "source_url": "https://www.ratemyprofessors.com/school/1331"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-24T20:00:34.654092+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Governor-General of the Philippines",
+          "description": "Title of government executive in colonial Philippines",
+          "wikipedia_title": "Governor-General of the Philippines",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Governor-General_of_the_Philippines",
+          "recent_pageviews": 66152,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Rochester_people"
+        },
+        {
+          "rank": 2,
+          "name": "Executive Office of the President of the United States",
+          "description": "U.S. government executive agency",
+          "wikipedia_title": "Executive Office of the President of the United States",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Executive_Office_of_the_President_of_the_United_States",
+          "recent_pageviews": 3966,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Rochester_people"
+        },
+        {
+          "rank": 3,
+          "name": "Shirley J. Allen",
+          "description": "American academic (born 1941)",
+          "wikipedia_title": "Shirley J. Allen",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Shirley_J._Allen",
+          "recent_pageviews": 1580,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Rochester_people"
+        },
+        {
+          "rank": 4,
+          "name": "C. Ondine Chavoya",
+          "description": "American art historian, author, curator, professor (b. 1970)",
+          "wikipedia_title": "C. Ondine Chavoya",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/C._Ondine_Chavoya",
+          "recent_pageviews": 686,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Rochester_people"
+        }
+      ]
+    },
+    "warnings": [
+      "Only identified 4 alumni candidates that looked like people.",
+      "Only ranked 4 successful alumni items."
     ]
   }
 }

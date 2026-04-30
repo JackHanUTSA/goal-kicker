@@ -14,18 +14,33 @@
       "https://www.stevens.edu/academic-programs",
       "https://www.stevens.edu/academics",
       "https://www.stevens.edu/majors",
-      "https://www.stevens.edu/undergraduate/programs"
+      "https://www.stevens.edu/undergraduate/programs",
+      "https://www.stevens.edu/academics/undergraduate-study"
     ],
     "testing_policy": [],
     "general": [
       "https://www.stevens.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/982"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_Stevens_Institute_of_Technology_alumni"
     ]
   },
   "majors": {
     "count": 35,
     "count_method": "explicit official page sentence",
-    "titles": [],
-    "notes": "explicit official page sentence",
+    "titles": [
+      "General Education",
+      "SUCCESS - The Stevens Core Curriculum",
+      "Specialized Programs",
+      "Study Abroad",
+      "Academic Resources",
+      "Explore Stevens Co-op Opportunities",
+      "Learn about Study Abroad"
+    ],
+    "notes": "explicit official page sentence; titles extracted from official page: https://www.stevens.edu/academics/undergraduate-study",
     "confidence": "medium"
   },
   "admissions": {
@@ -81,19 +96,212 @@
       "source_url": "https://www.stevens.edu/admissions",
       "source_excerpt": "SUCCESS - The Stevens Core Curriculum",
       "retrieved_at": "2026-04-20T03:07:46.139390+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/982",
+      "source_excerpt": "Matched RateMyProfessors school 'Stevens Institute of Technology' (legacyId=982) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T09:17:15.038775+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 10 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_Stevens_Institute_of_Technology_alumni",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T10:19:39.158338+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 7 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://www.stevens.edu/academics/undergraduate-study",
+      "source_excerpt": "General Education; SUCCESS - The Stevens Core Curriculum; Specialized Programs; Study Abroad; Academic Resources; Explore Stevens Co-op Opportunities; Learn about Study Abroad",
+      "retrieved_at": "2026-04-29T23:38:31.767057+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:07:46.139394+00:00",
+    "last_verified_at": "2026-04-29T23:38:31.767066+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.recommendations",
       "admissions.essays"
     ],
     "warnings": [
+      "Major titles extracted from official school source (7 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
-      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence."
+      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'Stevens Institute of Technology' (legacyId=982) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T09:17:15.038765+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Patrick Hill",
+          "department": "Computer Science",
+          "average_rating": 4.2,
+          "rating_count": 111,
+          "would_take_again_percent": 80.2,
+          "average_difficulty": 3.2,
+          "legacy_id": 2400468,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2400468",
+          "source_url": "https://www.ratemyprofessors.com/school/982"
+        },
+        {
+          "rank": 2,
+          "name": "Kevin Ryan",
+          "department": "Engineering",
+          "average_rating": 4.6,
+          "rating_count": 98,
+          "would_take_again_percent": 85.9,
+          "average_difficulty": 2.6,
+          "legacy_id": 984699,
+          "profile_url": "https://www.ratemyprofessors.com/professor/984699",
+          "source_url": "https://www.ratemyprofessors.com/school/982"
+        },
+        {
+          "rank": 3,
+          "name": "Sandeep Bhatt",
+          "department": "Computer Science",
+          "average_rating": 3,
+          "rating_count": 64,
+          "would_take_again_percent": 46.9,
+          "average_difficulty": 4.5,
+          "legacy_id": 2233896,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2233896",
+          "source_url": "https://www.ratemyprofessors.com/school/982"
+        },
+        {
+          "rank": 4,
+          "name": "Mukund Iyengar",
+          "department": "Computer Science",
+          "average_rating": 4.2,
+          "rating_count": 63,
+          "would_take_again_percent": 79.5,
+          "average_difficulty": 1.9,
+          "legacy_id": 1661532,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1661532",
+          "source_url": "https://www.ratemyprofessors.com/school/982"
+        },
+        {
+          "rank": 5,
+          "name": "Anju Sharma",
+          "department": "Chemistry",
+          "average_rating": 2.4,
+          "rating_count": 61,
+          "would_take_again_percent": 21.6,
+          "average_difficulty": 3.8,
+          "legacy_id": 474329,
+          "profile_url": "https://www.ratemyprofessors.com/professor/474329",
+          "source_url": "https://www.ratemyprofessors.com/school/982"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T10:19:39.158320+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Marques Brownlee",
+          "description": "American YouTuber (born 1993)",
+          "wikipedia_title": "Marques Brownlee",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Marques_Brownlee",
+          "recent_pageviews": 200463,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Stevens_Institute_of_Technology_alumni"
+        },
+        {
+          "rank": 2,
+          "name": "Samuel P. Bush",
+          "description": "American businessman and industrialist",
+          "wikipedia_title": "Samuel P. Bush",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Samuel_P._Bush",
+          "recent_pageviews": 145761,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Stevens_Institute_of_Technology_alumni"
+        },
+        {
+          "rank": 3,
+          "name": "Frederick Winslow Taylor",
+          "description": "American mechanical engineer (1856\u20131915)",
+          "wikipedia_title": "Frederick Winslow Taylor",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Frederick_Winslow_Taylor",
+          "recent_pageviews": 129538,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Stevens_Institute_of_Technology_alumni"
+        },
+        {
+          "rank": 4,
+          "name": "L. Sprague de Camp",
+          "description": "American fiction writer (1907\u20132000)",
+          "wikipedia_title": "L. Sprague de Camp",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/L._Sprague_de_Camp",
+          "recent_pageviews": 45617,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Stevens_Institute_of_Technology_alumni"
+        },
+        {
+          "rank": 5,
+          "name": "Henry Gantt",
+          "description": "American engineer (1861\u20131919)",
+          "wikipedia_title": "Henry Gantt",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Henry_Gantt",
+          "recent_pageviews": 32541,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Stevens_Institute_of_Technology_alumni"
+        },
+        {
+          "rank": 6,
+          "name": "David J. Farber",
+          "description": "American computer scientist in Japan (1934\u20132026)",
+          "wikipedia_title": "David J. Farber",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/David_J._Farber",
+          "recent_pageviews": 28584,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Stevens_Institute_of_Technology_alumni"
+        },
+        {
+          "rank": 7,
+          "name": "Charles Stewart Mott",
+          "description": "American businessman and politician (1875\u20131973)",
+          "wikipedia_title": "Charles Stewart Mott",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Charles_Stewart_Mott",
+          "recent_pageviews": 15697,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Stevens_Institute_of_Technology_alumni"
+        },
+        {
+          "rank": 8,
+          "name": "Peter Cooper Hewitt",
+          "description": "American electrical engineer and inventor",
+          "wikipedia_title": "Peter Cooper Hewitt",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Peter_Cooper_Hewitt",
+          "recent_pageviews": 14064,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Stevens_Institute_of_Technology_alumni"
+        },
+        {
+          "rank": 9,
+          "name": "Frederick Reines",
+          "description": "American physicist (1918\u20131998)",
+          "wikipedia_title": "Frederick Reines",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Frederick_Reines",
+          "recent_pageviews": 12699,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Stevens_Institute_of_Technology_alumni"
+        },
+        {
+          "rank": 10,
+          "name": "Igor Ansoff",
+          "description": "American economist",
+          "wikipedia_title": "Igor Ansoff",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Igor_Ansoff",
+          "recent_pageviews": 10603,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Stevens_Institute_of_Technology_alumni"
+        }
+      ]
+    },
+    "warnings": []
   }
 }

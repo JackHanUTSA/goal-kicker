@@ -19,17 +19,108 @@ status: phase-5-auto-enriched
 - https://www.buffalo.edu/academic-programs.html
 - https://www.buffalo.edu/home/academics.html
 - https://www.buffalo.edu/majors.html
+- https://www.buffalo.edu/grad/explore/about/programs.html
 
-## Structured extraction
-- Majors count: 350
+## Majors
+- Count: 350
 - Count method: explicit official page sentence
-- Testing policy: Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.
-- GPA policy: No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.
-- Course rigor: unknown
-- Recommendations: unknown
-- Essays: unknown
+- Titles extracted: 90
+
+### Titles
+- 2/2/26 Anthropology BA/MA
+- 2/2/26 Biological Sciences BA/MS
+- 3/21/25 Biomedical Engineering BS/MBA
+- 8/4/25 Business Administration BS/MBA
+- 6/2/25 Econometrics and Quantitative Economics BA/MS
+- 3/21/25 Economics BA/MA
+- 3/21/25 Electrical Engineering BS/Business Administration MBA
+- 3/21/25 English BA/MA
+- 3/21/25 Exercise Science BS/DPT
+- 3/21/25 Exercise Science BS/MS
+- 3/21/25 Global Affairs BA/MA
+- 9/22/25 Industrial Engineering BS/Business Administration MBA
+- 3/21/25 Mechanical Engineering BS/Business Administration MBA
+- 9/26/25 Media Study
+- 3/21/25 Medicinal Chemistry BS/MS
+- 3/21/25 Neuroscience BS/MS
+- 3/21/25 Pharmaceutical Sciences BS/MS
+- 3/21/25 Pharmacology and Toxicology BS/MS
+- 3/21/25 Political Science BA/MA
+- 2/18/26 Public Health BS/MPH
+- 11/17/25 Studio Art
+- 8/18/25 Adult/Gerontology Nurse Practitioner (Post-MS) DNP
+- 8/18/25 Adult/Gerontology Nurse Practitioner DNP
+- 8/18/25 Affordable Housing
+- 8/18/25 Biology Education: Adolescence EDM
+- 8/18/25 Business Administration (Full Time) MBA
+- 4/6/26 Chemical Engineering ME
+- 8/18/25 Chemistry Education: Adolescence EdM
+- 8/18/25 Child Health Nurse Practitioner (Post-MS) DNP
+- 8/18/25 Childhood Education (Grades 1-6) EdM
+- 8/18/25 Childhood Education With Bilingual Extension (Grades 1-6) EdM
+- 3/20/26 Communicative Disorders and Sciences AuD
+- 8/18/25 Computer Science Education EdM
+- 8/18/25 Dance MFA
+- 4/6/26 Data Sciences and Applications MPS
+- 4/15/26 Dentistry DDS
+- 8/18/25 Early Childhood Education (Birth to Grade 2) EdM
+- 8/18/25 Early Childhood Education With Bilingual Extension (Birth to Grade 2) EdM
+- 8/18/25 Early Childhood/Childhood Education (Birth to Grade 6) EdM
+- 8/18/25 Earth Science Education: Adolescence EdM
+- 8/18/25 Education Studies EdM
+- 8/18/25 Educational Culture, Policy and Society EdM
+- 4/6/26 Electrical Engineering ME
+- 8/18/25 English Education Studies EdM
+- 8/18/25 English Education: Adolescence EdM
+- 8/18/25 English for Speakers of Other Languages EdM
+- 8/18/25 Family Nurse Practitioner (Post-MS) DNP
+- 8/18/25 Family Nurse Practitioner DNP
+- 8/18/25 Fine Arts MFA
+- 8/18/25 French Education: Adolescence EdM
+- 4/28/26 Higher Education Administration EdM
+- 8/18/25 Higher Education and Student Affairs EdM
+- 4/15/26 International Dentist Program DDS
+- 8/18/25 Latin Education: Adolescence EdM
+- 4/9/26 Learning Sciences and Educational Technology EdM
+- 8/18/25 Literacy Education Studies EdM
+- 8/18/25 Literacy Specialist EdM
+- 8/18/25 Media Arts Production MFA
+- 8/18/25 Music Education Studies EDM
+- 8/18/25 Music Education, Initial/Professional EdM
+- 8/18/25 Music Performance MM
+- 8/18/25 Nurse Anesthesia (Post-MS) DNP
+- 8/18/25 Nurse Anesthesia DNP
+- 8/18/25 Online Professional Business Administration MBA
+- 8/18/25 Physical Therapy DPT
+- 8/18/25 Physics Education: Adolescence EdM
+- 8/18/25 Psychiatric/Mental Health Nurse Practitioner (Post-MS) DNP
+- 8/18/25 Psychiatric/Mental Health Nurse Practitioner DNP
+- 3/16/26 Public Health: Addictions MPH (In Person or Hybrid)
+- 3/16/26 Public Health: Addictions MPH (Online)
+- 3/16/26 Public Health: Biostatistics MPH (In Person or Hybrid)
+- 3/16/26 Public Health: Environmental Health MPH (In Person or Hybrid)
+- 3/16/26 Public Health: Epidemiology MPH (In Person or Hybrid)
+- 3/16/26 Public Health: Epidemiology MPH (Online)
+- 3/16/26 Public Health: Health Equity MPH (In Person or Hybrid)
+- 3/16/26 Public Health: Health Equity MPH (Online)
+- 3/16/26 Public Health: Health Services Administration MPH (In Person or Hybrid)
+- 3/16/26 Public Health: Health Services Administration MPH (Online)
+- 3/16/26 Public Health: Individualized MPH (In Person or Hybrid)
+- 3/16/26 Public Health: Individualized MPH (Online)
+- 8/18/25 Qualitative Methodology AC
+- 8/18/25 School Counseling EdM
+- 8/18/25 Social Studies Education: Adolescence EdM
+- 8/18/25 Social Welfare Online DSW
+- 8/18/25 Social Work MBA/MSW
+- 8/18/25 Social Work MPH/MSW
+- 8/18/25 Spanish Education: Adolescence EdM
+- 8/18/25 Teaching English to Speakers of Other Languages EdM
+- 8/18/25 Urban Planning MUP
+- 8/18/25 Women's Health Nurse Practitioner (Post-MS) DNP
 
 ## Warnings
+- Major titles extracted from official school source (90 titles).
 - Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.
 - GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.
 - Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.
+- School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data.

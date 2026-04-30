@@ -13,18 +13,32 @@
       "https://www.usc.edu/admissions"
     ],
     "majors": [
-      "https://admission.usc.edu/learn/academic-life/"
+      "https://admission.usc.edu/learn/academic-life/",
+      "https://admission.usc.edu/prospective-students/how-to-apply/first-year-students/"
     ],
     "testing_policy": [],
     "general": [
       "https://www.usc.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/1381"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_University_of_Southern_California_people"
     ]
   },
   "majors": {
-    "count": 0,
-    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
-    "titles": [],
-    "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "count": 6,
+    "count_method": "counted extracted undergraduate-major titles from an official page",
+    "titles": [
+      "Dornsife College of Letters, Arts and Sciences",
+      "Iovine and Young Academy for Arts, Technology and the Business of Innovation",
+      "USC School of Architecture",
+      "Roski School of Art and Design",
+      "USC School of Dramatic Arts",
+      "Marshall School of Business (World Bachelor in Business)"
+    ],
+    "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass; titles extracted from official page: https://admission.usc.edu/prospective-students/how-to-apply/first-year-students/",
     "confidence": "low"
   },
   "admissions": {
@@ -80,18 +94,211 @@
       "source_url": "https://admission.usc.edu/prospective-students/how-to-apply/first-year-students/",
       "source_excerpt": "One letter is required from either your school counselor or a teacher from your school. Some programs may require additional letters of recommendation. Refer to the Additional Application Requirements section below for more information.",
       "retrieved_at": "2026-04-20T03:02:32.796104+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 6 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://admission.usc.edu/prospective-students/how-to-apply/first-year-students/",
+      "source_excerpt": "Dornsife College of Letters, Arts and Sciences; Iovine and Young Academy for Arts, Technology and the Business of Innovation; USC School of Architecture; Roski School of Art and Design; USC School of Dramatic Arts; Marshall School of Business (World Bachelor in Business)",
+      "retrieved_at": "2026-04-24T13:54:03.089800+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/1381",
+      "source_excerpt": "Matched RateMyProfessors school 'University of Southern California' (legacyId=1381) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-24T23:56:28.616837+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 10 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Southern_California_people",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T00:11:12.826333+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:02:32.796108+00:00",
+    "last_verified_at": "2026-04-25T00:11:12.826337+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.essays"
     ],
     "warnings": [
+      "Major titles extracted from official school source (6 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
-      "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page."
+      "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'University of Southern California' (legacyId=1381) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-24T23:56:28.616826+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Catherine Skibo",
+          "department": "Chemistry",
+          "average_rating": 1.5,
+          "rating_count": 511,
+          "would_take_again_percent": 9.0,
+          "average_difficulty": 4.4,
+          "legacy_id": 1738659,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1738659",
+          "source_url": "https://www.ratemyprofessors.com/school/1381"
+        },
+        {
+          "rank": 2,
+          "name": "Marco Papa",
+          "department": "Computer Science",
+          "average_rating": 3,
+          "rating_count": 424,
+          "would_take_again_percent": 46.8,
+          "average_difficulty": 3.8,
+          "legacy_id": 1104782,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1104782",
+          "source_url": "https://www.ratemyprofessors.com/school/1381"
+        },
+        {
+          "rank": 3,
+          "name": "Mark Redekopp",
+          "department": "Engineering",
+          "average_rating": 4.4,
+          "rating_count": 365,
+          "would_take_again_percent": 82.9,
+          "average_difficulty": 3.3,
+          "legacy_id": 860888,
+          "profile_url": "https://www.ratemyprofessors.com/professor/860888",
+          "source_url": "https://www.ratemyprofessors.com/school/1381"
+        },
+        {
+          "rank": 4,
+          "name": "Bruce Zuckerman",
+          "department": "Religion",
+          "average_rating": 4.4,
+          "rating_count": 337,
+          "would_take_again_percent": 87.1,
+          "average_difficulty": 3.5,
+          "legacy_id": 666027,
+          "profile_url": "https://www.ratemyprofessors.com/professor/666027",
+          "source_url": "https://www.ratemyprofessors.com/school/1381"
+        },
+        {
+          "rank": 5,
+          "name": "Thomas Bertolini",
+          "department": "Chemistry",
+          "average_rating": 3.9,
+          "rating_count": 275,
+          "would_take_again_percent": 76.1,
+          "average_difficulty": 3.4,
+          "legacy_id": 1436158,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1436158",
+          "source_url": "https://www.ratemyprofessors.com/school/1381"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T00:11:12.826316+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "John Mearsheimer",
+          "description": "American political scientist (born 1947)",
+          "wikipedia_title": "John Mearsheimer",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/John_Mearsheimer",
+          "recent_pageviews": 606303,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Southern_California_people"
+        },
+        {
+          "rank": 2,
+          "name": "Paul McCarthy",
+          "description": "American artist (born 1945)",
+          "wikipedia_title": "Paul McCarthy",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Paul_McCarthy",
+          "recent_pageviews": 63976,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Southern_California_people"
+        },
+        {
+          "rank": 3,
+          "name": "Andrew Viterbi",
+          "description": "Italian-American engineer and businessman",
+          "wikipedia_title": "Andrew Viterbi",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Andrew_Viterbi",
+          "recent_pageviews": 39590,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Southern_California_people"
+        },
+        {
+          "rank": 4,
+          "name": "Leo Buscaglia",
+          "description": "American professor of special education, motivational speaker, author (1924\u20131998)",
+          "wikipedia_title": "Leo Buscaglia",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Leo_Buscaglia",
+          "recent_pageviews": 38353,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Southern_California_people"
+        },
+        {
+          "rank": 5,
+          "name": "Corita Kent",
+          "description": "American artist and designer",
+          "wikipedia_title": "Corita Kent",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Corita_Kent",
+          "recent_pageviews": 35159,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Southern_California_people"
+        },
+        {
+          "rank": 6,
+          "name": "Daniel Diermeier",
+          "description": "American economist",
+          "wikipedia_title": "Daniel Diermeier",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Daniel_Diermeier",
+          "recent_pageviews": 21113,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Southern_California_people"
+        },
+        {
+          "rank": 7,
+          "name": "Kenneth Price",
+          "description": "American artist (1935\u20132021)",
+          "wikipedia_title": "Kenneth Price",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Kenneth_Price",
+          "recent_pageviews": 18268,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Southern_California_people"
+        },
+        {
+          "rank": 8,
+          "name": "Jerry M. Linenger",
+          "description": "American astronaut (born 1955)",
+          "wikipedia_title": "Jerry M. Linenger",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Jerry_M._Linenger",
+          "recent_pageviews": 17225,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Southern_California_people"
+        },
+        {
+          "rank": 9,
+          "name": "Boris Podolsky",
+          "description": "American physicist (1896\u20131966)",
+          "wikipedia_title": "Boris Podolsky",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Boris_Podolsky",
+          "recent_pageviews": 16013,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Southern_California_people"
+        },
+        {
+          "rank": 10,
+          "name": "George Gerbner",
+          "description": "Hungarian-born American academic",
+          "wikipedia_title": "George Gerbner",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/George_Gerbner",
+          "recent_pageviews": 9147,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Southern_California_people"
+        }
+      ]
+    },
+    "warnings": []
   }
 }

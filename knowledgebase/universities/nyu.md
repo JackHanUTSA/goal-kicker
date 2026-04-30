@@ -19,16 +19,75 @@ status: phase-5-auto-enriched
 ### Majors
 - https://www.nyu.edu/academics.html
 - https://www.nyu.edu/majors
+- https://www.nyu.edu/academics/academic-programs.html
 
-## Structured extraction
-- Majors count: 30
+## Majors
+- Count: 30
 - Count method: counted 30 unique major/program-like entries from the cited official page DOM
-- Testing policy: The NYU Center brings together researchers tapping into AI to develop intelligent machines that can sense, navigate, and act autonomously in complex real-world environments, from operating rooms to disaster zones
-- GPA policy: No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.
-- Course rigor: Academic programs at NYU are designed to support exploration and depth. Students can shape their education through interdisciplinary coursework, global opportunities, and accelerated or continuing study options.
-- Recommendations: unknown
-- Essays: unknown
+- Titles extracted: 58
+
+### Titles
+- Anand Khubani BS in Business, Technology & Entrepreneurship
+- Accelerated Undergraduate
+- NYU by NYU
+- Actuarial Science
+- Anand Khubani BS in Business, Technology & Entrepreneurship (BTE)
+- Animal Studies
+- Anthropology & Classical Civilization
+- Applied Psychology
+- Bioinformatics
+- Biomedical Engineering
+- Biomolecular Science
+- Biotechnology
+- Biotechnology & Entrepreneurship
+- Business
+- Business & Political Economy
+- Communicative Sciences and Disorders
+- Computer Engineering
+- Computer Science Education
+- Costume Studies
+- Cybersecurity
+- Data Analytics & Business Computing
+- Digital Communications & Media
+- Disability Studies
+- Dramatic Literature, Theater History, & the Cinema
+- English
+- Environmental Biology
+- Environmental Engineering
+- Environmental Science
+- Financial Engineering
+- Food Studies
+- Genetics
+- Genomics & Bioinformatics
+- Global Business
+- History of Education
+- Iberian Studies
+- Industrial Engineering
+- Integrated Design & Media
+- International Relations & Journalism
+- Journalism & Religion
+- Library & Information Science
+- Literacy Education
+- Luso-Brazilian Language & Literature
+- Management of Technology
+- Media, Culture, and Communication
+- Occupational Therapy
+- Physical Therapy
+- Public Policy
+- Quantitative Finance
+- School Counseling or Bilingual School Counseling
+- Science & Technology Studies
+- Sociology of Education
+- Songwriting
+- South Asian Studies
+- Statistics
+- Studio Art
+- Sustainable Urban Environments
+- Urban Design & Architecture Studies
+- World Language Education
 
 ## Warnings
+- Major titles extracted from official school source (58 titles).
 - Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.
 - GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.
+- School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data.

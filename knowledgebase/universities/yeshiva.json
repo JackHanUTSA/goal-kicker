@@ -12,18 +12,35 @@
     ],
     "majors": [
       "https://www.yu.edu/academics",
-      "https://www.yu.edu/majors"
+      "https://www.yu.edu/majors",
+      "https://www.yu.edu/graduate"
     ],
     "testing_policy": [],
     "general": [
       "https://www.yu.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/1223"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_Yeshiva_University_people"
     ]
   },
   "majors": {
     "count": 32,
     "count_method": "counted 32 unique major/program-like entries from the cited official page DOM",
-    "titles": [],
-    "notes": "counted 32 unique major/program-like entries from the cited official page DOM",
+    "titles": [
+      "BA/MA Program: Stern College for Women/Yeshiva College",
+      "Two-Year Teacher Program",
+      "BA/MA Program: Stern College for Women/Yeshiva College (One Year)",
+      "Azrieli-GPATS Joint Program",
+      "PELE Chinuch Fellowship",
+      "Mid-Career Fellowship Program",
+      "Wurzweiler in Israel",
+      "Life",
+      "Start an Application"
+    ],
+    "notes": "counted 32 unique major/program-like entries from the cited official page DOM; titles extracted from official page: https://www.yu.edu/graduate",
     "confidence": "medium"
   },
   "admissions": {
@@ -79,19 +96,212 @@
       "source_url": "https://www.yu.edu/admission",
       "source_excerpt": "At Yeshiva University, students pursue academic excellence and personal growth in a values-driven community in the heart of New York City. Our unique dual curriculum, vibrant campus life, and strong career outcomes make YU a place where you can thrive intellectually, spiritually, and professionally.",
       "retrieved_at": "2026-04-20T03:07:30.768065+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 9 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://www.yu.edu/graduate",
+      "source_excerpt": "BA/MA Program: Stern College for Women/Yeshiva College; Two-Year Teacher Program; BA/MA Program: Stern College for Women/Yeshiva College (One Year); Azrieli-GPATS Joint Program; PELE Chinuch Fellowship; Mid-Career Fellowship Program; Wurzweiler in Israel; Life; Start an Application",
+      "retrieved_at": "2026-04-24T06:56:01.347622+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/1223",
+      "source_excerpt": "Matched RateMyProfessors school 'Yeshiva University' (legacyId=1223) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T09:00:58.886355+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 10 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_Yeshiva_University_people",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T09:26:18.023140+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:07:30.768070+00:00",
+    "last_verified_at": "2026-04-25T09:26:18.023144+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.recommendations",
       "admissions.essays"
     ],
     "warnings": [
+      "Major titles extracted from official school source (9 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
-      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence."
+      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'Yeshiva University' (legacyId=1223) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T09:00:58.886339+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Gene Fisch Jr.",
+          "department": "Mathematics",
+          "average_rating": 4.8,
+          "rating_count": 69,
+          "would_take_again_percent": 100,
+          "average_difficulty": 3.2,
+          "legacy_id": 924718,
+          "profile_url": "https://www.ratemyprofessors.com/professor/924718",
+          "source_url": "https://www.ratemyprofessors.com/school/1223"
+        },
+        {
+          "rank": 2,
+          "name": "Martin Leibowitz",
+          "department": "Accounting",
+          "average_rating": 4.7,
+          "rating_count": 47,
+          "would_take_again_percent": 100,
+          "average_difficulty": 2.6,
+          "legacy_id": 7683,
+          "profile_url": "https://www.ratemyprofessors.com/professor/7683",
+          "source_url": "https://www.ratemyprofessors.com/school/1223"
+        },
+        {
+          "rank": 3,
+          "name": "Robert Greenberg",
+          "department": "Law",
+          "average_rating": 2.9,
+          "rating_count": 46,
+          "would_take_again_percent": 34.3,
+          "average_difficulty": 4,
+          "legacy_id": 179855,
+          "profile_url": "https://www.ratemyprofessors.com/professor/179855",
+          "source_url": "https://www.ratemyprofessors.com/school/1223"
+        },
+        {
+          "rank": 4,
+          "name": "Liesl Schwabe",
+          "department": "English",
+          "average_rating": 3.4,
+          "rating_count": 43,
+          "would_take_again_percent": 56.2,
+          "average_difficulty": 3.9,
+          "legacy_id": 1071390,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1071390",
+          "source_url": "https://www.ratemyprofessors.com/school/1223"
+        },
+        {
+          "rank": 5,
+          "name": "Lee Warren",
+          "department": "Chemistry",
+          "average_rating": 4,
+          "rating_count": 40,
+          "would_take_again_percent": -1,
+          "average_difficulty": 4.8,
+          "legacy_id": 1360280,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1360280",
+          "source_url": "https://www.ratemyprofessors.com/school/1223"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T09:26:18.023124+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Alan Dershowitz",
+          "description": "American lawyer and author (born 1938)",
+          "wikipedia_title": "Alan Dershowitz",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Alan_Dershowitz",
+          "recent_pageviews": 1540854,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Yeshiva_University_people"
+        },
+        {
+          "rank": 2,
+          "name": "Ralph Lauren",
+          "description": "American fashion designer and executive (born 1939)",
+          "wikipedia_title": "Ralph Lauren",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Ralph_Lauren",
+          "recent_pageviews": 1013562,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Yeshiva_University_people"
+        },
+        {
+          "rank": 3,
+          "name": "Meir Kahane",
+          "description": "American and Israeli politician (1932\u20131990)",
+          "wikipedia_title": "Meir Kahane",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Meir_Kahane",
+          "recent_pageviews": 399853,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Yeshiva_University_people"
+        },
+        {
+          "rank": 4,
+          "name": "Eddie Huang",
+          "description": "American restaurateur, chef, writer (born 1982)",
+          "wikipedia_title": "Eddie Huang",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Eddie_Huang",
+          "recent_pageviews": 253387,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Yeshiva_University_people"
+        },
+        {
+          "rank": 5,
+          "name": "Howard Dean",
+          "description": "American politician (born 1948)",
+          "wikipedia_title": "Howard Dean",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Howard_Dean",
+          "recent_pageviews": 221662,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Yeshiva_University_people"
+        },
+        {
+          "rank": 6,
+          "name": "Ari Shaffir",
+          "description": "American comedian (born 1974)",
+          "wikipedia_title": "Ari Shaffir",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Ari_Shaffir",
+          "recent_pageviews": 188296,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Yeshiva_University_people"
+        },
+        {
+          "rank": 7,
+          "name": "David Samson (baseball)",
+          "description": "American baseball executive (born 1968)",
+          "wikipedia_title": "David Samson (baseball)",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/David_Samson_(baseball)",
+          "recent_pageviews": 137837,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Yeshiva_University_people"
+        },
+        {
+          "rank": 8,
+          "name": "Leonard Susskind",
+          "description": "American theoretical physicist (born 1940)",
+          "wikipedia_title": "Leonard Susskind",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Leonard_Susskind",
+          "recent_pageviews": 114836,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Yeshiva_University_people"
+        },
+        {
+          "rank": 9,
+          "name": "Josh Saviano",
+          "description": "American actor and lawyer (born 1976)",
+          "wikipedia_title": "Josh Saviano",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Josh_Saviano",
+          "recent_pageviews": 91969,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Yeshiva_University_people"
+        },
+        {
+          "rank": 10,
+          "name": "Grace Meng",
+          "description": "American politician (born 1975)",
+          "wikipedia_title": "Grace Meng",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Grace_Meng",
+          "recent_pageviews": 82187,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Yeshiva_University_people"
+        }
+      ]
+    },
+    "warnings": []
   }
 }

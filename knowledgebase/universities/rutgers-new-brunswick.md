@@ -20,17 +20,28 @@ status: phase-5-auto-enriched
 - https://www.rutgers.edu/academic-programs
 - https://www.rutgers.edu/academics
 - https://www.rutgers.edu/majors
+- https://www.rutgers.edu/academics/explore-undergraduate-programs?field_location=654
 
-## Structured extraction
-- Majors count: 150
+## Majors
+- Count: 150
 - Count method: explicit official page sentence
-- Testing policy: Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.
-- GPA policy: No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.
-- Course rigor: Rutgers welcomes a student body that reflects the diversity of the world around us. People of all backgrounds with varying interests and goals meet here to explore a rigorous academic curriculum and expand their horizons. Some students come to Rutgers planning to change the world, and others seek to find their place in it. No matter what path you’re on, a Rutgers degree opens doors and lays the foundation for success.
-- Recommendations: unknown
-- Essays: unknown
+- Titles extracted: 10
+
+### Titles
+- Accounting
+- Aerospace Engineering
+- African, Middle Eastern, and South Asian Languages and Literatures
+- Africana Studies
+- Agricultural and Food Systems
+- American Studies
+- Animal Science
+- Anthropology
+- Anthropology, Evolutionary
+- Applied Sciences Engineering
 
 ## Warnings
+- Major titles extracted from official school source (10 titles).
 - Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.
 - GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.
 - Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.
+- School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data.

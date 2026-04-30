@@ -17,6 +17,12 @@
     "testing_policy": [],
     "general": [
       "https://www.uga.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/1101"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_University_of_Georgia_people"
     ]
   },
   "majors": {
@@ -61,10 +67,26 @@
       "source_url": "https://admissions.uga.edu/",
       "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
       "retrieved_at": "2026-04-20T03:05:10.410439+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/1101",
+      "source_excerpt": "Matched RateMyProfessors school 'University of Georgia' (legacyId=1101) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T04:12:40.703003+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 10 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Georgia_people",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T05:15:28.318633+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:05:10.410444+00:00",
+    "last_verified_at": "2026-04-30T00:35:49.443569+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.course_rigor",
@@ -73,9 +95,178 @@
       "competitive_signals.projects_research"
     ],
     "warnings": [
+      "Major titles still need manual follow-up; no reliable official title list was extracted in this pass.",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
-      "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page."
+      "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'University of Georgia' (legacyId=1101) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T04:12:40.702994+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Chris Pope",
+          "department": "Finance",
+          "average_rating": 2.9,
+          "rating_count": 585,
+          "would_take_again_percent": 46.9,
+          "average_difficulty": 4.1,
+          "legacy_id": 329531,
+          "profile_url": "https://www.ratemyprofessors.com/professor/329531",
+          "source_url": "https://www.ratemyprofessors.com/school/1101"
+        },
+        {
+          "rank": 2,
+          "name": "Jonathan Dees",
+          "department": "Biology",
+          "average_rating": 4.3,
+          "rating_count": 555,
+          "would_take_again_percent": 82.4,
+          "average_difficulty": 3.3,
+          "legacy_id": 2285252,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2285252",
+          "source_url": "https://www.ratemyprofessors.com/school/1101"
+        },
+        {
+          "rank": 3,
+          "name": "Amanda Farmer",
+          "department": "Accounting",
+          "average_rating": 2.8,
+          "rating_count": 505,
+          "would_take_again_percent": 36.1,
+          "average_difficulty": 4.3,
+          "legacy_id": 826842,
+          "profile_url": "https://www.ratemyprofessors.com/professor/826842",
+          "source_url": "https://www.ratemyprofessors.com/school/1101"
+        },
+        {
+          "rank": 4,
+          "name": "Jason Rudbeck",
+          "department": "Economics",
+          "average_rating": 4.2,
+          "rating_count": 465,
+          "would_take_again_percent": 77.2,
+          "average_difficulty": 3.3,
+          "legacy_id": 379982,
+          "profile_url": "https://www.ratemyprofessors.com/professor/379982",
+          "source_url": "https://www.ratemyprofessors.com/school/1101"
+        },
+        {
+          "rank": 5,
+          "name": "Audrey Haynes",
+          "department": "Political Science",
+          "average_rating": 4.8,
+          "rating_count": 443,
+          "would_take_again_percent": 97.2,
+          "average_difficulty": 2.6,
+          "legacy_id": 336684,
+          "profile_url": "https://www.ratemyprofessors.com/professor/336684",
+          "source_url": "https://www.ratemyprofessors.com/school/1101"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T05:15:28.318619+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Parvati Shallow",
+          "description": "American television personality (born 1982)",
+          "wikipedia_title": "Parvati Shallow",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Parvati_Shallow",
+          "recent_pageviews": 1975865,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Georgia_people"
+        },
+        {
+          "rank": 2,
+          "name": "Ryan Seacrest",
+          "description": "American television and radio host (born 1974)",
+          "wikipedia_title": "Ryan Seacrest",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Ryan_Seacrest",
+          "recent_pageviews": 1594750,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Georgia_people"
+        },
+        {
+          "rank": 3,
+          "name": "Kyle Chandler",
+          "description": "American actor (born 1965)",
+          "wikipedia_title": "Kyle Chandler",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Kyle_Chandler",
+          "recent_pageviews": 1530073,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Georgia_people"
+        },
+        {
+          "rank": 4,
+          "name": "Kim Basinger",
+          "description": "American actress (born 1953)",
+          "wikipedia_title": "Kim Basinger",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Kim_Basinger",
+          "recent_pageviews": 1298449,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Georgia_people"
+        },
+        {
+          "rank": 5,
+          "name": "Bill Goldberg",
+          "description": "American professional wrestler and former football player (born 1966)",
+          "wikipedia_title": "Bill Goldberg",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Bill_Goldberg",
+          "recent_pageviews": 839336,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Georgia_people"
+        },
+        {
+          "rank": 6,
+          "name": "Megan Moroney",
+          "description": "American country singer (born 1997)",
+          "wikipedia_title": "Megan Moroney",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Megan_Moroney",
+          "recent_pageviews": 806979,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Georgia_people"
+        },
+        {
+          "rank": 7,
+          "name": "Wayne Knight",
+          "description": "American actor (born 1955)",
+          "wikipedia_title": "Wayne Knight",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Wayne_Knight",
+          "recent_pageviews": 741347,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Georgia_people"
+        },
+        {
+          "rank": 8,
+          "name": "Josh Holloway",
+          "description": "American actor (born 1969)",
+          "wikipedia_title": "Josh Holloway",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Josh_Holloway",
+          "recent_pageviews": 660552,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Georgia_people"
+        },
+        {
+          "rank": 9,
+          "name": "Michael Stipe",
+          "description": "American singer (born 1960)",
+          "wikipedia_title": "Michael Stipe",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Stipe",
+          "recent_pageviews": 656453,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Georgia_people"
+        },
+        {
+          "rank": 10,
+          "name": "Maria Taylor (sportscaster)",
+          "description": "American sportscaster (born 1987)",
+          "wikipedia_title": "Maria Taylor (sportscaster)",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Maria_Taylor_(sportscaster)",
+          "recent_pageviews": 630260,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Georgia_people"
+        }
+      ]
+    },
+    "warnings": []
   }
 }

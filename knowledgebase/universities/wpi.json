@@ -19,13 +19,43 @@
     "testing_policy": [],
     "general": [
       "https://www.wpi.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/1220"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_Worcester_Polytechnic_Institute_people"
     ]
   },
   "majors": {
     "count": 70,
     "count_method": "explicit official page sentence",
-    "titles": [],
-    "notes": "explicit official page sentence",
+    "titles": [
+      "undergraduate and graduate degree programs",
+      "Major Qualifying Project",
+      "Prospective BME Undergraduate Students",
+      "Undergraduate Students",
+      "Breadcrumb",
+      "Student Projects",
+      "SSPS Undergraduate Degrees",
+      "Labs & Resources",
+      "Undergraduate Studies",
+      "Meet the Team",
+      "Publishing, Presenting, and Patenting",
+      "Summer Undergraduate Courses",
+      "Current WPI Students",
+      "High Achieving High School Students",
+      "Visiting Undergraduate Students",
+      "Incoming Students",
+      "Summer Sandbox Grants",
+      "Summer Sandbox Awardees",
+      "Undergraduate Awards",
+      "Great Minds Scholars Program",
+      "Pre-Professional Studies",
+      "First-Year Student Success",
+      "NSF S-STEM programs"
+    ],
+    "notes": "explicit official page sentence; titles extracted from official page: https://www.wpi.edu/academics",
     "confidence": "medium"
   },
   "admissions": {
@@ -81,18 +111,211 @@
       "source_url": "https://www.wpi.edu/admissions",
       "source_excerpt": "Our curriculum and degree requirements are designed to help students graduate as thoughtful global citizens, ready for impactful personal and professional lives\u2014and to find and fulfill their passions along the way.",
       "retrieved_at": "2026-04-20T03:10:18.373454+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 23 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://www.wpi.edu/academics",
+      "source_excerpt": "undergraduate and graduate degree programs; Major Qualifying Project; Prospective BME Undergraduate Students; Undergraduate Students; Breadcrumb; Student Projects; SSPS Undergraduate Degrees; Labs & Resources; Undergraduate Studies; Meet the Team; Publishing, Presenting, and Patenting; Summer Undergraduate Courses",
+      "retrieved_at": "2026-04-24T06:57:33.380067+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/1220",
+      "source_excerpt": "Matched RateMyProfessors school 'Worcester Polytechnic Institute' (legacyId=1220) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T13:18:21.698164+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 10 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_Worcester_Polytechnic_Institute_people",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T14:02:39.731957+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:10:18.373460+00:00",
+    "last_verified_at": "2026-04-25T14:02:39.731960+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.recommendations",
       "admissions.essays"
     ],
     "warnings": [
+      "Major titles extracted from official school source (23 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
-      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages."
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'Worcester Polytechnic Institute' (legacyId=1220) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T13:18:21.698151+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Glynis Hamel",
+          "department": "Computer Science",
+          "average_rating": 2.9,
+          "rating_count": 170,
+          "would_take_again_percent": 35.7,
+          "average_difficulty": 3.5,
+          "legacy_id": 22305,
+          "profile_url": "https://www.ratemyprofessors.com/professor/22305",
+          "source_url": "https://www.ratemyprofessors.com/school/1220"
+        },
+        {
+          "rank": 2,
+          "name": "Mihhail Berezovski",
+          "department": "Mathematics",
+          "average_rating": 4.8,
+          "rating_count": 143,
+          "would_take_again_percent": -1,
+          "average_difficulty": 1.9,
+          "legacy_id": 1630956,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1630956",
+          "source_url": "https://www.ratemyprofessors.com/school/1220"
+        },
+        {
+          "rank": 3,
+          "name": "Roger Lui",
+          "department": "Mathematics",
+          "average_rating": 3,
+          "rating_count": 135,
+          "would_take_again_percent": 58.8,
+          "average_difficulty": 3.5,
+          "legacy_id": 61240,
+          "profile_url": "https://www.ratemyprofessors.com/professor/61240",
+          "source_url": "https://www.ratemyprofessors.com/school/1220"
+        },
+        {
+          "rank": 4,
+          "name": "John Goulet",
+          "department": "Mathematics",
+          "average_rating": 4.8,
+          "rating_count": 132,
+          "would_take_again_percent": 92.2,
+          "average_difficulty": 2.5,
+          "legacy_id": 47976,
+          "profile_url": "https://www.ratemyprofessors.com/professor/47976",
+          "source_url": "https://www.ratemyprofessors.com/school/1220"
+        },
+        {
+          "rank": 5,
+          "name": "Herman Servatius",
+          "department": "Mathematics",
+          "average_rating": 2.5,
+          "rating_count": 124,
+          "would_take_again_percent": 37.5,
+          "average_difficulty": 3.8,
+          "legacy_id": 45997,
+          "profile_url": "https://www.ratemyprofessors.com/professor/45997",
+          "source_url": "https://www.ratemyprofessors.com/school/1220"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T14:02:39.731944+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Dean Kamen",
+          "description": "American businessman (born 1951)",
+          "wikipedia_title": "Dean Kamen",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Dean_Kamen",
+          "recent_pageviews": 184242,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Worcester_Polytechnic_Institute_people"
+        },
+        {
+          "rank": 2,
+          "name": "Robert H. Goddard",
+          "description": "American physicist and inventor (1882\u20131945)",
+          "wikipedia_title": "Robert H. Goddard",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_H._Goddard",
+          "recent_pageviews": 156552,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Worcester_Polytechnic_Institute_people"
+        },
+        {
+          "rank": 3,
+          "name": "Todd Akin",
+          "description": "American politician (1947\u20132021)",
+          "wikipedia_title": "Todd Akin",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Todd_Akin",
+          "recent_pageviews": 36739,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Worcester_Polytechnic_Institute_people"
+        },
+        {
+          "rank": 4,
+          "name": "Giovanni Capriglione",
+          "description": "American politician (born 1973)",
+          "wikipedia_title": "Giovanni Capriglione",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Giovanni_Capriglione",
+          "recent_pageviews": 33131,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Worcester_Polytechnic_Institute_people"
+        },
+        {
+          "rank": 5,
+          "name": "Andy Ross",
+          "description": "American musician",
+          "wikipedia_title": "Andy Ross",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Andy_Ross",
+          "recent_pageviews": 25151,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Worcester_Polytechnic_Institute_people"
+        },
+        {
+          "rank": 6,
+          "name": "Nancy Pimental",
+          "description": "Actress, screenwriter",
+          "wikipedia_title": "Nancy Pimental",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Nancy_Pimental",
+          "recent_pageviews": 21730,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Worcester_Polytechnic_Institute_people"
+        },
+        {
+          "rank": 7,
+          "name": "Elwood Haynes",
+          "description": "American inventor (1857\u20131925)",
+          "wikipedia_title": "Elwood Haynes",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Elwood_Haynes",
+          "recent_pageviews": 8724,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Worcester_Polytechnic_Institute_people"
+        },
+        {
+          "rank": 8,
+          "name": "Chartsiri Sophonpanich",
+          "description": "Thai banker (born 1959)",
+          "wikipedia_title": "Chartsiri Sophonpanich",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Chartsiri_Sophonpanich",
+          "recent_pageviews": 7588,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Worcester_Polytechnic_Institute_people"
+        },
+        {
+          "rank": 9,
+          "name": "Richard T. Whitcomb",
+          "description": "American aeronautical engineer (1921\u20132009)",
+          "wikipedia_title": "Richard T. Whitcomb",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Richard_T._Whitcomb",
+          "recent_pageviews": 5960,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Worcester_Polytechnic_Institute_people"
+        },
+        {
+          "rank": 10,
+          "name": "Alan R. Pearlman",
+          "description": "American businessman and engineer (1925\u20132019)",
+          "wikipedia_title": "Alan R. Pearlman",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Alan_R._Pearlman",
+          "recent_pageviews": 5769,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Worcester_Polytechnic_Institute_people"
+        }
+      ]
+    },
+    "warnings": []
   }
 }

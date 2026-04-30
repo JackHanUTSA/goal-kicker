@@ -13,18 +13,84 @@
     ],
     "majors": [
       "https://www.nyu.edu/academics.html",
-      "https://www.nyu.edu/majors"
+      "https://www.nyu.edu/majors",
+      "https://www.nyu.edu/academics/academic-programs.html"
     ],
     "testing_policy": [],
     "general": [
       "https://www.nyu.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/675"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_New_York_University_alumni"
     ]
   },
   "majors": {
     "count": 30,
     "count_method": "counted 30 unique major/program-like entries from the cited official page DOM",
-    "titles": [],
-    "notes": "counted 30 unique major/program-like entries from the cited official page DOM",
+    "titles": [
+      "Anand Khubani BS in Business, Technology & Entrepreneurship",
+      "Accelerated Undergraduate",
+      "NYU by NYU",
+      "Actuarial Science",
+      "Anand Khubani BS in Business, Technology & Entrepreneurship (BTE)",
+      "Animal Studies",
+      "Anthropology & Classical Civilization",
+      "Applied Psychology",
+      "Bioinformatics",
+      "Biomedical Engineering",
+      "Biomolecular Science",
+      "Biotechnology",
+      "Biotechnology & Entrepreneurship",
+      "Business",
+      "Business & Political Economy",
+      "Communicative Sciences and Disorders",
+      "Computer Engineering",
+      "Computer Science Education",
+      "Costume Studies",
+      "Cybersecurity",
+      "Data Analytics & Business Computing",
+      "Digital Communications & Media",
+      "Disability Studies",
+      "Dramatic Literature, Theater History, & the Cinema",
+      "English",
+      "Environmental Biology",
+      "Environmental Engineering",
+      "Environmental Science",
+      "Financial Engineering",
+      "Food Studies",
+      "Genetics",
+      "Genomics & Bioinformatics",
+      "Global Business",
+      "History of Education",
+      "Iberian Studies",
+      "Industrial Engineering",
+      "Integrated Design & Media",
+      "International Relations & Journalism",
+      "Journalism & Religion",
+      "Library & Information Science",
+      "Literacy Education",
+      "Luso-Brazilian Language & Literature",
+      "Management of Technology",
+      "Media, Culture, and Communication",
+      "Occupational Therapy",
+      "Physical Therapy",
+      "Public Policy",
+      "Quantitative Finance",
+      "School Counseling or Bilingual School Counseling",
+      "Science & Technology Studies",
+      "Sociology of Education",
+      "Songwriting",
+      "South Asian Studies",
+      "Statistics",
+      "Studio Art",
+      "Sustainable Urban Environments",
+      "Urban Design & Architecture Studies",
+      "World Language Education"
+    ],
+    "notes": "counted 30 unique major/program-like entries from the cited official page DOM; titles extracted from official page: https://www.nyu.edu/academics/academic-programs.html",
     "confidence": "medium"
   },
   "admissions": {
@@ -80,18 +146,151 @@
       "source_url": "https://www.nyu.edu/admissions/undergraduate-admissions.html",
       "source_excerpt": "Academic programs at NYU are designed to support exploration and depth. Students can shape their education through interdisciplinary coursework, global opportunities, and accelerated or continuing study options.",
       "retrieved_at": "2026-04-20T03:02:37.391775+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/675",
+      "source_excerpt": "Matched RateMyProfessors school 'New York University' (legacyId=675) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T00:11:29.570074+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 3 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_New_York_University_alumni",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T00:20:07.625176+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 58 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://www.nyu.edu/academics/academic-programs.html",
+      "source_excerpt": "Anand Khubani BS in Business, Technology & Entrepreneurship; Accelerated Undergraduate; NYU by NYU; Actuarial Science; Anand Khubani BS in Business, Technology & Entrepreneurship (BTE); Animal Studies; Anthropology & Classical Civilization; Applied Psychology; Bioinformatics; Biomedical Engineering; Biomolecular Science; Biotechnology",
+      "retrieved_at": "2026-04-29T23:35:42.242704+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:02:37.391779+00:00",
+    "last_verified_at": "2026-04-29T23:35:42.242713+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.recommendations",
       "admissions.essays"
     ],
     "warnings": [
+      "Major titles extracted from official school source (58 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
-      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages."
+      "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
+    ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'New York University' (legacyId=675) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T00:11:29.570062+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Ross Geller",
+          "department": "Paleontology",
+          "average_rating": 4.1,
+          "rating_count": 601,
+          "would_take_again_percent": 87.1,
+          "average_difficulty": 2.8,
+          "legacy_id": 577620,
+          "profile_url": "https://www.ratemyprofessors.com/professor/577620",
+          "source_url": "https://www.ratemyprofessors.com/school/675"
+        },
+        {
+          "rank": 2,
+          "name": "Yoel Ohayon",
+          "department": "Chemistry",
+          "average_rating": 4.8,
+          "rating_count": 454,
+          "would_take_again_percent": 97.1,
+          "average_difficulty": 2.1,
+          "legacy_id": 1747654,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1747654",
+          "source_url": "https://www.ratemyprofessors.com/school/675"
+        },
+        {
+          "rank": 3,
+          "name": "Andrew Paizis",
+          "department": "Economics",
+          "average_rating": 2.9,
+          "rating_count": 358,
+          "would_take_again_percent": 37.5,
+          "average_difficulty": 3.4,
+          "legacy_id": 1032165,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1032165",
+          "source_url": "https://www.ratemyprofessors.com/school/675"
+        },
+        {
+          "rank": 4,
+          "name": "John Halpin",
+          "department": "Chemistry",
+          "average_rating": 4.1,
+          "rating_count": 330,
+          "would_take_again_percent": 75,
+          "average_difficulty": 3.3,
+          "legacy_id": 180177,
+          "profile_url": "https://www.ratemyprofessors.com/professor/180177",
+          "source_url": "https://www.ratemyprofessors.com/school/675"
+        },
+        {
+          "rank": 5,
+          "name": "Anasse Bari",
+          "department": "Computer Science",
+          "average_rating": 4.3,
+          "rating_count": 243,
+          "would_take_again_percent": 80.5,
+          "average_difficulty": 3.6,
+          "legacy_id": 2094203,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2094203",
+          "source_url": "https://www.ratemyprofessors.com/school/675"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T00:20:07.625160+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Ayn Rand",
+          "description": "Russian-American writer and philosopher (1905\u20131982)",
+          "wikipedia_title": "Ayn Rand",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Ayn_Rand",
+          "recent_pageviews": 1153897,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_New_York_University_alumni"
+        },
+        {
+          "rank": 2,
+          "name": "Joe Gow",
+          "description": "American academic and pornographic actor",
+          "wikipedia_title": "Joe Gow",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Joe_Gow",
+          "recent_pageviews": 21823,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_New_York_University_alumni"
+        },
+        {
+          "rank": 3,
+          "name": "William Everdell",
+          "description": "American teacher and author (born 1941)",
+          "wikipedia_title": "William Everdell",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/William_Everdell",
+          "recent_pageviews": 2057,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_New_York_University_alumni"
+        }
+      ]
+    },
+    "warnings": [
+      "Only identified 3 alumni candidates that looked like people.",
+      "Only ranked 3 successful alumni items."
     ]
   }
 }

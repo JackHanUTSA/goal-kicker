@@ -14,7 +14,13 @@
       "https://atlas.ai.umich.edu/api/majorlist/"
     ],
     "testing_policy": [],
-    "general": []
+    "general": [],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/1258"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_University_of_Michigan_alumni"
+    ]
   },
   "majors": {
     "count": 146,
@@ -101,20 +107,205 @@
       "source_url": "https://atlas.ai.umich.edu/api/majorlist/",
       "source_excerpt": "Official Atlas API responses were aggregated and deduplicated by bachelor-level study_field, producing 146 unique bachelor study fields.",
       "retrieved_at": "2026-04-20T03:28:30.269927+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/1258",
+      "source_excerpt": "Matched RateMyProfessors school 'University of Michigan' (legacyId=1258) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-24T23:22:25.275740+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 10 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Michigan_alumni",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-24T23:56:13.598108+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:28:30.269936+00:00",
+    "last_verified_at": "2026-04-30T00:25:18.243254+00:00",
     "confidence": "phase-5-manual-repair",
     "unknown_fields": [
       "competitive_signals.projects_research"
     ],
     "warnings": [
+      "Major titles still need manual follow-up; no reliable official title list was extracted in this pass.",
       "Could not fetch admissions source https://admissions.umich.edu/: HTTP Error 403: Forbidden",
       "Could not fetch majors source https://admissions.umich.edu/academics-majors: HTTP Error 403: Forbidden",
       "Phase 3 structured upgrade completed with improved majors counting, admissions extraction, and query-ready records.",
       "Michigan admissions pages remain bot-protected in this environment, so this record now relies on official U-M Common Data Set and official Atlas API sources.",
-      "Michigan majors count is an official-API-derived bachelor study-field count, not a single registrar sentence from the admissions site."
+      "Michigan majors count is an official-API-derived bachelor study-field count, not a single registrar sentence from the admissions site.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'University of Michigan' (legacyId=1258) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-24T23:22:25.275729+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Charles Severance",
+          "department": "Information Science",
+          "average_rating": 4.9,
+          "rating_count": 680,
+          "would_take_again_percent": 98.9,
+          "average_difficulty": 2.2,
+          "legacy_id": 1159280,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1159280",
+          "source_url": "https://www.ratemyprofessors.com/school/1258"
+        },
+        {
+          "rank": 2,
+          "name": "Kathleen Nolta",
+          "department": "Chemistry",
+          "average_rating": 4.7,
+          "rating_count": 554,
+          "would_take_again_percent": 89.8,
+          "average_difficulty": 3.2,
+          "legacy_id": 224484,
+          "profile_url": "https://www.ratemyprofessors.com/professor/224484",
+          "source_url": "https://www.ratemyprofessors.com/school/1258"
+        },
+        {
+          "rank": 3,
+          "name": "Shelly Schreier",
+          "department": "Psychology",
+          "average_rating": 4.8,
+          "rating_count": 388,
+          "would_take_again_percent": 97.5,
+          "average_difficulty": 2.1,
+          "legacy_id": 224445,
+          "profile_url": "https://www.ratemyprofessors.com/professor/224445",
+          "source_url": "https://www.ratemyprofessors.com/school/1258"
+        },
+        {
+          "rank": 4,
+          "name": "Bruce Conforth",
+          "department": "American Studies",
+          "average_rating": 4.9,
+          "rating_count": 379,
+          "would_take_again_percent": 100,
+          "average_difficulty": 3.1,
+          "legacy_id": 602218,
+          "profile_url": "https://www.ratemyprofessors.com/professor/602218",
+          "source_url": "https://www.ratemyprofessors.com/school/1258"
+        },
+        {
+          "rank": 5,
+          "name": "Brian Malley",
+          "department": "Psychology",
+          "average_rating": 3.3,
+          "rating_count": 377,
+          "would_take_again_percent": 57.6,
+          "average_difficulty": 3,
+          "legacy_id": 287981,
+          "profile_url": "https://www.ratemyprofessors.com/professor/287981",
+          "source_url": "https://www.ratemyprofessors.com/school/1258"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-24T23:56:13.598089+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "David Scott",
+          "description": "American astronaut and lunar explorer (born 1932)",
+          "wikipedia_title": "David Scott",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/David_Scott",
+          "recent_pageviews": 164867,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Michigan_alumni"
+        },
+        {
+          "rank": 2,
+          "name": "Aisha Bowe",
+          "description": "American aerospace engineer (born 1986)",
+          "wikipedia_title": "Aisha Bowe",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Aisha_Bowe",
+          "recent_pageviews": 74697,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Michigan_alumni"
+        },
+        {
+          "rank": 3,
+          "name": "Andre Douglas",
+          "description": "American engineer and astronaut (born 1985)",
+          "wikipedia_title": "Andre Douglas",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Andre_Douglas",
+          "recent_pageviews": 62991,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Michigan_alumni"
+        },
+        {
+          "rank": 4,
+          "name": "Paul Milgrom",
+          "description": "American economist (born 1948)",
+          "wikipedia_title": "Paul Milgrom",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Paul_Milgrom",
+          "recent_pageviews": 48559,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Michigan_alumni"
+        },
+        {
+          "rank": 5,
+          "name": "Samuel C. C. Ting",
+          "description": "Nobel prize winning physicist",
+          "wikipedia_title": "Samuel C. C. Ting",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Samuel_C._C._Ting",
+          "recent_pageviews": 26690,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Michigan_alumni"
+        },
+        {
+          "rank": 6,
+          "name": "Elsie MacGill",
+          "description": "Canadian engineer (1905\u20131980)",
+          "wikipedia_title": "Elsie MacGill",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Elsie_MacGill",
+          "recent_pageviews": 23507,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Michigan_alumni"
+        },
+        {
+          "rank": 7,
+          "name": "James Lu",
+          "description": "American Internet entrepreneur",
+          "wikipedia_title": "James Lu",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/James_Lu",
+          "recent_pageviews": 17349,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Michigan_alumni"
+        },
+        {
+          "rank": 8,
+          "name": "Daniel T. Barry",
+          "description": "American engineer, scientist, and astronaut (born 1953)",
+          "wikipedia_title": "Daniel T. Barry",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Daniel_T._Barry",
+          "recent_pageviews": 16997,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Michigan_alumni"
+        },
+        {
+          "rank": 9,
+          "name": "Huwaida Arraf",
+          "description": "American lawyer and activist",
+          "wikipedia_title": "Huwaida Arraf",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Huwaida_Arraf",
+          "recent_pageviews": 16439,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Michigan_alumni"
+        },
+        {
+          "rank": 10,
+          "name": "Kelly Johnson (engineer)",
+          "description": "American aerospace engineer (1910\u20131990)",
+          "wikipedia_title": "Kelly Johnson (engineer)",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Kelly_Johnson_(engineer)",
+          "recent_pageviews": 16225,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Michigan_alumni"
+        }
+      ]
+    },
+    "warnings": []
   }
 }

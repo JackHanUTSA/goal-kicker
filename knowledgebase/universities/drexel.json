@@ -19,6 +19,12 @@
     "testing_policy": [],
     "general": [
       "https://www.drexel.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/1521"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_Drexel_University_alumni"
     ]
   },
   "majors": {
@@ -81,19 +87,162 @@
       "source_url": "https://drexel.edu/admissions",
       "source_excerpt": "All of our programs reflect the University\u2019s commitment to experiential education and interdisciplinary coursework and are taught by renowned faculty composed of leaders and visionaries within their respective fields. Drexel has a wide variety of majors and minors that will allow you to explore your individual interests and make an impact in the world around you.",
       "retrieved_at": "2026-04-20T03:08:22.941087+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/1521",
+      "source_excerpt": "Matched RateMyProfessors school 'Drexel University' (legacyId=1521) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T20:44:46.445679+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 5 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_Drexel_University_alumni",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T20:53:26.450665+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:08:22.941092+00:00",
+    "last_verified_at": "2026-04-30T00:49:19.490713+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.recommendations",
       "admissions.essays"
     ],
     "warnings": [
+      "Major titles still need manual follow-up; no reliable official title list was extracted in this pass.",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
-      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence."
+      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
+    ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'Drexel University' (legacyId=1521) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T20:44:46.445668+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Monica Ilies",
+          "department": "Chemistry",
+          "average_rating": 4.3,
+          "rating_count": 126,
+          "would_take_again_percent": 85.2,
+          "average_difficulty": 3,
+          "legacy_id": 1537810,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1537810",
+          "source_url": "https://www.ratemyprofessors.com/school/1521"
+        },
+        {
+          "rank": 2,
+          "name": "Laura Duwel",
+          "department": "Biology",
+          "average_rating": 2.2,
+          "rating_count": 126,
+          "would_take_again_percent": 28.9,
+          "average_difficulty": 4,
+          "legacy_id": 454714,
+          "profile_url": "https://www.ratemyprofessors.com/professor/454714",
+          "source_url": "https://www.ratemyprofessors.com/school/1521"
+        },
+        {
+          "rank": 3,
+          "name": "Brian Stuart",
+          "department": "Computer Science",
+          "average_rating": 3.5,
+          "rating_count": 123,
+          "would_take_again_percent": 60.8,
+          "average_difficulty": 3.7,
+          "legacy_id": 2019453,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2019453",
+          "source_url": "https://www.ratemyprofessors.com/school/1521"
+        },
+        {
+          "rank": 4,
+          "name": "Tammy Pirmann",
+          "department": "Computer Science",
+          "average_rating": 1.6,
+          "rating_count": 95,
+          "would_take_again_percent": 17.9,
+          "average_difficulty": 3.3,
+          "legacy_id": 2558088,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2558088",
+          "source_url": "https://www.ratemyprofessors.com/school/1521"
+        },
+        {
+          "rank": 5,
+          "name": "Dimitrios Papadopoulos",
+          "department": "Mathematics",
+          "average_rating": 4.7,
+          "rating_count": 92,
+          "would_take_again_percent": 94.9,
+          "average_difficulty": 2.5,
+          "legacy_id": 1669067,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1669067",
+          "source_url": "https://www.ratemyprofessors.com/school/1521"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T20:53:26.450649+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Algonquin Round Table",
+          "description": "Group of actors, critics, wits, and writers",
+          "wikipedia_title": "Algonquin Round Table",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Algonquin_Round_Table",
+          "recent_pageviews": 93308,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Drexel_University_alumni"
+        },
+        {
+          "rank": 2,
+          "name": "Cannabis industry",
+          "description": "Legal cultivators, producers, consumers, and associated services",
+          "wikipedia_title": "Cannabis industry",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Cannabis_industry",
+          "recent_pageviews": 8332,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Drexel_University_alumni"
+        },
+        {
+          "rank": 3,
+          "name": "Victoria Napolitano",
+          "description": "American politician (born 1988)",
+          "wikipedia_title": "Victoria Napolitano",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Victoria_Napolitano",
+          "recent_pageviews": 1213,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Drexel_University_alumni"
+        },
+        {
+          "rank": 4,
+          "name": "Pennsylvania House of Representatives",
+          "description": "Lower house of the Pennsylvania General Assembly",
+          "wikipedia_title": "Pennsylvania House of Representatives",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Pennsylvania_House_of_Representatives",
+          "recent_pageviews": 103,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Drexel_University_alumni"
+        },
+        {
+          "rank": 5,
+          "name": "Chief marketing officer",
+          "description": "Highest ranking executive-level position focusing on marketing",
+          "wikipedia_title": "Chief marketing officer",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Chief_marketing_officer",
+          "recent_pageviews": 1,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Drexel_University_alumni"
+        }
+      ]
+    },
+    "warnings": [
+      "Only identified 5 alumni candidates that looked like people.",
+      "Only ranked 5 successful alumni items."
     ]
   }
 }

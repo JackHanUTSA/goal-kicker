@@ -15,20 +15,43 @@ status: phase-3-structured
 
 ### Majors
 - https://college.harvard.edu/academics
+- https://college.harvard.edu/academics/liberal-arts-sciences/concentrations
 
-## Structured extraction
-- Majors count: 50
+## Majors
+- Count: 50
 - Count method: official Harvard page states 50 undergraduate fields of study (concentrations)
-- Testing policy: Harvard requires SAT or ACT, with alternative exams accepted in exceptional cases when those tests are not accessible.
-- GPA policy: Harvard does not state a simple minimum GPA on the cited first-year page.
-- Course rigor: Harvard emphasizes academic accomplishment and broad liberal arts and sciences study, but the cited page does not provide a single minimum course-rigor formula.
-- Recommendations: Harvard requires a school report that includes a counselor letter and two teacher recommendations.
-- Essays: Harvard requires a personal essay plus five required short-answer Harvard supplement questions.
+- Titles extracted: 27
 
-## Competitive signals
-### projects_research
-- Harvard says students can participate in hands-on research projects from the moment they arrive.
-- Harvard admissions says many factors matter beyond academic accomplishment, including special talents and potential contributions to the community.
+### Titles
+- special concentration
+- Visit the Astrophysics Page
+- Visit the Biomedical Engineering Page
+- Visit the Chemistry Page
+- Visit the Computer Science Page
+- Visit the Earth and Planetary Sciences Page
+- Visit the Economics Page
+- Visit the Electrical Engineering Page
+- Visit the English Page
+- Visit the Environmental Science and Engineering Page
+- Visit the Government Page
+- Visit the History Page
+- Visit the History and Science Page
+- Visit the History of Art and Architecture Page
+- Visit the Human Developmental and Regenerative Biology Page
+- concentration information
+- Visit the Molecular and Cellular Biology Page
+- Visit the Music Page
+- Visit the Neuroscience Page
+- Visit the Philosophy Page
+- Visit the Psychology Page
+- Visit the Romance Languages and Literature Page
+- Visit the Sociology Page
+- Visit the South Asian Studies Page
+- Visit the Statistics Page
+- Visit the Studies of Women, Gender, and Sexuality Page
+- Office of Undergraduate Education
 
 ## Warnings
+- Major titles extracted from official school source (27 titles).
 - Phase 3 structured upgrade completed with improved majors counting, admissions extraction, and query-ready records.
+- School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data.

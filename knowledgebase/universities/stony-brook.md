@@ -20,17 +20,49 @@ status: phase-5-auto-enriched
 - https://www.stonybrook.edu/academics/
 - https://www.stonybrook.edu/majors
 - https://www.stonybrook.edu/undergraduate/programs
+- https://www.stonybrook.edu/undergraduate-admissions/info-for/pre-college-programs.php
 
-## Structured extraction
-- Majors count: 200
+## Majors
+- Count: 200
 - Count method: explicit official page sentence
-- Testing policy: Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.
-- GPA policy: No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.
-- Course rigor: We're creating the next generation of scholars with an innovative curriculum while supporting students and postdocs as they pursue creative academic and research opportunities.
-- Recommendations: unknown
-- Essays: unknown
+- Titles extracted: 31
+
+### Titles
+- The SBU Difference
+- Pre-College Programs at Stony Brook
+- Cost & Aid
+- Visit
+- Request Info
+- back
+- The Education
+- Careers & Outcomes
+- Location
+- First Year/Freshman
+- Transfer
+- International
+- Second Degree
+- Majors & Degrees
+- Pre-Professional Programs
+- Accelerated/Combined Degrees
+- Honors Programs
+- Scholarships
+- Value
+- Campus Tour Opportunities
+- Highlights from Current Students
+- Virtual Info Sessions
+- Maps & Directions
+- Careers and Outcomes
+- Majors and Degrees
+- Information For
+- College Counselors
+- High School
+- Homeschoolers
+- Veterans
+- Outreach
 
 ## Warnings
+- Major titles extracted from official school source (31 titles).
 - Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.
 - GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.
 - Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.
+- School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data.

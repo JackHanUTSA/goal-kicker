@@ -14,18 +14,35 @@
     "majors": [
       "https://www.ucsb.edu/academic-programs",
       "https://www.ucsb.edu/academics",
-      "https://www.ucsb.edu/majors"
+      "https://www.ucsb.edu/majors",
+      "https://psych.ucsb.edu/undergraduate/biopsychology-major"
     ],
     "testing_policy": [],
     "general": [
       "https://www.ucsb.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/1077"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Santa_Barbara_alumni"
     ]
   },
   "majors": {
     "count": 200,
     "count_method": "explicit official page sentence",
-    "titles": [],
-    "notes": "explicit official page sentence",
+    "titles": [
+      "Undergraduate Overview",
+      "Academic Planning",
+      "Course Information",
+      "Transfer Orientation",
+      "Honors Program",
+      "Study Abroad",
+      "Careers & Grad School",
+      "Frequently Asked Questions",
+      "CONNECT"
+    ],
+    "notes": "explicit official page sentence; titles extracted from official page: https://psych.ucsb.edu/undergraduate/biopsychology-major",
     "confidence": "medium"
   },
   "admissions": {
@@ -81,19 +98,212 @@
       "source_url": "https://admissions.sa.ucsb.edu/",
       "source_excerpt": "Rigorous and rewarding. That\u2019s the UCSB experience in a nutshell. And it\u2019s why we\u2019re a top-ranked university. Scholarship and research await.",
       "retrieved_at": "2026-04-20T03:10:14.187679+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 9 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://psych.ucsb.edu/undergraduate/biopsychology-major",
+      "source_excerpt": "Undergraduate Overview; Academic Planning; Course Information; Transfer Orientation; Honors Program; Study Abroad; Careers & Grad School; Frequently Asked Questions; CONNECT",
+      "retrieved_at": "2026-04-24T06:57:31.228668+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/1077",
+      "source_excerpt": "Matched RateMyProfessors school 'University of California Santa Barbara' (legacyId=1077) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T13:14:12.576533+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 10 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Santa_Barbara_alumni",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T14:17:37.808581+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:10:14.187684+00:00",
+    "last_verified_at": "2026-04-25T14:17:37.808584+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.recommendations",
       "admissions.essays"
     ],
     "warnings": [
+      "Major titles extracted from official school source (9 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
-      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence."
+      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'University of California Santa Barbara' (legacyId=1077) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T13:14:12.576516+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Daryl Cooper",
+          "department": "Mathematics",
+          "average_rating": 4,
+          "rating_count": 985,
+          "would_take_again_percent": 93.0,
+          "average_difficulty": 2.6,
+          "legacy_id": 186093,
+          "profile_url": "https://www.ratemyprofessors.com/professor/186093",
+          "source_url": "https://www.ratemyprofessors.com/school/1077"
+        },
+        {
+          "rank": 2,
+          "name": "Alan Fridlund",
+          "department": "Psychology",
+          "average_rating": 4.1,
+          "rating_count": 517,
+          "would_take_again_percent": 72.9,
+          "average_difficulty": 3.1,
+          "legacy_id": 855,
+          "profile_url": "https://www.ratemyprofessors.com/professor/855",
+          "source_url": "https://www.ratemyprofessors.com/school/1077"
+        },
+        {
+          "rank": 3,
+          "name": "Crisjoe Joseph",
+          "department": "Chemistry",
+          "average_rating": 4.2,
+          "rating_count": 400,
+          "would_take_again_percent": 82.7,
+          "average_difficulty": 3.7,
+          "legacy_id": 1829388,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1829388",
+          "source_url": "https://www.ratemyprofessors.com/school/1077"
+        },
+        {
+          "rank": 4,
+          "name": "Scott Price",
+          "department": "Chemistry",
+          "average_rating": 4.6,
+          "rating_count": 395,
+          "would_take_again_percent": 93.0,
+          "average_difficulty": 3.4,
+          "legacy_id": 1755841,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1755841",
+          "source_url": "https://www.ratemyprofessors.com/school/1077"
+        },
+        {
+          "rank": 5,
+          "name": "Bryanna Sylvester",
+          "department": "Chemistry",
+          "average_rating": 3.6,
+          "rating_count": 395,
+          "would_take_again_percent": 62.2,
+          "average_difficulty": 3.4,
+          "legacy_id": 1634616,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1634616",
+          "source_url": "https://www.ratemyprofessors.com/school/1077"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T14:17:37.808570+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Gwyneth Paltrow",
+          "description": "American actress and businesswoman (born 1972)",
+          "wikipedia_title": "Gwyneth Paltrow",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Gwyneth_Paltrow",
+          "recent_pageviews": 3203609,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Santa_Barbara_alumni"
+        },
+        {
+          "rank": 2,
+          "name": "Michael Douglas",
+          "description": "American actor (born 1944)",
+          "wikipedia_title": "Michael Douglas",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Douglas",
+          "recent_pageviews": 2926370,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Santa_Barbara_alumni"
+        },
+        {
+          "rank": 3,
+          "name": "Benjamin Bratt",
+          "description": "American actor (born 1963)",
+          "wikipedia_title": "Benjamin Bratt",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Benjamin_Bratt",
+          "recent_pageviews": 1215534,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Santa_Barbara_alumni"
+        },
+        {
+          "rank": 4,
+          "name": "Edi Gathegi",
+          "description": "Kenyan-American actor (born 1979)",
+          "wikipedia_title": "Edi Gathegi",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Edi_Gathegi",
+          "recent_pageviews": 1017576,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Santa_Barbara_alumni"
+        },
+        {
+          "rank": 5,
+          "name": "Andrew Schulz",
+          "description": "American comedian and actor (born 1983)",
+          "wikipedia_title": "Andrew Schulz",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Andrew_Schulz",
+          "recent_pageviews": 939834,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Santa_Barbara_alumni"
+        },
+        {
+          "rank": 6,
+          "name": "Harvey Levin",
+          "description": "American television producer, lawyer, legal analyst, and celebrity reporter",
+          "wikipedia_title": "Harvey Levin",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Harvey_Levin",
+          "recent_pageviews": 525365,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Santa_Barbara_alumni"
+        },
+        {
+          "rank": 7,
+          "name": "Steve Aoki",
+          "description": "American DJ and music producer (born 1977)",
+          "wikipedia_title": "Steve Aoki",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Steve_Aoki",
+          "recent_pageviews": 518266,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Santa_Barbara_alumni"
+        },
+        {
+          "rank": 8,
+          "name": "Peter Horton",
+          "description": "American actor and director",
+          "wikipedia_title": "Peter Horton",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Peter_Horton",
+          "recent_pageviews": 395425,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Santa_Barbara_alumni"
+        },
+        {
+          "rank": 9,
+          "name": "Saint Levant",
+          "description": "Palestinian rapper (born 2000)",
+          "wikipedia_title": "Saint Levant",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Saint_Levant",
+          "recent_pageviews": 314262,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Santa_Barbara_alumni"
+        },
+        {
+          "rank": 10,
+          "name": "Robby Krieger",
+          "description": "American guitarist (born 1946)",
+          "wikipedia_title": "Robby Krieger",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Robby_Krieger",
+          "recent_pageviews": 266008,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Santa_Barbara_alumni"
+        }
+      ]
+    },
+    "warnings": []
   }
 }

@@ -18,17 +18,25 @@ status: phase-5-auto-enriched
 - https://www.wm.edu/academic-programs
 - https://www.wm.edu/academics/
 - https://www.wm.edu/majors
+- https://www.wm.edu/academics/undergraduateprograms/
 
-## Structured extraction
-- Majors count: 100
+## Majors
+- Count: 100
 - Count method: explicit official page sentence
-- Testing policy: Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.
-- GPA policy: No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.
-- Course rigor: Undergraduate teacher preparation and advanced degrees in curriculum and instruction, counseling, school psychology and educational leadership are offered in-person and online.
-- Recommendations: William & Mary practices holistic review; decisions are not based solely on one aspect of your application (Common App) . Rather, we review your essays, letters of recommendation, extracurricular involvements, and yes, those numbers like GPAs and standardized test scores (which are optional). Each application is read at least twice, including once by your regional counselor . At the end of this process, our goal is to bring together a class of dynamic, diverse and academically engaged students.
-- Essays: William & Mary practices holistic review; decisions are not based solely on one aspect of your application (Common App) . Rather, we review your essays, letters of recommendation, extracurricular involvements, and yes, those numbers like GPAs and standardized test scores (which are optional). Each application is read at least twice, including once by your regional counselor . At the end of this process, our goal is to bring together a class of dynamic, diverse and academically engaged students.
+- Titles extracted: 7
+
+### Titles
+- Find Academic Support at W&M
+- Topics
+- Academic Resources
+- Program Finder
+- Explore All Programs
+- COLL Curriculum
+- Explore Programs
 
 ## Warnings
+- Major titles extracted from official school source (7 titles).
 - Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.
 - GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.
 - Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.
+- School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data.

@@ -11,18 +11,49 @@
       "https://www.purdue.edu/admission"
     ],
     "majors": [
-      "https://www.purdue.edu/home/academics/"
+      "https://www.purdue.edu/home/academics/",
+      "https://catalog.purdue.edu/content.php?catoid=18&navoid=23648"
     ],
     "testing_policy": [],
     "general": [
       "https://www.purdue.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/17599"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_Purdue_University_alumni"
     ]
   },
   "majors": {
     "count": 400,
     "count_method": "explicit official page sentence",
-    "titles": [],
-    "notes": "explicit official page sentence",
+    "titles": [
+      "Graduate and Undergraduate Programs Lists",
+      "Combined Degree Programs (Purdue Undergraduate/Graduate)",
+      "Undergraduate Requirements",
+      "Undergraduate Outcomes-based Core Curriculum",
+      "Exploratory Studies (Undergraduate)",
+      "Joint and Special Programs (Graduate & Undergraduate)",
+      "Chinese Studies: World Languages Teaching Concentration, BA",
+      "French: World Languages Teaching Concentration, BA",
+      "German: World Languages Teaching Concentration, BA",
+      "Japanese: World Languages Teaching Concentration, BA",
+      "Natural Resources and Environmental Science: Climate and Energy Solutions Concentration, BS",
+      "Natural Resources and Environmental Science: Emerging Environmental Challenges Concentration, BS",
+      "Natural Resources and Environmental Science: Environmental Policy and Analysis Concentration, BS",
+      "Natural Resources and Environmental Science: Environmental Quality And Restoration Concentration, BS",
+      "Natural Resources and Environmental Science: Sustainability Science Concentration, BS",
+      "Political Science: American Politics Concentration, BA",
+      "Political Science: Comparative and International Politics Concentration, BA",
+      "Political Science: Environmental Politics and Policy Concentration, BA",
+      "Political Science: Law and Political Thought Concentration, BA",
+      "Political Science: National and International Security Concentration, BA",
+      "Political Science: Politics of Groups, Organizations, and Representation Concentration, BA",
+      "Political Science: Public Policy Concentration, BA",
+      "Spanish: World Languages Teaching Concentration, BA"
+    ],
+    "notes": "explicit official page sentence; titles extracted from official page: https://catalog.purdue.edu/content.php?catoid=18&navoid=23648",
     "confidence": "medium"
   },
   "admissions": {
@@ -70,10 +101,34 @@
       "source_url": "https://admissions.purdue.edu/",
       "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
       "retrieved_at": "2026-04-20T03:03:48.980301+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/17599",
+      "source_excerpt": "Matched RateMyProfessors school 'Purdue University Global' (legacyId=17599) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T02:01:10.404774+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 10 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_Purdue_University_alumni",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T02:13:15.443306+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 23 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://catalog.purdue.edu/content.php?catoid=18&navoid=23648",
+      "source_excerpt": "Graduate and Undergraduate Programs Lists; Combined Degree Programs (Purdue Undergraduate/Graduate); Undergraduate Requirements; Undergraduate Outcomes-based Core Curriculum; Exploratory Studies (Undergraduate); Joint and Special Programs (Graduate & Undergraduate); Chinese Studies: World Languages Teaching Concentration, BA; French: World Languages Teaching Concentration, BA; German: World Languages Teaching Concentration, BA; Japanese: World Languages Teaching Concentration, BA; Natural Resources and Environmental Science: Climate and Energy Solutions Concentration, BS; Natural Resources and Environmental Science: Emerging Environmental Challenges Concentration, BS",
+      "retrieved_at": "2026-04-29T23:36:51.311960+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:03:48.980307+00:00",
+    "last_verified_at": "2026-04-29T23:36:51.311970+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.course_rigor",
@@ -81,9 +136,178 @@
       "admissions.essays"
     ],
     "warnings": [
+      "Major titles extracted from official school source (23 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
-      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence."
+      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'Purdue University Global' (legacyId=17599) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T02:01:10.404764+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Galia Fussell",
+          "department": "Writing",
+          "average_rating": 1.3,
+          "rating_count": 31,
+          "would_take_again_percent": 9.7,
+          "average_difficulty": 4.7,
+          "legacy_id": 2603317,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2603317",
+          "source_url": "https://www.ratemyprofessors.com/school/17599"
+        },
+        {
+          "rank": 2,
+          "name": "Jamie Thornton",
+          "department": "English",
+          "average_rating": 1.1,
+          "rating_count": 27,
+          "would_take_again_percent": 0,
+          "average_difficulty": 4.1,
+          "legacy_id": 2534197,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2534197",
+          "source_url": "https://www.ratemyprofessors.com/school/17599"
+        },
+        {
+          "rank": 3,
+          "name": "Kristy Crowley",
+          "department": "Psychology",
+          "average_rating": 4.9,
+          "rating_count": 20,
+          "would_take_again_percent": 95,
+          "average_difficulty": 3,
+          "legacy_id": 2521874,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2521874",
+          "source_url": "https://www.ratemyprofessors.com/school/17599"
+        },
+        {
+          "rank": 4,
+          "name": "Tina Evans",
+          "department": "Health Science",
+          "average_rating": 1.8,
+          "rating_count": 18,
+          "would_take_again_percent": 22.2,
+          "average_difficulty": 4.7,
+          "legacy_id": 2535603,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2535603",
+          "source_url": "https://www.ratemyprofessors.com/school/17599"
+        },
+        {
+          "rank": 5,
+          "name": "Tedd Wheeler",
+          "department": "Business",
+          "average_rating": 4.9,
+          "rating_count": 16,
+          "would_take_again_percent": 100,
+          "average_difficulty": 2.2,
+          "legacy_id": 2916554,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2916554",
+          "source_url": "https://www.ratemyprofessors.com/school/17599"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T02:13:15.443295+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "James Tour",
+          "description": "American scientist",
+          "wikipedia_title": "James Tour",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/James_Tour",
+          "recent_pageviews": 82779,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Purdue_University_alumni"
+        },
+        {
+          "rank": 2,
+          "name": "Sully Sullenberger",
+          "description": "American pilot and diplomat (born 1951)",
+          "wikipedia_title": "Sully Sullenberger",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Sully_Sullenberger",
+          "recent_pageviews": 72237,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Purdue_University_alumni"
+        },
+        {
+          "rank": 3,
+          "name": "Domenico Grasso",
+          "description": "American environmental engineer",
+          "wikipedia_title": "Domenico Grasso",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Domenico_Grasso",
+          "recent_pageviews": 49629,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Purdue_University_alumni"
+        },
+        {
+          "rank": 4,
+          "name": "G. V. Loganathan",
+          "description": "Indian-American professor (1954\u20132007)",
+          "wikipedia_title": "G. V. Loganathan",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/G._V._Loganathan",
+          "recent_pageviews": 42664,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Purdue_University_alumni"
+        },
+        {
+          "rank": 5,
+          "name": "Richard O. Covey",
+          "description": "American astronaut (born 1946)",
+          "wikipedia_title": "Richard O. Covey",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Richard_O._Covey",
+          "recent_pageviews": 17268,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Purdue_University_alumni"
+        },
+        {
+          "rank": 6,
+          "name": "Jerry L. Ross",
+          "description": "NASA astronaut and engineer (born 1948)",
+          "wikipedia_title": "Jerry L. Ross",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Jerry_L._Ross",
+          "recent_pageviews": 16895,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Purdue_University_alumni"
+        },
+        {
+          "rank": 7,
+          "name": "Fred Mannering",
+          "description": "American engineer",
+          "wikipedia_title": "Fred Mannering",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Fred_Mannering",
+          "recent_pageviews": 13962,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Purdue_University_alumni"
+        },
+        {
+          "rank": 8,
+          "name": "Loral O'Hara",
+          "description": "US astronaut (born 1983)",
+          "wikipedia_title": "Loral O'Hara",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Loral_O'Hara",
+          "recent_pageviews": 12912,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Purdue_University_alumni"
+        },
+        {
+          "rank": 9,
+          "name": "Andrew J. Feustel",
+          "description": "American-Canadian NASA astronaut and geophysicist",
+          "wikipedia_title": "Andrew J. Feustel",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Andrew_J._Feustel",
+          "recent_pageviews": 12131,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Purdue_University_alumni"
+        },
+        {
+          "rank": 10,
+          "name": "Scott D. Tingle",
+          "description": "American astronaut (born 1965)",
+          "wikipedia_title": "Scott D. Tingle",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Scott_D._Tingle",
+          "recent_pageviews": 11399,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Purdue_University_alumni"
+        }
+      ]
+    },
+    "warnings": []
   }
 }

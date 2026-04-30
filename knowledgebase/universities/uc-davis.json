@@ -18,13 +18,128 @@
     "testing_policy": [],
     "general": [
       "https://www.ucdavis.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/1073"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Davis_alumni"
     ]
   },
   "majors": {
     "count": 10,
     "count_method": "explicit official page sentence",
-    "titles": [],
-    "notes": "explicit official page sentence",
+    "titles": [
+      "Aerospace Science and Engineering",
+      "African American and African Studies",
+      "Agricultural and Environmental Education",
+      "Agricultural and Environmental Technology",
+      "American Studies",
+      "Animal Biology",
+      "Animal Science",
+      "Anthropology",
+      "Applied Chemistry",
+      "Applied Physics",
+      "Art History",
+      "Art Studio",
+      "Asian American Studies",
+      "Atmospheric Science",
+      "Biochemical Engineering",
+      "Biochemistry and Molecular Biology",
+      "Biological Sciences",
+      "Biological Systems Engineering",
+      "Biomedical Engineering",
+      "Biotechnology",
+      "Business",
+      "Cell Biology",
+      "Chemical Engineering",
+      "Chemical Physics",
+      "Chemistry",
+      "Chicana/Chicano Studies",
+      "Chinese",
+      "Cinema and Digital Media",
+      "Civil Engineering",
+      "Classical Civilization",
+      "Clinical Nutrition",
+      "Cognitive Science",
+      "Communication",
+      "Community and Regional Development",
+      "Comparative Literature",
+      "Computer Engineering",
+      "Computer Science",
+      "Computer Science and Engineering",
+      "Data Science",
+      "Design",
+      "East Asian Studies",
+      "Economics",
+      "Electrical Engineering",
+      "English",
+      "Entomology",
+      "Environmental Engineering",
+      "Environmental Policy Analysis and Planning",
+      "Environmental Toxicology",
+      "Evolution, Ecology and Biodiversity",
+      "Food Science",
+      "French",
+      "Gender, Sexuality and Women\u2019s Studies",
+      "Genetics and Genomics",
+      "Geology",
+      "German",
+      "Global Disease Biology",
+      "History",
+      "Human Biology",
+      "Human Development",
+      "Hydrology",
+      "International Agricultural Development",
+      "International Relations",
+      "Italian",
+      "Japanese",
+      "Landscape Architecture",
+      "Linguistics",
+      "Managerial Economics",
+      "Marine and Coastal Science \u2014 Oceans and the Earth System",
+      "Marine and Coastal Science\u2014Marine Ecology and Organismal Biology",
+      "Materials Science and Engineering",
+      "Mathematical and Scientific Computation",
+      "Mathematics",
+      "Mechanical Engineering",
+      "Medicinal Chemistry and Drug Design",
+      "Medieval and Early Modern Studies",
+      "Middle East/South Asia Studies",
+      "Molecular and Medical Microbiology (Formerly Microbiology)",
+      "Music",
+      "Native American Studies",
+      "Neurobiology, Physiology and Behavior",
+      "Nutrition Science",
+      "Philosophy",
+      "Physics",
+      "Plant Biology",
+      "Plant Sciences",
+      "Political Science",
+      "Political Science \u2014 Public Service",
+      "Psychology",
+      "Religious Studies",
+      "Russian",
+      "Science and Technology Studies",
+      "Sociology",
+      "Sociology \u2014 Organizational Studies",
+      "Spanish",
+      "Statistics",
+      "Sustainable Agriculture and Food Systems",
+      "Sustainable Environmental Design",
+      "Systems and Synthetic Biology",
+      "Theatre and Dance",
+      "Undeclared \u2014 Fine Arts",
+      "Undeclared \u2014 Humanities",
+      "Undeclared \u2014 Life Sciences",
+      "Undeclared \u2014 Physical Sciences",
+      "Undeclared \u2014 Social Sciences",
+      "Undeclared/Exploratory Program",
+      "Viticulture and Enology",
+      "Wildlife, Fish and Conservation Biology",
+      "Major"
+    ],
+    "notes": "explicit official page sentence; titles extracted from official page: https://www.ucdavis.edu/academics/majors",
     "confidence": "medium"
   },
   "admissions": {
@@ -80,19 +195,212 @@
       "source_url": "https://www.ucdavis.edu/admissions/undergraduate",
       "source_excerpt": "Academics Curriculum Practicum Projects Meet Your Faculty",
       "retrieved_at": "2026-04-20T03:04:37.813755+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 108 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://www.ucdavis.edu/academics/majors",
+      "source_excerpt": "Aerospace Science and Engineering; African American and African Studies; Agricultural and Environmental Education; Agricultural and Environmental Technology; American Studies; Animal Biology; Animal Science; Anthropology; Applied Chemistry; Applied Physics; Art History; Art Studio",
+      "retrieved_at": "2026-04-24T13:55:31.196283+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/1073",
+      "source_excerpt": "Matched RateMyProfessors school 'University of California Davis' (legacyId=1073) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T03:14:21.678209+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 10 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Davis_alumni",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T04:12:32.459486+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:04:37.813760+00:00",
+    "last_verified_at": "2026-04-25T04:12:32.459488+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.recommendations",
       "admissions.essays"
     ],
     "warnings": [
+      "Major titles extracted from official school source (108 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
-      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence."
+      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'University of California Davis' (legacyId=1073) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T03:14:21.678199+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Andreas Toupadakis",
+          "department": "Chemistry",
+          "average_rating": 3.3,
+          "rating_count": 856,
+          "would_take_again_percent": 55.1,
+          "average_difficulty": 3.1,
+          "legacy_id": 561599,
+          "profile_url": "https://www.ratemyprofessors.com/professor/561599",
+          "source_url": "https://www.ratemyprofessors.com/school/1073"
+        },
+        {
+          "rank": 2,
+          "name": "Bryan Enderle",
+          "department": "Chemistry",
+          "average_rating": 4.6,
+          "rating_count": 830,
+          "would_take_again_percent": 85.5,
+          "average_difficulty": 3.4,
+          "legacy_id": 81946,
+          "profile_url": "https://www.ratemyprofessors.com/professor/81946",
+          "source_url": "https://www.ratemyprofessors.com/school/1073"
+        },
+        {
+          "rank": 3,
+          "name": "Melekeh Nasiri",
+          "department": "Chemistry",
+          "average_rating": 2.7,
+          "rating_count": 796,
+          "would_take_again_percent": 23.3,
+          "average_difficulty": 4.2,
+          "legacy_id": 144942,
+          "profile_url": "https://www.ratemyprofessors.com/professor/144942",
+          "source_url": "https://www.ratemyprofessors.com/school/1073"
+        },
+        {
+          "rank": 4,
+          "name": "Cyrus Aram",
+          "department": "Management",
+          "average_rating": 4.7,
+          "rating_count": 702,
+          "would_take_again_percent": 91.7,
+          "average_difficulty": 4.2,
+          "legacy_id": 1821363,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1821363",
+          "source_url": "https://www.ratemyprofessors.com/school/1073"
+        },
+        {
+          "rank": 5,
+          "name": "Ozcan Gulacar",
+          "department": "Chemistry",
+          "average_rating": 4,
+          "rating_count": 695,
+          "would_take_again_percent": 83.6,
+          "average_difficulty": 3.6,
+          "legacy_id": 2021434,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2021434",
+          "source_url": "https://www.ratemyprofessors.com/school/1073"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T04:12:32.459474+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "David Phillips (entrepreneur)",
+          "description": "American civil engineer",
+          "wikipedia_title": "David Phillips (entrepreneur)",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/David_Phillips_(entrepreneur)",
+          "recent_pageviews": 25402,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Davis_alumni"
+        },
+        {
+          "rank": 2,
+          "name": "Carol Folt",
+          "description": "American academic administrator (born 1951)",
+          "wikipedia_title": "Carol Folt",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Carol_Folt",
+          "recent_pageviews": 19449,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Davis_alumni"
+        },
+        {
+          "rank": 3,
+          "name": "Chris Crawford (game designer)",
+          "description": "Computer game designer (born 1950)",
+          "wikipedia_title": "Chris Crawford (game designer)",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Chris_Crawford_(game_designer)",
+          "recent_pageviews": 17092,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Davis_alumni"
+        },
+        {
+          "rank": 4,
+          "name": "Alvin S. White",
+          "description": "American test pilot and mechanical engineer",
+          "wikipedia_title": "Alvin S. White",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Alvin_S._White",
+          "recent_pageviews": 16458,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Davis_alumni"
+        },
+        {
+          "rank": 5,
+          "name": "Kaveh Madani",
+          "description": "Iranian environmental scientist (born 1981)",
+          "wikipedia_title": "Kaveh Madani",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Kaveh_Madani",
+          "recent_pageviews": 13441,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Davis_alumni"
+        },
+        {
+          "rank": 6,
+          "name": "Stephen Robinson",
+          "description": "American astronaut (born 1955)",
+          "wikipedia_title": "Stephen Robinson",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Stephen_Robinson",
+          "recent_pageviews": 12444,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Davis_alumni"
+        },
+        {
+          "rank": 7,
+          "name": "Kimberly S. Budil",
+          "description": "American physicist",
+          "wikipedia_title": "Kimberly S. Budil",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Kimberly_S._Budil",
+          "recent_pageviews": 10999,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Davis_alumni"
+        },
+        {
+          "rank": 8,
+          "name": "Amishi Jha",
+          "description": "American neuroscientist",
+          "wikipedia_title": "Amishi Jha",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Amishi_Jha",
+          "recent_pageviews": 7093,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Davis_alumni"
+        },
+        {
+          "rank": 9,
+          "name": "Adam Steltzner",
+          "description": "American aerospace engineer",
+          "wikipedia_title": "Adam Steltzner",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Adam_Steltzner",
+          "recent_pageviews": 6833,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Davis_alumni"
+        },
+        {
+          "rank": 10,
+          "name": "Andrew Huberman",
+          "description": "American neuroscientist and podcaster (born 1975)",
+          "wikipedia_title": "Andrew Huberman",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Andrew_Huberman",
+          "recent_pageviews": 6683,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_Davis_alumni"
+        }
+      ]
+    },
+    "warnings": []
   }
 }

@@ -21,17 +21,65 @@ status: phase-5-auto-enriched
 
 ### Majors
 - https://admission.virginia.edu/academics
+- https://www.virginia.edu/majors-minors/
 
-## Structured extraction
-- Majors count: 0
-- Count method: auto-enrichment could not derive a reliable major/program count from the pages reached in this pass
-- Testing policy: The ACT Writing sections are not used in our review.
-- GPA policy: No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.
-- Course rigor: Your school counselor can submit the secondary school report online. A counselor recommendation can be submitted with the secondary school report. Your academic teacher recommendation should also be submitted online. In addition to the secondary school report, your counselor should submit the school profile and your transcript(s) online.
-- Recommendations: Your school counselor can submit the secondary school report online. A counselor recommendation can be submitted with the secondary school report. Your academic teacher recommendation should also be submitted online. In addition to the secondary school report, your counselor should submit the school profile and your transcript(s) online.
-- Essays: We are interested in who you are, and we value what you have to say. While AI tools can be helpful in generating ideas and centering your thoughts, essays and personal statements that rely more on AI than your original thoughts miss the mark in one incredibly important way: they lack your voice, your ideas, and your very personal reflection on how your experiences have shaped you.
+## Majors
+- Count: 47
+- Count method: counted extracted undergraduate-major titles from an official page
+- Titles extracted: 47
+
+### Titles
+- More to Explore
+- Undergraduate Studies
+- Aerospace Engineering
+- African American and African Studies
+- Anthropology
+- Architectural History
+- Architecture
+- Biology
+- Chemical Engineering
+- Chemistry
+- Civil Engineering
+- Classics
+- Computer Science, B.A. and B.S.
+- Drama
+- Early Childhood Education, B.S.Ed.
+- Electrical Engineering
+- Elementary Education, B.S.Ed.
+- Engineering Science
+- English
+- Environmental Sciences
+- French
+- German
+- Interdisciplinary Studies
+- Italian
+- Jewish Studies
+- Materials Science and Engineering
+- Mathematics
+- Mechanical Engineering
+- Media Studies
+- Medieval Studies
+- Middle Eastern and South Asian Languages and Cultures
+- Music
+- Neuroscience
+- Philosophy
+- Political and Social Thought
+- Politics
+- Psychology
+- Public Policy and Leadership
+- Religious Studies
+- Slavic Languages and Literatures
+- South Asian Languages and Literatures
+- Special Education, B.S.Ed.
+- Speech Communication Disorders, B.S.Ed.
+- Systems Engineering
+- Urban and Environmental Planning
+- Youth & Social Innovation, B.S.Ed.
+- National Criminal Justice Command College
 
 ## Warnings
+- Major titles extracted from official school source (47 titles).
 - Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.
 - GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.
 - Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page.
+- School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data.

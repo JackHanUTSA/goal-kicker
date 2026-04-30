@@ -14,18 +14,34 @@
     "majors": [
       "https://www.rutgers.edu/academic-programs",
       "https://www.rutgers.edu/academics",
-      "https://www.rutgers.edu/majors"
+      "https://www.rutgers.edu/majors",
+      "https://www.rutgers.edu/academics/explore-undergraduate-programs?field_location=654"
     ],
     "testing_policy": [],
     "general": [
       "https://www.rutgers.edu"
+    ],
+    "professors": [],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/Category%3ARutgers_alumni"
     ]
   },
   "majors": {
     "count": 150,
     "count_method": "explicit official page sentence",
-    "titles": [],
-    "notes": "explicit official page sentence",
+    "titles": [
+      "Accounting",
+      "Aerospace Engineering",
+      "African, Middle Eastern, and South Asian Languages and Literatures",
+      "Africana Studies",
+      "Agricultural and Food Systems",
+      "American Studies",
+      "Animal Science",
+      "Anthropology",
+      "Anthropology, Evolutionary",
+      "Applied Sciences Engineering"
+    ],
+    "notes": "explicit official page sentence; titles extracted from official page: https://www.rutgers.edu/academics/explore-undergraduate-programs?field_location=654",
     "confidence": "medium"
   },
   "admissions": {
@@ -81,19 +97,60 @@
       "source_url": "https://admissions.rutgers.edu/",
       "source_excerpt": "Rutgers welcomes a student body that reflects the diversity of the world around us. People of all backgrounds with varying interests and goals meet here to explore a rigorous academic curriculum and expand their horizons. Some students come to Rutgers planning to change the world, and others seek to find their place in it. No matter what path you\u2019re on, a Rutgers degree opens doors and lays the foundation for success.",
       "retrieved_at": "2026-04-20T03:05:24.330330+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 0 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/Category%3ARutgers_alumni",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, and ranked by pageviews. Major-specific and last-10-years filtering requires stronger school-specific alumni sources than this generic pipeline currently has.",
+      "retrieved_at": "2026-04-29T04:43:26.098975+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 10 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://www.rutgers.edu/academics/explore-undergraduate-programs?field_location=654",
+      "source_excerpt": "Accounting; Aerospace Engineering; African, Middle Eastern, and South Asian Languages and Literatures; Africana Studies; Agricultural and Food Systems; American Studies; Animal Science; Anthropology; Anthropology, Evolutionary; Applied Sciences Engineering",
+      "retrieved_at": "2026-04-30T00:01:08.834733+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:05:24.330335+00:00",
+    "last_verified_at": "2026-04-30T00:01:08.834741+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.recommendations",
       "admissions.essays"
     ],
     "warnings": [
+      "Major titles extracted from official school source (10 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
-      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence."
+      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
+    ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors school match required.",
+      "source_summary": "No confident school match found on RateMyProfessors.",
+      "retrieved_at": "2026-04-29T04:42:39.711719+00:00",
+      "items": []
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, and ranked by pageviews. Major-specific and last-10-years filtering requires stronger school-specific alumni sources than this generic pipeline currently has.",
+      "retrieved_at": "2026-04-29T04:43:26.098956+00:00",
+      "target_count": 20,
+      "recent_window_years": 10,
+      "major_specific": false,
+      "items": []
+    },
+    "warnings": [
+      "Could not confidently match this school to a RateMyProfessors school record.",
+      "No Wikipedia alumni source page or category produced candidates.",
+      "Could not confidently match this school to a RateMyProfessors school record.",
+      "No Wikipedia alumni source page or category produced candidates."
     ]
   }
 }

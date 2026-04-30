@@ -15,18 +15,37 @@
     ],
     "majors": [
       "https://www.gwu.edu/academics",
-      "https://www.gwu.edu/majors"
+      "https://www.gwu.edu/majors",
+      "https://undergraduate.admissions.gwu.edu/first-year-applicants"
     ],
     "testing_policy": [],
     "general": [
       "https://www.gwu.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/353"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_George_Washington_University_alumni"
     ]
   },
   "majors": {
     "count": 100,
     "count_method": "explicit official page sentence",
-    "titles": [],
-    "notes": "explicit official page sentence",
+    "titles": [
+      "The included work should be your best and most recent work.",
+      "If possible, the work should be related to your area of interest.",
+      "standardized test scores",
+      "First Year Application Steps",
+      "International Application Steps",
+      "Special Interest Programs",
+      "Seven-Year B.A./M.D.",
+      "special interest program",
+      "Special Program webpage",
+      "bring credits to GW",
+      "Find your counselor"
+    ],
+    "notes": "explicit official page sentence; titles extracted from official page: https://undergraduate.admissions.gwu.edu/first-year-applicants",
     "confidence": "medium"
   },
   "admissions": {
@@ -82,10 +101,34 @@
       "source_url": "https://undergraduate.admissions.gwu.edu/first-year-applicants",
       "source_excerpt": "GW is test-optional, meaning students applying for first-year admission are not required to submit standardized test scores (SAT or ACT). GW requires SAT/ACT scores from the following groups:",
       "retrieved_at": "2026-04-20T03:48:33.020562+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 11 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://undergraduate.admissions.gwu.edu/first-year-applicants",
+      "source_excerpt": "The included work should be your best and most recent work.; If possible, the work should be related to your area of interest.; standardized test scores; First Year Application Steps; International Application Steps; Special Interest Programs; Seven-Year B.A./M.D.; special interest program; Special Program webpage; bring credits to GW; Find your counselor",
+      "retrieved_at": "2026-04-24T06:55:51.112680+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/353",
+      "source_excerpt": "Matched RateMyProfessors school 'George Washington University' (legacyId=353) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T07:31:20.500545+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 10 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_George_Washington_University_alumni",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T09:00:57.824492+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:48:33.020572+00:00",
+    "last_verified_at": "2026-04-25T09:00:57.824497+00:00",
     "confidence": "phase-5-manual-repair",
     "unknown_fields": [
       "admissions.course_rigor",
@@ -93,9 +136,178 @@
       "admissions.essays"
     ],
     "warnings": [
+      "Major titles extracted from official school source (11 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
-      "George Washington testing policy was manually repaired from the official first-year admissions page after the auto-crawl captured nondiscrimination boilerplate."
+      "George Washington testing policy was manually repaired from the official first-year admissions page after the auto-crawl captured nondiscrimination boilerplate.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'George Washington University' (legacyId=353) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T07:31:20.500533+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Mark Croatti",
+          "department": "Political Science",
+          "average_rating": 3.7,
+          "rating_count": 365,
+          "would_take_again_percent": 74,
+          "average_difficulty": 3.1,
+          "legacy_id": 173284,
+          "profile_url": "https://www.ratemyprofessors.com/professor/173284",
+          "source_url": "https://www.ratemyprofessors.com/school/353"
+        },
+        {
+          "rank": 2,
+          "name": "Irene Foster",
+          "department": "Economics",
+          "average_rating": 4.4,
+          "rating_count": 353,
+          "would_take_again_percent": 89.0,
+          "average_difficulty": 3.1,
+          "legacy_id": 1343454,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1343454",
+          "source_url": "https://www.ratemyprofessors.com/school/353"
+        },
+        {
+          "rank": 3,
+          "name": "Michael Moses",
+          "department": "Mathematics",
+          "average_rating": 3,
+          "rating_count": 334,
+          "would_take_again_percent": 39.1,
+          "average_difficulty": 3.5,
+          "legacy_id": 24699,
+          "profile_url": "https://www.ratemyprofessors.com/professor/24699",
+          "source_url": "https://www.ratemyprofessors.com/school/353"
+        },
+        {
+          "rank": 4,
+          "name": "Martin Zysmilich",
+          "department": "Chemistry",
+          "average_rating": 3.6,
+          "rating_count": 314,
+          "would_take_again_percent": 50.4,
+          "average_difficulty": 3.3,
+          "legacy_id": 111282,
+          "profile_url": "https://www.ratemyprofessors.com/professor/111282",
+          "source_url": "https://www.ratemyprofessors.com/school/353"
+        },
+        {
+          "rank": 5,
+          "name": "Daoud Meerzaman",
+          "department": "Biology",
+          "average_rating": 4.9,
+          "rating_count": 277,
+          "would_take_again_percent": 97.8,
+          "average_difficulty": 3,
+          "legacy_id": 683349,
+          "profile_url": "https://www.ratemyprofessors.com/professor/683349",
+          "source_url": "https://www.ratemyprofessors.com/school/353"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T09:00:57.824475+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Nate Morris",
+          "description": "American businessman (born 1980)",
+          "wikipedia_title": "Nate Morris",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Nate_Morris",
+          "recent_pageviews": 191213,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_George_Washington_University_alumni"
+        },
+        {
+          "rank": 2,
+          "name": "Irvin D. Yalom",
+          "description": "American existential psychiatrist (born 1931)",
+          "wikipedia_title": "Irvin D. Yalom",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Irvin_D._Yalom",
+          "recent_pageviews": 118802,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_George_Washington_University_alumni"
+        },
+        {
+          "rank": 3,
+          "name": "Scott Kirby",
+          "description": "American airline executive",
+          "wikipedia_title": "Scott Kirby",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Scott_Kirby",
+          "recent_pageviews": 95442,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_George_Washington_University_alumni"
+        },
+        {
+          "rank": 4,
+          "name": "Darla Moore",
+          "description": "American investor and philanthropist (born 1954)",
+          "wikipedia_title": "Darla Moore",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Darla_Moore",
+          "recent_pageviews": 67260,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_George_Washington_University_alumni"
+        },
+        {
+          "rank": 5,
+          "name": "Peter Schweizer",
+          "description": "American writer",
+          "wikipedia_title": "Peter Schweizer",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Peter_Schweizer",
+          "recent_pageviews": 59264,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_George_Washington_University_alumni"
+        },
+        {
+          "rank": 6,
+          "name": "Anousheh Ansari",
+          "description": "Iranian-American engineer and space tourist (born 1966)",
+          "wikipedia_title": "Anousheh Ansari",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Anousheh_Ansari",
+          "recent_pageviews": 44460,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_George_Washington_University_alumni"
+        },
+        {
+          "rank": 7,
+          "name": "Henry Cisneros",
+          "description": "American politician and businessman (born 1947)",
+          "wikipedia_title": "Henry Cisneros",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Henry_Cisneros",
+          "recent_pageviews": 42673,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_George_Washington_University_alumni"
+        },
+        {
+          "rank": 8,
+          "name": "Patricia Roberts Harris",
+          "description": "American politician and diplomat",
+          "wikipedia_title": "Patricia Roberts Harris",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Patricia_Roberts_Harris",
+          "recent_pageviews": 28670,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_George_Washington_University_alumni"
+        },
+        {
+          "rank": 9,
+          "name": "Lester del Rey",
+          "description": "American science fiction author (1915\u20131993)",
+          "wikipedia_title": "Lester del Rey",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Lester_del_Rey",
+          "recent_pageviews": 28663,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_George_Washington_University_alumni"
+        },
+        {
+          "rank": 10,
+          "name": "Yasseen Mansour",
+          "description": "Egyptian businessman",
+          "wikipedia_title": "Yasseen Mansour",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Yasseen_Mansour",
+          "recent_pageviews": 21052,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_George_Washington_University_alumni"
+        }
+      ]
+    },
+    "warnings": []
   }
 }

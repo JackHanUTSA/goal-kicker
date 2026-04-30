@@ -19,18 +19,212 @@ status: phase-5-auto-enriched
 ### Majors
 - https://illinois.edu/academics/
 - https://illinois.edu/majors
+- https://myillini.illinois.edu/Programs
 
-## Structured extraction
-- Majors count: 0
-- Count method: auto-enrichment could not derive a reliable major/program count from the pages reached in this pass
-- Testing policy: Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.
-- GPA policy: No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.
-- Course rigor: unknown
-- Recommendations: unknown
-- Essays: unknown
+## Majors
+- Count: 193
+- Count method: counted extracted undergraduate-major titles from an official page
+- Titles extracted: 193
+
+### Titles
+- Compare
+- Accountancy
+- Accountancy + Data Science
+- ACES Undeclared
+- Acting
+- Actuarial Science
+- Advertising
+- Aerospace Engineering
+- African American Studies
+- Agri-Accounting
+- Agricultural and Biological Engineering (ACES)
+- Agricultural and Biological Engineering (ENG)
+- Agricultural and Consumer Economics
+- Agricultural Communications
+- Agricultural Education
+- Agricultural Leadership, Education, and Communications
+- Agronomy
+- Animal Sciences
+- Anthropology
+- Architectural Studies
+- Art and Art History
+- Art Education (K-12)
+- Art History
+- Art Undeclared
+- Arts and Entertainment Technology
+- Asian American Studies
+- Astronomy
+- Astronomy + Data Science
+- Astrophysics
+- Atmospheric Sciences
+- Biochemistry
+- Bioengineering
+- Biology
+- Brain and Cognitive Science
+- Business + Data Science
+- Business Undeclared
+- Chemical Engineering
+- Chemical Engineering + Data Science
+- Chemistry
+- Civil Engineering
+- Classics
+- Communication
+- Community Health
+- Comparative and World Literature
+- Computer Engineering
+- Computer Science
+- Computer Science and Advertising
+- Computer Science and Animal Sciences
+- Computer Science and Anthropology
+- Computer Science and Astronomy
+- Computer Science and Bioengineering
+- Computer Science and Chemistry
+- Computer Science and Crop Sciences
+- Computer Science and Economics
+- Computer Science and Education, Learning Sciences
+- Computer Science and Education, Secondary Education (Grades 5-12)
+- Computer Science and Geography & Geographic Information Science
+- Computer Science and Linguistics
+- Computer Science and Music
+- Computer Science and Philosophy
+- Computer Science and Physics
+- Consumer Economics & Finance
+- Costume Design and Technology
+- Creative Writing
+- Crop Sciences
+- Dance
+- Dance, BA and Kinesiology, BS (Dual Degree Program)
+- Dietetics and Nutrition
+- Early Childhood Education (Birth-Grade 2)
+- Earth, Society, and Environmental Sustainability
+- East Asian Languages and Cultures
+- Econometrics and Quantitative Economics
+- Economics
+- Electrical Engineering
+- Elementary Education (Grades 1-6)
+- Engineering Mechanics
+- Engineering Undeclared
+- English
+- Environmental Economics & Policy
+- Environmental Engineering
+- Finance
+- Finance + Data Science
+- Finance in Agri-Business
+- Financial Planning
+- Food Science
+- French
+- Gender and Women's Studies
+- Geography and Geographic Information Science
+- Geology
+- Germanic Studies
+- Global Studies
+- Graphic Design
+- Health Sciences, Interdisciplinary
+- History
+- Human Development and Family Studies
+- Industrial Design
+- Industrial Engineering
+- Information Sciences
+- Information Sciences + Data Science
+- Information Systems
+- Integrative Biology
+- Interdisciplinary Studies
+- Italian
+- Journalism
+- Kinesiology
+- Landscape Architecture
+- LAS Undeclared
+- Latin American Studies
+- Latina/Latino Studies
+- Learning and Education Studies
+- Liberal Studies (Online)
+- Lighting Design and Technology
+- Linguistics
+- Linguistics and Teaching English as a Second Language
+- Lyric Theatre
+- Management
+- Marketing
+- Materials Science and Engineering
+- Materials Science and Engineering + Data Science
+- Mathematics
+- Mathematics and Computer Science
+- Mechanical Engineering
+- Media (Online)
+- Media and Cinema Studies
+- Middle Grades Education (Grades 5-8)
+- Molecular and Cellular Biology
+- Molecular and Cellular Biology + Data Science
+- Music
+- Music Composition
+- Music Education (K-12)
+- Music Instrumental Performance
+- Music Jazz Performance
+- Music Open Studies
+- Music Voice Performance
+- Musicology
+- Natural Resources and Environmental Sciences
+- Neural Engineering
+- Neuroscience
+- Nuclear, Plasma, and Radiological Engineering
+- Nuclear, Plasma, and Radiological Engineering + Data Science
+- Nutrition and Health
+- Organizational and Community Leadership
+- Philosophy
+- Physics
+- Plant Biotechnology
+- Policy, International Trade & Development
+- Political Science
+- Portuguese
+- Psychology
+- Public Policy & Law
+- Recreation, Sport and Tourism
+- Religion
+- Russian, East European, and Eurasian Studies
+- Scenic Design
+- Scenic Technology
+- Secondary Education
+- Secondary Education: Chemistry
+- Secondary Education: Earth Science
+- Secondary Education: English
+- Secondary Education: Physics
+- Secondary Education: Social Studies
+- Slavic Studies
+- Social Work
+- Sociology
+- Sound Design and Technology
+- Spanish
+- Special Education
+- Speech and Hearing Science
+- Sports Media
+- Statistics
+- Statistics and Computer Science
+- Strategy, Innovation and Entrepreneurship
+- Studio Art
+- Sustainability in Food & Environmental Systems
+- Sustainable Design
+- Systems Engineering and Design
+- Teacher Education: French (K-12)
+- Teacher Education: German (K-12)
+- Teacher Education: Kinesiology - Physical Education (K-12)
+- Teacher Education: Spanish (K-12)
+- Theatre Studies
+- Undeclared
+- Urban Studies and Planning
+- Dentistry
+- Medicine
+- Nursing
+- Occupational Therapy
+- Optometry
+- Pharmacy
+- Physical Therapy
+- Physician Assistant
+- Veterinary Medicine
+- Reserve Officer’s Training Corps (ROTC)
 
 ## Warnings
+- Major titles extracted from official school source (193 titles).
 - Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.
 - GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.
 - Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.
 - Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page.
+- School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data.

@@ -19,6 +19,12 @@
     "testing_policy": [],
     "general": [
       "https://www.tulane.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/1041"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_Tulane_University_people"
     ]
   },
   "majors": {
@@ -73,20 +79,205 @@
       "source_url": "https://admission.tulane.edu/",
       "source_excerpt": "Our interdisciplinary core curriculum helps you explore the humanities, fine arts, social sciences and sciences. You\u2019ll also participate in TIDES (Tulane Interdisciplinary Experience Seminar) during your first year, offering an academic lens on your new home, New Orleans.",
       "retrieved_at": "2026-04-20T03:04:56.722666+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/1041",
+      "source_excerpt": "Matched RateMyProfessors school 'Tulane University' (legacyId=1041) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T03:24:32.257559+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 10 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_Tulane_University_people",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T04:24:48.127161+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:04:56.722671+00:00",
+    "last_verified_at": "2026-04-30T00:34:29.459577+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.recommendations",
       "admissions.essays"
     ],
     "warnings": [
+      "Major titles still need manual follow-up; no reliable official title list was extracted in this pass.",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
       "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",
-      "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page."
+      "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'Tulane University' (legacyId=1041) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-25T03:24:32.257548+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Meenakshi Vijayaragh",
+          "department": "Biology",
+          "average_rating": 3.5,
+          "rating_count": 447,
+          "would_take_again_percent": 58.0,
+          "average_difficulty": 4.2,
+          "legacy_id": 798447,
+          "profile_url": "https://www.ratemyprofessors.com/professor/798447",
+          "source_url": "https://www.ratemyprofessors.com/school/1041"
+        },
+        {
+          "rank": 2,
+          "name": "Toni Weiss",
+          "department": "Economics",
+          "average_rating": 3.7,
+          "rating_count": 313,
+          "would_take_again_percent": 57.5,
+          "average_difficulty": 3.8,
+          "legacy_id": 553962,
+          "profile_url": "https://www.ratemyprofessors.com/professor/553962",
+          "source_url": "https://www.ratemyprofessors.com/school/1041"
+        },
+        {
+          "rank": 3,
+          "name": "Bethany Rollins",
+          "department": "Psychology",
+          "average_rating": 3.6,
+          "rating_count": 263,
+          "would_take_again_percent": 55.7,
+          "average_difficulty": 3,
+          "legacy_id": 1052714,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1052714",
+          "source_url": "https://www.ratemyprofessors.com/school/1041"
+        },
+        {
+          "rank": 4,
+          "name": "Courtney Lopreore",
+          "department": "Chemistry",
+          "average_rating": 3.3,
+          "rating_count": 238,
+          "would_take_again_percent": 73.0,
+          "average_difficulty": 3.5,
+          "legacy_id": 1615691,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1615691",
+          "source_url": "https://www.ratemyprofessors.com/school/1041"
+        },
+        {
+          "rank": 5,
+          "name": "Sherif Ebrahim",
+          "department": "Management",
+          "average_rating": 4.9,
+          "rating_count": 195,
+          "would_take_again_percent": 97.4,
+          "average_difficulty": 4,
+          "legacy_id": 1488992,
+          "profile_url": "https://www.ratemyprofessors.com/professor/1488992",
+          "source_url": "https://www.ratemyprofessors.com/school/1041"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-25T04:24:48.127148+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Jerry Springer",
+          "description": "American TV personality and politician (1944\u20132023)",
+          "wikipedia_title": "Jerry Springer",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Jerry_Springer",
+          "recent_pageviews": 842470,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Tulane_University_people"
+        },
+        {
+          "rank": 2,
+          "name": "Shannon Lee",
+          "description": "American actress (born 1969)",
+          "wikipedia_title": "Shannon Lee",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Shannon_Lee",
+          "recent_pageviews": 654250,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Tulane_University_people"
+        },
+        {
+          "rank": 3,
+          "name": "Newt Gingrich",
+          "description": "American politician (born 1943)",
+          "wikipedia_title": "Newt Gingrich",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Newt_Gingrich",
+          "recent_pageviews": 596144,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Tulane_University_people"
+        },
+        {
+          "rank": 4,
+          "name": "Paul Michael Glaser",
+          "description": "American actor and director (born 1943)",
+          "wikipedia_title": "Paul Michael Glaser",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Paul_Michael_Glaser",
+          "recent_pageviews": 460019,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Tulane_University_people"
+        },
+        {
+          "rank": 5,
+          "name": "Bruce Paltrow",
+          "description": "American director and producer (1943\u20132002)",
+          "wikipedia_title": "Bruce Paltrow",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Bruce_Paltrow",
+          "recent_pageviews": 409720,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Tulane_University_people"
+        },
+        {
+          "rank": 6,
+          "name": "Karen Grassle",
+          "description": "American actress (born 1942)",
+          "wikipedia_title": "Karen Grassle",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Karen_Grassle",
+          "recent_pageviews": 359772,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Tulane_University_people"
+        },
+        {
+          "rank": 7,
+          "name": "Lauren Hutton",
+          "description": "American model and actress (born 1943)",
+          "wikipedia_title": "Lauren Hutton",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Lauren_Hutton",
+          "recent_pageviews": 344029,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Tulane_University_people"
+        },
+        {
+          "rank": 8,
+          "name": "Andrew Breitbart",
+          "description": "American journalist (1969\u20132012)",
+          "wikipedia_title": "Andrew Breitbart",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Andrew_Breitbart",
+          "recent_pageviews": 339135,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Tulane_University_people"
+        },
+        {
+          "rank": 9,
+          "name": "Rick Hurst",
+          "description": "American actor (1946\u20132025)",
+          "wikipedia_title": "Rick Hurst",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Rick_Hurst",
+          "recent_pageviews": 312595,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Tulane_University_people"
+        },
+        {
+          "rank": 10,
+          "name": "Anthony Jeselnik",
+          "description": "American actor and stand-up comedian (born 1978)",
+          "wikipedia_title": "Anthony Jeselnik",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Anthony_Jeselnik",
+          "recent_pageviews": 281584,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Tulane_University_people"
+        }
+      ]
+    },
+    "warnings": []
   }
 }

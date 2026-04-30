@@ -13,18 +13,116 @@
     "majors": [
       "https://www.buffalo.edu/academic-programs.html",
       "https://www.buffalo.edu/home/academics.html",
-      "https://www.buffalo.edu/majors.html"
+      "https://www.buffalo.edu/majors.html",
+      "https://www.buffalo.edu/grad/explore/about/programs.html"
     ],
     "testing_policy": [],
     "general": [
       "https://www.buffalo.edu"
+    ],
+    "professors": [
+      "https://www.ratemyprofessors.com/school/960"
+    ],
+    "alumni": [
+      "https://en.wikipedia.org/wiki/List_of_University_at_Buffalo_people"
     ]
   },
   "majors": {
     "count": 350,
     "count_method": "explicit official page sentence",
-    "titles": [],
-    "notes": "explicit official page sentence",
+    "titles": [
+      "2/2/26 Anthropology BA/MA",
+      "2/2/26 Biological Sciences BA/MS",
+      "3/21/25 Biomedical Engineering BS/MBA",
+      "8/4/25 Business Administration BS/MBA",
+      "6/2/25 Econometrics and Quantitative Economics BA/MS",
+      "3/21/25 Economics BA/MA",
+      "3/21/25 Electrical Engineering BS/Business Administration MBA",
+      "3/21/25 English BA/MA",
+      "3/21/25 Exercise Science BS/DPT",
+      "3/21/25 Exercise Science BS/MS",
+      "3/21/25 Global Affairs BA/MA",
+      "9/22/25 Industrial Engineering BS/Business Administration MBA",
+      "3/21/25 Mechanical Engineering BS/Business Administration MBA",
+      "9/26/25 Media Study",
+      "3/21/25 Medicinal Chemistry BS/MS",
+      "3/21/25 Neuroscience BS/MS",
+      "3/21/25 Pharmaceutical Sciences BS/MS",
+      "3/21/25 Pharmacology and Toxicology BS/MS",
+      "3/21/25 Political Science BA/MA",
+      "2/18/26 Public Health BS/MPH",
+      "11/17/25 Studio Art",
+      "8/18/25 Adult/Gerontology Nurse Practitioner (Post-MS) DNP",
+      "8/18/25 Adult/Gerontology Nurse Practitioner DNP",
+      "8/18/25 Affordable Housing",
+      "8/18/25 Biology Education: Adolescence EDM",
+      "8/18/25 Business Administration (Full Time) MBA",
+      "4/6/26 Chemical Engineering ME",
+      "8/18/25 Chemistry Education: Adolescence EdM",
+      "8/18/25 Child Health Nurse Practitioner (Post-MS) DNP",
+      "8/18/25 Childhood Education (Grades 1-6) EdM",
+      "8/18/25 Childhood Education With Bilingual Extension (Grades 1-6) EdM",
+      "3/20/26 Communicative Disorders and Sciences AuD",
+      "8/18/25 Computer Science Education EdM",
+      "8/18/25 Dance MFA",
+      "4/6/26 Data Sciences and Applications MPS",
+      "4/15/26 Dentistry DDS",
+      "8/18/25 Early Childhood Education (Birth to Grade 2) EdM",
+      "8/18/25 Early Childhood Education With Bilingual Extension (Birth to Grade 2) EdM",
+      "8/18/25 Early Childhood/Childhood Education (Birth to Grade 6) EdM",
+      "8/18/25 Earth Science Education: Adolescence EdM",
+      "8/18/25 Education Studies EdM",
+      "8/18/25 Educational Culture, Policy and Society EdM",
+      "4/6/26 Electrical Engineering ME",
+      "8/18/25 English Education Studies EdM",
+      "8/18/25 English Education: Adolescence EdM",
+      "8/18/25 English for Speakers of Other Languages EdM",
+      "8/18/25 Family Nurse Practitioner (Post-MS) DNP",
+      "8/18/25 Family Nurse Practitioner DNP",
+      "8/18/25 Fine Arts MFA",
+      "8/18/25 French Education: Adolescence EdM",
+      "4/28/26 Higher Education Administration EdM",
+      "8/18/25 Higher Education and Student Affairs EdM",
+      "4/15/26 International Dentist Program DDS",
+      "8/18/25 Latin Education: Adolescence EdM",
+      "4/9/26 Learning Sciences and Educational Technology EdM",
+      "8/18/25 Literacy Education Studies EdM",
+      "8/18/25 Literacy Specialist EdM",
+      "8/18/25 Media Arts Production MFA",
+      "8/18/25 Music Education Studies EDM",
+      "8/18/25 Music Education, Initial/Professional EdM",
+      "8/18/25 Music Performance MM",
+      "8/18/25 Nurse Anesthesia (Post-MS) DNP",
+      "8/18/25 Nurse Anesthesia DNP",
+      "8/18/25 Online Professional Business Administration MBA",
+      "8/18/25 Physical Therapy DPT",
+      "8/18/25 Physics Education: Adolescence EdM",
+      "8/18/25 Psychiatric/Mental Health Nurse Practitioner (Post-MS) DNP",
+      "8/18/25 Psychiatric/Mental Health Nurse Practitioner DNP",
+      "3/16/26 Public Health: Addictions MPH (In Person or Hybrid)",
+      "3/16/26 Public Health: Addictions MPH (Online)",
+      "3/16/26 Public Health: Biostatistics MPH (In Person or Hybrid)",
+      "3/16/26 Public Health: Environmental Health MPH (In Person or Hybrid)",
+      "3/16/26 Public Health: Epidemiology MPH (In Person or Hybrid)",
+      "3/16/26 Public Health: Epidemiology MPH (Online)",
+      "3/16/26 Public Health: Health Equity MPH (In Person or Hybrid)",
+      "3/16/26 Public Health: Health Equity MPH (Online)",
+      "3/16/26 Public Health: Health Services Administration MPH (In Person or Hybrid)",
+      "3/16/26 Public Health: Health Services Administration MPH (Online)",
+      "3/16/26 Public Health: Individualized MPH (In Person or Hybrid)",
+      "3/16/26 Public Health: Individualized MPH (Online)",
+      "8/18/25 Qualitative Methodology AC",
+      "8/18/25 School Counseling EdM",
+      "8/18/25 Social Studies Education: Adolescence EdM",
+      "8/18/25 Social Welfare Online DSW",
+      "8/18/25 Social Work MBA/MSW",
+      "8/18/25 Social Work MPH/MSW",
+      "8/18/25 Spanish Education: Adolescence EdM",
+      "8/18/25 Teaching English to Speakers of Other Languages EdM",
+      "8/18/25 Urban Planning MUP",
+      "8/18/25 Women's Health Nurse Practitioner (Post-MS) DNP"
+    ],
+    "notes": "explicit official page sentence; titles extracted from official page: https://www.buffalo.edu/grad/explore/about/programs.html",
     "confidence": "medium"
   },
   "admissions": {
@@ -72,10 +170,34 @@
       "source_url": "https://www.buffalo.edu/admissions.html",
       "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
       "retrieved_at": "2026-04-20T03:10:03.799934+00:00"
+    },
+    {
+      "field": "school_people.popular_professors",
+      "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
+      "classification": "reported_profile",
+      "source_url": "https://www.ratemyprofessors.com/school/960",
+      "source_excerpt": "Matched RateMyProfessors school 'University at Buffalo (SUNY Buffalo)' (legacyId=960) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-24T08:00:06.270130+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Ranked top 10 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
+      "classification": "reported_profile",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_University_at_Buffalo_people",
+      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-24T08:00:43.188786+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 90 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://www.buffalo.edu/grad/explore/about/programs.html",
+      "source_excerpt": "2/2/26 Anthropology BA/MA; 2/2/26 Biological Sciences BA/MS; 3/21/25 Biomedical Engineering BS/MBA; 8/4/25 Business Administration BS/MBA; 6/2/25 Econometrics and Quantitative Economics BA/MS; 3/21/25 Economics BA/MA; 3/21/25 Electrical Engineering BS/Business Administration MBA; 3/21/25 English BA/MA; 3/21/25 Exercise Science BS/DPT; 3/21/25 Exercise Science BS/MS; 3/21/25 Global Affairs BA/MA; 9/22/25 Industrial Engineering BS/Business Administration MBA",
+      "retrieved_at": "2026-04-30T00:51:57.203344+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-20T03:10:03.799939+00:00",
+    "last_verified_at": "2026-04-30T00:51:57.203353+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.course_rigor",
@@ -83,9 +205,178 @@
       "admissions.essays"
     ],
     "warnings": [
+      "Major titles extracted from official school source (90 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
-      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence."
+      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
+  },
+  "school_people": {
+    "popular_professors": {
+      "ranking_basis": "RateMyProfessors entries sorted by rating_count desc, then average_rating desc, then would_take_again_percent desc.",
+      "source_summary": "Matched RateMyProfessors school 'University at Buffalo (SUNY Buffalo)' (legacyId=960) and ranked all professors with at least one rating.",
+      "retrieved_at": "2026-04-24T08:00:06.270114+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Robert Busch",
+          "department": "Mathematics",
+          "average_rating": 4.3,
+          "rating_count": 463,
+          "would_take_again_percent": 64.6,
+          "average_difficulty": 2.6,
+          "legacy_id": 92279,
+          "profile_url": "https://www.ratemyprofessors.com/professor/92279",
+          "source_url": "https://www.ratemyprofessors.com/school/960"
+        },
+        {
+          "rank": 2,
+          "name": "Shahid Ahmad",
+          "department": "Engineering",
+          "average_rating": 3.7,
+          "rating_count": 437,
+          "would_take_again_percent": 58.9,
+          "average_difficulty": 3.7,
+          "legacy_id": 17348,
+          "profile_url": "https://www.ratemyprofessors.com/professor/17348",
+          "source_url": "https://www.ratemyprofessors.com/school/960"
+        },
+        {
+          "rank": 3,
+          "name": "Dietrich Kuhlmann",
+          "department": "Mathematics",
+          "average_rating": 3.8,
+          "rating_count": 361,
+          "would_take_again_percent": 61.0,
+          "average_difficulty": 2.6,
+          "legacy_id": 804382,
+          "profile_url": "https://www.ratemyprofessors.com/professor/804382",
+          "source_url": "https://www.ratemyprofessors.com/school/960"
+        },
+        {
+          "rank": 4,
+          "name": "Timothy Boyd",
+          "department": "Classics",
+          "average_rating": 4.7,
+          "rating_count": 322,
+          "would_take_again_percent": 93.9,
+          "average_difficulty": 1.5,
+          "legacy_id": 162095,
+          "profile_url": "https://www.ratemyprofessors.com/professor/162095",
+          "source_url": "https://www.ratemyprofessors.com/school/960"
+        },
+        {
+          "rank": 5,
+          "name": "David Gray",
+          "department": "Philosophy",
+          "average_rating": 4.9,
+          "rating_count": 306,
+          "would_take_again_percent": 98.4,
+          "average_difficulty": 2.3,
+          "legacy_id": 2649008,
+          "profile_url": "https://www.ratemyprofessors.com/professor/2649008",
+          "source_url": "https://www.ratemyprofessors.com/school/960"
+        }
+      ]
+    },
+    "successful_alumni": {
+      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
+      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
+      "retrieved_at": "2026-04-24T08:00:43.188771+00:00",
+      "items": [
+        {
+          "rank": 1,
+          "name": "Jeanine Pirro",
+          "description": "American television host, author and attorney (born 1951)",
+          "wikipedia_title": "Jeanine Pirro",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Jeanine_Pirro",
+          "recent_pageviews": 1518776,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_at_Buffalo_people"
+        },
+        {
+          "rank": 2,
+          "name": "Gregory Jarvis",
+          "description": "American engineer and astronaut (1944\u20131986)",
+          "wikipedia_title": "Gregory Jarvis",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Gregory_Jarvis",
+          "recent_pageviews": 169826,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_at_Buffalo_people"
+        },
+        {
+          "rank": 3,
+          "name": "William J. Hochul Jr.",
+          "description": "American attorney (born 1959)",
+          "wikipedia_title": "William J. Hochul Jr.",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/William_J._Hochul_Jr.",
+          "recent_pageviews": 101731,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_at_Buffalo_people"
+        },
+        {
+          "rank": 4,
+          "name": "Palanivel Thiaga Rajan",
+          "description": "Indian politician (born 1966)",
+          "wikipedia_title": "Palanivel Thiaga Rajan",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Palanivel_Thiaga_Rajan",
+          "recent_pageviews": 48903,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_at_Buffalo_people"
+        },
+        {
+          "rank": 5,
+          "name": "Michael Caputo",
+          "description": "Republican political strategist and lobbyist (born 1962)",
+          "wikipedia_title": "Michael Caputo",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Caputo",
+          "recent_pageviews": 23325,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_at_Buffalo_people"
+        },
+        {
+          "rank": 6,
+          "name": "Paul L. Friedman",
+          "description": "American judge (born 1944)",
+          "wikipedia_title": "Paul L. Friedman",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Paul_L._Friedman",
+          "recent_pageviews": 22923,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_at_Buffalo_people"
+        },
+        {
+          "rank": 7,
+          "name": "Dave Weldon",
+          "description": "American politician and physician (born 1953)",
+          "wikipedia_title": "Dave Weldon",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Dave_Weldon",
+          "recent_pageviews": 18073,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_at_Buffalo_people"
+        },
+        {
+          "rank": 8,
+          "name": "Jeffrey White",
+          "description": "American judge (born 1945)",
+          "wikipedia_title": "Jeffrey White",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Jeffrey_White",
+          "recent_pageviews": 11289,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_at_Buffalo_people"
+        },
+        {
+          "rank": 9,
+          "name": "Karin Housley",
+          "description": "American politician",
+          "wikipedia_title": "Karin Housley",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Karin_Housley",
+          "recent_pageviews": 8903,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_at_Buffalo_people"
+        },
+        {
+          "rank": 10,
+          "name": "Ellen S. Baker",
+          "description": "American physician and astronaut (born 1953)",
+          "wikipedia_title": "Ellen S. Baker",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Ellen_S._Baker",
+          "recent_pageviews": 8679,
+          "source_url": "https://en.wikipedia.org/wiki/List_of_University_at_Buffalo_people"
+        }
+      ]
+    },
+    "warnings": []
   }
 }
