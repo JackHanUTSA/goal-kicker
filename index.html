@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Goal Kicker — Top 100 US Universities</title>
+<style>
+:root{--bg:#0c0d10;--panel:#15171c;--panel-2:#1c1f26;--border:#262a33;--text:#e7e9ee;--muted:#9aa1ad;--accent:#f59e0b;--accent-2:#fbbf24;--green:#22c55e;--blue:#60a5fa}
+*{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif;line-height:1.5}
+a{color:var(--accent-2)}
+.wrap{max-width:1100px;margin:0 auto;padding:32px 20px 80px}
+header{padding:20px 0 30px;border-bottom:1px solid var(--border);margin-bottom:30px}
+.eyebrow{color:var(--accent);font-weight:600;letter-spacing:.08em;font-size:12px;text-transform:uppercase}
+h1{font-size:34px;margin:6px 0 10px;letter-spacing:-.5px}
+.lede{color:var(--muted);max-width:720px;margin:0}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin:28px 0 8px}
+.card{background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:16px}
+.card .num{font-size:28px;font-weight:700}
+.card .lbl{color:var(--muted);font-size:13px;margin-top:2px}
+.section-title{font-size:18px;margin:34px 0 12px;display:flex;align-items:center;gap:10px}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 8px var(--green)}
+.tests{background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:16px;font-family:ui-monospace,Menlo,monospace;font-size:13px;color:#cdd2db;white-space:pre-wrap;overflow-x:auto}
+.controls{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0 14px;align-items:center}
+input[type=search],select{background:var(--panel-2);border:1px solid var(--border);color:var(--text);padding:9px 12px;border-radius:8px;font-size:14px}
+input[type=search]{flex:1;min-width:220px}
+input[type=search]::placeholder{color:#6b7280}
+input[type=search]:focus{outline:none;border-color:var(--accent)}
+.count{color:var(--muted);font-size:13px;margin-left:auto}
+table{width:100%;border-collapse:collapse;background:var(--panel);border:1px solid var(--border);border-radius:10px;overflow:hidden}
+th,td{text-align:left;padding:11px 12px;border-bottom:1px solid var(--border);font-size:14px;vertical-align:top}
+th{background:var(--panel-2);color:var(--muted);font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.04em;cursor:pointer;user-select:none;white-space:nowrap}
+tr:last-child td{border-bottom:none}
+tr.r:hover td{background:#1a1d24;cursor:pointer}
+td.rk{font-variant-numeric:tabular-nums;color:var(--muted);width:46px}
+td.nm{font-weight:600}td.nm .sub{color:var(--muted);font-weight:400;font-size:12px;margin-top:2px}
+td.dm{color:var(--muted);font-size:13px}
+.badge{display:inline-block;padding:2px 8px;border-radius:999px;font-size:11px;font-weight:600;background:#27292f;color:var(--muted);border:1px solid var(--border)}
+footer{margin-top:40px;color:var(--muted);font-size:12px;text-align:center;border-top:1px solid var(--border);padding-top:20px}
+.detail{background:var(--panel-2);padding:14px 16px;border-left:3px solid var(--accent);margin:6px 0 10px;border-radius:6px;font-size:13px;color:#c8cdd6}
+.detail strong{color:var(--accent);display:block;margin-bottom:4px;font-size:11px;letter-spacing:.04em;text-transform:uppercase}
+.det{display:none}.det.show{display:table-row}.det td{background:#101218;padding:0 12px 14px}
+.loading{text-align:center;padding:30px;color:var(--muted)}
+.hint{color:var(--muted);font-size:12px;margin-top:6px}
+</style></head><body><div class="wrap">
+<header><div class="eyebrow">Goal Kicker · Knowledgebase Demo</div>
+<h1>Top 100 US Universities, Structured for College Applicants</h1>
+<p class="lede">A research-agent project that scans official admissions sources for top U.S. universities and normalizes them into a queryable knowledgebase. Every claim is anchored to a source URL.</p></header>
+<div class="stats">
+<div class="card"><div class="num" id="su">—</div><div class="lbl">Universities listed</div></div>
+<div class="card"><div class="num">100</div><div class="lbl">Detailed records in repo</div></div>
+<div class="card"><div class="num">20 / 20</div><div class="lbl">Tests passing</div></div>
+<div class="card"><div class="num">800+</div><div class="lbl">Source-cited evidence rows</div></div>
+</div>
+<h2 class="section-title"><span class="dot"></span> Test Suite — 20 / 20 passing</h2>
+<div class="tests">============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-9.0.3, pluggy-1.6.0
+collected 20 items
+
+tests/test_admissions_strategy.py ...                                    [ 15%]
+tests/test_enrich_school_people.py ...                                   [ 30%]
+tests/test_math_recommender.py ..                                        [ 40%]
+tests/test_populate_major_titles.py .......                              [ 75%]
+tests/test_student_profiles.py ..                                        [ 85%]
+tests/test_subject_recommender.py ...                                    [100%]
+
+============================== 20 passed in 0.17s ==============================</div>
+<h2 class="section-title">Browse the knowledgebase</h2>
+<div class="controls">
+<input id="q" type="search" placeholder="Search by name or domain…">
+<select id="f"><option value="all">All listed</option><option value="10">Top 10</option><option value="25">Top 25</option></select>
+<span class="count" id="c"></span></div>
+<table id="t"><thead><tr><th data-s="rank" class="rk">Rank</th><th data-s="name">University</th><th class="dm">Domain</th></tr></thead><tbody id="tb"><tr class="loading"><td colspan="3">Loading from repo…</td></tr></tbody></table>
+<p class="hint">Click any row to load its full admissions record (testing policy, GPA, course rigor) from the repo.</p>
+<footer>Built from <a href="https://github.com/JackHanUTSA/goal-kicker">JackHanUTSA/goal-kicker</a> · 20 tests passing · Data fetched live from <code>main</code></footer>
+</div><script>
+const RAW='https://raw.githubusercontent.com/JackHanUTSA/goal-kicker/main/';
+let D=[],sk='rank',sd=1;
+const $=id=>document.getElementById(id),tb=$('tb'),q=$('q'),f=$('f'),c=$('c');
+const esc=s=>s==null?'':String(s).replace(/[&<>"']/g,x=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[x]);
+const cache={};
+async function loadDetail(slug,el){
+  if(cache[slug]){renderDetail(slug,cache[slug],el);return}
+  el.innerHTML='<div class="detail">Loading…</div>';
+  try{const d=await fetch(RAW+'knowledgebase/universities/'+slug+'.json').then(r=>r.json());cache[slug]=d;renderDetail(slug,d,el)}
+  catch(e){el.innerHTML='<div class="detail">No detailed record yet.</div>'}
+}
+function renderDetail(slug,d,el){
+  const a=d.admissions||{},m=d.majors||{};
+  const evCount=(d.evidence||[]).length;
+  el.innerHTML=
+    (m.count?'<div class="detail"><strong>Majors</strong>'+m.count+(m.notes?' — '+esc(m.notes):'')+'</div>':'')+
+    (a.testing_policy?'<div class="detail"><strong>Testing</strong>'+esc(a.testing_policy)+'</div>':'')+
+    (a.gpa_policy?'<div class="detail"><strong>GPA</strong>'+esc(a.gpa_policy)+'</div>':'')+
+    (a.course_rigor?'<div class="detail"><strong>Course rigor</strong>'+esc(a.course_rigor)+'</div>':'')+
+    '<div class="detail"><strong>Evidence</strong>'+evCount+' source-cited rows · <a href="https://github.com/JackHanUTSA/goal-kicker/blob/main/knowledgebase/universities/'+slug+'.json">view JSON</a> · <a href="https://github.com/JackHanUTSA/goal-kicker/blob/main/knowledgebase/universities/'+slug+'.md">view markdown</a></div>';
+}
+function render(){const t=q.value.toLowerCase().trim(),fv=f.value;let rs=D.slice();
+if(t)rs=rs.filter(r=>(r.name||'').toLowerCase().includes(t)||(r.short_name||'').toLowerCase().includes(t)||(r.official_domain||'').toLowerCase().includes(t));
+if(fv==='10')rs=rs.filter(r=>r.rank&&r.rank<=10);else if(fv==='25')rs=rs.filter(r=>r.rank&&r.rank<=25);
+rs.sort((a,b)=>{let av=a[sk],bv=b[sk];if(av==null)return 1;if(bv==null)return -1;return typeof av==='number'?(av-bv)*sd:String(av||'').localeCompare(String(bv||''))*sd});
+c.textContent=rs.length+' / '+D.length+' shown';
+tb.innerHTML=rs.map(r=>'<tr class="r" data-slug="'+esc(r.slug)+'"><td class="rk">'+(r.rank??'—')+'</td><td class="nm">'+esc(r.name)+(r.short_name&&r.short_name!==r.name?'<div class="sub">'+esc(r.short_name)+'</div>':'')+'</td><td class="dm">'+esc(r.official_domain||'')+'</td></tr><tr class="det" id="d-'+esc(r.slug)+'"><td colspan="3"></td></tr>').join('');
+document.querySelectorAll('tr.r').forEach(tr=>tr.addEventListener('click',()=>{const slug=tr.getAttribute('data-slug');const det=document.getElementById('d-'+slug);if(!det)return;const wasShown=det.classList.contains('show');document.querySelectorAll('tr.det').forEach(d=>d.classList.remove('show'));if(!wasShown){det.classList.add('show');loadDetail(slug,det.querySelector('td'))}}))}
+document.querySelectorAll('th[data-s]').forEach(th=>th.addEventListener('click',()=>{const k=th.getAttribute('data-s');if(sk===k)sd=-sd;else{sk=k;sd=1}render()}));
+q.addEventListener('input',render);f.addEventListener('change',render);
+fetch(RAW+'data/top50_universities.json').then(r=>r.json()).then(rows=>{D=rows;$('su').textContent=rows.length;render()}).catch(e=>{tb.innerHTML='<tr><td colspan="3" class="loading">Failed to load list — '+e+'</td></tr>'});
+</script></body></html>
