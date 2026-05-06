@@ -1,0 +1,465 @@
+{
+  "university": "Massachusetts Institute of Technology",
+  "slug": "mit",
+  "academic_year": "2025-2026",
+  "source_url": "https://registrar.mit.edu/stats-reports/majors-count",
+  "retrieved_at": "2026-05-06",
+  "notes": "Joint majors (codes ending in *) are counted as 1/2 in each department on the official page; here we keep one row per unique code with ate original primary/secondary/total values.",
+  "totals": {
+    "primary": 4561,
+    "secondary": 400,
+    "total_majors_declared": 4961,
+    "undesignated_sophomores": 10,
+    "first_year": 1155
+  },
+  "majors": [
+    {
+      "name": "Architecture",
+      "code": "IV",
+      "school": "Architecture and Planning",
+      "primary": 25,
+      "secondary": 0,
+      "total": 25
+    },
+    {
+      "name": "Architecture",
+      "code": "IV-B",
+      "school": "Architecture and Planning",
+      "primary": 13,
+      "secondary": 4,
+      "total": 17
+    },
+    {
+      "name": "Urban Studies and Planning",
+      "code": "XI",
+      "school": "Architecture and Planning",
+      "primary": 8,
+      "secondary": 7,
+      "total": 15
+    },
+    {
+      "name": "Urban Science and Planning with Computer Science",
+      "code": "XI-6",
+      "school": "Architecture and Planning",
+      "primary": 3.5,
+      "secondary": 0,
+      "total": 3.5
+    },
+    {
+      "name": "Aeronautics and Astronautics",
+      "code": "XVI",
+      "school": "Engineering",
+      "primary": 132,
+      "secondary": 0,
+      "total": 132
+    },
+    {
+      "name": "Aeronautics and Astronautics (M.Eng.)",
+      "code": "XVI-ENG",
+      "school": "Engineering",
+      "primary": 13,
+      "secondary": 0,
+      "total": 13
+    },
+    {
+      "name": "Biological Engineering",
+      "code": "XX",
+      "school": "Engineering",
+      "primary": 116,
+      "secondary": 1,
+      "total": 117
+    },
+    {
+      "name": "Chemical Engineering",
+      "code": "X",
+      "school": "Engineering",
+      "primary": 40,
+      "secondary": 0,
+      "total": 40
+    },
+    {
+      "name": "Chemical-Biological Engineering",
+      "code": "X-B",
+      "school": "Engineering",
+      "primary": 77,
+      "secondary": 0,
+      "total": 77
+    },
+    {
+      "name": "Chemical Engineering",
+      "code": "X-C",
+      "school": "Engineering",
+      "primary": 2,
+      "secondary": 1,
+      "total": 3
+    },
+    {
+      "name": "Chemical Engineering (M.Eng.)",
+      "code": "X-ENG",
+      "school": "Engineering",
+      "primary": 24,
+      "secondary": 0,
+      "total": 24
+    },
+    {
+      "name": "Climate System Science and Engineering",
+      "code": "I-12",
+      "school": "Engineering",
+      "primary": 3.5,
+      "secondary": 0,
+      "total": 3.5
+    },
+    {
+      "name": "Civil and Environmental Engineering (M.Eng.)",
+      "code": "I-ENG",
+      "school": "Engineering",
+      "primary": 29,
+      "secondary": 1,
+      "total": 30
+    },
+    {
+      "name": "Electrical Science and Engineering",
+      "code": "VI-1",
+      "school": "Engineering",
+      "primary": 41,
+      "secondary": 5,
+      "total": 46
+    },
+    {
+      "name": "Electrical Engineering and Computer Science",
+      "code": "VI-2",
+      "school": "Engineering",
+      "primary": 159,
+      "secondary": 12,
+      "total": 171
+    },
+    {
+      "name": "Computer Science and Engineering",
+      "code": "VI-3",
+      "school": "Engineering",
+      "primary": 626,
+      "secondary": 46,
+      "total": 672
+    },
+    {
+      "name": "Artificial Intelligence and Decision Making",
+      "code": "VI-4",
+      "school": "Engineering",
+      "primary": 328,
+      "secondary": 44,
+      "total": 372
+    },
+    {
+      "name": "Electrical Engineering with Computing",
+      "code": "VI-5",
+      "school": "Engineering",
+      "primary": 99,
+      "secondary": 0,
+      "total": 99
+    },
+    {
+      "name": "Computer Science and Molecular Biology",
+      "code": "VI-7",
+      "school": "Engineering",
+      "primary": 36,
+      "secondary": 1,
+      "total": 37
+    },
+    {
+      "name": "Computation and Cognition",
+      "code": "VI-9",
+      "school": "Engineering",
+      "primary": 45.5,
+      "secondary": 2.5,
+      "total": 48
+    },
+    {
+      "name": "Computer Science, Economics and Data Science",
+      "code": "VI-14",
+      "school": "Engineering",
+      "primary": 3,
+      "secondary": 39,
+      "total": 42
+    },
+    {
+      "name": "Electrical Engineering and Computer Science (M.Eng.)",
+      "code": "VI-2A",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Materials Science and Engineering",
+      "code": "III",
+      "school": "Engineering",
+      "primary": 44,
+      "secondary": 1,
+      "total": 45
+    },
+    {
+      "name": "Materials Science and Engineering",
+      "code": "III-A",
+      "school": "Engineering",
+      "primary": 17,
+      "secondary": 0,
+      "total": 17
+    },
+    {
+      "name": "Mechanical Engineering",
+      "code": "II",
+      "school": "Engineering",
+      "primary": 228,
+      "secondary": 2,
+      "total": 230
+    },
+    {
+      "name": "Mechanical Engineering (M.Eng.)",
+      "code": "II-A",
+      "school": "Engineering",
+      "primary": 197,
+      "secondary": 5,
+      "total": 202
+    },
+    {
+      "name": "Mechanical and Ocean Engineering",
+      "code": "II-OE",
+      "school": "Engineering",
+      "primary": 9,
+      "secondary": 0,
+      "total": 9
+    },
+    {
+      "name": "Nuclear Science and Engineering",
+      "code": "XXII",
+      "school": "Engineering",
+      "primary": 16,
+      "secondary": 1,
+      "total": 17
+    },
+    {
+      "name": "Nuclear Science and Engineering (M.Eng.)",
+      "code": "XXII-ENG",
+      "school": "Engineering",
+      "primary": 17,
+      "secondary": 2,
+      "total": 19
+    },
+    {
+      "name": "Economics",
+      "code": "XIV-1",
+      "school": "Humanities, Arts, and Social Sciences",
+      "primary": 10,
+      "secondary": 4,
+      "total": 14
+    },
+    {
+      "name": "Mathematical Economics",
+      "code": "XIV-2",
+      "school": "Humanities, Arts, and Social Sciences",
+      "primary": 10,
+      "secondary": 5,
+      "total": 15
+    },
+    {
+      "name": "Anthropology",
+      "code": "XXI-A",
+      "school": "Humanities, Arts, and Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Global Languages",
+      "code": "XXI-G",
+      "school": "Humanities, Arts, and Social Sciences",
+      "primary": 0,
+      "secondary": 1,
+      "total": 1
+    },
+    {
+      "name": "History",
+      "code": "XXI-H",
+      "school": "Humanities, Arts, and Social Sciences",
+      "primary": 1,
+      "secondary": 1,
+      "total": 2
+    },
+    {
+      "name": "Literature",
+      "code": "XXI-L",
+      "school": "Humanities, Arts, and Social Sciences",
+      "primary": 1,
+      "secondary": 2,
+      "total": 3
+    },
+    {
+      "name": "Music",
+      "code": "XXI-M",
+      "school": "Humanities, Arts, and Social Sciences",
+      "primary": 4,
+      "secondary": 1,
+      "total": 5
+    },
+    {
+      "name": "Theater Arts",
+      "code": "XXI-T",
+      "school": "Humanities, Arts, and Social Sciences",
+      "primary": 2,
+      "secondary": 1,
+      "total": 3
+    },
+    {
+      "name": "Writing and Humanistic Studies",
+      "code": "XXI-W",
+      "school": "Humanities, Arts, and Social Sciences",
+      "primary": 1,
+      "secondary": 2,
+      "total": 3
+    },
+    {
+      "name": "Humanities",
+      "code": "XXI",
+      "school": "Humanities, Arts, and Social Sciences",
+      "primary": 2,
+      "secondary": 0,
+      "total": 2
+    },
+    {
+      "name": "Humanities and Engineering",
+      "code": "XXI-E",
+      "school": "Humanities, Arts, and Social Sciences",
+      "primary": 9,
+      "secondary": 1,
+      "total": 10
+    },
+    {
+      "name": "Humanities and Science",
+      "code": "XXI-S",
+      "school": "Humanities, Arts, and Social Sciences",
+      "primary": 5,
+      "secondary": 0,
+      "total": 5
+    },
+    {
+      "name": "Linguistics and Philosophy",
+      "code": "XXIV",
+      "school": "Humanities, Arts, and Social Sciences",
+      "primary": 6,
+      "secondary": 2,
+      "total": 8
+    },
+    {
+      "name": "Philosophy",
+      "code": "XXIV-1",
+      "school": "Humanities, Arts, and Social Sciences",
+      "primary": 1,
+      "secondary": 2,
+      "total": 3
+    },
+    {
+      "name": "Political Science",
+      "code": "XVII",
+      "school": "Humanities, Arts, and Social Sciences",
+      "primary": 10,
+      "secondary": 4,
+      "total": 14
+    },
+    {
+      "name": "Comparative Media Studies",
+      "code": "XXI-CMS",
+      "school": "Humanities, Arts, and Social Sciences",
+      "primary": 2,
+      "secondary": 3,
+      "total": 5
+    },
+    {
+      "name": "Management",
+      "code": "XV-1",
+      "school": "Sloan School of Management",
+      "primary": 16,
+      "secondary": 13,
+      "total": 29
+    },
+    {
+      "name": "Business Analytics",
+      "code": "XV-2",
+      "school": "Sloan School of Management",
+      "primary": 26,
+      "secondary": 15,
+      "total": 41
+    },
+    {
+      "name": "Finance",
+      "code": "XV-3",
+      "school": "Sloan School of Management",
+      "primary": 94,
+      "secondary": 8,
+      "total": 102
+    },
+    {
+      "name": "Biology",
+      "code": "VII",
+      "school": "Science",
+      "primary": 36,
+      "secondary": 7,
+      "total": 43
+    },
+    {
+      "name": "Chemistry and Biology",
+      "code": "V-7",
+      "school": "Science",
+      "primary": 25,
+      "secondary": 0.5,
+      "total": 25.5
+    },
+    {
+      "name": "Brain and Cognitive Sciences",
+      "code": "IX",
+      "school": "Science",
+      "primary": 41,
+      "secondary": 4,
+      "total": 45
+    },
+    {
+      "name": "Chemistry",
+      "code": "V",
+      "school": "Science",
+      "primary": 28,
+      "secondary": 2,
+      "total": 30
+    },
+    {
+      "name": "Earth, Atmospheric, and Planetary Sciences",
+      "code": "XII",
+      "school": "Science",
+      "primary": 18,
+      "secondary": 1,
+      "total": 19
+    },
+    {
+      "name": "Mathematics",
+      "code": "XVIII",
+      "school": "Science",
+      "primary": 261,
+      "secondary": 118,
+      "total": 379
+    },
+    {
+      "name": "Mathematics with Computer Science",
+      "code": "XVIII-C",
+      "school": "Science",
+      "primary": 84,
+      "secondary": 7,
+      "total": 91
+    },
+    {
+      "name": "Physics",
+      "code": "VIII",
+      "school": "Science",
+      "primary": 173,
+      "secondary": 38,
+      "total": 211
+    }
+  ]
+}
