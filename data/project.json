@@ -1,12 +1,21 @@
 {
   "project_name": "Goal Kicker",
   "description": "Hermes-like agent that builds a source-backed knowledgebase for top 100 U.S. universities, their majors, and applicant expectations.",
-  "status": "scaffolded",
+  "status": "late_stage_data_completion",
+  "progress_summary": {
+    "schools_total": 100,
+    "schools_with_records": 100,
+    "schools_with_majors": 71,
+    "schools_with_professors": 99,
+    "schools_with_alumni": 99,
+    "overall_structured_completion_pct": 92.2,
+    "last_audited": "2026-04-30T00:54:37+00:00"
+  },
   "next_steps": [
-    "Create top 100 university seed list",
-    "Define normalized schema",
-    "Implement one-university ingestion pipeline",
-    "Write markdown and JSON knowledgebase outputs"
+    "Fix Rutgers-New Brunswick people enrichment so professor/alumni coverage reaches 100/100",
+    "Raise majors coverage from 71/100 toward full top-100 coverage",
+    "Improve faculty verification to use official school pages instead of RateMyProfessors-derived fallbacks where possible",
+    "Improve alumni recency and per-major filtering in the generic enrichment pipeline"
   ],
   "paths": {
     "knowledgebase": "knowledgebase/",

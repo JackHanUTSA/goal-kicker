@@ -1,0 +1,39 @@
+{
+  "updated_at": "2026-04-30T00:54:37.000109+00:00",
+  "coverage": {
+    "schools_total": 100,
+    "majors_titles": 71,
+    "popular_professors": 99,
+    "successful_alumni": 99
+  },
+  "started_at": "2026-04-30T00:54:37.000100+00:00",
+  "before": {
+    "schools_total": 100,
+    "majors_titles": 70,
+    "popular_professors": 99,
+    "successful_alumni": 99
+  },
+  "after": {
+    "schools_total": 100,
+    "majors_titles": 71,
+    "popular_professors": 99,
+    "successful_alumni": 99
+  },
+  "majors_result": {
+    "processed": 30,
+    "gained": 1,
+    "errors": []
+  },
+  "people_result": {
+    "processed": 0,
+    "gained_prof": 0,
+    "gained_alum": 0,
+    "errors": [],
+    "skipped": true,
+    "workers": 3
+  },
+  "skip_majors": false,
+  "skip_people": true,
+  "people_workers": 3,
+  "phase": "done"
+}

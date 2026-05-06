@@ -1,0 +1,697 @@
+{
+  "created_at": "2026-04-27T01:11:33.894886+00:00",
+  "completed_slugs": [
+    "brown",
+    "caltech",
+    "carnegie-mellon",
+    "columbia",
+    "cornell",
+    "dartmouth",
+    "duke",
+    "emory",
+    "harvard",
+    "johns-hopkins",
+    "mit",
+    "northwestern",
+    "notre-dame",
+    "princeton",
+    "rice",
+    "stanford",
+    "uc-berkeley",
+    "uchicago",
+    "ucla",
+    "upenn",
+    "vanderbilt",
+    "washu",
+    "yale"
+  ],
+  "failed_slugs": [],
+  "history": [
+    {
+      "started_at": "2026-04-27T01:11:34.665257+00:00",
+      "requested_batch_size": 10,
+      "worker_count": 3,
+      "selected_slugs": [
+        "mit",
+        "stanford",
+        "uc-berkeley"
+      ],
+      "results": [
+        {
+          "slug": "mit",
+          "name": "Massachusetts Institute of Technology",
+          "json": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/mit.json",
+          "markdown": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/mit.md",
+          "popular_professors": 20,
+          "successful_alumni": 20,
+          "validation_problems": [],
+          "school_people_warnings": [
+            "Applied school-specific professor override data.",
+            "Applied school-specific alumni override data.",
+            "Per-major alumni target of 10 is not yet met for 19 major buckets in this pilot override."
+          ],
+          "per_major_target_count": 10,
+          "major_buckets_total": 19,
+          "major_buckets_below_target": 19,
+          "total_bucket_gap": 170
+        },
+        {
+          "slug": "stanford",
+          "name": "Stanford University",
+          "json": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/stanford.json",
+          "markdown": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/stanford.md",
+          "popular_professors": 20,
+          "successful_alumni": 20,
+          "validation_problems": [],
+          "school_people_warnings": [
+            "Applied school-specific professor override data.",
+            "Applied school-specific alumni override data.",
+            "Per-major alumni target of 10 is not yet met for 8 major buckets in this pilot override."
+          ],
+          "per_major_target_count": 10,
+          "major_buckets_total": 8,
+          "major_buckets_below_target": 8,
+          "total_bucket_gap": 60
+        },
+        {
+          "slug": "uc-berkeley",
+          "name": "University of California, Berkeley",
+          "json": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/uc-berkeley.json",
+          "markdown": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/uc-berkeley.md",
+          "popular_professors": 20,
+          "successful_alumni": 20,
+          "validation_problems": [],
+          "school_people_warnings": [
+            "Applied school-specific professor override data.",
+            "Applied school-specific alumni override data.",
+            "Per-major alumni target of 10 is not yet met for 1 major buckets in this pilot override."
+          ],
+          "per_major_target_count": 10,
+          "major_buckets_total": 2,
+          "major_buckets_below_target": 1,
+          "total_bucket_gap": 8
+        }
+      ]
+    },
+    {
+      "started_at": "2026-04-27T07:06:14.832399+00:00",
+      "requested_batch_size": 10,
+      "worker_count": 10,
+      "selected_slugs": [
+        "harvard",
+        "princeton",
+        "yale",
+        "caltech",
+        "uchicago",
+        "upenn",
+        "columbia",
+        "duke",
+        "johns-hopkins",
+        "northwestern"
+      ],
+      "results": [
+        {
+          "slug": "harvard",
+          "name": "Harvard University",
+          "json": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/harvard.json",
+          "markdown": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/harvard.md",
+          "popular_professors": 20,
+          "successful_alumni": 20,
+          "validation_problems": [],
+          "school_people_warnings": [
+            "Refreshed stale professor entries to backfill required bio/confirmation fields.",
+            "Refreshed stale alumni entries to backfill required bio/confirmation fields.",
+            "Professor bios and confirmation links currently come from RateMyProfessors-derived profiles; a school-official faculty-page resolver still needs to be implemented for stronger verification.",
+            "Recent-10-years and per-major alumni filtering is not yet available from the generic Wikipedia pipeline; those fields remain null unless stronger school-specific alumni sources are added."
+          ],
+          "per_major_target_count": null,
+          "major_buckets_total": 0,
+          "major_buckets_below_target": 0,
+          "total_bucket_gap": 0
+        },
+        {
+          "slug": "princeton",
+          "name": "Princeton University",
+          "json": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/princeton.json",
+          "markdown": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/princeton.md",
+          "popular_professors": 20,
+          "successful_alumni": 12,
+          "validation_problems": [],
+          "school_people_warnings": [
+            "Only identified 8 alumni candidates that looked like people.",
+            "Only ranked 8 successful alumni items.",
+            "Refreshed stale professor entries to backfill required bio/confirmation fields.",
+            "Refreshed stale alumni entries to backfill required bio/confirmation fields.",
+            "Professor bios and confirmation links currently come from RateMyProfessors-derived profiles; a school-official faculty-page resolver still needs to be implemented for stronger verification.",
+            "Only identified 12 alumni candidates that looked like people.",
+            "Only ranked 12 successful alumni items.",
+            "Recent-10-years and per-major alumni filtering is not yet available from the generic Wikipedia pipeline; those fields remain null unless stronger school-specific alumni sources are added."
+          ],
+          "per_major_target_count": null,
+          "major_buckets_total": 0,
+          "major_buckets_below_target": 0,
+          "total_bucket_gap": 0
+        },
+        {
+          "slug": "yale",
+          "name": "Yale University",
+          "json": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/yale.json",
+          "markdown": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/yale.md",
+          "popular_professors": 20,
+          "successful_alumni": 20,
+          "validation_problems": [],
+          "school_people_warnings": [
+            "Refreshed stale professor entries to backfill required bio/confirmation fields.",
+            "Refreshed stale alumni entries to backfill required bio/confirmation fields.",
+            "Professor bios and confirmation links currently come from RateMyProfessors-derived profiles; a school-official faculty-page resolver still needs to be implemented for stronger verification.",
+            "Recent-10-years and per-major alumni filtering is not yet available from the generic Wikipedia pipeline; those fields remain null unless stronger school-specific alumni sources are added."
+          ],
+          "per_major_target_count": null,
+          "major_buckets_total": 0,
+          "major_buckets_below_target": 0,
+          "total_bucket_gap": 0
+        },
+        {
+          "slug": "caltech",
+          "name": "California Institute of Technology",
+          "json": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/caltech.json",
+          "markdown": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/caltech.md",
+          "popular_professors": 20,
+          "successful_alumni": 20,
+          "validation_problems": [],
+          "school_people_warnings": [
+            "Refreshed stale professor entries to backfill required bio/confirmation fields.",
+            "Refreshed stale alumni entries to backfill required bio/confirmation fields.",
+            "Professor bios and confirmation links currently come from RateMyProfessors-derived profiles; a school-official faculty-page resolver still needs to be implemented for stronger verification.",
+            "Recent-10-years and per-major alumni filtering is not yet available from the generic Wikipedia pipeline; those fields remain null unless stronger school-specific alumni sources are added."
+          ],
+          "per_major_target_count": null,
+          "major_buckets_total": 0,
+          "major_buckets_below_target": 0,
+          "total_bucket_gap": 0
+        },
+        {
+          "slug": "uchicago",
+          "name": "University of Chicago",
+          "json": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/uchicago.json",
+          "markdown": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/uchicago.md",
+          "popular_professors": 20,
+          "successful_alumni": 20,
+          "validation_problems": [],
+          "school_people_warnings": [
+            "Refreshed stale professor entries to backfill required bio/confirmation fields.",
+            "Refreshed stale alumni entries to backfill required bio/confirmation fields.",
+            "Professor bios and confirmation links currently come from RateMyProfessors-derived profiles; a school-official faculty-page resolver still needs to be implemented for stronger verification.",
+            "Recent-10-years and per-major alumni filtering is not yet available from the generic Wikipedia pipeline; those fields remain null unless stronger school-specific alumni sources are added."
+          ],
+          "per_major_target_count": null,
+          "major_buckets_total": 0,
+          "major_buckets_below_target": 0,
+          "total_bucket_gap": 0
+        },
+        {
+          "slug": "upenn",
+          "name": "University of Pennsylvania",
+          "json": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/upenn.json",
+          "markdown": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/upenn.md",
+          "popular_professors": 20,
+          "successful_alumni": 20,
+          "validation_problems": [],
+          "school_people_warnings": [
+            "Refreshed stale professor entries to backfill required bio/confirmation fields.",
+            "Refreshed stale alumni entries to backfill required bio/confirmation fields.",
+            "Professor bios and confirmation links currently come from RateMyProfessors-derived profiles; a school-official faculty-page resolver still needs to be implemented for stronger verification.",
+            "Recent-10-years and per-major alumni filtering is not yet available from the generic Wikipedia pipeline; those fields remain null unless stronger school-specific alumni sources are added."
+          ],
+          "per_major_target_count": null,
+          "major_buckets_total": 0,
+          "major_buckets_below_target": 0,
+          "total_bucket_gap": 0
+        },
+        {
+          "slug": "columbia",
+          "name": "Columbia University",
+          "json": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/columbia.json",
+          "markdown": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/columbia.md",
+          "popular_professors": 20,
+          "successful_alumni": 20,
+          "validation_problems": [],
+          "school_people_warnings": [
+            "Refreshed stale professor entries to backfill required bio/confirmation fields.",
+            "Refreshed stale alumni entries to backfill required bio/confirmation fields.",
+            "Professor bios and confirmation links currently come from RateMyProfessors-derived profiles; a school-official faculty-page resolver still needs to be implemented for stronger verification.",
+            "Recent-10-years and per-major alumni filtering is not yet available from the generic Wikipedia pipeline; those fields remain null unless stronger school-specific alumni sources are added."
+          ],
+          "per_major_target_count": null,
+          "major_buckets_total": 0,
+          "major_buckets_below_target": 0,
+          "total_bucket_gap": 0
+        },
+        {
+          "slug": "duke",
+          "name": "Duke University",
+          "json": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/duke.json",
+          "markdown": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/duke.md",
+          "popular_professors": 20,
+          "successful_alumni": 20,
+          "validation_problems": [],
+          "school_people_warnings": [
+            "Refreshed stale professor entries to backfill required bio/confirmation fields.",
+            "Refreshed stale alumni entries to backfill required bio/confirmation fields.",
+            "Professor bios and confirmation links currently come from RateMyProfessors-derived profiles; a school-official faculty-page resolver still needs to be implemented for stronger verification.",
+            "Recent-10-years and per-major alumni filtering is not yet available from the generic Wikipedia pipeline; those fields remain null unless stronger school-specific alumni sources are added."
+          ],
+          "per_major_target_count": null,
+          "major_buckets_total": 0,
+          "major_buckets_below_target": 0,
+          "total_bucket_gap": 0
+        },
+        {
+          "slug": "johns-hopkins",
+          "name": "Johns Hopkins University",
+          "json": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/johns-hopkins.json",
+          "markdown": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/johns-hopkins.md",
+          "popular_professors": 20,
+          "successful_alumni": 20,
+          "validation_problems": [],
+          "school_people_warnings": [
+            "Refreshed stale professor entries to backfill required bio/confirmation fields.",
+            "Refreshed stale alumni entries to backfill required bio/confirmation fields.",
+            "Professor bios and confirmation links currently come from RateMyProfessors-derived profiles; a school-official faculty-page resolver still needs to be implemented for stronger verification.",
+            "Recent-10-years and per-major alumni filtering is not yet available from the generic Wikipedia pipeline; those fields remain null unless stronger school-specific alumni sources are added."
+          ],
+          "per_major_target_count": null,
+          "major_buckets_total": 0,
+          "major_buckets_below_target": 0,
+          "total_bucket_gap": 0
+        },
+        {
+          "slug": "northwestern",
+          "name": "Northwestern University",
+          "json": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/northwestern.json",
+          "markdown": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/northwestern.md",
+          "popular_professors": 20,
+          "successful_alumni": 20,
+          "validation_problems": [],
+          "school_people_warnings": [
+            "Refreshed stale professor entries to backfill required bio/confirmation fields.",
+            "Refreshed stale alumni entries to backfill required bio/confirmation fields.",
+            "Professor bios and confirmation links currently come from RateMyProfessors-derived profiles; a school-official faculty-page resolver still needs to be implemented for stronger verification.",
+            "Recent-10-years and per-major alumni filtering is not yet available from the generic Wikipedia pipeline; those fields remain null unless stronger school-specific alumni sources are added."
+          ],
+          "per_major_target_count": null,
+          "major_buckets_total": 0,
+          "major_buckets_below_target": 0,
+          "total_bucket_gap": 0
+        }
+      ]
+    },
+    {
+      "started_at": "2026-04-27T12:29:30.386245+00:00",
+      "requested_batch_size": 1,
+      "worker_count": 1,
+      "selected_slugs": [
+        "princeton"
+      ],
+      "results": [
+        {
+          "slug": "princeton",
+          "name": "Princeton University",
+          "json": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/princeton.json",
+          "markdown": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/princeton.md",
+          "popular_professors": 20,
+          "successful_alumni": 12,
+          "validation_problems": [],
+          "school_people_warnings": [
+            "Only identified 8 alumni candidates that looked like people.",
+            "Only ranked 8 successful alumni items.",
+            "Refreshed stale professor entries to backfill required bio/confirmation fields.",
+            "Refreshed stale alumni entries to backfill required bio/confirmation fields.",
+            "Professor bios and confirmation links currently come from RateMyProfessors-derived profiles; a school-official faculty-page resolver still needs to be implemented for stronger verification.",
+            "Only identified 12 alumni candidates that looked like people.",
+            "Only ranked 12 successful alumni items.",
+            "Recent-10-years and per-major alumni filtering is not yet available from the generic Wikipedia pipeline; those fields remain null unless stronger school-specific alumni sources are added."
+          ],
+          "per_major_target_count": null,
+          "major_buckets_total": 0,
+          "major_buckets_below_target": 0,
+          "total_bucket_gap": 0
+        }
+      ]
+    },
+    {
+      "started_at": "2026-04-27T12:53:48.049411+00:00",
+      "requested_batch_size": 1,
+      "worker_count": 1,
+      "selected_slugs": [
+        "princeton"
+      ],
+      "results": [
+        {
+          "slug": "princeton",
+          "name": "Princeton University",
+          "json": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/princeton.json",
+          "markdown": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/princeton.md",
+          "popular_professors": 20,
+          "successful_alumni": 6,
+          "validation_problems": [],
+          "school_people_warnings": [
+            "Only identified 8 alumni candidates that looked like people.",
+            "Only ranked 8 successful alumni items.",
+            "Refreshed stale professor entries to backfill required bio/confirmation fields.",
+            "Refreshed stale alumni entries to backfill required bio/confirmation fields.",
+            "Professor bios and confirmation links currently come from RateMyProfessors-derived profiles; a school-official faculty-page resolver still needs to be implemented for stronger verification.",
+            "Only identified 12 alumni candidates that looked like people.",
+            "Only ranked 12 successful alumni items.",
+            "Recent-10-years and per-major alumni filtering is not yet available from the generic Wikipedia pipeline; those fields remain null unless stronger school-specific alumni sources are added.",
+            "Refreshed stale alumni entries to backfill required fields or invalid non-person matches.",
+            "Only identified 6 alumni candidates that looked like people.",
+            "Only ranked 6 successful alumni items.",
+            "Recent-10-years and per-major alumni filtering is not yet available from the generic Wikipedia pipeline; those fields remain null unless stronger school-specific alumni sources are added."
+          ],
+          "per_major_target_count": null,
+          "major_buckets_total": 0,
+          "major_buckets_below_target": 0,
+          "total_bucket_gap": 0
+        }
+      ]
+    },
+    {
+      "started_at": "2026-04-27T23:05:14.880293+00:00",
+      "requested_batch_size": 10,
+      "worker_count": 10,
+      "selected_slugs": [
+        "dartmouth",
+        "brown",
+        "cornell",
+        "vanderbilt",
+        "rice",
+        "washu",
+        "notre-dame",
+        "ucla",
+        "carnegie-mellon",
+        "emory"
+      ],
+      "results": [
+        {
+          "slug": "dartmouth",
+          "name": "Dartmouth College",
+          "json": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/dartmouth.json",
+          "markdown": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/dartmouth.md",
+          "popular_professors": 20,
+          "successful_alumni": 5,
+          "validation_problems": [],
+          "school_people_warnings": [
+            "Only identified 5 alumni candidates that looked like people.",
+            "Only ranked 5 successful alumni items.",
+            "Refreshed stale professor entries to backfill required bio/confirmation fields.",
+            "Refreshed stale alumni entries to backfill required fields or invalid non-person matches.",
+            "Professor bios and confirmation links currently come from RateMyProfessors-derived profiles; a school-official faculty-page resolver still needs to be implemented for stronger verification.",
+            "Only identified 5 alumni candidates that looked like people.",
+            "Only ranked 5 successful alumni items.",
+            "Recent-10-years and per-major alumni filtering is not yet available from the generic Wikipedia pipeline; those fields remain null unless stronger school-specific alumni sources are added."
+          ],
+          "per_major_target_count": null,
+          "major_buckets_total": 0,
+          "major_buckets_below_target": 0,
+          "total_bucket_gap": 0
+        },
+        {
+          "slug": "brown",
+          "name": "Brown University",
+          "json": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/brown.json",
+          "markdown": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/brown.md",
+          "popular_professors": 20,
+          "successful_alumni": 20,
+          "validation_problems": [],
+          "school_people_warnings": [
+            "Refreshed stale professor entries to backfill required bio/confirmation fields.",
+            "Refreshed stale alumni entries to backfill required fields or invalid non-person matches.",
+            "Professor bios and confirmation links currently come from RateMyProfessors-derived profiles; a school-official faculty-page resolver still needs to be implemented for stronger verification.",
+            "Recent-10-years and per-major alumni filtering is not yet available from the generic Wikipedia pipeline; those fields remain null unless stronger school-specific alumni sources are added."
+          ],
+          "per_major_target_count": null,
+          "major_buckets_total": 0,
+          "major_buckets_below_target": 0,
+          "total_bucket_gap": 0
+        },
+        {
+          "slug": "cornell",
+          "name": "Cornell University",
+          "json": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/cornell.json",
+          "markdown": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/cornell.md",
+          "popular_professors": 20,
+          "successful_alumni": 20,
+          "validation_problems": [],
+          "school_people_warnings": [
+            "Refreshed stale professor entries to backfill required bio/confirmation fields.",
+            "Refreshed stale alumni entries to backfill required fields or invalid non-person matches.",
+            "Professor bios and confirmation links currently come from RateMyProfessors-derived profiles; a school-official faculty-page resolver still needs to be implemented for stronger verification.",
+            "Recent-10-years and per-major alumni filtering is not yet available from the generic Wikipedia pipeline; those fields remain null unless stronger school-specific alumni sources are added."
+          ],
+          "per_major_target_count": null,
+          "major_buckets_total": 0,
+          "major_buckets_below_target": 0,
+          "total_bucket_gap": 0
+        },
+        {
+          "slug": "vanderbilt",
+          "name": "Vanderbilt University",
+          "json": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/vanderbilt.json",
+          "markdown": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/vanderbilt.md",
+          "popular_professors": 20,
+          "successful_alumni": 20,
+          "validation_problems": [],
+          "school_people_warnings": [
+            "Refreshed stale professor entries to backfill required bio/confirmation fields.",
+            "Refreshed stale alumni entries to backfill required fields or invalid non-person matches.",
+            "Professor bios and confirmation links currently come from RateMyProfessors-derived profiles; a school-official faculty-page resolver still needs to be implemented for stronger verification.",
+            "Recent-10-years and per-major alumni filtering is not yet available from the generic Wikipedia pipeline; those fields remain null unless stronger school-specific alumni sources are added."
+          ],
+          "per_major_target_count": null,
+          "major_buckets_total": 0,
+          "major_buckets_below_target": 0,
+          "total_bucket_gap": 0
+        },
+        {
+          "slug": "rice",
+          "name": "Rice University",
+          "json": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/rice.json",
+          "markdown": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/rice.md",
+          "popular_professors": 20,
+          "successful_alumni": 20,
+          "validation_problems": [],
+          "school_people_warnings": [
+            "Refreshed stale professor entries to backfill required bio/confirmation fields.",
+            "Refreshed stale alumni entries to backfill required fields or invalid non-person matches.",
+            "Professor bios and confirmation links currently come from RateMyProfessors-derived profiles; a school-official faculty-page resolver still needs to be implemented for stronger verification.",
+            "Recent-10-years and per-major alumni filtering is not yet available from the generic Wikipedia pipeline; those fields remain null unless stronger school-specific alumni sources are added."
+          ],
+          "per_major_target_count": null,
+          "major_buckets_total": 0,
+          "major_buckets_below_target": 0,
+          "total_bucket_gap": 0
+        },
+        {
+          "slug": "washu",
+          "name": "Washington University in St. Louis",
+          "json": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/washu.json",
+          "markdown": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/washu.md",
+          "popular_professors": 20,
+          "successful_alumni": 20,
+          "validation_problems": [],
+          "school_people_warnings": [
+            "Refreshed stale professor entries to backfill required bio/confirmation fields.",
+            "Refreshed stale alumni entries to backfill required fields or invalid non-person matches.",
+            "Professor bios and confirmation links currently come from RateMyProfessors-derived profiles; a school-official faculty-page resolver still needs to be implemented for stronger verification.",
+            "Recent-10-years and per-major alumni filtering is not yet available from the generic Wikipedia pipeline; those fields remain null unless stronger school-specific alumni sources are added."
+          ],
+          "per_major_target_count": null,
+          "major_buckets_total": 0,
+          "major_buckets_below_target": 0,
+          "total_bucket_gap": 0
+        },
+        {
+          "slug": "notre-dame",
+          "name": "University of Notre Dame",
+          "json": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/notre-dame.json",
+          "markdown": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/notre-dame.md",
+          "popular_professors": 20,
+          "successful_alumni": 20,
+          "validation_problems": [],
+          "school_people_warnings": [
+            "Refreshed stale professor entries to backfill required bio/confirmation fields.",
+            "Refreshed stale alumni entries to backfill required fields or invalid non-person matches.",
+            "Professor bios and confirmation links currently come from RateMyProfessors-derived profiles; a school-official faculty-page resolver still needs to be implemented for stronger verification.",
+            "Recent-10-years and per-major alumni filtering is not yet available from the generic Wikipedia pipeline; those fields remain null unless stronger school-specific alumni sources are added."
+          ],
+          "per_major_target_count": null,
+          "major_buckets_total": 0,
+          "major_buckets_below_target": 0,
+          "total_bucket_gap": 0
+        },
+        {
+          "slug": "ucla",
+          "name": "University of California, Los Angeles",
+          "json": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/ucla.json",
+          "markdown": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/ucla.md",
+          "popular_professors": 20,
+          "successful_alumni": 20,
+          "validation_problems": [],
+          "school_people_warnings": [
+            "Refreshed stale professor entries to backfill required bio/confirmation fields.",
+            "Refreshed stale alumni entries to backfill required fields or invalid non-person matches.",
+            "Professor bios and confirmation links currently come from RateMyProfessors-derived profiles; a school-official faculty-page resolver still needs to be implemented for stronger verification.",
+            "Recent-10-years and per-major alumni filtering is not yet available from the generic Wikipedia pipeline; those fields remain null unless stronger school-specific alumni sources are added."
+          ],
+          "per_major_target_count": null,
+          "major_buckets_total": 0,
+          "major_buckets_below_target": 0,
+          "total_bucket_gap": 0
+        },
+        {
+          "slug": "carnegie-mellon",
+          "name": "Carnegie Mellon University",
+          "json": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/carnegie-mellon.json",
+          "markdown": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/carnegie-mellon.md",
+          "popular_professors": 20,
+          "successful_alumni": 20,
+          "validation_problems": [],
+          "school_people_warnings": [
+            "Refreshed stale professor entries to backfill required bio/confirmation fields.",
+            "Refreshed stale alumni entries to backfill required fields or invalid non-person matches.",
+            "Professor bios and confirmation links currently come from RateMyProfessors-derived profiles; a school-official faculty-page resolver still needs to be implemented for stronger verification.",
+            "Recent-10-years and per-major alumni filtering is not yet available from the generic Wikipedia pipeline; those fields remain null unless stronger school-specific alumni sources are added."
+          ],
+          "per_major_target_count": null,
+          "major_buckets_total": 0,
+          "major_buckets_below_target": 0,
+          "total_bucket_gap": 0
+        },
+        {
+          "slug": "emory",
+          "name": "Emory University",
+          "json": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/emory.json",
+          "markdown": "/home/jack/swarmlab/projects/goal-kicker/knowledgebase/universities/emory.md",
+          "popular_professors": 20,
+          "successful_alumni": 20,
+          "validation_problems": [],
+          "school_people_warnings": [
+            "Refreshed stale professor entries to backfill required bio/confirmation fields.",
+            "Refreshed stale alumni entries to backfill required fields or invalid non-person matches.",
+            "Professor bios and confirmation links currently come from RateMyProfessors-derived profiles; a school-official faculty-page resolver still needs to be implemented for stronger verification.",
+            "Recent-10-years and per-major alumni filtering is not yet available from the generic Wikipedia pipeline; those fields remain null unless stronger school-specific alumni sources are added."
+          ],
+          "per_major_target_count": null,
+          "major_buckets_total": 0,
+          "major_buckets_below_target": 0,
+          "total_bucket_gap": 0
+        }
+      ]
+    }
+  ],
+  "in_progress": [],
+  "last_batch": [
+    "dartmouth",
+    "brown",
+    "cornell",
+    "vanderbilt",
+    "rice",
+    "washu",
+    "notre-dame",
+    "ucla",
+    "carnegie-mellon",
+    "emory"
+  ],
+  "updated_at": "2026-04-27T23:05:14.890136+00:00",
+  "last_run_summary": {
+    "processed": 10,
+    "selected_slugs": [
+      "dartmouth",
+      "brown",
+      "cornell",
+      "vanderbilt",
+      "rice",
+      "washu",
+      "notre-dame",
+      "ucla",
+      "carnegie-mellon",
+      "emory"
+    ],
+    "remaining_candidate_slugs": [
+      "georgetown",
+      "michigan",
+      "usc",
+      "nyu",
+      "uva",
+      "unc-chapel-hill",
+      "tufts",
+      "wake-forest",
+      "boston-college",
+      "georgia-tech",
+      "uc-san-diego",
+      "uf",
+      "ut-austin",
+      "uiuc",
+      "wisconsin-madison",
+      "ohio-state",
+      "university-of-washington",
+      "purdue",
+      "boston-university",
+      "northeastern",
+      "case-western",
+      "uc-davis",
+      "william-and-mary",
+      "rochester",
+      "brandeis"
+    ],
+    "progress": {
+      "schools_total": 100,
+      "schools_with_bucket_targets": 3,
+      "schools_with_open_bucket_gaps": 3,
+      "total_bucket_gap": 238
+    }
+  },
+  "resume_events": [
+    {
+      "detected_at": "2026-04-27T01:14:15.907336+00:00",
+      "event": "recovered_stale_in_progress_batch",
+      "slugs": [
+        "harvard",
+        "princeton",
+        "yale",
+        "caltech",
+        "uchicago",
+        "upenn",
+        "columbia",
+        "duke",
+        "johns-hopkins",
+        "northwestern"
+      ]
+    },
+    {
+      "detected_at": "2026-04-27T12:41:12.996351+00:00",
+      "event": "recovered_stale_in_progress_batch",
+      "slugs": [
+        "princeton"
+      ]
+    },
+    {
+      "detected_at": "2026-04-27T13:44:38.030644+00:00",
+      "event": "recovered_stale_in_progress_batch",
+      "slugs": [
+        "princeton"
+      ]
+    },
+    {
+      "detected_at": "2026-04-27T17:43:00Z",
+      "event": "manual_clear_stale_in_progress_batch",
+      "slugs": [
+        "princeton"
+      ]
+    }
+  ],
+  "last_interrupted_batch": [
+    "princeton"
+  ]
+}
