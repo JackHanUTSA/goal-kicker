@@ -34,9 +34,16 @@ td.dm{color:var(--muted);font-size:13px}
 footer{margin-top:40px;color:var(--muted);font-size:12px;text-align:center;border-top:1px solid var(--border);padding-top:20px}
 .detail{background:var(--panel-2);padding:14px 16px;border-left:3px solid var(--accent);margin:6px 0 10px;border-radius:6px;font-size:13px;color:#c8cdd6}
 .detail strong{color:var(--accent);display:block;margin-bottom:4px;font-size:11px;letter-spacing:.04em;text-transform:uppercase}
+.detail.clickable{cursor:pointer;transition:background .12s,border-left-width .12s}
+.detail.clickable:hover{background:#23262e}
+.detail.clickable.open{border-left-width:6px}
+.detail .toggle-hint{display:inline-block;color:var(--accent-2);font-weight:600;margin-left:6px;font-size:12px}
 .det{display:none}.det.show{display:table-row}.det td{background:#101218;padding:0 12px 14px}
 .loading{text-align:center;padding:30px;color:var(--muted)}
 .hint{color:var(--muted);font-size:12px;margin-top:6px}
+.chart-wrap{display:none;animation:fade .15s ease-out}
+.chart-wrap.show{display:block}
+@keyframes fade{from{opacity:0;transform:translateY(-3px)}to{opacity:1;transform:none}}
 .chartbox{background:var(--panel-2);border:1px solid var(--border);border-radius:8px;padding:16px;margin:8px 0 10px}
 .chart-title{font-size:13px;font-weight:600;color:var(--text);margin-bottom:6px;display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px}
 .chart-title .src{font-weight:400;color:var(--muted);font-size:11px}
@@ -76,7 +83,7 @@ tests/test_subject_recommender.py ...                                    [100%]
 <select id="f"><option value="all">All listed</option><option value="10">Top 10</option><option value="25">Top 25</option></select>
 <span class="count" id="c"></span></div>
 <table id="t"><thead><tr><th data-s="rank" class="rk">Rank</th><th data-s="name">University</th><th class="dm">Domain</th></tr></thead><tbody id="tb"><tr class="loading"><td colspan="3">Loading from repo…</td></tr></tbody></table>
-<p class="hint">Click any row to load its admissions record. Schools with enrollment data also show a packed-bubble chart of majors by student count.</p>
+<p class="hint">Click any row to load its admissions record. If the school has enrollment data, click the <strong>Majors</strong> box to toggle a packed-bubble chart of majors by student count.</p>
 <footer>Built from <a href="https://github.com/JackHanUTSA/goal-kicker">JackHanUTSA/goal-kicker</a> · 20 tests passing · Data fetched live from <code>main</code></footer>
 </div>
 <div id="tip" class="tooltip"></div>
@@ -89,42 +96,66 @@ const esc=s=>s==null?'':String(s).replace(/[&<>"']/g,x=>({'&':'&amp;','<':'&lt;'
 const detailCache={},enrollCache={};
 
 async function loadDetail(slug,el){
-  if(detailCache[slug]){return renderDetail(slug,detailCache[slug],el)}
+  if(detailCache[slug]){renderDetail(slug,detailCache[slug],el);wireChart(slug,el);return}
   el.innerHTML='<div class="detail">Loading…</div>';
   try{const d=await fetch(RAW+'knowledgebase/universities/'+slug+'.json').then(r=>r.json());detailCache[slug]=d;renderDetail(slug,d,el)}
-  catch(e){el.innerHTML='<div class="detail">No detailed record yet.</div>'}
-  // Try enrollment chart in parallel
+  catch(e){el.innerHTML='<div class="detail">No detailed record yet.</div>';return}
+  // Pre-fetch enrollment in background, then wire the chart toggle
   if(enrollCache[slug]===undefined){
     try{const e=await fetch(RAW+'data/enrollment/'+slug+'.json').then(r=>{if(!r.ok)throw 0;return r.json()});enrollCache[slug]=e}
     catch(_){enrollCache[slug]=null}
   }
-  if(enrollCache[slug])el.insertAdjacentHTML('afterbegin',renderChart(enrollCache[slug]));
-  if(enrollCache[slug])bindBubbleHover(el);
+  wireChart(slug,el);
 }
 
 function renderDetail(slug,d,el){
   const a=d.admissions||{},m=d.majors||{};
   const evCount=(d.evidence||[]).length;
+  const majorsBox = m.count
+    ? '<div class="detail majors-box" data-slug="'+esc(slug)+'"><strong>Majors<span class="toggle-hint hint-text"></span></strong>'+m.count+(m.notes?' — '+esc(m.notes):'')+'</div>'
+    : '';
+  const chartShell = '<div class="chart-wrap" id="cw-'+esc(slug)+'"></div>';
   el.innerHTML=
-    (m.count?'<div class="detail"><strong>Majors</strong>'+m.count+(m.notes?' — '+esc(m.notes):'')+'</div>':'')+
+    majorsBox + chartShell +
     (a.testing_policy?'<div class="detail"><strong>Testing</strong>'+esc(a.testing_policy)+'</div>':'')+
     (a.gpa_policy?'<div class="detail"><strong>GPA</strong>'+esc(a.gpa_policy)+'</div>':'')+
     (a.course_rigor?'<div class="detail"><strong>Course rigor</strong>'+esc(a.course_rigor)+'</div>':'')+
-    '<div class="detail"><strong>Evidence</strong>'+evCount+' source-cited rows · <a href="https://github.com/JackHanUTSA/goal-kicker/blob/main/knowledgebase/universities/'+slug+'.json">view JSON</a> · <a href="https://github.com/JackHanUTSA/goal-kicker/blob/main/knowledgebase/universities/'+slug+'.md">view markdown</a></div>';
+    '<div class="detail"><strong>Evidence</strong>'+evCount+' source-cited rows · <a href="https://github.com/JackHanUTSA/goal-kicker/blob/main/knowledgebase/universities/'+esc(slug)+'.json">view JSON</a> · <a href="https://github.com/JackHanUTSA/goal-kicker/blob/main/knowledgebase/universities/'+esc(slug)+'.md">view markdown</a></div>';
+}
+
+function wireChart(slug,el){
+  const box = el.querySelector('.majors-box');
+  if(!box) return;
+  const wrap = el.querySelector('#cw-'+CSS.escape(slug));
+  const hint = box.querySelector('.hint-text');
+  const enr = enrollCache[slug];
+  if(enr){
+    box.classList.add('clickable');
+    hint.textContent = '— click to show enrollment chart';
+  } else {
+    hint.textContent = '';
+  }
+  box.addEventListener('click', () => {
+    if(!enr) return;
+    const open = wrap.classList.toggle('show');
+    box.classList.toggle('open', open);
+    hint.textContent = open ? '— click to hide chart' : '— click to show enrollment chart';
+    if(open && !wrap.dataset.rendered){
+      wrap.innerHTML = renderChart(enr);
+      wrap.dataset.rendered = '1';
+      bindBubbleHover(wrap);
+    }
+  });
 }
 
 // Packed-bubble layout via simple non-overlap relaxation
 function packBubbles(items, W, H){
-  // items: [{r, ...}]
   const N=items.length;
-  // initial random positions inside [pad, W-pad] x [pad, H-pad]
   const pad=4;
   const rng=(()=>{let s=12345;return()=>{s=(s*9301+49297)%233280;return s/233280}})();
   const nodes=items.map(it=>({...it,x:pad+rng()*(W-2*pad),y:pad+rng()*(H-2*pad)}));
-  // gravity to center
   const cx=W/2,cy=H/2;
   for(let iter=0;iter<260;iter++){
-    // collision resolution
     for(let i=0;i<N;i++){
       for(let j=i+1;j<N;j++){
         const a=nodes[i],b=nodes[j];
@@ -137,11 +168,9 @@ function packBubbles(items, W, H){
           b.x+=ux*overlap/2;b.y+=uy*overlap/2;
         }
       }
-      // gravity
       const a=nodes[i];
       const gx=cx-a.x,gy=cy-a.y;
       a.x+=gx*0.012;a.y+=gy*0.012;
-      // bounds
       a.x=Math.max(a.r+pad,Math.min(W-a.r-pad,a.x));
       a.y=Math.max(a.r+pad,Math.min(H-a.r-pad,a.y));
     }
@@ -154,7 +183,6 @@ function renderChart(d){
   if(!majors.length)return '';
   const W=860,H=500;
   const maxTotal=Math.max(...majors.map(m=>m.total));
-  // Area-proportional radius: r = base * sqrt(total/maxTotal)
   const minR=10,maxR=58;
   const items=majors.map(m=>{
     const r=minR+(maxR-minR)*Math.sqrt(m.total/maxTotal);
@@ -175,7 +203,6 @@ function renderChart(d){
 }
 
 function shortLabel(name,r){
-  // shorten common patterns to fit small bubbles
   const map={"Computer Science and Engineering":"CS & Eng","Artificial Intelligence and Decision Making":"AI & DM","Electrical Engineering and Computer Science":"EECS","Mathematics with Computer Science":"Math+CS","Mechanical Engineering":"MechE","Aeronautics and Astronautics":"AeroAstro","Brain and Cognitive Sciences":"Brain & Cog","Earth, Atmospheric, and Planetary Sciences":"EAPS","Materials Science and Engineering":"MatSci","Nuclear Science and Engineering":"NSE","Civil and Environmental Engineering (M.Eng.)":"CEE M.Eng","Climate System Science and Engineering":"Climate","Chemical-Biological Engineering":"ChemBio Eng","Biological Engineering":"BioE","Chemical Engineering":"ChemE","Linguistics and Philosophy":"Ling+Phil","Comparative Media Studies":"CMS","Business Analytics":"Biz Analytics","Mathematical Economics":"Math Econ","Computation and Cognition":"Comp+Cog","Computer Science, Economics and Data Science":"CS+Econ+DS","Computer Science and Molecular Biology":"CS+MolBio","Chemistry and Biology":"Chem+Bio","Electrical Engineering with Computing":"EE+Comp","Electrical Science and Engineering":"EECS-1","Urban Studies and Planning":"Urban Studies","Urban Science and Planning with Computer Science":"USPCS","Humanities and Engineering":"Hum+Eng","Humanities and Science":"Hum+Sci","Writing and Humanistic Studies":"Writing","Theater Arts":"Theater","Global Languages":"Languages"};
   if(map[name])return map[name];
   if(r<24)return name.split(' ')[0];
