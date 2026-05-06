@@ -12,8 +12,7 @@ h1{font-size:34px;margin:6px 0 10px;letter-spacing:-.5px}
 .lede{color:var(--muted);max-width:720px;margin:0}
 .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin:28px 0 8px}
 .card{background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:16px}
-.card .num{font-size:28px;font-weight:700}
-.card .lbl{color:var(--muted);font-size:13px;margin-top:2px}
+.card .num{font-size:28px;font-weight:700}.card .lbl{color:var(--muted);font-size:13px;margin-top:2px}
 .section-title{font-size:18px;margin:34px 0 12px;display:flex;align-items:center;gap:10px}
 .dot{width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 8px var(--green)}
 .tests{background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:16px;font-family:ui-monospace,Menlo,monospace;font-size:13px;color:#cdd2db;white-space:pre-wrap;overflow-x:auto}
@@ -38,6 +37,16 @@ footer{margin-top:40px;color:var(--muted);font-size:12px;text-align:center;borde
 .det{display:none}.det.show{display:table-row}.det td{background:#101218;padding:0 12px 14px}
 .loading{text-align:center;padding:30px;color:var(--muted)}
 .hint{color:var(--muted);font-size:12px;margin-top:6px}
+.chartbox{background:var(--panel-2);border:1px solid var(--border);border-radius:8px;padding:16px;margin:8px 0 10px}
+.chart-title{font-size:13px;font-weight:600;color:var(--text);margin-bottom:6px;display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px}
+.chart-title .src{font-weight:400;color:var(--muted);font-size:11px}
+.legend{display:flex;flex-wrap:wrap;gap:10px 16px;font-size:11px;color:var(--muted);margin-top:8px}
+.legend span.sw{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:4px;vertical-align:-1px}
+svg.bubbles{display:block;width:100%;height:auto;font-family:inherit}
+svg.bubbles .b{cursor:default;transition:opacity .15s}
+svg.bubbles .b:hover{opacity:.7}
+svg.bubbles text{fill:#fff;font-size:10px;pointer-events:none;text-anchor:middle}
+.tooltip{position:fixed;background:#0c0d10;border:1px solid var(--border);padding:8px 10px;border-radius:6px;font-size:12px;color:var(--text);pointer-events:none;z-index:50;max-width:260px;box-shadow:0 4px 16px rgba(0,0,0,.4);display:none}
 </style></head><body><div class="wrap">
 <header><div class="eyebrow">Goal Kicker · Knowledgebase Demo</div>
 <h1>Top 100 US Universities, Structured for College Applicants</h1>
@@ -67,20 +76,32 @@ tests/test_subject_recommender.py ...                                    [100%]
 <select id="f"><option value="all">All listed</option><option value="10">Top 10</option><option value="25">Top 25</option></select>
 <span class="count" id="c"></span></div>
 <table id="t"><thead><tr><th data-s="rank" class="rk">Rank</th><th data-s="name">University</th><th class="dm">Domain</th></tr></thead><tbody id="tb"><tr class="loading"><td colspan="3">Loading from repo…</td></tr></tbody></table>
-<p class="hint">Click any row to load its full admissions record (testing policy, GPA, course rigor) from the repo.</p>
+<p class="hint">Click any row to load its admissions record. Schools with enrollment data also show a packed-bubble chart of majors by student count.</p>
 <footer>Built from <a href="https://github.com/JackHanUTSA/goal-kicker">JackHanUTSA/goal-kicker</a> · 20 tests passing · Data fetched live from <code>main</code></footer>
-</div><script>
+</div>
+<div id="tip" class="tooltip"></div>
+<script>
 const RAW='https://raw.githubusercontent.com/JackHanUTSA/goal-kicker/main/';
+const SCHOOL_COLORS={"Architecture and Planning":"#a78bfa","Engineering":"#60a5fa","Humanities, Arts, and Social Sciences":"#fbbf24","Sloan School of Management":"#f87171","Science":"#34d399"};
 let D=[],sk='rank',sd=1;
-const $=id=>document.getElementById(id),tb=$('tb'),q=$('q'),f=$('f'),c=$('c');
+const $=id=>document.getElementById(id),tb=$('tb'),q=$('q'),f=$('f'),c=$('c'),tip=$('tip');
 const esc=s=>s==null?'':String(s).replace(/[&<>"']/g,x=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[x]);
-const cache={};
+const detailCache={},enrollCache={};
+
 async function loadDetail(slug,el){
-  if(cache[slug]){renderDetail(slug,cache[slug],el);return}
+  if(detailCache[slug]){return renderDetail(slug,detailCache[slug],el)}
   el.innerHTML='<div class="detail">Loading…</div>';
-  try{const d=await fetch(RAW+'knowledgebase/universities/'+slug+'.json').then(r=>r.json());cache[slug]=d;renderDetail(slug,d,el)}
+  try{const d=await fetch(RAW+'knowledgebase/universities/'+slug+'.json').then(r=>r.json());detailCache[slug]=d;renderDetail(slug,d,el)}
   catch(e){el.innerHTML='<div class="detail">No detailed record yet.</div>'}
+  // Try enrollment chart in parallel
+  if(enrollCache[slug]===undefined){
+    try{const e=await fetch(RAW+'data/enrollment/'+slug+'.json').then(r=>{if(!r.ok)throw 0;return r.json()});enrollCache[slug]=e}
+    catch(_){enrollCache[slug]=null}
+  }
+  if(enrollCache[slug])el.insertAdjacentHTML('afterbegin',renderChart(enrollCache[slug]));
+  if(enrollCache[slug])bindBubbleHover(el);
 }
+
 function renderDetail(slug,d,el){
   const a=d.admissions||{},m=d.majors||{};
   const evCount=(d.evidence||[]).length;
@@ -91,6 +112,90 @@ function renderDetail(slug,d,el){
     (a.course_rigor?'<div class="detail"><strong>Course rigor</strong>'+esc(a.course_rigor)+'</div>':'')+
     '<div class="detail"><strong>Evidence</strong>'+evCount+' source-cited rows · <a href="https://github.com/JackHanUTSA/goal-kicker/blob/main/knowledgebase/universities/'+slug+'.json">view JSON</a> · <a href="https://github.com/JackHanUTSA/goal-kicker/blob/main/knowledgebase/universities/'+slug+'.md">view markdown</a></div>';
 }
+
+// Packed-bubble layout via simple non-overlap relaxation
+function packBubbles(items, W, H){
+  // items: [{r, ...}]
+  const N=items.length;
+  // initial random positions inside [pad, W-pad] x [pad, H-pad]
+  const pad=4;
+  const rng=(()=>{let s=12345;return()=>{s=(s*9301+49297)%233280;return s/233280}})();
+  const nodes=items.map(it=>({...it,x:pad+rng()*(W-2*pad),y:pad+rng()*(H-2*pad)}));
+  // gravity to center
+  const cx=W/2,cy=H/2;
+  for(let iter=0;iter<260;iter++){
+    // collision resolution
+    for(let i=0;i<N;i++){
+      for(let j=i+1;j<N;j++){
+        const a=nodes[i],b=nodes[j];
+        const dx=b.x-a.x,dy=b.y-a.y;
+        const dist=Math.sqrt(dx*dx+dy*dy)||0.01;
+        const overlap=(a.r+b.r+1)-dist;
+        if(overlap>0){
+          const ux=dx/dist,uy=dy/dist;
+          a.x-=ux*overlap/2;a.y-=uy*overlap/2;
+          b.x+=ux*overlap/2;b.y+=uy*overlap/2;
+        }
+      }
+      // gravity
+      const a=nodes[i];
+      const gx=cx-a.x,gy=cy-a.y;
+      a.x+=gx*0.012;a.y+=gy*0.012;
+      // bounds
+      a.x=Math.max(a.r+pad,Math.min(W-a.r-pad,a.x));
+      a.y=Math.max(a.r+pad,Math.min(H-a.r-pad,a.y));
+    }
+  }
+  return nodes;
+}
+
+function renderChart(d){
+  const majors=(d.majors||[]).filter(m=>m.total>0);
+  if(!majors.length)return '';
+  const W=860,H=500;
+  const maxTotal=Math.max(...majors.map(m=>m.total));
+  // Area-proportional radius: r = base * sqrt(total/maxTotal)
+  const minR=10,maxR=58;
+  const items=majors.map(m=>{
+    const r=minR+(maxR-minR)*Math.sqrt(m.total/maxTotal);
+    return {...m,r};
+  });
+  const nodes=packBubbles(items,W,H);
+  const totalStudents=majors.reduce((s,m)=>s+m.total,0);
+  const schools=[...new Set(majors.map(m=>m.school))];
+  const legend=schools.map(s=>'<span><span class="sw" style="background:'+(SCHOOL_COLORS[s]||'#888')+'"></span>'+esc(s)+'</span>').join('');
+  const circles=nodes.map(n=>{
+    const color=SCHOOL_COLORS[n.school]||'#888';
+    const showLabel=n.r>=20;
+    const label=showLabel?'<text x="'+n.x.toFixed(1)+'" y="'+(n.y+3).toFixed(1)+'" font-size="'+(n.r>40?12:10)+'" font-weight="600">'+esc(shortLabel(n.name,n.r))+'</text>':'';
+    const subLabel=n.r>=30?'<text x="'+n.x.toFixed(1)+'" y="'+(n.y+18).toFixed(1)+'" font-size="10" opacity="0.85">'+n.total+'</text>':'';
+    return '<g class="b" data-name="'+esc(n.name)+'" data-code="'+esc(n.code||'')+'" data-school="'+esc(n.school)+'" data-total="'+n.total+'" data-primary="'+n.primary+'" data-secondary="'+n.secondary+'"><circle cx="'+n.x.toFixed(1)+'" cy="'+n.y.toFixed(1)+'" r="'+n.r.toFixed(1)+'" fill="'+color+'" fill-opacity="0.78" stroke="'+color+'" stroke-width="1.4"/>'+label+subLabel+'</g>';
+  }).join('');
+  return '<div class="chartbox"><div class="chart-title">Undergraduate majors by enrollment — '+esc(d.academic_year)+' <span class="src">'+majors.length+' majors · '+totalStudents.toLocaleString()+' declared students · <a href="'+esc(d.source_url)+'">source</a></span></div><svg class="bubbles" viewBox="0 0 '+W+' '+H+'" preserveAspectRatio="xMidYMid meet">'+circles+'</svg><div class="legend">'+legend+'</div></div>';
+}
+
+function shortLabel(name,r){
+  // shorten common patterns to fit small bubbles
+  const map={"Computer Science and Engineering":"CS & Eng","Artificial Intelligence and Decision Making":"AI & DM","Electrical Engineering and Computer Science":"EECS","Mathematics with Computer Science":"Math+CS","Mechanical Engineering":"MechE","Aeronautics and Astronautics":"AeroAstro","Brain and Cognitive Sciences":"Brain & Cog","Earth, Atmospheric, and Planetary Sciences":"EAPS","Materials Science and Engineering":"MatSci","Nuclear Science and Engineering":"NSE","Civil and Environmental Engineering (M.Eng.)":"CEE M.Eng","Climate System Science and Engineering":"Climate","Chemical-Biological Engineering":"ChemBio Eng","Biological Engineering":"BioE","Chemical Engineering":"ChemE","Linguistics and Philosophy":"Ling+Phil","Comparative Media Studies":"CMS","Business Analytics":"Biz Analytics","Mathematical Economics":"Math Econ","Computation and Cognition":"Comp+Cog","Computer Science, Economics and Data Science":"CS+Econ+DS","Computer Science and Molecular Biology":"CS+MolBio","Chemistry and Biology":"Chem+Bio","Electrical Engineering with Computing":"EE+Comp","Electrical Science and Engineering":"EECS-1","Urban Studies and Planning":"Urban Studies","Urban Science and Planning with Computer Science":"USPCS","Humanities and Engineering":"Hum+Eng","Humanities and Science":"Hum+Sci","Writing and Humanistic Studies":"Writing","Theater Arts":"Theater","Global Languages":"Languages"};
+  if(map[name])return map[name];
+  if(r<24)return name.split(' ')[0];
+  if(r<32&&name.length>14)return name.slice(0,12)+'…';
+  return name;
+}
+
+function bindBubbleHover(scope){
+  scope.querySelectorAll('svg.bubbles .b').forEach(g=>{
+    g.addEventListener('mousemove',ev=>{
+      const n=g.dataset;
+      tip.innerHTML='<strong>'+esc(n.name)+(n.code?' ('+esc(n.code)+')':'')+'</strong><br><span style="color:#9aa1ad">'+esc(n.school)+'</span><br>Primary: '+n.primary+' · Secondary: '+n.secondary+'<br>Total: <strong>'+n.total+'</strong>';
+      tip.style.display='block';
+      const x=Math.min(window.innerWidth-280,ev.clientX+12);
+      tip.style.left=x+'px';tip.style.top=(ev.clientY+12)+'px';
+    });
+    g.addEventListener('mouseleave',()=>{tip.style.display='none'});
+  });
+}
+
 function render(){const t=q.value.toLowerCase().trim(),fv=f.value;let rs=D.slice();
 if(t)rs=rs.filter(r=>(r.name||'').toLowerCase().includes(t)||(r.short_name||'').toLowerCase().includes(t)||(r.official_domain||'').toLowerCase().includes(t));
 if(fv==='10')rs=rs.filter(r=>r.rank&&r.rank<=10);else if(fv==='25')rs=rs.filter(r=>r.rank&&r.rank<=25);
