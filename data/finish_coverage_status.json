@@ -1,28 +1,29 @@
 {
-  "updated_at": "2026-04-30T00:54:37.000109+00:00",
+  "updated_at": "2026-05-06T23:51:18.040069+00:00",
   "coverage": {
     "schools_total": 100,
     "majors_titles": 71,
-    "popular_professors": 99,
-    "successful_alumni": 99
+    "popular_professors": 100,
+    "successful_alumni": 100
   },
-  "started_at": "2026-04-30T00:54:37.000100+00:00",
+  "started_at": "2026-05-06T23:51:18.040064+00:00",
   "before": {
     "schools_total": 100,
-    "majors_titles": 70,
-    "popular_professors": 99,
-    "successful_alumni": 99
+    "majors_titles": 71,
+    "popular_professors": 100,
+    "successful_alumni": 100
   },
   "after": {
     "schools_total": 100,
     "majors_titles": 71,
-    "popular_professors": 99,
-    "successful_alumni": 99
+    "popular_professors": 100,
+    "successful_alumni": 100
   },
   "majors_result": {
-    "processed": 30,
-    "gained": 1,
-    "errors": []
+    "processed": 0,
+    "gained": 0,
+    "errors": [],
+    "skipped": true
   },
   "people_result": {
     "processed": 0,
@@ -32,7 +33,7 @@
     "skipped": true,
     "workers": 3
   },
-  "skip_majors": false,
+  "skip_majors": true,
   "skip_people": true,
   "people_workers": 3,
   "phase": "done"

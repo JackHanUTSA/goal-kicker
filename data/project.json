@@ -6,16 +6,16 @@
     "schools_total": 100,
     "schools_with_records": 100,
     "schools_with_majors": 71,
-    "schools_with_professors": 99,
-    "schools_with_alumni": 99,
-    "overall_structured_completion_pct": 92.2,
-    "last_audited": "2026-04-30T00:54:37+00:00"
+    "schools_with_professors": 100,
+    "schools_with_alumni": 100,
+    "overall_structured_completion_pct": 92.8,
+    "last_audited": "2026-05-06T23:51:18+00:00"
   },
   "next_steps": [
-    "Fix Rutgers-New Brunswick people enrichment so professor/alumni coverage reaches 100/100",
     "Raise majors coverage from 71/100 toward full top-100 coverage",
     "Improve faculty verification to use official school pages instead of RateMyProfessors-derived fallbacks where possible",
-    "Improve alumni recency and per-major filtering in the generic enrichment pipeline"
+    "Improve alumni recency and per-major filtering in the generic enrichment pipeline",
+    "Increase depth for schools that still have partial people coverage despite non-empty professor/alumni sections"
   ],
   "paths": {
     "knowledgebase": "knowledgebase/",
