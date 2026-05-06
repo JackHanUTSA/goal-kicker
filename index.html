@@ -41,8 +41,8 @@ footer{margin-top:40px;color:var(--muted);font-size:12px;text-align:center;borde
 .det{display:none}.det.show{display:table-row}.det td{background:#101218;padding:0 12px 14px}
 .loading{text-align:center;padding:30px;color:var(--muted)}
 .hint{color:var(--muted);font-size:12px;margin-top:6px}
-.chart-wrap{display:none;animation:fade .15s ease-out}
-.chart-wrap.show{display:block}
+.toggle-wrap{display:none;animation:fade .15s ease-out}
+.toggle-wrap.show{display:block}
 @keyframes fade{from{opacity:0;transform:translateY(-3px)}to{opacity:1;transform:none}}
 .chartbox{background:var(--panel-2);border:1px solid var(--border);border-radius:8px;padding:16px;margin:8px 0 10px}
 .chart-title{font-size:13px;font-weight:600;color:var(--text);margin-bottom:6px;display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px}
@@ -54,6 +54,20 @@ svg.bubbles .b{cursor:default;transition:opacity .15s}
 svg.bubbles .b:hover{opacity:.7}
 svg.bubbles text{fill:#fff;font-size:10px;pointer-events:none;text-anchor:middle}
 .tooltip{position:fixed;background:#0c0d10;border:1px solid var(--border);padding:8px 10px;border-radius:6px;font-size:12px;color:var(--text);pointer-events:none;z-index:50;max-width:260px;box-shadow:0 4px 16px rgba(0,0,0,.4);display:none}
+.scope-note{background:rgba(245,158,11,0.08);border:1px solid rgba(245,158,11,0.3);border-radius:6px;padding:10px 12px;font-size:12px;color:#fde68a;margin-bottom:12px;line-height:1.45}
+.scope-note strong{display:inline;color:#fcd34d;text-transform:none;letter-spacing:0;font-size:12px;margin:0;font-weight:700}
+.test-grid{display:grid;grid-template-columns:1fr;gap:10px;margin-top:8px}
+.test-row{display:grid;grid-template-columns:120px 1fr 110px;align-items:center;gap:12px;font-size:12px}
+.test-row .test-name{color:var(--text);font-weight:600}
+.test-row .test-vals{color:var(--muted);text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.bar{position:relative;height:14px;background:#0e1014;border:1px solid var(--border);border-radius:7px;overflow:hidden}
+.bar .fill{position:absolute;top:0;bottom:0;background:linear-gradient(90deg,#60a5fa,#34d399);border-radius:5px;display:flex;align-items:center;justify-content:center;font-size:10px;color:#fff;font-weight:700}
+.bar .tick25,.bar .tick75{position:absolute;top:-2px;bottom:-2px;width:2px;background:#fbbf24}
+.gen-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px;margin-top:14px}
+.gen-stats .gs{background:#0e1014;border:1px solid var(--border);border-radius:6px;padding:8px 10px}
+.gen-stats .gs .v{font-size:16px;font-weight:700;color:var(--text);font-variant-numeric:tabular-nums}
+.gen-stats .gs .k{color:var(--muted);font-size:11px;margin-top:1px}
+@media(max-width:560px){.test-row{grid-template-columns:1fr;gap:4px}.test-row .test-vals{text-align:left}}
 </style></head><body><div class="wrap">
 <header><div class="eyebrow">Goal Kicker · Knowledgebase Demo</div>
 <h1>Top 100 US Universities, Structured for College Applicants</h1>
@@ -83,7 +97,7 @@ tests/test_subject_recommender.py ...                                    [100%]
 <select id="f"><option value="all">All listed</option><option value="10">Top 10</option><option value="25">Top 25</option></select>
 <span class="count" id="c"></span></div>
 <table id="t"><thead><tr><th data-s="rank" class="rk">Rank</th><th data-s="name">University</th><th class="dm">Domain</th></tr></thead><tbody id="tb"><tr class="loading"><td colspan="3">Loading from repo…</td></tr></tbody></table>
-<p class="hint">Click any row to load its admissions record. If the school has enrollment data, click the <strong>Majors</strong> box to toggle a packed-bubble chart of majors by student count.</p>
+<p class="hint">Click a row to load admissions details. When data exists, click <strong>Majors</strong> for an enrollment bubble chart, or <strong>Testing</strong> for the admitted-student SAT/ACT range.</p>
 <footer>Built from <a href="https://github.com/JackHanUTSA/goal-kicker">JackHanUTSA/goal-kicker</a> · 20 tests passing · Data fetched live from <code>main</code></footer>
 </div>
 <div id="tip" class="tooltip"></div>
@@ -93,59 +107,115 @@ const SCHOOL_COLORS={"Architecture and Planning":"#a78bfa","Engineering":"#60a5f
 let D=[],sk='rank',sd=1;
 const $=id=>document.getElementById(id),tb=$('tb'),q=$('q'),f=$('f'),c=$('c'),tip=$('tip');
 const esc=s=>s==null?'':String(s).replace(/[&<>"']/g,x=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[x]);
-const detailCache={},enrollCache={};
+const detailCache={},enrollCache={},testCache={};
 
 async function loadDetail(slug,el){
-  if(detailCache[slug]){renderDetail(slug,detailCache[slug],el);wireChart(slug,el);return}
+  if(detailCache[slug]){renderDetail(slug,detailCache[slug],el);wireToggles(slug,el);return}
   el.innerHTML='<div class="detail">Loading…</div>';
   try{const d=await fetch(RAW+'knowledgebase/universities/'+slug+'.json').then(r=>r.json());detailCache[slug]=d;renderDetail(slug,d,el)}
   catch(e){el.innerHTML='<div class="detail">No detailed record yet.</div>';return}
-  // Pre-fetch enrollment in background, then wire the chart toggle
+  // Pre-fetch enrollment + testing in parallel
+  const fetches = [];
   if(enrollCache[slug]===undefined){
-    try{const e=await fetch(RAW+'data/enrollment/'+slug+'.json').then(r=>{if(!r.ok)throw 0;return r.json()});enrollCache[slug]=e}
-    catch(_){enrollCache[slug]=null}
+    fetches.push(fetch(RAW+'data/enrollment/'+slug+'.json').then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{enrollCache[slug]=d}).catch(()=>{enrollCache[slug]=null}));
   }
-  wireChart(slug,el);
+  if(testCache[slug]===undefined){
+    fetches.push(fetch(RAW+'data/testing/'+slug+'.json').then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{testCache[slug]=d}).catch(()=>{testCache[slug]=null}));
+  }
+  await Promise.all(fetches);
+  wireToggles(slug,el);
 }
 
 function renderDetail(slug,d,el){
   const a=d.admissions||{},m=d.majors||{};
   const evCount=(d.evidence||[]).length;
   const majorsBox = m.count
-    ? '<div class="detail majors-box" data-slug="'+esc(slug)+'"><strong>Majors<span class="toggle-hint hint-text"></span></strong>'+m.count+(m.notes?' — '+esc(m.notes):'')+'</div>'
+    ? '<div class="detail majors-box" data-slug="'+esc(slug)+'"><strong>Majors<span class="toggle-hint majors-hint"></span></strong>'+m.count+(m.notes?' — '+esc(m.notes):'')+'</div>'
     : '';
-  const chartShell = '<div class="chart-wrap" id="cw-'+esc(slug)+'"></div>';
+  const majorsShell = '<div class="toggle-wrap" id="cw-'+esc(slug)+'"></div>';
+  const testingBox = a.testing_policy
+    ? '<div class="detail testing-box" data-slug="'+esc(slug)+'"><strong>Testing<span class="toggle-hint testing-hint"></span></strong>'+esc(a.testing_policy)+'</div>'
+    : '';
+  const testingShell = '<div class="toggle-wrap" id="tw-'+esc(slug)+'"></div>';
   el.innerHTML=
-    majorsBox + chartShell +
-    (a.testing_policy?'<div class="detail"><strong>Testing</strong>'+esc(a.testing_policy)+'</div>':'')+
+    majorsBox + majorsShell +
+    testingBox + testingShell +
     (a.gpa_policy?'<div class="detail"><strong>GPA</strong>'+esc(a.gpa_policy)+'</div>':'')+
     (a.course_rigor?'<div class="detail"><strong>Course rigor</strong>'+esc(a.course_rigor)+'</div>':'')+
     '<div class="detail"><strong>Evidence</strong>'+evCount+' source-cited rows · <a href="https://github.com/JackHanUTSA/goal-kicker/blob/main/knowledgebase/universities/'+esc(slug)+'.json">view JSON</a> · <a href="https://github.com/JackHanUTSA/goal-kicker/blob/main/knowledgebase/universities/'+esc(slug)+'.md">view markdown</a></div>';
 }
 
-function wireChart(slug,el){
-  const box = el.querySelector('.majors-box');
-  if(!box) return;
-  const wrap = el.querySelector('#cw-'+CSS.escape(slug));
-  const hint = box.querySelector('.hint-text');
-  const enr = enrollCache[slug];
-  if(enr){
-    box.classList.add('clickable');
-    hint.textContent = '— click to show enrollment chart';
-  } else {
-    hint.textContent = '';
-  }
-  box.addEventListener('click', () => {
-    if(!enr) return;
-    const open = wrap.classList.toggle('show');
-    box.classList.toggle('open', open);
-    hint.textContent = open ? '— click to hide chart' : '— click to show enrollment chart';
-    if(open && !wrap.dataset.rendered){
-      wrap.innerHTML = renderChart(enr);
-      wrap.dataset.rendered = '1';
-      bindBubbleHover(wrap);
+function wireToggles(slug, el){
+  // Majors toggle
+  const mbox = el.querySelector('.majors-box');
+  if(mbox){
+    const wrap = el.querySelector('#cw-'+CSS.escape(slug));
+    const hint = mbox.querySelector('.majors-hint');
+    const enr = enrollCache[slug];
+    if(enr){
+      mbox.classList.add('clickable');
+      hint.textContent = '— click to show enrollment chart';
+      mbox.addEventListener('click', () => {
+        const open = wrap.classList.toggle('show');
+        mbox.classList.toggle('open', open);
+        hint.textContent = open ? '— click to hide chart' : '— click to show enrollment chart';
+        if(open && !wrap.dataset.rendered){
+          wrap.innerHTML = renderChart(enr);
+          wrap.dataset.rendered = '1';
+          bindBubbleHover(wrap);
+        }
+      });
     }
-  });
+  }
+  // Testing toggle
+  const tbox = el.querySelector('.testing-box');
+  if(tbox){
+    const wrap = el.querySelector('#tw-'+CSS.escape(slug));
+    const hint = tbox.querySelector('.testing-hint');
+    const tst = testCache[slug];
+    if(tst){
+      tbox.classList.add('clickable');
+      hint.textContent = '— click to show admitted SAT/ACT ranges';
+      tbox.addEventListener('click', () => {
+        const open = wrap.classList.toggle('show');
+        tbox.classList.toggle('open', open);
+        hint.textContent = open ? '— click to hide ranges' : '— click to show admitted SAT/ACT ranges';
+        if(open && !wrap.dataset.rendered){
+          wrap.innerHTML = renderTesting(tst);
+          wrap.dataset.rendered = '1';
+        }
+      });
+    }
+  }
+}
+
+function renderTesting(t){
+  const ranges = (t.ranges || []).map(r => {
+    const max = r.max || 800;
+    const min = r.test.startsWith('SAT') ? 200 : 1;
+    const span = max - min;
+    const left = Math.max(0, ((r.p25 - min) / span) * 100);
+    const width = Math.max(2, ((r.p75 - r.p25) / span) * 100);
+    return '<div class="test-row"><div class="test-name">'+esc(r.test)+'</div><div class="bar"><div class="fill" style="left:'+left.toFixed(1)+'%;width:'+width.toFixed(1)+'%">'+r.p25+'–'+r.p75+'</div></div><div class="test-vals">25th–75th of '+min+'–'+max+'</div></div>';
+  }).join('');
+  const g = t.general || {};
+  const fmt = n => n==null?'—':n.toLocaleString();
+  const pct = n => n==null?'—':(n*100).toFixed(1)+'%';
+  const stats = [
+    ['Applications', fmt(g.applications)],
+    ['Admits', fmt(g.admits)],
+    ['Admit rate', pct(g.admit_rate)],
+    ['Early Action', g.early_action_admits!=null ? fmt(g.early_action_admits)+' / '+fmt(g.early_action_applicants) : null],
+    ['Regular Action', g.regular_action_admits!=null ? fmt(g.regular_action_admits)+' / '+fmt(g.regular_action_applicants) : null],
+    ['International', g.international_admits!=null ? fmt(g.international_admits)+' / '+fmt(g.international_applicants) : null],
+  ].filter(x => x[1] != null);
+  const statsHtml = stats.length ? '<div class="gen-stats">'+stats.map(s=>'<div class="gs"><div class="v">'+esc(s[1])+'</div><div class="k">'+esc(s[0])+'</div></div>').join('')+'</div>' : '';
+  return '<div class="chartbox">'+
+    '<div class="chart-title">Admitted-student test ranges — '+esc(t.class_label||'')+' <span class="src"><a href="'+esc(t.source_url)+'">source</a></span></div>'+
+    (t.scope_note ? '<div class="scope-note"><strong>Scope:</strong> '+esc(t.scope_note)+'</div>' : '')+
+    '<div class="test-grid">'+ranges+'</div>'+
+    statsHtml+
+    '</div>';
 }
 
 // Packed-bubble layout via simple non-overlap relaxation
@@ -184,10 +254,7 @@ function renderChart(d){
   const W=860,H=500;
   const maxTotal=Math.max(...majors.map(m=>m.total));
   const minR=10,maxR=58;
-  const items=majors.map(m=>{
-    const r=minR+(maxR-minR)*Math.sqrt(m.total/maxTotal);
-    return {...m,r};
-  });
+  const items=majors.map(m=>{const r=minR+(maxR-minR)*Math.sqrt(m.total/maxTotal);return {...m,r};});
   const nodes=packBubbles(items,W,H);
   const totalStudents=majors.reduce((s,m)=>s+m.total,0);
   const schools=[...new Set(majors.map(m=>m.school))];
