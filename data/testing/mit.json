@@ -1,0 +1,31 @@
+{
+  "university": "Massachusetts Institute of Technology",
+  "slug": "mit",
+  "class_label": "Class of 2029",
+  "source_url": "https://mitadmissions.org/apply/process/stats/",
+  "retrieved_at": "2026-05-06",
+  "scope": "class_wide",
+  "scope_note": "MIT does not publish admitted SAT/ACT scores broken down by major. The numbers below are MIT's published class-wide middle 50% (25th–75th percentile) ranges for the most recent admitted class.",
+  "policy": "MIT requires the SAT or the ACT for first-year applicants.",
+  "ranges": [
+    {"test": "SAT Math",       "p25": 780, "p75": 800, "max": 800},
+    {"test": "SAT ERW",        "p25": 740, "p75": 780, "max": 800},
+    {"test": "ACT Math",       "p25": 34,  "p75": 36,  "max": 36},
+    {"test": "ACT Reading",    "p25": 33,  "p75": 36,  "max": 36},
+    {"test": "ACT English",    "p25": 34,  "p75": 36,  "max": 36},
+    {"test": "ACT Composite",  "p25": 34,  "p75": 36,  "max": 36}
+  ],
+  "general": {
+    "applications": 29281,
+    "admits": 1334,
+    "admit_rate": 0.046,
+    "early_action_applicants": 12052,
+    "early_action_admits": 721,
+    "regular_action_applicants": 17229,
+    "regular_action_admits": 603,
+    "international_applicants": 6926,
+    "international_admits": 136,
+    "domestic_applicants": 22355,
+    "domestic_admits": 1198
+  }
+}
