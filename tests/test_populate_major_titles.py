@@ -307,6 +307,110 @@ class PopulateMajorTitlesTests(unittest.TestCase):
         self.assertIn("Accounting", titles)
         self.assertNotIn("Additive Manufacturing Certificate", titles)
 
+    def test_extract_titles_from_page_reads_rice_catalog_links(self):
+        html = """
+        <html><body><main>
+          <ul>
+            <li><a href="https://ga.rice.edu/programs-study/departments-programs/engineering/computer-science/">Computer Science</a></li>
+            <li><a href="https://ga.rice.edu/programs-study/departments-programs/humanities/history/">History</a></li>
+            <li><a href="https://business.rice.edu/rice-mba/full-time-mba/deferred-enrollment">Rice MBA Deferred Enrollment Program</a></li>
+          </ul>
+        </main></body></html>
+        """
+        page = {
+            "title": "Majors, Minors and Programs | Rice University",
+            "url": "https://www.rice.edu/majors-minors-and-programs",
+            "soup": BeautifulSoup(html, "lxml"),
+        }
+        record = {"slug": "rice", "official_domain": "rice.edu", "majors": {"count": 50}}
+
+        titles = populate_major_titles.extract_titles_from_page(page, record)
+
+        self.assertIn("Computer Science", titles)
+        self.assertIn("History", titles)
+        self.assertNotIn("Rice MBA Deferred Enrollment Program", titles)
+
+    def test_extract_titles_from_page_reads_santa_clara_major_cards(self):
+        html = """
+        <html><body><main>
+          <div class="card h-100">
+            <div class="card-body">
+              <h2 class="card-title">Anthropology</h2>
+              <p>Major: Anthropology<br/>Minor: Anthropology</p>
+            </div>
+          </div>
+          <div class="card h-100">
+            <div class="card-body">
+              <h2 class="card-title">Art &amp; Art History</h2>
+              <p>Majors: Art History, Studio Art<br/>Minors: Art History, Studio Art</p>
+            </div>
+          </div>
+          <div class="card h-100">
+            <div class="card-body">
+              <h2 class="card-title">Asian Studies</h2>
+              <p>Minor: Asian Studies</p>
+            </div>
+          </div>
+        </main></body></html>
+        """
+        page = {
+            "title": "Undergraduate Majors and Minors - Santa Clara University",
+            "url": "https://www.scu.edu/cas/academics/undergraduate-majors-and-minors/",
+            "soup": BeautifulSoup(html, "lxml"),
+        }
+        record = {"slug": "santa-clara", "official_domain": "scu.edu", "majors": {"count": 50}}
+
+        titles = populate_major_titles.extract_titles_from_page(page, record)
+
+        self.assertIn("Anthropology", titles)
+        self.assertIn("Art History", titles)
+        self.assertIn("Studio Art", titles)
+        self.assertNotIn("Asian Studies", titles)
+
+    def test_extract_titles_from_page_reads_ucsd_majors_section(self):
+        html = """
+        <html><body><main>
+          <h2>Majors:</h2>
+          <p>Astronomy &amp; Astrophysics Astronomy &amp; Astrophysics (B.S.)♦ Astrophysical Sciences (B.S.)♦</p>
+          <p>Anthropology Anthropology (Archaeology) (B.A.) Anthropology (Biological Anthropology) (B.A.)</p>
+          <h2>Majors/Minors</h2>
+        </main></body></html>
+        """
+        page = {
+            "title": "Undergraduate Majors at UC San Diego",
+            "url": "https://students.ucsd.edu/academics/advising/majors-minors/undergraduate-majors.html",
+            "soup": BeautifulSoup(html, "lxml"),
+        }
+        record = {"slug": "uc-san-diego", "official_domain": "ucsd.edu", "majors": {"count": 100}}
+
+        titles = populate_major_titles.extract_titles_from_page(page, record)
+
+        self.assertIn("Astronomy & Astrophysics", titles)
+        self.assertIn("Astrophysical Sciences", titles)
+        self.assertIn("Anthropology (Archaeology)", titles)
+        self.assertIn("Anthropology (Biological Anthropology)", titles)
+
+    def test_extract_titles_from_page_reads_mines_bachelor_headings(self):
+        html = """
+        <html><body><main>
+          <h3>Bachelor of Science in Applied Mathematics and Statistics</h3>
+          <h2>Bachelor of Science in BUSINESS ENGINEERING AND MANAGEMENT SCIENCE</h2>
+          <h3>Minor Program in Economics</h3>
+        </main></body></html>
+        """
+        page = {
+            "title": "Applied Mathematics and Statistics | Colorado School of Mines Catalog",
+            "url": "https://catalog.mines.edu/undergraduate/programs/ams/",
+            "soup": BeautifulSoup(html, "lxml"),
+        }
+        record = {"slug": "colorado-school-of-mines", "official_domain": "mines.edu", "majors": {"count": 18}}
+
+        titles = populate_major_titles.extract_titles_from_page(page, record)
+
+        self.assertIn("Applied Mathematics and Statistics", titles)
+        self.assertIn("BUSINESS ENGINEERING AND MANAGEMENT SCIENCE", titles)
+        self.assertNotIn("Economics", titles)
+
     def test_relevant_links_skips_noisy_program_pages(self):
         html = """
         <html><body>

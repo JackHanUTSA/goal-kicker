@@ -14,7 +14,9 @@
     "majors": [
       "https://www.mines.edu/academic-programs",
       "https://www.mines.edu/academics/",
-      "https://www.mines.edu/majors"
+      "https://www.mines.edu/majors",
+      "https://catalog.mines.edu/azindex/",
+      "https://catalog.mines.edu/undergraduate/programs/"
     ],
     "testing_policy": [],
     "general": [
@@ -28,10 +30,28 @@
     ]
   },
   "majors": {
-    "count": 0,
-    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
-    "titles": [],
-    "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "count": 60,
+    "count_method": "counted extracted undergraduate-major titles from an official page",
+    "titles": [
+      "Applied Mathematics and Statistics",
+      "Chemical and Biological Engineering",
+      "Civil and Environmental Engineering",
+      "Chemistry",
+      "Computer Science",
+      "Economics and Business",
+      "Engineering, Design and Society",
+      "Electrical Engineering",
+      "Geology and Geological Engineering",
+      "Geophysics",
+      "Mechanical Engineering",
+      "Metallurgical and Materials Engineering",
+      "Mining Engineering",
+      "Petroleum Engineering",
+      "Physics",
+      "Quantitative Biosciences and Engineering",
+      "Download Page (PDF)"
+    ],
+    "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass; titles extracted from official page: https://catalog.mines.edu/azindex/; titles extracted from official page: https://catalog.mines.edu/undergraduate/programs/",
     "confidence": "low"
   },
   "admissions": {
@@ -95,17 +115,41 @@
       "source_url": "https://en.wikipedia.org/wiki/List_of_Colorado_School_of_Mines_people",
       "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
       "retrieved_at": "2026-04-25T20:44:42.432196+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 60 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://catalog.mines.edu/azindex/",
+      "source_excerpt": "Catalog A-Z Index; Print Options; Academic Regulations; Additive Manufacturing; Admissions Procedures; Advanced Energy Systems; Aerospace Studies; Applied Mathematics and Statistics; Carbon Capture, Utilization, and Storage; Chemical and Biological Engineering; Chemistry; Civil and Environmental Engineering",
+      "retrieved_at": "2026-05-07T07:59:42.265490+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 18 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://catalog.mines.edu/undergraduate/programs/",
+      "source_excerpt": "Print; Applied Mathematics and Statistics; Chemical and Biological Engineering; Civil and Environmental Engineering; Chemistry; Computer Science; Economics and Business; Engineering, Design and Society; Electrical Engineering; Geology and Geological Engineering; Geophysics; Mechanical Engineering",
+      "retrieved_at": "2026-05-07T08:01:48.912505+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 17 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://catalog.mines.edu/undergraduate/programs/",
+      "source_excerpt": "Applied Mathematics and Statistics; Chemical and Biological Engineering; Civil and Environmental Engineering; Chemistry; Computer Science; Economics and Business; Engineering, Design and Society; Electrical Engineering; Geology and Geological Engineering; Geophysics; Mechanical Engineering; Metallurgical and Materials Engineering",
+      "retrieved_at": "2026-05-07T08:06:56.422491+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-30T00:48:00.094214+00:00",
+    "last_verified_at": "2026-05-07T08:02:51.370874+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.recommendations",
       "admissions.essays"
     ],
     "warnings": [
-      "Major titles still need manual follow-up; no reliable official title list was extracted in this pass.",
+      "Major titles extracted from official school source (17 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
       "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page.",

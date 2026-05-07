@@ -12,7 +12,8 @@
     "majors": [
       "https://www.scu.edu/404?targetURL=https%3A%2F%2F%2Facademic-programs%2F",
       "https://www.scu.edu/academics/",
-      "https://www.scu.edu/academics/undergraduate-programs/"
+      "https://www.scu.edu/academics/undergraduate-programs/",
+      "https://www.scu.edu/cas/academics/undergraduate-majors-and-minors/"
     ],
     "testing_policy": [],
     "general": [
@@ -28,8 +29,38 @@
   "majors": {
     "count": 50,
     "count_method": "explicit official page sentence",
-    "titles": [],
-    "notes": "explicit official page sentence",
+    "titles": [
+      "Anthropology",
+      "Art History",
+      "Studio Art",
+      "Biology",
+      "Chemistry",
+      "Biochemistry",
+      "Classics",
+      "Communication",
+      "Economics",
+      "English",
+      "Environmental Studies",
+      "Environmental Science",
+      "Ethnic Studies",
+      "Gender and Sexuality Studies",
+      "History",
+      "Mathematics",
+      "Computer Science",
+      "French & Francophone Studies",
+      "Italian Studies",
+      "Spanish Studies",
+      "Music",
+      "Philosophy",
+      "Physics",
+      "Engineering Physics",
+      "Political Science",
+      "Public Health",
+      "Religious Studies",
+      "Sociology",
+      "Theatre Arts"
+    ],
+    "notes": "explicit official page sentence; titles extracted from official page: https://www.scu.edu/cas/academics/undergraduate-majors-and-minors/",
     "confidence": "medium"
   },
   "admissions": {
@@ -101,17 +132,25 @@
       "source_url": "https://en.wikipedia.org/wiki/List_of_Santa_Clara_University_people",
       "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
       "retrieved_at": "2026-04-25T22:10:22.188745+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 29 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://www.scu.edu/cas/academics/undergraduate-majors-and-minors/",
+      "source_excerpt": "Anthropology; Art History; Studio Art; Biology; Chemistry; Biochemistry; Classics; Communication; Economics; English; Environmental Studies; Environmental Science",
+      "retrieved_at": "2026-05-07T08:06:53.255743+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-30T00:37:07.758846+00:00",
+    "last_verified_at": "2026-05-07T07:59:38.516158+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.recommendations",
       "admissions.essays"
     ],
     "warnings": [
-      "Major titles still need manual follow-up; no reliable official title list was extracted in this pass.",
+      "Major titles extracted from official school source (29 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
       "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",

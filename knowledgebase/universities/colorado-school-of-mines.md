@@ -20,14 +20,35 @@ status: phase-5-auto-enriched
 - https://www.mines.edu/academic-programs
 - https://www.mines.edu/academics/
 - https://www.mines.edu/majors
+- https://catalog.mines.edu/azindex/
+- https://catalog.mines.edu/undergraduate/programs/
 
 ## Majors
-- Count: 0
-- Count method: auto-enrichment could not derive a reliable major/program count from the pages reached in this pass
-- Titles extracted: 0
+- Count: 60
+- Count method: counted extracted undergraduate-major titles from an official page
+- Titles extracted: 17
+
+### Titles
+- Applied Mathematics and Statistics
+- Chemical and Biological Engineering
+- Civil and Environmental Engineering
+- Chemistry
+- Computer Science
+- Economics and Business
+- Engineering, Design and Society
+- Electrical Engineering
+- Geology and Geological Engineering
+- Geophysics
+- Mechanical Engineering
+- Metallurgical and Materials Engineering
+- Mining Engineering
+- Petroleum Engineering
+- Physics
+- Quantitative Biosciences and Engineering
+- Download Page (PDF)
 
 ## Warnings
-- Major titles still need manual follow-up; no reliable official title list was extracted in this pass.
+- Major titles extracted from official school source (17 titles).
 - Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.
 - GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.
 - Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page.

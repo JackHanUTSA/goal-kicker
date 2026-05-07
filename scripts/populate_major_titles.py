@@ -1,6 +1,7 @@
 #!/usr/bin/env /usr/bin/python3
 from __future__ import annotations
 
+import argparse
 import json
 import re
 import time
@@ -75,12 +76,14 @@ SPECIAL_MAJOR_URL_HINTS = {
     "duke": ["https://admissions.duke.edu/academic-possibilities/"],
     "rutgers-new-brunswick": ["https://www.rutgers.edu/academics/explore-undergraduate-programs?field_location=654"],
     "uconn": ["https://catalog.uconn.edu/undergraduate/programs/"],
+    "uc-san-diego": ["https://students.ucsd.edu/academics/advising/majors-minors/undergraduate-majors.html"],
     "upenn": [
         "https://apps.sas.upenn.edu/annex/majors/view/frame",
         "https://academics.seas.upenn.edu/ugrad/student-handbook/programs-options/",
     ],
     "vanderbilt": ["https://www.vanderbilt.edu/academics/program-finder/?degrees=bachelors"],
     "university-of-washington": ["https://admit.washington.edu/academics/majors/"],
+    "colorado-school-of-mines": ["https://catalog.mines.edu/undergraduate/programs/"],
     "wake-forest": ["https://admissions.wfu.edu/academics/majors-minors/"],
     "wisconsin-madison": ["https://guide.wisc.edu/undergraduate/"],
 }
@@ -210,10 +213,19 @@ def is_good_title(title: str) -> bool:
         return False
     if title.startswith("College of ") or title.startswith("School of ") or title.startswith("Department of "):
         return False
-    if any(term in lowered for term in BAD_TITLE_SUBSTRINGS):
-        return False
-    if any(term in lowered for term in BAD_LEVEL_TERMS):
-        return False
+    for term in BAD_TITLE_SUBSTRINGS:
+        if " " in term:
+            if term in lowered:
+                return False
+        elif re.search(rf"\b{re.escape(term)}\b", lowered):
+            return False
+    for term in BAD_LEVEL_TERMS:
+        cleaned_term = term.strip()
+        if cleaned_term.replace('.', '').isalnum() and len(cleaned_term.replace('.', '')) <= 5:
+            if re.search(rf"\b{re.escape(cleaned_term)}\b", lowered):
+                return False
+        elif term in lowered:
+            return False
     if re.fullmatch(r"[A-Z]{1,5}|[A-Za-z]{1,3}", title):
         return False
     return True
@@ -441,6 +453,9 @@ def extract_titles_from_page(page: dict, record: dict) -> list[str]:
     if record["slug"] == "uconn" and "azindex" in page["url"]:
         return []
 
+    if record["slug"] == "colorado-school-of-mines" and "azindex" in page["url"]:
+        return []
+
     if record["slug"] == "uconn" and "/undergraduate/programs/" in page["url"]:
         uconn_titles: list[str] = []
         for anchor in main.find_all("a", href=True):
@@ -526,6 +541,85 @@ def extract_titles_from_page(page: dict, record: dict) -> list[str]:
                 add_candidate(lmu_titles, title_node.get_text(" ", strip=True))
         if lmu_titles:
             return dedupe_keep_order(lmu_titles)
+
+    if record["slug"] == "rice" and "rice.edu/majors-minors-and-programs" in page["url"]:
+        rice_titles: list[str] = []
+        for anchor in main.find_all("a", href=True):
+            href = urljoin(page["url"], anchor["href"])
+            if "ga.rice.edu/programs-study/departments-programs/" not in href:
+                continue
+            add_candidate(rice_titles, anchor.get_text(" ", strip=True))
+        if rice_titles:
+            return dedupe_keep_order(rice_titles)
+
+    if record["slug"] == "santa-clara" and "undergraduate-majors-and-minors" in page["url"]:
+        scu_titles: list[str] = []
+        for card in main.select("div.card"):
+            card_text = strip_text(card.get_text(" ", strip=True))
+            major_match = re.search(r"\bMajors?\s*:\s*(.+?)(?:\bMinors?\s*:|$)", card_text, re.I)
+            if not major_match:
+                continue
+            major_blob = strip_text(major_match.group(1))
+            if not major_blob:
+                continue
+            if "," in major_blob:
+                for piece in major_blob.split(","):
+                    add_candidate(scu_titles, piece)
+            else:
+                add_candidate(scu_titles, major_blob)
+        if scu_titles:
+            return dedupe_keep_order(scu_titles)
+
+    if record["slug"] == "uc-san-diego" and "students.ucsd.edu/academics/advising/majors-minors/undergraduate-majors.html" in page["url"]:
+        ucsd_titles: list[str] = []
+        start = None
+        for heading in main.find_all("h2"):
+            if normalize_title(heading.get_text(" ", strip=True)).lower().startswith("majors"):
+                start = heading
+                break
+        if start is not None:
+            sibling = start.find_next_sibling()
+            while sibling and isinstance(sibling, Tag):
+                sibling_name = getattr(sibling, "name", "")
+                sibling_text = normalize_title(sibling.get_text(" ", strip=True)) if sibling_name in HEADING_TAGS else ""
+                if sibling_name == "h2" and not sibling_text.lower().startswith("majors"):
+                    break
+                if sibling_name == "p":
+                    text = strip_text(sibling.get_text(" ", strip=True))
+                    for match in re.findall(r"([A-Z][A-Za-z0-9&,:/'’()\- ]+?)\s*\((?:B\.A\.|B\.S\.|B\.F\.A\.|B\.I\.A\.|B\.S\./M\.S\.|B\.A\./M\.A\.)[^)]*\)[*†‡♦◊]*", text):
+                        cleaned_match = normalize_title(match)
+                        repeated_match = re.fullmatch(r"(.+?)\s+\1", cleaned_match)
+                        if repeated_match:
+                            cleaned_match = repeated_match.group(1)
+                        repeated_with_suffix = re.fullmatch(r"(.+?)\s+\1(\s*\(.+\))", cleaned_match)
+                        if repeated_with_suffix:
+                            cleaned_match = f"{repeated_with_suffix.group(1)}{repeated_with_suffix.group(2)}"
+                        add_candidate(ucsd_titles, cleaned_match)
+                sibling = sibling.find_next_sibling()
+        if ucsd_titles:
+            return dedupe_keep_order(ucsd_titles)
+
+    if record["slug"] == "colorado-school-of-mines" and "/undergraduate/programs/" in page["url"]:
+        mines_titles: list[str] = []
+        if page["url"].rstrip("/").endswith("/undergraduate/programs"):
+            for anchor in main.find_all("a", href=True):
+                href = urljoin(page["url"], anchor["href"])
+                anchor_text = strip_text(anchor.get_text(" ", strip=True))
+                if anchor_text.lower() == "print":
+                    continue
+                if "/undergraduate/programs/" not in href or href.rstrip("/") == page["url"].rstrip("/"):
+                    continue
+                if any(term in href.lower() for term in ("additionalprograms", "univhonorsandscholarsprogram", "hass/")):
+                    continue
+                add_candidate(mines_titles, anchor_text)
+        for heading in main.find_all(["h2", "h3"]):
+            text = normalize_title(heading.get_text(" ", strip=True))
+            if not text.lower().startswith("bachelor of "):
+                continue
+            degree_title = re.sub(r"^Bachelor of [A-Za-z./ ]+ in ", "", text, flags=re.I)
+            add_candidate(mines_titles, degree_title)
+        if mines_titles:
+            return dedupe_keep_order(mines_titles)
 
     for item in main.select(".item, .card, .program, .program-card, .program-item, .major-item, .tile, .result, .link-container"):
         title_node = item.select_one(".title, .text--title .title")
@@ -861,7 +955,15 @@ def update_record(record: dict) -> tuple[dict, bool, str | None]:
 
 
 def main() -> int:
+    parser = argparse.ArgumentParser(description="Populate majors.titles from official school sources.")
+    parser.add_argument("--school", action="append", dest="schools", help="School slug to update (repeatable).")
+    args = parser.parse_args()
+
     paths = sorted(UNI_DIR.glob("*.json"), key=lambda path: json.loads(path.read_text()).get("rank") or 999)
+    all_paths = list(paths)
+    if args.schools:
+        allowed = set(args.schools)
+        paths = [path for path in paths if path.stem in allowed]
     updated: list[dict] = []
     populated = 0
     for path in paths:
@@ -878,12 +980,28 @@ def main() -> int:
                 "titles_source_url": source_url,
             }
         )
+    summary_results: list[dict] = []
+    summary_populated = 0
+    for path in all_paths:
+        record = json.loads(path.read_text())
+        titles = record.get("majors", {}).get("titles", [])
+        if titles:
+            summary_populated += 1
+        summary_results.append(
+            {
+                "slug": record["slug"],
+                "rank": record.get("rank"),
+                "majors_count": record.get("majors", {}).get("count"),
+                "titles_count": len(titles),
+                "titles_source_url": next(iter(record.get("source_urls", {}).get("majors", [])), None),
+            }
+        )
     summary = {
         "generated_at": now_iso(),
-        "schools_total": len(updated),
-        "schools_with_titles": populated,
-        "schools_without_titles": len(updated) - populated,
-        "results": updated,
+        "schools_total": len(summary_results),
+        "schools_with_titles": summary_populated,
+        "schools_without_titles": len(summary_results) - summary_populated,
+        "results": summary_results,
     }
     ROLLUP_PATH.parent.mkdir(parents=True, exist_ok=True)
     ROLLUP_PATH.write_text(json.dumps(summary, indent=2))
