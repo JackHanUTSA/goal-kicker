@@ -67,7 +67,7 @@ SPECIAL_MAJOR_URL_HINTS = {
     "carnegie-mellon": ["https://www.cmu.edu/admission/majors-programs"],
     "case-western": ["https://case.edu/programs/"],
     "fordham": ["https://www.fordham.edu/academics/programs-and-degrees/undergraduate-programs/"],
-    "georgetown": ["https://www.georgetown.edu/undergraduate-admissions/academics/"],
+    "georgetown": ["https://www.georgetown.edu/academics/areas-of-study/"],
     "loyola-marymount": ["https://www.lmu.edu/academics/degrees/"],
     "stanford": [
         "https://majors.stanford.edu/majors/text-only-lists-majors-and-offerings",

@@ -13,6 +13,7 @@
       "https://www.georgetown.edu/apply"
     ],
     "majors": [
+      "https://www.georgetown.edu/academics/areas-of-study/",
       "https://uadmissions.georgetown.edu/explore/academics/",
       "https://www.georgetown.edu/academics",
       "https://www.georgetown.edu/majors"
@@ -39,11 +40,79 @@
     ]
   },
   "majors": {
-    "count": 0,
-    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
-    "titles": [],
-    "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
-    "confidence": "low"
+    "count": 67,
+    "count_method": "counted official Georgetown Areas of Study program cards tagged Major and Bachelor’s",
+    "titles": [
+      "Accounting",
+      "American Musical Cultures",
+      "American Studies",
+      "Anthropology",
+      "Arabic",
+      "Art History",
+      "Art",
+      "Biochemistry",
+      "Biological Physics",
+      "Biology of Global Health",
+      "Biology",
+      "Black Studies",
+      "Business & Global Affairs",
+      "Chemistry",
+      "Chinese",
+      "Classics",
+      "Comparative Literature",
+      "Computer Science",
+      "Culture & Politics (CULP)",
+      "Economics",
+      "Engineering (dual-degree offered through Columbia)",
+      "English",
+      "Environmental Biology",
+      "Finance",
+      "French",
+      "German",
+      "Global Business (GBUS)",
+      "Global Health",
+      "Global Medieval Studies",
+      "Government",
+      "Health Care Management & Policy",
+      "History",
+      "Human Science",
+      "Interdisciplinary Studies",
+      "International Business Regional Studies",
+      "International Business, Language, & Culture (IBLC)",
+      "International Economics (IECO)",
+      "International History (IHIS)",
+      "International Political Economy (IPEC)",
+      "International Political Economy & Business",
+      "International Politics (IPOL)",
+      "Italian",
+      "Japanese",
+      "Justice & Peace Studies",
+      "Korean",
+      "Linguistics",
+      "Management",
+      "Marketing",
+      "Mathematics",
+      "Neurobiology",
+      "Nursing",
+      "Operations & Analytics",
+      "Philosophy",
+      "Physics",
+      "Political Economy",
+      "Portuguese",
+      "Psychology",
+      "Public Policy (JPPP)",
+      "Regional & Comparative Studies (RCST)",
+      "Russian",
+      "Science, Technology & International Affairs (STIA)",
+      "Sociology",
+      "Spanish & Portuguese Studies",
+      "Spanish",
+      "Theater & Performance Studies",
+      "Theology & Religious Studies",
+      "Women’s & Gender Studies"
+    ],
+    "notes": "Titles extracted from the official Georgetown Areas of Study page by counting browser-rendered program cards tagged Major and Bachelor’s.",
+    "confidence": "medium"
   },
   "admissions": {
     "application_platform": null,
@@ -88,11 +157,19 @@
       "source_url": "https://today.advancement.georgetown.edu/health-magazine/community-health/2022/reflections-on-health-with-lori-wilson-md-c88-m94/",
       "source_excerpt": "Extracted from official Georgetown Advancement story pages on today.advancement.georgetown.edu.",
       "retrieved_at": "2026-05-07T02:02:22+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 67 official undergraduate major titles from the official Georgetown areas-of-study listing.",
+      "classification": "official_recommendation",
+      "source_url": "https://www.georgetown.edu/academics/areas-of-study/",
+      "source_excerpt": "Accounting; American Musical Cultures; American Studies; Anthropology; Arabic; Art History; Art; Biochemistry; Biological Physics; Biology of Global Health; Biology; Black Studies",
+      "retrieved_at": "2026-05-07T12:37:26Z"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-05-07T02:39:12.407943+00:00",
-    "confidence": "phase-5-auto-enriched",
+    "last_verified_at": "2026-05-07T12:37:26Z",
+    "confidence": "phase-5-manual-repair",
     "unknown_fields": [
       "admissions.course_rigor",
       "admissions.recommendations",
@@ -100,11 +177,10 @@
       "competitive_signals.projects_research"
     ],
     "warnings": [
-      "Major titles still need manual follow-up; no reliable official title list was extracted in this pass.",
+      "Major titles extracted from Georgetown’s official Areas of Study page by filtering browser-rendered program cards for Bachelor’s programs tagged Major.",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
       "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",
-      "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page.",
       "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data.",
       "School-people enrichment includes school-specific override data sourced from official university domains for populated sections."
     ]
@@ -200,7 +276,7 @@
         {
           "rank": 1,
           "name": "Lori Wilson",
-          "bio": "Georgetown says Lori Wilson, MD (C\u201988, M\u201994) is professor of surgery, associate dean of faculty development and diversity, and chief of the Division of Surgical Oncology at Howard University.",
+          "bio": "Georgetown says Lori Wilson, MD (C’88, M’94) is professor of surgery, associate dean of faculty development and diversity, and chief of the Division of Surgical Oncology at Howard University.",
           "description": "Surgical oncologist, professor, and academic medical leader.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -219,7 +295,7 @@
         {
           "rank": 2,
           "name": "Christopher Rutledge",
-          "bio": "Georgetown says Christopher Rutledge (SFS\u201989, Parent\u201923) has spent more than 25 years in the nonprofit sector, working in refugee resettlement, criminal justice reform, and homelessness advocacy.",
+          "bio": "Georgetown says Christopher Rutledge (SFS’89, Parent’23) has spent more than 25 years in the nonprofit sector, working in refugee resettlement, criminal justice reform, and homelessness advocacy.",
           "description": "Nonprofit and social-justice leader.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -238,7 +314,7 @@
         {
           "rank": 3,
           "name": "Tyrone Turner",
-          "bio": "Georgetown says Tyrone Turner (C\u201986, G\u201989) is currently a visuals editor and photojournalist at WAMU and also contributes to NPR, building a career around human-centered storytelling and social justice.",
+          "bio": "Georgetown says Tyrone Turner (C’86, G’89) is currently a visuals editor and photojournalist at WAMU and also contributes to NPR, building a career around human-centered storytelling and social justice.",
           "description": "Photojournalist, visuals editor, and NPR contributor.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -257,7 +333,7 @@
         {
           "rank": 4,
           "name": "Linda Schakel",
-          "bio": "Georgetown says Linda Schakel (L\u201986) became a retired partner at Ballard Spahr LLP after years specializing in tax policy and tax-exempt financing and also served in the U.S. Treasury\u2019s Office of Tax Policy.",
+          "bio": "Georgetown says Linda Schakel (L’86) became a retired partner at Ballard Spahr LLP after years specializing in tax policy and tax-exempt financing and also served in the U.S. Treasury’s Office of Tax Policy.",
           "description": "Attorney, former Ballard Spahr partner, and tax-policy specialist.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -276,7 +352,7 @@
         {
           "rank": 5,
           "name": "Harrison Beacher",
-          "bio": "Georgetown says Harrison Beacher (C\u201908) is co-owner of Coalition Properties Group, identified in the story as the top Black-owned brokerage firm in the nation according to the National Association of Real Estate Brokers.",
+          "bio": "Georgetown says Harrison Beacher (C’08) is co-owner of Coalition Properties Group, identified in the story as the top Black-owned brokerage firm in the nation according to the National Association of Real Estate Brokers.",
           "description": "Real-estate entrepreneur and brokerage executive.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -295,7 +371,7 @@
         {
           "rank": 6,
           "name": "Bidtah Becker",
-          "bio": "Georgetown says Bidtah Becker (SFS\u201993) serves as chief legal counsel for the Navajo Nation Office of the President and Vice President and is a go-to expert on natural resources and water issues.",
+          "bio": "Georgetown says Bidtah Becker (SFS’93) serves as chief legal counsel for the Navajo Nation Office of the President and Vice President and is a go-to expert on natural resources and water issues.",
           "description": "Chief legal counsel to the Navajo Nation leadership.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -314,7 +390,7 @@
         {
           "rank": 7,
           "name": "Eric Ji Sun Wu",
-          "bio": "Georgetown says Eric Ji Sun Wu (SFS\u201917) is co-founder and CEO of Sobo Foods and previously co-founded Gainful, linking his Georgetown STIA studies to food sustainability and entrepreneurship.",
+          "bio": "Georgetown says Eric Ji Sun Wu (SFS’17) is co-founder and CEO of Sobo Foods and previously co-founded Gainful, linking his Georgetown STIA studies to food sustainability and entrepreneurship.",
           "description": "Food entrepreneur and startup founder.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -333,7 +409,7 @@
         {
           "rank": 8,
           "name": "Mary Byrne Welch",
-          "bio": "Georgetown says Mary Byrne Welch (NHS\u201997, G\u201999) dedicated her nursing career to women facing breast and gynecologic cancers and later shifted toward cancer prevention and obesity-related risk reduction.",
+          "bio": "Georgetown says Mary Byrne Welch (NHS’97, G’99) dedicated her nursing career to women facing breast and gynecologic cancers and later shifted toward cancer prevention and obesity-related risk reduction.",
           "description": "Oncology nurse and cancer-prevention advocate.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -352,7 +428,7 @@
         {
           "rank": 9,
           "name": "Luisa Santos",
-          "bio": "Georgetown says Luisa Santos (C\u201914) serves on the Miami-Dade County Public Schools District 9 Board, started Lulu\u2019s Ice Cream as an entrepreneur, and later moved into public service focused on educational equity.",
+          "bio": "Georgetown says Luisa Santos (C’14) serves on the Miami-Dade County Public Schools District 9 Board, started Lulu’s Ice Cream as an entrepreneur, and later moved into public service focused on educational equity.",
           "description": "Public official, entrepreneur, and education-equity advocate.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -371,7 +447,7 @@
         {
           "rank": 10,
           "name": "Ebou Cham",
-          "bio": "Georgetown says Ebou Cham (G\u201914) is the interim chief certified registered nurse anesthetist at Harborview Medical Center in Seattle, balancing administrative and clinical responsibilities at a major Level 1 trauma center.",
+          "bio": "Georgetown says Ebou Cham (G’14) is the interim chief certified registered nurse anesthetist at Harborview Medical Center in Seattle, balancing administrative and clinical responsibilities at a major Level 1 trauma center.",
           "description": "Nurse anesthesia leader and interim chief CRNA.",
           "wikipedia_title": null,
           "wikipedia_url": null,

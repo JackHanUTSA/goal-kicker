@@ -1,18 +1,20 @@
 # Goal Kicker Status Dashboard
 
-Last audited: 2026-05-07 10:25 UTC
+Last audited: 2026-05-07 12:37 UTC
 
 ## Current completion
 
 - Schools in scope: 100
 - School records present: 100 / 100
-- Majors coverage present: 83 / 100
+- Majors coverage present: 85 / 100
 - Professor coverage present: 100 / 100
 - Alumni coverage present: 100 / 100
-- Overall structured completion estimate: 95.7%
+- Overall structured completion estimate: 96.2%
 
 ## What changed most recently
 
+- Added official-source majors-title coverage for georgetown via the official Georgetown Areas of Study browser-rendered Bachelor’s program cards tagged Major
+- Added official-source majors-title coverage for uchicago via the official UChicago Areas of Study list entries marked M for majors
 - Added official-source majors-title coverage for vanderbilt via the official Vanderbilt Program Finder browser-rendered bachelor-results view
 - Added official-source majors-title coverage for northeastern via the official Northeastern Undergraduate Admissions Areas of Study browser-rendered catalog cards
 - Repaired the remaining critical verifier gaps for columbia (cross-verified GPA policy note) and johns-hopkins (official testing requirement)
@@ -25,12 +27,11 @@ Last audited: 2026-05-07 10:25 UTC
 
 ## Remaining major gaps
 
-17 schools still need majors-title coverage:
+15 schools still need majors-title coverage:
 
 - baylor
 - drexel
 - florida-state
-- georgetown
 - indiana-bloomington
 - michigan-state
 - michigan
@@ -38,7 +39,6 @@ Last audited: 2026-05-07 10:25 UTC
 - tulane
 - uc-berkeley
 - uc-irvine
-- uchicago
 - unc-chapel-hill
 - university-of-georgia
 - university-of-san-diego
@@ -55,7 +55,7 @@ Every school now has at least:
 
 ## Recommended next focus
 
-1. Push majors coverage from 83 to 90+
-2. Target the remaining blocked/JS-heavy majors pages (especially Georgetown, Michigan, UNC, Temple, and WashU)
+1. Push majors coverage from 85 toward 90+
+2. Target the remaining blocked/JS-heavy majors pages (especially Michigan, UNC, Temple, UC Berkeley, and WashU)
 3. Improve source quality for professor verification beyond RateMyProfessors-derived fallbacks
 4. Improve recent-alumni and per-major alumni filtering

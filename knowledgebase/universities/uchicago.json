@@ -45,8 +45,69 @@
   "majors": {
     "count": 70,
     "count_method": "official UChicago Areas of Study page says the College includes nearly 70 majors and 60 minors",
-    "titles": [],
-    "notes": "official UChicago Areas of Study page says the College includes nearly 70 majors and 60 minors",
+    "titles": [
+      "Anthropology",
+      "Archaeology",
+      "Art History",
+      "Astrophysics",
+      "Biological Chemistry",
+      "Biological Sciences",
+      "Chemistry",
+      "Cinema and Media Studies",
+      "Classical Studies",
+      "Climate and Sustainable Growth",
+      "Cognitive Science",
+      "Comparative Human Development",
+      "Comparative Literature",
+      "Computational and Applied Mathematics",
+      "Computer Science",
+      "Creative Writing",
+      "Data Science",
+      "East Asian Languages and Civilizations",
+      "Economics",
+      "Engineering, Molecular",
+      "English Language and Literature",
+      "Environment, Geography, and Urbanization",
+      "Environmental Science",
+      "French, Romance Languages and Literatures",
+      "Fundamentals: Issues and Texts",
+      "Gender and Sexuality Studies",
+      "Geophysical Sciences",
+      "Germanic Studies",
+      "Global Studies",
+      "History",
+      "History, Philosophy, and Social Studies of Science and Medicine",
+      "Human Rights",
+      "Inquiry and Research in the Humanities",
+      "Italian, Romance Languages and Literatures",
+      "Jewish Studies",
+      "Latin American and Caribbean Studies",
+      "Latin American and Iberian Languages, Romance Languages and Literatures",
+      "Law, Letters, and Society",
+      "Linguistics",
+      "Mathematics",
+      "Media Arts and Design",
+      "Medieval Studies",
+      "Middle Eastern Studies",
+      "Music",
+      "Neuroscience",
+      "Philosophy",
+      "Physics",
+      "Political Science",
+      "Psychology",
+      "Public Policy Studies",
+      "Race, Diaspora and Indigeneity (RDI)",
+      "Religious Studies",
+      "Romance Languages and Literatures",
+      "Russian and East European Studies",
+      "Sociology",
+      "South Asian Languages and Civilizations",
+      "Spanish, Romance Languages and Literatures",
+      "Statistics",
+      "Theater and Performance Studies",
+      "Visual Arts"
+    ],
+    "notes": "Official UChicago Areas of Study page says the College includes nearly 70 majors and 60 minors; titles below were extracted from entries marked M (major) on that page.",
     "confidence": "medium"
   },
   "admissions": {
@@ -126,14 +187,22 @@
       "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Chicago_alumni",
       "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, and ranked by pageviews. Major-specific and last-10-years filtering requires stronger school-specific alumni sources than this generic pipeline currently has.",
       "retrieved_at": "2026-04-27T07:06:07.518446+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 60 official undergraduate major titles from the official UChicago areas-of-study listing.",
+      "classification": "official_recommendation",
+      "source_url": "https://collegeadmissions.uchicago.edu/academics/areas-of-study/",
+      "source_excerpt": "Anthropology; Archaeology; Art History; Astrophysics; Biological Chemistry; Biological Sciences; Chemistry; Cinema and Media Studies; Classical Studies; Climate and Sustainable Growth; Cognitive Science; Comparative Human Development",
+      "retrieved_at": "2026-05-07T12:37:26Z"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-30T00:16:07.777691+00:00",
-    "confidence": "phase-4-top10-structured",
+    "last_verified_at": "2026-05-07T12:37:26Z",
+    "confidence": "phase-5-manual-repair",
     "unknown_fields": [],
     "warnings": [
-      "Major titles still need manual follow-up; no reliable official title list was extracted in this pass.",
+      "Major titles extracted from the official UChicago Areas of Study list by keeping entries marked M for majors.",
       "Phase 4 structured upgrade applied to top-10 expansion schools.",
       "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
@@ -520,7 +589,7 @@
         {
           "rank": 1,
           "name": "Satya Nadella",
-          "bio": "University of Chicago News says Satya Nadella, MBA\u201997, was promoted to CEO of Microsoft after 22 years at the company and after leading its Cloud and Enterprise group.",
+          "bio": "University of Chicago News says Satya Nadella, MBA’97, was promoted to CEO of Microsoft after 22 years at the company and after leading its Cloud and Enterprise group.",
           "description": "Microsoft CEO and technology executive.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -539,7 +608,7 @@
         {
           "rank": 2,
           "name": "Roger Ebert",
-          "bio": "University of Chicago News says Roger Ebert, X\u201970, became one of the world\u2019s most influential film critics and served for 37 years as a Graham School film lecturer.",
+          "bio": "University of Chicago News says Roger Ebert, X’70, became one of the world’s most influential film critics and served for 37 years as a Graham School film lecturer.",
           "description": "Pulitzer-winning film critic and longtime UChicago lecturer.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -553,12 +622,12 @@
           "source_url": "https://news.uchicago.edu/story/roger-ebert-x70-film-critic-and-longtime-graham-school-lecturer-1942-2013",
           "source_confidence": "high",
           "evidence_quality_label": "official_profile",
-          "evidence_quality_note": "Official university news story with explicit UChicago alumni notation and substantive career summary; accessible page metadata surfaces X\u201970 rather than a completed degree year."
+          "evidence_quality_note": "Official university news story with explicit UChicago alumni notation and substantive career summary; accessible page metadata surfaces X’70 rather than a completed degree year."
         },
         {
           "rank": 3,
           "name": "John Paul Stevens",
-          "bio": "University of Chicago News says John Paul Stevens, AB\u201941, served on the U.S. Supreme Court for 34 years after building a distinguished legal career in Chicago.",
+          "bio": "University of Chicago News says John Paul Stevens, AB’41, served on the U.S. Supreme Court for 34 years after building a distinguished legal career in Chicago.",
           "description": "U.S. Supreme Court justice.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -577,7 +646,7 @@
         {
           "rank": 4,
           "name": "David Axelrod",
-          "bio": "UChicago Magazine describes David Axelrod, AB\u201976, as a political strategist, College alumnus, and Institute of Politics director.",
+          "bio": "UChicago Magazine describes David Axelrod, AB’76, as a political strategist, College alumnus, and Institute of Politics director.",
           "description": "Political strategist and Institute of Politics director.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -596,7 +665,7 @@
         {
           "rank": 5,
           "name": "Philip Glass",
-          "bio": "University of Chicago News identifies Philip Glass, AB\u201956, as a renowned composer and says his memoir recounts his formative teenage years at UChicago.",
+          "bio": "University of Chicago News identifies Philip Glass, AB’56, as a renowned composer and says his memoir recounts his formative teenage years at UChicago.",
           "description": "Renowned composer.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -615,7 +684,7 @@
         {
           "rank": 6,
           "name": "Claudia Goldin",
-          "bio": "UChicago Magazine describes Claudia Goldin, AM\u201969, PhD\u201972, as a Nobel Memorial Prize-winning economist.",
+          "bio": "UChicago Magazine describes Claudia Goldin, AM’69, PhD’72, as a Nobel Memorial Prize-winning economist.",
           "description": "Nobel Prize-winning economist.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -634,7 +703,7 @@
         {
           "rank": 7,
           "name": "Katherine Dunham",
-          "bio": "UChicago Magazine says Katherine Dunham, PhB\u201936, was a choreographer, anthropologist, and artistic innovator whose journey began at the University.",
+          "bio": "UChicago Magazine says Katherine Dunham, PhB’36, was a choreographer, anthropologist, and artistic innovator whose journey began at the University.",
           "description": "Choreographer, anthropologist, and artistic innovator.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -653,7 +722,7 @@
         {
           "rank": 8,
           "name": "Santa Ono",
-          "bio": "UChicago Magazine describes Santa Ono, AB\u201984, as an immunologist and the 15th president of the University of Michigan.",
+          "bio": "UChicago Magazine describes Santa Ono, AB’84, as an immunologist and the 15th president of the University of Michigan.",
           "description": "Immunologist and university president.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -672,7 +741,7 @@
         {
           "rank": 9,
           "name": "Eve L. Ewing",
-          "bio": "UChicago Magazine describes Eve L. Ewing, AB\u201908, as an author, College alumna, and SSA assistant professor.",
+          "bio": "UChicago Magazine describes Eve L. Ewing, AB’08, as an author, College alumna, and SSA assistant professor.",
           "description": "Author, scholar, and assistant professor.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -691,7 +760,7 @@
         {
           "rank": 10,
           "name": "William Baude",
-          "bio": "UChicago Magazine describes William Baude, SB\u201904, as a College alumnus and Law School professor.",
+          "bio": "UChicago Magazine describes William Baude, SB’04, as a College alumnus and Law School professor.",
           "description": "Legal scholar and Law School professor.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -710,7 +779,7 @@
         {
           "rank": 11,
           "name": "Ana Marie Cox",
-          "bio": "UChicago Magazine describes Ana Marie Cox, AB\u201994, as a political commentator, podcaster, and former Institute of Politics fellow.",
+          "bio": "UChicago Magazine describes Ana Marie Cox, AB’94, as a political commentator, podcaster, and former Institute of Politics fellow.",
           "description": "Political commentator and podcaster.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -729,8 +798,8 @@
         {
           "rank": 12,
           "name": "Kimberly Peirce",
-          "bio": "UChicago Magazine says Kimberly Peirce, AB\u201990, transformed the story of Brandon Teena into the critically acclaimed feature film Boys Don\u2019t Cry.",
-          "description": "Filmmaker and director of Boys Don\u2019t Cry.",
+          "bio": "UChicago Magazine says Kimberly Peirce, AB’90, transformed the story of Brandon Teena into the critically acclaimed feature film Boys Don’t Cry.",
+          "description": "Filmmaker and director of Boys Don’t Cry.",
           "wikipedia_title": null,
           "wikipedia_url": null,
           "confirmation_url": "https://mag.uchicago.edu/arts-humanities/alumni-newsmaker-kimberly-peirce-ab90",
@@ -748,7 +817,7 @@
         {
           "rank": 13,
           "name": "Daniel Clowes",
-          "bio": "UChicago Magazine says Daniel Clowes, LAB\u201979, is the Ghost World author and Hyde Park native.",
+          "bio": "UChicago Magazine says Daniel Clowes, LAB’79, is the Ghost World author and Hyde Park native.",
           "description": "Cartoonist and Ghost World author.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -767,7 +836,7 @@
         {
           "rank": 14,
           "name": "Bonnie Jo Campbell",
-          "bio": "UChicago Magazine describes Bonnie Jo Campbell, AB\u201984, as an award-winning novelist and short story writer.",
+          "bio": "UChicago Magazine describes Bonnie Jo Campbell, AB’84, as an award-winning novelist and short story writer.",
           "description": "Award-winning novelist and short story writer.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -786,7 +855,7 @@
         {
           "rank": 15,
           "name": "Ray Suarez",
-          "bio": "UChicago Magazine describes Ray Suarez, AM\u201993, as a broadcast journalist, alumnus, and College parent.",
+          "bio": "UChicago Magazine describes Ray Suarez, AM’93, as a broadcast journalist, alumnus, and College parent.",
           "description": "Broadcast journalist.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -805,7 +874,7 @@
         {
           "rank": 16,
           "name": "Vineet Arora",
-          "bio": "UChicago Magazine describes Vineet Arora, AM\u201903, as a UChicago physician and incoming dean for medical education.",
+          "bio": "UChicago Magazine describes Vineet Arora, AM’03, as a UChicago physician and incoming dean for medical education.",
           "description": "Physician and medical education leader.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -824,8 +893,8 @@
         {
           "rank": 17,
           "name": "Bob Mariano",
-          "bio": "UChicago Magazine says Bob Mariano, MBA\u201987, was the CEO of Roundy\u2019s Supermarkets and later opened Dom\u2019s Kitchen & Market after selling Roundy\u2019s to Kroger.",
-          "description": "Grocery executive and founder of Mariano\u2019s stores.",
+          "bio": "UChicago Magazine says Bob Mariano, MBA’87, was the CEO of Roundy’s Supermarkets and later opened Dom’s Kitchen & Market after selling Roundy’s to Kroger.",
+          "description": "Grocery executive and founder of Mariano’s stores.",
           "wikipedia_title": null,
           "wikipedia_url": null,
           "confirmation_url": "https://mag.uchicago.edu/economics-business/talking-shop-bob-mariano-mba87",
@@ -843,7 +912,7 @@
         {
           "rank": 18,
           "name": "Lisa Lucas",
-          "bio": "UChicago Magazine describes Lisa Lucas, AB\u201901, as the publisher of Pantheon and Schocken Books.",
+          "bio": "UChicago Magazine describes Lisa Lucas, AB’01, as the publisher of Pantheon and Schocken Books.",
           "description": "Book publisher and publishing executive.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -862,7 +931,7 @@
         {
           "rank": 19,
           "name": "Megan McArdle",
-          "bio": "UChicago Magazine describes Megan McArdle, MBA\u201901, as a Booth alumna and Washington Post columnist.",
+          "bio": "UChicago Magazine describes Megan McArdle, MBA’01, as a Booth alumna and Washington Post columnist.",
           "description": "Columnist and economic commentator.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -881,7 +950,7 @@
         {
           "rank": 20,
           "name": "Alex Seropian",
-          "bio": "UChicago Magazine describes Alex Seropian, SB\u201991, as a video game producer and recipient of the 2013 UChicago Alumni Professional Achievement Award.",
+          "bio": "UChicago Magazine describes Alex Seropian, SB’91, as a video game producer and recipient of the 2013 UChicago Alumni Professional Achievement Award.",
           "description": "Video game producer and entrepreneur.",
           "wikipedia_title": null,
           "wikipedia_url": null,

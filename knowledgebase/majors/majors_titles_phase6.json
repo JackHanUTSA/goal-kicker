@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-07T10:20:39.642571+00:00",
+  "generated_at": "2026-05-07T12:37:26Z",
   "schools_total": 100,
-  "schools_with_titles": 83,
-  "schools_without_titles": 17,
+  "schools_with_titles": 85,
+  "schools_without_titles": 15,
   "results": [
     {
       "slug": "mit",
@@ -50,7 +50,7 @@
       "slug": "uchicago",
       "rank": 7,
       "majors_count": 70,
-      "titles_count": 0,
+      "titles_count": 60,
       "titles_source_url": "https://collegeadmissions.uchicago.edu/academics/areas-of-study/"
     },
     {
@@ -168,9 +168,9 @@
     {
       "slug": "georgetown",
       "rank": 24,
-      "majors_count": 0,
-      "titles_count": 0,
-      "titles_source_url": "https://uadmissions.georgetown.edu/explore/academics/"
+      "majors_count": 67,
+      "titles_count": 67,
+      "titles_source_url": "https://www.georgetown.edu/academics/areas-of-study/"
     },
     {
       "slug": "michigan",
