@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import argparse
+import html
 import json
 import re
 import time
@@ -514,12 +515,109 @@ def fetch_indiana_bloomington_titles() -> tuple[list[str], str | None]:
     return (titles, source_url) if titles else ([], None)
 
 
+def fetch_michigan_titles() -> tuple[list[str], str | None]:
+    source_url = "https://atlas.ai.umich.edu/api/majorlist/"
+    try:
+        response = requests.get(source_url, headers=HEADERS, timeout=TIMEOUT)
+        response.raise_for_status()
+        payload = response.json()
+    except Exception:
+        return [], None
+    titles: list[str] = []
+    for item in payload or []:
+        if str(item.get("education_level") or "").lower() != "bachelor":
+            continue
+        add_candidate(titles, item.get("name"))
+    titles = dedupe_keep_order(titles)
+    return (titles, source_url) if titles else ([], None)
+
+
+def fetch_uci_titles() -> tuple[list[str], str | None]:
+    source_url = "https://admissions.uci.edu/study/majors-minors.php"
+    endpoint = "https://admissions.uci.edu/_php/views/majors-minors.php"
+    try:
+        response = requests.get(
+            endpoint,
+            params={"type": "Major"},
+            headers={**HEADERS, "X-Requested-With": "XMLHttpRequest"},
+            timeout=TIMEOUT,
+        )
+        response.raise_for_status()
+        payload = response.json()
+    except Exception:
+        return [], None
+    if not payload or not isinstance(payload, list):
+        return [], None
+    results_html = (payload[0] or {}).get("results") or ""
+    soup = BeautifulSoup(results_html, "html.parser")
+    titles: list[str] = []
+    for button in soup.select("button.accordion__trigger"):
+        add_candidate(titles, button.get_text(" ", strip=True))
+    titles = dedupe_keep_order(titles)
+    return (titles, source_url) if titles else ([], None)
+
+
+def fetch_villanova_titles() -> tuple[list[str], str | None]:
+    source_url = "https://www.villanova.edu/university/programs.html"
+    try:
+        response = requests.get(source_url, headers=HEADERS, timeout=TIMEOUT)
+        response.raise_for_status()
+    except Exception:
+        return [], None
+    match = re.search(r'var data =\{\s*"Programs":\[(.*?)\]\s*\};', response.text, re.S)
+    if not match:
+        return [], None
+    try:
+        programs = json.loads(f'[{match.group(1)}]')
+    except Exception:
+        return [], None
+    titles: list[str] = []
+    for item in programs:
+        tags = str(item.get("tags") or "").lower()
+        if "bachelors" not in tags:
+            continue
+        add_candidate(titles, html.unescape(item.get("title") or ""))
+    titles = dedupe_keep_order(titles)
+    return (titles, source_url) if titles else ([], None)
+
+
+def fetch_washu_titles() -> tuple[list[str], str | None]:
+    source_url = "https://admissions.washu.edu/academics/majors-programs/"
+    endpoint = "https://admissions.washu.edu/wp-json/wustl/v1/degree-filters-data/posts"
+    try:
+        response = requests.get(
+            endpoint,
+            params={"queryFilter": "schools", "selectedTab": "schools", "page": 1, "search": ""},
+            headers=HEADERS,
+            timeout=TIMEOUT,
+        )
+        response.raise_for_status()
+        payload = response.json()
+    except Exception:
+        return [], None
+    titles: list[str] = []
+    for item in (payload or {}).get("posts") or []:
+        if not ((item.get("degreeTypes") or {}).get("bachelor")):
+            continue
+        add_candidate(titles, html.unescape(item.get("title") or ""))
+    titles = dedupe_keep_order(titles)
+    return (titles, source_url) if titles else ([], None)
+
+
 def fetch_school_specific_titles(record: dict) -> tuple[list[str], str | None]:
     slug = record.get("slug")
     if slug == "drexel":
         return fetch_drexel_titles()
     if slug == "indiana-bloomington":
         return fetch_indiana_bloomington_titles()
+    if slug == "michigan":
+        return fetch_michigan_titles()
+    if slug == "uc-irvine":
+        return fetch_uci_titles()
+    if slug == "villanova":
+        return fetch_villanova_titles()
+    if slug == "washu":
+        return fetch_washu_titles()
     return [], None
 
 

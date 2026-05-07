@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-07T21:40:26.527438+00:00",
+  "generated_at": "2026-05-07T23:56:27.661190+00:00",
   "schools_total": 100,
-  "schools_with_titles": 90,
-  "schools_without_titles": 10,
+  "schools_with_titles": 94,
+  "schools_without_titles": 6,
   "results": [
     {
       "slug": "mit",
@@ -127,8 +127,8 @@
       "slug": "washu",
       "rank": 18,
       "majors_count": 100,
-      "titles_count": 0,
-      "titles_source_url": "https://admissions.washu.edu/academics/"
+      "titles_count": 145,
+      "titles_source_url": "https://admissions.washu.edu/academics/majors-programs/"
     },
     {
       "slug": "notre-dame",
@@ -176,8 +176,8 @@
       "slug": "michigan",
       "rank": 25,
       "majors_count": 146,
-      "titles_count": 0,
-      "titles_source_url": "https://admissions.umich.edu/academics-majors"
+      "titles_count": 27,
+      "titles_source_url": "https://atlas.ai.umich.edu/api/majorlist/"
     },
     {
       "slug": "usc",
@@ -392,9 +392,9 @@
     {
       "slug": "villanova",
       "rank": 56,
-      "majors_count": 0,
-      "titles_count": 0,
-      "titles_source_url": "https://www.villanova.edu/majors.html"
+      "majors_count": 71,
+      "titles_count": 71,
+      "titles_source_url": "https://www.villanova.edu/university/programs.html"
     },
     {
       "slug": "indiana-bloomington",
@@ -610,8 +610,8 @@
       "slug": "uc-irvine",
       "rank": 87,
       "majors_count": 15,
-      "titles_count": 0,
-      "titles_source_url": "https://uci.edu/academics/"
+      "titles_count": 86,
+      "titles_source_url": "https://admissions.uci.edu/study/majors-minors.php"
     },
     {
       "slug": "uc-santa-barbara",

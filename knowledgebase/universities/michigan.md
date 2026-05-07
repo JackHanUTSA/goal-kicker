@@ -21,10 +21,39 @@ status: phase-5-manual-repair
 ## Majors
 - Count: 146
 - Count method: derived from the official University of Michigan Atlas API by counting unique bachelor-level study_field values; this is an API-derived undergraduate program-field count rather than a single admissions-page sentence
-- Titles extracted: 0
+- Titles extracted: 27
+
+### Titles
+- Bachelor of Science in Engineering in Aerospace Engineering
+- Bachelor of Arts in Afroamerican and African Studies
+- Bachelor of Science in Afroamerican and African Studies
+- Bachelor of Arts in American Culture
+- Bachelor of Science in American Culture
+- Bachelor of Arts in Ancient Civilizations and Biblical Studies
+- Bachelor of Arts in Anthropology
+- Bachelor of Science in Anthropology
+- Bachelor of Science in Applied Exercise Science
+- Bachelor of Arts in Arabic,Armenian,Persian,Turkish & Islamic Studies
+- Bachelor of Science in Architecture
+- Bachelor of Arts in Art and Design
+- Bachelor of Fine Arts in Art and Design
+- Bachelor of Arts in Arts and Ideas
+- Bachelor of Science in Arts and Ideas
+- Bachelor of Arts in Asian Studies
+- Bachelor of Science in Asian Studies
+- Bachelor of Science in Astronomy and Astrophysics
+- Bachelor of Science in Athletic Training
+- Bachelor of Science in Biochemistry
+- Bachelor of Science in Chemistry in Biochemistry
+- Bachelor of Science in Biology
+- Bachelor of Arts in Biology, Health, and Society
+- Bachelor of Science in Biology, Health, and Society
+- Bachelor of Science in Engineering in Biomedical Engineering
+- Bachelor of Science in Biomolecular Science
+- Bachelor of Science in Biophysics
 
 ## Warnings
-- Major titles still need manual follow-up; no reliable official title list was extracted in this pass.
+- Major titles extracted from official school source (27 titles).
 - Could not fetch admissions source https://admissions.umich.edu/: HTTP Error 403: Forbidden
 - Could not fetch majors source https://admissions.umich.edu/academics-majors: HTTP Error 403: Forbidden
 - Phase 3 structured upgrade completed with improved majors counting, admissions extraction, and query-ready records.
