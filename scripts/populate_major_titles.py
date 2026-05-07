@@ -86,6 +86,9 @@ SPECIAL_MAJOR_URL_HINTS = {
     "colorado-school-of-mines": ["https://catalog.mines.edu/undergraduate/programs/"],
     "wake-forest": ["https://admissions.wfu.edu/academics/majors-minors/"],
     "wisconsin-madison": ["https://guide.wisc.edu/undergraduate/"],
+    "unc-chapel-hill": ["https://catalog.unc.edu/undergraduate/programs-study/"],
+    "temple": ["https://www.temple.edu/academics/degree-programs"],
+    "tulane": ["https://catalog.tulane.edu/programs/?optionlessH#filter=.filter_1"],
 }
 
 BAD_TITLE_EXACT = {
@@ -453,6 +456,12 @@ def extract_titles_from_page(page: dict, record: dict) -> list[str]:
     if record["slug"] == "uconn" and "azindex" in page["url"]:
         return []
 
+    if record["slug"] == "unc-chapel-hill" and "catalog.unc.edu/azindex/" in page["url"]:
+        return []
+
+    if record["slug"] == "unc-chapel-hill" and "catalog.unc.edu/undergraduate/programs-study/" not in page["url"]:
+        return []
+
     if record["slug"] == "colorado-school-of-mines" and "azindex" in page["url"]:
         return []
 
@@ -465,6 +474,48 @@ def extract_titles_from_page(page: dict, record: dict) -> list[str]:
             add_candidate(uconn_titles, anchor.get_text(" ", strip=True))
         if uconn_titles:
             return dedupe_keep_order(uconn_titles)
+
+    if record["slug"] == "unc-chapel-hill" and "catalog.unc.edu/undergraduate/programs-study/" in page["url"]:
+        unc_titles: list[str] = []
+        for anchor in main.select(".az_sitemap li a[href]"):
+            href = urljoin(page["url"], anchor["href"])
+            if "/undergraduate/programs-study/" not in href:
+                continue
+            text = strip_text(anchor.get_text(" ", strip=True))
+            if " major" not in text.lower():
+                continue
+            add_candidate(unc_titles, text)
+        if unc_titles:
+            return dedupe_keep_order(unc_titles)
+
+    if record["slug"] == "temple" and "temple.edu/academics/degree-programs" in page["url"]:
+        temple_titles: list[str] = []
+        for option in main.select('select[name="major[]"] option'):
+            text = strip_text(option.get_text(" ", strip=True))
+            if not text:
+                continue
+            add_candidate(temple_titles, text)
+        if temple_titles:
+            return dedupe_keep_order(temple_titles)
+
+    if record["slug"] == "tulane" and "catalog.tulane.edu/programs/" in page["url"]:
+        tulane_titles: list[str] = []
+        for item in main.select("li.item a"):
+            card = item.find_parent("li", class_="item")
+            if card is None:
+                continue
+            keywords = [strip_text(node.get_text(" ", strip=True)) for node in card.select("span.keyword")]
+            lowered_keywords = [k.lower() for k in keywords]
+            if not any("undergraduate" in k for k in lowered_keywords):
+                continue
+            if not any(re.fullmatch(r"major", k, re.I) for k in keywords):
+                continue
+            title_node = card.select_one("span.title")
+            if not title_node:
+                continue
+            add_candidate(tulane_titles, title_node.get_text(" ", strip=True))
+        if tulane_titles:
+            return dedupe_keep_order(tulane_titles)
 
     if record["slug"] == "wisconsin-madison" and (
         "guide.wisc.edu/undergraduate/" in page["url"] or "guide.wisc.edu/explore-majors/" in page["url"]
@@ -908,6 +959,13 @@ def save_markdown(record: dict) -> None:
     (UNI_DIR / f"{record['slug']}.md").write_text("\n".join(lines))
 
 
+def latest_titles_source_url(record: dict) -> str | None:
+    for item in reversed(record.get("evidence", [])):
+        if item.get("field") == "majors.titles" and item.get("source_url"):
+            return item["source_url"]
+    return next(iter(record.get("source_urls", {}).get("majors", [])), None)
+
+
 def save_record(record: dict) -> None:
     (UNI_DIR / f"{record['slug']}.json").write_text(json.dumps(record, indent=2))
     save_markdown(record)
@@ -924,7 +982,11 @@ def update_record(record: dict) -> tuple[dict, bool, str | None]:
     if titles:
         changed = record.get("majors", {}).get("titles") != titles
         record["majors"]["titles"] = titles
-        if not record["majors"].get("count"):
+        existing_count = record["majors"].get("count")
+        existing_count_method = str(record["majors"].get("count_method") or "")
+        if (not existing_count) or (
+            "counted extracted undergraduate-major titles" in existing_count_method.lower() and existing_count != len(titles)
+        ):
             record["majors"]["count"] = len(titles)
             record["majors"]["count_method"] = "counted extracted undergraduate-major titles from an official page"
         if source_url and source_url not in record.setdefault("source_urls", {}).setdefault("majors", []):
@@ -993,7 +1055,7 @@ def main() -> int:
                 "rank": record.get("rank"),
                 "majors_count": record.get("majors", {}).get("count"),
                 "titles_count": len(titles),
-                "titles_source_url": next(iter(record.get("source_urls", {}).get("majors", [])), None),
+                "titles_source_url": latest_titles_source_url(record),
             }
         )
     summary = {

@@ -1,43 +1,43 @@
 {
-  "generated_at": "2026-05-07T12:37:26Z",
+  "generated_at": "2026-05-07T17:12:04.690183+00:00",
   "schools_total": 100,
-  "schools_with_titles": 85,
-  "schools_without_titles": 15,
+  "schools_with_titles": 88,
+  "schools_without_titles": 12,
   "results": [
     {
       "slug": "mit",
       "rank": 1,
       "majors_count": 55,
       "titles_count": 179,
-      "titles_source_url": "https://firstyear.mit.edu/academics-exploration/major-exploration/"
+      "titles_source_url": "https://catalog.mit.edu/degree-charts/"
     },
     {
       "slug": "stanford",
       "rank": 2,
       "majors_count": 100,
       "titles_count": 102,
-      "titles_source_url": "https://majors.stanford.edu/"
+      "titles_source_url": "https://majors.stanford.edu/majors"
     },
     {
       "slug": "harvard",
       "rank": 3,
       "majors_count": 50,
       "titles_count": 27,
-      "titles_source_url": "https://college.harvard.edu/academics"
+      "titles_source_url": "https://college.harvard.edu/academics/liberal-arts-sciences/concentrations"
     },
     {
       "slug": "princeton",
       "rank": 4,
       "majors_count": 37,
       "titles_count": 7,
-      "titles_source_url": "https://admission.princeton.edu/academics/degrees-departments"
+      "titles_source_url": "https://www.princeton.edu/academics"
     },
     {
       "slug": "yale",
       "rank": 5,
       "majors_count": 81,
       "titles_count": 7,
-      "titles_source_url": "https://admissions.yale.edu/majors"
+      "titles_source_url": "https://catalog.yale.edu/ycps/majors-in-yale-college/"
     },
     {
       "slug": "caltech",
@@ -58,14 +58,14 @@
       "rank": 8,
       "majors_count": 86,
       "titles_count": 58,
-      "titles_source_url": "https://admissions.upenn.edu/academics/exploring-academics/majors-minors"
+      "titles_source_url": "https://apps.sas.upenn.edu/annex/majors/view/frame"
     },
     {
       "slug": "columbia",
       "rank": 9,
       "majors_count": 26,
       "titles_count": 26,
-      "titles_source_url": "https://bulletin.columbia.edu/columbia-college/departments-instruction/"
+      "titles_source_url": "https://bulletin.columbia.edu/azindex/"
     },
     {
       "slug": "duke",
@@ -79,28 +79,28 @@
       "rank": 11,
       "majors_count": 77,
       "titles_count": 77,
-      "titles_source_url": "https://admissions.jhu.edu/academics"
+      "titles_source_url": "https://apply.jhu.edu/academics/majors-minors-programs/"
     },
     {
       "slug": "northwestern",
       "rank": 12,
       "majors_count": 23,
       "titles_count": 6,
-      "titles_source_url": "https://admissions.northwestern.edu/academics/"
+      "titles_source_url": "https://www.northwestern.edu/academics/"
     },
     {
       "slug": "dartmouth",
       "rank": 13,
       "majors_count": 51,
       "titles_count": 51,
-      "titles_source_url": "https://www.dartmouth.edu/academics"
+      "titles_source_url": "https://home.dartmouth.edu/academics/undergraduate-arts-sciences/majors-and-minors"
     },
     {
       "slug": "brown",
       "rank": 14,
       "majors_count": 80,
       "titles_count": 96,
-      "titles_source_url": "https://admission.brown.edu/explore/academics"
+      "titles_source_url": "https://www.brown.edu/undergraduate-programs"
     },
     {
       "slug": "cornell",
@@ -121,7 +121,7 @@
       "rank": 17,
       "majors_count": 50,
       "titles_count": 102,
-      "titles_source_url": "https://admission.rice.edu/academics"
+      "titles_source_url": "https://www.rice.edu/majors-minors-and-programs"
     },
     {
       "slug": "washu",
@@ -135,7 +135,7 @@
       "rank": 19,
       "majors_count": 70,
       "titles_count": 30,
-      "titles_source_url": "https://www.nd.edu:443/academic-programs/"
+      "titles_source_url": "https://www.nd.edu/academics/programs/"
     },
     {
       "slug": "uc-berkeley",
@@ -149,21 +149,21 @@
       "rank": 21,
       "majors_count": 12,
       "titles_count": 12,
-      "titles_source_url": "https://admission.ucla.edu/academics/majors"
+      "titles_source_url": "https://newstudents.ucla.edu/programs/first-year-students/"
     },
     {
       "slug": "carnegie-mellon",
       "rank": 22,
       "majors_count": 1,
       "titles_count": 8,
-      "titles_source_url": "https://www.cmu.edu/academic-programs"
+      "titles_source_url": "https://www.cmu.edu/admission/"
     },
     {
       "slug": "emory",
       "rank": 23,
       "majors_count": 15,
       "titles_count": 10,
-      "titles_source_url": "https://www.emory.edu/academics"
+      "titles_source_url": "https://www.emory.edu/home/academics/degrees-programs.html"
     },
     {
       "slug": "georgetown",
@@ -184,119 +184,119 @@
       "rank": 26,
       "majors_count": 6,
       "titles_count": 6,
-      "titles_source_url": "https://admission.usc.edu/learn/academic-life/"
+      "titles_source_url": "https://admission.usc.edu/prospective-students/how-to-apply/first-year-students/"
     },
     {
       "slug": "nyu",
       "rank": 27,
       "majors_count": 30,
       "titles_count": 58,
-      "titles_source_url": "https://www.nyu.edu/academics.html"
+      "titles_source_url": "https://www.nyu.edu/academics/academic-programs.html"
     },
     {
       "slug": "uva",
       "rank": 28,
       "majors_count": 47,
       "titles_count": 47,
-      "titles_source_url": "https://admission.virginia.edu/academics"
+      "titles_source_url": "https://www.virginia.edu/majors-minors/"
     },
     {
       "slug": "unc-chapel-hill",
       "rank": 29,
-      "majors_count": 0,
-      "titles_count": 0,
-      "titles_source_url": "https://admissions.unc.edu/explore/academics/"
+      "majors_count": 92,
+      "titles_count": 92,
+      "titles_source_url": "https://catalog.unc.edu/undergraduate/programs-study/"
     },
     {
       "slug": "tufts",
       "rank": 30,
       "majors_count": 132,
       "titles_count": 132,
-      "titles_source_url": "https://www.tufts.edu/academics"
+      "titles_source_url": "https://admissions.tufts.edu/discover-tufts/academics/majors-and-minors/"
     },
     {
       "slug": "wake-forest",
       "rank": 31,
       "majors_count": 50,
       "titles_count": 44,
-      "titles_source_url": "https://about.wfu.edu/academics/"
+      "titles_source_url": "https://admissions.wfu.edu/academics/majors-minors/"
     },
     {
       "slug": "boston-college",
       "rank": 32,
       "majors_count": 67,
       "titles_count": 67,
-      "titles_source_url": "https://www.bc.edu/content/bc-web/admission/academics.html"
+      "titles_source_url": "https://www.bc.edu/content/bc-web/admission/majors-minors.html"
     },
     {
       "slug": "georgia-tech",
       "rank": 33,
       "majors_count": 21,
       "titles_count": 50,
-      "titles_source_url": "https://www.gatech.edu/academics"
+      "titles_source_url": "https://www.gatech.edu/academics/all-degree-programs"
     },
     {
       "slug": "uc-san-diego",
       "rank": 34,
       "majors_count": 100,
       "titles_count": 157,
-      "titles_source_url": "https://www.ucsd.edu/academics/"
+      "titles_source_url": "https://students.ucsd.edu/academics/advising/majors-minors/undergraduate-majors.html"
     },
     {
       "slug": "uf",
       "rank": 35,
       "majors_count": 144,
       "titles_count": 144,
-      "titles_source_url": "https://www.ufl.edu/academic-programs"
+      "titles_source_url": "https://catalog.ufl.edu/UGRD/programs/"
     },
     {
       "slug": "ut-austin",
       "rank": 36,
       "majors_count": 8,
       "titles_count": 8,
-      "titles_source_url": "https://www.utexas.edu/academic-programs"
+      "titles_source_url": "https://gradschool.utexas.edu/degrees-programs"
     },
     {
       "slug": "uiuc",
       "rank": 37,
       "majors_count": 193,
       "titles_count": 193,
-      "titles_source_url": "https://illinois.edu/academics/"
+      "titles_source_url": "https://myillini.illinois.edu/Programs"
     },
     {
       "slug": "wisconsin-madison",
       "rank": 38,
       "majors_count": 600,
       "titles_count": 125,
-      "titles_source_url": "https://www.wisc.edu/academic-programs"
+      "titles_source_url": "https://guide.wisc.edu/undergraduate/"
     },
     {
       "slug": "ohio-state",
       "rank": 39,
       "majors_count": 278,
       "titles_count": 7,
-      "titles_source_url": "https://www.osu.edu/academics"
+      "titles_source_url": "https://undergrad.osu.edu/majors-and-academics"
     },
     {
       "slug": "university-of-washington",
       "rank": 40,
       "majors_count": 112,
       "titles_count": 112,
-      "titles_source_url": "https://www.washington.edu/academic-programs"
+      "titles_source_url": "https://admit.washington.edu/academics/majors/"
     },
     {
       "slug": "purdue",
       "rank": 41,
       "majors_count": 400,
       "titles_count": 23,
-      "titles_source_url": "https://www.purdue.edu/home/academics/"
+      "titles_source_url": "https://catalog.purdue.edu/content.php?catoid=18&navoid=23648"
     },
     {
       "slug": "boston-university",
       "rank": 42,
       "majors_count": 300,
       "titles_count": 235,
-      "titles_source_url": "https://www.bu.edu/academic-programs"
+      "titles_source_url": "https://www.bu.edu/academics/degree-programs/"
     },
     {
       "slug": "northeastern",
@@ -310,49 +310,49 @@
       "rank": 44,
       "majors_count": 100,
       "titles_count": 99,
-      "titles_source_url": "https://case.edu/academic-programs"
+      "titles_source_url": "https://case.edu/programs/"
     },
     {
       "slug": "uc-davis",
       "rank": 45,
       "majors_count": 10,
       "titles_count": 108,
-      "titles_source_url": "https://www.ucdavis.edu/academics"
+      "titles_source_url": "https://www.ucdavis.edu/academics/majors"
     },
     {
       "slug": "william-and-mary",
       "rank": 46,
       "majors_count": 100,
       "titles_count": 7,
-      "titles_source_url": "https://www.wm.edu/academic-programs"
+      "titles_source_url": "https://www.wm.edu/academics/undergraduateprograms/"
     },
     {
       "slug": "rochester",
       "rank": 47,
       "majors_count": 200,
       "titles_count": 83,
-      "titles_source_url": "https://www.rochester.edu/academic-programs"
+      "titles_source_url": "https://www.rochester.edu/academics/programs.html"
     },
     {
       "slug": "brandeis",
       "rank": 48,
       "majors_count": 47,
       "titles_count": 44,
-      "titles_source_url": "https://www.brandeis.edu/admissions/academics/index.html?utm_source=viewbook&utm_medium=print&utm_campaign=ugrad-admissions-Q029-book2"
+      "titles_source_url": "https://www.brandeis.edu/admissions/academics/majors-minors.html"
     },
     {
       "slug": "tulane",
       "rank": 49,
-      "majors_count": 0,
-      "titles_count": 0,
-      "titles_source_url": "https://tulane.edu/academics"
+      "majors_count": 95,
+      "titles_count": 95,
+      "titles_source_url": "https://catalog.tulane.edu/programs/?optionlessH"
     },
     {
       "slug": "lehigh",
       "rank": 50,
       "majors_count": 100,
       "titles_count": 125,
-      "titles_source_url": "https://www2.lehigh.edu/academics"
+      "titles_source_url": "https://www2.lehigh.edu/admissions/programs"
     },
     {
       "slug": "university-of-georgia",
@@ -366,28 +366,28 @@
       "rank": 52,
       "majors_count": 46,
       "titles_count": 14,
-      "titles_source_url": "https://www.pepperdine.edu/academic-programs"
+      "titles_source_url": "https://www.pepperdine.edu/academics/"
     },
     {
       "slug": "rutgers-new-brunswick",
       "rank": 53,
       "majors_count": 150,
       "titles_count": 10,
-      "titles_source_url": "https://www.rutgers.edu/academic-programs"
+      "titles_source_url": "https://www.rutgers.edu/academics/explore-undergraduate-programs?field_location=654"
     },
     {
       "slug": "santa-clara",
       "rank": 54,
       "majors_count": 50,
       "titles_count": 29,
-      "titles_source_url": "https://www.scu.edu/404?targetURL=https%3A%2F%2F%2Facademic-programs%2F"
+      "titles_source_url": "https://www.scu.edu/cas/academics/undergraduate-majors-and-minors/"
     },
     {
       "slug": "texas-am",
       "rank": 55,
       "majors_count": 400,
       "titles_count": 16,
-      "titles_source_url": "https://www.tamu.edu/academic-programs/index.html"
+      "titles_source_url": "https://honors.tamu.edu/about/honors-programs-directory.html"
     },
     {
       "slug": "villanova",
@@ -408,7 +408,7 @@
       "rank": 58,
       "majors_count": 200,
       "titles_count": 169,
-      "titles_source_url": "https://www.syracuse.edu/academic-programs/"
+      "titles_source_url": "https://www.syracuse.edu/academics/selecting-a-major/"
     },
     {
       "slug": "university-of-miami",
@@ -429,7 +429,7 @@
       "rank": 61,
       "majors_count": 275,
       "titles_count": 901,
-      "titles_source_url": "https://www.psu.edu/academics"
+      "titles_source_url": "https://bulletins.psu.edu/azindex/"
     },
     {
       "slug": "baylor",
@@ -443,105 +443,105 @@
       "rank": 63,
       "majors_count": 150,
       "titles_count": 112,
-      "titles_source_url": "https://www.binghamton.edu/academics/"
+      "titles_source_url": "https://www.binghamton.edu/academics/programs/"
     },
     {
       "slug": "clemson",
       "rank": 64,
       "majors_count": 32,
       "titles_count": 27,
-      "titles_source_url": "https://www.clemson.edu/academic-programs"
+      "titles_source_url": "https://www.clemson.edu/admissions/"
     },
     {
       "slug": "fordham",
       "rank": 65,
       "majors_count": 36,
       "titles_count": 9,
-      "titles_source_url": "https://www.fordham.edu/academic-programs"
+      "titles_source_url": "https://www.fordham.edu/academics/"
     },
     {
       "slug": "george-washington",
       "rank": 66,
       "majors_count": 100,
       "titles_count": 11,
-      "titles_source_url": "https://www.gwu.edu/academics"
+      "titles_source_url": "https://undergraduate.admissions.gwu.edu/first-year-applicants"
     },
     {
       "slug": "marquette",
       "rank": 67,
       "majors_count": 10,
       "titles_count": 10,
-      "titles_source_url": "https://www.marquette.edu/academics/"
+      "titles_source_url": "https://www.marquette.edu/data-science/data-programs.php"
     },
     {
       "slug": "smu",
       "rank": 68,
       "majors_count": 100,
       "titles_count": 30,
-      "titles_source_url": "https://www.smu.edu/academics"
+      "titles_source_url": "https://www.smu.edu/admission/majors-minors"
     },
     {
       "slug": "tcu",
       "rank": 69,
       "majors_count": 139,
       "titles_count": 139,
-      "titles_source_url": "https://www.tcu.edu/majors"
+      "titles_source_url": "https://www.tcu.edu/academics/programs/index.php"
     },
     {
       "slug": "yeshiva",
       "rank": 70,
       "majors_count": 32,
       "titles_count": 9,
-      "titles_source_url": "https://www.yu.edu/academics"
+      "titles_source_url": "https://www.yu.edu/graduate"
     },
     {
       "slug": "gonzaga",
       "rank": 71,
       "majors_count": 53,
       "titles_count": 36,
-      "titles_source_url": "https://www.gonzaga.edu/academic-programs"
+      "titles_source_url": "https://www.gonzaga.edu/undergraduate-admission"
     },
     {
       "slug": "loyola-marymount",
       "rank": 72,
       "majors_count": 100,
       "titles_count": 53,
-      "titles_source_url": "https://www.lmu.edu/academics/"
+      "titles_source_url": "https://www.lmu.edu/academics/degrees/"
     },
     {
       "slug": "stevens",
       "rank": 73,
       "majors_count": 35,
       "titles_count": 7,
-      "titles_source_url": "https://www.stevens.edu/academic-programs"
+      "titles_source_url": "https://www.stevens.edu/academics/undergraduate-study"
     },
     {
       "slug": "temple",
       "rank": 74,
       "majors_count": 600,
-      "titles_count": 0,
-      "titles_source_url": "https://www.temple.edu/academics"
+      "titles_count": 548,
+      "titles_source_url": "https://www.temple.edu/academics/degree-programs"
     },
     {
       "slug": "virginia-tech",
       "rank": 75,
       "majors_count": 150,
       "titles_count": 262,
-      "titles_source_url": "https://www.vt.edu/academics.html"
+      "titles_source_url": "https://www.vt.edu/academics/majors.html"
     },
     {
       "slug": "uconn",
       "rank": 76,
       "majors_count": 125,
       "titles_count": 125,
-      "titles_source_url": "https://uconn.edu/academics/"
+      "titles_source_url": "https://catalog.uconn.edu/undergraduate/programs/"
     },
     {
       "slug": "colorado-school-of-mines",
       "rank": 77,
       "majors_count": 60,
       "titles_count": 17,
-      "titles_source_url": "https://www.mines.edu/academic-programs"
+      "titles_source_url": "https://catalog.mines.edu/undergraduate/programs/"
     },
     {
       "slug": "drexel",
@@ -562,21 +562,21 @@
       "rank": 80,
       "majors_count": 52,
       "titles_count": 52,
-      "titles_source_url": "https://www.pitt.edu/academics"
+      "titles_source_url": "https://www.academics.pitt.edu/undergraduate-programs"
     },
     {
       "slug": "rit",
       "rank": 81,
       "majors_count": 44,
       "titles_count": 7,
-      "titles_source_url": "https://www.rit.edu/academic-programs"
+      "titles_source_url": "https://www.rit.edu/academics"
     },
     {
       "slug": "american",
       "rank": 82,
       "majors_count": 7,
       "titles_count": 7,
-      "titles_source_url": "https://www.american.edu/academic-programs"
+      "titles_source_url": "https://www.american.edu/"
     },
     {
       "slug": "florida-state",
@@ -590,21 +590,21 @@
       "rank": 84,
       "majors_count": 100,
       "titles_count": 349,
-      "titles_source_url": "https://www.ncsu.edu/academics"
+      "titles_source_url": "https://catalog.ncsu.edu/azindex/"
     },
     {
       "slug": "stony-brook",
       "rank": 85,
       "majors_count": 200,
       "titles_count": 31,
-      "titles_source_url": "https://www.stonybrook.edu/academic-programs"
+      "titles_source_url": "https://www.stonybrook.edu/undergraduate-admissions/info-for/pre-college-programs.php"
     },
     {
       "slug": "buffalo",
       "rank": 86,
       "majors_count": 350,
       "titles_count": 90,
-      "titles_source_url": "https://www.buffalo.edu/academic-programs.html"
+      "titles_source_url": "https://www.buffalo.edu/grad/explore/about/programs.html"
     },
     {
       "slug": "uc-irvine",
@@ -618,14 +618,14 @@
       "rank": 88,
       "majors_count": 200,
       "titles_count": 9,
-      "titles_source_url": "https://www.ucsb.edu/academic-programs"
+      "titles_source_url": "https://psych.ucsb.edu/undergraduate/biopsychology-major"
     },
     {
       "slug": "wpi",
       "rank": 89,
       "majors_count": 70,
       "titles_count": 23,
-      "titles_source_url": "https://www.wpi.edu/academic-programs"
+      "titles_source_url": "https://www.wpi.edu/academics"
     },
     {
       "slug": "auburn",
@@ -639,28 +639,28 @@
       "rank": 91,
       "majors_count": 200,
       "titles_count": 63,
-      "titles_source_url": "https://www.iastate.edu/academic-programs"
+      "titles_source_url": "https://www.iastate.edu/academics/majors-minors-certificates"
     },
     {
       "slug": "university-of-delaware",
       "rank": 92,
       "majors_count": 4,
       "titles_count": 22,
-      "titles_source_url": "https://www.udel.edu/academics/"
+      "titles_source_url": "https://www.udel.edu/apply/undergraduate-admissions/"
     },
     {
       "slug": "umass-amherst",
       "rank": 93,
       "majors_count": 34,
       "titles_count": 34,
-      "titles_source_url": "https://www.umass.edu/academic-programs"
+      "titles_source_url": "https://www.umass.edu/gateway/academics/accelerated-masters-4plus1-degree"
     },
     {
       "slug": "minnesota-twin-cities",
       "rank": 94,
       "majors_count": 13,
       "titles_count": 13,
-      "titles_source_url": "https://www.umn.edu/academic-programs"
+      "titles_source_url": "https://cla.umn.edu/global-studies/undergraduate/major-minor/ba-global-studies"
     },
     {
       "slug": "university-of-san-diego",
@@ -681,28 +681,28 @@
       "rank": 97,
       "majors_count": 74,
       "titles_count": 11,
-      "titles_source_url": "https://www.ucsc.edu/academic-programs"
+      "titles_source_url": "https://admissions.ucsc.edu/find-your-program"
     },
     {
       "slug": "university-of-denver",
       "rank": 98,
       "majors_count": 15,
       "titles_count": 35,
-      "titles_source_url": "https://www.du.edu/academics"
+      "titles_source_url": "https://www.du.edu/admission-aid/undergraduate"
     },
     {
       "slug": "oregon-state",
       "rank": 99,
       "majors_count": 200,
       "titles_count": 16,
-      "titles_source_url": "https://oregonstate.edu/academics"
+      "titles_source_url": "https://ecampus.oregonstate.edu/online-degrees/topics/"
     },
     {
       "slug": "tennessee-knoxville",
       "rank": 100,
       "majors_count": 14,
       "titles_count": 14,
-      "titles_source_url": "https://www.utk.edu/academics"
+      "titles_source_url": "https://www.utk.edu/academics/areas-of-study/agriculture-natural-resources-programs"
     }
   ]
 }

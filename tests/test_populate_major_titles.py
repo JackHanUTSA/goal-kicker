@@ -235,6 +235,140 @@ class PopulateMajorTitlesTests(unittest.TestCase):
         self.assertIn("Accounting", titles)
         self.assertNotIn("Nursing", titles)
 
+    def test_extract_titles_from_page_reads_unc_catalog_major_links(self):
+        html = """
+        <html><body><main>
+          <ul class="az_sitemap">
+            <li><a href="/undergraduate/programs-study/african-african-american-diaspora-studies-major-ba/">African, African American, and Diaspora Studies Major, B.A.</a></li>
+            <li><a href="/undergraduate/programs-study/biology-major-bs/">Biology Major, B.S.</a></li>
+            <li><a href="/undergraduate/programs-study/biology-minor/">Biology Minor</a></li>
+          </ul>
+        </main></body></html>
+        """
+        page = {
+            "title": "Undergraduate Programs of Study: Majors and Minors < UNC",
+            "url": "https://catalog.unc.edu/undergraduate/programs-study/",
+            "soup": BeautifulSoup(html, "lxml"),
+        }
+        record = {"slug": "unc-chapel-hill", "official_domain": "unc.edu", "majors": {"count": 93}}
+
+        titles = populate_major_titles.extract_titles_from_page(page, record)
+
+        self.assertIn("African, African American, and Diaspora Studies Major, B.A.", titles)
+        self.assertIn("Biology Major, B.S.", titles)
+        self.assertNotIn("Biology Minor", titles)
+
+    def test_extract_titles_from_page_reads_temple_degree_program_options(self):
+        html = """
+        <html><body><main>
+          <select name="major[]" multiple>
+            <option value="1251">Accounting</option>
+            <option value="11801">Acting</option>
+            <option value=""> </option>
+          </select>
+        </main></body></html>
+        """
+        page = {
+            "title": "Degree Programs | Temple University",
+            "url": "https://www.temple.edu/academics/degree-programs",
+            "soup": BeautifulSoup(html, "lxml"),
+        }
+        record = {"slug": "temple", "official_domain": "temple.edu", "majors": {"count": 600}}
+
+        titles = populate_major_titles.extract_titles_from_page(page, record)
+
+        self.assertEqual(titles, ["Accounting", "Acting"])
+
+    def test_extract_titles_from_page_reads_tulane_catalog_undergraduate_majors_only(self):
+        html = """
+        <html><body><main>
+          <ul>
+            <li class="item">
+              <a href="/business/accounting/accounting-major/">
+                <span class="title">Accounting Major, BSM</span>
+                <span class="keyword">Undergraduate – Newcomb-Tulane College</span>
+                <span class="keyword">Major</span>
+              </a>
+            </li>
+            <li class="item">
+              <a href="/newcomb-tulane/ai-literacy-minor/">
+                <span class="title">AI Literacy Minor</span>
+                <span class="keyword">Undergraduate – Newcomb-Tulane College</span>
+                <span class="keyword">Minor</span>
+              </a>
+            </li>
+            <li class="item">
+              <a href="/business/accounting/accounting-mac/">
+                <span class="title">Accounting, MACCT</span>
+                <span class="keyword">Graduate</span>
+                <span class="keyword">Graduate Program</span>
+              </a>
+            </li>
+          </ul>
+        </main></body></html>
+        """
+        page = {
+            "title": "Programs | Tulane University University Catalog",
+            "url": "https://catalog.tulane.edu/programs/?optionlessH#filter=.filter_1",
+            "soup": BeautifulSoup(html, "lxml"),
+        }
+        record = {"slug": "tulane", "official_domain": "tulane.edu", "majors": {"count": 80}}
+
+        titles = populate_major_titles.extract_titles_from_page(page, record)
+
+        self.assertEqual(titles, ["Accounting Major, BSM"])
+
+    def test_latest_titles_source_url_prefers_titles_evidence(self):
+        record = {
+            "source_urls": {"majors": ["https://example.edu/old-majors"]},
+            "evidence": [
+                {"field": "majors.count", "source_url": "https://example.edu/count"},
+                {"field": "majors.titles", "source_url": "https://example.edu/new-titles"},
+            ],
+        }
+
+        self.assertEqual(
+            populate_major_titles.latest_titles_source_url(record),
+            "https://example.edu/new-titles",
+        )
+
+    def test_update_record_realigns_extracted_count_when_titles_shrink(self):
+        original_crawl_school = populate_major_titles.crawl_school
+        original_choose_best_titles = populate_major_titles.choose_best_titles
+        original_save_record = populate_major_titles.save_record
+        original_now_iso = populate_major_titles.now_iso
+
+        try:
+            populate_major_titles.crawl_school = lambda _record: []
+            populate_major_titles.choose_best_titles = lambda _record, _pages: (["Accounting", "Biology"], "https://example.edu/programs")
+            populate_major_titles.save_record = lambda _record: None
+            populate_major_titles.now_iso = lambda: "2026-05-07T00:00:00Z"
+
+            record = {
+                "slug": "unc-chapel-hill",
+                "majors": {
+                    "count": 229,
+                    "count_method": "counted extracted undergraduate-major titles from an official page",
+                    "titles": ["Old Title"],
+                    "notes": "counted extracted undergraduate-major titles from an official page",
+                },
+                "source_urls": {"majors": ["https://example.edu/old"]},
+                "verification": {"confidence": "phase-5-auto-enriched", "warnings": []},
+                "evidence": [],
+            }
+
+            updated, success, source_url = populate_major_titles.update_record(record)
+
+            self.assertTrue(success)
+            self.assertEqual(source_url, "https://example.edu/programs")
+            self.assertEqual(updated["majors"]["count"], 2)
+            self.assertEqual(updated["majors"]["titles"], ["Accounting", "Biology"])
+        finally:
+            populate_major_titles.crawl_school = original_crawl_school
+            populate_major_titles.choose_best_titles = original_choose_best_titles
+            populate_major_titles.save_record = original_save_record
+            populate_major_titles.now_iso = original_now_iso
+
     def test_extract_titles_from_page_reads_wake_forest_degree_cards(self):
         html = """
         <html><body><main>
