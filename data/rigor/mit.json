@@ -1,0 +1,36 @@
+{
+  "university": "Massachusetts Institute of Technology",
+  "slug": "mit",
+  "source_url": "https://mitadmissions.org/apply/prepare/foundations/",
+  "retrieved_at": "2026-05-06",
+  "scope": "institution_wide",
+  "scope_note": "MIT publishes recommended high-school preparation but does not require a specific course list. Recommendations apply to all admitted students; MIT does not break course-rigor expectations down by major.",
+  "audience": "Students in an American curriculum",
+  "areas": [
+    {
+      "key": "math",
+      "name": "Math",
+      "level": "required-equivalent",
+      "summary": "Math, including calculus, the analytic foundation of the MIT education.",
+      "detail": "MIT recommends taking math throughout high school with at least some exposure to the foundations of calculus before graduating. All MIT undergraduates must take or receive credit for both single-variable calculus (18.01) and multivariable calculus (18.02). For students whose schools don't offer calculus, MIT lists supplemental options.",
+      "color": "#60a5fa"
+    },
+    {
+      "key": "science",
+      "name": "Science",
+      "level": "strongly-recommended",
+      "summary": "Science, including physics, chemistry, and/or biology.",
+      "detail": "MIT recommends introductory coursework across physics, chemistry, and biology. All undergraduates must take two semesters of calculus-based physics (mechanics + E&M), one semester of chemistry, and one semester of biology. MIT does not have specific science course requirements but notes 'more challenging and quantitative classes will better prepare you for an MIT education.'",
+      "color": "#34d399"
+    },
+    {
+      "key": "hass",
+      "name": "Humanities, Arts & Social Sciences (HASS)",
+      "level": "recommended",
+      "summary": "Some challenging courses in the humanities, arts, and social sciences.",
+      "detail": "MIT recommends challenging courses in areas like English, history, economics, music, and/or foreign languages. All MIT undergraduates must take a minimum of eight HASS classes plus a Concentration. MIT warns: 'students who take few or no challenging courses in these areas may not be well-prepared—or well-matched—for the MIT education, given the extent and rigor of our HASS Requirement.'",
+      "color": "#fbbf24"
+    }
+  ],
+  "international_note": "For students outside an American curriculum, MIT recommends taking 'the most challenging math and science courses available at your school' and demonstrating proficiency in English."
+}
