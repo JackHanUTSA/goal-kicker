@@ -67,6 +67,17 @@ svg.bubbles text{fill:#fff;font-size:10px;pointer-events:none;text-anchor:middle
 .gen-stats .gs{background:#0e1014;border:1px solid var(--border);border-radius:6px;padding:8px 10px}
 .gen-stats .gs .v{font-size:16px;font-weight:700;color:var(--text);font-variant-numeric:tabular-nums}
 .gen-stats .gs .k{color:var(--muted);font-size:11px;margin-top:1px}
+.policy-list{margin:8px 0 0;padding:0;list-style:none}
+.policy-list li{background:#0e1014;border:1px solid var(--border);border-left:3px solid var(--accent);border-radius:6px;padding:10px 12px;margin-bottom:8px;font-size:13px;color:#c8cdd6}
+.policy-list li .src-link{display:block;margin-top:4px;font-size:11px;color:var(--muted)}
+.policy-summary{background:#0e1014;border:1px solid var(--border);border-radius:6px;padding:12px 14px;margin:6px 0 12px;font-size:13px;color:var(--text);line-height:1.5}
+.area-grid{display:grid;grid-template-columns:1fr;gap:10px;margin-top:6px}
+.area-card{background:#0e1014;border:1px solid var(--border);border-radius:8px;padding:12px 14px;border-left:4px solid var(--accent)}
+.area-card .area-head{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px;margin-bottom:6px}
+.area-card .area-name{font-size:14px;font-weight:700;color:var(--text)}
+.area-card .area-level{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;padding:2px 8px;border-radius:999px;background:rgba(96,165,250,0.15);color:#93c5fd;border:1px solid rgba(96,165,250,0.3)}
+.area-card .area-summary{color:#e7e9ee;font-size:13px;margin-bottom:6px;font-weight:500}
+.area-card .area-detail{color:var(--muted);font-size:12px;line-height:1.5}
 @media(max-width:560px){.test-row{grid-template-columns:1fr;gap:4px}.test-row .test-vals{text-align:left}}
 </style></head><body><div class="wrap">
 <header><div class="eyebrow">Goal Kicker · Knowledgebase Demo</div>
@@ -97,7 +108,7 @@ tests/test_subject_recommender.py ...                                    [100%]
 <select id="f"><option value="all">All listed</option><option value="10">Top 10</option><option value="25">Top 25</option></select>
 <span class="count" id="c"></span></div>
 <table id="t"><thead><tr><th data-s="rank" class="rk">Rank</th><th data-s="name">University</th><th class="dm">Domain</th></tr></thead><tbody id="tb"><tr class="loading"><td colspan="3">Loading from repo…</td></tr></tbody></table>
-<p class="hint">Click a row to load admissions details. When data exists, click <strong>Majors</strong> for an enrollment bubble chart, or <strong>Testing</strong> for the admitted-student SAT/ACT range.</p>
+<p class="hint">Click a row to load admissions details. When data exists, click <strong>Majors</strong>, <strong>Testing</strong>, <strong>GPA</strong>, or <strong>Course rigor</strong> to expand structured panels.</p>
 <footer>Built from <a href="https://github.com/JackHanUTSA/goal-kicker">JackHanUTSA/goal-kicker</a> · 20 tests passing · Data fetched live from <code>main</code></footer>
 </div>
 <div id="tip" class="tooltip"></div>
@@ -107,86 +118,77 @@ const SCHOOL_COLORS={"Architecture and Planning":"#a78bfa","Engineering":"#60a5f
 let D=[],sk='rank',sd=1;
 const $=id=>document.getElementById(id),tb=$('tb'),q=$('q'),f=$('f'),c=$('c'),tip=$('tip');
 const esc=s=>s==null?'':String(s).replace(/[&<>"']/g,x=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[x]);
-const detailCache={},enrollCache={},testCache={};
+const detailCache={},enrollCache={},testCache={},gpaCache={},rigorCache={};
+
+function tryFetchJson(slug, sub, cache){
+  if(cache[slug]!==undefined) return Promise.resolve();
+  return fetch(RAW+'data/'+sub+'/'+slug+'.json').then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{cache[slug]=d}).catch(()=>{cache[slug]=null});
+}
 
 async function loadDetail(slug,el){
   if(detailCache[slug]){renderDetail(slug,detailCache[slug],el);wireToggles(slug,el);return}
   el.innerHTML='<div class="detail">Loading…</div>';
   try{const d=await fetch(RAW+'knowledgebase/universities/'+slug+'.json').then(r=>r.json());detailCache[slug]=d;renderDetail(slug,d,el)}
   catch(e){el.innerHTML='<div class="detail">No detailed record yet.</div>';return}
-  // Pre-fetch enrollment + testing in parallel
-  const fetches = [];
-  if(enrollCache[slug]===undefined){
-    fetches.push(fetch(RAW+'data/enrollment/'+slug+'.json').then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{enrollCache[slug]=d}).catch(()=>{enrollCache[slug]=null}));
-  }
-  if(testCache[slug]===undefined){
-    fetches.push(fetch(RAW+'data/testing/'+slug+'.json').then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{testCache[slug]=d}).catch(()=>{testCache[slug]=null}));
-  }
-  await Promise.all(fetches);
+  await Promise.all([
+    tryFetchJson(slug,'enrollment',enrollCache),
+    tryFetchJson(slug,'testing',testCache),
+    tryFetchJson(slug,'gpa',gpaCache),
+    tryFetchJson(slug,'rigor',rigorCache),
+  ]);
   wireToggles(slug,el);
 }
+
+function box(cls, hintCls, label, body, slug){
+  return '<div class="detail '+cls+'" data-slug="'+esc(slug)+'"><strong>'+label+'<span class="toggle-hint '+hintCls+'"></span></strong>'+body+'</div>';
+}
+function shell(id, slug){ return '<div class="toggle-wrap" id="'+id+'-'+esc(slug)+'"></div>'; }
 
 function renderDetail(slug,d,el){
   const a=d.admissions||{},m=d.majors||{};
   const evCount=(d.evidence||[]).length;
-  const majorsBox = m.count
-    ? '<div class="detail majors-box" data-slug="'+esc(slug)+'"><strong>Majors<span class="toggle-hint majors-hint"></span></strong>'+m.count+(m.notes?' — '+esc(m.notes):'')+'</div>'
-    : '';
-  const majorsShell = '<div class="toggle-wrap" id="cw-'+esc(slug)+'"></div>';
-  const testingBox = a.testing_policy
-    ? '<div class="detail testing-box" data-slug="'+esc(slug)+'"><strong>Testing<span class="toggle-hint testing-hint"></span></strong>'+esc(a.testing_policy)+'</div>'
-    : '';
-  const testingShell = '<div class="toggle-wrap" id="tw-'+esc(slug)+'"></div>';
+  const majorsBox = m.count ? box('majors-box','majors-hint','Majors', m.count+(m.notes?' — '+esc(m.notes):''), slug) : '';
+  const testingBox = a.testing_policy ? box('testing-box','testing-hint','Testing', esc(a.testing_policy), slug) : '';
+  const gpaBox = a.gpa_policy ? box('gpa-box','gpa-hint','GPA', esc(a.gpa_policy), slug) : '';
+  const rigorBox = a.course_rigor ? box('rigor-box','rigor-hint','Course rigor', esc(a.course_rigor), slug) : '';
   el.innerHTML=
-    majorsBox + majorsShell +
-    testingBox + testingShell +
-    (a.gpa_policy?'<div class="detail"><strong>GPA</strong>'+esc(a.gpa_policy)+'</div>':'')+
-    (a.course_rigor?'<div class="detail"><strong>Course rigor</strong>'+esc(a.course_rigor)+'</div>':'')+
+    majorsBox + shell('cw',slug) +
+    testingBox + shell('tw',slug) +
+    gpaBox + shell('gw',slug) +
+    rigorBox + shell('rw',slug) +
     '<div class="detail"><strong>Evidence</strong>'+evCount+' source-cited rows · <a href="https://github.com/JackHanUTSA/goal-kicker/blob/main/knowledgebase/universities/'+esc(slug)+'.json">view JSON</a> · <a href="https://github.com/JackHanUTSA/goal-kicker/blob/main/knowledgebase/universities/'+esc(slug)+'.md">view markdown</a></div>';
 }
 
+function wireOne(el, slug, boxSel, wrapPrefix, hintSel, cache, openHint, hideHint, renderFn, postRender){
+  const b = el.querySelector(boxSel);
+  if(!b) return;
+  const wrap = el.querySelector('#'+wrapPrefix+'-'+CSS.escape(slug));
+  const hint = b.querySelector(hintSel);
+  const data = cache[slug];
+  if(!data) return;
+  b.classList.add('clickable');
+  hint.textContent = openHint;
+  b.addEventListener('click', () => {
+    const open = wrap.classList.toggle('show');
+    b.classList.toggle('open', open);
+    hint.textContent = open ? hideHint : openHint;
+    if(open && !wrap.dataset.rendered){
+      wrap.innerHTML = renderFn(data);
+      wrap.dataset.rendered = '1';
+      if(postRender) postRender(wrap);
+    }
+  });
+}
+
 function wireToggles(slug, el){
-  // Majors toggle
-  const mbox = el.querySelector('.majors-box');
-  if(mbox){
-    const wrap = el.querySelector('#cw-'+CSS.escape(slug));
-    const hint = mbox.querySelector('.majors-hint');
-    const enr = enrollCache[slug];
-    if(enr){
-      mbox.classList.add('clickable');
-      hint.textContent = '— click to show enrollment chart';
-      mbox.addEventListener('click', () => {
-        const open = wrap.classList.toggle('show');
-        mbox.classList.toggle('open', open);
-        hint.textContent = open ? '— click to hide chart' : '— click to show enrollment chart';
-        if(open && !wrap.dataset.rendered){
-          wrap.innerHTML = renderChart(enr);
-          wrap.dataset.rendered = '1';
-          bindBubbleHover(wrap);
-        }
-      });
-    }
-  }
-  // Testing toggle
-  const tbox = el.querySelector('.testing-box');
-  if(tbox){
-    const wrap = el.querySelector('#tw-'+CSS.escape(slug));
-    const hint = tbox.querySelector('.testing-hint');
-    const tst = testCache[slug];
-    if(tst){
-      tbox.classList.add('clickable');
-      hint.textContent = '— click to show admitted SAT/ACT ranges';
-      tbox.addEventListener('click', () => {
-        const open = wrap.classList.toggle('show');
-        tbox.classList.toggle('open', open);
-        hint.textContent = open ? '— click to hide ranges' : '— click to show admitted SAT/ACT ranges';
-        if(open && !wrap.dataset.rendered){
-          wrap.innerHTML = renderTesting(tst);
-          wrap.dataset.rendered = '1';
-        }
-      });
-    }
-  }
+  wireOne(el, slug, '.majors-box', 'cw', '.majors-hint', enrollCache,
+    '— click to show enrollment chart', '— click to hide chart', renderChart, bindBubbleHover);
+  wireOne(el, slug, '.testing-box', 'tw', '.testing-hint', testCache,
+    '— click to show admitted SAT/ACT ranges', '— click to hide ranges', renderTesting, null);
+  wireOne(el, slug, '.gpa-box', 'gw', '.gpa-hint', gpaCache,
+    '— click to show what MIT publishes about GPA', '— click to hide', renderGpa, null);
+  wireOne(el, slug, '.rigor-box', 'rw', '.rigor-hint', rigorCache,
+    '— click to show recommended HS preparation', '— click to hide', renderRigor, null);
 }
 
 function renderTesting(t){
@@ -218,7 +220,38 @@ function renderTesting(t){
     '</div>';
 }
 
-// Packed-bubble layout via simple non-overlap relaxation
+function renderGpa(g){
+  const claims = (g.what_mit_does_say || []).map(c =>
+    '<li>'+esc(c.claim)+(c.source_url ? '<a class="src-link" href="'+esc(c.source_url)+'">source</a>' : '')+'</li>'
+  ).join('');
+  const sourceLinks = (g.source_urls || []).map(u => '<a href="'+esc(u)+'">source</a>').join(' · ');
+  return '<div class="chartbox">'+
+    '<div class="chart-title">Published GPA information <span class="src">'+sourceLinks+'</span></div>'+
+    (g.scope_note ? '<div class="scope-note"><strong>Scope:</strong> '+esc(g.scope_note)+'</div>' : '')+
+    (g.policy_summary ? '<div class="policy-summary">'+esc(g.policy_summary)+'</div>' : '')+
+    (claims ? '<ul class="policy-list">'+claims+'</ul>' : '')+
+    '</div>';
+}
+
+function renderRigor(r){
+  const cards = (r.areas || []).map(a => {
+    const color = a.color || '#60a5fa';
+    return '<div class="area-card" style="border-left-color:'+color+'">'+
+      '<div class="area-head"><span class="area-name">'+esc(a.name)+'</span><span class="area-level" style="background:'+color+'22;color:'+color+';border-color:'+color+'55">'+esc(a.level||'')+'</span></div>'+
+      '<div class="area-summary">'+esc(a.summary||'')+'</div>'+
+      (a.detail ? '<div class="area-detail">'+esc(a.detail)+'</div>' : '')+
+      '</div>';
+  }).join('');
+  return '<div class="chartbox">'+
+    '<div class="chart-title">Recommended high-school preparation <span class="src"><a href="'+esc(r.source_url)+'">source</a></span></div>'+
+    (r.scope_note ? '<div class="scope-note"><strong>Scope:</strong> '+esc(r.scope_note)+'</div>' : '')+
+    (r.audience ? '<div class="policy-summary"><em>For ' + esc(r.audience) + '.</em></div>' : '')+
+    '<div class="area-grid">'+cards+'</div>'+
+    (r.international_note ? '<div class="policy-summary" style="margin-top:12px"><strong style="display:inline;color:var(--accent);font-size:11px;letter-spacing:.04em;text-transform:uppercase">Non-US curriculum:</strong> '+esc(r.international_note)+'</div>' : '')+
+    '</div>';
+}
+
+// Packed-bubble layout
 function packBubbles(items, W, H){
   const N=items.length;
   const pad=4;
@@ -232,17 +265,10 @@ function packBubbles(items, W, H){
         const dx=b.x-a.x,dy=b.y-a.y;
         const dist=Math.sqrt(dx*dx+dy*dy)||0.01;
         const overlap=(a.r+b.r+1)-dist;
-        if(overlap>0){
-          const ux=dx/dist,uy=dy/dist;
-          a.x-=ux*overlap/2;a.y-=uy*overlap/2;
-          b.x+=ux*overlap/2;b.y+=uy*overlap/2;
-        }
+        if(overlap>0){const ux=dx/dist,uy=dy/dist;a.x-=ux*overlap/2;a.y-=uy*overlap/2;b.x+=ux*overlap/2;b.y+=uy*overlap/2;}
       }
-      const a=nodes[i];
-      const gx=cx-a.x,gy=cy-a.y;
-      a.x+=gx*0.012;a.y+=gy*0.012;
-      a.x=Math.max(a.r+pad,Math.min(W-a.r-pad,a.x));
-      a.y=Math.max(a.r+pad,Math.min(H-a.r-pad,a.y));
+      const a=nodes[i];const gx=cx-a.x,gy=cy-a.y;a.x+=gx*0.012;a.y+=gy*0.012;
+      a.x=Math.max(a.r+pad,Math.min(W-a.r-pad,a.x));a.y=Math.max(a.r+pad,Math.min(H-a.r-pad,a.y));
     }
   }
   return nodes;
