@@ -5,15 +5,15 @@
   "progress_summary": {
     "schools_total": 100,
     "schools_with_records": 100,
-    "schools_with_majors": 88,
+    "schools_with_majors": 90,
     "schools_with_professors": 100,
     "schools_with_alumni": 100,
-    "overall_structured_completion_pct": 97.0,
-    "last_audited": "2026-05-07T17:08:08Z"
+    "overall_structured_completion_pct": 98.0,
+    "last_audited": "2026-05-07T21:41:02Z"
   },
   "next_steps": [
-    "Raise majors coverage from 88/100 toward full top-100 coverage",
-    "Target remaining blocked or JS-heavy majors pages such as Michigan, UC Berkeley, Michigan State, and WashU",
+    "Raise majors coverage from 90/100 toward full top-100 coverage",
+    "Target remaining blocked or JS-heavy majors pages such as Michigan, UC Berkeley, Michigan State, WashU, and Florida State",
     "Improve faculty verification to use official school pages instead of RateMyProfessors-derived fallbacks where possible",
     "Improve alumni recency and per-major filtering in the generic enrichment pipeline"
   ],

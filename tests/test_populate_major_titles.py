@@ -318,6 +318,53 @@ class PopulateMajorTitlesTests(unittest.TestCase):
 
         self.assertEqual(titles, ["Accounting Major, BSM"])
 
+    def test_has_undergrad_program_label_accepts_bachelor_codes_and_rejects_non_bachelor_labels(self):
+        self.assertTrue(populate_major_titles.has_undergrad_program_label("BSBA, Minor, MS"))
+        self.assertTrue(populate_major_titles.has_undergrad_program_label("Bachelor of Arts"))
+        self.assertTrue(populate_major_titles.has_undergrad_program_label("BArch, Minor"))
+        self.assertFalse(populate_major_titles.has_undergrad_program_label("Minor"))
+        self.assertFalse(populate_major_titles.has_undergrad_program_label("MBA, MS"))
+
+    def test_update_record_uses_school_specific_titles_before_crawl(self):
+        original_fetch_school_specific_titles = populate_major_titles.fetch_school_specific_titles
+        original_crawl_school = populate_major_titles.crawl_school
+        original_choose_best_titles = populate_major_titles.choose_best_titles
+        original_save_record = populate_major_titles.save_record
+        original_now_iso = populate_major_titles.now_iso
+
+        try:
+            populate_major_titles.fetch_school_specific_titles = lambda _record: (["Accounting", "Biology"], "https://example.edu/special")
+            populate_major_titles.crawl_school = lambda _record: (_ for _ in ()).throw(AssertionError("crawl_school should not run when school-specific titles exist"))
+            populate_major_titles.choose_best_titles = lambda _record, _pages: (_ for _ in ()).throw(AssertionError("choose_best_titles should not run when school-specific titles exist"))
+            populate_major_titles.save_record = lambda _record: None
+            populate_major_titles.now_iso = lambda: "2026-05-07T00:00:00Z"
+
+            record = {
+                "slug": "drexel",
+                "majors": {
+                    "count": 100,
+                    "count_method": "source-backed estimate from official programs page",
+                    "titles": [],
+                    "notes": "source-backed estimate from official programs page",
+                },
+                "source_urls": {"majors": ["https://example.edu/old"]},
+                "verification": {"confidence": "phase-5-auto-enriched", "warnings": []},
+                "evidence": [],
+            }
+
+            updated, success, source_url = populate_major_titles.update_record(record)
+
+            self.assertTrue(success)
+            self.assertEqual(source_url, "https://example.edu/special")
+            self.assertEqual(updated["majors"]["titles"], ["Accounting", "Biology"])
+            self.assertEqual(updated["majors"]["count"], 100)
+        finally:
+            populate_major_titles.fetch_school_specific_titles = original_fetch_school_specific_titles
+            populate_major_titles.crawl_school = original_crawl_school
+            populate_major_titles.choose_best_titles = original_choose_best_titles
+            populate_major_titles.save_record = original_save_record
+            populate_major_titles.now_iso = original_now_iso
+
     def test_latest_titles_source_url_prefers_titles_evidence(self):
         record = {
             "source_urls": {"majors": ["https://example.edu/old-majors"]},

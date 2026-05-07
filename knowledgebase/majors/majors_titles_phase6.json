@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-07T17:12:04.690183+00:00",
+  "generated_at": "2026-05-07T21:40:26.527438+00:00",
   "schools_total": 100,
-  "schools_with_titles": 88,
-  "schools_without_titles": 12,
+  "schools_with_titles": 90,
+  "schools_without_titles": 10,
   "results": [
     {
       "slug": "mit",
@@ -399,9 +399,9 @@
     {
       "slug": "indiana-bloomington",
       "rank": 57,
-      "majors_count": 0,
-      "titles_count": 0,
-      "titles_source_url": "https://www.iu.edu/academics/"
+      "majors_count": 332,
+      "titles_count": 332,
+      "titles_source_url": "https://bloomington.iu.edu/academics/degrees-majors/index.html"
     },
     {
       "slug": "syracuse",
@@ -547,8 +547,8 @@
       "slug": "drexel",
       "rank": 78,
       "majors_count": 100,
-      "titles_count": 0,
-      "titles_source_url": "https://drexel.edu/academics"
+      "titles_count": 90,
+      "titles_source_url": "https://drexel.edu/academics/undergrad-programs"
     },
     {
       "slug": "njit",

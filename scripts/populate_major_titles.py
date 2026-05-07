@@ -63,6 +63,8 @@ SPECIAL_MAJOR_URL_HINTS = {
     "brown": ["https://www.brown.edu/undergraduate-programs"],
     "binghamton": ["https://www.binghamton.edu/academics/programs/"],
     "boston-university": ["https://www.bu.edu/academics/degree-programs/"],
+    "drexel": ["https://drexel.edu/academics/undergrad-programs"],
+    "indiana-bloomington": ["https://bloomington.iu.edu/academics/degrees-majors/index.html"],
     "mit": ["https://catalog.mit.edu/degree-charts/"],
     "carnegie-mellon": ["https://www.cmu.edu/admission/majors-programs"],
     "case-western": ["https://case.edu/programs/"],
@@ -433,6 +435,94 @@ def add_delimited_text_candidates(candidates: list[str], raw: str | None) -> Non
         add_candidate(candidates, text)
 
 
+def has_undergrad_program_label(raw: str | None) -> bool:
+    text = strip_text(raw)
+    if not text:
+        return False
+    lowered = text.lower()
+    if "bachelor" in lowered:
+        return True
+    for piece in re.split(r"[,/]", text):
+        normalized = strip_text(piece).replace(".", "")
+        if re.fullmatch(r"B[A-Za-z]{1,7}", normalized, re.I):
+            return True
+    return False
+
+
+def fetch_drexel_titles() -> tuple[list[str], str | None]:
+    endpoint = "https://drexel.edu/api/du/search"
+    source_url = "https://drexel.edu/academics/undergrad-programs"
+    page = 1
+    session = requests.Session()
+    titles: list[str] = []
+    while True:
+        try:
+            response = session.get(
+                endpoint,
+                params={
+                    "pageId": "{0D72043A-4302-411D-94F1-605178A129E0}",
+                    "perPage": 50,
+                    "sortBy": "relevance",
+                    "sortOrder": "asc",
+                    "page": page,
+                },
+                headers=HEADERS,
+                timeout=TIMEOUT,
+            )
+            response.raise_for_status()
+            payload = response.json()
+        except Exception:
+            return [], None
+        for item in payload.get("results") or []:
+            if not has_undergrad_program_label(item.get("program")):
+                continue
+            add_candidate(titles, item.get("title"))
+        total_results = int(payload.get("totalResults") or 0)
+        if page * 50 >= total_results:
+            break
+        page += 1
+        time.sleep(0.2)
+    titles = dedupe_keep_order(titles)
+    return (titles, source_url) if titles else ([], None)
+
+
+def fetch_indiana_bloomington_titles() -> tuple[list[str], str | None]:
+    endpoint = "https://exdd-academics.webapps.iu.edu/api/public/v1/endpoint/degrees"
+    source_url = "https://bloomington.iu.edu/academics/degrees-majors/index.html"
+    session = requests.Session()
+    page = 1
+    titles: list[str] = []
+    while True:
+        try:
+            response = session.get(
+                endpoint,
+                params={"inst_cd": "IUBLA", "program_type": "2", "page": page, "perPage": 100},
+                headers=HEADERS,
+                timeout=TIMEOUT,
+            )
+            response.raise_for_status()
+            payload = response.json()
+        except Exception:
+            return [], None
+        for item in payload.get("data") or []:
+            add_candidate(titles, item.get("name"))
+        if not (payload.get("pagination") or {}).get("next"):
+            break
+        page += 1
+        time.sleep(0.2)
+    titles = dedupe_keep_order(titles)
+    return (titles, source_url) if titles else ([], None)
+
+
+def fetch_school_specific_titles(record: dict) -> tuple[list[str], str | None]:
+    slug = record.get("slug")
+    if slug == "drexel":
+        return fetch_drexel_titles()
+    if slug == "indiana-bloomington":
+        return fetch_indiana_bloomington_titles()
+    return [], None
+
+
 def is_rutgers_new_brunswick_text(text: str) -> bool:
     normalized = strip_text(text).lower()
     return re.search(r"rutgers[-\s]+new\s+brunswick", normalized) is not None
@@ -463,6 +553,9 @@ def extract_titles_from_page(page: dict, record: dict) -> list[str]:
         return []
 
     if record["slug"] == "colorado-school-of-mines" and "azindex" in page["url"]:
+        return []
+
+    if record["slug"] == "baylor" and "catalog.baylor.edu/azindex/" in page["url"]:
         return []
 
     if record["slug"] == "uconn" and "/undergraduate/programs/" in page["url"]:
@@ -972,8 +1065,10 @@ def save_record(record: dict) -> None:
 
 
 def update_record(record: dict) -> tuple[dict, bool, str | None]:
-    pages = crawl_school(record)
-    titles, source_url = choose_best_titles(record, pages)
+    titles, source_url = fetch_school_specific_titles(record)
+    if not titles:
+        pages = crawl_school(record)
+        titles, source_url = choose_best_titles(record, pages)
     changed = False
     old_titles = list((record.get("majors") or {}).get("titles") or [])
     old_source_urls = list(((record.get("source_urls") or {}).get("majors") or []))
