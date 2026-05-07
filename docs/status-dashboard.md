@@ -1,18 +1,21 @@
 # Goal Kicker Status Dashboard
 
-Last audited: 2026-05-07 08:03 UTC
+Last audited: 2026-05-07 10:25 UTC
 
 ## Current completion
 
 - Schools in scope: 100
 - School records present: 100 / 100
-- Majors coverage present: 81 / 100
+- Majors coverage present: 83 / 100
 - Professor coverage present: 100 / 100
 - Alumni coverage present: 100 / 100
-- Overall structured completion estimate: 95.3%
+- Overall structured completion estimate: 95.7%
 
 ## What changed most recently
 
+- Added official-source majors-title coverage for vanderbilt via the official Vanderbilt Program Finder browser-rendered bachelor-results view
+- Added official-source majors-title coverage for northeastern via the official Northeastern Undergraduate Admissions Areas of Study browser-rendered catalog cards
+- Repaired the remaining critical verifier gaps for columbia (cross-verified GPA policy note) and johns-hopkins (official testing requirement)
 - Added official-source majors-title coverage for colorado-school-of-mines
 - Added official-source majors-title coverage for rice
 - Added official-source majors-title coverage for santa-clara
@@ -22,7 +25,7 @@ Last audited: 2026-05-07 08:03 UTC
 
 ## Remaining major gaps
 
-19 schools still need majors-title coverage:
+17 schools still need majors-title coverage:
 
 - baylor
 - drexel
@@ -31,7 +34,6 @@ Last audited: 2026-05-07 08:03 UTC
 - indiana-bloomington
 - michigan-state
 - michigan
-- northeastern
 - temple
 - tulane
 - uc-berkeley
@@ -40,7 +42,6 @@ Last audited: 2026-05-07 08:03 UTC
 - unc-chapel-hill
 - university-of-georgia
 - university-of-san-diego
-- vanderbilt
 - villanova
 - washu
 
@@ -54,7 +55,7 @@ Every school now has at least:
 
 ## Recommended next focus
 
-1. Push majors coverage from 77 to 85+
-2. Target the remaining blocked/JS-heavy majors pages (especially Georgetown, Michigan, UNC, Vanderbilt, Temple, and Tulane)
+1. Push majors coverage from 83 to 90+
+2. Target the remaining blocked/JS-heavy majors pages (especially Georgetown, Michigan, UNC, Temple, and WashU)
 3. Improve source quality for professor verification beyond RateMyProfessors-derived fallbacks
 4. Improve recent-alumni and per-major alumni filtering

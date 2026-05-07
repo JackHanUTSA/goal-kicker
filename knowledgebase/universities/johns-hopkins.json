@@ -6,6 +6,7 @@
   "official_domain": "jhu.edu",
   "source_urls": {
     "admissions": [
+      "https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/",
       "https://admissions.jhu.edu/academics",
       "https://admissions.jhu.edu/account/login?r=https%3A%2F%2Fadmissions.jhu.edu%2Fapply%2Fstatus&cookie=1",
       "https://apply.jhu.edu/",
@@ -135,7 +136,7 @@
   },
   "admissions": {
     "application_platform": "Common Application",
-    "testing_policy": "unknown",
+    "testing_policy": "Johns Hopkins University requires standardized testing for first-year applicants; the official Application Deadlines & Requirements page says standardized test scores are required and reviewed as part of the holistic application review.",
     "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
     "course_rigor": "unknown",
     "recommendations": "Letters of Recommendation",
@@ -155,14 +156,6 @@
     "special_notes": []
   },
   "evidence": [
-    {
-      "field": "admissions.testing_policy",
-      "claim": "Higher Education Act Disclosures",
-      "classification": "official_requirement",
-      "source_url": "https://admissions.jhu.edu/account/login?r=https%3A%2F%2Fadmissions.jhu.edu%2Fapply%2Fstatus&cookie=1",
-      "source_excerpt": "Higher Education Act Disclosures",
-      "retrieved_at": "2026-04-20T03:01:12.873714+00:00"
-    },
     {
       "field": "admissions.gpa_policy",
       "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
@@ -218,13 +211,20 @@
       "source_url": "https://apply.jhu.edu/academics/majors-minors-programs/",
       "source_excerpt": "Africana Studies; Anthropology; Archaeology; Behavioral Biology; Bioethics; Biology; Biomedical Engineering; Biophysics; Business; Chemical and Biomolecular Engineering; Chemistry; Civic Life",
       "retrieved_at": "2026-04-29T23:34:50.737327+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Johns Hopkins University requires standardized testing for first-year applicants; the official Application Deadlines & Requirements page says standardized test scores are required and reviewed as part of the holistic application review.",
+      "classification": "official_requirement",
+      "source_url": "https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/",
+      "source_excerpt": "Johns Hopkins University requires standardized testing. As part of our holistic review process, submitted scores will be taken into consideration within the context of your broader application. We will review self-reported or official test scores as part of the application.",
+      "retrieved_at": "2026-05-07T10:24:38.458804+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-29T23:34:50.737335+00:00",
+    "last_verified_at": "2026-05-07T10:24:38.458804+00:00",
     "confidence": "phase-5-cross-verified",
     "unknown_fields": [
-      "admissions.testing_policy",
       "admissions.course_rigor",
       "admissions.essays"
     ],

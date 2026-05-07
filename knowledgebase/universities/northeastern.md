@@ -16,16 +16,116 @@ status: phase-5-auto-enriched
 - https://www.northeastern.edu/admissions/
 
 ### Majors
+- https://admissions.northeastern.edu/academics/areas-of-study/
 - https://www.northeastern.edu/academics/
 - https://www.northeastern.edu/majors
 
 ## Majors
 - Count: 200
 - Count method: explicit official page sentence
-- Titles extracted: 0
+- Titles extracted: 97
+
+### Titles
+- Africana Studies
+- American Sign Language
+- American Sign Language – English Interpreting
+- Applied Physics
+- Architectural Studies
+- Architecture
+- Art: Art, Visual Studies
+- Behavioral Neuroscience
+- Biochemistry
+- Bioengineering
+- Biology
+- Biomedical Physics
+- Bouvé Undeclared
+- Business Administration: Accounting
+- Business Administration: Accounting and Advisory Services
+- Business Administration: Brand Management
+- Business Administration: Business Analytics
+- Business Administration: Corporate Innovation
+- Business Administration: Entrepreneurial Startups
+- Business Administration: Family Business
+- Business Administration: Finance
+- Business Administration: Fintech
+- Business Administration: Healthcare Management and Consulting
+- Business Administration: Management
+- Business Administration: Management Information Systems
+- Business Administration: Marketing
+- Business Administration: Marketing Analytics
+- Business Administration: Social Innovation and Entrepreneurship
+- Business Administration: Supply Chain Management
+- Business Administration: Undeclared
+- Business Administration
+- CAMD Undeclared
+- Cell and Molecular Biology
+- Chemical Engineering
+- Chemistry
+- Civil Engineering
+- COE Undeclared
+- Communication Studies
+- Computer Engineering
+- Computer Science
+- Computing and Law
+- Criminology and Criminal Justice
+- Cultural Anthropology
+- Cybersecurity
+- Data Science
+- Design
+- Discover Oakland (Interdisciplinary Studies)
+- Economics
+- Electrical Engineering
+- English
+- Environmental and Sustainability Sciences
+- Environmental Engineering
+- Environmental Science
+- Environmental Studies
+- Game Art and Animation
+- Game Design
+- Global Asian Studies
+- Health Science
+- History
+- History, Culture, and Law
+- Human Services
+- Industrial Engineering
+- International Affairs
+- International Business: Accounting
+- International Business: Accounting and Advisory Services
+- International Business: Brand Management
+- International Business: Business Analytics
+- International Business: Corporate Innovation
+- International Business: Entrepreneurial Startups
+- International Business: Family Business
+- International Business: Finance
+- International Business: Fintech
+- International Business: Healthcare Management and Consulting
+- International Business: Management
+- International Business: Management Information Systems
+- International Business: Marketing
+- International Business: Marketing Analytics
+- International Business: Social Innovation and Entrepreneurship
+- International Business: Supply Chain Management
+- International Business: Undeclared
+- Journalism
+- Landscape Architecture
+- Linguistics
+- Marine Biology
+- Mathematics
+- Mechanical Engineering
+- Media and Screen Studies
+- Media Arts
+- Music
+- Music Industry
+- Music Technology
+- Northeastern Explore Program (Undeclared)
+- Nursing
+- Pharmaceutical Sciences
+- Pharmacy (PharmD)
+- Philosophy
+- Physics
 
 ## Warnings
-- Major titles still need manual follow-up; no reliable official title list was extracted in this pass.
+- Major titles extracted from official school source (99 titles) via the Northeastern Undergraduate Admissions Areas of Study browser view.
 - Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.
 - GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.
 - School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data.

@@ -82,7 +82,7 @@
   "admissions": {
     "application_platform": "Common Application, Coalition Application, or QuestBridge Application",
     "testing_policy": "Cross-verified from the Common App school page: Columbia lists optional SAT or ACT scores (self-reported) for first-year applicants.",
-    "gpa_policy": "unknown",
+    "gpa_policy": "No explicit minimum GPA is stated on the Common App school profile used in this cross-verified repair pass; Columbia instead describes a holistic review process in which every part of the application matters.",
     "course_rigor": "unknown",
     "recommendations": "Cross-verified from the Common App school page: Columbia lists a secondary school report and two teacher recommendations for first-year applicants.",
     "essays": "Cross-verified from the Common App school page: Columbia lists Columbia-specific questions as part of the first-year application.",
@@ -154,14 +154,21 @@
       "source_url": "https://en.wikipedia.org/wiki/List_of_Columbia_University_alumni_and_attendees",
       "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, and ranked by pageviews. Major-specific and last-10-years filtering requires stronger school-specific alumni sources than this generic pipeline currently has.",
       "retrieved_at": "2026-04-27T07:04:02.810922+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "No explicit minimum GPA is stated on the Common App school profile used in this cross-verified repair pass; Columbia instead describes a holistic review process in which every part of the application matters.",
+      "classification": "cross_verification",
+      "source_url": "https://www.commonapp.org/explore/columbia-university/",
+      "source_excerpt": "We ask first-year applicants to submit the Common Application, Coalition Application or QuestBridge Application with Columbia-specific questions, a secondary school report, two teacher recommendations and optional SAT or ACT scores (self-reported). The admissions process at Columbia is a holistic one, which means that every part of the application matters to help inform our judgment.",
+      "retrieved_at": "2026-05-07T10:24:38.458804+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-27T07:04:02.810924+00:00",
+    "last_verified_at": "2026-05-07T10:24:38.458804+00:00",
     "confidence": "phase-5-cross-verified",
     "unknown_fields": [
       "majors.count",
-      "admissions.gpa_policy",
       "admissions.course_rigor",
       "competitive_signals.projects_research"
     ],

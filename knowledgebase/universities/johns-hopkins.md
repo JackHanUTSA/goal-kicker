@@ -11,6 +11,7 @@ status: phase-5-cross-verified
 
 ## Official sources
 ### Admissions
+- https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/
 - https://admissions.jhu.edu/academics
 - https://admissions.jhu.edu/account/login?r=https%3A%2F%2Fadmissions.jhu.edu%2Fapply%2Fstatus&cookie=1
 - https://apply.jhu.edu/

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-07T08:06:56.428174+00:00",
+  "generated_at": "2026-05-07T10:20:39.642571+00:00",
   "schools_total": 100,
-  "schools_with_titles": 81,
-  "schools_without_titles": 19,
+  "schools_with_titles": 83,
+  "schools_without_titles": 17,
   "results": [
     {
       "slug": "mit",
@@ -113,8 +113,8 @@
       "slug": "vanderbilt",
       "rank": 16,
       "majors_count": 65,
-      "titles_count": 0,
-      "titles_source_url": "https://www.vanderbilt.edu/academics"
+      "titles_count": 67,
+      "titles_source_url": "https://www.vanderbilt.edu/academics/program-finder/?degrees=bachelors"
     },
     {
       "slug": "rice",
@@ -302,8 +302,8 @@
       "slug": "northeastern",
       "rank": 43,
       "majors_count": 200,
-      "titles_count": 0,
-      "titles_source_url": "https://www.northeastern.edu/academics/"
+      "titles_count": 97,
+      "titles_source_url": "https://admissions.northeastern.edu/academics/areas-of-study/"
     },
     {
       "slug": "case-western",
