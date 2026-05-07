@@ -1,0 +1,26 @@
+{
+  "university": "Massachusetts Institute of Technology",
+  "slug": "mit",
+  "source_urls": [
+    "https://mitadmissions.org/apply/process/stats/",
+    "https://mitadmissions.org/apply/process/selection/"
+  ],
+  "retrieved_at": "2026-05-06",
+  "scope": "no_per_major_data",
+  "scope_note": "MIT does not publish a minimum GPA cutoff, an admitted-student GPA distribution, or any GPA breakdown by major. Their stated process is holistic, not numeric.",
+  "policy_summary": "MIT does not state a minimum required GPA on its admissions pages. Class rank is reported as 'not used' in MIT's Common Data Set. The Admissions Office emphasizes that they admit people, not numbers.",
+  "what_mit_does_say": [
+    {
+      "claim": "MIT does not publish a minimum GPA cutoff for first-year applicants on its cited admissions pages.",
+      "source_url": "https://mitadmissions.org/apply/process/stats/"
+    },
+    {
+      "claim": "MIT's holistic admissions process considers test scores alongside qualitative factors such as match with MIT, which the Admissions Office notes are 'much harder to quantify and are therefore not included in the tables below, despite their centrality to our process.'",
+      "source_url": "https://mitadmissions.org/apply/process/stats/"
+    },
+    {
+      "claim": "MIT explicitly states 'the most important thing to remember is that at MIT we admit people, not numbers.'",
+      "source_url": "https://mitadmissions.org/apply/process/stats/"
+    }
+  ]
+}
