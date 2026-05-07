@@ -22,5 +22,27 @@
       "claim": "MIT explicitly states 'the most important thing to remember is that at MIT we admit people, not numbers.'",
       "source_url": "https://mitadmissions.org/apply/process/stats/"
     }
-  ]
+  ],
+  "recommended_gpa": {
+    "summary": "MIT does not publish HS GPA data for its incoming class. The numbers below are third-party predictions, not official MIT figures. Use them as a directional reference, not a cutoff.",
+    "estimates": [
+      {
+        "source": "PrepScholar",
+        "value": "4.19",
+        "scale": "weighted, 4.0 scale",
+        "label": "Weighted (estimate)",
+        "method": "Estimated using data from over 1,000 schools, because MIT did not officially report its average GPA.",
+        "url": "https://www.prepscholar.com/sat/s/colleges/MIT-admission-requirements"
+      },
+      {
+        "source": "CollegeSimply",
+        "value": "3.96",
+        "scale": "unweighted, 4.0 scale",
+        "label": "Unweighted (prediction)",
+        "method": "Predicted by a CollegeSimply algorithm using MIT's test scores and a large sample of college GPA data, because MIT has not published HS GPA data for incoming freshmen.",
+        "url": "https://www.collegesimply.com/colleges/massachusetts/massachusetts-institute-of-technology/admission/"
+      }
+    ],
+    "interpretation": "Both estimates point to the same picture: near-straight-A grades. The weighted 4.19 implies students take honors/AP courses and earn very high marks; the unweighted 3.96 corresponds to roughly an A- average. Niche reports HS GPA as 'Considered but not required'; US News calls GPA 'an important academic factor' but does not publish a number on the free page."
+  }
 }
