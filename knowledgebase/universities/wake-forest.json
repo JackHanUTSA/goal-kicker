@@ -13,7 +13,8 @@
     ],
     "majors": [
       "https://about.wfu.edu/academics/",
-      "https://admissions.wfu.edu/academics/"
+      "https://admissions.wfu.edu/academics/",
+      "https://admissions.wfu.edu/academics/majors-minors/"
     ],
     "testing_policy": [],
     "general": [
@@ -29,8 +30,53 @@
   "majors": {
     "count": 50,
     "count_method": "explicit official page sentence",
-    "titles": [],
-    "notes": "explicit official page sentence",
+    "titles": [
+      "Accountancy",
+      "African American Studies",
+      "Anthropology",
+      "Applied Statistics",
+      "Art History",
+      "Biochemistry and Molecular Biology",
+      "Biology",
+      "Biophysics",
+      "Chemistry",
+      "Chinese Language & Culture",
+      "Classical Languages",
+      "Classical Studies",
+      "Communication",
+      "Computer Science",
+      "Critical & Creative Media",
+      "Decision Analytics",
+      "Economics",
+      "Elementary Education",
+      "Engineering",
+      "English",
+      "Environment & Sustainability Studies",
+      "Environmental Science",
+      "Finance",
+      "French Studies",
+      "German & German Studies",
+      "Greek",
+      "Health & Exercise Science",
+      "History",
+      "Interdisciplinary Studies",
+      "Japanese Language & Culture",
+      "Latin",
+      "Mathematics",
+      "Philosophy",
+      "Physics",
+      "Politics & International Affairs",
+      "Psychology",
+      "Religious Studies",
+      "Russian",
+      "Sociology",
+      "Spanish",
+      "Statistics",
+      "Studio Art",
+      "Theatre",
+      "Women\u2019s, Gender, & Sexuality Studies"
+    ],
+    "notes": "explicit official page sentence; titles extracted from official page: https://admissions.wfu.edu/academics/majors-minors/",
     "confidence": "medium"
   },
   "admissions": {
@@ -110,16 +156,24 @@
       "source_url": "https://en.wikipedia.org/wiki/List_of_Wake_Forest_University_people",
       "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
       "retrieved_at": "2026-04-24T18:00:00.860134+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 44 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://admissions.wfu.edu/academics/majors-minors/",
+      "source_excerpt": "Accountancy; African American Studies; Anthropology; Applied Statistics; Art History; Biochemistry and Molecular Biology; Biology; Biophysics; Chemistry; Chinese Language & Culture; Classical Languages; Classical Studies",
+      "retrieved_at": "2026-05-07T05:32:56.283052+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-30T00:27:53.261903+00:00",
+    "last_verified_at": "2026-05-07T05:24:34.011387+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.essays"
     ],
     "warnings": [
-      "Major titles still need manual follow-up; no reliable official title list was extracted in this pass.",
+      "Major titles extracted from official school source (44 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
       "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",

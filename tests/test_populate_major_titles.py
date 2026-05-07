@@ -104,6 +104,26 @@ class PopulateMajorTitlesTests(unittest.TestCase):
 
         self.assertIsNone(page)
 
+    def test_fetch_page_does_not_false_positive_on_embedded_captcha_script_text(self):
+        html = """
+        <html>
+          <head><title>Majors – Example University</title></head>
+          <body>
+            <main>
+              <h1>Majors</h1>
+              <p>Choose from dozens of undergraduate majors.</p>
+              <script>var analytics = 'captcha';</script>
+            </main>
+          </body>
+        </html>
+        """
+        page = populate_major_titles.fetch_page(
+            FakeSession(FakeResponse(text=html, url="https://example.edu/majors")),
+            "https://example.edu/majors",
+        )
+
+        self.assertIsNotNone(page)
+
     def test_crawl_school_prioritizes_discovered_links_before_generic_seed_urls(self):
         original_candidate_urls = populate_major_titles.candidate_urls
         original_fetch_page = populate_major_titles.fetch_page
@@ -214,6 +234,78 @@ class PopulateMajorTitlesTests(unittest.TestCase):
 
         self.assertIn("Accounting", titles)
         self.assertNotIn("Nursing", titles)
+
+    def test_extract_titles_from_page_reads_wake_forest_degree_cards(self):
+        html = """
+        <html><body><main>
+          <div class="degree-list">
+            <a href="/academics/majors-minors/accountancy/">
+              <p class="major-name">Accountancy <span class="majorminor">Major, Minor</span></p>
+            </a>
+          </div>
+          <div class="degree-list">
+            <a href="/academics/majors-minors/african-studies/">
+              <p class="major-name">African Studies <span class="majorminor">Minor</span></p>
+            </a>
+          </div>
+        </main></body></html>
+        """
+        page = {
+            "title": "Majors & Minors | Wake Forest",
+            "url": "https://admissions.wfu.edu/academics/majors-minors/",
+            "soup": BeautifulSoup(html, "lxml"),
+        }
+        record = {"slug": "wake-forest", "official_domain": "wfu.edu", "majors": {"count": 50}}
+
+        titles = populate_major_titles.extract_titles_from_page(page, record)
+
+        self.assertIn("Accountancy", titles)
+        self.assertNotIn("African Studies", titles)
+
+    def test_extract_titles_from_page_reads_university_of_washington_major_cards(self):
+        html = """
+        <html><body><main>
+          <span id="majors-container">
+            <div class="major"><div class="major-type"><h2><a href="/majors/aeronautics-astronautics/">Aeronautics &amp; Astronautics</a></h2></div></div>
+            <div class="major"><div class="major-type"><h2><a href="/majors/anthropology/">Anthropology</a></h2></div></div>
+          </span>
+        </main></body></html>
+        """
+        page = {
+            "title": "Majors – Office of Admissions",
+            "url": "https://admit.washington.edu/academics/majors/",
+            "soup": BeautifulSoup(html, "lxml"),
+        }
+        record = {"slug": "university-of-washington", "official_domain": "washington.edu", "majors": {"count": 180}}
+
+        titles = populate_major_titles.extract_titles_from_page(page, record)
+
+        self.assertEqual(titles[:2], ["Aeronautics & Astronautics", "Anthropology"])
+
+    def test_extract_titles_from_page_reads_lmu_program_cards_with_bachelors(self):
+        html = """
+        <html><body><main>
+          <a class="program-finder__results__item" data-item href="/program/accounting">
+            <span class="program-finder__results__title">Accounting</span>
+            <span class="program-finder__results__degrees">B.S. / M.S. / Minor</span>
+          </a>
+          <a class="program-finder__results__item" data-item href="/program/additive-manufacturing">
+            <span class="program-finder__results__title">Additive Manufacturing Certificate</span>
+            <span class="program-finder__results__degrees">Certificate</span>
+          </a>
+        </main></body></html>
+        """
+        page = {
+            "title": "Degrees & Programs - Loyola Marymount University",
+            "url": "https://www.lmu.edu/academics/degrees/",
+            "soup": BeautifulSoup(html, "lxml"),
+        }
+        record = {"slug": "loyola-marymount", "official_domain": "lmu.edu", "majors": {"count": 60}}
+
+        titles = populate_major_titles.extract_titles_from_page(page, record)
+
+        self.assertIn("Accounting", titles)
+        self.assertNotIn("Additive Manufacturing Certificate", titles)
 
     def test_relevant_links_skips_noisy_program_pages(self):
         html = """

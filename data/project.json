@@ -5,17 +5,17 @@
   "progress_summary": {
     "schools_total": 100,
     "schools_with_records": 100,
-    "schools_with_majors": 71,
+    "schools_with_majors": 77,
     "schools_with_professors": 100,
     "schools_with_alumni": 100,
-    "overall_structured_completion_pct": 92.8,
-    "last_audited": "2026-05-06T23:51:18+00:00"
+    "overall_structured_completion_pct": 94.3,
+    "last_audited": "2026-05-07T05:43:53Z"
   },
   "next_steps": [
-    "Raise majors coverage from 71/100 toward full top-100 coverage",
+    "Raise majors coverage from 77/100 toward full top-100 coverage",
+    "Target remaining blocked or JS-heavy majors pages such as Georgetown, Michigan, UNC, Vanderbilt, Temple, and Tulane",
     "Improve faculty verification to use official school pages instead of RateMyProfessors-derived fallbacks where possible",
-    "Improve alumni recency and per-major filtering in the generic enrichment pipeline",
-    "Increase depth for schools that still have partial people coverage despite non-empty professor/alumni sections"
+    "Improve alumni recency and per-major filtering in the generic enrichment pipeline"
   ],
   "paths": {
     "knowledgebase": "knowledgebase/",

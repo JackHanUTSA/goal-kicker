@@ -67,12 +67,22 @@ SPECIAL_MAJOR_URL_HINTS = {
     "case-western": ["https://case.edu/programs/"],
     "fordham": ["https://www.fordham.edu/academics/programs-and-degrees/undergraduate-programs/"],
     "georgetown": ["https://www.georgetown.edu/undergraduate-admissions/academics/"],
+    "loyola-marymount": ["https://www.lmu.edu/academics/degrees/"],
     "stanford": [
         "https://majors.stanford.edu/majors/text-only-lists-majors-and-offerings",
         "https://majors.stanford.edu/majors",
     ],
     "duke": ["https://admissions.duke.edu/academic-possibilities/"],
     "rutgers-new-brunswick": ["https://www.rutgers.edu/academics/explore-undergraduate-programs?field_location=654"],
+    "uconn": ["https://catalog.uconn.edu/undergraduate/programs/"],
+    "upenn": [
+        "https://apps.sas.upenn.edu/annex/majors/view/frame",
+        "https://academics.seas.upenn.edu/ugrad/student-handbook/programs-options/",
+    ],
+    "vanderbilt": ["https://www.vanderbilt.edu/academics/program-finder/?degrees=bachelors"],
+    "university-of-washington": ["https://admit.washington.edu/academics/majors/"],
+    "wake-forest": ["https://admissions.wfu.edu/academics/majors-minors/"],
+    "wisconsin-madison": ["https://guide.wisc.edu/undergraduate/"],
 }
 
 BAD_TITLE_EXACT = {
@@ -297,8 +307,11 @@ def fetch_page(session: requests.Session, url: str) -> dict | None:
     if "html" not in content_type:
         return None
     text = response.text or ""
-    lowered = text.lower()
-    if any(term in lowered for term in BLOCK_TERMS):
+    title_match = re.search(r"<title[^>]*>(.*?)</title>", text, flags=re.I | re.S)
+    title_text = strip_text(title_match.group(1) if title_match else "")
+    body_text = strip_text(BeautifulSoup(text, "lxml").get_text(" ", strip=True))
+    block_blob = strip_text(f"{title_text} {body_text[:1200]}").lower()
+    if any(term in block_blob for term in BLOCK_TERMS):
         return None
     soup = BeautifulSoup(text, "lxml")
     return {
@@ -416,6 +429,47 @@ def extract_titles_from_page(page: dict, record: dict) -> list[str]:
     candidates: list[str] = []
     page_blob = f"{page['title']} {page['url']}".lower()
 
+    if record["slug"] == "upenn" and "apps.sas.upenn.edu/annex/majors/view/frame" in page["url"]:
+        html = str(soup)
+        matches = re.findall(r'"name":"([^"]+)"', html)
+        if matches:
+            return dedupe_keep_order([title for title in matches if is_good_title(normalize_title(title))])
+
+    if record["slug"] == "upenn" and "programs-options" in page["url"]:
+        return []
+
+    if record["slug"] == "uconn" and "azindex" in page["url"]:
+        return []
+
+    if record["slug"] == "uconn" and "/undergraduate/programs/" in page["url"]:
+        uconn_titles: list[str] = []
+        for anchor in main.find_all("a", href=True):
+            href = urljoin(page["url"], anchor["href"])
+            if "/undergraduate/programs/" not in href:
+                continue
+            add_candidate(uconn_titles, anchor.get_text(" ", strip=True))
+        if uconn_titles:
+            return dedupe_keep_order(uconn_titles)
+
+    if record["slug"] == "wisconsin-madison" and (
+        "guide.wisc.edu/undergraduate/" in page["url"] or "guide.wisc.edu/explore-majors/" in page["url"]
+    ):
+        wisc_titles: list[str] = []
+        for anchor in main.find_all("a", href=True):
+            href = urljoin(page["url"], anchor["href"])
+            if "/undergraduate/" not in href:
+                continue
+            text = strip_text(anchor.get_text(" ", strip=True))
+            if "..." in text or "…" in text:
+                text = re.split(r"(?:\.\.\.|…)", text, maxsplit=1)[-1].strip()
+            if "certificate" in text.lower():
+                continue
+            degree_match = re.match(r"^(.*?),\s*(BA|BS|BBA|BFA|BM|BMus|BSE|BAS|BLS)\b", text)
+            if degree_match:
+                add_candidate(wisc_titles, degree_match.group(1))
+        if wisc_titles:
+            return dedupe_keep_order(wisc_titles)
+
     if record["slug"] == "rutgers-new-brunswick":
         rutgers_titles: list[str] = []
         for row in main.select("li.views-row, li.accordion-list-item"):
@@ -429,6 +483,49 @@ def extract_titles_from_page(page: dict, record: dict) -> list[str]:
                     rutgers_titles.append(title)
         if rutgers_titles:
             return dedupe_keep_order(rutgers_titles)
+
+    if record["slug"] == "wake-forest":
+        wake_titles: list[str] = []
+        for card in main.select("div.degree-list"):
+            label = card.select_one("span.majorminor")
+            if not label:
+                continue
+            label_text = strip_text(label.get_text(" ", strip=True)).lower()
+            if "major" not in label_text:
+                continue
+            name_node = card.select_one("p.major-name")
+            if not name_node:
+                continue
+            title_text = strip_text(name_node.get_text(" ", strip=True))
+            title_text = re.sub(r"\b(Major|Minor|Certificate)(\s*,\s*(Major|Minor|Certificate))*$", "", title_text, flags=re.I).strip()
+            add_candidate(wake_titles, title_text)
+        if wake_titles:
+            return dedupe_keep_order(wake_titles)
+
+    if record["slug"] == "university-of-washington":
+        uw_titles: list[str] = []
+        for major_card in main.select("#majors-container div.major"):
+            heading = major_card.select_one(".major-type h2 a")
+            if heading:
+                add_candidate(uw_titles, heading.get_text(" ", strip=True))
+        if uw_titles:
+            return dedupe_keep_order(uw_titles)
+
+    if record["slug"] == "loyola-marymount":
+        lmu_titles: list[str] = []
+        for anchor in main.select("a.program-finder__results__item[data-item]"):
+            degrees_node = anchor.select_one(".program-finder__results__degrees")
+            degrees = strip_text(degrees_node.get_text(" ", strip=True) if degrees_node else "")
+            if not degrees:
+                continue
+            lowered_degrees = degrees.lower()
+            if not any(token in lowered_degrees for token in ("b.s.", "b.a.", "b.f.a.", "bachelor")):
+                continue
+            title_node = anchor.select_one(".program-finder__results__title")
+            if title_node:
+                add_candidate(lmu_titles, title_node.get_text(" ", strip=True))
+        if lmu_titles:
+            return dedupe_keep_order(lmu_titles)
 
     for item in main.select(".item, .card, .program, .program-card, .program-item, .major-item, .tile, .result, .link-container"):
         title_node = item.select_one(".title, .text--title .title")
@@ -506,6 +603,21 @@ def extract_titles_from_page(page: dict, record: dict) -> list[str]:
         if any(token in classes for token in ("mj", "major", "bachelors", "undergraduate")):
             add_candidate(candidates, re.split(r"\(", text, 1)[0])
             continue
+        bachelor_link = li.find("a", string=re.compile(r"^Bachelor'?s$", re.I))
+        if bachelor_link:
+            heading = li.find(HEADING_TAGS)
+            if heading:
+                add_candidate(candidates, heading.get_text(" ", strip=True))
+            else:
+                line = strip_text(li.get_text("\n", strip=True).split("\n", 1)[0])
+                add_candidate(candidates, line)
+            continue
+        heading = li.find(HEADING_TAGS)
+        if heading:
+            li_text = strip_text(li.get_text(" ", strip=True))
+            if re.search(r"(^|\s)M(\s|$)", li_text) or re.search(r"(^|\s)Major(s)?(\s|$)", li_text, re.I):
+                add_candidate(candidates, heading.get_text(" ", strip=True))
+                continue
         if DEGREE_CODE_RE.search(text) and len(text) < 120:
             add_candidate(candidates, re.split(r"\(", text, 1)[0])
 
@@ -530,12 +642,37 @@ def extract_titles_from_page(page: dict, record: dict) -> list[str]:
         ) or bachelor_href
         if not undergradish and not ("major" in page_blob and href.startswith(page["url"].rstrip("/") + "/")):
             continue
+        if anchor_text.lower() == "list of majors":
+            continue
         if not anchor_text_generic:
             add_candidate(candidates, anchor_text)
         else:
             heading = nearest_heading(anchor)
             if heading:
                 add_candidate(candidates, heading)
+
+    finder_like_page = any(term in page_blob for term in ("program finder", "departments and programs"))
+    if finder_like_page:
+        for li in main.find_all("li"):
+            first_link = li.find("a", href=True)
+            if not first_link:
+                continue
+            text = normalize_title(first_link.get_text(" ", strip=True))
+            lowered = text.lower()
+            if lowered in {"bachelor's", "masters", "doctoral", "online", "non-degree"}:
+                continue
+            if any(term in lowered for term in ("admissions", "financial aid", "apply", "learn more", "cookie", "privacy")):
+                continue
+            add_candidate(candidates, text)
+
+    if record["slug"] == "upenn":
+        for button in main.find_all("button"):
+            label = strip_text(button.get_text(" ", strip=True))
+            if not label:
+                continue
+            if label.lower() in {"expand all majors", "collapse all majors"}:
+                continue
+            add_candidate(candidates, label)
 
     if record["slug"] == "mit":
         for anchor in main.find_all("a", href=True):
@@ -580,6 +717,8 @@ def score_title_set(titles: list[str], page: dict, record: dict) -> tuple[float,
     url_blob = f"{page['url']} {page['title']}".lower()
     if any(term in url_blob for term in ["major", "program", "degree", "concentration", "undergraduate", "study", "catalog", "bulletin"]):
         score += 8.0
+    if "azindex" in url_blob:
+        score -= 20.0
     if any(term in url_blob for term in ["admission", "apply"]):
         score -= 12.0
     existing_count = record.get("majors", {}).get("count")
@@ -684,7 +823,10 @@ def update_record(record: dict) -> tuple[dict, bool, str | None]:
     pages = crawl_school(record)
     titles, source_url = choose_best_titles(record, pages)
     changed = False
-    warnings = [warning for warning in record.get("verification", {}).get("warnings", []) if "major titles" not in warning.lower()]
+    old_titles = list((record.get("majors") or {}).get("titles") or [])
+    old_source_urls = list(((record.get("source_urls") or {}).get("majors") or []))
+    old_warnings = list((record.get("verification") or {}).get("warnings") or [])
+    warnings = [warning for warning in old_warnings if "major titles" not in warning.lower()]
     if titles:
         changed = record.get("majors", {}).get("titles") != titles
         record["majors"]["titles"] = titles
@@ -703,13 +845,17 @@ def update_record(record: dict) -> tuple[dict, bool, str | None]:
     else:
         warnings.insert(0, "Major titles still need manual follow-up; no reliable official title list was extracted in this pass.")
     record.setdefault("verification", {})
-    record["verification"]["last_verified_at"] = now_iso()
     if titles:
         confidence = str(record["verification"].get("confidence") or "")
         if not confidence.startswith("phase-"):
             confidence = "verified"
         record["verification"]["confidence"] = confidence
     record["verification"]["warnings"] = dedupe_keep_order(warnings)
+    warnings = record["verification"]["warnings"]
+    new_titles = list((record.get("majors") or {}).get("titles") or [])
+    new_source_urls = list(((record.get("source_urls") or {}).get("majors") or []))
+    if new_titles != old_titles or new_source_urls != old_source_urls or warnings != old_warnings:
+        record["verification"]["last_verified_at"] = now_iso()
     save_record(record)
     return record, bool(titles), source_url
 
