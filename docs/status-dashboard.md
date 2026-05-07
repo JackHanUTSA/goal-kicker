@@ -1,6 +1,6 @@
 # Goal Kicker Status Dashboard
 
-Last audited: 2026-05-06 23:51 UTC
+Last audited: 2026-05-07 00:30 UTC
 
 ## Current completion
 
@@ -13,10 +13,11 @@ Last audited: 2026-05-06 23:51 UTC
 
 ## What changed most recently
 
-- Fixed Rutgers-New Brunswick people coverage with a school-specific override
-- Professor coverage moved from 99 / 100 to 100 / 100
-- Alumni coverage moved from 99 / 100 to 100 / 100
-- Refreshed `data/finish_coverage_status.json` to reflect the new counts
+- Fixed Dartmouth alumni depth with an official Dartmouth Alumni override
+- Fixed Fordham, Georgetown, NYU, Rochester, Texas A&M, William & Mary, and Drexel alumni depth with school-specific overrides
+- Professor coverage remains 100 / 100
+- Alumni coverage remains 100 / 100 with no shallow sub-10 alumni schools left
+- Refreshed the people override set to strengthen official-source coverage across weak schools
 
 ## Remaining major gaps
 
@@ -54,16 +55,11 @@ Last audited: 2026-05-06 23:51 UTC
 
 ## Partial people-depth gaps
 
-These schools now count as covered, but still have lighter-than-target people sections:
+None at the current minimum-depth threshold.
 
-- dartmouth: professors 20, alumni 5
-- drexel: professors 5, alumni 5
-- fordham: professors 5, alumni 7
-- georgetown: professors 5, alumni 7
-- nyu: professors 5, alumni 3
-- rochester: professors 5, alumni 4
-- texas-am: professors 5, alumni 7
-- william-and-mary: professors 5, alumni 6
+Every school now has at least:
+- 5 professor entries
+- 10 alumni entries
 
 ## Recommended next focus
 

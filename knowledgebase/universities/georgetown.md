@@ -34,3 +34,4 @@ status: phase-5-auto-enriched
 - Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.
 - Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page.
 - School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data.
+- School-people enrichment includes school-specific override data sourced from official university domains for populated sections.

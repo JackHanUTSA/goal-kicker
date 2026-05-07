@@ -140,24 +140,24 @@
       "retrieved_at": "2026-04-27T18:42:49.988414+00:00"
     },
     {
-      "field": "majors.titles",
-      "claim": "Extracted 51 official undergraduate major/program titles",
-      "classification": "official_recommendation",
-      "source_url": "https://home.dartmouth.edu/academics/undergraduate-arts-sciences/majors-and-minors",
-      "source_excerpt": "Art & Performing Arts; Engineering; Art History; Film and Media Studies; Music; Studio Art; Theater; Engineering Sciences; Biomedical Engineering Sciences; Engineering Physics; Human-Centered Design; Materials Science",
-      "retrieved_at": "2026-04-29T23:34:56.122111+00:00"
-    },
-    {
       "field": "school_people.successful_alumni",
       "claim": "Curated 10 Dartmouth alumni from official Dartmouth Alumni stories with explicit class-year evidence and person-specific impact summaries.",
       "classification": "official_profile",
       "source_url": "https://alumni.dartmouth.edu/stories-news/building-technology-helps-people-conversation-creator-milk-diary-112-122-127",
       "source_excerpt": "Extracted from official Dartmouth Alumni stories on alumni.dartmouth.edu.",
       "retrieved_at": "2026-05-07T00:05:00+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 51 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://home.dartmouth.edu/academics/undergraduate-arts-sciences/majors-and-minors",
+      "source_excerpt": "Art & Performing Arts; Engineering; Art History; Film and Media Studies; Music; Studio Art; Theater; Engineering Sciences; Biomedical Engineering Sciences; Engineering Physics; Human-Centered Design; Materials Science",
+      "retrieved_at": "2026-05-07T02:17:09.895090+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-05-07T00:05:00+00:00",
+    "last_verified_at": "2026-05-07T02:17:09.895099+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.course_rigor",

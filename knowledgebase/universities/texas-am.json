@@ -25,7 +25,9 @@
       "https://www.ratemyprofessors.com/school/19496"
     ],
     "alumni": [
-      "https://en.wikipedia.org/wiki/List_of_Texas_A%26M_University_people"
+      "https://en.wikipedia.org/wiki/List_of_Texas_A%26M_University_people",
+      "https://www.aggienetwork.com/distinguishedalumni/",
+      "https://www.aggienetwork.com/news/164755/2026-distinguished-alumni-announced/"
     ]
   },
   "majors": {
@@ -107,24 +109,24 @@
       "retrieved_at": "2026-04-25T22:10:48.080969+00:00"
     },
     {
-      "field": "school_people.successful_alumni",
-      "claim": "Ranked top 7 notable alumni from Wikipedia-derived candidate lists using trailing pageviews.",
-      "classification": "reported_profile",
-      "source_url": "https://en.wikipedia.org/wiki/List_of_Texas_A%26M_University_people",
-      "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
-      "retrieved_at": "2026-04-25T22:19:36.606984+00:00"
-    },
-    {
       "field": "majors.titles",
       "claim": "Extracted 16 official undergraduate major/program titles",
       "classification": "official_recommendation",
       "source_url": "https://honors.tamu.edu/about/honors-programs-directory.html",
       "source_excerpt": "Link to Agricultural Economics; Link to Animal Science; Link to Anthropology; Link to Biochemistry; Link to Chemistry; Link to English; Link to Entomology; Link to Forensic and Investigative Sciences; Link to Genetics; Link to History; Link to Leadership; Link to Philosophy",
       "retrieved_at": "2026-04-29T23:37:34.479455+00:00"
+    },
+    {
+      "field": "school_people.successful_alumni",
+      "claim": "Curated 10 alumni from school-specific official sources.",
+      "classification": "official_profile",
+      "source_url": "https://www.aggienetwork.com/distinguishedalumni/",
+      "source_excerpt": "Extracted from official Aggie Network / Association of Former Students pages announcing and listing 2026 Distinguished Alumnus Award honorees.",
+      "retrieved_at": "2026-05-06T21:16:34-05:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-29T23:37:34.479463+00:00",
+    "last_verified_at": "2026-05-06T21:16:34-05:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.course_rigor",
@@ -136,7 +138,8 @@
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
       "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",
-      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data.",
+      "School-people enrichment includes school-specific override data sourced from official university domains for populated sections."
     ]
   },
   "school_people": {
@@ -208,78 +211,213 @@
       ]
     },
     "successful_alumni": {
-      "ranking_basis": "Wikipedia list/category candidates ranked by trailing-365-day Wikipedia pageviews.",
-      "source_summary": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
-      "retrieved_at": "2026-04-25T22:19:36.606965+00:00",
+      "ranking_basis": "Curated from official Association of Former Students of Texas A&M pages for the 2026 Distinguished Alumnus Award honorees, prioritizing person-specific recognition with explicit class-year evidence and substantive leadership or career impact stated on official pages.",
+      "source_summary": "Extracted from official Aggie Network / Association of Former Students pages announcing and listing 2026 Distinguished Alumnus Award honorees.",
+      "retrieved_at": "2026-05-06T21:16:34-05:00",
+      "target_count": 10,
+      "recent_window_years": 10,
+      "major_specific": false,
+      "source_urls": [
+        "https://www.aggienetwork.com/distinguishedalumni/",
+        "https://www.aggienetwork.com/news/164755/2026-distinguished-alumni-announced/"
+      ],
       "items": [
         {
           "rank": 1,
-          "name": "Charles Koch",
-          "description": "American businessman and philanthropist (born 1935)",
-          "wikipedia_title": "Charles Koch",
-          "wikipedia_url": "https://en.wikipedia.org/wiki/Charles_Koch",
-          "recent_pageviews": 297196,
-          "source_url": "https://en.wikipedia.org/wiki/List_of_Texas_A%26M_University_people"
+          "name": "Robert E. \"Bob\" Jordan",
+          "bio": "The Association of Former Students of Texas A&M lists Robert E. \"Bob\" Jordan '85 as CEO of Southwest Airlines and names him a 2026 Distinguished Alumnus honoree.",
+          "description": "Southwest Airlines CEO and 2026 Texas A&M Distinguished Alumnus honoree.",
+          "wikipedia_title": null,
+          "wikipedia_url": null,
+          "confirmation_url": "https://www.aggienetwork.com/distinguishedalumni/",
+          "confirmation_label": "Official Aggie Network Distinguished Alumni page",
+          "official_website": null,
+          "recent_pageviews": null,
+          "major": "Mays Business School",
+          "graduation_year": 1985,
+          "within_last_10_years": false,
+          "source_url": "https://www.aggienetwork.com/distinguishedalumni/",
+          "source_confidence": "high",
+          "evidence_quality_label": "official_profile",
+          "evidence_quality_note": "Official Association of Former Students page explicitly lists Jordan as '85 and CEO of Southwest Airlines; the official 2026 honoree announcement also confirms his class year and college affiliation."
         },
         {
           "rank": 2,
-          "name": "United States Postmaster General",
-          "description": "Chief executive of the US Postal Service",
-          "wikipedia_title": "United States Postmaster General",
-          "wikipedia_url": "https://en.wikipedia.org/wiki/United_States_Postmaster_General",
-          "recent_pageviews": 149425,
-          "source_url": "https://en.wikipedia.org/wiki/List_of_Texas_A%26M_University_people"
+          "name": "Chris Tomlin",
+          "bio": "The Association of Former Students of Texas A&M lists Chris Tomlin '94 as a musician and a 2026 Distinguished Alumnus honoree.",
+          "description": "Musician and 2026 Texas A&M Distinguished Alumnus honoree.",
+          "wikipedia_title": null,
+          "wikipedia_url": null,
+          "confirmation_url": "https://www.aggienetwork.com/distinguishedalumni/",
+          "confirmation_label": "Official Aggie Network Distinguished Alumni page",
+          "official_website": null,
+          "recent_pageviews": null,
+          "major": "College of Arts and Sciences",
+          "graduation_year": 1994,
+          "within_last_10_years": false,
+          "source_url": "https://www.aggienetwork.com/distinguishedalumni/",
+          "source_confidence": "high",
+          "evidence_quality_label": "official_profile",
+          "evidence_quality_note": "Official Association of Former Students page explicitly lists Tomlin as '94 and a musician; the official 2026 honoree announcement also confirms his class year and college affiliation."
         },
         {
           "rank": 3,
-          "name": "Business magnate",
-          "description": "Entrepreneur who has achieved wealth and prominence from a particular industry",
-          "wikipedia_title": "Business magnate",
-          "wikipedia_url": "https://en.wikipedia.org/wiki/Business_magnate",
-          "recent_pageviews": 119500,
-          "source_url": "https://en.wikipedia.org/wiki/List_of_Texas_A%26M_University_people"
+          "name": "Dr. Patrick H. Conway",
+          "bio": "The Association of Former Students of Texas A&M lists Dr. Patrick H. Conway '96 as CEO of Optum, UnitedHealth Group, and a 2026 Distinguished Alumnus honoree.",
+          "description": "Optum CEO and 2026 Texas A&M Distinguished Alumnus honoree.",
+          "wikipedia_title": null,
+          "wikipedia_url": null,
+          "confirmation_url": "https://www.aggienetwork.com/distinguishedalumni/",
+          "confirmation_label": "Official Aggie Network Distinguished Alumni page",
+          "official_website": null,
+          "recent_pageviews": null,
+          "major": "College of Agriculture and Life Sciences",
+          "graduation_year": 1996,
+          "within_last_10_years": false,
+          "source_url": "https://www.aggienetwork.com/distinguishedalumni/",
+          "source_confidence": "high",
+          "evidence_quality_label": "official_profile",
+          "evidence_quality_note": "Official Association of Former Students page explicitly lists Conway as '96 and CEO of Optum, UnitedHealth Group; the official 2026 honoree announcement also confirms his class year and college affiliation."
         },
         {
           "rank": 4,
-          "name": "United States federal judge",
-          "description": "Judges on courts authorized by Article III of the U.S. Constitution",
-          "wikipedia_title": "United States federal judge",
-          "wikipedia_url": "https://en.wikipedia.org/wiki/United_States_federal_judge",
-          "recent_pageviews": 96103,
-          "source_url": "https://en.wikipedia.org/wiki/List_of_Texas_A%26M_University_people"
+          "name": "Loyd S. \"Chip\" Utterback",
+          "bio": "The Association of Former Students of Texas A&M lists Loyd S. \"Chip\" Utterback, Lt. Gen. USAF (Ret.) '75 as president and CEO of Air Force Villages Inc. (retired) and a 2026 Distinguished Alumnus honoree.",
+          "description": "Retired Air Force lieutenant general and former Air Force Villages CEO honored by Texas A&M.",
+          "wikipedia_title": null,
+          "wikipedia_url": null,
+          "confirmation_url": "https://www.aggienetwork.com/distinguishedalumni/",
+          "confirmation_label": "Official Aggie Network Distinguished Alumni page",
+          "official_website": null,
+          "recent_pageviews": null,
+          "major": "Mays Business School",
+          "graduation_year": 1975,
+          "within_last_10_years": false,
+          "source_url": "https://www.aggienetwork.com/distinguishedalumni/",
+          "source_confidence": "high",
+          "evidence_quality_label": "official_profile",
+          "evidence_quality_note": "Official Association of Former Students page explicitly lists Utterback as '75 and as president and CEO of Air Force Villages Inc. (retired); the official 2026 honoree announcement also confirms his class year and college affiliation."
         },
         {
           "rank": 5,
-          "name": "Iowa Senate",
-          "description": "Upper house of the Iowa General Assembly",
-          "wikipedia_title": "Iowa Senate",
-          "wikipedia_url": "https://en.wikipedia.org/wiki/Iowa_Senate",
-          "recent_pageviews": 45993,
-          "source_url": "https://en.wikipedia.org/wiki/List_of_Texas_A%26M_University_people"
+          "name": "Cathy L. Gist",
+          "bio": "The Association of Former Students of Texas A&M lists Cathy L. Gist '92 as vice president of Cemex Inc. and a 2026 Distinguished Alumnus honoree.",
+          "description": "Cemex vice president and 2026 Texas A&M Distinguished Alumnus honoree.",
+          "wikipedia_title": null,
+          "wikipedia_url": null,
+          "confirmation_url": "https://www.aggienetwork.com/distinguishedalumni/",
+          "confirmation_label": "Official Aggie Network Distinguished Alumni page",
+          "official_website": null,
+          "recent_pageviews": null,
+          "major": "College of Arts and Sciences",
+          "graduation_year": 1992,
+          "within_last_10_years": false,
+          "source_url": "https://www.aggienetwork.com/distinguishedalumni/",
+          "source_confidence": "high",
+          "evidence_quality_label": "official_profile",
+          "evidence_quality_note": "Official Association of Former Students page explicitly lists Gist as '92 and vice president of Cemex Inc.; the official 2026 honoree announcement also confirms her class year and college affiliation."
         },
         {
           "rank": 6,
-          "name": "Wen Ho Lee",
-          "description": "Taiwanese-American scientist (born 1939)",
-          "wikipedia_title": "Wen Ho Lee",
-          "wikipedia_url": "https://en.wikipedia.org/wiki/Wen_Ho_Lee",
-          "recent_pageviews": 40578,
-          "source_url": "https://en.wikipedia.org/wiki/List_of_Texas_A%26M_University_people"
+          "name": "Gregory H. Laughlin",
+          "bio": "The Association of Former Students of Texas A&M lists Gregory H. Laughlin '64 as senior counsel at Pillsbury Winthrop Shaw Pittman and a 2026 Distinguished Alumnus honoree.",
+          "description": "Senior counsel at Pillsbury Winthrop Shaw Pittman honored by Texas A&M.",
+          "wikipedia_title": null,
+          "wikipedia_url": null,
+          "confirmation_url": "https://www.aggienetwork.com/distinguishedalumni/",
+          "confirmation_label": "Official Aggie Network Distinguished Alumni page",
+          "official_website": null,
+          "recent_pageviews": null,
+          "major": "College of Arts and Sciences",
+          "graduation_year": 1964,
+          "within_last_10_years": false,
+          "source_url": "https://www.aggienetwork.com/distinguishedalumni/",
+          "source_confidence": "high",
+          "evidence_quality_label": "official_profile",
+          "evidence_quality_note": "Official Association of Former Students page explicitly lists Laughlin as '64 and senior counsel at Pillsbury Winthrop Shaw Pittman; the official 2026 honoree announcement also confirms his class year and college affiliation."
         },
         {
           "rank": 7,
-          "name": "Kentucky Senate",
-          "description": "Upper house of the Kentucky General Assembly",
-          "wikipedia_title": "Kentucky Senate",
-          "wikipedia_url": "https://en.wikipedia.org/wiki/Kentucky_Senate",
-          "recent_pageviews": 29821,
-          "source_url": "https://en.wikipedia.org/wiki/List_of_Texas_A%26M_University_people"
+          "name": "Larry L. Little",
+          "bio": "The Association of Former Students of Texas A&M lists Larry L. Little '73 as founder and CEO of Ace Fence Co. (retired) and a 2026 Distinguished Alumnus honoree.",
+          "description": "Founder and retired CEO of Ace Fence Co. honored by Texas A&M.",
+          "wikipedia_title": null,
+          "wikipedia_url": null,
+          "confirmation_url": "https://www.aggienetwork.com/distinguishedalumni/",
+          "confirmation_label": "Official Aggie Network Distinguished Alumni page",
+          "official_website": null,
+          "recent_pageviews": null,
+          "major": "Mays Business School",
+          "graduation_year": 1973,
+          "within_last_10_years": false,
+          "source_url": "https://www.aggienetwork.com/distinguishedalumni/",
+          "source_confidence": "high",
+          "evidence_quality_label": "official_profile",
+          "evidence_quality_note": "Official Association of Former Students page explicitly lists Little as '73 and founder and CEO of Ace Fence Co. (retired); the official 2026 honoree announcement also confirms his class year and college affiliation."
+        },
+        {
+          "rank": 8,
+          "name": "Gerald A. Sullivan",
+          "bio": "The Association of Former Students of Texas A&M lists Gerald A. Sullivan '67 as president of Santa Rosa Ranches and a 2026 Distinguished Alumnus honoree.",
+          "description": "Santa Rosa Ranches president and 2026 Texas A&M Distinguished Alumnus honoree.",
+          "wikipedia_title": null,
+          "wikipedia_url": null,
+          "confirmation_url": "https://www.aggienetwork.com/distinguishedalumni/",
+          "confirmation_label": "Official Aggie Network Distinguished Alumni page",
+          "official_website": null,
+          "recent_pageviews": null,
+          "major": "College of Agriculture and Life Sciences",
+          "graduation_year": 1967,
+          "within_last_10_years": false,
+          "source_url": "https://www.aggienetwork.com/distinguishedalumni/",
+          "source_confidence": "high",
+          "evidence_quality_label": "official_profile",
+          "evidence_quality_note": "Official Association of Former Students page explicitly lists Sullivan as '67 and president of Santa Rosa Ranches; the official 2026 honoree announcement also confirms his class year and college affiliation."
+        },
+        {
+          "rank": 9,
+          "name": "Monty L. Davis",
+          "bio": "The Association of Former Students of Texas A&M lists Monty L. Davis '77 as COO of Core Laboratories (retired) and a 2026 Distinguished Alumnus honoree.",
+          "description": "Retired Core Laboratories COO honored by Texas A&M.",
+          "wikipedia_title": null,
+          "wikipedia_url": null,
+          "confirmation_url": "https://www.aggienetwork.com/distinguishedalumni/",
+          "confirmation_label": "Official Aggie Network Distinguished Alumni page",
+          "official_website": null,
+          "recent_pageviews": null,
+          "major": "Mays Business School",
+          "graduation_year": 1977,
+          "within_last_10_years": false,
+          "source_url": "https://www.aggienetwork.com/distinguishedalumni/",
+          "source_confidence": "high",
+          "evidence_quality_label": "official_profile",
+          "evidence_quality_note": "Official Association of Former Students page explicitly lists Davis as '77 and COO of Core Laboratories (retired); the official 2026 honoree announcement also confirms his class year and college affiliation."
+        },
+        {
+          "rank": 10,
+          "name": "Allan A. Marburger",
+          "bio": "The Association of Former Students of Texas A&M lists Allan A. Marburger '60 of Columbian Chemical Co. (retired) as a 2026 Distinguished Alumnus honoree.",
+          "description": "Retired Columbian Chemical Co. leader honored by Texas A&M.",
+          "wikipedia_title": null,
+          "wikipedia_url": null,
+          "confirmation_url": "https://www.aggienetwork.com/distinguishedalumni/",
+          "confirmation_label": "Official Aggie Network Distinguished Alumni page",
+          "official_website": null,
+          "recent_pageviews": null,
+          "major": "College of Agriculture and Life Sciences",
+          "graduation_year": 1960,
+          "within_last_10_years": false,
+          "source_url": "https://www.aggienetwork.com/distinguishedalumni/",
+          "source_confidence": "high",
+          "evidence_quality_label": "official_profile",
+          "evidence_quality_note": "Official Association of Former Students page explicitly lists Marburger as '60 and Columbian Chemical Co. (retired); the official 2026 honoree announcement also confirms his class year and college affiliation."
         }
       ]
     },
     "warnings": [
-      "Only identified 7 alumni candidates that looked like people.",
-      "Only ranked 7 successful alumni items."
+      "Applied school-specific alumni override data.",
+      "Texas A&M alumni depth was manually improved using official Association of Former Students sources because generic alumni coverage was shallow.",
+      "This override relies on official Aggie Network Distinguished Alumnus Award pages with explicit class-year evidence and official role descriptions."
     ]
   }
 }

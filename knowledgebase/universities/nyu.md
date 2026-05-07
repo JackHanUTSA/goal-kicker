@@ -91,3 +91,4 @@ status: phase-5-auto-enriched
 - Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.
 - GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.
 - School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data.
+- School-people enrichment includes school-specific override data sourced from official university domains for populated sections.

@@ -32,3 +32,4 @@ status: phase-5-auto-enriched
 - GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.
 - Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.
 - School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data.
+- School-people enrichment includes school-specific override data sourced from official university domains for populated sections.
