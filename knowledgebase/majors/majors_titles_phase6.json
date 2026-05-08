@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T18:12:03.863744+00:00",
+  "generated_at": "2026-05-08T22:33:06.706156+00:00",
   "schools_total": 100,
   "schools_with_titles": 100,
   "schools_without_titles": 0,
@@ -29,8 +29,8 @@
       "slug": "princeton",
       "rank": 4,
       "majors_count": 37,
-      "titles_count": 7,
-      "titles_source_url": "https://www.princeton.edu/academics"
+      "titles_count": 37,
+      "titles_source_url": "https://admission.princeton.edu/academics/degrees-departments"
     },
     {
       "slug": "yale",
@@ -63,9 +63,9 @@
     {
       "slug": "columbia",
       "rank": 9,
-      "majors_count": 26,
-      "titles_count": 26,
-      "titles_source_url": "https://bulletin.columbia.edu/azindex/"
+      "majors_count": 57,
+      "titles_count": 57,
+      "titles_source_url": "https://bulletin.columbia.edu/columbia-college/departments-instruction/"
     },
     {
       "slug": "duke",
@@ -105,8 +105,8 @@
     {
       "slug": "cornell",
       "rank": 15,
-      "majors_count": 40,
-      "titles_count": 11,
+      "majors_count": 80,
+      "titles_count": 80,
       "titles_source_url": "https://admissions.cornell.edu/academics/majors"
     },
     {

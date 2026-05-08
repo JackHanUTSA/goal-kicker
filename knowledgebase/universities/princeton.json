@@ -49,15 +49,45 @@
     "count": 37,
     "count_method": "official Princeton Admission Degrees & Departments page states students can choose from among 37 concentrations",
     "titles": [
-      "Academic Calendar",
-      "Course Tools",
-      "Undergraduate Announcement",
-      "Humanities",
-      "Social Sciences",
-      "Engineering",
-      "Natural Sciences"
+      "African American Studies",
+      "Anthropology",
+      "Architecture",
+      "Art & Archaeology",
+      "Astrophysical Sciences",
+      "Chemical and Biological Engineering",
+      "Chemistry",
+      "Civil and Environmental Engineering",
+      "Classics",
+      "Comparative Literature",
+      "Computer Science (A.B.)",
+      "Computer Science (B.S.E.)",
+      "East Asian Studies",
+      "Ecology and Evolutionary Biology",
+      "Economics",
+      "Electrical and Computer Engineering",
+      "English",
+      "French and Italian",
+      "Geosciences",
+      "German",
+      "History",
+      "Mathematics",
+      "Mechanical and Aerospace Engineering",
+      "Molecular Biology",
+      "Music",
+      "Near Eastern Studies",
+      "Neuroscience",
+      "Operations Research and Financial Engineering",
+      "Philosophy",
+      "Physics",
+      "Politics",
+      "Psychology",
+      "Public Policy (Princeton School of Public and International Affairs)",
+      "Religion",
+      "Slavic Languages and Literatures",
+      "Sociology",
+      "Spanish and Portuguese"
     ],
-    "notes": "official Princeton Admission Degrees & Departments page states students can choose from among 37 concentrations; titles extracted from official page: https://www.princeton.edu/academics",
+    "notes": "official Princeton Admission Degrees & Departments page states students can choose from among 37 concentrations; titles extracted from official page: https://admission.princeton.edu/academics/degrees-departments",
     "confidence": "medium"
   },
   "admissions": {
@@ -82,14 +112,6 @@
     "special_notes": []
   },
   "evidence": [
-    {
-      "field": "majors.count",
-      "claim": "Majors/program count recorded as 37",
-      "classification": "official_recommendation",
-      "source_url": "https://admission.princeton.edu/academics/degrees-departments",
-      "source_excerpt": "Within these degree programs, students can choose from among 37 concentrations (computer science offers both A.B. and B.S.E.) and over 50 minors and interdepartmental certificate programs.",
-      "retrieved_at": "2026-04-17T16:56:49.339963+00:00"
-    },
     {
       "field": "admissions.testing_policy",
       "claim": "Princeton is test-optional for first-year applicants applying for fall 2026 and fall 2027 entry; Princeton says it will once again require testing for students applying for fall 2028 entry.",
@@ -123,14 +145,6 @@
       "retrieved_at": "2026-04-17T16:56:49.339982+00:00"
     },
     {
-      "field": "majors.titles",
-      "claim": "Extracted 7 official undergraduate major/program titles",
-      "classification": "official_recommendation",
-      "source_url": "https://www.princeton.edu/academics",
-      "source_excerpt": "Academic Calendar; Course Tools; Undergraduate Announcement; Humanities; Social Sciences; Engineering; Natural Sciences",
-      "retrieved_at": "2026-04-24T07:44:13.919564+00:00"
-    },
-    {
       "field": "school_people.popular_professors",
       "claim": "Ranked top 20 professors from RateMyProfessors by rating count and sentiment metrics.",
       "classification": "reported_profile",
@@ -145,14 +159,30 @@
       "source_url": "https://en.wikipedia.org/wiki/List_of_Princeton_University_people",
       "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, and ranked by pageviews. Major-specific and last-10-years filtering requires stronger school-specific alumni sources than this generic pipeline currently has.",
       "retrieved_at": "2026-04-27T12:53:47.947125+00:00"
+    },
+    {
+      "field": "majors.count",
+      "claim": "Majors/program count recorded as 37",
+      "classification": "official_recommendation",
+      "source_url": "https://admission.princeton.edu/academics/degrees-departments",
+      "source_excerpt": "African American Studies; Anthropology; Architecture; Art & Archaeology; Astrophysical Sciences; Chemical and Biological Engineering; Chemistry; Civil and Environmental Engineering; Classics; Comparative Literature; Computer Science (A.B.); Computer Science (B.S.E.)",
+      "retrieved_at": "2026-05-08T22:32:02.578239+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 37 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://admission.princeton.edu/academics/degrees-departments",
+      "source_excerpt": "African American Studies; Anthropology; Architecture; Art & Archaeology; Astrophysical Sciences; Chemical and Biological Engineering; Chemistry; Civil and Environmental Engineering; Classics; Comparative Literature; Computer Science (A.B.); Computer Science (B.S.E.)",
+      "retrieved_at": "2026-05-08T22:33:03.031070+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-27T12:53:47.947128+00:00",
+    "last_verified_at": "2026-05-08T22:32:02.578250+00:00",
     "confidence": "phase-4-top10-structured",
     "unknown_fields": [],
     "warnings": [
-      "Major titles extracted from official school source (7 titles).",
+      "Major titles extracted from official school source (37 titles).",
       "Phase 4 structured upgrade applied to top-10 expansion schools.",
       "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]

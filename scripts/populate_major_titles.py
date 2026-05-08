@@ -835,6 +835,29 @@ def extract_titles_from_page(page: dict, record: dict) -> list[str]:
     if record["slug"] == "baylor" and page["url"].rstrip("/") == "https://catalog.baylor.edu/undergraduate":
         return []
 
+    if record["slug"] == "princeton" and "admission.princeton.edu/academics/degrees-departments" in page["url"]:
+        princeton_titles: list[str] = []
+        for heading in main.select("details.concentration h2"):
+            title = normalize_title(heading.get_text(" ", strip=True))
+            if not title or title.lower() in BAD_TITLE_EXACT:
+                continue
+            if title == "Computer Science":
+                princeton_titles.extend(["Computer Science (A.B.)", "Computer Science (B.S.E.)"])
+                continue
+            princeton_titles.append(title)
+        if princeton_titles:
+            return dedupe_keep_order(princeton_titles)
+
+    if record["slug"] == "cornell" and "admissions.cornell.edu/academics/majors" in page["url"]:
+        cornell_titles: list[str] = []
+        for heading in main.select("li h2"):
+            title = normalize_title(heading.get_text(" ", strip=True))
+            if not title or title.lower() in BAD_TITLE_EXACT:
+                continue
+            cornell_titles.append(title)
+        if cornell_titles:
+            return dedupe_keep_order(cornell_titles)
+
     if record["slug"] == "uconn" and "/undergraduate/programs/" in page["url"]:
         uconn_titles: list[str] = []
         for anchor in main.find_all("a", href=True):

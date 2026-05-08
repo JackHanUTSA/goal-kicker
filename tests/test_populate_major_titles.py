@@ -639,6 +639,51 @@ class PopulateMajorTitlesTests(unittest.TestCase):
         self.assertNotIn("https://example.edu/family-programs/resources", links)
         self.assertNotIn("https://example.edu/graduate/programs", links)
 
+    def test_extract_titles_from_page_reads_princeton_concentrations_and_splits_computer_science_degrees(self):
+        html = """
+        <html><body><main>
+          <details class="concentration"><summary class="concentration__title"><h2><span>African American Studies</span></h2></summary></details>
+          <details class="concentration"><summary class="concentration__title"><h2><span>Computer Science</span></h2></summary></details>
+          <details class="concentration"><summary class="concentration__title"><h2><span>Public Policy (Princeton School of Public and International Affairs)</span></h2></summary></details>
+        </main></body></html>
+        """
+        page = {
+            "title": "Degrees & Departments | Princeton Admission",
+            "url": "https://admission.princeton.edu/academics/degrees-departments",
+            "soup": BeautifulSoup(html, "lxml"),
+        }
+        record = {"slug": "princeton", "official_domain": "princeton.edu", "majors": {"count": 37}}
+
+        titles = populate_major_titles.extract_titles_from_page(page, record)
+
+        self.assertEqual(titles, [
+            "African American Studies",
+            "Computer Science (A.B.)",
+            "Computer Science (B.S.E.)",
+            "Public Policy (Princeton School of Public and International Affairs)",
+        ])
+
+    def test_extract_titles_from_page_reads_cornell_major_listing_cards(self):
+        html = """
+        <html><body><main>
+          <ul>
+            <li><div><h2>Africana Studies</h2><a>VISIT AFRICANA STUDIES MAJOR PAGE</a></div></li>
+            <li><div><h2>Biological Engineering</h2><a>VISIT BIOLOGICAL ENGINEERING MAJOR PAGE</a></div></li>
+            <li><div><h2>Undecided</h2><a>VISIT UNDECIDED PAGE</a></div></li>
+          </ul>
+        </main></body></html>
+        """
+        page = {
+            "title": "Majors | Undergraduate Admissions",
+            "url": "https://admissions.cornell.edu/academics/majors",
+            "soup": BeautifulSoup(html, "lxml"),
+        }
+        record = {"slug": "cornell", "official_domain": "cornell.edu", "majors": {"count": 80}}
+
+        titles = populate_major_titles.extract_titles_from_page(page, record)
+
+        self.assertEqual(titles, ["Africana Studies", "Biological Engineering", "Undecided"])
+
 
 if __name__ == "__main__":
     unittest.main()
