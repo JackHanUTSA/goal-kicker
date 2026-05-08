@@ -129,12 +129,12 @@
     "confidence": "medium"
   },
   "admissions": {
-    "application_platform": null,
+    "application_platform": "Common Application or Coalition for College Application",
     "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
     "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
     "course_rigor": "Customizing your curriculum",
     "recommendations": "unknown",
-    "essays": "How to write your best college application essay",
+    "essays": "Rochester requires a supplemental essay prompt as part of the 2025\u201326 application process.",
     "portfolio_or_audition": null,
     "international_notes": null,
     "deadlines": []
@@ -184,11 +184,11 @@
     },
     {
       "field": "admissions.essays",
-      "claim": "How to write your best college application essay",
+      "claim": "Rochester says the supplemental essay prompt for the 2025\u201326 application cycle must be completed as part of the application process.",
       "classification": "official_requirement",
-      "source_url": "https://admissions.rochester.edu/",
-      "source_excerpt": "How to write your best college application essay",
-      "retrieved_at": "2026-04-20T03:04:46.483534+00:00"
+      "source_url": "https://admissions.rochester.edu/applying/how-to-apply/",
+      "source_excerpt": "Supplemental Essay Prompt for 2025-26 Application Cycle This must be completed as part of the application process.",
+      "retrieved_at": "2026-05-08T20:20:27Z"
     },
     {
       "field": "school_people.popular_professors",
@@ -213,10 +213,18 @@
       "source_url": "https://www.rochester.edu/newscenter/greg-jorgensen-cfo-ford-motor-company-699902/",
       "source_excerpt": "Extracted from official University of Rochester stories on rochester.edu/newscenter.",
       "retrieved_at": "2026-05-06T21:17:44-05:00"
+    },
+    {
+      "field": "admissions.application_platform",
+      "claim": "First-year applicants apply online using either the Common Application or the Coalition for College Application.",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.rochester.edu/applying/how-to-apply/",
+      "source_excerpt": "First-year applicants Apply online for early or regular decision using either the Common Application or Coalition for College Application.",
+      "retrieved_at": "2026-05-08T20:20:27Z"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-05-06T21:17:44-05:00",
+    "last_verified_at": "2026-05-08T20:20:27Z",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.recommendations"

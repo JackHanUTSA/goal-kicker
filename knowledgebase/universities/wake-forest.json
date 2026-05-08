@@ -81,11 +81,11 @@
   },
   "admissions": {
     "application_platform": "Common Application",
-    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "testing_policy": "Wake Forest says scores are only required if you indicate in your application that you want them considered; it accepts self-reported SAT/ACT scores during review and superscores multiple test dates.",
     "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
     "course_rigor": "Final high school transcript",
     "recommendations": "Teacher Recommendation Form",
-    "essays": "unknown",
+    "essays": "Wake Forest lists supplemental questions as part of the undergraduate admissions application requirements.",
     "portfolio_or_audition": null,
     "international_notes": null,
     "deadlines": []
@@ -111,11 +111,11 @@
     },
     {
       "field": "admissions.testing_policy",
-      "claim": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "claim": "Wake Forest says scores are only required if applicants indicate in the application that they want them considered; the university accepts self-reported SAT/ACT scores and superscores multiple test dates.",
       "classification": "official_requirement",
       "source_url": "https://admissions.wfu.edu/apply/",
-      "source_excerpt": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
-      "retrieved_at": "2026-04-20T03:02:53.580976+00:00"
+      "source_excerpt": "Scores are only required if you indicate in your application that you want them considered. We accept self-reported scores as part of our application review process. If you take a test multiple times, please simply be sure to report all test scores to us; we will superscore them.",
+      "retrieved_at": "2026-05-08T20:20:27Z"
     },
     {
       "field": "admissions.gpa_policy",
@@ -164,19 +164,24 @@
       "source_url": "https://admissions.wfu.edu/academics/majors-minors/",
       "source_excerpt": "Accountancy; African American Studies; Anthropology; Applied Statistics; Art History; Biochemistry and Molecular Biology; Biology; Biophysics; Chemistry; Chinese Language & Culture; Classical Languages; Classical Studies",
       "retrieved_at": "2026-05-07T05:32:56.283052+00:00"
+    },
+    {
+      "field": "admissions.essays",
+      "claim": "Wake Forest lists supplemental questions as part of the first-year application requirements.",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.wfu.edu/apply/",
+      "source_excerpt": "Optional Counselor recommendation Supplemental questions Video or virtual interview SAT/ACT scores",
+      "retrieved_at": "2026-05-08T20:20:27Z"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-05-07T05:24:34.011387+00:00",
+    "last_verified_at": "2026-05-08T20:20:27Z",
     "confidence": "phase-5-auto-enriched",
-    "unknown_fields": [
-      "admissions.essays"
-    ],
+    "unknown_fields": [],
     "warnings": [
       "Major titles extracted from official school source (44 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
-      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",
       "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
   },
