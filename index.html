@@ -79,6 +79,15 @@ svg.bubbles text{fill:#fff;font-size:10px;pointer-events:none;text-anchor:middle
 .area-card .area-summary{color:#e7e9ee;font-size:13px;margin-bottom:6px;font-weight:500}
 .area-card .area-detail{color:var(--muted);font-size:12px;line-height:1.5}
 @media(max-width:560px){.test-row{grid-template-columns:1fr;gap:4px}.test-row .test-vals{text-align:left}}
+.rec-gpa-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin:6px 0 12px}
+.rec-gpa-card{background:#0e1014;border:1px solid var(--border);border-radius:8px;padding:12px 14px;border-left:4px solid var(--blue)}
+.rec-gpa-card .rg-source{font-size:11px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;margin-bottom:4px}
+.rec-gpa-card .rg-value{font-size:28px;font-weight:800;color:var(--text);font-variant-numeric:tabular-nums;line-height:1}
+.rec-gpa-card .rg-scale{display:inline-block;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:#93c5fd;background:rgba(96,165,250,0.12);border:1px solid rgba(96,165,250,0.3);border-radius:999px;padding:2px 8px;margin:6px 0 8px}
+.rec-gpa-card .rg-method{color:var(--muted);font-size:11px;line-height:1.45;margin-bottom:6px}
+.rec-gpa-card .rg-link{font-size:11px;color:var(--accent-2)}
+.rec-gpa-interp{background:#0e1014;border:1px solid var(--border);border-radius:6px;padding:10px 12px;font-size:12px;color:#c8cdd6;line-height:1.5;margin-top:8px}
+.rec-gpa-interp strong{display:inline;color:var(--accent);font-size:11px;letter-spacing:.04em;text-transform:uppercase;margin-right:4px}
 </style></head><body><div class="wrap">
 <header><div class="eyebrow">Goal Kicker · Knowledgebase Demo</div>
 <h1>Top 100 US Universities, Structured for College Applicants</h1>
@@ -225,11 +234,29 @@ function renderGpa(g){
     '<li>'+esc(c.claim)+(c.source_url ? '<a class="src-link" href="'+esc(c.source_url)+'">source</a>' : '')+'</li>'
   ).join('');
   const sourceLinks = (g.source_urls || []).map(u => '<a href="'+esc(u)+'">source</a>').join(' · ');
+  const rg = g.recommended_gpa;
+  const recCards = rg && rg.estimates ? rg.estimates.map(e =>
+    '<div class="rec-gpa-card">'+
+      '<div class="rg-source">'+esc(e.source)+'</div>'+
+      '<div class="rg-value">'+esc(e.value)+'</div>'+
+      '<div class="rg-scale">'+esc(e.label||e.scale||'')+'</div>'+
+      (e.method ? '<div class="rg-method">'+esc(e.method)+'</div>' : '')+
+      (e.url ? '<a class="rg-link" href="'+esc(e.url)+'">'+esc(e.source)+' →</a>' : '')+
+    '</div>'
+  ).join('') : '';
+  const recBlock = rg ? (
+    '<div style="margin-top:14px"><strong style="color:var(--accent);font-size:11px;letter-spacing:.04em;text-transform:uppercase;display:block;margin-bottom:6px">Recommended GPA (third-party estimates)</strong>'+
+    (rg.summary ? '<div class="scope-note"><strong>Note:</strong> '+esc(rg.summary)+'</div>' : '')+
+    '<div class="rec-gpa-grid">'+recCards+'</div>'+
+    (rg.interpretation ? '<div class="rec-gpa-interp"><strong>Interpretation:</strong>'+esc(rg.interpretation)+'</div>' : '')+
+    '</div>'
+  ) : '';
   return '<div class="chartbox">'+
     '<div class="chart-title">Published GPA information <span class="src">'+sourceLinks+'</span></div>'+
     (g.scope_note ? '<div class="scope-note"><strong>Scope:</strong> '+esc(g.scope_note)+'</div>' : '')+
     (g.policy_summary ? '<div class="policy-summary">'+esc(g.policy_summary)+'</div>' : '')+
     (claims ? '<ul class="policy-list">'+claims+'</ul>' : '')+
+    recBlock+
     '</div>';
 }
 
