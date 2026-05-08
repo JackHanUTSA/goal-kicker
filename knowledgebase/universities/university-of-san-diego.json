@@ -14,7 +14,8 @@
     ],
     "majors": [
       "https://www.sandiego.edu/academics/",
-      "https://www.sandiego.edu/majors"
+      "https://www.sandiego.edu/majors",
+      "https://www.sandiego.edu/academics/majors-and-minors.php"
     ],
     "testing_policy": [],
     "general": [
@@ -29,10 +30,56 @@
     ]
   },
   "majors": {
-    "count": 0,
-    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
-    "titles": [],
-    "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
+    "count": 45,
+    "count_method": "counted extracted undergraduate-major titles from an official page",
+    "titles": [
+      "Anthropology",
+      "Architecture",
+      "Art History",
+      "Biochemistry",
+      "Biology",
+      "Biophysics",
+      "Chemistry",
+      "Communication",
+      "English",
+      "Environmental and Ocean Sciences",
+      "Ethnic Studies",
+      "French and Francophone Studies",
+      "History",
+      "Individualized Major",
+      "Interdisciplinary Humanities",
+      "International Relations",
+      "Italian Studies",
+      "Liberal Studies",
+      "Mathematics",
+      "Music",
+      "Philosophy",
+      "Physics",
+      "Political Science",
+      "Psychology",
+      "Sociology",
+      "Spanish",
+      "Theatre",
+      "Theology and Religious Studies",
+      "Visual Arts",
+      "Accountancy",
+      "Business Accounting",
+      "Business Administration",
+      "Business Analytics",
+      "Business Economics",
+      "Economics",
+      "Finance",
+      "International Business",
+      "Marketing",
+      "Real Estate",
+      "Supply Chain Management",
+      "Computer Science",
+      "Electrical Engineering",
+      "Engineering",
+      "Industrial and Systems Engineering",
+      "Mechanical Engineering"
+    ],
+    "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass; titles extracted from official page: https://www.sandiego.edu/academics/majors-and-minors.php",
     "confidence": "low"
   },
   "admissions": {
@@ -86,10 +133,18 @@
       "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_California%2C_San_Diego_people",
       "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
       "retrieved_at": "2026-04-25T16:01:16.569484+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 45 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://www.sandiego.edu/academics/majors-and-minors.php",
+      "source_excerpt": "Anthropology; Architecture; Art History; Biochemistry; Biology; Biophysics; Chemistry; Communication; English; Environmental and Ocean Sciences; Ethnic Studies; French and Francophone Studies",
+      "retrieved_at": "2026-05-08T09:08:18.759250+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-30T00:54:36.487353+00:00",
+    "last_verified_at": "2026-05-08T09:08:18.759260+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.course_rigor",
@@ -98,7 +153,7 @@
       "competitive_signals.projects_research"
     ],
     "warnings": [
-      "Major titles still need manual follow-up; no reliable official title list was extracted in this pass.",
+      "Major titles extracted from official school source (45 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
       "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",

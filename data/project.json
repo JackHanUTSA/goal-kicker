@@ -5,15 +5,15 @@
   "progress_summary": {
     "schools_total": 100,
     "schools_with_records": 100,
-    "schools_with_majors": 94,
+    "schools_with_majors": 99,
     "schools_with_professors": 100,
     "schools_with_alumni": 100,
-    "overall_structured_completion_pct": 98.8,
-    "last_audited": "2026-05-07T23:57:22Z"
+    "overall_structured_completion_pct": 99.7,
+    "last_audited": "2026-05-08T15:58:58Z"
   },
   "next_steps": [
-    "Raise majors coverage from 94/100 toward full top-100 coverage",
-    "Target remaining blocked or JS-heavy majors pages such as UC Berkeley, Michigan State, Florida State, and Georgia",
+    "Raise majors coverage from 99/100 to full top-100 coverage by resolving Baylor's remaining official-source access blockers",
+    "Find a Baylor source path that is both official and accessible in this environment; the admissions/go pages were Cloudflare-blocked here and the undergraduate catalog root returned an empty 202 response during this audit",
     "Improve faculty verification to use official school pages instead of RateMyProfessors-derived fallbacks where possible",
     "Improve alumni recency and per-major filtering in the generic enrichment pipeline"
   ],

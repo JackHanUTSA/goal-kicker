@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-07T23:56:27.661190+00:00",
+  "generated_at": "2026-05-08T13:49:00.140994+00:00",
   "schools_total": 100,
-  "schools_with_titles": 94,
-  "schools_without_titles": 6,
+  "schools_with_titles": 99,
+  "schools_without_titles": 1,
   "results": [
     {
       "slug": "mit",
@@ -141,8 +141,8 @@
       "slug": "uc-berkeley",
       "rank": 20,
       "majors_count": 113,
-      "titles_count": 0,
-      "titles_source_url": "https://registrar.berkeley.edu/catalog/"
+      "titles_count": 112,
+      "titles_source_url": "https://undergraduate.catalog.berkeley.edu/programs"
     },
     {
       "slug": "ucla",
@@ -357,9 +357,9 @@
     {
       "slug": "university-of-georgia",
       "rank": 51,
-      "majors_count": 0,
-      "titles_count": 0,
-      "titles_source_url": "https://www.uga.edu/academics"
+      "majors_count": 143,
+      "titles_count": 143,
+      "titles_source_url": "https://www.career.uga.edu/uploads/documents/UGAMajorsChecklist.pdf"
     },
     {
       "slug": "pepperdine",
@@ -421,8 +421,8 @@
       "slug": "michigan-state",
       "rank": 60,
       "majors_count": 400,
-      "titles_count": 0,
-      "titles_source_url": "https://msu.edu/academic-programs"
+      "titles_count": 157,
+      "titles_source_url": "https://admissions.msu.edu/academics/majors-degrees-programs"
     },
     {
       "slug": "penn-state",
@@ -581,9 +581,9 @@
     {
       "slug": "florida-state",
       "rank": 83,
-      "majors_count": 0,
-      "titles_count": 0,
-      "titles_source_url": "https://www.fsu.edu/academics/"
+      "majors_count": 181,
+      "titles_count": 181,
+      "titles_source_url": "https://academic-guide.fsu.edu/all-programs"
     },
     {
       "slug": "nc-state",
@@ -665,9 +665,9 @@
     {
       "slug": "university-of-san-diego",
       "rank": 95,
-      "majors_count": 0,
-      "titles_count": 0,
-      "titles_source_url": "https://www.sandiego.edu/academics/"
+      "majors_count": 45,
+      "titles_count": 45,
+      "titles_source_url": "https://www.sandiego.edu/academics/majors-and-minors.php"
     },
     {
       "slug": "uc-riverside",

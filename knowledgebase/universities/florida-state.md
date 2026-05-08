@@ -19,14 +19,198 @@ status: phase-5-auto-enriched
 ### Majors
 - https://www.fsu.edu/academics/
 - https://www.fsu.edu/majors
+- https://academic-guide.fsu.edu/all-programs
 
 ## Majors
-- Count: 0
-- Count method: auto-enrichment could not derive a reliable major/program count from the pages reached in this pass
-- Titles extracted: 0
+- Count: 181
+- Count method: counted extracted undergraduate-major titles from an official page
+- Titles extracted: 181
+
+### Titles
+- Accounting (Also offered at Panama City Campus)
+- Actuarial Science
+- Advertising (Communication)
+- African American Studies
+- Ancient History
+- Anthropology
+- Applied Mathematics
+- Art History
+- Art, Studio BA
+- Art, Studio BFA
+- Athletic Training
+- Biochemistry
+- Biological Science
+- Biomathematics
+- Blindness and Low Vision
+- Business Administration (Panama City Campus Only)
+- Chemical Science
+- Chemistry
+- Chinese and Japanese
+- Chinese
+- Civics and Liberty Studies (Conscience Liberty)
+- Civics and Liberty Studies (Constitutional Liberty)
+- Civics and Liberty Studies (Economic Liberty)
+- Civics and Liberty Studies (Educational Liberty)
+- Classical Archaeology
+- Classical Civilization
+- Classics and Religion
+- Communication (Digital Media Production)
+- Communication (Media and Communication Studies)
+- Communication (Professional Communication) (Panama City Campus Only)
+- Communication Science & Disorders (Audiology & Speech Pathology)
+- Computational Biology (Biology)
+- Computational Biology (Computer Science)
+- Computational Science
+- Computer Programming and Applications BA (Also offered at Panama City Campus)
+- Computer Science, BA (Also offered at Panama City Campus)
+- Computer Science, BS (Also offered at Panama City Campus)
+- Crime Scene Investigation : Public Safety and Security
+- Criminology - Criminal Justice
+- Cyber Criminology (Computer Science)
+- Cyber Criminology (Criminology)
+- Dance
+- Design and Visual Communication
+- Dietetics
+- Economics
+- Elementary Education
+- Elementary Education PC (Panama City Campus Only)
+- Emergency Management
+- Engineering (Biomedical)
+- Engineering (Chemical)
+- Engineering (Civil) (Also offered at Panama City Campus)
+- Engineering (Computer) (Also offered at Panama City Campus)
+- Engineering (Electrical) (Also offered at Panama City Campus)
+- Engineering (Industrial)
+- Engineering (Mechanical) (Also offered at Panama City Campus)
+- English (Creative Writing)
+- English (Editing, Writing, & Media)
+- English (Literature, Media, and Culture)
+- English Education
+- Entrepreneurship (Commercial) (Also offered at Panama City Campus)
+- Entrepreneurship (STEM)
+- Environment and Society
+- Environmental Chemistry
+- Environmental Science & Policy
+- Environmental Science
+- Event Management
+- Exercise Physiology
+- Exploratory
+- Fashion, Merchandising, and Product Development
+- Finance
+- Financial Planning (Also offered at Panama City Campus)
+- Food and Nutrition Science
+- French
+- FSU-Teach (Applied Geosciences)
+- FSU-Teach (Biology)
+- FSU-Teach (Chemical Science)
+- FSU-Teach (Computer Science - Math)
+- FSU-Teach (Environmental Sciences)
+- FSU-Teach (Mathematics)
+- Geography
+- Geology
+- German
+- Global Club Management and Leadership
+- Greek and Latin
+- Greek
+- History
+- Hospitality and Tourism Management (Also offered at Panama City Campus)
+- Human Development and Family Sciences
+- Human Resource Management
+- Human Rights and Social Justice
+- Humanities
+- Information Technology
+- Information, Communication & Technology
+- Intelligence Studies
+- Interdisciplinary Medical Sciences: Clinical Professions (Also offered at Panama City Campus)
+- Interdisciplinary Medical Sciences: Community Patient Care
+- Interdisciplinary Medical Sciences: Health Management, Policy and Information
+- Interdisciplinary Social Science (Also offered at Panama City Campus)
+- Interior Design
+- International Affairs (Asian Studies with Emphasis in Business)
+- International Affairs (Asian Studies)
+- International Affairs (Broad Curriculum)
+- International Affairs (Latin American and Caribbean Studies with Emphasis in Business)
+- International Affairs (Latin American and Caribbean Studies)
+- International Affairs (Russian and East European Studies)
+- Italian
+- Japanese
+- Latin
+- Law Enforcement Intelligence : Public Safety and Security
+- Law Enforcement Operations : Public Safety and Security
+- Linguistics (General Linguistics, Linguistics & Languages)
+- Management (General)
+- Management Information Systems
+- Marketing
+- Materials Chemistry
+- Mathematics
+- Meteorology
+- Middle Eastern Studies
+- Modern Languages, Literatures, and Cultures (Chinese)
+- Modern Languages, Literatures, and Cultures (Dual Languages)
+- Modern Languages, Literatures, and Cultures (French)
+- Modern Languages, Literatures, and Cultures (German)
+- Modern Languages, Literatures, and Cultures (Italian)
+- Modern Languages, Literatures, and Cultures (Japanese)
+- Modern Languages, Literatures, and Cultures (Russian)
+- Modern Languages, Literatures, and Cultures (Spanish)
+- Modern Languages, Literatures, and Cultures (World Literature & Cultural Studies)
+- Motion Picture Arts (Animation & Digital Arts)
+- Motion Picture Arts (Production)
+- Music (Business)
+- Music (Commercial)
+- Music (Community)
+- Music (General)
+- Music (Jazz)
+- Music (Sacred)
+- Music Composition
+- Music Education (Choral)
+- Music Education (General)
+- Music Education (Instrumental)
+- Music Performance (Guitar)
+- Music Performance (Harp)
+- Music Performance (Jazz)
+- Music Performance (Organ)
+- Music Performance (Piano)
+- Music Performance (String)
+- Music Performance (Voice)
+- Music Performance (Woodwind, Brass, Percussion)
+- Music Theatre (College of Music)
+- Music Theatre (School of Theatre)
+- Music Theory
+- Music Therapy
+- Neuroscience: Behavioral Neuroscience
+- Neuroscience: Cell and Molecular Neuroscience
+- Nursing
+- Philosophy
+- Physical Science
+- Physics & Astrophysics
+- Physics
+- Political Science
+- Professional Communication (Panama City Campus Only)
+- Professional Sales
+- Psychology (Also offered at Panama City Campus)
+- Public Health (Also offered at Panama City Campus)
+- Public Relations (Communication)
+- Real Estate
+- Recreation and Tourism Management
+- Religion & Classics
+- Religion
+- Risk Management and Insurance
+- Russian
+- Social Science Education
+- Social Work (Also offered at Panama City Campus)
+- Sociology
+- Spanish
+- Special Education Teaching
+- Sport Management
+- Stage Management
+- Statistics
+- Theatre, BA
+- Theatre, BFA (Acting)
+- Women’s Studies
 
 ## Warnings
-- Major titles still need manual follow-up; no reliable official title list was extracted in this pass.
+- Major titles extracted from official school source (181 titles).
 - Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.
 - GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.
 - Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.

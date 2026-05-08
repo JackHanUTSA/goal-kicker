@@ -20,14 +20,174 @@ status: phase-5-auto-enriched
 - https://msu.edu/academic-programs
 - https://msu.edu/academics
 - https://msu.edu/majors
+- https://admissions.msu.edu/academics/majors-degrees-programs
 
 ## Majors
 - Count: 400
 - Count method: explicit official page sentence
-- Titles extracted: 0
+- Titles extracted: 157
+
+### Titles
+- Accounting
+- Actuarial Science
+- Advertising Creative
+- Advertising Management
+- African American and African Studies
+- Agribusiness Management
+- Agriculture Food and Natural Resources Education
+- Animal Science
+- Anthropology
+- Apparel and Textiles
+- Applied Conservation Biology
+- Applied Engineering Sciences
+- Aquatic Ecology and Management
+- Arabic
+- Art Education
+- Art History and Visual Culture
+- Arts and Humanities
+- Arts and Letters - Exploratory
+- Astrophysics
+- Biochemistry and Molecular Biology
+- Biochemistry and Molecular Biology - Biotechnology
+- Biology
+- Biomedical Laboratory Science
+- Biosystems Engineering
+- Chemical Engineering
+- Chemical Physics
+- Chemistry
+- Child Development and Early Education: Birth to Kindergarten and Special Education
+- Chinese
+- Civil Engineering
+- Communication
+- Communication Leadership and Strategy
+- Communicative Sciences and Disorders
+- Comparative Cultures and Politics
+- Composition
+- Computational Data Science
+- Computational and Applied Mathematics
+- Computer Engineering
+- Computer Science
+- Construction Management
+- Criminal Justice
+- Crop and Soil Sciences
+- Data Science
+- Dietetics
+- Digital Storytelling
+- Earth and environmental sciences
+- Economics
+- Electrical Engineering
+- Elementary Education
+- English
+- Entomology
+- Environmental Biology - Microbiology
+- Environmental Biology - Plant Biology
+- Environmental Biology - Zoology
+- Environmental Economics and Management
+- Environmental Engineering
+- Environmental Sciences and Management
+- Environmental Studies and Sustainability
+- Experience Architecture
+- Exploratory Preference
+- Film Studies
+- Finance
+- Fish Ecology and Management
+- Food Industry Management
+- Food Science
+- Forestry
+- French Education
+- French and Francophone Studies
+- Games and Interactive Media
+- Genetics and Genomics
+- Geography
+- German
+- Global History
+- Global Studies in the Arts and Humanities
+- Global and International Studies in Social Science
+- Graphic Design
+- History
+- History: Social Studies Education
+- Horticulture
+- Hospitality Business
+- Human Biology
+- Human Development and Family Studies
+- Human Resource Management
+- Human resources and labor relations
+- Humanities - Prelaw
+- Information Science
+- Integrated Science - Secondary Education
+- Integrative Biology
+- Interdisciplinary Humanities
+- Interdisciplinary Studies in Social Science
+- Interior Design
+- International Relations
+- Japanese
+- Jazz Studies
+- Journalism
+- Kinesiology
+- Korean
+- Landscape Architecture
+- Linguistics
+- Management
+- Marketing
+- Materials Science and Engineering
+- Mathematics
+- Mathematics - Secondary Education
+- Mathematics, Advanced
+- Mechanical Engineering
+- Medical Laboratory Science
+- Microbiology
+- Music
+- Music Education
+- Music Performance
+- Neuroscience
+- Nonprofit Leadership, Religion and Social Change
+- Nursing
+- Nursing (Online Program) - RN license required
+- Nursing - Accelerated Second Degree Program
+- Nutritional Sciences
+- Packaging
+- Philosophy
+- Physical Science
+- Physics
+- Physiology
+- Plant Biology
+- Political Science
+- Political Science - Prelaw
+- Political Theory and Constitutional Democracy
+- Pre-Nursing
+- Predental
+- Premedical
+- Preoptometry
+- Preveterinary
+- Professional and Public Writing
+- Psychology
+- Public Policy
+- Public Relations
+- Quantitative Risk Analytics
+- Religious Studies
+- Russian
+- Science and Society
+- Social Relations and Policy
+- Social Work
+- Sociology
+- Spanish
+- Spanish Education
+- Special Education
+- Statistics
+- Studio Art
+- Supply Chain Management
+- Sustainable Parks, Recreation and Tourism
+- Technology Engineering
+- Theatre
+- Urban and Regional Planning
+- Veterinary Nursing
+- Wildlife Ecology and Management
+- Women's and Gender Studies
+- World Politics
+- Zoology
 
 ## Warnings
-- Major titles still need manual follow-up; no reliable official title list was extracted in this pass.
+- Major titles extracted from official school source (157 titles).
 - Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.
 - GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.
 - Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.

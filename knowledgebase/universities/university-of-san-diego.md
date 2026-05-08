@@ -20,14 +20,62 @@ status: phase-5-auto-enriched
 ### Majors
 - https://www.sandiego.edu/academics/
 - https://www.sandiego.edu/majors
+- https://www.sandiego.edu/academics/majors-and-minors.php
 
 ## Majors
-- Count: 0
-- Count method: auto-enrichment could not derive a reliable major/program count from the pages reached in this pass
-- Titles extracted: 0
+- Count: 45
+- Count method: counted extracted undergraduate-major titles from an official page
+- Titles extracted: 45
+
+### Titles
+- Anthropology
+- Architecture
+- Art History
+- Biochemistry
+- Biology
+- Biophysics
+- Chemistry
+- Communication
+- English
+- Environmental and Ocean Sciences
+- Ethnic Studies
+- French and Francophone Studies
+- History
+- Individualized Major
+- Interdisciplinary Humanities
+- International Relations
+- Italian Studies
+- Liberal Studies
+- Mathematics
+- Music
+- Philosophy
+- Physics
+- Political Science
+- Psychology
+- Sociology
+- Spanish
+- Theatre
+- Theology and Religious Studies
+- Visual Arts
+- Accountancy
+- Business Accounting
+- Business Administration
+- Business Analytics
+- Business Economics
+- Economics
+- Finance
+- International Business
+- Marketing
+- Real Estate
+- Supply Chain Management
+- Computer Science
+- Electrical Engineering
+- Engineering
+- Industrial and Systems Engineering
+- Mechanical Engineering
 
 ## Warnings
-- Major titles still need manual follow-up; no reliable official title list was extracted in this pass.
+- Major titles extracted from official school source (45 titles).
 - Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.
 - GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.
 - Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.

@@ -5,6 +5,8 @@ import argparse
 import html
 import json
 import re
+import subprocess
+import tempfile
 import time
 from collections import Counter, deque
 from datetime import datetime, timezone
@@ -65,6 +67,10 @@ SPECIAL_MAJOR_URL_HINTS = {
     "binghamton": ["https://www.binghamton.edu/academics/programs/"],
     "boston-university": ["https://www.bu.edu/academics/degree-programs/"],
     "drexel": ["https://drexel.edu/academics/undergrad-programs"],
+    "florida-state": [
+        "https://admissions.fsu.edu/majors",
+        "https://academic-guide.fsu.edu/all-programs",
+    ],
     "indiana-bloomington": ["https://bloomington.iu.edu/academics/degrees-majors/index.html"],
     "mit": ["https://catalog.mit.edu/degree-charts/"],
     "carnegie-mellon": ["https://www.cmu.edu/admission/majors-programs"],
@@ -92,6 +98,9 @@ SPECIAL_MAJOR_URL_HINTS = {
     "unc-chapel-hill": ["https://catalog.unc.edu/undergraduate/programs-study/"],
     "temple": ["https://www.temple.edu/academics/degree-programs"],
     "tulane": ["https://catalog.tulane.edu/programs/?optionlessH#filter=.filter_1"],
+    "university-of-san-diego": [
+        "https://www.sandiego.edu/academics/majors-and-minors.php",
+    ],
 }
 
 BAD_TITLE_EXACT = {
@@ -604,10 +613,87 @@ def fetch_washu_titles() -> tuple[list[str], str | None]:
     return (titles, source_url) if titles else ([], None)
 
 
+def fetch_florida_state_titles() -> tuple[list[str], str | None]:
+    source_url = "https://academic-guide.fsu.edu/all-programs"
+    try:
+        response = requests.get(source_url, headers=HEADERS, timeout=TIMEOUT)
+        response.raise_for_status()
+    except Exception:
+        return [], None
+    soup = BeautifulSoup(response.text, "html.parser")
+    titles: list[str] = []
+    for row in soup.select("div.views-row"):
+        text = strip_text(row.get_text(" ", strip=True))
+        if not text:
+            continue
+        title = re.split(r"\bProgram Description\b", text, maxsplit=1)[0]
+        title = normalize_title(title)
+        add_candidate(titles, title)
+    titles = dedupe_keep_order(titles)
+    return (titles, source_url) if titles else ([], None)
+
+
+def fetch_san_diego_titles() -> tuple[list[str], str | None]:
+    source_url = "https://www.sandiego.edu/academics/majors-and-minors.php"
+    endpoint = "https://www.sandiego.edu/academics/process-degree-finder.php"
+    try:
+        response = requests.get(endpoint, params={"filters[1]": "Undergraduate"}, headers=HEADERS, timeout=TIMEOUT)
+        response.raise_for_status()
+        payload = json.loads(response.text)
+    except Exception:
+        return [], None
+    titles: list[str] = []
+    for group in payload or []:
+        if not isinstance(group, dict):
+            continue
+        for items in group.values():
+            if not isinstance(items, list):
+                continue
+            for item in items:
+                if str(item.get("program_type") or "").lower() != "undergraduate":
+                    continue
+                if str(item.get("major") or "").lower() != "yes":
+                    continue
+                add_candidate(titles, item.get("title_override") or item.get("name"))
+    titles = dedupe_keep_order(titles)
+    return (titles, source_url) if titles else ([], None)
+
+
+def fetch_uga_titles() -> tuple[list[str], str | None]:
+    source_url = "https://www.career.uga.edu/uploads/documents/UGAMajorsChecklist.pdf"
+    try:
+        response = requests.get(source_url, headers=HEADERS, timeout=TIMEOUT)
+        response.raise_for_status()
+    except Exception:
+        return [], None
+    with tempfile.TemporaryDirectory() as tmpdir:
+        pdf_path = Path(tmpdir) / "uga-majors.pdf"
+        txt_path = Path(tmpdir) / "uga-majors.txt"
+        pdf_path.write_bytes(response.content)
+        try:
+            subprocess.run(["pdftotext", str(pdf_path), str(txt_path)], check=True, capture_output=True)
+        except Exception:
+            return [], None
+        try:
+            text = txt_path.read_text(errors="ignore")
+        except Exception:
+            return [], None
+    titles: list[str] = []
+    for line in text.splitlines():
+        cleaned = strip_text(line)
+        if not cleaned.startswith(""):
+            continue
+        add_candidate(titles, cleaned.lstrip("").strip(" -–—"))
+    titles = dedupe_keep_order(titles)
+    return (titles, source_url) if titles else ([], None)
+
+
 def fetch_school_specific_titles(record: dict) -> tuple[list[str], str | None]:
     slug = record.get("slug")
     if slug == "drexel":
         return fetch_drexel_titles()
+    if slug == "florida-state":
+        return fetch_florida_state_titles()
     if slug == "indiana-bloomington":
         return fetch_indiana_bloomington_titles()
     if slug == "michigan":
@@ -618,6 +704,10 @@ def fetch_school_specific_titles(record: dict) -> tuple[list[str], str | None]:
         return fetch_villanova_titles()
     if slug == "washu":
         return fetch_washu_titles()
+    if slug == "university-of-georgia":
+        return fetch_uga_titles()
+    if slug == "university-of-san-diego":
+        return fetch_san_diego_titles()
     return [], None
 
 
@@ -654,6 +744,9 @@ def extract_titles_from_page(page: dict, record: dict) -> list[str]:
         return []
 
     if record["slug"] == "baylor" and "catalog.baylor.edu/azindex/" in page["url"]:
+        return []
+
+    if record["slug"] == "baylor" and page["url"].rstrip("/") == "https://catalog.baylor.edu/undergraduate":
         return []
 
     if record["slug"] == "uconn" and "/undergraduate/programs/" in page["url"]:
