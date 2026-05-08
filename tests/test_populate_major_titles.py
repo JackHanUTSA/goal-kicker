@@ -124,6 +124,32 @@ class PopulateMajorTitlesTests(unittest.TestCase):
 
         self.assertIsNotNone(page)
 
+    def test_extract_baylor_titles_from_quicksearch_html_uses_official_homepage_directory_fallback(self):
+        html = """
+        <html><body><script>
+        if (typeof quickSearchData === 'undefined' || quickSearchData === null) {
+            var quickSearchData = {
+                "0": {"title": "Accounting & Business Law, Department of", "link": "https://hankamer.baylor.edu/accounting"},
+                "1": {"title": "Psychology & Neuroscience", "link": "https://psychologyneuroscience.artsandsciences.baylor.edu/"},
+                "2": {"title": "Informatics", "link": "https://www.ecs.baylor.edu/research-departments/informatics"},
+                "3": {"title": "Journalism, Public Relations & New Media", "link": "https://journalism.artsandsciences.baylor.edu/"},
+                "4": {"title": "Campus News", "link": "https://news.web.baylor.edu/news/story/2026/example"}
+            };
+        }
+        </script></body></html>
+        """
+
+        titles = populate_major_titles.extract_baylor_titles_from_quicksearch_html(html)
+
+        self.assertEqual(titles, [
+            "Accounting",
+            "Psychology",
+            "Neuroscience",
+            "Bioinformatics",
+            "Journalism",
+            "Public Relations",
+        ])
+
     def test_crawl_school_prioritizes_discovered_links_before_generic_seed_urls(self):
         original_candidate_urls = populate_major_titles.candidate_urls
         original_fetch_page = populate_major_titles.fetch_page

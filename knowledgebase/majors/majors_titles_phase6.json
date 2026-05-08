@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-08T13:49:00.140994+00:00",
+  "generated_at": "2026-05-08T18:12:03.863744+00:00",
   "schools_total": 100,
-  "schools_with_titles": 99,
-  "schools_without_titles": 1,
+  "schools_with_titles": 100,
+  "schools_without_titles": 0,
   "results": [
     {
       "slug": "mit",
@@ -434,9 +434,9 @@
     {
       "slug": "baylor",
       "rank": 62,
-      "majors_count": 0,
-      "titles_count": 0,
-      "titles_source_url": "https://admissions.web.baylor.edu/about-baylor/majors-minors"
+      "majors_count": 45,
+      "titles_count": 45,
+      "titles_source_url": "https://www.baylor.edu/"
     },
     {
       "slug": "binghamton",

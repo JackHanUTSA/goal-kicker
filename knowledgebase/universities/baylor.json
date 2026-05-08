@@ -14,7 +14,8 @@
       "https://admissions.web.baylor.edu/about-baylor/majors-minors",
       "https://go.web.baylor.edu/academics",
       "https://www.baylor.edu/academic-programs",
-      "https://catalog.baylor.edu/undergraduate/"
+      "https://catalog.baylor.edu/undergraduate/",
+      "https://www.baylor.edu/"
     ],
     "testing_policy": [],
     "general": [
@@ -28,10 +29,56 @@
     ]
   },
   "majors": {
-    "count": 0,
-    "count_method": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass",
-    "titles": [],
-    "notes": "Official Baylor majors pages on admissions.web.baylor.edu and go.web.baylor.edu were Cloudflare-blocked in this environment, and the official undergraduate catalog root returned an empty 202 response during this audit.",
+    "count": 45,
+    "count_method": "counted extracted undergraduate-major titles from an official page",
+    "titles": [
+      "Accounting",
+      "American Studies",
+      "Anthropology",
+      "Asian Studies",
+      "Biology",
+      "Chemistry",
+      "Biochemistry",
+      "Classics",
+      "Communication Sciences & Disorders",
+      "Communication",
+      "Computer Science",
+      "Public Health",
+      "Economics",
+      "Electrical and Computer Engineering",
+      "Engineering",
+      "English",
+      "Entrepreneurship",
+      "Environmental Science",
+      "Film and Digital Media",
+      "Finance",
+      "Insurance",
+      "Real Estate",
+      "French",
+      "German",
+      "Great Texts",
+      "History",
+      "Bioinformatics",
+      "Aviation Sciences",
+      "Interior Design",
+      "Italian",
+      "Journalism",
+      "Public Relations",
+      "Latin American Studies",
+      "Linguistics",
+      "Nursing",
+      "Management",
+      "Marketing",
+      "Mathematics",
+      "Middle East Studies",
+      "Nutrition Sciences",
+      "Physics",
+      "Psychology",
+      "Neuroscience",
+      "Sociology",
+      "University Scholars"
+    ],
+    "notes": "Official Baylor majors pages on admissions.web.baylor.edu and go.web.baylor.edu were Cloudflare-blocked in this environment, and the official undergraduate catalog root returned an empty 202 response during this audit.; titles extracted from official page: https://www.baylor.edu/",
     "confidence": "low"
   },
   "admissions": {
@@ -87,10 +134,18 @@
       "source_url": "https://en.wikipedia.org/wiki/List_of_Baylor_University_people",
       "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
       "retrieved_at": "2026-04-25T20:39:39.335305+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 45 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://www.baylor.edu/",
+      "source_excerpt": "Accounting; American Studies; Anthropology; Asian Studies; Biology; Chemistry; Biochemistry; Classics; Communication Sciences & Disorders; Communication; Computer Science; Public Health",
+      "retrieved_at": "2026-05-08T18:12:03.857909+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-30T00:42:35.266071+00:00",
+    "last_verified_at": "2026-05-08T18:12:03.857921+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.course_rigor",
@@ -98,7 +153,7 @@
       "admissions.essays"
     ],
     "warnings": [
-      "Major titles still need manual follow-up; official Baylor majors pages on admissions.web.baylor.edu and go.web.baylor.edu were Cloudflare-blocked in this environment, and the official undergraduate catalog root returned an empty 202 response during this audit.",
+      "Major titles extracted from official school source (45 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
       "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",

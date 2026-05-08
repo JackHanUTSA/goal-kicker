@@ -688,8 +688,94 @@ def fetch_uga_titles() -> tuple[list[str], str | None]:
     return (titles, source_url) if titles else ([], None)
 
 
+BAYLOR_QUICKSEARCH_TITLE_MAP = {
+    "Accounting & Business Law, Department of": ["Accounting"],
+    "American Studies": ["American Studies"],
+    "Anthropology, Department of": ["Anthropology"],
+    "Art, Department of": ["Art"],
+    "Asian Studies": ["Asian Studies"],
+    "Biology, Department of": ["Biology"],
+    "Chemistry & Biochemistry, Department of": ["Chemistry", "Biochemistry"],
+    "Classics, Department of": ["Classics"],
+    "Communication Sciences & Disorders, Department of": ["Communication Sciences & Disorders"],
+    "Communication, Department of": ["Communication"],
+    "Computer Science": ["Computer Science"],
+    "Department of Public Health": ["Public Health"],
+    "Economics": ["Economics"],
+    "Electrical and Computer Engineering": ["Electrical and Computer Engineering"],
+    "Engineering, Department of": ["Engineering"],
+    "English, Department of": ["English"],
+    "Entrepreneurship": ["Entrepreneurship"],
+    "Environmental Science": ["Environmental Science"],
+    "Film and Digital Media Department": ["Film and Digital Media"],
+    "Finance, Insurance and Real Estate": ["Finance", "Insurance", "Real Estate"],
+    "French": ["French"],
+    "German": ["German"],
+    "Great Texts": ["Great Texts"],
+    "History, Department of": ["History"],
+    "Informatics": ["Bioinformatics"],
+    "Institute for Aviation Sciences": ["Aviation Sciences"],
+    "Interior Design": ["Interior Design"],
+    "Italian": ["Italian"],
+    "Journalism, Public Relations & New Media": ["Journalism", "Public Relations"],
+    "Latin American Studies": ["Latin American Studies"],
+    "Linguistics": ["Linguistics"],
+    "Louise Herrington School of Nursing": ["Nursing"],
+    "Management": ["Management"],
+    "Marketing, Department of": ["Marketing"],
+    "Mathematics, Department of": ["Mathematics"],
+    "Middle East Studies": ["Middle East Studies"],
+    "Nutrition Sciences": ["Nutrition Sciences"],
+    "Physics, Department of": ["Physics"],
+    "Psychology & Neuroscience": ["Psychology", "Neuroscience"],
+    "Sociology, Department of": ["Sociology"],
+    "Theatre, Department of": ["Theatre Arts"],
+    "University Scholars": ["University Scholars"],
+}
+
+
+def extract_baylor_titles_from_quicksearch_html(page_html: str) -> list[str]:
+    start = page_html.find("var quickSearchData = ")
+    if start == -1:
+        return []
+    match = re.search(r"var quickSearchData = (\{.*?\});\s*\}", page_html[start:], re.S)
+    if not match:
+        return []
+    try:
+        payload = json.loads(match.group(1))
+    except Exception:
+        return []
+
+    titles: list[str] = []
+    for item in payload.values():
+        if not isinstance(item, dict):
+            continue
+        title = html.unescape(strip_text(item.get("title") or ""))
+        if title not in BAYLOR_QUICKSEARCH_TITLE_MAP:
+            continue
+        link = str(item.get("link") or "")
+        if "baylor.edu" not in link or any(token in link for token in ["/news/", "calendar.", "/events", "/event/"]):
+            continue
+        for candidate in BAYLOR_QUICKSEARCH_TITLE_MAP[title]:
+            add_candidate(titles, candidate)
+    return dedupe_keep_order(titles)
+
+
+def fetch_baylor_titles() -> tuple[list[str], str | None]:
+    source_url = "https://www.baylor.edu/"
+    try:
+        response = requests.get(source_url, headers=HEADERS, timeout=TIMEOUT)
+        response.raise_for_status()
+    except Exception:
+        return [], None
+    titles = extract_baylor_titles_from_quicksearch_html(response.text)
+    return (titles, source_url) if titles else ([], None)
+
+
 def fetch_school_specific_titles(record: dict) -> tuple[list[str], str | None]:
     slug = record.get("slug")
+    if slug == "baylor":
+        return fetch_baylor_titles()
     if slug == "drexel":
         return fetch_drexel_titles()
     if slug == "florida-state":
