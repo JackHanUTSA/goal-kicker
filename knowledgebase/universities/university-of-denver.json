@@ -9,12 +9,14 @@
       "https://www.du.edu/admission-aid",
       "https://www.du.edu/admission-aid/undergraduate",
       "https://www.du.edu/admission-aid/undergraduate/first-year-applicants/admission-standards",
-      "https://www.du.edu/admissions"
+      "https://www.du.edu/admissions",
+      "https://www.du.edu/admission-aid/undergraduate/how-to-apply",
+      "https://www.du.edu/admission-aid/undergraduate/first-year-applicants/application-checklist"
     ],
     "majors": [
+      "https://www.du.edu/academics/undergraduate-programs",
       "https://www.du.edu/academics",
-      "https://www.du.edu/majors",
-      "https://www.du.edu/admission-aid/undergraduate"
+      "https://www.du.edu/programs"
     ],
     "testing_policy": [],
     "general": [
@@ -28,55 +30,82 @@
     ]
   },
   "majors": {
-    "count": 15,
-    "count_method": "counted 15 unique major/program-like entries from the cited official page DOM",
+    "count": 62,
+    "count_method": "counted unique bachelor's-level program titles from the official undergraduate programs page",
     "titles": [
-      "Visit Our Campus",
-      "The World is Your Classroom",
-      "Why DU?",
-      "Helpful Undergraduate Links",
-      "Resources For",
-      "Checkout",
-      "Visit Us",
-      "Undergraduate Academics",
-      "Explore this Section",
-      "International Applicants",
-      "Admitted Students",
-      "Frequently Asked Questions",
-      "first-year student application checklist",
-      "First-Year Applicants",
-      "application checklist",
-      "Transfer Applicants",
-      "application checklist for international applicants",
-      "transfer guidelines",
-      "visa Information",
-      "English proficiency requirements",
-      "Undocumented Applicants",
-      "Schedule a Group Visit",
-      "High School Counselors",
-      "Deposited Students",
-      "Non-Degree Students",
-      "Online Bachelor\u2019s Completion Program",
-      "Access DU",
-      "Early Experience Program",
-      "Visit DU",
-      "Notice of Nondiscriminatory Policy",
-      "Clery Disclosure Act",
-      "Drug-Free Workplace Act",
-      "VISIT DU",
-      "Consent Preferences",
-      "Schedule a Visit"
+      "Accounting",
+      "Anthropology",
+      "Applied Computing",
+      "Applied Music",
+      "Art",
+      "Art History",
+      "Art, Culture & Technology",
+      "Asian Studies",
+      "Biochemistry",
+      "Biological Sciences",
+      "Business Analytics",
+      "Chemistry",
+      "Communication Studies",
+      "Composition",
+      "Computer Engineering",
+      "Computer Science",
+      "Criminology",
+      "Critical Race & Ethnic Studies",
+      "Ecology & Biodiversity",
+      "Economics",
+      "Electrical Engineering",
+      "English and Literary Arts",
+      "Environmental Chemistry",
+      "Environmental Science",
+      "Film Studies and Production",
+      "Finance",
+      "Game Development",
+      "Gender, Women's, and Sexuality Studies",
+      "Geographic Information Science",
+      "Geography",
+      "History",
+      "Hospitality Management",
+      "Integrated Sciences",
+      "International Business",
+      "International Studies",
+      "Jazz Studies and Commercial Music",
+      "Journalism Studies",
+      "Kinesiology & Sport Studies",
+      "Languages, Literatures, and Cultures",
+      "Marketing",
+      "Mathematics",
+      "Media Studies",
+      "Molecular Biology",
+      "Music Studies",
+      "Performance",
+      "Philosophy",
+      "Physics",
+      "Physiology in Health & Disease",
+      "Political Science",
+      "Pre-Art Conservation",
+      "Psychology",
+      "Public Policy",
+      "Real Estate and the Built Environment",
+      "Recording and Production",
+      "Religious Studies",
+      "Socio-Legal Studies",
+      "Sociology",
+      "Spanish",
+      "Strategic Communication",
+      "Studio Art",
+      "Sustainability Science",
+      "Theatre"
     ],
-    "notes": "counted 15 unique major/program-like entries from the cited official page DOM; titles extracted from official page: https://www.du.edu/admission-aid/undergraduate",
-    "confidence": "medium"
+    "notes": "counted unique bachelor's-level program titles from the official undergraduate programs page; deduped BA/BS variants and excluded minor-only, dual-degree, and bachelor's-completion entries: https://www.du.edu/academics/undergraduate-programs",
+    "confidence": "high"
   },
   "admissions": {
     "application_platform": "Common Application",
     "testing_policy": "The University of Denver is test-optional; submitting SAT or ACT scores is the applicant\u2019s choice, and scores are considered with the rest of the application if submitted.",
     "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
-    "course_rigor": "unknown",
-    "recommendations": "Our application requirements vary by program and school. Depending on your degree of choice, you may need to submit test scores, letters of recommendation and resumes.",
-    "essays": "unknown",
+    "course_rigor": "DU says it considers grades and coursework and likes to see that applicants challenged themselves and achieved success in subjects like English, math, social studies, science, and foreign language.",
+    "recommendations": "DU's general how-to-apply guidance lists additional letters of recommendation as optional supplemental materials, though some programs or applicant types may have specific recommendation requirements.",
+    "essays": "DU requires one application essay through the Common Application; students may choose any current-year Common App prompt for that required essay.",
     "portfolio_or_audition": null,
     "international_notes": null,
     "deadlines": []
@@ -92,14 +121,6 @@
     "special_notes": []
   },
   "evidence": [
-    {
-      "field": "majors.count",
-      "claim": "Majors/program count recorded as 15",
-      "classification": "official_requirement",
-      "source_url": "https://www.du.edu/academics",
-      "source_excerpt": "Request Graduate Program Information",
-      "retrieved_at": "2026-04-20T03:12:30.482383+00:00"
-    },
     {
       "field": "admissions.testing_policy",
       "claim": "The University promotes a healthy and safe educational, professional, and residential community where drugs and alcohol do not interfere with individual performance, personal success, public safety or the integrity of the learning environment. Compliance with the federal requirements under the Drug Free Schools and Communities Act and Drug Free Workplace is available here.",
@@ -117,28 +138,12 @@
       "retrieved_at": "2026-04-20T03:12:30.482396+00:00"
     },
     {
-      "field": "admissions.recommendations",
-      "claim": "Our application requirements vary by program and school. Depending on your degree of choice, you may need to submit test scores, letters of recommendation and resumes.",
-      "classification": "official_requirement",
-      "source_url": "https://www.du.edu/admission-aid/undergraduate",
-      "source_excerpt": "Our application requirements vary by program and school. Depending on your degree of choice, you may need to submit test scores, letters of recommendation and resumes.",
-      "retrieved_at": "2026-04-20T03:12:30.482400+00:00"
-    },
-    {
       "field": "admissions.testing_policy",
       "claim": "The University of Denver is test-optional; submitting SAT or ACT scores is the applicant\u2019s choice, and scores are considered with the rest of the application if submitted.",
       "classification": "official_requirement",
       "source_url": "https://www.du.edu/admission-aid/undergraduate/first-year-applicants/admission-standards",
       "source_excerpt": "However, we are a test-optional university, and submitting test scores is your choice. If you choose to submit your SAT and/or ACT scores, they will be considered along with your other application materials for both admission and merit scholarships.",
       "retrieved_at": "2026-04-20T03:48:33.021412+00:00"
-    },
-    {
-      "field": "majors.titles",
-      "claim": "Extracted 35 official undergraduate major/program titles",
-      "classification": "official_recommendation",
-      "source_url": "https://www.du.edu/admission-aid/undergraduate",
-      "source_excerpt": "Visit Our Campus; The World is Your Classroom; Why DU?; Helpful Undergraduate Links; Resources For; Checkout; Visit Us; Undergraduate Academics; Explore this Section; International Applicants; Admitted Students; Frequently Asked Questions",
-      "retrieved_at": "2026-04-24T13:59:25.279718+00:00"
     },
     {
       "field": "school_people.popular_professors",
@@ -155,21 +160,59 @@
       "source_url": "https://en.wikipedia.org/wiki/List_of_University_of_Denver_alumni",
       "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
       "retrieved_at": "2026-04-25T17:05:02.057354+00:00"
+    },
+    {
+      "field": "majors.count",
+      "claim": "Recorded 62 unique bachelor's-level program titles from DU's official undergraduate programs page.",
+      "classification": "official_requirement",
+      "source_url": "https://www.du.edu/academics/undergraduate-programs",
+      "source_excerpt": "Accounting; Anthropology; Applied Computing; Applied Music; Art; Art History; Art, Culture & Technology; Asian Studies; Biochemistry; Biological Sciences; Business Analytics; Chemistry",
+      "retrieved_at": "2026-05-09T02:48:24Z"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 62 official bachelor's-level program titles.",
+      "classification": "official_recommendation",
+      "source_url": "https://www.du.edu/academics/undergraduate-programs",
+      "source_excerpt": "Accounting; Anthropology; Applied Computing; Applied Music; Art; Art History; Art, Culture & Technology; Asian Studies; Biochemistry; Biological Sciences; Business Analytics; Chemistry",
+      "retrieved_at": "2026-05-09T02:48:24Z"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "DU says it considers grades and coursework and likes to see that applicants challenged themselves and achieved success in subjects like English, math, social studies, science, and foreign language.",
+      "classification": "reported_profile",
+      "source_url": "https://www.du.edu/admission-aid/undergraduate/first-year-applicants/admission-standards",
+      "source_excerpt": "We consider your grades and coursework... We like to see you\u2019ve challenged yourself and achieved success in subjects like English, math, social studies, science and foreign language.",
+      "retrieved_at": "2026-05-09T02:48:24Z"
+    },
+    {
+      "field": "admissions.recommendations",
+      "claim": "DU's general how-to-apply guidance lists additional letters of recommendation as optional supplemental materials, though some programs or applicant types may have specific recommendation requirements.",
+      "classification": "official_requirement",
+      "source_url": "https://www.du.edu/admission-aid/undergraduate/how-to-apply",
+      "source_excerpt": "Application essay (included in the Common App) Additional letters of recommendation (optional) Official ACT or SAT scores (optional)",
+      "retrieved_at": "2026-05-09T02:48:24Z"
+    },
+    {
+      "field": "admissions.essays",
+      "claim": "DU requires one application essay through the Common Application; students may choose any current-year Common App prompt for that required essay.",
+      "classification": "official_requirement",
+      "source_url": "https://www.du.edu/admission-aid/undergraduate/first-year-applicants/application-checklist",
+      "source_excerpt": "The application includes an essay requirement... Students are free to choose from any of the current year's Common Application prompts for their one required essay.",
+      "retrieved_at": "2026-05-09T02:48:24Z"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-25T17:05:02.057359+00:00",
+    "last_verified_at": "2026-05-09T02:48:24Z",
     "confidence": "phase-5-manual-repair",
-    "unknown_fields": [
-      "admissions.course_rigor",
-      "admissions.essays"
-    ],
+    "unknown_fields": [],
     "warnings": [
-      "Major titles extracted from official school source (35 titles).",
+      "Major titles extracted from official school source (62 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
       "University of Denver testing policy was manually repaired from the official admission standards page after the auto-crawl captured drug/alcohol compliance text.",
-      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data.",
+      "University of Denver majors and admissions fields were manually repaired from official undergraduate programs and application-checklist pages after the prior crawl captured navigation-heavy majors text and left essay/course-rigor gaps."
     ]
   },
   "school_people": {
