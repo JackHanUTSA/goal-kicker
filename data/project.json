@@ -9,12 +9,12 @@
     "schools_with_professors": 100,
     "schools_with_alumni": 100,
     "overall_structured_completion_pct": 100.0,
-    "last_audited": "2026-05-08T18:12:40Z"
+    "last_audited": "2026-05-09T05:06:44Z"
   },
   "next_steps": [
+    "Repair the remaining clearly under-covered majors-title schools, especially USC, Ohio State, William & Mary, Stevens, RIT, American, Carnegie Mellon, UT Austin, and NJIT",
     "Improve Baylor from homepage-directory majors recovery to a direct majors-page or catalog-backed official census once an accessible source path exists in this environment",
     "Improve faculty verification to use official school pages instead of RateMyProfessors-derived fallbacks where possible",
-    "Improve alumni recency and per-major filtering in the generic enrichment pipeline",
     "Continue replacing low-quality or clearly off-target admissions text in residual partial records"
   ],
   "paths": {

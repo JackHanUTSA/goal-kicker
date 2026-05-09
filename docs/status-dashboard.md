@@ -1,6 +1,6 @@
 # Goal Kicker Status Dashboard
 
-Last audited: 2026-05-08 18:12 UTC
+Last audited: 2026-05-09 05:06 UTC
 
 ## Current completion
 
@@ -13,18 +13,28 @@ Last audited: 2026-05-08 18:12 UTC
 
 ## What changed most recently
 
-- Added Baylor majors-title coverage by mining Baylor's official homepage quick-search directory after the direct majors and academics pages remained Cloudflare-blocked and the undergraduate catalog returned empty 202 responses
-- Recovered 45 Baylor undergraduate major/program titles from official Baylor homepage directory metadata spanning arts & sciences, business, ECS, nursing, and honors entries
-- Hardened `scripts/populate_major_titles.py` with a Baylor-specific official-domain fallback extractor that reads the homepage quick-search dataset when the direct Baylor majors pages are inaccessible in this environment
-- Added a regression test covering the Baylor quick-search fallback extractor
+- Repaired Clemson majors-title coverage from a stale 27-title admissions-nav scrape to 76 bachelor-level titles from Clemson's official Program Finder, and replaced incorrect admissions text with grounded first-year requirements/testing details
+- Repaired University of Georgia admissions fields from official first-year admissions pages while preserving the 143-title official majors checklist
+- Repaired Yale majors-title coverage from a broken 7-title placeholder scrape to 82 official Yale College major titles from the Yale catalog
+- Repaired Northwestern majors-title coverage from a broken 6-title placeholder scrape to 80 official undergraduate major/degree titles from Northwestern's Programs A-Z catalog
 
 ## Remaining major gaps
 
-None at the majors-title coverage threshold.
+No schools remain at zero-title coverage, but several records still look materially under-covered relative to their official offerings and should be prioritized next:
 
-Residual Baylor caveat:
+- usc — 6 titles currently stored
+- ohio-state — 7 titles currently stored
+- william-and-mary — 7 titles currently stored
+- stevens — 7 titles currently stored
+- rit — 7 titles currently stored
+- american — 7 titles currently stored and the direct academics site is still Cloudflare-blocked in this environment
+- carnegie-mellon — 8 titles currently stored
+- ut-austin — 8 titles currently stored
+- njit — 8 titles currently stored
 
-- baylor — majors titles are now populated from official Baylor homepage directory metadata, but the direct admissions/go majors pages are still Cloudflare-blocked here, so Baylor's majors count should still be treated as a conservative recovered list rather than a fully confirmed direct-program-page census
+Residual source caveat:
+
+- baylor — majors titles are populated from official Baylor homepage directory metadata because the direct majors pages were inaccessible here; treat that count as a recovered official fallback rather than a direct-program-page census
 
 ## Partial people-depth gaps
 

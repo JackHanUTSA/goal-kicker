@@ -8,7 +8,9 @@
     "admissions": [
       "https://admissions.uga.edu/",
       "https://www.uga.edu/admission",
-      "https://www.uga.edu/apply"
+      "https://www.uga.edu/apply",
+      "https://admissions.uga.edu/apply/first-year-applicants/",
+      "https://admissions.uga.edu/apply/first-year-applicants/first-year-criteria/"
     ],
     "majors": [
       "https://www.uga.edu/academics",
@@ -28,7 +30,7 @@
   },
   "majors": {
     "count": 143,
-    "count_method": "counted extracted undergraduate-major titles from an official page",
+    "count_method": "counted extracted undergraduate-major titles from UGA's official majors checklist PDF",
     "titles": [
       "Agribusiness",
       "Agricultural and Applied Economics",
@@ -174,15 +176,16 @@
       "Natural Resource Management and Sustainability",
       "Parks, Recreation, & Tourism Management"
     ],
-    "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass; titles extracted from official page: https://www.career.uga.edu/uploads/documents/UGAMajorsChecklist.pdf",
-    "confidence": "low"
+    "notes": "titles extracted from UGA's official majors checklist PDF; the admissions site separately advertises 250+ academic offerings, which is broader than the extracted major-title list",
+    "confidence": "medium",
+    "source_url": "https://www.career.uga.edu/uploads/documents/UGAMajorsChecklist.pdf"
   },
   "admissions": {
-    "application_platform": null,
-    "testing_policy": "Tags: ACT , file reading , final decisions , grades , SAT",
-    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
-    "course_rigor": "unknown",
-    "recommendations": "unknown",
+    "application_platform": "Fall first-year applicants apply exclusively through the Common Application; spring first-year applicants apply through the UGA Application.",
+    "testing_policy": "UGA treats SAT or ACT scores submitted by the application materials deadline as one of the primary academic factors in first-year review.",
+    "gpa_policy": "UGA sets no rigid standards for test scores or high school GPAs, and it recalculates a GPA for each first-year applicant based on academic courses in the five core areas.",
+    "course_rigor": "UGA compares the courses available at a student's high school with what the student has taken or plans to take in senior year. It says competitive applicants take demanding courses in the five core subject areas available at their school.",
+    "recommendations": "UGA lists recommendation letters as optional materials for first-year applicants.",
     "essays": "unknown",
     "portfolio_or_audition": null,
     "international_notes": null,
@@ -190,7 +193,9 @@
   },
   "competitive_signals": {
     "academics": [],
-    "projects_research": [],
+    "projects_research": [
+      "UGA gives secondary consideration to intellectual pursuits and creative endeavors in first-year review."
+    ],
     "extracurriculars": [],
     "leadership": [],
     "service": [],
@@ -235,24 +240,69 @@
       "classification": "official_recommendation",
       "source_url": "https://www.career.uga.edu/uploads/documents/UGAMajorsChecklist.pdf",
       "source_excerpt": "Agribusiness; Agricultural and Applied Economics; Agricultural and Environmental Science Communication; Agricultural Education; Environmental Economics and Management; Hospitality and Food Industry Management; Animal and Dairy Science; Animal Biosciences; Animal Health; Avian Biology; Entomology; Poultry Science",
-      "retrieved_at": "2026-05-08T13:46:58.582064+00:00"
+      "retrieved_at": "2026-05-09T05:00:46.068984+00:00"
+    },
+    {
+      "field": "admissions.application_platform",
+      "claim": "Fall first-year applicants apply exclusively through the Common Application; spring first-year applicants apply through the UGA Application.",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.uga.edu/apply/start-application/",
+      "source_excerpt": "Fall first-year applicants must apply exclusively through the Common Application. ... First-Year applicants applying to start in the Spring semester can only apply through the UGA Application.",
+      "retrieved_at": "2026-05-09T05:00:46.068989+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "UGA treats SAT or ACT scores submitted by the application materials deadline as one of the primary academic factors in first-year review.",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.uga.edu/apply/first-year-applicants/first-year-criteria/",
+      "source_excerpt": "Test Scores: SAT or ACT scores from exams taken AND requested by the application materials deadline.",
+      "retrieved_at": "2026-05-09T05:00:46.068992+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "UGA sets no rigid standards for test scores or high school GPAs, and it recalculates a GPA for each first-year applicant based on academic courses in the five core areas.",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.uga.edu/apply/first-year-applicants/first-year-criteria/",
+      "source_excerpt": "In reviewing first-year applicants for admission, the University of Georgia sets no rigid standards for test scores or high school grade point averages. ... we recalculate a GPA for every first-year applicant based only on academic courses taken in the five core academic areas.",
+      "retrieved_at": "2026-05-09T05:00:46.068994+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "UGA compares the courses available at a student's high school with what the student has taken or plans to take in senior year. It says competitive applicants take demanding courses in the five core subject areas available at their school.",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.uga.edu/apply/first-year-applicants/first-year-criteria/",
+      "source_excerpt": "UGA will look at the courses offered at an applicant's high school and compare that to what applicants have taken or plan to take in their senior year. Competitive applicants are taking demanding courses in the five core subject areas available at their school.",
+      "retrieved_at": "2026-05-09T05:00:46.068996+00:00"
+    },
+    {
+      "field": "admissions.recommendations",
+      "claim": "UGA lists recommendation letters as optional materials for first-year applicants.",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.uga.edu/apply/first-year-applicants/",
+      "source_excerpt": "October 29 materials deadline (test scores, official transcripts, school report, and optional recommendation letters) ... January 15 materials deadline (test scores, official transcripts, school report, and optional recommendation letters).",
+      "retrieved_at": "2026-05-09T05:00:46.068998+00:00"
+    },
+    {
+      "field": "competitive_signals.projects_research",
+      "claim": "UGA gives secondary consideration to intellectual pursuits and creative endeavors in first-year review.",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.uga.edu/apply/first-year-applicants/first-year-criteria/",
+      "source_excerpt": "Secondary consideration is given to the following factors: Intellectual Pursuits; Creative Endeavors; Public Service and Volunteer Work; Co-curricular Activities; Community Involvement; Leadership and Family Commitments; Integrity and Personal Maturity.",
+      "retrieved_at": "2026-05-09T05:00:46.069001+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-05-08T13:46:58.582075+00:00",
-    "confidence": "phase-5-auto-enriched",
+    "last_verified_at": "2026-05-09T05:00:46.069006+00:00",
+    "confidence": "phase-5-manual-repair",
     "unknown_fields": [
-      "admissions.course_rigor",
-      "admissions.recommendations",
-      "admissions.essays",
-      "competitive_signals.projects_research"
+      "admissions.essays"
     ],
     "warnings": [
       "Major titles extracted from official school source (143 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
-      "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page.",
-      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data.",
+      "UGA admissions testing, rigor, recommendation, and application-platform fields were manually repaired from official first-year admissions pages."
     ]
   },
   "school_people": {

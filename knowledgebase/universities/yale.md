@@ -4,7 +4,7 @@ short_name: Yale
 slug: yale
 rank: 5
 official_domain: yale.edu
-status: phase-4-top10-structured
+status: phase-5-manual-repair
 ---
 
 # Yale University
@@ -46,8 +46,8 @@ status: phase-4-top10-structured
 - https://ventures.yale.edu/news/alumni-spotlight-linda-rottenberg-law-93-co-founder-endeavor
 
 ## Structured extraction
-- Majors count: 81
-- Count method: counted unique Yale College major entries (B.A./B.S.) on the official Yale catalog page 'Majors in Yale College'
+- Majors count: 82
+- Count method: counted distinct Yale College major entries listed on Yale's official 'Majors in Yale College' catalog page
 - Testing policy: Yale uses a test-flexible policy that requires first-year applicants to submit scores from one or more of the following: ACT, AP, IB, or SAT.
 - GPA policy: Yale does not publish a minimum GPA on the cited admissions pages.
 - Course rigor: The cited Yale admissions pages do not provide a single minimum course-rigor formula.
@@ -252,6 +252,7 @@ status: phase-4-top10-structured
 - Applied school-specific alumni override data.
 
 ## Warnings
-- Major titles extracted from official school source (7 titles).
+- Major titles extracted from official school source (82 titles).
 - Phase 4 structured upgrade applied to top-10 expansion schools.
 - School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data.
+- Yale major titles were manually repaired from the official Yale College Programs of Study majors page.

@@ -4,7 +4,7 @@ short_name: Northwestern
 slug: northwestern
 rank: 12
 official_domain: northwestern.edu
-status: phase-5-auto-enriched
+status: phase-5-manual-repair
 ---
 
 # Northwestern University
@@ -21,6 +21,7 @@ status: phase-5-auto-enriched
 ### Majors
 - https://admissions.northwestern.edu/academics/
 - https://www.northwestern.edu/academics/
+- https://catalogs.northwestern.edu/undergraduate/programs-az/
 
 ### Professors
 - https://www.ratemyprofessors.com/school/709
@@ -49,8 +50,8 @@ status: phase-5-auto-enriched
 - https://news.northwestern.edu/stories/2026/02/actor-richard-kind-guides-audiences-through-how-to-succeed-in-business
 
 ## Structured extraction
-- Majors count: 23
-- Count method: counted 23 unique major/program-like entries from the cited official page DOM
+- Majors count: 80
+- Count method: counted distinct undergraduate major/degree entries on Northwestern's official Programs A-Z catalog page while excluding minors and certificates
 - Testing policy: Self-reporting SAT and/or ACT scores
 - GPA policy: No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.
 - Course rigor: A strong high school curriculum, including a year of calculus, is required for admission.
@@ -257,7 +258,8 @@ status: phase-5-auto-enriched
 - Applied school-specific alumni override data.
 
 ## Warnings
-- Major titles extracted from official school source (6 titles).
+- Major titles extracted from official school source (80 titles).
 - Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.
 - GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.
 - School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data.
+- Northwestern major titles were manually repaired from the official Northwestern undergraduate catalog.

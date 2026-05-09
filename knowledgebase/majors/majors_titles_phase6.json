@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T22:33:06.706156+00:00",
+  "generated_at": "2026-05-09T05:06:05.634790+00:00",
   "schools_total": 100,
   "schools_with_titles": 100,
   "schools_without_titles": 0,
@@ -35,8 +35,8 @@
     {
       "slug": "yale",
       "rank": 5,
-      "majors_count": 81,
-      "titles_count": 7,
+      "majors_count": 82,
+      "titles_count": 82,
       "titles_source_url": "https://catalog.yale.edu/ycps/majors-in-yale-college/"
     },
     {
@@ -84,9 +84,9 @@
     {
       "slug": "northwestern",
       "rank": 12,
-      "majors_count": 23,
-      "titles_count": 6,
-      "titles_source_url": "https://www.northwestern.edu/academics/"
+      "majors_count": 80,
+      "titles_count": 80,
+      "titles_source_url": "https://catalogs.northwestern.edu/undergraduate/programs-az/"
     },
     {
       "slug": "dartmouth",
@@ -448,9 +448,9 @@
     {
       "slug": "clemson",
       "rank": 64,
-      "majors_count": 32,
-      "titles_count": 27,
-      "titles_source_url": "https://www.clemson.edu/admissions/"
+      "majors_count": 76,
+      "titles_count": 76,
+      "titles_source_url": "https://degrees.clemson.edu/s/search.html?profile=_default&collection=cleu~sp-program-finder&f.Program+Type|programTypeFormal=Bachelor%27s+Degree"
     },
     {
       "slug": "fordham",
@@ -686,9 +686,9 @@
     {
       "slug": "university-of-denver",
       "rank": 98,
-      "majors_count": 15,
-      "titles_count": 35,
-      "titles_source_url": "https://www.du.edu/admission-aid/undergraduate"
+      "majors_count": 62,
+      "titles_count": 62,
+      "titles_source_url": "https://www.du.edu/programs"
     },
     {
       "slug": "oregon-state",
