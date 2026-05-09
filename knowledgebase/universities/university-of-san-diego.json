@@ -83,12 +83,12 @@
     "confidence": "low"
   },
   "admissions": {
-    "application_platform": null,
-    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "application_platform": "Common Application",
+    "testing_policy": "USD is test free for Spring 2026 and Fall 2026 first-year applicants.",
     "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
-    "course_rigor": "unknown",
-    "recommendations": "unknown",
-    "essays": "unknown",
+    "course_rigor": "USD expects a well-balanced college-preparatory secondary-school program and recommends completing at least four or five academic subjects each year while attempting accelerated coursework.",
+    "recommendations": "USD requires one academic recommendation from a high school counselor or a teacher who taught the applicant in an academic class; additional recommendations are optional.",
+    "essays": "First-year applicants must submit the Common Application essay and USD member questions.",
     "portfolio_or_audition": null,
     "international_notes": null,
     "deadlines": []
@@ -96,20 +96,18 @@
   "competitive_signals": {
     "academics": [],
     "projects_research": [],
-    "extracurriculars": [],
-    "leadership": [],
-    "service": [],
+    "extracurriculars": [
+      "Special talents and faith commitments"
+    ],
+    "leadership": [
+      "Leadership positions"
+    ],
+    "service": [
+      "Community engagement and service"
+    ],
     "special_notes": []
   },
   "evidence": [
-    {
-      "field": "admissions.testing_policy",
-      "claim": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
-      "classification": "official_requirement",
-      "source_url": "https://admissions.sandiego.edu/",
-      "source_excerpt": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
-      "retrieved_at": "2026-04-20T03:11:52.311659+00:00"
-    },
     {
       "field": "admissions.gpa_policy",
       "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
@@ -141,23 +139,66 @@
       "source_url": "https://www.sandiego.edu/academics/majors-and-minors.php",
       "source_excerpt": "Anthropology; Architecture; Art History; Biochemistry; Biology; Biophysics; Chemistry; Communication; English; Environmental and Ocean Sciences; Ethnic Studies; French and Francophone Studies",
       "retrieved_at": "2026-05-08T09:08:18.759250+00:00"
+    },
+    {
+      "field": "admissions.application_platform",
+      "claim": "Common Application",
+      "classification": "official_requirement",
+      "source_url": "https://www.sandiego.edu/admission-and-aid/undergraduate/apply/application-requirements.php",
+      "source_excerpt": "Completed Common Application",
+      "retrieved_at": "2026-05-09T00:39:04Z"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "USD is test free for Spring 2026 and Fall 2026 first-year applicants.",
+      "classification": "official_requirement",
+      "source_url": "https://www.sandiego.edu/admission-and-aid/undergraduate/apply/application-requirements.php",
+      "source_excerpt": "Note: Test Free Admission for Spring 2026 and Fall 2026 Applicants. Visit our Test Free information page for more details.",
+      "retrieved_at": "2026-05-09T00:39:04Z"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "USD expects a well-balanced college-preparatory secondary-school program and recommends completing at least four or five academic subjects each year while attempting accelerated coursework.",
+      "classification": "official_requirement",
+      "source_url": "https://www.sandiego.edu/admission-and-aid/undergraduate/apply/application-requirements.php",
+      "source_excerpt": "We expect that your academic history will showcase a well-balanced secondary school program of college preparatory courses. To be considered a competitive applicant, we recommend that you work toward completing at least four or five academic subjects each year throughout high school while attempting accelerated coursework.",
+      "retrieved_at": "2026-05-09T00:39:04Z"
+    },
+    {
+      "field": "admissions.recommendations",
+      "claim": "USD requires one academic recommendation from a high school counselor or a teacher who taught the applicant in an academic class; additional recommendations are optional.",
+      "classification": "official_requirement",
+      "source_url": "https://www.sandiego.edu/admission-and-aid/undergraduate/apply/application-requirements.php",
+      "source_excerpt": "We require only one academic recommendation, which must come from your high school counselor or a teacher who taught you in an academic class. Additional recommendations may be submitted but are not required.",
+      "retrieved_at": "2026-05-09T00:39:04Z"
+    },
+    {
+      "field": "admissions.essays",
+      "claim": "First-year applicants must submit the Common Application essay and USD member questions.",
+      "classification": "official_requirement",
+      "source_url": "https://www.sandiego.edu/admission-and-aid/undergraduate/apply/application-requirements.php",
+      "source_excerpt": "Completed Common Application ... Essay and USD Member Questions.",
+      "retrieved_at": "2026-05-09T00:39:04Z"
+    },
+    {
+      "field": "competitive_signals.leadership",
+      "claim": "USD says it considers leadership positions as part of its Changemaker review.",
+      "classification": "official_requirement",
+      "source_url": "https://www.sandiego.edu/admission-and-aid/undergraduate/apply/application-requirements.php",
+      "source_excerpt": "During our review, we will consider any leadership positions, social justice efforts, community engagement and service, special talents and/or faith commitments you have showcased during your high school career.",
+      "retrieved_at": "2026-05-09T00:39:04Z"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-05-08T09:08:18.759260+00:00",
+    "last_verified_at": "2026-05-09T00:39:04Z",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
-      "admissions.course_rigor",
-      "admissions.recommendations",
-      "admissions.essays",
       "competitive_signals.projects_research"
     ],
     "warnings": [
       "Major titles extracted from official school source (45 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
-      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",
-      "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page.",
       "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
   },
