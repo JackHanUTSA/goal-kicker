@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-09T05:06:05.634790+00:00",
+  "generated_at": "2026-05-09T07:16:45Z",
   "schools_total": 100,
   "schools_with_titles": 100,
   "schools_without_titles": 0,
@@ -273,9 +273,9 @@
     {
       "slug": "ohio-state",
       "rank": 39,
-      "majors_count": 278,
-      "titles_count": 7,
-      "titles_source_url": "https://undergrad.osu.edu/majors-and-academics"
+      "majors_count": 200,
+      "titles_count": 172,
+      "titles_source_url": "https://undergrad.osu.edu/majors-and-academics/majors"
     },
     {
       "slug": "university-of-washington",
@@ -567,9 +567,9 @@
     {
       "slug": "rit",
       "rank": 81,
-      "majors_count": 44,
-      "titles_count": 7,
-      "titles_source_url": "https://www.rit.edu/academics"
+      "majors_count": 79,
+      "titles_count": 79,
+      "titles_source_url": "https://www.rit.edu/study/undergraduate"
     },
     {
       "slug": "american",

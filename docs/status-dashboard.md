@@ -1,6 +1,6 @@
 # Goal Kicker Status Dashboard
 
-Last audited: 2026-05-09 05:06 UTC
+Last audited: 2026-05-09 07:16 UTC
 
 ## Current completion
 
@@ -13,24 +13,24 @@ Last audited: 2026-05-09 05:06 UTC
 
 ## What changed most recently
 
+- Repaired Ohio State majors-title coverage from a 15-item undecided/program-cluster scrape to 172 named entries from Ohio State's official majors-and-degrees directory, and corrected the stored majors count from the prior graduate-program misread to the official '200-plus undergraduate majors' claim
+- Repaired RIT majors-title coverage from a noisy 80-item mixed page scrape to a clean 79-title list from RIT's official Undergraduate Degrees directory, and aligned the stored majors count to that audited directory
 - Repaired Clemson majors-title coverage from a stale 27-title admissions-nav scrape to 76 bachelor-level titles from Clemson's official Program Finder, and replaced incorrect admissions text with grounded first-year requirements/testing details
 - Repaired University of Georgia admissions fields from official first-year admissions pages while preserving the 143-title official majors checklist
-- Repaired Yale majors-title coverage from a broken 7-title placeholder scrape to 82 official Yale College major titles from the Yale catalog
-- Repaired Northwestern majors-title coverage from a broken 6-title placeholder scrape to 80 official undergraduate major/degree titles from Northwestern's Programs A-Z catalog
 
 ## Remaining major gaps
 
 No schools remain at zero-title coverage, but several records still look materially under-covered relative to their official offerings and should be prioritized next:
 
 - usc — 6 titles currently stored
-- ohio-state — 7 titles currently stored
 - william-and-mary — 7 titles currently stored
 - stevens — 7 titles currently stored
-- rit — 7 titles currently stored
 - american — 7 titles currently stored and the direct academics site is still Cloudflare-blocked in this environment
 - carnegie-mellon — 8 titles currently stored
 - ut-austin — 8 titles currently stored
 - njit — 8 titles currently stored
+- fordham — 9 titles currently stored
+- uc-santa-barbara — 9 titles currently stored
 
 Residual source caveat:
 
