@@ -78,6 +78,7 @@ SPECIAL_MAJOR_URL_HINTS = {
     "fordham": ["https://www.fordham.edu/academics/programs-and-degrees/undergraduate-programs/"],
     "georgetown": ["https://www.georgetown.edu/academics/areas-of-study/"],
     "loyola-marymount": ["https://www.lmu.edu/academics/degrees/"],
+    "stevens": ["https://www.stevens.edu/academics/program-finder"],
     "stanford": [
         "https://majors.stanford.edu/majors/text-only-lists-majors-and-offerings",
         "https://majors.stanford.edu/majors",
@@ -95,12 +96,16 @@ SPECIAL_MAJOR_URL_HINTS = {
     "colorado-school-of-mines": ["https://catalog.mines.edu/undergraduate/programs/"],
     "wake-forest": ["https://admissions.wfu.edu/academics/majors-minors/"],
     "wisconsin-madison": ["https://guide.wisc.edu/undergraduate/"],
+    "william-and-mary": ["https://www.wm.edu/academics/programs/"],
     "unc-chapel-hill": ["https://catalog.unc.edu/undergraduate/programs-study/"],
+    "uc-santa-barbara": ["https://admissions.sa.ucsb.edu/majors"],
     "temple": ["https://www.temple.edu/academics/degree-programs"],
     "tulane": ["https://catalog.tulane.edu/programs/?optionlessH#filter=.filter_1"],
     "university-of-san-diego": [
         "https://www.sandiego.edu/academics/majors-and-minors.php",
     ],
+    "njit": ["https://catalog.njit.edu/programs/"],
+    "ut-austin": ["https://catalog.utexas.edu/undergraduate/"],
 }
 
 BAD_TITLE_EXACT = {
@@ -772,6 +777,15 @@ def fetch_baylor_titles() -> tuple[list[str], str | None]:
     return (titles, source_url) if titles else ([], None)
 
 
+def fetch_titles_from_single_page(record: dict, source_url: str) -> tuple[list[str], str | None]:
+    session = requests.Session()
+    page = fetch_page(session, source_url)
+    if not page:
+        return [], None
+    titles = extract_titles_from_page(page, record)
+    return (titles, source_url) if titles else ([], None)
+
+
 def fetch_school_specific_titles(record: dict) -> tuple[list[str], str | None]:
     slug = record.get("slug")
     if slug == "baylor":
@@ -794,6 +808,18 @@ def fetch_school_specific_titles(record: dict) -> tuple[list[str], str | None]:
         return fetch_uga_titles()
     if slug == "university-of-san-diego":
         return fetch_san_diego_titles()
+    if slug == "stevens":
+        return fetch_titles_from_single_page(record, "https://www.stevens.edu/academics/program-finder")
+    if slug == "william-and-mary":
+        return fetch_titles_from_single_page(record, "https://www.wm.edu/academics/programs/")
+    if slug == "carnegie-mellon":
+        return fetch_titles_from_single_page(record, "https://www.cmu.edu/admission/majors-programs")
+    if slug == "uc-santa-barbara":
+        return fetch_titles_from_single_page(record, "https://admissions.sa.ucsb.edu/majors")
+    if slug == "njit":
+        return fetch_titles_from_single_page(record, "https://catalog.njit.edu/programs/")
+    if slug == "ut-austin":
+        return fetch_titles_from_single_page(record, "https://catalog.utexas.edu/undergraduate/")
     return [], None
 
 
@@ -960,6 +986,125 @@ def extract_titles_from_page(page: dict, record: dict) -> list[str]:
             add_candidate(wake_titles, title_text)
         if wake_titles:
             return dedupe_keep_order(wake_titles)
+
+    if record["slug"] == "stevens" and "stevens.edu/academics/program-finder" in page["url"]:
+        stevens_titles: list[str] = []
+        for item in main.select("li.program-accordion_program-item___1RGk"):
+            anchor = item.find("a", href=True)
+            if not anchor:
+                continue
+            text = strip_text(anchor.get_text(" ", strip=True))
+            lowered = text.lower()
+            if "bachelor" not in lowered:
+                continue
+            if any(term in lowered for term in ("master", "certificate", "minor", "doctor", "law program")):
+                continue
+            text = re.sub(r"^Accelerated Bachelor(?:'s|’s)? Degree in\s+", "", text, flags=re.I)
+            text = re.sub(r"^Bachelor(?:'s|’s)? Degree in\s+", "", text, flags=re.I)
+            add_candidate(stevens_titles, text)
+        if stevens_titles:
+            return dedupe_keep_order(stevens_titles)
+
+    if record["slug"] == "william-and-mary" and "wm.edu/academics/programs" in page["url"]:
+        wm_titles: list[str] = []
+        for row in main.select("tr.programTable__row"):
+            tooltips = [strip_text(node.get_text(" ", strip=True)).lower() for node in row.select("div.programTable__tooltip")]
+            if not any("bachelor" in tooltip for tooltip in tooltips):
+                continue
+            trigger = row.select_one("button.pf_program")
+            if not trigger:
+                continue
+            title_text = trigger.contents[0] if trigger.contents else trigger.get_text(" ", strip=True)
+            add_candidate(wm_titles, strip_text(str(title_text)))
+        if wm_titles:
+            return dedupe_keep_order(wm_titles)
+
+    if record["slug"] == "uc-santa-barbara" and "admissions.sa.ucsb.edu/majors" in page["url"]:
+        ucsb_titles: list[str] = []
+        for heading in soup.find_all("h2"):
+            heading_text = normalize_title(heading.get_text(" ", strip=True))
+            if heading_text not in {
+                "College of Letters and Science",
+                "Robert Mehrabian College of Engineering",
+                "College of Creative Studies",
+            }:
+                continue
+            for node in heading.find_all_next():
+                if isinstance(node, Tag) and node.name == "h2" and node is not heading:
+                    break
+                if not isinstance(node, Tag) or node.name != "a" or not node.get("href"):
+                    continue
+                href = urljoin(page["url"], node["href"])
+                if "ucsb.edu" not in urlparse(href).netloc.lower():
+                    continue
+                add_candidate(ucsb_titles, node.get_text(" ", strip=True))
+        if ucsb_titles:
+            return dedupe_keep_order(ucsb_titles)
+
+    if record["slug"] == "carnegie-mellon" and "cmu.edu/admission/majors-programs" in page["url"]:
+        cmu_titles: list[str] = []
+        for anchor in soup.find_all("a", href=True):
+            href = urljoin(page["url"], anchor["href"])
+            parsed = urlparse(href)
+            parts = [part for part in parsed.path.split("/") if part]
+            if parts[:2] != ["admission", "majors-programs"]:
+                continue
+            if len(parts) < 4:
+                continue
+            text = strip_text(anchor.get_text(" ", strip=True))
+            if text.lower() in {"special programs", "interdisciplinary majors", "break boundaries with us", "explore our undergraduate programs"}:
+                continue
+            add_candidate(cmu_titles, text)
+        if cmu_titles:
+            return dedupe_keep_order(cmu_titles)
+
+    if record["slug"] == "njit" and "catalog.njit.edu/programs/" in page["url"]:
+        njit_titles: list[str] = []
+        for anchor in main.find_all("a", href=True):
+            href = urljoin(page["url"], anchor["href"])
+            if "/undergraduate/" not in href:
+                continue
+            text = strip_text(anchor.get_text(" ", strip=True))
+            lowered = text.lower()
+            if not text or lowered in {"accelerated", "double major"}:
+                continue
+            if "/m." in lowered or "/d." in lowered or "accelerated" in lowered or "double major" in lowered:
+                continue
+            if not re.search(r"\bB\.(?:A|S|Arch)\b", text):
+                continue
+            text = re.sub(r"\s*-\s*B\.(?:A|S|Arch)\.?$", "", text).strip()
+            add_candidate(njit_titles, text)
+        if njit_titles:
+            return dedupe_keep_order(njit_titles)
+
+    if record["slug"] == "ut-austin" and "catalog.utexas.edu/undergraduate/" in page["url"]:
+        ut_titles: list[str] = []
+        for anchor in soup.find_all("a", href=True):
+            href = urljoin(page["url"], anchor["href"])
+            if "/undergraduate/" not in href:
+                continue
+            if "/suggested-arrangement-of-courses/" in href or "/minor-and-certificate-programs/" in href:
+                continue
+            text = strip_text(anchor.get_text(" ", strip=True))
+            lowered = text.lower()
+            if not text or lowered in {
+                "degrees and programs",
+                "undergraduate degrees",
+                "degree programs",
+                "simultaneous majors",
+                "minor and certificate programs",
+                "programs and centers",
+            }:
+                continue
+            if "/m." in lowered or "/phd" in lowered or "certificate" in lowered or "minor" in lowered:
+                continue
+            if not (re.search(r"\bB(?:achelor|\.)", text) or href.count("/") >= 8):
+                continue
+            text = re.sub(r"^(?:Bachelor of |Bachelor's in |BS |BA |BBA |BFA |BJ |BSA |BArch )", "", text).strip()
+            text = re.sub(r"\s*\((?:BA|BS|BBA|BFA|BJ|BSA|BArch|BSAdv|BSComm(?:&Lead|Stds)?|BSPR|BSRTF|BSSLH)\)$", "", text).strip()
+            add_candidate(ut_titles, text)
+        if ut_titles:
+            return dedupe_keep_order(ut_titles)
 
     if record["slug"] == "university-of-washington":
         uw_titles: list[str] = []
@@ -1379,7 +1524,7 @@ def update_record(record: dict) -> tuple[dict, bool, str | None]:
         record["majors"]["titles"] = titles
         existing_count = record["majors"].get("count")
         existing_count_method = str(record["majors"].get("count_method") or "")
-        if (not existing_count) or (
+        if (not existing_count) or existing_count <= 5 or (
             "counted extracted undergraduate-major titles" in existing_count_method.lower() and existing_count != len(titles)
         ):
             record["majors"]["count"] = len(titles)

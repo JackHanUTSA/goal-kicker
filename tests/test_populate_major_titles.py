@@ -261,6 +261,108 @@ class PopulateMajorTitlesTests(unittest.TestCase):
         self.assertIn("Accounting", titles)
         self.assertNotIn("Nursing", titles)
 
+    def test_extract_titles_from_page_reads_stevens_program_finder_bachelors_only(self):
+        html = """
+        <html><body><main>
+          <li class="program-accordion_program-item___1RGk"><a href="/program/accounting-bs">Bachelor's Degree in Accounting &amp; Analytics</a></li>
+          <li class="program-accordion_program-item___1RGk"><a href="/program/chem-bio">Accelerated Bachelor’s Degree in Chemical Biology</a></li>
+          <li class="program-accordion_program-item___1RGk"><a href="/program/ms-ai">Master's in Applied Artificial Intelligence</a></li>
+        </main></body></html>
+        """
+        page = {
+            "title": "Program Finder | Stevens",
+            "url": "https://www.stevens.edu/academics/program-finder",
+            "soup": BeautifulSoup(html, "lxml"),
+        }
+        record = {"slug": "stevens", "official_domain": "stevens.edu", "majors": {"count": 35}}
+
+        titles = populate_major_titles.extract_titles_from_page(page, record)
+
+        self.assertIn("Accounting & Analytics", titles)
+        self.assertIn("Chemical Biology", titles)
+        self.assertNotIn("Master's in Applied Artificial Intelligence", titles)
+
+    def test_extract_titles_from_page_reads_william_and_mary_program_table_bachelors_only(self):
+        html = """
+        <html><body><main>
+          <table>
+            <tr class="programTable__row">
+              <td><button class="pf_program">Accounting<div class="programTable__degreename">*Degree is in Business Administration</div></button></td>
+              <td><div class="programTable__tooltip">Bachelor of Business Administration</div><div class="programTable__tooltip">Minor</div></td>
+            </tr>
+            <tr class="programTable__row">
+              <td><button class="pf_program">American Legal Studies</button></td>
+              <td><div class="programTable__tooltip">Master of Laws</div></td>
+            </tr>
+          </table>
+        </main></body></html>
+        """
+        page = {
+            "title": "Program Finder | William & Mary",
+            "url": "https://www.wm.edu/academics/programs/",
+            "soup": BeautifulSoup(html, "lxml"),
+        }
+        record = {"slug": "william-and-mary", "official_domain": "wm.edu", "majors": {"count": 100}}
+
+        titles = populate_major_titles.extract_titles_from_page(page, record)
+
+        self.assertEqual(titles, ["Accounting"])
+
+    def test_extract_titles_from_page_reads_ucsb_major_sections_before_career_links(self):
+        html = """
+        <html><body><main>
+          <h2>College of Letters and Science</h2>
+          <div>
+            <a href="https://www.math.ucsb.edu/">Mathematics for College of Letters &amp; Science</a>
+            <a href="https://career.ucsb.edu/career-paths/engineering-technology">Engineering &amp; Technology</a>
+          </div>
+          <h2>Robert Mehrabian College of Engineering</h2>
+          <div><a href="https://www.cs.ucsb.edu/">Computer Science</a></div>
+          <h2>College of Creative Studies</h2>
+          <div><a href="https://ccs.ucsb.edu/majors/computing">Computing</a></div>
+          <h2>Explore Career Tracks</h2>
+          <div><a href="https://career.ucsb.edu/career-paths/business-entrepreneurship">Business &amp; Entrepreneurship</a></div>
+        </main></body></html>
+        """
+        page = {
+            "title": "Majors | UCSB",
+            "url": "https://admissions.sa.ucsb.edu/majors",
+            "soup": BeautifulSoup(html, "lxml"),
+        }
+        record = {"slug": "uc-santa-barbara", "official_domain": "ucsb.edu", "majors": {"count": 200}}
+
+        titles = populate_major_titles.extract_titles_from_page(page, record)
+
+        self.assertIn("Mathematics for College of Letters & Science", titles)
+        self.assertIn("Computer Science", titles)
+        self.assertIn("Computing", titles)
+        self.assertNotIn("Business & Entrepreneurship", titles)
+
+    def test_extract_titles_from_page_reads_njit_program_catalog_bachelors_only(self):
+        html = """
+        <html><body><main>
+          <a href="/undergraduate/computing-sciences/computer-science/bs/index.html">Computer Science - B.S.</a>
+          <a href="/undergraduate/science-liberal-arts/biology/ba/index.html">Biology - B.A.</a>
+          <a href="/undergraduate/computing-sciences/computer-science/ba-md-dmd-dds-od/index.html">Biology - B.A./M.D.</a>
+          <a href="/undergraduate/newark-college-engineering/biomedical/prehealth-bs/index.html">Biomedical Engineering - Accelerated B.S.</a>
+          <a href="/undergraduate/management/management/business-bs/accounting-concentration/index.html">Accounting</a>
+        </main></body></html>
+        """
+        page = {
+            "title": "Programs | NJIT",
+            "url": "https://catalog.njit.edu/programs/",
+            "soup": BeautifulSoup(html, "lxml"),
+        }
+        record = {"slug": "njit", "official_domain": "njit.edu", "majors": {"count": 125}}
+
+        titles = populate_major_titles.extract_titles_from_page(page, record)
+
+        self.assertIn("Computer Science", titles)
+        self.assertIn("Biology", titles)
+        self.assertNotIn("Biology - B.A./M.D.", titles)
+        self.assertNotIn("Biomedical Engineering - Accelerated B.S.", titles)
+        self.assertNotIn("Accounting", titles)
+
     def test_extract_titles_from_page_reads_unc_catalog_major_links(self):
         html = """
         <html><body><main>

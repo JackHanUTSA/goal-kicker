@@ -1,6 +1,6 @@
 # Goal Kicker Status Dashboard
 
-Last audited: 2026-05-09 07:16 UTC
+Last audited: 2026-05-09 09:35 UTC
 
 ## Current completion
 
@@ -13,24 +13,24 @@ Last audited: 2026-05-09 07:16 UTC
 
 ## What changed most recently
 
-- Repaired Ohio State majors-title coverage from a 15-item undecided/program-cluster scrape to 172 named entries from Ohio State's official majors-and-degrees directory, and corrected the stored majors count from the prior graduate-program misread to the official '200-plus undergraduate majors' claim
-- Repaired RIT majors-title coverage from a noisy 80-item mixed page scrape to a clean 79-title list from RIT's official Undergraduate Degrees directory, and aligned the stored majors count to that audited directory
-- Repaired Clemson majors-title coverage from a stale 27-title admissions-nav scrape to 76 bachelor-level titles from Clemson's official Program Finder, and replaced incorrect admissions text with grounded first-year requirements/testing details
-- Repaired University of Georgia admissions fields from official first-year admissions pages while preserving the 143-title official majors checklist
+- Repaired Stevens majors-title coverage from a 7-item navigation scrape to 35 bachelor-level titles from Stevens' official Program Finder
+- Repaired William & Mary majors-title coverage from a 7-item navigation scrape to 53 bachelor-level programs from William & Mary's official Program Finder
+- Repaired Carnegie Mellon majors-title coverage from an 8-item engineering-only scrape to 28 undergraduate program titles from Carnegie Mellon's official Majors & Programs page, and corrected the stored majors count from 1 to a counted 28-title official-page census
+- Repaired UC Santa Barbara majors-title coverage from a 9-item partial scrape to 73 official majors across Letters & Science, Engineering, and Creative Studies from UCSB Undergraduate Admissions
+- Repaired NJIT majors-title coverage from an 8-item top-level scrape to 42 bachelor-level programs from NJIT's official catalog programs index
 
 ## Remaining major gaps
 
-No schools remain at zero-title coverage, but several records still look materially under-covered relative to their official offerings and should be prioritized next:
+The lowest-title records after this repair pass are now:
 
 - usc — 6 titles currently stored
-- william-and-mary — 7 titles currently stored
-- stevens — 7 titles currently stored
 - american — 7 titles currently stored and the direct academics site is still Cloudflare-blocked in this environment
-- carnegie-mellon — 8 titles currently stored
 - ut-austin — 8 titles currently stored
-- njit — 8 titles currently stored
 - fordham — 9 titles currently stored
-- uc-santa-barbara — 9 titles currently stored
+- yeshiva — 9 titles currently stored
+- emory — 10 titles currently stored
+- marquette — 10 titles currently stored
+- rutgers-new-brunswick — 10 titles currently stored
 
 Residual source caveat:
 
@@ -46,7 +46,7 @@ Every school now has at least:
 
 ## Recommended next focus
 
-1. Improve Baylor from recovered homepage-directory titles to a direct majors-page or catalog-derived official census once an accessible official source path exists in this environment
-2. Improve source quality for professor verification beyond RateMyProfessors-derived fallbacks
-3. Improve recent-alumni and per-major alumni filtering
+1. Repair the remaining lowest-title schools first: USC, American, UT Austin, Fordham, Yeshiva, Emory, Marquette, and Rutgers–New Brunswick
+2. Improve Baylor from recovered homepage-directory titles to a direct majors-page or catalog-derived official census once an accessible official source path exists in this environment
+3. Improve source quality for professor verification beyond RateMyProfessors-derived fallbacks
 4. Continue replacing low-quality or clearly off-target admissions text in residual partial records

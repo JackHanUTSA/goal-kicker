@@ -13,7 +13,9 @@
     ],
     "majors": [
       "https://www.njit.edu/academics",
-      "https://www.njit.edu/majors"
+      "https://www.njit.edu/majors",
+      "https://catalog.njit.edu/azindex/",
+      "https://catalog.njit.edu/programs/"
     ],
     "testing_policy": [],
     "general": [
@@ -31,16 +33,50 @@
     "count": 125,
     "count_method": "explicit official page sentence",
     "titles": [
-      "Programs & Courses",
-      "Architecture & Design",
+      "Applied Physics",
+      "Architecture",
+      "BioChemistry",
+      "Biology",
+      "Biomedical Engineering",
+      "Business & Information Systems",
       "Business",
-      "Computing",
-      "Engineering",
-      "Humanities & Liberal Arts",
-      "Math & Science",
-      "Find your perfect fit"
+      "Chemical Engineering",
+      "Chemistry",
+      "Civil Engineering",
+      "Communication and Media",
+      "Computer Engineering",
+      "Computer Science",
+      "Concrete Industry Management",
+      "Construction Engineering Technology",
+      "Data Science",
+      "Digital Design",
+      "Electrical Engineering",
+      "Electrical and Computer Engineering Technology",
+      "Engineering Technology, Engineering Technology",
+      "Environmental Science",
+      "Financial Technology",
+      "Forensic Science",
+      "General Engineering",
+      "History",
+      "Human-Computer Interaction",
+      "Industrial Design",
+      "Industrial Engineering",
+      "Industrial Engineering Technology",
+      "Information Systems",
+      "Information Technology",
+      "Interior Design",
+      "Law, Technology and Culture (Patent Law Concentration)",
+      "Law, Technology and Culture",
+      "Materials Engineering Program",
+      "Mechanical Engineering",
+      "Mechanical Engineering Technology",
+      "Psychology",
+      "Science, Technology, & Society",
+      "Surveying Engineering Technology",
+      "Theatre Arts and Technology",
+      "Web & Information Systems"
     ],
-    "notes": "explicit official page sentence; titles extracted from official page: https://www.njit.edu/academics",
+    "notes": "explicit official page sentence; titles extracted from official page: https://www.njit.edu/academics; titles extracted from official page: https://catalog.njit.edu/azindex/; titles extracted from official page: https://catalog.njit.edu/programs/",
     "confidence": "medium"
   },
   "admissions": {
@@ -112,10 +148,26 @@
       "source_url": "https://en.wikipedia.org/wiki/Category%3ANew_Jersey_Institute_of_Technology_alumni",
       "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
       "retrieved_at": "2026-04-25T11:19:31.536210+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 159 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://catalog.njit.edu/azindex/",
+      "source_excerpt": "UNIVERSITY CATALOG; Catalog A-Z Index; BS in Computer Science and BS in Mathematical Sciences, Computational Mathematics; Undergraduate Catalog; Academic Minors; Academic Policies and Procedures (Undergraduate); Accelerated Bachelor of Science in Mathematical Sciences for M.D., D.M.D., D.D.S., O.D; Accelerated B.A. in Biology/ D.M.D., O.D; Accelerated B.A. in Biology/M.D.; Accelerated B.A. in History/D.P.T.; Accelerated B.A. in History/J.D.; Accelerated B.A. in History/M.D.",
+      "retrieved_at": "2026-05-09T09:29:39.006064+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 42 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://catalog.njit.edu/programs/",
+      "source_excerpt": "Applied Physics; Architecture; BioChemistry; Biology; Biomedical Engineering; Business & Information Systems; Business; Chemical Engineering; Chemistry; Civil Engineering; Communication and Media; Computer Engineering",
+      "retrieved_at": "2026-05-09T09:34:53.764842+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-25T11:19:31.536214+00:00",
+    "last_verified_at": "2026-05-09T09:33:02.082711+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.course_rigor",
@@ -123,7 +175,7 @@
       "admissions.essays"
     ],
     "warnings": [
-      "Major titles extracted from official school source (8 titles).",
+      "Major titles extracted from official school source (42 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
       "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",

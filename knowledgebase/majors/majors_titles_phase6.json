@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-09T07:16:45Z",
+  "generated_at": "2026-05-09T09:34:54.373333+00:00",
   "schools_total": 100,
   "schools_with_titles": 100,
   "schools_without_titles": 0,
@@ -154,9 +154,9 @@
     {
       "slug": "carnegie-mellon",
       "rank": 22,
-      "majors_count": 1,
-      "titles_count": 8,
-      "titles_source_url": "https://www.cmu.edu/admission/"
+      "majors_count": 28,
+      "titles_count": 28,
+      "titles_source_url": "https://www.cmu.edu/admission/majors-programs"
     },
     {
       "slug": "emory",
@@ -323,8 +323,8 @@
       "slug": "william-and-mary",
       "rank": 46,
       "majors_count": 100,
-      "titles_count": 7,
-      "titles_source_url": "https://www.wm.edu/academics/undergraduateprograms/"
+      "titles_count": 53,
+      "titles_source_url": "https://www.wm.edu/academics/programs/"
     },
     {
       "slug": "rochester",
@@ -512,8 +512,8 @@
       "slug": "stevens",
       "rank": 73,
       "majors_count": 35,
-      "titles_count": 7,
-      "titles_source_url": "https://www.stevens.edu/academics/undergraduate-study"
+      "titles_count": 35,
+      "titles_source_url": "https://www.stevens.edu/academics/program-finder"
     },
     {
       "slug": "temple",
@@ -554,8 +554,8 @@
       "slug": "njit",
       "rank": 79,
       "majors_count": 125,
-      "titles_count": 8,
-      "titles_source_url": "https://www.njit.edu/academics"
+      "titles_count": 42,
+      "titles_source_url": "https://catalog.njit.edu/programs/"
     },
     {
       "slug": "pittsburgh",
@@ -617,8 +617,8 @@
       "slug": "uc-santa-barbara",
       "rank": 88,
       "majors_count": 200,
-      "titles_count": 9,
-      "titles_source_url": "https://psych.ucsb.edu/undergraduate/biopsychology-major"
+      "titles_count": 73,
+      "titles_source_url": "https://admissions.sa.ucsb.edu/majors"
     },
     {
       "slug": "wpi",
@@ -688,7 +688,7 @@
       "rank": 98,
       "majors_count": 62,
       "titles_count": 62,
-      "titles_source_url": "https://www.du.edu/programs"
+      "titles_source_url": "https://www.du.edu/academics/undergraduate-programs"
     },
     {
       "slug": "oregon-state",

@@ -14,7 +14,9 @@
       "https://www.cmu.edu/academic-programs",
       "https://www.cmu.edu/academics",
       "https://www.cmu.edu/majors",
-      "https://www.cmu.edu/admission/"
+      "https://www.cmu.edu/admission/",
+      "https://www.cmu.edu/admission/majors-programs/college-of-engineering",
+      "https://www.cmu.edu/admission/majors-programs"
     ],
     "testing_policy": [],
     "general": [
@@ -28,19 +30,39 @@
     ]
   },
   "majors": {
-    "count": 1,
-    "count_method": "explicit official page sentence",
+    "count": 28,
+    "count_method": "counted extracted undergraduate-major titles from an official page",
     "titles": [
-      "EXPLORE ALL PROGRAMS",
-      "Arts",
-      "Business",
+      "Biomedical Engineering",
+      "Chemical Engineering",
+      "Civil & Environmental Engineering",
+      "Electrical and Computer Engineering",
+      "Engineering and Public Policy",
+      "Engineering Design, Innovation and Entrepreneurship (EDIE)",
+      "Materials Science & Engineering",
+      "Mechanical Engineering",
+      "Economics",
+      "English",
+      "History",
+      "Carnegie Mellon Institute for Strategy and Technology",
+      "Interdisciplinary Programs in Dietrich",
+      "Philosophy",
+      "Psychology",
+      "Social and Decision Sciences",
+      "Statistics & Data Science",
+      "Biological Sciences",
+      "Chemistry",
+      "Mathematical Sciences",
+      "Physics",
+      "Artificial Intelligence",
+      "Computational Biology",
       "Computer Science",
-      "Engineering",
-      "Humanities and Social Sciences",
-      "Information Systems",
-      "Arts + Academics"
+      "Human-Computer Interaction",
+      "Robotics",
+      "BXA Intercollege Degree Programs",
+      "IDeATe"
     ],
-    "notes": "explicit official page sentence; titles extracted from official page: https://www.cmu.edu/admission/",
+    "notes": "explicit official page sentence; titles extracted from official page: https://www.cmu.edu/admission/; titles extracted from official page: https://www.cmu.edu/admission/majors-programs/college-of-engineering",
     "confidence": "medium"
   },
   "admissions": {
@@ -112,10 +134,26 @@
       "source_url": "https://en.wikipedia.org/wiki/List_of_Carnegie_Mellon_University_people",
       "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, and ranked by pageviews. Major-specific and last-10-years filtering requires stronger school-specific alumni sources than this generic pipeline currently has.",
       "retrieved_at": "2026-04-27T23:05:14.776986+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 8 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://www.cmu.edu/admission/majors-programs/college-of-engineering",
+      "source_excerpt": "Biomedical Engineering; Chemical Engineering; Civil & Environmental Engineering; Electrical and Computer Engineering; Engineering Design, Innovation, and Entrepreneurship (EDIE); Engineering and Public Policy; Materials Science and Engineering; Mechanical Engineering",
+      "retrieved_at": "2026-05-09T09:29:20.393987+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 28 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://www.cmu.edu/admission/majors-programs",
+      "source_excerpt": "Biomedical Engineering; Chemical Engineering; Civil & Environmental Engineering; Electrical and Computer Engineering; Engineering and Public Policy; Engineering Design, Innovation and Entrepreneurship (EDIE); Materials Science & Engineering; Mechanical Engineering; Economics; English; History; Carnegie Mellon Institute for Strategy and Technology",
+      "retrieved_at": "2026-05-09T09:34:51.254573+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-27T23:05:14.776989+00:00",
+    "last_verified_at": "2026-05-09T09:32:58.921223+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.course_rigor",
@@ -123,7 +161,7 @@
       "admissions.essays"
     ],
     "warnings": [
-      "Major titles extracted from official school source (8 titles).",
+      "Major titles extracted from official school source (28 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
       "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",

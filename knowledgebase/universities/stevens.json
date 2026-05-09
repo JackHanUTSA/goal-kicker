@@ -15,7 +15,8 @@
       "https://www.stevens.edu/academics",
       "https://www.stevens.edu/majors",
       "https://www.stevens.edu/undergraduate/programs",
-      "https://www.stevens.edu/academics/undergraduate-study"
+      "https://www.stevens.edu/academics/undergraduate-study",
+      "https://www.stevens.edu/academics/program-finder"
     ],
     "testing_policy": [],
     "general": [
@@ -32,15 +33,43 @@
     "count": 35,
     "count_method": "explicit official page sentence",
     "titles": [
-      "General Education",
-      "SUCCESS - The Stevens Core Curriculum",
-      "Specialized Programs",
-      "Study Abroad",
-      "Academic Resources",
-      "Explore Stevens Co-op Opportunities",
-      "Learn about Study Abroad"
+      "Chemical Biology",
+      "Accounting & Analytics",
+      "Artificial Intelligence",
+      "Biology",
+      "Biomedical Engineering",
+      "Chemical Engineering",
+      "Chemistry",
+      "Civil Engineering",
+      "Computer Engineering",
+      "Computer Science",
+      "Cybersecurity",
+      "Electrical Engineering",
+      "Engineering - Naval Engineering Concentration",
+      "Engineering Management",
+      "Environmental Engineering",
+      "Economics",
+      "Finance",
+      "Quantitative Finance",
+      "Engineering (General)",
+      "Industrial and Systems Engineering",
+      "Business & Technology",
+      "Information Systems",
+      "Bachelor's in Literature",
+      "Management",
+      "Marketing Innovation & Analytics",
+      "Mathematics",
+      "Mechanical Engineering",
+      "Bachelor\u2019s in Music and Technology",
+      "Bachelor's in Philosophy",
+      "Physics",
+      "Bachelor's in Quantitative Social Science",
+      "Bachelor's in Science Communication",
+      "Bachelor's in Science, Technology and Society",
+      "Software Engineering",
+      "Bachelor\u2019s in Visual Arts and Technology"
     ],
-    "notes": "explicit official page sentence; titles extracted from official page: https://www.stevens.edu/academics/undergraduate-study",
+    "notes": "explicit official page sentence; titles extracted from official page: https://www.stevens.edu/academics/undergraduate-study; titles extracted from official page: https://www.stevens.edu/academics/program-finder",
     "confidence": "medium"
   },
   "admissions": {
@@ -120,17 +149,33 @@
       "source_url": "https://www.stevens.edu/academics/undergraduate-study",
       "source_excerpt": "General Education; SUCCESS - The Stevens Core Curriculum; Specialized Programs; Study Abroad; Academic Resources; Explore Stevens Co-op Opportunities; Learn about Study Abroad",
       "retrieved_at": "2026-04-29T23:38:31.767057+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 66 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://www.stevens.edu/academics/program-finder",
+      "source_excerpt": "Filter; Accelerated Law Program; Accelerated Bachelor\u2019s Degree in Chemical Biology; Bachelor's Degree in Accounting & Analytics; Bachelor's Degree in Artificial Intelligence; Artificial Intelligence in Engineering Design Graduate Certficate; Bachelor's Degree in Biology; Bachelor's Degree in Biomedical Engineering; Bachelor's Degree in Chemical Biology; Bachelor\u2019s Degree in Chemical Engineering; Bachelor's Degree in Chemistry; Bachelor's Degree in Civil Engineering",
+      "retrieved_at": "2026-05-09T09:21:48.263308+00:00"
+    },
+    {
+      "field": "majors.titles",
+      "claim": "Extracted 35 official undergraduate major/program titles",
+      "classification": "official_recommendation",
+      "source_url": "https://www.stevens.edu/academics/program-finder",
+      "source_excerpt": "Chemical Biology; Accounting & Analytics; Artificial Intelligence; Biology; Biomedical Engineering; Chemical Engineering; Chemistry; Civil Engineering; Computer Engineering; Computer Science; Cybersecurity; Electrical Engineering",
+      "retrieved_at": "2026-05-09T09:34:53.471560+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-29T23:38:31.767066+00:00",
+    "last_verified_at": "2026-05-09T09:29:35.766147+00:00",
     "confidence": "phase-5-auto-enriched",
     "unknown_fields": [
       "admissions.recommendations",
       "admissions.essays"
     ],
     "warnings": [
-      "Major titles extracted from official school source (7 titles).",
+      "Major titles extracted from official school source (35 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
       "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",
