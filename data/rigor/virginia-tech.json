@@ -1,0 +1,18 @@
+{
+  "university": "Virginia Tech",
+  "slug": "virginia-tech",
+  "retrieved_at": "2026-05-09",
+  "scope": "application-guidance",
+  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
+  "source_url": "https://www.vt.edu/admissions/undergraduate.html",
+  "source_urls": [
+    "https://www.vt.edu/admissions/undergraduate.html",
+    "https://www.vt.edu/admission.html",
+    "https://www.vt.edu/admissions.html",
+    "https://www.vt.edu/admissions/undergraduate/apply.html",
+    "https://www.vt.edu/admissions/undergraduate/apply.html?utm_campaign=fy26enrollment&utm_source=billboard&utm_medium=ooh&utm_program=undergrad",
+    "https://www.vt.edu/admissions/undergraduate/apply/freshman-requirements.html",
+    "https://www.vt.edu"
+  ],
+  "areas": []
+}

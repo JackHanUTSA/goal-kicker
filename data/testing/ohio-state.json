@@ -1,0 +1,27 @@
+{
+  "university": "The Ohio State University",
+  "slug": "ohio-state",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://undergrad.osu.edu/apply",
+  "source_urls": [
+    "https://undergrad.osu.edu/apply",
+    "https://undergrad.osu.edu/apply/freshmen-columbus/apply-step-by-step",
+    "https://www.osu.edu/admission",
+    "https://www.osu.edu/admissions",
+    "https://www.osu.edu/apply",
+    "https://www.osu.edu"
+  ],
+  "policy": "Ohio State requires ACT or SAT scores for first-year applicants to the Columbus campus, and it says there are no minimum ACT or SAT score requirements.",
+  "claims": [
+    {
+      "claim": "The Advance Ohio Higher Education Act (SB 1) went into effect on June 27, 2025, though a number of provisions in the bill have delayed effective dates. Ohio State is working to implement SB 1 in a way that is consistent with our mission to conduct research, support creative expression, prepare students for their careers, and make a positive difference in our state.",
+      "source_url": "https://undergrad.osu.edu/apply"
+    },
+    {
+      "claim": "Ohio State requires ACT or SAT scores for first-year applicants to the Columbus campus, and it says there are no minimum ACT or SAT score requirements.",
+      "source_url": "https://undergrad.osu.edu/apply/freshmen-columbus/apply-step-by-step"
+    }
+  ]
+}

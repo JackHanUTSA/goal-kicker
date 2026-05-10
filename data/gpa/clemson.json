@@ -1,0 +1,26 @@
+{
+  "university": "Clemson University",
+  "slug": "clemson",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports GPA-policy notes for this school. Where the school does not publish a hard GPA cutoff or admitted-student GPA distribution, the panel says that directly instead of inventing a threshold.",
+  "source_urls": [
+    "https://www.clemson.edu/admissions/",
+    "https://www.clemson.edu/admissions/undergraduate-admissions/discover/college-preparation-information.html#prep",
+    "https://www.clemson.edu/admission",
+    "https://www.clemson.edu/admissions/applying-to-clemson.html",
+    "https://www.clemson.edu/admissions/undergraduate-admissions/apply/first-year.html",
+    "https://www.clemson.edu"
+  ],
+  "policy_summary": "Clemson reviews GPA, class rank, and course rigor, but the cited official admissions pages do not state a minimum GPA requirement.",
+  "what_mit_does_say": [
+    {
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "source_url": "https://www.clemson.edu/admissions/"
+    },
+    {
+      "claim": "Clemson reviews GPA, class rank, and course rigor, but the cited official admissions pages do not state a minimum GPA requirement.",
+      "source_url": "https://www.clemson.edu/admissions/undergraduate-admissions/discover/college-preparation-information.html#prep"
+    }
+  ]
+}

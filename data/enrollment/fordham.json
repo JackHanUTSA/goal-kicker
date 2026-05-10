@@ -1,0 +1,26 @@
+{
+  "university": "Fordham University",
+  "slug": "fordham",
+  "retrieved_at": "2026-05-09",
+  "mode": "majors-list",
+  "source_url": "https://www.fordham.edu/academic-programs",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
+  "summary": {
+    "majors_count": 36,
+    "titles_count": 9,
+    "count_method": "counted 36 unique major/program-like entries from the cited official page DOM",
+    "confidence": "medium"
+  },
+  "titles": [
+    "8 schools. 3 campuses.",
+    "The Jesuit Tradition",
+    "Colleges and Schools",
+    "Undergraduate Education",
+    "core curriculum",
+    "major",
+    "Undergraduate Schools",
+    "Core Curriculum",
+    "Virtual Tour"
+  ],
+  "notes": "counted 36 unique major/program-like entries from the cited official page DOM; titles extracted from official page: https://www.fordham.edu/academics/"
+}

@@ -1,0 +1,24 @@
+{
+  "university": "American University",
+  "slug": "american",
+  "retrieved_at": "2026-05-09",
+  "mode": "majors-list",
+  "source_url": "https://www.american.edu/academic-programs",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
+  "summary": {
+    "majors_count": 7,
+    "titles_count": 7,
+    "count_method": "counted extracted undergraduate-major titles from an official page",
+    "confidence": "low"
+  },
+  "titles": [
+    "Start your journey at AU in Washington, DC.",
+    "Discover Your Future with AU",
+    "Or browse by",
+    "Pursue Your Purpose",
+    "Find your AU opportunity. Challenge accepted.",
+    "Are you interested in...",
+    "Professional Learning"
+  ],
+  "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass; titles extracted from official page: https://www.american.edu/"
+}

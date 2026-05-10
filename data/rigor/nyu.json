@@ -1,0 +1,25 @@
+{
+  "university": "New York University",
+  "slug": "nyu",
+  "retrieved_at": "2026-05-09",
+  "scope": "application-guidance",
+  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
+  "source_url": "https://www.nyu.edu/admissions/undergraduate-admissions.html",
+  "source_urls": [
+    "https://www.nyu.edu/admissions/undergraduate-admissions.html",
+    "https://www.nyu.edu/admission",
+    "https://www.nyu.edu/admissions.html",
+    "https://www.nyu.edu/apply",
+    "https://www.nyu.edu"
+  ],
+  "areas": [
+    {
+      "key": "course-rigor",
+      "name": "Course rigor",
+      "level": "school-guidance",
+      "summary": "Academic programs at NYU are designed to support exploration and depth. Students can shape their education through interdisciplinary coursework, global opportunities, and accelerated or continuing study options.",
+      "detail": "Academic programs at NYU are designed to support exploration and depth. Students can shape their education through interdisciplinary coursework, global opportunities, and accelerated or continuing study options.",
+      "color": "#60a5fa"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "university": "University of Connecticut",
+  "slug": "uconn",
+  "retrieved_at": "2026-05-09",
+  "scope": "application-guidance",
+  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
+  "source_url": "https://admissions.uconn.edu/",
+  "source_urls": [
+    "https://admissions.uconn.edu/",
+    "https://uconn.edu/admissions/",
+    "https://uconn.edu/apply",
+    "https://www.uconn.edu"
+  ],
+  "areas": [
+    {
+      "key": "course-rigor",
+      "name": "Course rigor",
+      "level": "school-guidance",
+      "summary": "Whether you want to learn from the past by studying history or you want to set the course for the future with groundbreaking scientific research, learning opportunities here abound. Challenge yourself to reach new academic heights in rigorous courses taught by our expert faculty. Take advantage of undergraduate research awards including the Summer Undergraduate Research Fund or UConn IDEA Grants ; study in a lab; or pursue a creative endeavor. Push yourself further, supplementing traditional coursework with enrichment such as Education Abroad or our acclaimed Honors Program .",
+      "detail": "Whether you want to learn from the past by studying history or you want to set the course for the future with groundbreaking scientific research, learning opportunities here abound. Challenge yourself to reach new academic heights in rigorous courses taught by our expert faculty. Take advantage of undergraduate research awards including the Summer Undergraduate Research Fund or UConn IDEA Grants ; study in a lab; or pursue a creative endeavor. Push yourself further, supplementing traditional coursework with enrichment such as Education Abroad or our acclaimed Honors Program .",
+      "color": "#60a5fa"
+    }
+  ]
+}

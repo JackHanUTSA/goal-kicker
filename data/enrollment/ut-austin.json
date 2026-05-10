@@ -1,0 +1,25 @@
+{
+  "university": "University of Texas at Austin",
+  "slug": "ut-austin",
+  "retrieved_at": "2026-05-09",
+  "mode": "majors-list",
+  "source_url": "https://www.utexas.edu/academic-programs",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
+  "summary": {
+    "majors_count": 8,
+    "titles_count": 8,
+    "count_method": "counted extracted undergraduate-major titles from an official page",
+    "confidence": "low"
+  },
+  "titles": [
+    "Semiconductor Science and Engineering",
+    "Information Studies - Fifth Year Integrated Program (w/ Computer Science BS)",
+    "Information Studies - Fifth Year Integrated Program (w/ Informatics BA)",
+    "Information Studies - Fifth Year Integrated Program (w/ Informatics BSI)",
+    "Women's and Gender Studies - Fifth Year Integrated Program",
+    "Computer Science - Fifth Year Integrated Program",
+    "Global Policy Studies - DC",
+    "Public Affairs - DC"
+  ],
+  "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass; titles extracted from official page: https://gradschool.utexas.edu/degrees-programs"
+}

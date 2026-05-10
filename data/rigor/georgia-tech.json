@@ -1,0 +1,25 @@
+{
+  "university": "Georgia Institute of Technology",
+  "slug": "georgia-tech",
+  "retrieved_at": "2026-05-09",
+  "scope": "application-guidance",
+  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
+  "source_url": "https://admission.gatech.edu/",
+  "source_urls": [
+    "https://admission.gatech.edu/",
+    "https://admission.gatech.edu/apply/",
+    "https://www.gatech.edu/admission",
+    "https://www.gatech.edu/apply",
+    "https://www.gatech.edu"
+  ],
+  "areas": [
+    {
+      "key": "course-rigor",
+      "name": "Course rigor",
+      "level": "school-guidance",
+      "summary": "Learn how we review international students' backgrounds, and review transcript requirements.",
+      "detail": "Learn how we review international students' backgrounds, and review transcript requirements.",
+      "color": "#60a5fa"
+    }
+  ]
+}

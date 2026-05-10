@@ -1,0 +1,24 @@
+{
+  "university": "University of San Diego",
+  "slug": "university-of-san-diego",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://www.sandiego.edu/admission-and-aid/undergraduate/apply/application-requirements.php",
+  "source_urls": [
+    "https://www.sandiego.edu/admission-and-aid/undergraduate/apply/application-requirements.php",
+    "https://admissions.sandiego.edu/",
+    "https://www.sandiego.edu/admission",
+    "https://www.sandiego.edu/admission-and-aid/",
+    "https://www.sandiego.edu/admission-and-aid/undergraduate/",
+    "https://www.sandiego.edu/apply",
+    "https://www.sandiego.edu"
+  ],
+  "policy": "USD is test free for Spring 2026 and Fall 2026 first-year applicants.",
+  "claims": [
+    {
+      "claim": "USD is test free for Spring 2026 and Fall 2026 first-year applicants.",
+      "source_url": "https://www.sandiego.edu/admission-and-aid/undergraduate/apply/application-requirements.php"
+    }
+  ]
+}

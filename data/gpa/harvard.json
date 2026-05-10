@@ -1,0 +1,12 @@
+{
+  "university": "Harvard University",
+  "slug": "harvard",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports GPA-policy notes for this school. Where the school does not publish a hard GPA cutoff or admitted-student GPA distribution, the panel says that directly instead of inventing a threshold.",
+  "source_urls": [
+    "https://college.harvard.edu/admissions"
+  ],
+  "policy_summary": "Harvard does not state a simple minimum GPA on the cited first-year page.",
+  "what_mit_does_say": []
+}

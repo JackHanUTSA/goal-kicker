@@ -1,0 +1,21 @@
+{
+  "university": "Pepperdine University",
+  "slug": "pepperdine",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://www.pepperdine.edu/admissions",
+  "source_urls": [
+    "https://www.pepperdine.edu/admissions",
+    "https://www.pepperdine.edu/admission/",
+    "https://www.pepperdine.edu/apply",
+    "https://www.pepperdine.edu"
+  ],
+  "policy": "Undergraduate students who demonstrate substantial potential of achieving academic success are considered for admission. The University's Admission Committee reviews applicants' current academic record, grade point average, and types of completed classes, as well as SAT Reasoning Test or American College Test scores.",
+  "claims": [
+    {
+      "claim": "Undergraduate students who demonstrate substantial potential of achieving academic success are considered for admission. The University's Admission Committee reviews applicants' current academic record, grade point average, and types of completed classes, as well as SAT Reasoning Test or American College Test scores.",
+      "source_url": "https://www.pepperdine.edu/admissions"
+    }
+  ]
+}

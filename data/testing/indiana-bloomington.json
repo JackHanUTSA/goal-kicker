@@ -1,0 +1,23 @@
+{
+  "university": "Indiana University Bloomington",
+  "slug": "indiana-bloomington",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://www.iu.edu/admissions/index.html",
+  "source_urls": [
+    "https://www.iu.edu/admissions/index.html",
+    "https://apply.iu.edu/",
+    "https://www.iu.edu/admission",
+    "https://www.iu.edu/admissions/",
+    "https://www.iu.edu/apply",
+    "https://www.iu.edu"
+  ],
+  "policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+  "claims": [
+    {
+      "claim": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "source_url": "https://www.iu.edu/admissions/index.html"
+    }
+  ]
+}

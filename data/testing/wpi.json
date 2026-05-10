@@ -1,0 +1,21 @@
+{
+  "university": "Worcester Polytechnic Institute",
+  "slug": "wpi",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://www.wpi.edu/admissions",
+  "source_urls": [
+    "https://www.wpi.edu/admissions",
+    "https://www.wpi.edu/admission",
+    "https://www.wpi.edu/apply",
+    "https://www.wpi.edu"
+  ],
+  "policy": "One Big Beautiful Bill Act (OBBB)",
+  "claims": [
+    {
+      "claim": "One Big Beautiful Bill Act (OBBB)",
+      "source_url": "https://www.wpi.edu/admissions"
+    }
+  ]
+}

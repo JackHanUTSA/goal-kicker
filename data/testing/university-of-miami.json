@@ -1,0 +1,22 @@
+{
+  "university": "University of Miami",
+  "slug": "university-of-miami",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://admissions.miami.edu/undergraduate/index.html",
+  "source_urls": [
+    "https://admissions.miami.edu/undergraduate/index.html",
+    "https://admissions.miami.edu/undergraduate/academics/majors-by-school-or-college/index.html",
+    "https://admissions.miami.edu/undergraduate/application-process/index.html",
+    "https://welcome.miami.edu/admissions/",
+    "https://www.miami.edu"
+  ],
+  "policy": "Starting Fall 2026, t he University of Miami will require standardized test scores for most applicants. This means that when applying via the Common Application, prospective students should self-report their SAT/ACT test scores.",
+  "claims": [
+    {
+      "claim": "Starting Fall 2026, t he University of Miami will require standardized test scores for most applicants. This means that when applying via the Common Application, prospective students should self-report their SAT/ACT test scores.",
+      "source_url": "https://admissions.miami.edu/undergraduate/index.html"
+    }
+  ]
+}

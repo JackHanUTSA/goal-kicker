@@ -1,0 +1,26 @@
+{
+  "university": "University of Massachusetts Amherst",
+  "slug": "umass-amherst",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://www.umass.edu/admissions",
+  "source_urls": [
+    "https://www.umass.edu/admissions",
+    "https://www.umass.edu/admissions/undergraduate-admissions/connect/information-policies/test-optional-policy",
+    "https://www.umass.edu/admission",
+    "https://www.umass.edu/apply",
+    "https://www.umass.edu"
+  ],
+  "policy": "UMass Amherst is test-optional for first-year applicants and reviews applications with or without standardized test scores across all majors.",
+  "claims": [
+    {
+      "claim": "Think Big. Act Together. Be the Future.",
+      "source_url": "https://www.umass.edu/admissions"
+    },
+    {
+      "claim": "UMass Amherst is test-optional for first-year applicants and reviews applications with or without standardized test scores across all majors.",
+      "source_url": "https://www.umass.edu/admissions/undergraduate-admissions/connect/information-policies/test-optional-policy"
+    }
+  ]
+}

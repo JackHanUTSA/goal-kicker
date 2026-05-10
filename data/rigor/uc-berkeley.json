@@ -1,0 +1,38 @@
+{
+  "university": "University of California, Berkeley",
+  "slug": "uc-berkeley",
+  "retrieved_at": "2026-05-09",
+  "scope": "application-guidance",
+  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
+  "source_url": "https://admissions.berkeley.edu/apply-to-berkeley/first-year-applicants-uc-berkeley/",
+  "source_urls": [
+    "https://admissions.berkeley.edu/apply-to-berkeley/first-year-applicants-uc-berkeley/",
+    "https://admissions.berkeley.edu/"
+  ],
+  "areas": [
+    {
+      "key": "course-rigor",
+      "name": "Course rigor",
+      "level": "school-guidance",
+      "summary": "Berkeley says it selects first-year students through a holistic review that considers weighted and unweighted UC GPA, planned 12th-grade courses, and the full record of achievement in college preparatory courses.",
+      "detail": "Berkeley says it selects first-year students through a holistic review that considers weighted and unweighted UC GPA, planned 12th-grade courses, and the full record of achievement in college preparatory courses.",
+      "color": "#60a5fa"
+    },
+    {
+      "key": "recommendations",
+      "name": "Recommendations",
+      "level": "application-material",
+      "summary": "unknown from the official Berkeley and UC pages used in this pass",
+      "detail": "unknown from the official Berkeley and UC pages used in this pass",
+      "color": "#34d399"
+    },
+    {
+      "key": "essays",
+      "name": "Essays",
+      "level": "application-material",
+      "summary": "unknown from the official Berkeley and UC pages used in this pass",
+      "detail": "unknown from the official Berkeley and UC pages used in this pass",
+      "color": "#fbbf24"
+    }
+  ]
+}

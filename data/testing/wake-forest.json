@@ -1,0 +1,22 @@
+{
+  "university": "Wake Forest University",
+  "slug": "wake-forest",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://admissions.wfu.edu/apply/",
+  "source_urls": [
+    "https://admissions.wfu.edu/apply/",
+    "https://admissions.wfu.edu/",
+    "https://admissions.wfu.edu/academics/",
+    "https://www.wfu.edu/admission",
+    "https://www.wfu.edu"
+  ],
+  "policy": "Wake Forest says scores are only required if you indicate in your application that you want them considered; it accepts self-reported SAT/ACT scores during review and superscores multiple test dates.",
+  "claims": [
+    {
+      "claim": "Wake Forest says scores are only required if applicants indicate in the application that they want them considered; the university accepts self-reported SAT/ACT scores and superscores multiple test dates.",
+      "source_url": "https://admissions.wfu.edu/apply/"
+    }
+  ]
+}

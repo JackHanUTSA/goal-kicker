@@ -1,0 +1,21 @@
+{
+  "university": "Fordham University",
+  "slug": "fordham",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://www.fordham.edu/undergraduate-admission/",
+  "source_urls": [
+    "https://www.fordham.edu/undergraduate-admission/",
+    "https://www.fordham.edu/admissions-and-aid/",
+    "https://www.fordham.edu/undergraduate-admission/apply/",
+    "https://www.fordham.edu"
+  ],
+  "policy": "SAT or ACT scores (SAT code: 2259; ACT code: 2748) Please review our additional guidance on test score submission",
+  "claims": [
+    {
+      "claim": "SAT or ACT scores (SAT code: 2259; ACT code: 2748) Please review our additional guidance on test score submission",
+      "source_url": "https://www.fordham.edu/undergraduate-admission/"
+    }
+  ]
+}

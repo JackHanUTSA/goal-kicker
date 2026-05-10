@@ -1,0 +1,23 @@
+{
+  "university": "Washington University in St. Louis",
+  "slug": "washu",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://admissions.washu.edu/how-to-apply/",
+  "source_urls": [
+    "https://admissions.washu.edu/how-to-apply/",
+    "https://admissions.washu.edu/",
+    "https://admissions.washu.edu/academics/",
+    "https://washu.edu/admission-aid/",
+    "https://washu.edu/apply",
+    "https://www.wustl.edu"
+  ],
+  "policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+  "claims": [
+    {
+      "claim": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "source_url": "https://admissions.washu.edu/how-to-apply/"
+    }
+  ]
+}

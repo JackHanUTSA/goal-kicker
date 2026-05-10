@@ -1,0 +1,25 @@
+{
+  "university": "University of Notre Dame",
+  "slug": "notre-dame",
+  "retrieved_at": "2026-05-09",
+  "scope": "application-guidance",
+  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
+  "source_url": "https://admissions.nd.edu/",
+  "source_urls": [
+    "https://admissions.nd.edu/",
+    "https://www.nd.edu:443/admission/",
+    "https://www.nd.edu:443/admissions/",
+    "https://www.nd.edu:443/apply/",
+    "https://www.nd.edu"
+  ],
+  "areas": [
+    {
+      "key": "course-rigor",
+      "name": "Course rigor",
+      "level": "school-guidance",
+      "summary": "At Notre Dame, academic rigor and ethical reflection go hand in hand—preparing students to meet complex global challenges.",
+      "detail": "At Notre Dame, academic rigor and ethical reflection go hand in hand—preparing students to meet complex global challenges.",
+      "color": "#60a5fa"
+    }
+  ]
+}

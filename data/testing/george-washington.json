@@ -1,0 +1,28 @@
+{
+  "university": "George Washington University",
+  "slug": "george-washington",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://www.gwu.edu/admissions-aid",
+  "source_urls": [
+    "https://www.gwu.edu/admissions-aid",
+    "https://undergraduate.admissions.gwu.edu/first-year-applicants",
+    "https://graduate.admissions.gwu.edu/",
+    "https://www.gwu.edu/admission",
+    "https://www.gwu.edu/admissions",
+    "https://www.gwu.edu/apply",
+    "https://www.gwu.edu"
+  ],
+  "policy": "GW is test-optional for first-year applicants; students are not required to submit SAT or ACT scores, though some applicant groups still must provide them.",
+  "claims": [
+    {
+      "claim": "The George Washington University does not unlawfully discriminate against any person on any basis prohibited by federal law, the District of Columbia Human Rights Act, or other applicable law, including without limitation, age, color, disability, gender, gender identity or expression, genetic information, marital or familial status, national origin (including shared ancestry and ethnic characteristics), pregnancy, race, religion, sex, sexual orientation, veteran status, and/or other characteristics protected by applicable law. This policy covers all programs, services, policies, and procedures of the university, including admission to education programs and employment.",
+      "source_url": "https://www.gwu.edu/admissions-aid"
+    },
+    {
+      "claim": "GW is test-optional for first-year applicants; students are not required to submit SAT or ACT scores, though some applicant groups still must provide them.",
+      "source_url": "https://undergraduate.admissions.gwu.edu/first-year-applicants"
+    }
+  ]
+}

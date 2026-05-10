@@ -1,0 +1,34 @@
+{
+  "university": "University of Georgia",
+  "slug": "university-of-georgia",
+  "retrieved_at": "2026-05-09",
+  "scope": "application-guidance",
+  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
+  "source_url": "https://admissions.uga.edu/apply/first-year-applicants/first-year-criteria/",
+  "source_urls": [
+    "https://admissions.uga.edu/apply/first-year-applicants/first-year-criteria/",
+    "https://admissions.uga.edu/",
+    "https://www.uga.edu/admission",
+    "https://www.uga.edu/apply",
+    "https://admissions.uga.edu/apply/first-year-applicants/",
+    "https://www.uga.edu"
+  ],
+  "areas": [
+    {
+      "key": "course-rigor",
+      "name": "Course rigor",
+      "level": "school-guidance",
+      "summary": "UGA compares the courses available at a student's high school with what the student has taken or plans to take in senior year. It says competitive applicants take demanding courses in the five core subject areas available at their school.",
+      "detail": "UGA compares the courses available at a student's high school with what the student has taken or plans to take in senior year. It says competitive applicants take demanding courses in the five core subject areas available at their school.",
+      "color": "#60a5fa"
+    },
+    {
+      "key": "recommendations",
+      "name": "Recommendations",
+      "level": "application-material",
+      "summary": "UGA lists recommendation letters as optional materials for first-year applicants.",
+      "detail": "UGA lists recommendation letters as optional materials for first-year applicants.",
+      "color": "#34d399"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "university": "University of Southern California",
+  "slug": "usc",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://admission.usc.edu/prospective-students/how-to-apply/first-year-students/",
+  "source_urls": [
+    "https://admission.usc.edu/prospective-students/how-to-apply/first-year-students/",
+    "https://admission.usc.edu/",
+    "https://admission.usc.edu/learn/academic-life/",
+    "https://admissions.usc.edu/",
+    "https://www.usc.edu/admissions",
+    "https://www.usc.edu"
+  ],
+  "policy": "2 Optional: Official Test Scores For students who submit test scores, USC records the highest scores from tests taken more than once. The highest scores for each section of the SAT and ACT exams will be recorded, even if achieved in different sittings. Find answers to questions you may have about how our test-optional policy will affect your application. We require official test scores sent from the testing agencies for those who choose to submit them as a part of their application. We do not accept self-reported scores. Our SAT school code is 4852. Our ACT school code is 0470.",
+  "claims": [
+    {
+      "claim": "2 Optional: Official Test Scores For students who submit test scores, USC records the highest scores from tests taken more than once. The highest scores for each section of the SAT and ACT exams will be recorded, even if achieved in different sittings. Find answers to questions you may have about how our test-optional policy will affect your application. We require official test scores sent from the testing agencies for those who choose to submit them as a part of their application. We do not accept self-reported scores. Our SAT school code is 4852. Our ACT school code is 0470.",
+      "source_url": "https://admission.usc.edu/prospective-students/how-to-apply/first-year-students/"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "university": "Northwestern University",
+  "slug": "northwestern",
+  "retrieved_at": "2026-05-09",
+  "scope": "application-guidance",
+  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
+  "source_url": "https://admissions.northwestern.edu/apply/requirements.html",
+  "source_urls": [
+    "https://admissions.northwestern.edu/apply/requirements.html",
+    "https://admissions.northwestern.edu/",
+    "https://admissions.northwestern.edu/academics/",
+    "https://www.northwestern.edu/admission",
+    "https://www.northwestern.edu/admissions/",
+    "https://www.northwestern.edu/apply",
+    "https://www.northwestern.edu"
+  ],
+  "areas": [
+    {
+      "key": "course-rigor",
+      "name": "Course rigor",
+      "level": "school-guidance",
+      "summary": "A strong high school curriculum, including a year of calculus, is required for admission.",
+      "detail": "A strong high school curriculum, including a year of calculus, is required for admission.",
+      "color": "#60a5fa"
+    },
+    {
+      "key": "recommendations",
+      "name": "Recommendations",
+      "level": "application-material",
+      "summary": "Letters of Recommendation",
+      "detail": "Letters of Recommendation",
+      "color": "#34d399"
+    },
+    {
+      "key": "essays",
+      "name": "Essays",
+      "level": "application-material",
+      "summary": "Personal Statement and Supplemental Essay(s)",
+      "detail": "Personal Statement and Supplemental Essay(s)",
+      "color": "#fbbf24"
+    }
+  ]
+}

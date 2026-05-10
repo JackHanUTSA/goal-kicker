@@ -1,0 +1,28 @@
+{
+  "university": "George Washington University",
+  "slug": "george-washington",
+  "retrieved_at": "2026-05-09",
+  "mode": "majors-list",
+  "source_url": "https://www.gwu.edu/academics",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
+  "summary": {
+    "majors_count": 100,
+    "titles_count": 11,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  "titles": [
+    "The included work should be your best and most recent work.",
+    "If possible, the work should be related to your area of interest.",
+    "standardized test scores",
+    "First Year Application Steps",
+    "International Application Steps",
+    "Special Interest Programs",
+    "Seven-Year B.A./M.D.",
+    "special interest program",
+    "Special Program webpage",
+    "bring credits to GW",
+    "Find your counselor"
+  ],
+  "notes": "explicit official page sentence; titles extracted from official page: https://undergraduate.admissions.gwu.edu/first-year-applicants"
+}

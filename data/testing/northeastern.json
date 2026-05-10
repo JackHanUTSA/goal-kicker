@@ -1,0 +1,21 @@
+{
+  "university": "Northeastern University",
+  "slug": "northeastern",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://admissions.northeastern.edu/",
+  "source_urls": [
+    "https://admissions.northeastern.edu/",
+    "https://damore-mckim.northeastern.edu/apply/",
+    "https://www.northeastern.edu/admissions/",
+    "https://www.northeastern.edu"
+  ],
+  "policy": "We are pleased to announce that Northeastern will remain test-optional for the foreseeable future. At Northeastern, we have always been committed to providing every application with a thorough and holistic review, and we will continue to do so. To learn more, visit our Application Information page.",
+  "claims": [
+    {
+      "claim": "We are pleased to announce that Northeastern will remain test-optional for the foreseeable future. At Northeastern, we have always been committed to providing every application with a thorough and holistic review, and we will continue to do so. To learn more, visit our Application Information page.",
+      "source_url": "https://admissions.northeastern.edu/"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "university": "University of Southern California",
+  "slug": "usc",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports GPA-policy notes for this school. Where the school does not publish a hard GPA cutoff or admitted-student GPA distribution, the panel says that directly instead of inventing a threshold.",
+  "source_urls": [
+    "https://admission.usc.edu/prospective-students/how-to-apply/first-year-students/",
+    "https://admission.usc.edu/",
+    "https://admission.usc.edu/learn/academic-life/",
+    "https://admissions.usc.edu/",
+    "https://www.usc.edu/admissions",
+    "https://www.usc.edu"
+  ],
+  "policy_summary": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+  "what_mit_does_say": [
+    {
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "source_url": "https://admission.usc.edu/prospective-students/how-to-apply/first-year-students/"
+    }
+  ]
+}

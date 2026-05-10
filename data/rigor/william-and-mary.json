@@ -1,0 +1,39 @@
+{
+  "university": "William & Mary",
+  "slug": "william-and-mary",
+  "retrieved_at": "2026-05-09",
+  "scope": "application-guidance",
+  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
+  "source_url": "https://www.wm.edu/admission/",
+  "source_urls": [
+    "https://www.wm.edu/admission/",
+    "https://www.wm.edu/admission/undergraduateadmission/how-to-apply/",
+    "https://www.wm.edu"
+  ],
+  "areas": [
+    {
+      "key": "course-rigor",
+      "name": "Course rigor",
+      "level": "school-guidance",
+      "summary": "Undergraduate teacher preparation and advanced degrees in curriculum and instruction, counseling, school psychology and educational leadership are offered in-person and online.",
+      "detail": "Undergraduate teacher preparation and advanced degrees in curriculum and instruction, counseling, school psychology and educational leadership are offered in-person and online.",
+      "color": "#60a5fa"
+    },
+    {
+      "key": "recommendations",
+      "name": "Recommendations",
+      "level": "application-material",
+      "summary": "William & Mary practices holistic review; decisions are not based solely on one aspect of your application (Common App) . Rather, we review your essays, letters of recommendation, extracurricular involvements, and yes, those numbers like GPAs and standardized test scores (which are optional). Each application is read at least twice, including once by your regional counselor . At the end of this process, our goal is to bring together a class of dynamic, diverse and academically engaged students.",
+      "detail": "William & Mary practices holistic review; decisions are not based solely on one aspect of your application (Common App) . Rather, we review your essays, letters of recommendation, extracurricular involvements, and yes, those numbers like GPAs and standardized test scores (which are optional). Each application is read at least twice, including once by your regional counselor . At the end of this process, our goal is to bring together a class of dynamic, diverse and academically engaged students.",
+      "color": "#34d399"
+    },
+    {
+      "key": "essays",
+      "name": "Essays",
+      "level": "application-material",
+      "summary": "William & Mary practices holistic review; decisions are not based solely on one aspect of your application (Common App) . Rather, we review your essays, letters of recommendation, extracurricular involvements, and yes, those numbers like GPAs and standardized test scores (which are optional). Each application is read at least twice, including once by your regional counselor . At the end of this process, our goal is to bring together a class of dynamic, diverse and academically engaged students.",
+      "detail": "William & Mary practices holistic review; decisions are not based solely on one aspect of your application (Common App) . Rather, we review your essays, letters of recommendation, extracurricular involvements, and yes, those numbers like GPAs and standardized test scores (which are optional). Each application is read at least twice, including once by your regional counselor . At the end of this process, our goal is to bring together a class of dynamic, diverse and academically engaged students.",
+      "color": "#fbbf24"
+    }
+  ]
+}

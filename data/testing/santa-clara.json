@@ -1,0 +1,20 @@
+{
+  "university": "Santa Clara University",
+  "slug": "santa-clara",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://slate.scu.edu/apply/",
+  "source_urls": [
+    "https://slate.scu.edu/apply/",
+    "https://www.scu.edu/admission/",
+    "https://www.scu.edu"
+  ],
+  "policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+  "claims": [
+    {
+      "claim": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "source_url": "https://slate.scu.edu/apply/"
+    }
+  ]
+}

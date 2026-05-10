@@ -1,0 +1,27 @@
+{
+  "university": "University of California, Santa Cruz",
+  "slug": "uc-santa-cruz",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://admissions.ucsc.edu/",
+  "source_urls": [
+    "https://admissions.ucsc.edu/",
+    "https://admissions.ucsc.edu/first-year-student",
+    "https://www.ucsc.edu/admission",
+    "https://www.ucsc.edu/admissions/",
+    "https://www.ucsc.edu/apply",
+    "https://www.ucsc.edu"
+  ],
+  "policy": "UC Santa Cruz does not use ACT or SAT scores in its comprehensive review and selection process.",
+  "claims": [
+    {
+      "claim": "At UC Santa Cruz, we have resources to support your physical, mental, and emotional health, as well as safety services such as fire safety and crime prevention. UC Santa Cruz publishes an Annual Security & Fire Safety Report, based on the Jeanne Clery Disclosure of Campus Safety and Campus Crime Statistics Act (commonly referred to as the Clery Act). The report contains detailed information on the campus’s crime and fire prevention programs, as well as campus crime and fire statistics for the past three years. A paper version of the report is available upon request.",
+      "source_url": "https://admissions.ucsc.edu/"
+    },
+    {
+      "claim": "UC Santa Cruz does not use ACT or SAT scores in its comprehensive review and selection process.",
+      "source_url": "https://admissions.ucsc.edu/first-year-student"
+    }
+  ]
+}

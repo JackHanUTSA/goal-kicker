@@ -1,0 +1,15 @@
+{
+  "university": "Princeton University",
+  "slug": "princeton",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports GPA-policy notes for this school. Where the school does not publish a hard GPA cutoff or admitted-student GPA distribution, the panel says that directly instead of inventing a threshold.",
+  "source_urls": [
+    "https://admission.princeton.edu/apply/application-checklist",
+    "https://admission.princeton.edu/apply/standardized-testing",
+    "https://admission.princeton.edu/apply/princeton-specific-questions",
+    "https://www.princeton.edu"
+  ],
+  "policy_summary": "Princeton does not publish a minimum GPA on the cited admissions pages.",
+  "what_mit_does_say": []
+}

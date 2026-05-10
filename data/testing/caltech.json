@@ -1,0 +1,23 @@
+{
+  "university": "California Institute of Technology",
+  "slug": "caltech",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://www.admissions.caltech.edu/apply/first-year-applicants/standardized-tests",
+  "source_urls": [
+    "https://www.admissions.caltech.edu/apply/first-year-applicants/standardized-tests",
+    "https://www.admissions.caltech.edu/apply/first-year-applicants/application-requirements",
+    "https://www.admissions.caltech.edu/apply/first-year-applicants/academic-requirements-for-first-year-applicants",
+    "https://www.admissions.caltech.edu/apply/first-year-applicants/letters-of-recommendation",
+    "https://www.admissions.caltech.edu/apply/first-year-applicants/supplemental-application-essays",
+    "https://www.caltech.edu"
+  ],
+  "policy": "Caltech requires first-year applicants to submit either the SAT or the ACT.",
+  "claims": [
+    {
+      "claim": "Caltech requires first-year applicants to submit either the SAT or the ACT.",
+      "source_url": "https://www.admissions.caltech.edu/apply/first-year-applicants/standardized-tests"
+    }
+  ]
+}

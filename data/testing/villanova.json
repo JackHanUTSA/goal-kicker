@@ -1,0 +1,23 @@
+{
+  "university": "Villanova University",
+  "slug": "villanova",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://www.villanova.edu/university/undergraduate-admission.html?utm_source=shorturl&utm_medium=referral&utm_campaign=vanitysub-ugrad-home",
+  "source_urls": [
+    "https://www.villanova.edu/university/undergraduate-admission.html?utm_source=shorturl&utm_medium=referral&utm_campaign=vanitysub-ugrad-home",
+    "https://www.villanova.edu/admission.html",
+    "https://www.villanova.edu/admissions.html",
+    "https://www.villanova.edu/university/apply.html",
+    "https://www.villanova.edu/university/apply.html?utm_source=shorturl&utm_medium=referral&utm_campaign=vanitysub-ugrad-apply",
+    "https://www.villanova.edu"
+  ],
+  "policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+  "claims": [
+    {
+      "claim": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "source_url": "https://www.villanova.edu/university/undergraduate-admission.html?utm_source=shorturl&utm_medium=referral&utm_campaign=vanitysub-ugrad-home"
+    }
+  ]
+}

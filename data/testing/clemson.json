@@ -1,0 +1,27 @@
+{
+  "university": "Clemson University",
+  "slug": "clemson",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://www.clemson.edu/admissions/",
+  "source_urls": [
+    "https://www.clemson.edu/admissions/",
+    "https://www.clemson.edu/admissions/undergraduate-admissions/discover/college-preparation-information.html#prep",
+    "https://www.clemson.edu/admission",
+    "https://www.clemson.edu/admissions/applying-to-clemson.html",
+    "https://www.clemson.edu/admissions/undergraduate-admissions/apply/first-year.html",
+    "https://www.clemson.edu"
+  ],
+  "policy": "Clemson has adopted a test-optional policy. Applicants are not required to submit SAT or ACT scores to be considered for admission, but if they want scores used in review, Clemson requires official scores sent electronically by the testing agency.",
+  "claims": [
+    {
+      "claim": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "source_url": "https://www.clemson.edu/admissions/"
+    },
+    {
+      "claim": "Clemson has adopted a test-optional policy. Applicants are not required to submit SAT or ACT scores to be considered for admission, but if they want scores used in review, Clemson requires official scores sent electronically by the testing agency.",
+      "source_url": "https://www.clemson.edu/admissions/undergraduate-admissions/discover/college-preparation-information.html#prep"
+    }
+  ]
+}

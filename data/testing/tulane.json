@@ -1,0 +1,23 @@
+{
+  "university": "Tulane University",
+  "slug": "tulane",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://admission.tulane.edu/",
+  "source_urls": [
+    "https://admission.tulane.edu/",
+    "https://apply.tulane.edu/apply/",
+    "https://tulane.edu/admission",
+    "https://tulane.edu/apply",
+    "https://tulane.edu/departments/admissions",
+    "https://www.tulane.edu"
+  ],
+  "policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+  "claims": [
+    {
+      "claim": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "source_url": "https://admission.tulane.edu/"
+    }
+  ]
+}

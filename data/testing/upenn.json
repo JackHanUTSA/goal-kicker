@@ -1,0 +1,22 @@
+{
+  "university": "University of Pennsylvania",
+  "slug": "upenn",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://admissions.upenn.edu/how-to-apply/preparing-your-application/testing",
+  "source_urls": [
+    "https://admissions.upenn.edu/how-to-apply/preparing-your-application/testing",
+    "https://admissions.upenn.edu/how-to-apply/preparing-your-application/academics",
+    "https://admissions.upenn.edu/how-to-apply/preparing-your-application/letters-of-recommendation",
+    "https://admissions.upenn.edu/how-to-apply/preparing-your-application/writing",
+    "https://www.upenn.edu"
+  ],
+  "policy": "Penn requires applicants to submit the SAT or ACT for the 2025-26 application cycle, with a waiver available for hardship cases.",
+  "claims": [
+    {
+      "claim": "Penn requires applicants to submit the SAT or ACT for the 2025-26 application cycle, with a waiver available for hardship cases.",
+      "source_url": "https://admissions.upenn.edu/how-to-apply/preparing-your-application/testing"
+    }
+  ]
+}

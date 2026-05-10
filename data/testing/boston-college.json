@@ -1,0 +1,25 @@
+{
+  "university": "Boston College",
+  "slug": "boston-college",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://www.bc.edu/content/bc-web/admission/apply.html",
+  "source_urls": [
+    "https://www.bc.edu/content/bc-web/admission/apply.html",
+    "https://www.bc.edu/admissions",
+    "https://www.bc.edu/bc-web/admission/apply.html",
+    "https://www.bc.edu/content/bc-web/admission.html",
+    "https://www.bc.edu/content/bc-web/admission/",
+    "https://www.bc.edu/content/bc-web/admission/academics.html",
+    "https://www.bc.edu/content/bc-web/admission/apply/admission-offices.html",
+    "https://www.bc.edu"
+  ],
+  "policy": "Official standardized test results sent at the time of application or upon enrollment must be sent directly from the testing agency to Boston College (SAT Code: 3083 and ACT Code: 1788). If having score reports sent from the College Board or ACT to Boston College presents a financial hardship, applicants should have their high school counselor contact the Office of Undergraduate Admission. Alternatives will be explored on a case-by-case basis.",
+  "claims": [
+    {
+      "claim": "Official standardized test results sent at the time of application or upon enrollment must be sent directly from the testing agency to Boston College (SAT Code: 3083 and ACT Code: 1788). If having score reports sent from the College Board or ACT to Boston College presents a financial hardship, applicants should have their high school counselor contact the Office of Undergraduate Admission. Alternatives will be explored on a case-by-case basis.",
+      "source_url": "https://www.bc.edu/content/bc-web/admission/apply.html"
+    }
+  ]
+}

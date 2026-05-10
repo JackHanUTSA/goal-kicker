@@ -1,0 +1,22 @@
+{
+  "university": "New York University",
+  "slug": "nyu",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://www.nyu.edu/admissions/undergraduate-admissions.html",
+  "source_urls": [
+    "https://www.nyu.edu/admissions/undergraduate-admissions.html",
+    "https://www.nyu.edu/admission",
+    "https://www.nyu.edu/admissions.html",
+    "https://www.nyu.edu/apply",
+    "https://www.nyu.edu"
+  ],
+  "policy": "The NYU Center brings together researchers tapping into AI to develop intelligent machines that can sense, navigate, and act autonomously in complex real-world environments, from operating rooms to disaster zones",
+  "claims": [
+    {
+      "claim": "The NYU Center brings together researchers tapping into AI to develop intelligent machines that can sense, navigate, and act autonomously in complex real-world environments, from operating rooms to disaster zones",
+      "source_url": "https://www.nyu.edu/admissions/undergraduate-admissions.html"
+    }
+  ]
+}

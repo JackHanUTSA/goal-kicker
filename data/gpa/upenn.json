@@ -1,0 +1,16 @@
+{
+  "university": "University of Pennsylvania",
+  "slug": "upenn",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports GPA-policy notes for this school. Where the school does not publish a hard GPA cutoff or admitted-student GPA distribution, the panel says that directly instead of inventing a threshold.",
+  "source_urls": [
+    "https://admissions.upenn.edu/how-to-apply/preparing-your-application/testing",
+    "https://admissions.upenn.edu/how-to-apply/preparing-your-application/academics",
+    "https://admissions.upenn.edu/how-to-apply/preparing-your-application/letters-of-recommendation",
+    "https://admissions.upenn.edu/how-to-apply/preparing-your-application/writing",
+    "https://www.upenn.edu"
+  ],
+  "policy_summary": "Penn does not publish a minimum GPA on the cited admissions pages.",
+  "what_mit_does_say": []
+}

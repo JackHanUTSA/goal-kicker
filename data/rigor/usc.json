@@ -1,0 +1,34 @@
+{
+  "university": "University of Southern California",
+  "slug": "usc",
+  "retrieved_at": "2026-05-09",
+  "scope": "application-guidance",
+  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
+  "source_url": "https://admission.usc.edu/prospective-students/how-to-apply/first-year-students/",
+  "source_urls": [
+    "https://admission.usc.edu/prospective-students/how-to-apply/first-year-students/",
+    "https://admission.usc.edu/",
+    "https://admission.usc.edu/learn/academic-life/",
+    "https://admissions.usc.edu/",
+    "https://www.usc.edu/admissions",
+    "https://www.usc.edu"
+  ],
+  "areas": [
+    {
+      "key": "course-rigor",
+      "name": "Course rigor",
+      "level": "school-guidance",
+      "summary": "First-year applicants should submit official transcripts of all high school and college coursework completed.",
+      "detail": "First-year applicants should submit official transcripts of all high school and college coursework completed.",
+      "color": "#60a5fa"
+    },
+    {
+      "key": "recommendations",
+      "name": "Recommendations",
+      "level": "application-material",
+      "summary": "One letter is required from either your school counselor or a teacher from your school. Some programs may require additional letters of recommendation. Refer to the Additional Application Requirements section below for more information.",
+      "detail": "One letter is required from either your school counselor or a teacher from your school. Some programs may require additional letters of recommendation. Refer to the Additional Application Requirements section below for more information.",
+      "color": "#34d399"
+    }
+  ]
+}

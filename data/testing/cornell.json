@@ -1,0 +1,25 @@
+{
+  "university": "Cornell University",
+  "slug": "cornell",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://admissions.cornell.edu/how-to-apply/first-year-applicants",
+  "source_urls": [
+    "https://admissions.cornell.edu/how-to-apply/first-year-applicants",
+    "https://admissions.cornell.edu/",
+    "https://admissions.cornell.edu/academics/majors",
+    "https://admissions.cornell.edu/how-to-apply/first-year-applicants/college-and-school-admissions-requirements",
+    "https://www.cornell.edu/admission",
+    "https://www.cornell.edu/admissions/",
+    "https://www.cornell.edu/apply",
+    "https://www.cornell.edu"
+  ],
+  "policy": "All first-year applicants are required to submit SAT or ACT scores fall 2026 and beyond. For more information, review the standardized testing policy .",
+  "claims": [
+    {
+      "claim": "All first-year applicants are required to submit SAT or ACT scores fall 2026 and beyond. For more information, review the standardized testing policy .",
+      "source_url": "https://admissions.cornell.edu/how-to-apply/first-year-applicants"
+    }
+  ]
+}

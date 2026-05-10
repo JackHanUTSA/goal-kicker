@@ -1,0 +1,21 @@
+{
+  "university": "Pennsylvania State University",
+  "slug": "penn-state",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports GPA-policy notes for this school. Where the school does not publish a hard GPA cutoff or admitted-student GPA distribution, the panel says that directly instead of inventing a threshold.",
+  "source_urls": [
+    "https://www.psu.edu/admission/undergraduate",
+    "https://www.psu.edu/admission",
+    "https://www.psu.edu/admission/undergraduate/how-to-apply?utm_campaign=rec26&utm_source=enrollment&utm_medium=publications&utm_content=pa-and-oos-app-reminder&utm_term=dml",
+    "https://www.psu.edu/resources/faq/test-optional",
+    "https://www.psu.edu"
+  ],
+  "policy_summary": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+  "what_mit_does_say": [
+    {
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "source_url": "https://www.psu.edu/admission/undergraduate"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "university": "University of Tennessee, Knoxville",
+  "slug": "tennessee-knoxville",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://admissions.utk.edu/",
+  "source_urls": [
+    "https://admissions.utk.edu/",
+    "https://admissions.utk.edu/undergraduate-application/",
+    "https://www.utk.edu/admission",
+    "https://www.utk.edu/admissions",
+    "https://www.utk.edu"
+  ],
+  "policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+  "claims": [
+    {
+      "claim": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "source_url": "https://admissions.utk.edu/"
+    }
+  ]
+}

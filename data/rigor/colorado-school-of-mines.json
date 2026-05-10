@@ -1,0 +1,25 @@
+{
+  "university": "Colorado School of Mines",
+  "slug": "colorado-school-of-mines",
+  "retrieved_at": "2026-05-09",
+  "scope": "application-guidance",
+  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
+  "source_url": "https://www.mines.edu/undergraduate-admissions/",
+  "source_urls": [
+    "https://www.mines.edu/undergraduate-admissions/",
+    "https://www.mines.edu/admission",
+    "https://www.mines.edu/admissions/",
+    "https://www.mines.edu/undergraduate-admissions/apply/",
+    "https://www.mines.edu"
+  ],
+  "areas": [
+    {
+      "key": "course-rigor",
+      "name": "Course rigor",
+      "level": "school-guidance",
+      "summary": "An official transcript must be requested from the college that awarded the college credit for your CE classes and sent directly to Mines.",
+      "detail": "An official transcript must be requested from the college that awarded the college credit for your CE classes and sent directly to Mines.",
+      "color": "#60a5fa"
+    }
+  ]
+}

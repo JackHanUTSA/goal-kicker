@@ -1,0 +1,27 @@
+{
+  "university": "Marquette University",
+  "slug": "marquette",
+  "retrieved_at": "2026-05-09",
+  "mode": "majors-list",
+  "source_url": "https://www.marquette.edu/academics/",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
+  "summary": {
+    "majors_count": 10,
+    "titles_count": 10,
+    "count_method": "counted extracted undergraduate-major titles from an official page",
+    "confidence": "low"
+  },
+  "titles": [
+    "Explore Our Data Programs",
+    "Accounting Analytics",
+    "Business Analytics",
+    "Computer Engineering",
+    "Computer Science",
+    "Data Science",
+    "Statistical Science",
+    "Bioinformatics",
+    "Criminal Justice Data Analytics",
+    "Sports and Exercise Data Analytics"
+  ],
+  "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass; titles extracted from official page: https://www.marquette.edu/data-science/data-programs.php"
+}

@@ -1,0 +1,24 @@
+{
+  "university": "North Carolina State University",
+  "slug": "nc-state",
+  "retrieved_at": "2026-05-09",
+  "scope": "application-guidance",
+  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
+  "source_url": "https://admissions.ncsu.edu/",
+  "source_urls": [
+    "https://admissions.ncsu.edu/",
+    "https://www.ncsu.edu/admission",
+    "https://www.ncsu.edu/apply",
+    "https://www.ncsu.edu"
+  ],
+  "areas": [
+    {
+      "key": "course-rigor",
+      "name": "Course rigor",
+      "level": "school-guidance",
+      "summary": "Need help with coursework or advice on your degree path? We’ll walk you through it all with our Academic Success Center and advising services.",
+      "detail": "Need help with coursework or advice on your degree path? We’ll walk you through it all with our Academic Success Center and advising services.",
+      "color": "#60a5fa"
+    }
+  ]
+}

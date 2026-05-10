@@ -1,0 +1,26 @@
+{
+  "university": "Tulane University",
+  "slug": "tulane",
+  "retrieved_at": "2026-05-09",
+  "scope": "application-guidance",
+  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
+  "source_url": "https://admission.tulane.edu/",
+  "source_urls": [
+    "https://admission.tulane.edu/",
+    "https://apply.tulane.edu/apply/",
+    "https://tulane.edu/admission",
+    "https://tulane.edu/apply",
+    "https://tulane.edu/departments/admissions",
+    "https://www.tulane.edu"
+  ],
+  "areas": [
+    {
+      "key": "course-rigor",
+      "name": "Course rigor",
+      "level": "school-guidance",
+      "summary": "Our interdisciplinary core curriculum helps you explore the humanities, fine arts, social sciences and sciences. You’ll also participate in TIDES (Tulane Interdisciplinary Experience Seminar) during your first year, offering an academic lens on your new home, New Orleans.",
+      "detail": "Our interdisciplinary core curriculum helps you explore the humanities, fine arts, social sciences and sciences. You’ll also participate in TIDES (Tulane Interdisciplinary Experience Seminar) during your first year, offering an academic lens on your new home, New Orleans.",
+      "color": "#60a5fa"
+    }
+  ]
+}

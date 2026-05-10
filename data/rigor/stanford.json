@@ -1,0 +1,29 @@
+{
+  "university": "Stanford University",
+  "slug": "stanford",
+  "retrieved_at": "2026-05-09",
+  "scope": "application-guidance",
+  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
+  "source_url": "https://admission.stanford.edu/",
+  "source_urls": [
+    "https://admission.stanford.edu/"
+  ],
+  "areas": [
+    {
+      "key": "course-rigor",
+      "name": "Course rigor",
+      "level": "school-guidance",
+      "summary": "Stanford says every component of the application is valuable and that there is no score guaranteeing admission; the cited pages do not state a simple minimum course-rigor formula.",
+      "detail": "Stanford says every component of the application is valuable and that there is no score guaranteeing admission; the cited pages do not state a simple minimum course-rigor formula.",
+      "color": "#60a5fa"
+    },
+    {
+      "key": "recommendations",
+      "name": "Recommendations",
+      "level": "application-material",
+      "summary": "Stanford requires a school report form and counselor letter of recommendation plus letters of recommendation from two teachers.",
+      "detail": "Stanford requires a school report form and counselor letter of recommendation plus letters of recommendation from two teachers.",
+      "color": "#34d399"
+    }
+  ]
+}

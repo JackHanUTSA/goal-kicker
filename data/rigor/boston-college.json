@@ -1,0 +1,44 @@
+{
+  "university": "Boston College",
+  "slug": "boston-college",
+  "retrieved_at": "2026-05-09",
+  "scope": "application-guidance",
+  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
+  "source_url": "https://www.bc.edu/content/bc-web/admission/apply.html",
+  "source_urls": [
+    "https://www.bc.edu/content/bc-web/admission/apply.html",
+    "https://www.bc.edu/admissions",
+    "https://www.bc.edu/bc-web/admission/apply.html",
+    "https://www.bc.edu/content/bc-web/admission.html",
+    "https://www.bc.edu/content/bc-web/admission/",
+    "https://www.bc.edu/content/bc-web/admission/academics.html",
+    "https://www.bc.edu/content/bc-web/admission/apply/admission-offices.html",
+    "https://www.bc.edu"
+  ],
+  "areas": [
+    {
+      "key": "course-rigor",
+      "name": "Course rigor",
+      "level": "school-guidance",
+      "summary": "Submitting Your Transcript(s)",
+      "detail": "Submitting Your Transcript(s)",
+      "color": "#60a5fa"
+    },
+    {
+      "key": "recommendations",
+      "name": "Recommendations",
+      "level": "application-material",
+      "summary": "No. All required materials (transcripts, recommendations, test scores, etc.) must be submitted electronically or via mail. All documents must be official with the exception of self-reported test scores. You may use your portal to upload an optional resume, but this is not required for admission.",
+      "detail": "No. All required materials (transcripts, recommendations, test scores, etc.) must be submitted electronically or via mail. All documents must be official with the exception of self-reported test scores. You may use your portal to upload an optional resume, but this is not required for admission.",
+      "color": "#34d399"
+    },
+    {
+      "key": "essays",
+      "name": "Essays",
+      "level": "application-material",
+      "summary": "The Boston College Writing Supplement must be submitted along with your application to Boston College at www.commonapp.org . Please do not mail or email your essay response.",
+      "detail": "The Boston College Writing Supplement must be submitted along with your application to Boston College at www.commonapp.org . Please do not mail or email your essay response.",
+      "color": "#fbbf24"
+    }
+  ]
+}

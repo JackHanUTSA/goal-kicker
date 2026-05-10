@@ -1,0 +1,33 @@
+{
+  "university": "Texas A&M University",
+  "slug": "texas-am",
+  "retrieved_at": "2026-05-09",
+  "mode": "majors-list",
+  "source_url": "https://www.tamu.edu/academic-programs/index.html",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
+  "summary": {
+    "majors_count": 400,
+    "titles_count": 16,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  "titles": [
+    "Link to Agricultural Economics",
+    "Link to Animal Science",
+    "Link to Anthropology",
+    "Link to Biochemistry",
+    "Link to Chemistry",
+    "Link to English",
+    "Link to Entomology",
+    "Link to Forensic and Investigative Sciences",
+    "Link to Genetics",
+    "Link to History",
+    "Link to Leadership",
+    "Link to Philosophy",
+    "Link to Psychological & Brain Sciences",
+    "Link to Society, Ethics and Law",
+    "Link to Sociology",
+    "Link to Soil & Crop Science"
+  ],
+  "notes": "explicit official page sentence; titles extracted from official page: https://honors.tamu.edu/about/honors-programs-directory.html"
+}

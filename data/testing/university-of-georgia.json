@@ -1,0 +1,27 @@
+{
+  "university": "University of Georgia",
+  "slug": "university-of-georgia",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://admissions.uga.edu/",
+  "source_urls": [
+    "https://admissions.uga.edu/",
+    "https://admissions.uga.edu/apply/first-year-applicants/first-year-criteria/",
+    "https://www.uga.edu/admission",
+    "https://www.uga.edu/apply",
+    "https://admissions.uga.edu/apply/first-year-applicants/",
+    "https://www.uga.edu"
+  ],
+  "policy": "UGA treats SAT or ACT scores submitted by the application materials deadline as one of the primary academic factors in first-year review.",
+  "claims": [
+    {
+      "claim": "Tags: ACT , file reading , final decisions , grades , SAT",
+      "source_url": "https://admissions.uga.edu/"
+    },
+    {
+      "claim": "UGA treats SAT or ACT scores submitted by the application materials deadline as one of the primary academic factors in first-year review.",
+      "source_url": "https://admissions.uga.edu/apply/first-year-applicants/first-year-criteria/"
+    }
+  ]
+}

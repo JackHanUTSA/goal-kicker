@@ -1,0 +1,14 @@
+{
+  "university": "Duke University",
+  "slug": "duke",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports GPA-policy notes for this school. Where the school does not publish a hard GPA cutoff or admitted-student GPA distribution, the panel says that directly instead of inventing a threshold.",
+  "source_urls": [
+    "https://admissions.duke.edu/apply/",
+    "https://admissions.duke.edu/what-we-look-for/",
+    "https://www.duke.edu"
+  ],
+  "policy_summary": "Duke does not publish a minimum GPA on the cited admissions pages.",
+  "what_mit_does_say": []
+}

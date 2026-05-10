@@ -1,0 +1,26 @@
+{
+  "university": "Indiana University Bloomington",
+  "slug": "indiana-bloomington",
+  "retrieved_at": "2026-05-09",
+  "scope": "application-guidance",
+  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
+  "source_url": "https://www.iu.edu/admissions/index.html",
+  "source_urls": [
+    "https://www.iu.edu/admissions/index.html",
+    "https://apply.iu.edu/",
+    "https://www.iu.edu/admission",
+    "https://www.iu.edu/admissions/",
+    "https://www.iu.edu/apply",
+    "https://www.iu.edu"
+  ],
+  "areas": [
+    {
+      "key": "course-rigor",
+      "name": "Course rigor",
+      "level": "school-guidance",
+      "summary": "Admission standards See coursework requirements and other standards for admission to each IU campus.",
+      "detail": "Admission standards See coursework requirements and other standards for admission to each IU campus.",
+      "color": "#60a5fa"
+    }
+  ]
+}

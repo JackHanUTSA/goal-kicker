@@ -1,0 +1,19 @@
+{
+  "university": "Harvard University",
+  "slug": "harvard",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://college.harvard.edu/admissions/apply/first-year-applicants",
+  "source_urls": [
+    "https://college.harvard.edu/admissions/apply/first-year-applicants",
+    "https://college.harvard.edu/admissions"
+  ],
+  "policy": "Harvard requires SAT or ACT, with alternative exams accepted in exceptional cases when those tests are not accessible.",
+  "claims": [
+    {
+      "claim": "Harvard requires SAT or ACT, with alternative exams accepted in exceptional cases when those tests are not accessible.",
+      "source_url": "https://college.harvard.edu/admissions/apply/first-year-applicants"
+    }
+  ]
+}

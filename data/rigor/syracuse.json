@@ -1,0 +1,15 @@
+{
+  "university": "Syracuse University",
+  "slug": "syracuse",
+  "retrieved_at": "2026-05-09",
+  "scope": "application-guidance",
+  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
+  "source_url": "https://www.syracuse.edu/admission/",
+  "source_urls": [
+    "https://www.syracuse.edu/admission/",
+    "https://www.syracuse.edu/admissions-aid/",
+    "https://www.syracuse.edu/admissions-aid/application-process/apply/",
+    "https://www.syracuse.edu"
+  ],
+  "areas": []
+}

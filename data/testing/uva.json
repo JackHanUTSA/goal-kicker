@@ -1,0 +1,25 @@
+{
+  "university": "University of Virginia",
+  "slug": "uva",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://admission.virginia.edu/admission/first-year-admission",
+  "source_urls": [
+    "https://admission.virginia.edu/admission/first-year-admission",
+    "https://admission.virginia.edu/",
+    "https://admission.virginia.edu/academics",
+    "https://admission.virginia.edu/admission/deadlines-instructions",
+    "https://admissions.virginia.edu/",
+    "https://www.virginia.edu/admission/",
+    "https://www.virginia.edu/admissions",
+    "https://www.virginia.edu"
+  ],
+  "policy": "The ACT Writing sections are not used in our review.",
+  "claims": [
+    {
+      "claim": "The ACT Writing sections are not used in our review.",
+      "source_url": "https://admission.virginia.edu/admission/first-year-admission"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "university": "University of California, Berkeley",
+  "slug": "uc-berkeley",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://admission.universityofcalifornia.edu/admission-requirements/freshman-requirements/index.html",
+  "source_urls": [
+    "https://admission.universityofcalifornia.edu/admission-requirements/freshman-requirements/index.html",
+    "https://admissions.berkeley.edu/"
+  ],
+  "policy": "UC Berkeley follows the University of California first-year requirements page cited here, which lists A-G coursework and GPA requirements and does not require SAT/ACT scores on that page; this pass does not attach a Berkeley-only test-policy sentence.",
+  "claims": [
+    {
+      "claim": "UC Berkeley follows the University of California first-year requirements page cited here, which lists A-G coursework and GPA requirements and does not require SAT/ACT scores on that page; this pass does not attach a Berkeley-only test-policy sentence.",
+      "source_url": "https://admission.universityofcalifornia.edu/admission-requirements/freshman-requirements/index.html"
+    }
+  ]
+}

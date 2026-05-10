@@ -1,0 +1,28 @@
+{
+  "university": "University of Denver",
+  "slug": "university-of-denver",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://www.du.edu/admission-aid/undergraduate",
+  "source_urls": [
+    "https://www.du.edu/admission-aid/undergraduate",
+    "https://www.du.edu/admission-aid/undergraduate/first-year-applicants/admission-standards",
+    "https://www.du.edu/admission-aid",
+    "https://www.du.edu/admissions",
+    "https://www.du.edu/admission-aid/undergraduate/how-to-apply",
+    "https://www.du.edu/admission-aid/undergraduate/first-year-applicants/application-checklist",
+    "https://www.du.edu"
+  ],
+  "policy": "The University of Denver is test-optional; submitting SAT or ACT scores is the applicant’s choice, and scores are considered with the rest of the application if submitted.",
+  "claims": [
+    {
+      "claim": "The University promotes a healthy and safe educational, professional, and residential community where drugs and alcohol do not interfere with individual performance, personal success, public safety or the integrity of the learning environment. Compliance with the federal requirements under the Drug Free Schools and Communities Act and Drug Free Workplace is available here.",
+      "source_url": "https://www.du.edu/admission-aid/undergraduate"
+    },
+    {
+      "claim": "The University of Denver is test-optional; submitting SAT or ACT scores is the applicant’s choice, and scores are considered with the rest of the application if submitted.",
+      "source_url": "https://www.du.edu/admission-aid/undergraduate/first-year-applicants/admission-standards"
+    }
+  ]
+}

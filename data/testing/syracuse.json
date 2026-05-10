@@ -1,0 +1,21 @@
+{
+  "university": "Syracuse University",
+  "slug": "syracuse",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://www.syracuse.edu/admissions-aid/",
+  "source_urls": [
+    "https://www.syracuse.edu/admissions-aid/",
+    "https://www.syracuse.edu/admission/",
+    "https://www.syracuse.edu/admissions-aid/application-process/apply/",
+    "https://www.syracuse.edu"
+  ],
+  "policy": "SAT/ACT scores will not be required for students applying for Fall 2025, Spring 2026, Fall 2026 or Spring 2027 admission.",
+  "claims": [
+    {
+      "claim": "SAT/ACT scores will not be required for students applying for Fall 2025, Spring 2026, Fall 2026 or Spring 2027 admission.",
+      "source_url": "https://www.syracuse.edu/admissions-aid/"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "university": "Johns Hopkins University",
+  "slug": "johns-hopkins",
+  "retrieved_at": "2026-05-09",
+  "scope": "application-guidance",
+  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
+  "source_url": "https://admissions.jhu.edu/account/login?r=https%3A%2F%2Fadmissions.jhu.edu%2Fapply%2Fstatus&cookie=1",
+  "source_urls": [
+    "https://admissions.jhu.edu/account/login?r=https%3A%2F%2Fadmissions.jhu.edu%2Fapply%2Fstatus&cookie=1",
+    "https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/",
+    "https://admissions.jhu.edu/academics",
+    "https://apply.jhu.edu/",
+    "https://apply.jhu.edu/apply/first-year-applicants/",
+    "https://www.commonapp.org/explore/johns-hopkins-university/",
+    "https://www.jhu.edu/admissions",
+    "https://www.jhu.edu"
+  ],
+  "areas": [
+    {
+      "key": "recommendations",
+      "name": "Recommendations",
+      "level": "application-material",
+      "summary": "Letters of Recommendation",
+      "detail": "Letters of Recommendation",
+      "color": "#34d399"
+    }
+  ]
+}

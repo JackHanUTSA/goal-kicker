@@ -1,0 +1,43 @@
+{
+  "university": "University of San Diego",
+  "slug": "university-of-san-diego",
+  "retrieved_at": "2026-05-09",
+  "scope": "application-guidance",
+  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
+  "source_url": "https://www.sandiego.edu/admission-and-aid/undergraduate/apply/application-requirements.php",
+  "source_urls": [
+    "https://www.sandiego.edu/admission-and-aid/undergraduate/apply/application-requirements.php",
+    "https://admissions.sandiego.edu/",
+    "https://www.sandiego.edu/admission",
+    "https://www.sandiego.edu/admission-and-aid/",
+    "https://www.sandiego.edu/admission-and-aid/undergraduate/",
+    "https://www.sandiego.edu/apply",
+    "https://www.sandiego.edu"
+  ],
+  "areas": [
+    {
+      "key": "course-rigor",
+      "name": "Course rigor",
+      "level": "school-guidance",
+      "summary": "USD expects a well-balanced college-preparatory secondary-school program and recommends completing at least four or five academic subjects each year while attempting accelerated coursework.",
+      "detail": "USD expects a well-balanced college-preparatory secondary-school program and recommends completing at least four or five academic subjects each year while attempting accelerated coursework.",
+      "color": "#60a5fa"
+    },
+    {
+      "key": "recommendations",
+      "name": "Recommendations",
+      "level": "application-material",
+      "summary": "USD requires one academic recommendation from a high school counselor or a teacher who taught the applicant in an academic class; additional recommendations are optional.",
+      "detail": "USD requires one academic recommendation from a high school counselor or a teacher who taught the applicant in an academic class; additional recommendations are optional.",
+      "color": "#34d399"
+    },
+    {
+      "key": "essays",
+      "name": "Essays",
+      "level": "application-material",
+      "summary": "First-year applicants must submit the Common Application essay and USD member questions.",
+      "detail": "First-year applicants must submit the Common Application essay and USD member questions.",
+      "color": "#fbbf24"
+    }
+  ]
+}

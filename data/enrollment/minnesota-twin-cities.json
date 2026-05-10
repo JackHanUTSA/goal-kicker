@@ -1,0 +1,30 @@
+{
+  "university": "University of Minnesota Twin Cities",
+  "slug": "minnesota-twin-cities",
+  "retrieved_at": "2026-05-09",
+  "mode": "majors-list",
+  "source_url": "https://www.umn.edu/academic-programs",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
+  "summary": {
+    "majors_count": 13,
+    "titles_count": 13,
+    "count_method": "counted extracted undergraduate-major titles from an official page",
+    "confidence": "low"
+  },
+  "titles": [
+    "BA in Global Studies",
+    "Career Exploration",
+    "Learning Abroad",
+    "Real-World Experience",
+    "Courses",
+    "Scholarships & Grants",
+    "Advising",
+    "Meet Our Students",
+    "Transfer Guide",
+    "Career Paths",
+    "second language requirement",
+    "Global Studies Department Advising",
+    "University of Minnesota Global Undergraduate Leaders Program"
+  ],
+  "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass; titles extracted from official page: https://cla.umn.edu/global-studies/undergraduate/major-minor/ba-global-studies"
+}

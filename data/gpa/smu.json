@@ -1,0 +1,21 @@
+{
+  "university": "Southern Methodist University",
+  "slug": "smu",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports GPA-policy notes for this school. Where the school does not publish a hard GPA cutoff or admitted-student GPA distribution, the panel says that directly instead of inventing a threshold.",
+  "source_urls": [
+    "https://www.smu.edu/admission",
+    "https://www.smu.edu/admission/apply/undergraduate-admission/testing",
+    "https://www.smu.edu/admission/apply?utm_medium=alias%20redirect&utm_source=smu&utm_campaign=%2fapply",
+    "https://www.smu.edu/admission/majors-minors",
+    "https://www.smu.edu"
+  ],
+  "policy_summary": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+  "what_mit_does_say": [
+    {
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "source_url": "https://www.smu.edu/admission"
+    }
+  ]
+}

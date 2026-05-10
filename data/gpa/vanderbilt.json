@@ -1,0 +1,22 @@
+{
+  "university": "Vanderbilt University",
+  "slug": "vanderbilt",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports GPA-policy notes for this school. Where the school does not publish a hard GPA cutoff or admitted-student GPA distribution, the panel says that directly instead of inventing a threshold.",
+  "source_urls": [
+    "https://admissions.vanderbilt.edu/",
+    "https://apply.vanderbilt.edu/apply/",
+    "https://www.vanderbilt.edu/admission",
+    "https://www.vanderbilt.edu/admissions",
+    "https://www.vanderbilt.edu/apply",
+    "https://www.vanderbilt.edu"
+  ],
+  "policy_summary": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+  "what_mit_does_say": [
+    {
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "source_url": "https://admissions.vanderbilt.edu/"
+    }
+  ]
+}

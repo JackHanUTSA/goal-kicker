@@ -1,0 +1,38 @@
+{
+  "university": "University of Michigan",
+  "slug": "michigan",
+  "retrieved_at": "2026-05-09",
+  "scope": "application-guidance",
+  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
+  "source_url": "https://obp.umich.edu/wp-content/uploads/pubdata/cds/cds_2022-2023_umaa.pdf",
+  "source_urls": [
+    "https://obp.umich.edu/wp-content/uploads/pubdata/cds/cds_2022-2023_umaa.pdf",
+    "https://admissions.umich.edu/"
+  ],
+  "areas": [
+    {
+      "key": "course-rigor",
+      "name": "Course rigor",
+      "level": "school-guidance",
+      "summary": "Michigan recommends a general college-preparatory program. Its official Common Data Set lists 16 required academic units, 23+ recommended units, and specifically recommends rigorous coursework such as IB, AP, A Levels, honors, advanced, accelerated, and enriched classes.",
+      "detail": "Michigan recommends a general college-preparatory program. Its official Common Data Set lists 16 required academic units, 23+ recommended units, and specifically recommends rigorous coursework such as IB, AP, A Levels, honors, advanced, accelerated, and enriched classes.",
+      "color": "#60a5fa"
+    },
+    {
+      "key": "recommendations",
+      "name": "Recommendations",
+      "level": "application-material",
+      "summary": "Michigan’s official Common Data Set marks recommendations as important in first-year admissions review.",
+      "detail": "Michigan’s official Common Data Set marks recommendations as important in first-year admissions review.",
+      "color": "#34d399"
+    },
+    {
+      "key": "essays",
+      "name": "Essays",
+      "level": "application-material",
+      "summary": "Michigan’s official Common Data Set marks the application essay as important in first-year admissions review.",
+      "detail": "Michigan’s official Common Data Set marks the application essay as important in first-year admissions review.",
+      "color": "#fbbf24"
+    }
+  ]
+}

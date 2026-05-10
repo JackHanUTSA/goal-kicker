@@ -1,0 +1,19 @@
+{
+  "university": "University of Michigan",
+  "slug": "michigan",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://obp.umich.edu/wp-content/uploads/pubdata/cds/cds_2022-2023_umaa.pdf",
+  "source_urls": [
+    "https://obp.umich.edu/wp-content/uploads/pubdata/cds/cds_2022-2023_umaa.pdf",
+    "https://admissions.umich.edu/"
+  ],
+  "policy": "Michigan treats SAT or ACT scores as considered if submitted; the official Common Data Set marks SAT or ACT under \"Consider if Submitted,\" so applicants may apply without submitting scores.",
+  "claims": [
+    {
+      "claim": "Michigan treats SAT or ACT scores as considered if submitted; the official Common Data Set marks SAT or ACT under \"Consider if Submitted,\" so applicants may apply without submitting scores.",
+      "source_url": "https://obp.umich.edu/wp-content/uploads/pubdata/cds/cds_2022-2023_umaa.pdf"
+    }
+  ]
+}

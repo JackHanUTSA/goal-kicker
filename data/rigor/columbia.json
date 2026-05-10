@@ -1,0 +1,32 @@
+{
+  "university": "Columbia University",
+  "slug": "columbia",
+  "retrieved_at": "2026-05-09",
+  "scope": "application-guidance",
+  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
+  "source_url": "https://undergrad.admissions.columbia.edu/apply/first-year",
+  "source_urls": [
+    "https://undergrad.admissions.columbia.edu/apply/first-year",
+    "https://undergrad.admissions.columbia.edu/apply/firstyear",
+    "https://www.commonapp.org/explore/columbia-university/",
+    "https://www.columbia.edu"
+  ],
+  "areas": [
+    {
+      "key": "recommendations",
+      "name": "Recommendations",
+      "level": "application-material",
+      "summary": "Cross-verified from the Common App school page: Columbia lists a secondary school report and two teacher recommendations for first-year applicants.",
+      "detail": "Cross-verified from the Common App school page: Columbia lists a secondary school report and two teacher recommendations for first-year applicants.",
+      "color": "#34d399"
+    },
+    {
+      "key": "essays",
+      "name": "Essays",
+      "level": "application-material",
+      "summary": "Cross-verified from the Common App school page: Columbia lists Columbia-specific questions as part of the first-year application.",
+      "detail": "Cross-verified from the Common App school page: Columbia lists Columbia-specific questions as part of the first-year application.",
+      "color": "#fbbf24"
+    }
+  ]
+}

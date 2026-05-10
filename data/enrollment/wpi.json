@@ -1,0 +1,40 @@
+{
+  "university": "Worcester Polytechnic Institute",
+  "slug": "wpi",
+  "retrieved_at": "2026-05-09",
+  "mode": "majors-list",
+  "source_url": "https://www.wpi.edu/academic-programs",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
+  "summary": {
+    "majors_count": 70,
+    "titles_count": 23,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  "titles": [
+    "undergraduate and graduate degree programs",
+    "Major Qualifying Project",
+    "Prospective BME Undergraduate Students",
+    "Undergraduate Students",
+    "Breadcrumb",
+    "Student Projects",
+    "SSPS Undergraduate Degrees",
+    "Labs & Resources",
+    "Undergraduate Studies",
+    "Meet the Team",
+    "Publishing, Presenting, and Patenting",
+    "Summer Undergraduate Courses",
+    "Current WPI Students",
+    "High Achieving High School Students",
+    "Visiting Undergraduate Students",
+    "Incoming Students",
+    "Summer Sandbox Grants",
+    "Summer Sandbox Awardees",
+    "Undergraduate Awards",
+    "Great Minds Scholars Program",
+    "Pre-Professional Studies",
+    "First-Year Student Success",
+    "NSF S-STEM programs"
+  ],
+  "notes": "explicit official page sentence; titles extracted from official page: https://www.wpi.edu/academics"
+}

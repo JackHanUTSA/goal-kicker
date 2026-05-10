@@ -67,6 +67,10 @@ svg.bubbles text{fill:#fff;font-size:10px;pointer-events:none;text-anchor:middle
 .gen-stats .gs{background:#0e1014;border:1px solid var(--border);border-radius:6px;padding:8px 10px}
 .gen-stats .gs .v{font-size:16px;font-weight:700;color:var(--text);font-variant-numeric:tabular-nums}
 .gen-stats .gs .k{color:var(--muted);font-size:11px;margin-top:1px}
+.majors-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:8px;margin-top:12px}
+.majors-chip{background:#0e1014;border:1px solid var(--border);border-radius:6px;padding:9px 11px;font-size:12px;color:#d7dce6}
+.src-links{display:flex;flex-wrap:wrap;gap:8px 12px;font-size:11px;color:var(--muted)}
+.src-links a{color:var(--accent-2)}
 .policy-list{margin:8px 0 0;padding:0;list-style:none}
 .policy-list li{background:#0e1014;border:1px solid var(--border);border-left:3px solid var(--accent);border-radius:6px;padding:10px 12px;margin-bottom:8px;font-size:13px;color:#c8cdd6}
 .policy-list li .src-link{display:block;margin-top:4px;font-size:11px;color:var(--muted)}
@@ -95,22 +99,22 @@ svg.bubbles text{fill:#fff;font-size:10px;pointer-events:none;text-anchor:middle
 <div class="stats">
 <div class="card"><div class="num" id="su">—</div><div class="lbl">Universities listed</div></div>
 <div class="card"><div class="num">100</div><div class="lbl">Detailed records in repo</div></div>
-<div class="card"><div class="num">20 / 20</div><div class="lbl">Tests passing</div></div>
+<div class="card"><div class="num">42 / 42</div><div class="lbl">Tests passing</div></div>
 <div class="card"><div class="num">800+</div><div class="lbl">Source-cited evidence rows</div></div>
 </div>
-<h2 class="section-title"><span class="dot"></span> Test Suite — 20 / 20 passing</h2>
+<h2 class="section-title"><span class="dot"></span> Test Suite — 42 / 42 passing</h2>
 <div class="tests">============================= test session starts ==============================
 platform linux -- Python 3.10.12, pytest-9.0.3, pluggy-1.6.0
-collected 20 items
+collected 42 items
 
-tests/test_admissions_strategy.py ...                                    [ 15%]
-tests/test_enrich_school_people.py ...                                   [ 30%]
-tests/test_math_recommender.py ..                                        [ 40%]
-tests/test_populate_major_titles.py .......                              [ 75%]
-tests/test_student_profiles.py ..                                        [ 85%]
+tests/test_admissions_strategy.py ...                                    [  7%]
+tests/test_enrich_school_people.py ...                                   [ 14%]
+tests/test_math_recommender.py ..                                        [ 19%]
+tests/test_populate_major_titles.py .............................         [ 88%]
+tests/test_student_profiles.py ..                                        [ 92%]
 tests/test_subject_recommender.py ...                                    [100%]
 
-============================== 20 passed in 0.17s ==============================</div>
+============================== 42 passed in 0.15s ==============================</div>
 <h2 class="section-title">Browse the knowledgebase</h2>
 <div class="controls">
 <input id="q" type="search" placeholder="Search by name or domain…">
@@ -118,11 +122,11 @@ tests/test_subject_recommender.py ...                                    [100%]
 <span class="count" id="c"></span></div>
 <table id="t"><thead><tr><th data-s="rank" class="rk">Rank</th><th data-s="name">University</th><th class="dm">Domain</th></tr></thead><tbody id="tb"><tr class="loading"><td colspan="3">Loading from repo…</td></tr></tbody></table>
 <p class="hint">Click a row to load admissions details. When data exists, click <strong>Majors</strong>, <strong>Testing</strong>, <strong>GPA</strong>, or <strong>Course rigor</strong> to expand structured panels.</p>
-<footer>Built from <a href="https://github.com/JackHanUTSA/goal-kicker">JackHanUTSA/goal-kicker</a> · 20 tests passing · Data fetched live from <code>main</code></footer>
+<footer>Built from <a href="https://github.com/JackHanUTSA/goal-kicker">JackHanUTSA/goal-kicker</a> · 42 tests passing · Data fetched live from <code>main</code></footer>
 </div>
 <div id="tip" class="tooltip"></div>
 <script>
-const RAW='https://raw.githubusercontent.com/JackHanUTSA/goal-kicker/main/';
+const RAW='./';
 const SCHOOL_COLORS={"Architecture and Planning":"#a78bfa","Engineering":"#60a5fa","Humanities, Arts, and Social Sciences":"#fbbf24","Sloan School of Management":"#f87171","Science":"#34d399"};
 let D=[],sk='rank',sd=1;
 const $=id=>document.getElementById(id),tb=$('tb'),q=$('q'),f=$('f'),c=$('c'),tip=$('tip');
@@ -191,13 +195,13 @@ function wireOne(el, slug, boxSel, wrapPrefix, hintSel, cache, openHint, hideHin
 
 function wireToggles(slug, el){
   wireOne(el, slug, '.majors-box', 'cw', '.majors-hint', enrollCache,
-    '— click to show enrollment chart', '— click to hide chart', renderChart, bindBubbleHover);
+    '— click to show structured majors data', '— click to hide majors data', renderChart, bindBubbleHover);
   wireOne(el, slug, '.testing-box', 'tw', '.testing-hint', testCache,
-    '— click to show admitted SAT/ACT ranges', '— click to hide ranges', renderTesting, null);
+    '— click to show testing details', '— click to hide testing details', renderTesting, null);
   wireOne(el, slug, '.gpa-box', 'gw', '.gpa-hint', gpaCache,
-    '— click to show what MIT publishes about GPA', '— click to hide', renderGpa, null);
+    '— click to show GPA details', '— click to hide GPA details', renderGpa, null);
   wireOne(el, slug, '.rigor-box', 'rw', '.rigor-hint', rigorCache,
-    '— click to show recommended HS preparation', '— click to hide', renderRigor, null);
+    '— click to show preparation details', '— click to hide preparation details', renderRigor, null);
 }
 
 function renderTesting(t){
@@ -221,11 +225,17 @@ function renderTesting(t){
     ['International', g.international_admits!=null ? fmt(g.international_admits)+' / '+fmt(g.international_applicants) : null],
   ].filter(x => x[1] != null);
   const statsHtml = stats.length ? '<div class="gen-stats">'+stats.map(s=>'<div class="gs"><div class="v">'+esc(s[1])+'</div><div class="k">'+esc(s[0])+'</div></div>').join('')+'</div>' : '';
+  const claims = (t.claims || []).map(c =>
+    '<li>'+esc(c.claim)+(c.source_url ? '<a class="src-link" href="'+esc(c.source_url)+'">source</a>' : '')+'</li>'
+  ).join('');
+  const sourceLinks = (t.source_urls || []).map(u => '<a href="'+esc(u)+'">source</a>').join(' · ');
   return '<div class="chartbox">'+
-    '<div class="chart-title">Admitted-student test ranges — '+esc(t.class_label||'')+' <span class="src"><a href="'+esc(t.source_url)+'">source</a></span></div>'+
+    '<div class="chart-title">Testing policy '+(t.class_label ? '— '+esc(t.class_label) : '')+' <span class="src">'+(t.source_url ? '<a href="'+esc(t.source_url)+'">source</a>' : sourceLinks)+'</span></div>'+
     (t.scope_note ? '<div class="scope-note"><strong>Scope:</strong> '+esc(t.scope_note)+'</div>' : '')+
-    '<div class="test-grid">'+ranges+'</div>'+
+    (t.policy ? '<div class="policy-summary">'+esc(t.policy)+'</div>' : '')+
+    (ranges ? '<div class="test-grid">'+ranges+'</div>' : '')+
     statsHtml+
+    (claims ? '<ul class="policy-list">'+claims+'</ul>' : '')+
     '</div>';
 }
 
@@ -269,8 +279,9 @@ function renderRigor(r){
       (a.detail ? '<div class="area-detail">'+esc(a.detail)+'</div>' : '')+
       '</div>';
   }).join('');
+  const sourceLinks = (r.source_urls || []).map(u => '<a href="'+esc(u)+'">source</a>').join(' · ');
   return '<div class="chartbox">'+
-    '<div class="chart-title">Recommended high-school preparation <span class="src"><a href="'+esc(r.source_url)+'">source</a></span></div>'+
+    '<div class="chart-title">Recommended high-school preparation <span class="src">'+(r.source_url ? '<a href="'+esc(r.source_url)+'">source</a>' : sourceLinks)+'</span></div>'+
     (r.scope_note ? '<div class="scope-note"><strong>Scope:</strong> '+esc(r.scope_note)+'</div>' : '')+
     (r.audience ? '<div class="policy-summary"><em>For ' + esc(r.audience) + '.</em></div>' : '')+
     '<div class="area-grid">'+cards+'</div>'+
@@ -302,6 +313,24 @@ function packBubbles(items, W, H){
 }
 
 function renderChart(d){
+  if(d.mode==='majors-list' || d.titles){
+    const titles = (d.titles || []).map(t => '<div class="majors-chip">'+esc(t)+'</div>').join('');
+    const summary = d.summary || {};
+    const stats = [
+      ['Majors count', summary.majors_count],
+      ['Titles captured', summary.titles_count],
+      ['Confidence', summary.confidence],
+    ].filter(x => x[1] != null && x[1] !== '');
+    const statsHtml = stats.length ? '<div class="gen-stats">'+stats.map(s=>'<div class="gs"><div class="v">'+esc(s[1])+'</div><div class="k">'+esc(s[0])+'</div></div>').join('')+'</div>' : '';
+    return '<div class="chartbox">'+
+      '<div class="chart-title">Structured majors inventory <span class="src">'+(d.source_url ? '<a href="'+esc(d.source_url)+'">source</a>' : '')+'</span></div>'+
+      (d.scope_note ? '<div class="scope-note"><strong>Scope:</strong> '+esc(d.scope_note)+'</div>' : '')+
+      statsHtml+
+      (summary.count_method ? '<div class="policy-summary">'+esc(summary.count_method)+'</div>' : '')+
+      (d.notes ? '<div class="policy-summary">'+esc(d.notes)+'</div>' : '')+
+      (titles ? '<div class="majors-grid">'+titles+'</div>' : '')+
+      '</div>';
+  }
   const majors=(d.majors||[]).filter(m=>m.total>0);
   if(!majors.length)return '';
   const W=860,H=500;

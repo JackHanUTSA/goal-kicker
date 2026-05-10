@@ -1,0 +1,26 @@
+{
+  "university": "Marquette University",
+  "slug": "marquette",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://www.marquette.edu/admissions/undergraduate/",
+  "source_urls": [
+    "https://www.marquette.edu/admissions/undergraduate/",
+    "https://www.marquette.edu/apply/test-optional.php",
+    "https://www.marquette.edu/admissions/",
+    "https://www.marquette.edu/apply/apply.php",
+    "https://www.marquette.edu"
+  ],
+  "policy": "Marquette is test-optional; students may choose to submit ACT or SAT scores, and those who do not submit a score are not penalized.",
+  "claims": [
+    {
+      "claim": "For a distribution of admitted students' GPA, ACT and SAT data, visit application averages.",
+      "source_url": "https://www.marquette.edu/admissions/undergraduate/"
+    },
+    {
+      "claim": "Marquette is test-optional; students may choose to submit ACT or SAT scores, and those who do not submit a score are not penalized.",
+      "source_url": "https://www.marquette.edu/apply/test-optional.php"
+    }
+  ]
+}

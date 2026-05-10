@@ -1,0 +1,25 @@
+{
+  "university": "Rice University",
+  "slug": "rice",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://admission.rice.edu/apply/first-year-domestic-applicants",
+  "source_urls": [
+    "https://admission.rice.edu/apply/first-year-domestic-applicants",
+    "https://admission.rice.edu",
+    "https://admission.rice.edu/",
+    "https://admission.rice.edu/academics",
+    "https://admission.rice.edu/apply",
+    "https://www.rice.edu/admission",
+    "https://www.rice.edu/admissions",
+    "https://www.rice.edu"
+  ],
+  "policy": "Essay sections: The ACT Essay and SAT Essay sections are not required and not considered for admission.",
+  "claims": [
+    {
+      "claim": "Essay sections: The ACT Essay and SAT Essay sections are not required and not considered for admission.",
+      "source_url": "https://admission.rice.edu/apply/first-year-domestic-applicants"
+    }
+  ]
+}

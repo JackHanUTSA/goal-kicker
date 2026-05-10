@@ -1,0 +1,24 @@
+{
+  "university": "University of California, Los Angeles",
+  "slug": "ucla",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://admission.ucla.edu/apply/first-year",
+  "source_urls": [
+    "https://admission.ucla.edu/apply/first-year",
+    "https://admission.ucla.edu/",
+    "https://admission.ucla.edu/academics/majors",
+    "https://admission.ucla.edu/learn-more/first-year-applicant",
+    "https://www.ucla.edu/admission",
+    "https://www.ucla.edu/admissions",
+    "https://www.ucla.edu"
+  ],
+  "policy": "Deadline for applicants to submit their financial aid application (FAFSA), Dream Act, and Cal Grant GPA verification forms",
+  "claims": [
+    {
+      "claim": "Deadline for applicants to submit their financial aid application (FAFSA), Dream Act, and Cal Grant GPA verification forms",
+      "source_url": "https://admission.ucla.edu/apply/first-year"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "university": "Loyola Marymount University",
+  "slug": "loyola-marymount",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://admission.lmu.edu/",
+  "source_urls": [
+    "https://admission.lmu.edu/",
+    "https://admission.lmu.edu/learnmore/prospectivestudents/first-yearapplicants/",
+    "https://www.lmu.edu/apply/",
+    "https://www.lmu.edu"
+  ],
+  "policy": "LMU is test-optional for first-year applicants, and it says there is no minimum GPA or test score required for admission.",
+  "claims": [
+    {
+      "claim": "Jesuit education forms people who think boldly, lead with purpose, and serve others with conviction. Grounded in a 500-year Ignatian tradition, LMU empowers students to pursue excellence, take on real issues, and act with courage and compassion. We shape leaders for and with others, ready for what’s ahead and prepared to move the future forward. This is the LMU difference. This is Jesuit Educated.",
+      "source_url": "https://admission.lmu.edu/"
+    },
+    {
+      "claim": "LMU is test-optional for first-year applicants, and it says there is no minimum GPA or test score required for admission.",
+      "source_url": "https://admission.lmu.edu/learnmore/prospectivestudents/first-yearapplicants/"
+    }
+  ]
+}

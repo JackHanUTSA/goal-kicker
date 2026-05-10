@@ -1,0 +1,22 @@
+{
+  "university": "Emory University",
+  "slug": "emory",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://apply.emory.edu/index.html",
+  "source_urls": [
+    "https://apply.emory.edu/index.html",
+    "https://apply.emory.edu/apply/first-year/index.html",
+    "https://www.emory.edu/admission",
+    "https://www.emory.edu/admissions",
+    "https://www.emory.edu"
+  ],
+  "policy": "SAT/ACT (Optional): You may self-report scores in the Common App or send official ones.",
+  "claims": [
+    {
+      "claim": "SAT/ACT (Optional): You may self-report scores in the Common App or send official ones.",
+      "source_url": "https://apply.emory.edu/index.html"
+    }
+  ]
+}

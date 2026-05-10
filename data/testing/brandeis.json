@@ -1,0 +1,24 @@
+{
+  "university": "Brandeis University",
+  "slug": "brandeis",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://www.brandeis.edu:443/admissions/",
+  "source_urls": [
+    "https://www.brandeis.edu:443/admissions/",
+    "https://www.brandeis.edu/admissions/",
+    "https://www.brandeis.edu/admissions/academics/index.html?utm_source=viewbook&utm_medium=print&utm_campaign=ugrad-admissions-Q029-book2",
+    "https://www.brandeis.edu/admissions/academics/majors-minors.html",
+    "https://www.brandeis.edu/admissions/apply/index.html?utm_source=brochure&utm_medium=print&utm_campaign=ugrad-admissions-2023TravelBrochure",
+    "https://www.brandeis.edu:443/admissions/apply/index.html",
+    "https://www.brandeis.edu"
+  ],
+  "policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+  "claims": [
+    {
+      "claim": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "source_url": "https://www.brandeis.edu:443/admissions/"
+    }
+  ]
+}

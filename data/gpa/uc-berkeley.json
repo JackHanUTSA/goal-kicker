@@ -1,0 +1,22 @@
+{
+  "university": "University of California, Berkeley",
+  "slug": "uc-berkeley",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports GPA-policy notes for this school. Where the school does not publish a hard GPA cutoff or admitted-student GPA distribution, the panel says that directly instead of inventing a threshold.",
+  "source_urls": [
+    "https://admissions.berkeley.edu/apply-to-berkeley/first-year-applicants-uc-berkeley/",
+    "https://admissions.berkeley.edu/"
+  ],
+  "policy_summary": "Students applying to Berkeley should meet minimum requirements including a 3.0 GPA in A-G courses taken in the 10th and 11th grades, but Berkeley warns that satisfying minimum requirements is often not enough to be competitive for selection.",
+  "what_mit_does_say": [
+    {
+      "claim": "Satisfying Berkeley's minimum requirements is often not enough to be competitive for selection.",
+      "source_url": "https://admissions.berkeley.edu/apply-to-berkeley/first-year-applicants-uc-berkeley/"
+    },
+    {
+      "claim": "Students applying to Berkeley should meet minimum requirements including a 3.0 GPA in A-G courses taken in the 10th and 11th grades, but Berkeley warns that satisfying minimum requirements is often not enough to be competitive for selection.",
+      "source_url": "https://admissions.berkeley.edu/apply-to-berkeley/first-year-applicants-uc-berkeley/"
+    }
+  ]
+}

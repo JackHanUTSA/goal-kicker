@@ -1,0 +1,16 @@
+{
+  "university": "University of Tennessee, Knoxville",
+  "slug": "tennessee-knoxville",
+  "retrieved_at": "2026-05-09",
+  "scope": "application-guidance",
+  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
+  "source_url": "https://admissions.utk.edu/",
+  "source_urls": [
+    "https://admissions.utk.edu/",
+    "https://admissions.utk.edu/undergraduate-application/",
+    "https://www.utk.edu/admission",
+    "https://www.utk.edu/admissions",
+    "https://www.utk.edu"
+  ],
+  "areas": []
+}

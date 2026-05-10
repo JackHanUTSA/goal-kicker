@@ -1,0 +1,14 @@
+{
+  "university": "Auburn University",
+  "slug": "auburn",
+  "retrieved_at": "2026-05-09",
+  "scope": "application-guidance",
+  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
+  "source_url": "https://www.auburn.edu/admission",
+  "source_urls": [
+    "https://www.auburn.edu/admission",
+    "https://www.auburn.edu/admissions/index.php",
+    "https://www.auburn.edu"
+  ],
+  "areas": []
+}

@@ -1,0 +1,26 @@
+{
+  "university": "Southern Methodist University",
+  "slug": "smu",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://www.smu.edu/admission",
+  "source_urls": [
+    "https://www.smu.edu/admission",
+    "https://www.smu.edu/admission/apply/undergraduate-admission/testing",
+    "https://www.smu.edu/admission/apply?utm_medium=alias%20redirect&utm_source=smu&utm_campaign=%2fapply",
+    "https://www.smu.edu/admission/majors-minors",
+    "https://www.smu.edu"
+  ],
+  "policy": "SMU is fully test-optional; applicants who do not submit ACT or SAT scores are evaluated on other factors including grades, résumé, essays, and recommendation letters.",
+  "claims": [
+    {
+      "claim": "You’ll be transformed by the knowledge and experiences gained through the Embrey Human Rights Program, whose mission is to educate students and other members of the global community to understand, promote and defend human rights as responsible citizens of the world. You’ll have many opportunities to learn, travel and act for human rights as a student at SMU, the first university in the South, and only the fifth in the country, to offer an undergraduate major in human rights.",
+      "source_url": "https://www.smu.edu/admission"
+    },
+    {
+      "claim": "SMU is fully test-optional; applicants who do not submit ACT or SAT scores are evaluated on other factors including grades, résumé, essays, and recommendation letters.",
+      "source_url": "https://www.smu.edu/admission/apply/undergraduate-admission/testing"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "university": "Drexel University",
+  "slug": "drexel",
+  "retrieved_at": "2026-05-09",
+  "scope": "application-guidance",
+  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
+  "source_url": "https://drexel.edu/admissions",
+  "source_urls": [
+    "https://drexel.edu/admissions",
+    "https://drexel.edu/admissions#main-content",
+    "https://www.drexel.edu"
+  ],
+  "areas": [
+    {
+      "key": "course-rigor",
+      "name": "Course rigor",
+      "level": "school-guidance",
+      "summary": "All of our programs reflect the University’s commitment to experiential education and interdisciplinary coursework and are taught by renowned faculty composed of leaders and visionaries within their respective fields. Drexel has a wide variety of majors and minors that will allow you to explore your individual interests and make an impact in the world around you.",
+      "detail": "All of our programs reflect the University’s commitment to experiential education and interdisciplinary coursework and are taught by renowned faculty composed of leaders and visionaries within their respective fields. Drexel has a wide variety of majors and minors that will allow you to explore your individual interests and make an impact in the world around you.",
+      "color": "#60a5fa"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "university": "University of Virginia",
+  "slug": "uva",
+  "retrieved_at": "2026-05-09",
+  "scope": "application-guidance",
+  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
+  "source_url": "https://admission.virginia.edu/admission/first-year-admission",
+  "source_urls": [
+    "https://admission.virginia.edu/admission/first-year-admission",
+    "https://admission.virginia.edu/",
+    "https://admission.virginia.edu/academics",
+    "https://admission.virginia.edu/admission/deadlines-instructions",
+    "https://admissions.virginia.edu/",
+    "https://www.virginia.edu/admission/",
+    "https://www.virginia.edu/admissions",
+    "https://www.virginia.edu"
+  ],
+  "areas": [
+    {
+      "key": "course-rigor",
+      "name": "Course rigor",
+      "level": "school-guidance",
+      "summary": "Your school counselor can submit the secondary school report online. A counselor recommendation can be submitted with the secondary school report. Your academic teacher recommendation should also be submitted online. In addition to the secondary school report, your counselor should submit the school profile and your transcript(s) online.",
+      "detail": "Your school counselor can submit the secondary school report online. A counselor recommendation can be submitted with the secondary school report. Your academic teacher recommendation should also be submitted online. In addition to the secondary school report, your counselor should submit the school profile and your transcript(s) online.",
+      "color": "#60a5fa"
+    },
+    {
+      "key": "recommendations",
+      "name": "Recommendations",
+      "level": "application-material",
+      "summary": "Your school counselor can submit the secondary school report online. A counselor recommendation can be submitted with the secondary school report. Your academic teacher recommendation should also be submitted online. In addition to the secondary school report, your counselor should submit the school profile and your transcript(s) online.",
+      "detail": "Your school counselor can submit the secondary school report online. A counselor recommendation can be submitted with the secondary school report. Your academic teacher recommendation should also be submitted online. In addition to the secondary school report, your counselor should submit the school profile and your transcript(s) online.",
+      "color": "#34d399"
+    },
+    {
+      "key": "essays",
+      "name": "Essays",
+      "level": "application-material",
+      "summary": "We are interested in who you are, and we value what you have to say. While AI tools can be helpful in generating ideas and centering your thoughts, essays and personal statements that rely more on AI than your original thoughts miss the mark in one incredibly important way: they lack your voice, your ideas, and your very personal reflection on how your experiences have shaped you.",
+      "detail": "We are interested in who you are, and we value what you have to say. While AI tools can be helpful in generating ideas and centering your thoughts, essays and personal statements that rely more on AI than your original thoughts miss the mark in one incredibly important way: they lack your voice, your ideas, and your very personal reflection on how your experiences have shaped you.",
+      "color": "#fbbf24"
+    }
+  ]
+}

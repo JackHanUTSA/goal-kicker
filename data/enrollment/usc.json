@@ -1,0 +1,23 @@
+{
+  "university": "University of Southern California",
+  "slug": "usc",
+  "retrieved_at": "2026-05-09",
+  "mode": "majors-list",
+  "source_url": "https://admission.usc.edu/learn/academic-life/",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
+  "summary": {
+    "majors_count": 6,
+    "titles_count": 6,
+    "count_method": "counted extracted undergraduate-major titles from an official page",
+    "confidence": "low"
+  },
+  "titles": [
+    "Dornsife College of Letters, Arts and Sciences",
+    "Iovine and Young Academy for Arts, Technology and the Business of Innovation",
+    "USC School of Architecture",
+    "Roski School of Art and Design",
+    "USC School of Dramatic Arts",
+    "Marshall School of Business (World Bachelor in Business)"
+  ],
+  "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass; titles extracted from official page: https://admission.usc.edu/prospective-students/how-to-apply/first-year-students/"
+}

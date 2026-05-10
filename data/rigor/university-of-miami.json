@@ -1,0 +1,25 @@
+{
+  "university": "University of Miami",
+  "slug": "university-of-miami",
+  "retrieved_at": "2026-05-09",
+  "scope": "application-guidance",
+  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
+  "source_url": "https://admissions.miami.edu/undergraduate/index.html",
+  "source_urls": [
+    "https://admissions.miami.edu/undergraduate/index.html",
+    "https://admissions.miami.edu/undergraduate/academics/majors-by-school-or-college/index.html",
+    "https://admissions.miami.edu/undergraduate/application-process/index.html",
+    "https://welcome.miami.edu/admissions/",
+    "https://www.miami.edu"
+  ],
+  "areas": [
+    {
+      "key": "course-rigor",
+      "name": "Course rigor",
+      "level": "school-guidance",
+      "summary": "Learn what steps you must follow to have your college-level coursework evaluated for UM credit.",
+      "detail": "Learn what steps you must follow to have your college-level coursework evaluated for UM credit.",
+      "color": "#60a5fa"
+    }
+  ]
+}

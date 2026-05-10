@@ -1,0 +1,21 @@
+{
+  "university": "Yale University",
+  "slug": "yale",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://admissions.yale.edu/standardized-testing",
+  "source_urls": [
+    "https://admissions.yale.edu/standardized-testing",
+    "https://admissions.yale.edu/requirements",
+    "https://admissions.yale.edu/essay-topics",
+    "https://www.yale.edu"
+  ],
+  "policy": "Yale uses a test-flexible policy that requires first-year applicants to submit scores from one or more of the following: ACT, AP, IB, or SAT.",
+  "claims": [
+    {
+      "claim": "Yale uses a test-flexible policy that requires first-year applicants to submit scores from one or more of the following: ACT, AP, IB, or SAT.",
+      "source_url": "https://admissions.yale.edu/standardized-testing"
+    }
+  ]
+}

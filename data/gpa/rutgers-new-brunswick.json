@@ -1,0 +1,21 @@
+{
+  "university": "Rutgers University-New Brunswick",
+  "slug": "rutgers-new-brunswick",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports GPA-policy notes for this school. Where the school does not publish a hard GPA cutoff or admitted-student GPA distribution, the panel says that directly instead of inventing a threshold.",
+  "source_urls": [
+    "https://admissions.rutgers.edu/",
+    "https://www.rutgers.edu/admission",
+    "https://www.rutgers.edu/admissions-tuition",
+    "https://www.rutgers.edu/apply",
+    "https://www.rutgers.edu"
+  ],
+  "policy_summary": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+  "what_mit_does_say": [
+    {
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "source_url": "https://admissions.rutgers.edu/"
+    }
+  ]
+}

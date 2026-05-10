@@ -1,0 +1,35 @@
+{
+  "university": "University of North Carolina at Chapel Hill",
+  "slug": "unc-chapel-hill",
+  "retrieved_at": "2026-05-09",
+  "scope": "application-guidance",
+  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
+  "source_url": "https://admissions.unc.edu/",
+  "source_urls": [
+    "https://admissions.unc.edu/",
+    "https://admissions.unc.edu/apply/first-year-students/",
+    "https://admissions.unc.edu/explore/academics/",
+    "https://www.unc.edu/admission",
+    "https://www.unc.edu/admissions",
+    "https://www.unc.edu/apply",
+    "https://www.unc.edu"
+  ],
+  "areas": [
+    {
+      "key": "recommendations",
+      "name": "Recommendations",
+      "level": "application-material",
+      "summary": "UNC requires one letter of recommendation.",
+      "detail": "UNC requires one letter of recommendation.",
+      "color": "#34d399"
+    },
+    {
+      "key": "essays",
+      "name": "Essays",
+      "level": "application-material",
+      "summary": "The Common Application includes an essay and two short answers for UNC first-year applicants.",
+      "detail": "The Common Application includes an essay and two short answers for UNC first-year applicants.",
+      "color": "#fbbf24"
+    }
+  ]
+}

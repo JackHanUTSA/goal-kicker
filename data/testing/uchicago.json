@@ -1,0 +1,19 @@
+{
+  "university": "University of Chicago",
+  "slug": "uchicago",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://collegeadmissions.uchicago.edu/apply/application/required-materials/",
+  "source_urls": [
+    "https://collegeadmissions.uchicago.edu/apply/application/required-materials/",
+    "https://www.uchicago.edu"
+  ],
+  "policy": "UChicago is test-optional and says submitting an SAT or ACT is optional and not required for admission; it also uses a 'No Harm' testing policy.",
+  "claims": [
+    {
+      "claim": "UChicago is test-optional and says submitting an SAT or ACT is optional and not required for admission; it also uses a 'No Harm' testing policy.",
+      "source_url": "https://collegeadmissions.uchicago.edu/apply/application/required-materials/"
+    }
+  ]
+}

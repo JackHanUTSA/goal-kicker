@@ -1,0 +1,18 @@
+{
+  "university": "University of Michigan",
+  "slug": "michigan",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports GPA-policy notes for this school. Where the school does not publish a hard GPA cutoff or admitted-student GPA distribution, the panel says that directly instead of inventing a threshold.",
+  "source_urls": [
+    "https://obp.umich.edu/wp-content/uploads/pubdata/cds/cds_2022-2023_umaa.pdf",
+    "https://admissions.umich.edu/"
+  ],
+  "policy_summary": "Michigan does not publish a minimum GPA in the source used here, but its official Common Data Set marks both academic record and academic GPA as very important in first-year admission decisions.",
+  "what_mit_does_say": [
+    {
+      "claim": "Michigan does not publish a minimum GPA in the source used here, but its official Common Data Set marks both academic record and academic GPA as very important in first-year admission decisions.",
+      "source_url": "https://obp.umich.edu/wp-content/uploads/pubdata/cds/cds_2022-2023_umaa.pdf"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "university": "Oregon State University",
+  "slug": "oregon-state",
+  "retrieved_at": "2026-05-09",
+  "mode": "majors-list",
+  "source_url": "https://oregonstate.edu/academics",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
+  "summary": {
+    "majors_count": 200,
+    "titles_count": 16,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  "titles": [
+    "Liberal Studies",
+    "Aging Studies",
+    "Climate Change Solutions",
+    "Cybersecurity",
+    "Design for Social Impact",
+    "Environmental Justice",
+    "Food in Culture and Social Justice",
+    "Geographic Information Science (GIScience)",
+    "Global Learning",
+    "Horticultural Therapy",
+    "Humanitarian Engineering",
+    "Medical Humanities",
+    "Organizational Leadership",
+    "Women, Gender, and Sexuality Studies",
+    "Undergraduate Degrees & Courses Undergraduate Degrees",
+    "Honors Degree"
+  ],
+  "notes": "explicit official page sentence; titles extracted from official page: https://ecampus.oregonstate.edu/online-degrees/topics/"
+}

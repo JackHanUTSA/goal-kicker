@@ -1,0 +1,31 @@
+{
+  "university": "University of Tennessee, Knoxville",
+  "slug": "tennessee-knoxville",
+  "retrieved_at": "2026-05-09",
+  "mode": "majors-list",
+  "source_url": "https://www.utk.edu/academics",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
+  "summary": {
+    "majors_count": 14,
+    "titles_count": 14,
+    "count_method": "counted extracted undergraduate-major titles from an official page",
+    "confidence": "low"
+  },
+  "titles": [
+    "Request more info",
+    "Agriculture and natural resources",
+    "Architecture and design",
+    "Art and performance",
+    "Business",
+    "Communication and information sciences",
+    "Education",
+    "English and literature",
+    "Health, wellness, and human sciences",
+    "Languages, cultures, and humanities",
+    "Law and justice",
+    "Science",
+    "Social science and social work",
+    "Veterinary"
+  ],
+  "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass; titles extracted from official page: https://www.utk.edu/academics/areas-of-study/agriculture-natural-resources-programs"
+}

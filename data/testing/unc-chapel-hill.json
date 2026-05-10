@@ -1,0 +1,25 @@
+{
+  "university": "University of North Carolina at Chapel Hill",
+  "slug": "unc-chapel-hill",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://admissions.unc.edu/apply/types-of-applications/first-year/",
+  "source_urls": [
+    "https://admissions.unc.edu/apply/types-of-applications/first-year/",
+    "https://admissions.unc.edu/",
+    "https://admissions.unc.edu/apply/first-year-students/",
+    "https://admissions.unc.edu/explore/academics/",
+    "https://www.unc.edu/admission",
+    "https://www.unc.edu/admissions",
+    "https://www.unc.edu/apply",
+    "https://www.unc.edu"
+  ],
+  "policy": "SAT or ACT scores are optional for applicants with a weighted GPA of 2.8 or above on a 4.0 scale.",
+  "claims": [
+    {
+      "claim": "SAT or ACT scores are optional for applicants with a weighted GPA of 2.8 or above on a 4.0 scale.",
+      "source_url": "https://admissions.unc.edu/apply/types-of-applications/first-year/"
+    }
+  ]
+}

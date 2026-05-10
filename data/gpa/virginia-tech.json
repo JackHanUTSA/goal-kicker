@@ -1,0 +1,23 @@
+{
+  "university": "Virginia Tech",
+  "slug": "virginia-tech",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports GPA-policy notes for this school. Where the school does not publish a hard GPA cutoff or admitted-student GPA distribution, the panel says that directly instead of inventing a threshold.",
+  "source_urls": [
+    "https://www.vt.edu/admissions/undergraduate.html",
+    "https://www.vt.edu/admission.html",
+    "https://www.vt.edu/admissions.html",
+    "https://www.vt.edu/admissions/undergraduate/apply.html",
+    "https://www.vt.edu/admissions/undergraduate/apply.html?utm_campaign=fy26enrollment&utm_source=billboard&utm_medium=ooh&utm_program=undergrad",
+    "https://www.vt.edu/admissions/undergraduate/apply/freshman-requirements.html",
+    "https://www.vt.edu"
+  ],
+  "policy_summary": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+  "what_mit_does_say": [
+    {
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "source_url": "https://www.vt.edu/admissions/undergraduate.html"
+    }
+  ]
+}

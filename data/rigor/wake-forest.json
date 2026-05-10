@@ -1,0 +1,41 @@
+{
+  "university": "Wake Forest University",
+  "slug": "wake-forest",
+  "retrieved_at": "2026-05-09",
+  "scope": "application-guidance",
+  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
+  "source_url": "https://admissions.wfu.edu/apply/",
+  "source_urls": [
+    "https://admissions.wfu.edu/apply/",
+    "https://admissions.wfu.edu/",
+    "https://admissions.wfu.edu/academics/",
+    "https://www.wfu.edu/admission",
+    "https://www.wfu.edu"
+  ],
+  "areas": [
+    {
+      "key": "course-rigor",
+      "name": "Course rigor",
+      "level": "school-guidance",
+      "summary": "Final high school transcript",
+      "detail": "Final high school transcript",
+      "color": "#60a5fa"
+    },
+    {
+      "key": "recommendations",
+      "name": "Recommendations",
+      "level": "application-material",
+      "summary": "Teacher Recommendation Form",
+      "detail": "Teacher Recommendation Form",
+      "color": "#34d399"
+    },
+    {
+      "key": "essays",
+      "name": "Essays",
+      "level": "application-material",
+      "summary": "Wake Forest lists supplemental questions as part of the undergraduate admissions application requirements.",
+      "detail": "Wake Forest lists supplemental questions as part of the undergraduate admissions application requirements.",
+      "color": "#fbbf24"
+    }
+  ]
+}

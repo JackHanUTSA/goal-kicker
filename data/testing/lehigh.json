@@ -1,0 +1,22 @@
+{
+  "university": "Lehigh University",
+  "slug": "lehigh",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://www2.lehigh.edu/admissions",
+  "source_urls": [
+    "https://www2.lehigh.edu/admissions",
+    "https://www.lehigh.edu/admission",
+    "https://www2.lehigh.edu/admissions/apply",
+    "https://www2.lehigh.edu/admissions/programs",
+    "https://www.lehigh.edu"
+  ],
+  "policy": "Higher Education Opportunity Act",
+  "claims": [
+    {
+      "claim": "Higher Education Opportunity Act",
+      "source_url": "https://www2.lehigh.edu/admissions"
+    }
+  ]
+}

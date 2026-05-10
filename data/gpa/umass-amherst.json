@@ -1,0 +1,21 @@
+{
+  "university": "University of Massachusetts Amherst",
+  "slug": "umass-amherst",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports GPA-policy notes for this school. Where the school does not publish a hard GPA cutoff or admitted-student GPA distribution, the panel says that directly instead of inventing a threshold.",
+  "source_urls": [
+    "https://www.umass.edu/admissions",
+    "https://www.umass.edu/admission",
+    "https://www.umass.edu/admissions/undergraduate-admissions/connect/information-policies/test-optional-policy",
+    "https://www.umass.edu/apply",
+    "https://www.umass.edu"
+  ],
+  "policy_summary": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+  "what_mit_does_say": [
+    {
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "source_url": "https://www.umass.edu/admissions"
+    }
+  ]
+}

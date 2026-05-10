@@ -1,0 +1,16 @@
+{
+  "university": "Southern Methodist University",
+  "slug": "smu",
+  "retrieved_at": "2026-05-09",
+  "scope": "application-guidance",
+  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
+  "source_url": "https://www.smu.edu/admission",
+  "source_urls": [
+    "https://www.smu.edu/admission",
+    "https://www.smu.edu/admission/apply/undergraduate-admission/testing",
+    "https://www.smu.edu/admission/apply?utm_medium=alias%20redirect&utm_source=smu&utm_campaign=%2fapply",
+    "https://www.smu.edu/admission/majors-minors",
+    "https://www.smu.edu"
+  ],
+  "areas": []
+}

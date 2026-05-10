@@ -1,0 +1,15 @@
+{
+  "university": "University of Washington",
+  "slug": "university-of-washington",
+  "retrieved_at": "2026-05-09",
+  "scope": "application-guidance",
+  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
+  "source_url": "https://www.washington.edu/admission",
+  "source_urls": [
+    "https://www.washington.edu/admission",
+    "https://www.washington.edu/admissions/",
+    "https://www.washington.edu/apply",
+    "https://www.washington.edu"
+  ],
+  "areas": []
+}

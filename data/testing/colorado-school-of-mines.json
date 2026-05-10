@@ -1,0 +1,22 @@
+{
+  "university": "Colorado School of Mines",
+  "slug": "colorado-school-of-mines",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://www.mines.edu/undergraduate-admissions/",
+  "source_urls": [
+    "https://www.mines.edu/undergraduate-admissions/",
+    "https://www.mines.edu/admission",
+    "https://www.mines.edu/admissions/",
+    "https://www.mines.edu/undergraduate-admissions/apply/",
+    "https://www.mines.edu"
+  ],
+  "policy": "31 AVERAGE ACT COMPOSITE SCORE",
+  "claims": [
+    {
+      "claim": "31 AVERAGE ACT COMPOSITE SCORE",
+      "source_url": "https://www.mines.edu/undergraduate-admissions/"
+    }
+  ]
+}

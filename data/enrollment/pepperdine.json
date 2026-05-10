@@ -1,0 +1,31 @@
+{
+  "university": "Pepperdine University",
+  "slug": "pepperdine",
+  "retrieved_at": "2026-05-09",
+  "mode": "majors-list",
+  "source_url": "https://www.pepperdine.edu/academic-programs",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
+  "summary": {
+    "majors_count": 46,
+    "titles_count": 14,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  "titles": [
+    "Schools of Pepperdine",
+    "Seaver College of Letters, Arts, and Sciences",
+    "Caruso School of Law",
+    "Graziadio Business School",
+    "Graduate School of Education and Psychology",
+    "International Programs",
+    "Meet the Faculty",
+    "Accreditation",
+    "Seaver College",
+    "expected learning outcomes",
+    "Academic Calendar",
+    "Academic Catalog",
+    "Centers and Institutes",
+    "Faculty"
+  ],
+  "notes": "explicit official page sentence; titles extracted from official page: https://www.pepperdine.edu/academics/"
+}

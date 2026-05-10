@@ -1,0 +1,29 @@
+{
+  "university": "University of California, Los Angeles",
+  "slug": "ucla",
+  "retrieved_at": "2026-05-09",
+  "mode": "majors-list",
+  "source_url": "https://admission.ucla.edu/academics/majors",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
+  "summary": {
+    "majors_count": 12,
+    "titles_count": 12,
+    "count_method": "counted extracted undergraduate-major titles from an official page",
+    "confidence": "low"
+  },
+  "titles": [
+    "About",
+    "Orientation Sessions",
+    "First Year Students",
+    "Transfer Students",
+    "International Students",
+    "Parents & Families",
+    "Transition Programs",
+    "Resources",
+    "Previous",
+    "Next",
+    "Foreign Language Requirement website",
+    "Scroll to top"
+  ],
+  "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass; titles extracted from official page: https://newstudents.ucla.edu/programs/first-year-students/"
+}

@@ -1,0 +1,24 @@
+{
+  "university": "Georgetown University",
+  "slug": "georgetown",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://uadmissions.georgetown.edu/applying/preparation-process/",
+  "source_urls": [
+    "https://uadmissions.georgetown.edu/applying/preparation-process/",
+    "https://uadmissions.georgetown.edu/apply/first-year/",
+    "https://uadmissions.georgetown.edu/explore/academics/",
+    "https://www.georgetown.edu/admission",
+    "https://www.georgetown.edu/admissions",
+    "https://www.georgetown.edu/apply",
+    "https://www.georgetown.edu"
+  ],
+  "policy": "Georgetown requires submission of SAT and/or ACT scores as part of its holistic application review process.",
+  "claims": [
+    {
+      "claim": "Georgetown requires submission of SAT and/or ACT scores as part of its holistic application review process.",
+      "source_url": "https://uadmissions.georgetown.edu/applying/preparation-process/"
+    }
+  ]
+}

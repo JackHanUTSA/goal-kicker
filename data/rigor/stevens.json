@@ -1,0 +1,24 @@
+{
+  "university": "Stevens Institute of Technology",
+  "slug": "stevens",
+  "retrieved_at": "2026-05-09",
+  "scope": "application-guidance",
+  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
+  "source_url": "https://www.stevens.edu/admissions",
+  "source_urls": [
+    "https://www.stevens.edu/admissions",
+    "https://www.stevens.edu/admission",
+    "https://www.stevens.edu/apply",
+    "https://www.stevens.edu"
+  ],
+  "areas": [
+    {
+      "key": "course-rigor",
+      "name": "Course rigor",
+      "level": "school-guidance",
+      "summary": "SUCCESS - The Stevens Core Curriculum",
+      "detail": "SUCCESS - The Stevens Core Curriculum",
+      "color": "#60a5fa"
+    }
+  ]
+}

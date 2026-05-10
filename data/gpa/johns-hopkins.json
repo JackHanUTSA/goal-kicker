@@ -1,0 +1,24 @@
+{
+  "university": "Johns Hopkins University",
+  "slug": "johns-hopkins",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports GPA-policy notes for this school. Where the school does not publish a hard GPA cutoff or admitted-student GPA distribution, the panel says that directly instead of inventing a threshold.",
+  "source_urls": [
+    "https://admissions.jhu.edu/account/login?r=https%3A%2F%2Fadmissions.jhu.edu%2Fapply%2Fstatus&cookie=1",
+    "https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/",
+    "https://admissions.jhu.edu/academics",
+    "https://apply.jhu.edu/",
+    "https://apply.jhu.edu/apply/first-year-applicants/",
+    "https://www.commonapp.org/explore/johns-hopkins-university/",
+    "https://www.jhu.edu/admissions",
+    "https://www.jhu.edu"
+  ],
+  "policy_summary": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+  "what_mit_does_say": [
+    {
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "source_url": "https://admissions.jhu.edu/account/login?r=https%3A%2F%2Fadmissions.jhu.edu%2Fapply%2Fstatus&cookie=1"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "university": "Purdue University",
+  "slug": "purdue",
+  "retrieved_at": "2026-05-09",
+  "scope": "application-guidance",
+  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
+  "source_url": "https://admissions.purdue.edu/",
+  "source_urls": [
+    "https://admissions.purdue.edu/",
+    "https://admissions.purdue.edu/next-steps/apply-for-financial-aid/",
+    "https://www.purdue.edu/admission",
+    "https://www.purdue.edu"
+  ],
+  "areas": []
+}

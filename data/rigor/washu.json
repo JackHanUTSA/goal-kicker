@@ -1,0 +1,26 @@
+{
+  "university": "Washington University in St. Louis",
+  "slug": "washu",
+  "retrieved_at": "2026-05-09",
+  "scope": "application-guidance",
+  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
+  "source_url": "https://admissions.washu.edu/how-to-apply/",
+  "source_urls": [
+    "https://admissions.washu.edu/how-to-apply/",
+    "https://admissions.washu.edu/",
+    "https://admissions.washu.edu/academics/",
+    "https://washu.edu/admission-aid/",
+    "https://washu.edu/apply",
+    "https://www.wustl.edu"
+  ],
+  "areas": [
+    {
+      "key": "course-rigor",
+      "name": "Course rigor",
+      "level": "school-guidance",
+      "summary": "Explore our robust and flexible curriculum for the many topics that inspire you.",
+      "detail": "Explore our robust and flexible curriculum for the many topics that inspire you.",
+      "color": "#60a5fa"
+    }
+  ]
+}

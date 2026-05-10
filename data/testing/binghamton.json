@@ -1,0 +1,22 @@
+{
+  "university": "Binghamton University",
+  "slug": "binghamton",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://www.binghamton.edu/admissions/",
+  "source_urls": [
+    "https://www.binghamton.edu/admissions/",
+    "https://www.binghamton.edu/admission",
+    "https://www.binghamton.edu/admissions/undergraduate/apply/",
+    "https://www.binghamton.edu/apply",
+    "https://www.binghamton.edu"
+  ],
+  "policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+  "claims": [
+    {
+      "claim": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "source_url": "https://www.binghamton.edu/admissions/"
+    }
+  ]
+}

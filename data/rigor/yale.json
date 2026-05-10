@@ -1,0 +1,40 @@
+{
+  "university": "Yale University",
+  "slug": "yale",
+  "retrieved_at": "2026-05-09",
+  "scope": "application-guidance",
+  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
+  "source_url": "https://admissions.yale.edu/requirements",
+  "source_urls": [
+    "https://admissions.yale.edu/requirements",
+    "https://admissions.yale.edu/standardized-testing",
+    "https://admissions.yale.edu/essay-topics",
+    "https://www.yale.edu"
+  ],
+  "areas": [
+    {
+      "key": "course-rigor",
+      "name": "Course rigor",
+      "level": "school-guidance",
+      "summary": "The cited Yale admissions pages do not provide a single minimum course-rigor formula.",
+      "detail": "The cited Yale admissions pages do not provide a single minimum course-rigor formula.",
+      "color": "#60a5fa"
+    },
+    {
+      "key": "recommendations",
+      "name": "Recommendations",
+      "level": "application-material",
+      "summary": "Yale requires letters of recommendation from two teachers and one counselor, plus a school report with transcript.",
+      "detail": "Yale requires letters of recommendation from two teachers and one counselor, plus a school report with transcript.",
+      "color": "#34d399"
+    },
+    {
+      "key": "essays",
+      "name": "Essays",
+      "level": "application-material",
+      "summary": "Yale requires Yale-specific short essays for first-year applicants.",
+      "detail": "Yale requires Yale-specific short essays for first-year applicants.",
+      "color": "#fbbf24"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "university": "University of California, Santa Cruz",
+  "slug": "uc-santa-cruz",
+  "retrieved_at": "2026-05-09",
+  "mode": "majors-list",
+  "source_url": "https://www.ucsc.edu/academic-programs",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
+  "summary": {
+    "majors_count": 74,
+    "titles_count": 11,
+    "count_method": "explicit official page sentence",
+    "confidence": "medium"
+  },
+  "titles": [
+    "Ancient Studies (formerly Classical Studies)",
+    "Applied Linguistics and Multilingualism",
+    "Applied Physics",
+    "Art & Design: Games + Playable Media",
+    "Artificial Intelligence",
+    "Biochemistry and Molecular Biology",
+    "Biology",
+    "Biomolecular Engineering and Bioinformatics",
+    "Biotechnology",
+    "Black Studies",
+    "Business"
+  ],
+  "notes": "explicit official page sentence; titles extracted from official page: https://admissions.ucsc.edu/find-your-program"
+}

@@ -1,0 +1,42 @@
+{
+  "university": "Clemson University",
+  "slug": "clemson",
+  "retrieved_at": "2026-05-09",
+  "scope": "application-guidance",
+  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
+  "source_url": "https://www.clemson.edu/admissions/",
+  "source_urls": [
+    "https://www.clemson.edu/admissions/",
+    "https://www.clemson.edu/admissions/undergraduate-admissions/discover/college-preparation-information.html#prep",
+    "https://www.clemson.edu/admission",
+    "https://www.clemson.edu/admissions/applying-to-clemson.html",
+    "https://www.clemson.edu/admissions/undergraduate-admissions/apply/first-year.html",
+    "https://www.clemson.edu"
+  ],
+  "areas": [
+    {
+      "key": "course-rigor",
+      "name": "Course rigor",
+      "level": "school-guidance",
+      "summary": "Clemson says one of the clearest indicators of fit is academic performance in high school and that it examines GPA, class rank, and the rigor of classes taken. It also says most applicants present college-preparatory, honors, and AP coursework based on what their high school offers.",
+      "detail": "Clemson says one of the clearest indicators of fit is academic performance in high school and that it examines GPA, class rank, and the rigor of classes taken. It also says most applicants present college-preparatory, honors, and AP coursework based on what their high school offers.",
+      "color": "#60a5fa"
+    },
+    {
+      "key": "recommendations",
+      "name": "Recommendations",
+      "level": "application-material",
+      "summary": "Clemson does not require letters of recommendation for admission, but applicants may upload letters of recommendation as optional supplemental materials in the Clemson admissions portal after submitting the application.",
+      "detail": "Clemson does not require letters of recommendation for admission, but applicants may upload letters of recommendation as optional supplemental materials in the Clemson admissions portal after submitting the application.",
+      "color": "#34d399"
+    },
+    {
+      "key": "essays",
+      "name": "Essays",
+      "level": "application-material",
+      "summary": "Clemson does not require the SAT or ACT essay, and it says personal statements and other supplemental materials are optional rather than required for admission.",
+      "detail": "Clemson does not require the SAT or ACT essay, and it says personal statements and other supplemental materials are optional rather than required for admission.",
+      "color": "#fbbf24"
+    }
+  ]
+}

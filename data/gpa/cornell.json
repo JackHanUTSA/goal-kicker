@@ -1,0 +1,24 @@
+{
+  "university": "Cornell University",
+  "slug": "cornell",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports GPA-policy notes for this school. Where the school does not publish a hard GPA cutoff or admitted-student GPA distribution, the panel says that directly instead of inventing a threshold.",
+  "source_urls": [
+    "https://admissions.cornell.edu/how-to-apply/first-year-applicants",
+    "https://admissions.cornell.edu/",
+    "https://admissions.cornell.edu/academics/majors",
+    "https://admissions.cornell.edu/how-to-apply/first-year-applicants/college-and-school-admissions-requirements",
+    "https://www.cornell.edu/admission",
+    "https://www.cornell.edu/admissions/",
+    "https://www.cornell.edu/apply",
+    "https://www.cornell.edu"
+  ],
+  "policy_summary": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+  "what_mit_does_say": [
+    {
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "source_url": "https://admissions.cornell.edu/how-to-apply/first-year-applicants"
+    }
+  ]
+}

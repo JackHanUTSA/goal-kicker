@@ -1,0 +1,44 @@
+{
+  "university": "Rice University",
+  "slug": "rice",
+  "retrieved_at": "2026-05-09",
+  "scope": "application-guidance",
+  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
+  "source_url": "https://admission.rice.edu/apply/first-year-domestic-applicants",
+  "source_urls": [
+    "https://admission.rice.edu/apply/first-year-domestic-applicants",
+    "https://admission.rice.edu",
+    "https://admission.rice.edu/",
+    "https://admission.rice.edu/academics",
+    "https://admission.rice.edu/apply",
+    "https://www.rice.edu/admission",
+    "https://www.rice.edu/admissions",
+    "https://www.rice.edu"
+  ],
+  "areas": [
+    {
+      "key": "course-rigor",
+      "name": "Course rigor",
+      "level": "school-guidance",
+      "summary": "Official high school transcript",
+      "detail": "Official high school transcript",
+      "color": "#60a5fa"
+    },
+    {
+      "key": "recommendations",
+      "name": "Recommendations",
+      "level": "application-material",
+      "summary": "Teacher Letters of Recommendation",
+      "detail": "Teacher Letters of Recommendation",
+      "color": "#34d399"
+    },
+    {
+      "key": "essays",
+      "name": "Essays",
+      "level": "application-material",
+      "summary": "Essay Prompts (2025-2026)",
+      "detail": "Essay Prompts (2025-2026)",
+      "color": "#fbbf24"
+    }
+  ]
+}

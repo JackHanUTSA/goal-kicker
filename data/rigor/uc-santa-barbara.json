@@ -1,0 +1,25 @@
+{
+  "university": "University of California, Santa Barbara",
+  "slug": "uc-santa-barbara",
+  "retrieved_at": "2026-05-09",
+  "scope": "application-guidance",
+  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
+  "source_url": "https://admissions.sa.ucsb.edu/",
+  "source_urls": [
+    "https://admissions.sa.ucsb.edu/",
+    "https://www.ucsb.edu/admission",
+    "https://www.ucsb.edu/admissions",
+    "https://www.ucsb.edu/apply",
+    "https://www.ucsb.edu"
+  ],
+  "areas": [
+    {
+      "key": "course-rigor",
+      "name": "Course rigor",
+      "level": "school-guidance",
+      "summary": "Rigorous and rewarding. That’s the UCSB experience in a nutshell. And it’s why we’re a top-ranked university. Scholarship and research await.",
+      "detail": "Rigorous and rewarding. That’s the UCSB experience in a nutshell. And it’s why we’re a top-ranked university. Scholarship and research await.",
+      "color": "#60a5fa"
+    }
+  ]
+}

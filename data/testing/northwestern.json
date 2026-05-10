@@ -1,0 +1,24 @@
+{
+  "university": "Northwestern University",
+  "slug": "northwestern",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://admissions.northwestern.edu/apply/requirements.html",
+  "source_urls": [
+    "https://admissions.northwestern.edu/apply/requirements.html",
+    "https://admissions.northwestern.edu/",
+    "https://admissions.northwestern.edu/academics/",
+    "https://www.northwestern.edu/admission",
+    "https://www.northwestern.edu/admissions/",
+    "https://www.northwestern.edu/apply",
+    "https://www.northwestern.edu"
+  ],
+  "policy": "Self-reporting SAT and/or ACT scores",
+  "claims": [
+    {
+      "claim": "Self-reporting SAT and/or ACT scores",
+      "source_url": "https://admissions.northwestern.edu/apply/requirements.html"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "university": "George Washington University",
+  "slug": "george-washington",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports GPA-policy notes for this school. Where the school does not publish a hard GPA cutoff or admitted-student GPA distribution, the panel says that directly instead of inventing a threshold.",
+  "source_urls": [
+    "https://www.gwu.edu/admissions-aid",
+    "https://graduate.admissions.gwu.edu/",
+    "https://undergraduate.admissions.gwu.edu/first-year-applicants",
+    "https://www.gwu.edu/admission",
+    "https://www.gwu.edu/admissions",
+    "https://www.gwu.edu/apply",
+    "https://www.gwu.edu"
+  ],
+  "policy_summary": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+  "what_mit_does_say": [
+    {
+      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "source_url": "https://www.gwu.edu/admissions-aid"
+    }
+  ]
+}

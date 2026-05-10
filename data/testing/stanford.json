@@ -1,0 +1,23 @@
+{
+  "university": "Stanford University",
+  "slug": "stanford",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://admission.stanford.edu/apply/first-year/testing.html",
+  "source_urls": [
+    "https://admission.stanford.edu/apply/first-year/testing.html",
+    "https://admission.stanford.edu/"
+  ],
+  "policy": "ACT or SAT scores are required for first-year and transfer students; Stanford also says there are no minimum test scores required for admission.",
+  "claims": [
+    {
+      "claim": "ACT or SAT scores are required for first-year and transfer students.",
+      "source_url": "https://admission.stanford.edu/apply/first-year/testing.html"
+    },
+    {
+      "claim": "ACT or SAT scores are required for first-year and transfer students; Stanford also says there are no minimum test scores required for admission.",
+      "source_url": "https://admission.stanford.edu/apply/first-year/testing.html"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "university": "Texas Christian University",
+  "slug": "tcu",
+  "retrieved_at": "2026-05-09",
+  "scope": "policy-summary",
+  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "source_url": "https://admissions.tcu.edu/",
+  "source_urls": [
+    "https://admissions.tcu.edu/",
+    "https://admissions.tcu.edu/apply/index.php",
+    "https://www.tcu.edu/admission",
+    "https://www.tcu.edu/admissions",
+    "https://www.tcu.edu"
+  ],
+  "policy": "1150-1340 SAT mid-50% range",
+  "claims": [
+    {
+      "claim": "1150-1340 SAT mid-50% range",
+      "source_url": "https://admissions.tcu.edu/"
+    }
+  ]
+}

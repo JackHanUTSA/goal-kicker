@@ -1,0 +1,26 @@
+{
+  "university": "Vanderbilt University",
+  "slug": "vanderbilt",
+  "retrieved_at": "2026-05-09",
+  "scope": "application-guidance",
+  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
+  "source_url": "https://admissions.vanderbilt.edu/",
+  "source_urls": [
+    "https://admissions.vanderbilt.edu/",
+    "https://apply.vanderbilt.edu/apply/",
+    "https://www.vanderbilt.edu/admission",
+    "https://www.vanderbilt.edu/admissions",
+    "https://www.vanderbilt.edu/apply",
+    "https://www.vanderbilt.edu"
+  ],
+  "areas": [
+    {
+      "key": "course-rigor",
+      "name": "Course rigor",
+      "level": "school-guidance",
+      "summary": "For an undergraduate or a postdoc, a cellist or a cellular biologist, a researcher or a writer, Vanderbilt offers a unique learning experience. The university is immersive, collaborative, rigorous, multifaceted and grounded in the commitment to educational and community excellence. Choose a discipline, learn about the available nationally renowned financial aid programs and apply today.",
+      "detail": "For an undergraduate or a postdoc, a cellist or a cellular biologist, a researcher or a writer, Vanderbilt offers a unique learning experience. The university is immersive, collaborative, rigorous, multifaceted and grounded in the commitment to educational and community excellence. Choose a discipline, learn about the available nationally renowned financial aid programs and apply today.",
+      "color": "#60a5fa"
+    }
+  ]
+}

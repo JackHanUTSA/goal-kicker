@@ -1,0 +1,42 @@
+{
+  "university": "California Institute of Technology",
+  "slug": "caltech",
+  "retrieved_at": "2026-05-09",
+  "scope": "application-guidance",
+  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
+  "source_url": "https://www.admissions.caltech.edu/apply/first-year-applicants/academic-requirements-for-first-year-applicants",
+  "source_urls": [
+    "https://www.admissions.caltech.edu/apply/first-year-applicants/academic-requirements-for-first-year-applicants",
+    "https://www.admissions.caltech.edu/apply/first-year-applicants/application-requirements",
+    "https://www.admissions.caltech.edu/apply/first-year-applicants/standardized-tests",
+    "https://www.admissions.caltech.edu/apply/first-year-applicants/letters-of-recommendation",
+    "https://www.admissions.caltech.edu/apply/first-year-applicants/supplemental-application-essays",
+    "https://www.caltech.edu"
+  ],
+  "areas": [
+    {
+      "key": "course-rigor",
+      "name": "Course rigor",
+      "level": "school-guidance",
+      "summary": "Caltech expects mastery in four years of math including calculus, one year each of physics and chemistry, one year of biology recommended, four years of English, and two years of history and/or social sciences with three or more years recommended.",
+      "detail": "Caltech expects mastery in four years of math including calculus, one year each of physics and chemistry, one year of biology recommended, four years of English, and two years of history and/or social sciences with three or more years recommended.",
+      "color": "#60a5fa"
+    },
+    {
+      "key": "recommendations",
+      "name": "Recommendations",
+      "level": "application-material",
+      "summary": "Caltech requires two teacher or instructor recommendations, one STEM and one humanities/social sciences.",
+      "detail": "Caltech requires two teacher or instructor recommendations, one STEM and one humanities/social sciences.",
+      "color": "#34d399"
+    },
+    {
+      "key": "essays",
+      "name": "Essays",
+      "level": "application-material",
+      "summary": "Caltech requires multiple supplemental essay responses, including a required STEM academic interest question, one STEM experience prompt, a creativity in action question, and two required short-answer questions.",
+      "detail": "Caltech requires multiple supplemental essay responses, including a required STEM academic interest question, one STEM experience prompt, a creativity in action question, and two required short-answer questions.",
+      "color": "#fbbf24"
+    }
+  ]
+}

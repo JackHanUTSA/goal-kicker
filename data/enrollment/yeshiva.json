@@ -1,0 +1,26 @@
+{
+  "university": "Yeshiva University",
+  "slug": "yeshiva",
+  "retrieved_at": "2026-05-09",
+  "mode": "majors-list",
+  "source_url": "https://www.yu.edu/academics",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
+  "summary": {
+    "majors_count": 32,
+    "titles_count": 9,
+    "count_method": "counted 32 unique major/program-like entries from the cited official page DOM",
+    "confidence": "medium"
+  },
+  "titles": [
+    "BA/MA Program: Stern College for Women/Yeshiva College",
+    "Two-Year Teacher Program",
+    "BA/MA Program: Stern College for Women/Yeshiva College (One Year)",
+    "Azrieli-GPATS Joint Program",
+    "PELE Chinuch Fellowship",
+    "Mid-Career Fellowship Program",
+    "Wurzweiler in Israel",
+    "Life",
+    "Start an Application"
+  ],
+  "notes": "counted 32 unique major/program-like entries from the cited official page DOM; titles extracted from official page: https://www.yu.edu/graduate"
+}

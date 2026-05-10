@@ -1,0 +1,40 @@
+{
+  "university": "Princeton University",
+  "slug": "princeton",
+  "retrieved_at": "2026-05-09",
+  "scope": "application-guidance",
+  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
+  "source_url": "https://admission.princeton.edu/apply/application-checklist",
+  "source_urls": [
+    "https://admission.princeton.edu/apply/application-checklist",
+    "https://admission.princeton.edu/apply/standardized-testing",
+    "https://admission.princeton.edu/apply/princeton-specific-questions",
+    "https://www.princeton.edu"
+  ],
+  "areas": [
+    {
+      "key": "course-rigor",
+      "name": "Course rigor",
+      "level": "school-guidance",
+      "summary": "No simple minimum course-rigor formula is stated on the cited Princeton pages, but Princeton asks for teacher recommendations from higher level courses in core academic areas.",
+      "detail": "No simple minimum course-rigor formula is stated on the cited Princeton pages, but Princeton asks for teacher recommendations from higher level courses in core academic areas.",
+      "color": "#60a5fa"
+    },
+    {
+      "key": "recommendations",
+      "name": "Recommendations",
+      "level": "application-material",
+      "summary": "Princeton requires a counselor recommendation plus two teacher recommendations from higher level courses in different academic areas.",
+      "detail": "Princeton requires a counselor recommendation plus two teacher recommendations from higher level courses in different academic areas.",
+      "color": "#34d399"
+    },
+    {
+      "key": "essays",
+      "name": "Essays",
+      "level": "application-material",
+      "summary": "Princeton requires Princeton-specific questions and a graded written paper for first-year applicants.",
+      "detail": "Princeton requires Princeton-specific questions and a graded written paper for first-year applicants.",
+      "color": "#fbbf24"
+    }
+  ]
+}
