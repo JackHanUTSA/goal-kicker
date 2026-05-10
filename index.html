@@ -49,6 +49,11 @@ footer{margin-top:40px;color:var(--muted);font-size:12px;text-align:center;borde
 .chart-title .src{font-weight:400;color:var(--muted);font-size:11px}
 .legend{display:flex;flex-wrap:wrap;gap:10px 16px;font-size:11px;color:var(--muted);margin-top:8px}
 .legend span.sw{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:4px;vertical-align:-1px}
+.legend-title{font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:#778091;margin-top:10px}
+.chart-meta{display:flex;flex-wrap:wrap;gap:8px 10px;margin:10px 0 12px}
+.chart-pill{background:#0e1014;border:1px solid var(--border);border-radius:999px;padding:5px 10px;font-size:11px;color:#d7dce6}
+.chart-note{background:#0e1014;border:1px solid var(--border);border-radius:6px;padding:10px 12px;font-size:12px;color:#c8cdd6;line-height:1.5;margin:0 0 12px}
+.chart-note strong{display:inline;color:var(--accent);font-size:11px;letter-spacing:.04em;text-transform:uppercase;margin-right:4px}
 svg.bubbles{display:block;width:100%;height:auto;font-family:inherit}
 svg.bubbles .b{cursor:default;transition:opacity .15s}
 svg.bubbles .b:hover{opacity:.7}
@@ -127,7 +132,7 @@ tests/test_subject_recommender.py ...                                    [100%]
 <div id="tip" class="tooltip"></div>
 <script>
 const RAW='./';
-const SCHOOL_COLORS={"Architecture and Planning":"#a78bfa","Engineering":"#60a5fa","Humanities, Arts, and Social Sciences":"#fbbf24","Sloan School of Management":"#f87171","Science":"#34d399"};
+const SCHOOL_COLORS={"Architecture and Planning":"#a78bfa","Engineering":"#60a5fa","Humanities, Arts, and Social Sciences":"#fbbf24","Sloan School of Management":"#f87171","Science":"#34d399","Natural Sciences":"#34d399","Social Sciences":"#fbbf24","Humanities & Arts":"#a78bfa","Interdisciplinary Programs":"#f87171"};
 let D=[],sk='rank',sd=1;
 const $=id=>document.getElementById(id),tb=$('tb'),q=$('q'),f=$('f'),c=$('c'),tip=$('tip');
 const esc=s=>s==null?'':String(s).replace(/[&<>"']/g,x=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[x]);
@@ -141,15 +146,21 @@ function tryFetchJson(slug, sub, cache){
 async function loadDetail(slug,el){
   if(detailCache[slug]){renderDetail(slug,detailCache[slug],el);wireToggles(slug,el);return}
   el.innerHTML='<div class="detail">Loading…</div>';
-  try{const d=await fetch(RAW+'knowledgebase/universities/'+slug+'.json').then(r=>r.json());detailCache[slug]=d;renderDetail(slug,d,el)}
+  try{
+    const detailPromise = fetch(RAW+'knowledgebase/universities/'+slug+'.json').then(r=>r.json());
+    const auxPromise = Promise.all([
+      tryFetchJson(slug,'enrollment',enrollCache),
+      tryFetchJson(slug,'testing',testCache),
+      tryFetchJson(slug,'gpa',gpaCache),
+      tryFetchJson(slug,'rigor',rigorCache),
+    ]);
+    const d = await detailPromise;
+    detailCache[slug]=d;
+    await auxPromise;
+    renderDetail(slug,d,el);
+    wireToggles(slug,el);
+  }
   catch(e){el.innerHTML='<div class="detail">No detailed record yet.</div>';return}
-  await Promise.all([
-    tryFetchJson(slug,'enrollment',enrollCache),
-    tryFetchJson(slug,'testing',testCache),
-    tryFetchJson(slug,'gpa',gpaCache),
-    tryFetchJson(slug,'rigor',rigorCache),
-  ]);
-  wireToggles(slug,el);
 }
 
 function box(cls, hintCls, label, body, slug){
@@ -157,10 +168,33 @@ function box(cls, hintCls, label, body, slug){
 }
 function shell(id, slug){ return '<div class="toggle-wrap" id="'+id+'-'+esc(slug)+'"></div>'; }
 
+function summarizeEnrollmentBox(majorsRecord, enrollData){
+  if(enrollData){
+    if(enrollData.summary_note) return enrollData.summary_note;
+    const majors = (enrollData.majors || []).filter(m => m.total > 0);
+    if(majors.length){
+      const totalStudents = majors.reduce((s,m)=>s+(m.total||0),0);
+      const majorLabel = enrollData.major_count_label || (majors.length + ' majors');
+      const totalLabel = enrollData.total_label || (totalStudents.toLocaleString() + ' declared students');
+      return majorLabel + ' · ' + totalLabel;
+    }
+    if(enrollData.mode === 'majors-list' && enrollData.summary){
+      const summary = enrollData.summary;
+      return [summary.majors_count != null ? summary.majors_count + ' majors in knowledgebase' : '', summary.titles_count != null ? summary.titles_count + ' titles captured' : '', summary.confidence || ''].filter(Boolean).join(' · ');
+    }
+  }
+  if(majorsRecord && majorsRecord.count){
+    return majorsRecord.count + (majorsRecord.notes ? ' — ' + majorsRecord.notes : '');
+  }
+  return '';
+}
+
 function renderDetail(slug,d,el){
   const a=d.admissions||{},m=d.majors||{};
   const evCount=(d.evidence||[]).length;
-  const majorsBox = m.count ? box('majors-box','majors-hint','Majors', m.count+(m.notes?' — '+esc(m.notes):''), slug) : '';
+  const enroll=enrollCache[slug];
+  const majorsSummary=summarizeEnrollmentBox(m,enroll);
+  const majorsBox = majorsSummary ? box('majors-box','majors-hint','Majors', esc(majorsSummary), slug) : '';
   const testingBox = a.testing_policy ? box('testing-box','testing-hint','Testing', esc(a.testing_policy), slug) : '';
   const gpaBox = a.gpa_policy ? box('gpa-box','gpa-hint','GPA', esc(a.gpa_policy), slug) : '';
   const rigorBox = a.course_rigor ? box('rigor-box','rigor-hint','Course rigor', esc(a.course_rigor), slug) : '';
@@ -195,7 +229,7 @@ function wireOne(el, slug, boxSel, wrapPrefix, hintSel, cache, openHint, hideHin
 
 function wireToggles(slug, el){
   wireOne(el, slug, '.majors-box', 'cw', '.majors-hint', enrollCache,
-    '— click to show structured majors data', '— click to hide majors data', renderChart, bindBubbleHover);
+    '— click to show majors data', '— click to hide majors data', renderChart, bindBubbleHover);
   wireOne(el, slug, '.testing-box', 'tw', '.testing-hint', testCache,
     '— click to show testing details', '— click to hide testing details', renderTesting, null);
   wireOne(el, slug, '.gpa-box', 'gw', '.gpa-hint', gpaCache,
@@ -339,21 +373,39 @@ function renderChart(d){
   const items=majors.map(m=>{const r=minR+(maxR-minR)*Math.sqrt(m.total/maxTotal);return {...m,r};});
   const nodes=packBubbles(items,W,H);
   const totalStudents=majors.reduce((s,m)=>s+m.total,0);
-  const schools=[...new Set(majors.map(m=>m.school))];
+  const legendOrder=(d.legend_order||[]);
+  const discoveredSchools=[...new Set(majors.map(m=>m.school).filter(Boolean))];
+  const schools=[...legendOrder.filter(s=>discoveredSchools.includes(s)), ...discoveredSchools.filter(s=>!legendOrder.includes(s))];
   const legend=schools.map(s=>'<span><span class="sw" style="background:'+(SCHOOL_COLORS[s]||'#888')+'"></span>'+esc(s)+'</span>').join('');
   const circles=nodes.map(n=>{
     const color=SCHOOL_COLORS[n.school]||'#888';
     const showLabel=n.r>=20;
-    const label=showLabel?'<text x="'+n.x.toFixed(1)+'" y="'+(n.y+3).toFixed(1)+'" font-size="'+(n.r>40?12:10)+'" font-weight="600">'+esc(shortLabel(n.name,n.r))+'</text>':'';
+    const label=showLabel?'<text x="'+n.x.toFixed(1)+'" y="'+(n.y+3).toFixed(1)+'" font-size="'+(n.r>40?12:10)+'" font-weight="600">'+esc(shortLabel(n.name,n.r,n.code))+'</text>':'';
     const subLabel=n.r>=30?'<text x="'+n.x.toFixed(1)+'" y="'+(n.y+18).toFixed(1)+'" font-size="10" opacity="0.85">'+n.total+'</text>':'';
     return '<g class="b" data-name="'+esc(n.name)+'" data-code="'+esc(n.code||'')+'" data-school="'+esc(n.school)+'" data-total="'+n.total+'" data-primary="'+n.primary+'" data-secondary="'+n.secondary+'"><circle cx="'+n.x.toFixed(1)+'" cy="'+n.y.toFixed(1)+'" r="'+n.r.toFixed(1)+'" fill="'+color+'" fill-opacity="0.78" stroke="'+color+'" stroke-width="1.4"/>'+label+subLabel+'</g>';
   }).join('');
-  return '<div class="chartbox"><div class="chart-title">Undergraduate majors by enrollment — '+esc(d.academic_year)+' <span class="src">'+majors.length+' majors · '+totalStudents.toLocaleString()+' declared students · <a href="'+esc(d.source_url)+'">source</a></span></div><svg class="bubbles" viewBox="0 0 '+W+' '+H+'" preserveAspectRatio="xMidYMid meet">'+circles+'</svg><div class="legend">'+legend+'</div></div>';
+  const chartTitle=d.chart_title || ('Undergraduate majors by enrollment — '+esc(d.academic_year || d.academic_term || 'Current'));
+  const majorLabel=d.major_count_label || (majors.length+' majors');
+  const totalLabel=d.total_label || (totalStudents.toLocaleString()+' declared students');
+  const metaBits=[majorLabel,totalLabel].filter(Boolean);
+  const metricPills=[
+    d.totals?.distinct_undergraduates_fall_2025 ? 'Distinct undergrads: '+Number(d.totals.distinct_undergraduates_fall_2025).toLocaleString() : '',
+    d.totals?.majors_completed_in_2025 ? 'Majors completed in 2025: '+Number(d.totals.majors_completed_in_2025).toLocaleString() : ''
+  ].filter(Boolean).map(text=>'<span class="chart-pill">'+esc(text)+'</span>').join('');
+  return '<div class="chartbox">'+
+    '<div class="chart-title">'+esc(chartTitle)+' <span class="src">'+esc(metaBits.join(' · '))+' · <a href="'+esc(d.source_url)+'">source</a></span></div>'+
+    (d.scope_note ? '<div class="scope-note"><strong>Scope:</strong> '+esc(d.scope_note)+'</div>' : '')+
+    (metricPills ? '<div class="chart-meta">'+metricPills+'</div>' : '')+
+    (d.notes ? '<div class="chart-note"><strong>Method:</strong>'+esc(d.notes)+'</div>' : '')+
+    '<svg class="bubbles" viewBox="0 0 '+W+' '+H+'" preserveAspectRatio="xMidYMid meet">'+circles+'</svg>'+
+    (legend ? '<div class="legend-title">Legend</div><div class="legend">'+legend+'</div>' : '')+
+    '</div>';
 }
 
-function shortLabel(name,r){
-  const map={"Computer Science and Engineering":"CS & Eng","Artificial Intelligence and Decision Making":"AI & DM","Electrical Engineering and Computer Science":"EECS","Mathematics with Computer Science":"Math+CS","Mechanical Engineering":"MechE","Aeronautics and Astronautics":"AeroAstro","Brain and Cognitive Sciences":"Brain & Cog","Earth, Atmospheric, and Planetary Sciences":"EAPS","Materials Science and Engineering":"MatSci","Nuclear Science and Engineering":"NSE","Civil and Environmental Engineering (M.Eng.)":"CEE M.Eng","Climate System Science and Engineering":"Climate","Chemical-Biological Engineering":"ChemBio Eng","Biological Engineering":"BioE","Chemical Engineering":"ChemE","Linguistics and Philosophy":"Ling+Phil","Comparative Media Studies":"CMS","Business Analytics":"Biz Analytics","Mathematical Economics":"Math Econ","Computation and Cognition":"Comp+Cog","Computer Science, Economics and Data Science":"CS+Econ+DS","Computer Science and Molecular Biology":"CS+MolBio","Chemistry and Biology":"Chem+Bio","Electrical Engineering with Computing":"EE+Comp","Electrical Science and Engineering":"EECS-1","Urban Studies and Planning":"Urban Studies","Urban Science and Planning with Computer Science":"USPCS","Humanities and Engineering":"Hum+Eng","Humanities and Science":"Hum+Sci","Writing and Humanistic Studies":"Writing","Theater Arts":"Theater","Global Languages":"Languages"};
+function shortLabel(name,r,code){
+  const map={"Computer Science and Engineering":"CS & Eng","Artificial Intelligence and Decision Making":"AI & DM","Electrical Engineering and Computer Science":"EECS","Mathematics with Computer Science":"Math+CS","Mechanical Engineering":"MechE","Aeronautics and Astronautics":"AeroAstro","Brain and Cognitive Sciences":"Brain & Cog","Earth, Atmospheric, and Planetary Sciences":"EAPS","Materials Science and Engineering":"MatSci","Nuclear Science and Engineering":"NSE","Civil and Environmental Engineering (M.Eng.)":"CEE M.Eng","Climate System Science and Engineering":"Climate","Chemical-Biological Engineering":"ChemBio Eng","Biological Engineering":"BioE","Chemical Engineering":"ChemE","Linguistics and Philosophy":"Ling+Phil","Comparative Media Studies":"CMS","Business Analytics":"Biz Analytics","Mathematical Economics":"Math Econ","Computation and Cognition":"Comp+Cog","Computer Science, Economics and Data Science":"CS+Econ+DS","Computer Science and Molecular Biology":"CS+MolBio","Chemistry and Biology":"Chem+Bio","Electrical Engineering with Computing":"EE+Comp","Electrical Science and Engineering":"EECS-1","Urban Studies and Planning":"Urban Studies","Urban Science and Planning with Computer Science":"USPCS","Humanities and Engineering":"Hum+Eng","Humanities and Science":"Hum+Sci","Writing and Humanistic Studies":"Writing","Theater Arts":"Theater","Global Languages":"Languages","Management Science and Engineering":"MS&E","Political Science":"PoliSci","International Relations":"IR","Science, Technology, and Society":"STS","Symbolic Systems":"SymSys","Comparative Studies in Race and Ethnicity":"CSRE","Environmental Systems Engineering":"EnvE","Mathematical and Computational Science":"MCS","Theater and Performance Studies":"TAPS"};
   if(map[name])return map[name];
+  if(code && r<30)return code;
   if(r<24)return name.split(' ')[0];
   if(r<32&&name.length>14)return name.slice(0,12)+'…';
   return name;

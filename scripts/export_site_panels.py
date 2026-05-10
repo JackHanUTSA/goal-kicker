@@ -239,8 +239,17 @@ def build_rigor_payload(record: dict[str, Any]) -> dict[str, Any] | None:
 
 
 def write_json(path: Path, payload: dict[str, Any], force: bool) -> bool:
-    if path.exists() and not force:
-        return False
+    if path.exists():
+        try:
+            existing = json.loads(path.read_text())
+        except Exception:
+            existing = None
+        existing_is_rich = isinstance(existing, dict) and existing.get("mode") != "majors-list" and bool(existing.get("majors"))
+        incoming_is_fallback = payload.get("mode") == "majors-list"
+        if existing_is_rich and incoming_is_fallback:
+            return False
+        if not force:
+            return False
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n")
     return True

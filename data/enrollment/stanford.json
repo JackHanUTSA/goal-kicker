@@ -8,7 +8,7 @@
     "https://irds.stanford.edu/data-findings/enrollment",
     "https://facts.stanford.edu/academics/undergraduate-education/undergraduate-student-profile"
   ],
-  "notes": "Source-backed undergraduate study-field counts extracted from Stanford IRDS Autumn Enrollment dashboard for Aut 2025. Stanford labels this chart as duplicated School Headcount: each undergraduate plan is counted, so students with double majors appear once in each plan. Distinct Fall 2025 undergraduate headcount (7,289) comes from Stanford Facts.",
+  "notes": "Source-backed undergraduate study-field counts extracted from Stanford IRDS Autumn Enrollment for Aut 2025. Stanford labels this chart as duplicated bachelor's-plan headcount, so double majors are counted once in each plan. Distinct Fall 2025 undergraduate headcount: 7,289. Majors completed in 2025: 2,119.",
   "totals": {
     "distinct_undergraduates_fall_2025": 7289,
     "duplicated_bachelors_plan_count_aut_2025": 3669,
@@ -19,451 +19,527 @@
     {
       "name": "Computer Science",
       "total": 639,
-      "school": "Undergraduate",
+      "school": "Engineering",
       "primary": 639,
-      "secondary": 0
+      "secondary": 0,
+      "code": "CS"
     },
     {
       "name": "Economics",
       "total": 231,
-      "school": "Undergraduate",
+      "school": "Social Sciences",
       "primary": 231,
-      "secondary": 0
+      "secondary": 0,
+      "code": "Econ"
     },
     {
       "name": "Biology",
       "total": 175,
-      "school": "Undergraduate",
+      "school": "Natural Sciences",
       "primary": 175,
-      "secondary": 0
+      "secondary": 0,
+      "code": "Biology"
     },
     {
       "name": "Human Biology",
       "total": 175,
-      "school": "Undergraduate",
+      "school": "Natural Sciences",
       "primary": 175,
-      "secondary": 0
+      "secondary": 0,
+      "code": "HumBio"
     },
     {
       "name": "Symbolic Systems",
       "total": 172,
-      "school": "Undergraduate",
+      "school": "Interdisciplinary Programs",
       "primary": 172,
-      "secondary": 0
+      "secondary": 0,
+      "code": "SymSys"
     },
     {
       "name": "Electrical Engineering",
       "total": 156,
-      "school": "Undergraduate",
+      "school": "Engineering",
       "primary": 156,
-      "secondary": 0
+      "secondary": 0,
+      "code": "EE"
     },
     {
       "name": "Mathematics",
       "total": 154,
-      "school": "Undergraduate",
+      "school": "Natural Sciences",
       "primary": 154,
-      "secondary": 0
+      "secondary": 0,
+      "code": "Math"
     },
     {
       "name": "Management Science and Engineering",
       "total": 134,
-      "school": "Undergraduate",
+      "school": "Engineering",
       "primary": 134,
-      "secondary": 0
+      "secondary": 0,
+      "code": "MS&E"
     },
     {
       "name": "Psychology",
       "total": 133,
-      "school": "Undergraduate",
+      "school": "Social Sciences",
       "primary": 133,
-      "secondary": 0
+      "secondary": 0,
+      "code": "Psych"
     },
     {
       "name": "Bioengineering",
       "total": 130,
-      "school": "Undergraduate",
+      "school": "Engineering",
       "primary": 130,
-      "secondary": 0
+      "secondary": 0,
+      "code": "BioE"
     },
     {
       "name": "Mechanical Engineering",
       "total": 124,
-      "school": "Undergraduate",
+      "school": "Engineering",
       "primary": 124,
-      "secondary": 0
+      "secondary": 0,
+      "code": "MechE"
     },
     {
       "name": "Design",
       "total": 123,
-      "school": "Undergraduate",
+      "school": "Interdisciplinary Programs",
       "primary": 123,
-      "secondary": 0
+      "secondary": 0,
+      "code": "Design"
     },
     {
       "name": "Political Science",
       "total": 123,
-      "school": "Undergraduate",
+      "school": "Social Sciences",
       "primary": 123,
-      "secondary": 0
+      "secondary": 0,
+      "code": "PoliSci"
     },
     {
       "name": "Engineering",
       "total": 92,
-      "school": "Undergraduate",
+      "school": "Engineering",
       "primary": 92,
-      "secondary": 0
+      "secondary": 0,
+      "code": "Engr"
     },
     {
       "name": "International Relations",
       "total": 91,
-      "school": "Undergraduate",
+      "school": "Social Sciences",
       "primary": 91,
-      "secondary": 0
+      "secondary": 0,
+      "code": "IR"
     },
     {
       "name": "Physics",
       "total": 79,
-      "school": "Undergraduate",
+      "school": "Natural Sciences",
       "primary": 79,
-      "secondary": 0
+      "secondary": 0,
+      "code": "Physics"
     },
     {
       "name": "Data Science",
       "total": 78,
-      "school": "Undergraduate",
+      "school": "Engineering",
       "primary": 78,
-      "secondary": 0
+      "secondary": 0,
+      "code": "DataSci"
     },
     {
       "name": "Science, Technology, and Society",
       "total": 78,
-      "school": "Undergraduate",
+      "school": "Interdisciplinary Programs",
       "primary": 78,
-      "secondary": 0
+      "secondary": 0,
+      "code": "STS"
     },
     {
       "name": "Earth Systems",
       "total": 71,
-      "school": "Undergraduate",
+      "school": "Natural Sciences",
       "primary": 71,
-      "secondary": 0
+      "secondary": 0,
+      "code": "EarthSys"
     },
     {
       "name": "History",
       "total": 60,
-      "school": "Undergraduate",
+      "school": "Humanities & Arts",
       "primary": 60,
-      "secondary": 0
+      "secondary": 0,
+      "code": "History"
     },
     {
       "name": "Communication",
       "total": 55,
-      "school": "Undergraduate",
+      "school": "Social Sciences",
       "primary": 55,
-      "secondary": 0
+      "secondary": 0,
+      "code": "Comm"
     },
     {
       "name": "English",
       "total": 40,
-      "school": "Undergraduate",
+      "school": "Humanities & Arts",
       "primary": 40,
-      "secondary": 0
+      "secondary": 0,
+      "code": "English"
     },
     {
       "name": "Sociology",
       "total": 39,
-      "school": "Undergraduate",
+      "school": "Social Sciences",
       "primary": 39,
-      "secondary": 0
+      "secondary": 0,
+      "code": "Soc"
     },
     {
       "name": "Comparative Studies in Race and Ethnicity",
       "total": 36,
-      "school": "Undergraduate",
+      "school": "Interdisciplinary Programs",
       "primary": 36,
-      "secondary": 0
+      "secondary": 0,
+      "code": "CSRE"
     },
     {
       "name": "Aeronautics and Astronautics",
       "total": 35,
-      "school": "Undergraduate",
+      "school": "Engineering",
       "primary": 35,
-      "secondary": 0
+      "secondary": 0,
+      "code": "AeroAstro"
     },
     {
       "name": "Chemical Engineering",
       "total": 35,
-      "school": "Undergraduate",
+      "school": "Engineering",
       "primary": 35,
-      "secondary": 0
+      "secondary": 0,
+      "code": "ChemE"
     },
     {
       "name": "Public Policy",
       "total": 34,
-      "school": "Undergraduate",
+      "school": "Social Sciences",
       "primary": 34,
-      "secondary": 0
+      "secondary": 0,
+      "code": "PubPol"
     },
     {
       "name": "Individually Designed Major in Engineering",
       "total": 29,
-      "school": "Undergraduate",
+      "school": "Engineering",
       "primary": 29,
-      "secondary": 0
+      "secondary": 0,
+      "code": "IDMEN"
     },
     {
       "name": "Chemistry",
       "total": 26,
-      "school": "Undergraduate",
+      "school": "Natural Sciences",
       "primary": 26,
-      "secondary": 0
+      "secondary": 0,
+      "code": "Chem"
     },
     {
       "name": "Materials Science and Engineering",
       "total": 25,
-      "school": "Undergraduate",
+      "school": "Engineering",
       "primary": 25,
-      "secondary": 0
+      "secondary": 0,
+      "code": "MatSci"
     },
     {
       "name": "Civil Engineering",
       "total": 22,
-      "school": "Undergraduate",
+      "school": "Engineering",
       "primary": 22,
-      "secondary": 0
+      "secondary": 0,
+      "code": "CivilE"
     },
     {
       "name": "Art History",
       "total": 21,
-      "school": "Undergraduate",
+      "school": "Humanities & Arts",
       "primary": 21,
-      "secondary": 0
+      "secondary": 0,
+      "code": "ArtHist"
     },
     {
       "name": "Art Practice",
       "total": 19,
-      "school": "Undergraduate",
+      "school": "Humanities & Arts",
       "primary": 19,
-      "secondary": 0
+      "secondary": 0,
+      "code": "Art"
     },
     {
       "name": "Classics",
       "total": 19,
-      "school": "Undergraduate",
+      "school": "Humanities & Arts",
       "primary": 19,
-      "secondary": 0
+      "secondary": 0,
+      "code": "Classics"
     },
     {
       "name": "Music",
       "total": 18,
-      "school": "Undergraduate",
+      "school": "Humanities & Arts",
       "primary": 18,
-      "secondary": 0
+      "secondary": 0,
+      "code": "Music"
     },
     {
       "name": "Philosophy",
       "total": 18,
-      "school": "Undergraduate",
+      "school": "Humanities & Arts",
       "primary": 18,
-      "secondary": 0
+      "secondary": 0,
+      "code": "Phil"
     },
     {
       "name": "Linguistics",
       "total": 17,
-      "school": "Undergraduate",
+      "school": "Humanities & Arts",
       "primary": 17,
-      "secondary": 0
+      "secondary": 0,
+      "code": "Ling"
     },
     {
       "name": "Environmental Systems Engineering",
       "total": 16,
-      "school": "Undergraduate",
+      "school": "Engineering",
       "primary": 16,
-      "secondary": 0
+      "secondary": 0,
+      "code": "EnvE"
     },
     {
       "name": "Comparative Literature",
       "total": 15,
-      "school": "Undergraduate",
+      "school": "Humanities & Arts",
       "primary": 15,
-      "secondary": 0
+      "secondary": 0,
+      "code": "CompLit"
     },
     {
       "name": "Film and Media Studies",
       "total": 15,
-      "school": "Undergraduate",
+      "school": "Humanities & Arts",
       "primary": 15,
-      "secondary": 0
+      "secondary": 0,
+      "code": "Film"
     },
     {
       "name": "Urban Studies",
       "total": 15,
-      "school": "Undergraduate",
+      "school": "Interdisciplinary Programs",
       "primary": 15,
-      "secondary": 0
+      "secondary": 0,
+      "code": "Urban"
     },
     {
       "name": "Theater and Performance Studies",
       "total": 12,
-      "school": "Undergraduate",
+      "school": "Humanities & Arts",
       "primary": 12,
-      "secondary": 0
+      "secondary": 0,
+      "code": "TAPS"
     },
     {
       "name": "American Studies",
       "total": 10,
-      "school": "Undergraduate",
+      "school": "Humanities & Arts",
       "primary": 10,
-      "secondary": 0
+      "secondary": 0,
+      "code": "AmSt"
     },
     {
       "name": "Archaeology",
       "total": 9,
-      "school": "Undergraduate",
+      "school": "Humanities & Arts",
       "primary": 9,
-      "secondary": 0
+      "secondary": 0,
+      "code": "Arch"
     },
     {
       "name": "Earth and Planetary Sciences",
       "total": 8,
-      "school": "Undergraduate",
+      "school": "Natural Sciences",
       "primary": 8,
-      "secondary": 0
+      "secondary": 0,
+      "code": "EPS"
     },
     {
       "name": "East Asian Studies",
       "total": 8,
-      "school": "Undergraduate",
+      "school": "Humanities & Arts",
       "primary": 8,
-      "secondary": 0
+      "secondary": 0,
+      "code": "EAS"
     },
     {
       "name": "Energy Science and Engineering",
       "total": 8,
-      "school": "Undergraduate",
+      "school": "Engineering",
       "primary": 8,
-      "secondary": 0
+      "secondary": 0,
+      "code": "Energy"
     },
     {
       "name": "Anthropology",
       "total": 7,
-      "school": "Undergraduate",
+      "school": "Social Sciences",
       "primary": 7,
-      "secondary": 0
+      "secondary": 0,
+      "code": "Anthro"
     },
     {
       "name": "Feminist, Gender, and Sexuality Studies",
       "total": 5,
-      "school": "Undergraduate",
+      "school": "Humanities & Arts",
       "primary": 5,
-      "secondary": 0
+      "secondary": 0,
+      "code": "FGSS"
     },
     {
       "name": "African and African American Studies",
       "total": 4,
-      "school": "Undergraduate",
+      "school": "Humanities & Arts",
       "primary": 4,
-      "secondary": 0
+      "secondary": 0,
+      "code": "AAAS"
     },
     {
       "name": "Geophysics",
       "total": 4,
-      "school": "Undergraduate",
+      "school": "Natural Sciences",
       "primary": 4,
-      "secondary": 0
+      "secondary": 0,
+      "code": "Geophys"
     },
     {
       "name": "Native American Studies",
       "total": 4,
-      "school": "Undergraduate",
+      "school": "Humanities & Arts",
       "primary": 4,
-      "secondary": 0
+      "secondary": 0,
+      "code": "NAS"
     },
     {
       "name": "Geological Sciences",
       "total": 3,
-      "school": "Undergraduate",
+      "school": "Natural Sciences",
       "primary": 3,
-      "secondary": 0
+      "secondary": 0,
+      "code": "GeoSci"
     },
     {
       "name": "Religious Studies",
       "total": 3,
-      "school": "Undergraduate",
+      "school": "Humanities & Arts",
       "primary": 3,
-      "secondary": 0
+      "secondary": 0,
+      "code": "Relig"
     },
     {
       "name": "Slavic Languages and Literatures",
       "total": 3,
-      "school": "Undergraduate",
+      "school": "Humanities & Arts",
       "primary": 3,
-      "secondary": 0
+      "secondary": 0,
+      "code": "Slavic"
     },
     {
       "name": "Chicana/o - Latina/o Studies",
       "total": 2,
-      "school": "Undergraduate",
+      "school": "Humanities & Arts",
       "primary": 2,
-      "secondary": 0
+      "secondary": 0,
+      "code": "CLS"
     },
     {
       "name": "Energy Resources Engineering",
       "total": 2,
-      "school": "Undergraduate",
+      "school": "Engineering",
       "primary": 2,
-      "secondary": 0
+      "secondary": 0,
+      "code": "ERE"
     },
     {
       "name": "French",
       "total": 2,
-      "school": "Undergraduate",
+      "school": "Humanities & Arts",
       "primary": 2,
-      "secondary": 0
+      "secondary": 0,
+      "code": "French"
     },
     {
       "name": "Iberian and Latin American Cultures",
       "total": 2,
-      "school": "Undergraduate",
+      "school": "Humanities & Arts",
       "primary": 2,
-      "secondary": 0
+      "secondary": 0,
+      "code": "ILAC"
     },
     {
       "name": "Philosophy and Religious Studies",
       "total": 2,
-      "school": "Undergraduate",
+      "school": "Humanities & Arts",
       "primary": 2,
-      "secondary": 0
+      "secondary": 0,
+      "code": "Phil+Rel"
     },
     {
       "name": "Asian American Studies",
       "total": 1,
-      "school": "Undergraduate",
+      "school": "Humanities & Arts",
       "primary": 1,
-      "secondary": 0
+      "secondary": 0,
+      "code": "AAS"
     },
     {
       "name": "German Studies",
       "total": 1,
-      "school": "Undergraduate",
+      "school": "Humanities & Arts",
       "primary": 1,
-      "secondary": 0
+      "secondary": 0,
+      "code": "German"
     },
     {
       "name": "Mathematical and Computational Science",
       "total": 1,
-      "school": "Undergraduate",
+      "school": "Natural Sciences",
       "primary": 1,
-      "secondary": 0
+      "secondary": 0,
+      "code": "MCS"
     },
     {
       "name": "Spanish",
       "total": 1,
-      "school": "Undergraduate",
+      "school": "Humanities & Arts",
       "primary": 1,
-      "secondary": 0
+      "secondary": 0,
+      "code": "Spanish"
     }
   ],
-  "academic_year": "Aut 2025"
+  "academic_year": "Aut 2025",
+  "chart_title": "Undergraduate study fields by enrollment — Aut 2025",
+  "major_count_label": "64 study fields",
+  "total_label": "3,669 duplicated bachelor's plans",
+  "summary_note": "64 official Stanford undergraduate study fields from the IRDS Autumn 2025 enrollment dashboard; counts are duplicated bachelor's plans, not a deduplicated student census.",
+  "scope_note": "Stanford IRDS labels these as duplicated bachelor's plan counts: students with double majors appear once in each plan. Distinct Fall 2025 undergraduate headcount (7,289) comes from Stanford Facts.",
+  "legend_order": [
+    "Engineering",
+    "Natural Sciences",
+    "Social Sciences",
+    "Humanities & Arts",
+    "Interdisciplinary Programs"
+  ]
 }
