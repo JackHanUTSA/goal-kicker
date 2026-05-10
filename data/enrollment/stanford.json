@@ -1,119 +1,469 @@
 {
   "university": "Stanford University",
   "slug": "stanford",
-  "retrieved_at": "2026-05-09",
-  "mode": "majors-list",
-  "source_url": "https://majors.stanford.edu/",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
-  "summary": {
-    "majors_count": 100,
-    "titles_count": 102,
-    "count_method": "counted unique Stanford Explore Majors opportunity pages on the official text-only list, excluding the one explicit minor-labeled entry 'Dance (TAPS Minor)'",
-    "confidence": "medium"
-  },
-  "titles": [
-    "Aeronautics and Astronautics",
-    "African and African American Studies",
-    "African Studies",
-    "American Studies",
-    "Anthropology",
-    "Applied Physics",
-    "Archaeology",
-    "Art History",
-    "Art Practice",
-    "Asian American Studies",
-    "Atmosphere/Energy",
-    "Bioengineering",
-    "Biology",
-    "Biomechanical Engineering",
-    "Biomedical Computation",
-    "Chemical Engineering",
-    "Chemistry",
-    "Chicana/o - Latina/o Studies",
-    "China Studies",
-    "Civil Engineering",
-    "Classics",
-    "Communication",
-    "Comparative Literature",
-    "Comparative Studies in Race and Ethnicity",
-    "Computer Science",
-    "Creative Writing",
-    "Data Science",
-    "Data Science & Social Systems",
-    "Data Science for Artistic and Cultural Analysis",
-    "Democracy, Development, and the Rule of Law",
-    "Design",
-    "Digital Humanities",
-    "Earth and Planetary Sciences",
-    "Earth Systems",
-    "East Asian Studies",
-    "Economics",
-    "Education",
-    "Electrical Engineering",
-    "Energy Science and Engineering",
-    "Engineering Physics",
-    "English",
-    "Environmental Justice",
-    "Environmental Systems Engineering",
-    "Ethics and Technology",
-    "Ethics in Society",
-    "European Studies",
-    "Feminist, Gender, and Sexuality Studies",
-    "Film and Media Studies",
-    "French",
-    "Geophysics",
-    "German Studies",
-    "Global Studies",
-    "History",
-    "Honors in the Arts",
-    "Human Biology",
-    "Human Rights",
-    "Iberian and Latin American Cultures",
-    "International Policy Studies",
-    "International Relations",
-    "International Security Studies",
-    "Iranian Studies",
-    "Islamic Studies",
-    "Italian",
-    "Japanese",
-    "Jewish Studies",
-    "Korean",
-    "Laboratory Animal Science",
-    "Latin American Studies",
-    "Linguistics",
-    "Management Science and Engineering",
-    "Materials Science and Engineering",
-    "Mathematical and Computational Science",
-    "Mathematics",
-    "Mechanical Engineering",
-    "Medieval Studies",
-    "Middle Eastern Language, Literature and Culture",
-    "Modern Languages",
-    "Modern Thought and Literature",
-    "Music",
-    "Music, Science, and Technology",
-    "Native American Studies",
-    "Philosophy",
-    "Philosophy and Religious Studies",
-    "Physics",
-    "Political Science",
-    "Portuguese",
-    "Psychology",
-    "Public Policy",
-    "Religious Studies",
-    "Science, Technology, and Society",
-    "Slavic Languages and Literatures",
-    "Sociology",
-    "South Asian Studies",
-    "Spanish",
-    "Statistics",
-    "Sustainability",
-    "Sustainable Architecture + Engineering",
-    "Symbolic Systems",
-    "Theater and Performance Studies",
-    "Translation Studies",
-    "Urban Studies",
-    "Undergraduate Academic Advisor"
+  "academic_term": "Aut 2025",
+  "retrieved_at": "2026-05-10",
+  "source_url": "https://irds.stanford.edu/data-findings/enrollment",
+  "source_urls": [
+    "https://irds.stanford.edu/data-findings/enrollment",
+    "https://facts.stanford.edu/academics/undergraduate-education/undergraduate-student-profile"
   ],
-  "notes": "counted unique Stanford Explore Majors opportunity pages on the official text-only list, excluding the one explicit minor-labeled entry 'Dance (TAPS Minor)'; titles extracted from official page: https://majors.stanford.edu/majors"
+  "notes": "Source-backed undergraduate study-field counts extracted from Stanford IRDS Autumn Enrollment dashboard for Aut 2025. Stanford labels this chart as duplicated School Headcount: each undergraduate plan is counted, so students with double majors appear once in each plan. Distinct Fall 2025 undergraduate headcount (7,289) comes from Stanford Facts.",
+  "totals": {
+    "distinct_undergraduates_fall_2025": 7289,
+    "duplicated_bachelors_plan_count_aut_2025": 3669,
+    "bachelors_study_fields_reported": 64,
+    "majors_completed_in_2025": 2119
+  },
+  "majors": [
+    {
+      "name": "Computer Science",
+      "total": 639,
+      "school": "Undergraduate",
+      "primary": 639,
+      "secondary": 0
+    },
+    {
+      "name": "Economics",
+      "total": 231,
+      "school": "Undergraduate",
+      "primary": 231,
+      "secondary": 0
+    },
+    {
+      "name": "Biology",
+      "total": 175,
+      "school": "Undergraduate",
+      "primary": 175,
+      "secondary": 0
+    },
+    {
+      "name": "Human Biology",
+      "total": 175,
+      "school": "Undergraduate",
+      "primary": 175,
+      "secondary": 0
+    },
+    {
+      "name": "Symbolic Systems",
+      "total": 172,
+      "school": "Undergraduate",
+      "primary": 172,
+      "secondary": 0
+    },
+    {
+      "name": "Electrical Engineering",
+      "total": 156,
+      "school": "Undergraduate",
+      "primary": 156,
+      "secondary": 0
+    },
+    {
+      "name": "Mathematics",
+      "total": 154,
+      "school": "Undergraduate",
+      "primary": 154,
+      "secondary": 0
+    },
+    {
+      "name": "Management Science and Engineering",
+      "total": 134,
+      "school": "Undergraduate",
+      "primary": 134,
+      "secondary": 0
+    },
+    {
+      "name": "Psychology",
+      "total": 133,
+      "school": "Undergraduate",
+      "primary": 133,
+      "secondary": 0
+    },
+    {
+      "name": "Bioengineering",
+      "total": 130,
+      "school": "Undergraduate",
+      "primary": 130,
+      "secondary": 0
+    },
+    {
+      "name": "Mechanical Engineering",
+      "total": 124,
+      "school": "Undergraduate",
+      "primary": 124,
+      "secondary": 0
+    },
+    {
+      "name": "Design",
+      "total": 123,
+      "school": "Undergraduate",
+      "primary": 123,
+      "secondary": 0
+    },
+    {
+      "name": "Political Science",
+      "total": 123,
+      "school": "Undergraduate",
+      "primary": 123,
+      "secondary": 0
+    },
+    {
+      "name": "Engineering",
+      "total": 92,
+      "school": "Undergraduate",
+      "primary": 92,
+      "secondary": 0
+    },
+    {
+      "name": "International Relations",
+      "total": 91,
+      "school": "Undergraduate",
+      "primary": 91,
+      "secondary": 0
+    },
+    {
+      "name": "Physics",
+      "total": 79,
+      "school": "Undergraduate",
+      "primary": 79,
+      "secondary": 0
+    },
+    {
+      "name": "Data Science",
+      "total": 78,
+      "school": "Undergraduate",
+      "primary": 78,
+      "secondary": 0
+    },
+    {
+      "name": "Science, Technology, and Society",
+      "total": 78,
+      "school": "Undergraduate",
+      "primary": 78,
+      "secondary": 0
+    },
+    {
+      "name": "Earth Systems",
+      "total": 71,
+      "school": "Undergraduate",
+      "primary": 71,
+      "secondary": 0
+    },
+    {
+      "name": "History",
+      "total": 60,
+      "school": "Undergraduate",
+      "primary": 60,
+      "secondary": 0
+    },
+    {
+      "name": "Communication",
+      "total": 55,
+      "school": "Undergraduate",
+      "primary": 55,
+      "secondary": 0
+    },
+    {
+      "name": "English",
+      "total": 40,
+      "school": "Undergraduate",
+      "primary": 40,
+      "secondary": 0
+    },
+    {
+      "name": "Sociology",
+      "total": 39,
+      "school": "Undergraduate",
+      "primary": 39,
+      "secondary": 0
+    },
+    {
+      "name": "Comparative Studies in Race and Ethnicity",
+      "total": 36,
+      "school": "Undergraduate",
+      "primary": 36,
+      "secondary": 0
+    },
+    {
+      "name": "Aeronautics and Astronautics",
+      "total": 35,
+      "school": "Undergraduate",
+      "primary": 35,
+      "secondary": 0
+    },
+    {
+      "name": "Chemical Engineering",
+      "total": 35,
+      "school": "Undergraduate",
+      "primary": 35,
+      "secondary": 0
+    },
+    {
+      "name": "Public Policy",
+      "total": 34,
+      "school": "Undergraduate",
+      "primary": 34,
+      "secondary": 0
+    },
+    {
+      "name": "Individually Designed Major in Engineering",
+      "total": 29,
+      "school": "Undergraduate",
+      "primary": 29,
+      "secondary": 0
+    },
+    {
+      "name": "Chemistry",
+      "total": 26,
+      "school": "Undergraduate",
+      "primary": 26,
+      "secondary": 0
+    },
+    {
+      "name": "Materials Science and Engineering",
+      "total": 25,
+      "school": "Undergraduate",
+      "primary": 25,
+      "secondary": 0
+    },
+    {
+      "name": "Civil Engineering",
+      "total": 22,
+      "school": "Undergraduate",
+      "primary": 22,
+      "secondary": 0
+    },
+    {
+      "name": "Art History",
+      "total": 21,
+      "school": "Undergraduate",
+      "primary": 21,
+      "secondary": 0
+    },
+    {
+      "name": "Art Practice",
+      "total": 19,
+      "school": "Undergraduate",
+      "primary": 19,
+      "secondary": 0
+    },
+    {
+      "name": "Classics",
+      "total": 19,
+      "school": "Undergraduate",
+      "primary": 19,
+      "secondary": 0
+    },
+    {
+      "name": "Music",
+      "total": 18,
+      "school": "Undergraduate",
+      "primary": 18,
+      "secondary": 0
+    },
+    {
+      "name": "Philosophy",
+      "total": 18,
+      "school": "Undergraduate",
+      "primary": 18,
+      "secondary": 0
+    },
+    {
+      "name": "Linguistics",
+      "total": 17,
+      "school": "Undergraduate",
+      "primary": 17,
+      "secondary": 0
+    },
+    {
+      "name": "Environmental Systems Engineering",
+      "total": 16,
+      "school": "Undergraduate",
+      "primary": 16,
+      "secondary": 0
+    },
+    {
+      "name": "Comparative Literature",
+      "total": 15,
+      "school": "Undergraduate",
+      "primary": 15,
+      "secondary": 0
+    },
+    {
+      "name": "Film and Media Studies",
+      "total": 15,
+      "school": "Undergraduate",
+      "primary": 15,
+      "secondary": 0
+    },
+    {
+      "name": "Urban Studies",
+      "total": 15,
+      "school": "Undergraduate",
+      "primary": 15,
+      "secondary": 0
+    },
+    {
+      "name": "Theater and Performance Studies",
+      "total": 12,
+      "school": "Undergraduate",
+      "primary": 12,
+      "secondary": 0
+    },
+    {
+      "name": "American Studies",
+      "total": 10,
+      "school": "Undergraduate",
+      "primary": 10,
+      "secondary": 0
+    },
+    {
+      "name": "Archaeology",
+      "total": 9,
+      "school": "Undergraduate",
+      "primary": 9,
+      "secondary": 0
+    },
+    {
+      "name": "Earth and Planetary Sciences",
+      "total": 8,
+      "school": "Undergraduate",
+      "primary": 8,
+      "secondary": 0
+    },
+    {
+      "name": "East Asian Studies",
+      "total": 8,
+      "school": "Undergraduate",
+      "primary": 8,
+      "secondary": 0
+    },
+    {
+      "name": "Energy Science and Engineering",
+      "total": 8,
+      "school": "Undergraduate",
+      "primary": 8,
+      "secondary": 0
+    },
+    {
+      "name": "Anthropology",
+      "total": 7,
+      "school": "Undergraduate",
+      "primary": 7,
+      "secondary": 0
+    },
+    {
+      "name": "Feminist, Gender, and Sexuality Studies",
+      "total": 5,
+      "school": "Undergraduate",
+      "primary": 5,
+      "secondary": 0
+    },
+    {
+      "name": "African and African American Studies",
+      "total": 4,
+      "school": "Undergraduate",
+      "primary": 4,
+      "secondary": 0
+    },
+    {
+      "name": "Geophysics",
+      "total": 4,
+      "school": "Undergraduate",
+      "primary": 4,
+      "secondary": 0
+    },
+    {
+      "name": "Native American Studies",
+      "total": 4,
+      "school": "Undergraduate",
+      "primary": 4,
+      "secondary": 0
+    },
+    {
+      "name": "Geological Sciences",
+      "total": 3,
+      "school": "Undergraduate",
+      "primary": 3,
+      "secondary": 0
+    },
+    {
+      "name": "Religious Studies",
+      "total": 3,
+      "school": "Undergraduate",
+      "primary": 3,
+      "secondary": 0
+    },
+    {
+      "name": "Slavic Languages and Literatures",
+      "total": 3,
+      "school": "Undergraduate",
+      "primary": 3,
+      "secondary": 0
+    },
+    {
+      "name": "Chicana/o - Latina/o Studies",
+      "total": 2,
+      "school": "Undergraduate",
+      "primary": 2,
+      "secondary": 0
+    },
+    {
+      "name": "Energy Resources Engineering",
+      "total": 2,
+      "school": "Undergraduate",
+      "primary": 2,
+      "secondary": 0
+    },
+    {
+      "name": "French",
+      "total": 2,
+      "school": "Undergraduate",
+      "primary": 2,
+      "secondary": 0
+    },
+    {
+      "name": "Iberian and Latin American Cultures",
+      "total": 2,
+      "school": "Undergraduate",
+      "primary": 2,
+      "secondary": 0
+    },
+    {
+      "name": "Philosophy and Religious Studies",
+      "total": 2,
+      "school": "Undergraduate",
+      "primary": 2,
+      "secondary": 0
+    },
+    {
+      "name": "Asian American Studies",
+      "total": 1,
+      "school": "Undergraduate",
+      "primary": 1,
+      "secondary": 0
+    },
+    {
+      "name": "German Studies",
+      "total": 1,
+      "school": "Undergraduate",
+      "primary": 1,
+      "secondary": 0
+    },
+    {
+      "name": "Mathematical and Computational Science",
+      "total": 1,
+      "school": "Undergraduate",
+      "primary": 1,
+      "secondary": 0
+    },
+    {
+      "name": "Spanish",
+      "total": 1,
+      "school": "Undergraduate",
+      "primary": 1,
+      "secondary": 0
+    }
+  ],
+  "academic_year": "Aut 2025"
 }
