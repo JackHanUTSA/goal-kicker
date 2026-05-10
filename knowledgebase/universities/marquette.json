@@ -107,14 +107,6 @@
       "retrieved_at": "2026-04-20T03:06:51.718591+00:00"
     },
     {
-      "field": "admissions.testing_policy",
-      "claim": "Marquette is test-optional; students may choose to submit ACT or SAT scores, and those who do not submit a score are not penalized.",
-      "classification": "official_requirement",
-      "source_url": "https://www.marquette.edu/apply/test-optional.php",
-      "source_excerpt": "Students may choose to submit their ACT and/or SAT scores to be included among the materials evaluated in the review process. Students not submitting a test score will not be penalized for making this choice.",
-      "retrieved_at": "2026-04-20T03:48:33.021670+00:00"
-    },
-    {
       "field": "school_people.popular_professors",
       "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
       "classification": "reported_profile",
@@ -137,10 +129,18 @@
       "source_url": "https://www.marquette.edu/data-science/data-programs.php",
       "source_excerpt": "Explore Our Data Programs; Accounting Analytics; Business Analytics; Computer Engineering; Computer Science; Data Science; Statistical Science; Bioinformatics; Criminal Justice Data Analytics; Sports and Exercise Data Analytics",
       "retrieved_at": "2026-04-29T23:38:14.861404+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Marquette is test-optional; students may choose to submit ACT or SAT scores, and those who do not submit a score are not penalized.",
+      "classification": "official_requirement",
+      "source_url": "https://www.marquette.edu/apply/test-optional.php",
+      "source_excerpt": "Students may choose to submit their ACT and/or SAT scores to be included among the materials evaluated in the review process. Students not submitting a test score will not be penalized for making this choice.",
+      "retrieved_at": "2026-05-10T01:35:28.971168+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-29T23:38:14.861413+00:00",
+    "last_verified_at": "2026-05-10T01:35:28.971182+00:00",
     "confidence": "phase-5-manual-repair",
     "unknown_fields": [],
     "warnings": [
@@ -148,8 +148,8 @@
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
       "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page.",
-      "Marquette testing policy was manually repaired from the official test-optional policy page after the auto-crawl captured a stats-navigation snippet.",
-      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data.",
+      "Marquette testing policy was manually repaired from the official test-optional policy page after the auto-crawl captured a stats-navigation snippet."
     ]
   },
   "school_people": {

@@ -999,14 +999,6 @@
       "retrieved_at": "2026-04-20T03:06:14.363356+00:00"
     },
     {
-      "field": "admissions.testing_policy",
-      "claim": "Penn State is test-optional for first-year applicants; students can decide whether SAT or ACT scores should be considered, and scores are not required for the application.",
-      "classification": "official_requirement",
-      "source_url": "https://www.psu.edu/resources/faq/test-optional",
-      "source_excerpt": "For First-year applicants Penn State is test-optional, so submitting scores is not required for your application.",
-      "retrieved_at": "2026-04-20T03:48:33.021531+00:00"
-    },
-    {
       "field": "school_people.popular_professors",
       "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
       "classification": "reported_profile",
@@ -1029,10 +1021,18 @@
       "source_url": "https://bulletins.psu.edu/azindex/",
       "source_excerpt": "Catalog A-Z Index; Biological Engineering; Business Administration; Undergraduate Bulletin; About Penn State; Academic Advising; Academic Information; Academic Integrity; Academic Progress; Accounting (ACCTG); Accounting Analytics; Accounting",
       "retrieved_at": "2026-04-30T00:01:39.734072+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Penn State is test-optional for first-year applicants; students can decide whether SAT or ACT scores should be considered, and scores are not required for the application.",
+      "classification": "official_requirement",
+      "source_url": "https://www.psu.edu/resources/faq/test-optional",
+      "source_excerpt": "For First-year applicants Penn State is test-optional, so submitting scores is not required for your application.",
+      "retrieved_at": "2026-05-10T01:35:28.970772+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-30T00:01:39.734082+00:00",
+    "last_verified_at": "2026-05-10T01:35:28.970787+00:00",
     "confidence": "phase-5-manual-repair",
     "unknown_fields": [
       "admissions.course_rigor",
@@ -1043,10 +1043,10 @@
       "Major titles extracted from official school source (901 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data.",
       "admissions.course_rigor was reset to unknown during manual cleanup because the earlier auto-extracted text was unrelated to the requested admissions field.",
       "admissions.recommendations was reset to unknown during manual cleanup because the earlier auto-extracted text was unrelated to the requested admissions field.",
-      "Penn State testing policy was manually repaired from the official test-optional FAQ after the auto-crawl captured a program-specific exception.",
-      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
+      "Penn State testing policy was manually repaired from the official test-optional FAQ after the auto-crawl captured a program-specific exception."
     ]
   },
   "school_people": {

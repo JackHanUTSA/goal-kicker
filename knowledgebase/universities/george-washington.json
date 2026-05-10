@@ -95,14 +95,6 @@
       "retrieved_at": "2026-04-20T03:06:46.014546+00:00"
     },
     {
-      "field": "admissions.testing_policy",
-      "claim": "GW is test-optional for first-year applicants; students are not required to submit SAT or ACT scores, though some applicant groups still must provide them.",
-      "classification": "official_requirement",
-      "source_url": "https://undergraduate.admissions.gwu.edu/first-year-applicants",
-      "source_excerpt": "GW is test-optional, meaning students applying for first-year admission are not required to submit standardized test scores (SAT or ACT). GW requires SAT/ACT scores from the following groups:",
-      "retrieved_at": "2026-04-20T03:48:33.020562+00:00"
-    },
-    {
       "field": "majors.titles",
       "claim": "Extracted 11 official undergraduate major/program titles",
       "classification": "official_recommendation",
@@ -125,10 +117,18 @@
       "source_url": "https://en.wikipedia.org/wiki/List_of_George_Washington_University_alumni",
       "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
       "retrieved_at": "2026-04-25T09:00:57.824492+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "GW is test-optional for first-year applicants; students are not required to submit SAT or ACT scores, though some applicant groups still must provide them.",
+      "classification": "official_requirement",
+      "source_url": "https://undergraduate.admissions.gwu.edu/first-year-applicants",
+      "source_excerpt": "GW is test-optional, meaning students applying for first-year admission are not required to submit standardized test scores (SAT or ACT). GW requires SAT/ACT scores from the following groups:",
+      "retrieved_at": "2026-05-10T01:35:28.968877+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-25T09:00:57.824497+00:00",
+    "last_verified_at": "2026-05-10T01:35:28.968891+00:00",
     "confidence": "phase-5-manual-repair",
     "unknown_fields": [
       "admissions.course_rigor",
@@ -139,8 +139,8 @@
       "Major titles extracted from official school source (11 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
-      "George Washington testing policy was manually repaired from the official first-year admissions page after the auto-crawl captured nondiscrimination boilerplate.",
-      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data.",
+      "George Washington testing policy was manually repaired from the official first-year admissions page after the auto-crawl captured nondiscrimination boilerplate."
     ]
   },
   "school_people": {

@@ -9,9 +9,9 @@
       "https://www.du.edu/admission-aid",
       "https://www.du.edu/admission-aid/undergraduate",
       "https://www.du.edu/admission-aid/undergraduate/first-year-applicants/admission-standards",
-      "https://www.du.edu/admissions",
+      "https://www.du.edu/admission-aid/undergraduate/first-year-applicants/application-checklist",
       "https://www.du.edu/admission-aid/undergraduate/how-to-apply",
-      "https://www.du.edu/admission-aid/undergraduate/first-year-applicants/application-checklist"
+      "https://www.du.edu/admissions"
     ],
     "majors": [
       "https://www.du.edu/academics/undergraduate-programs",
@@ -138,14 +138,6 @@
       "retrieved_at": "2026-04-20T03:12:30.482396+00:00"
     },
     {
-      "field": "admissions.testing_policy",
-      "claim": "The University of Denver is test-optional; submitting SAT or ACT scores is the applicant\u2019s choice, and scores are considered with the rest of the application if submitted.",
-      "classification": "official_requirement",
-      "source_url": "https://www.du.edu/admission-aid/undergraduate/first-year-applicants/admission-standards",
-      "source_excerpt": "However, we are a test-optional university, and submitting test scores is your choice. If you choose to submit your SAT and/or ACT scores, they will be considered along with your other application materials for both admission and merit scholarships.",
-      "retrieved_at": "2026-04-20T03:48:33.021412+00:00"
-    },
-    {
       "field": "school_people.popular_professors",
       "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
       "classification": "reported_profile",
@@ -200,19 +192,27 @@
       "source_url": "https://www.du.edu/admission-aid/undergraduate/first-year-applicants/application-checklist",
       "source_excerpt": "The application includes an essay requirement... Students are free to choose from any of the current year's Common Application prompts for their one required essay.",
       "retrieved_at": "2026-05-09T02:48:24Z"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "The University of Denver is test-optional; submitting SAT or ACT scores is the applicant\u2019s choice, and scores are considered with the rest of the application if submitted.",
+      "classification": "official_requirement",
+      "source_url": "https://www.du.edu/admission-aid/undergraduate/first-year-applicants/admission-standards",
+      "source_excerpt": "However, we are a test-optional university, and submitting test scores is your choice. If you choose to submit your SAT and/or ACT scores, they will be considered along with your other application materials for both admission and merit scholarships.",
+      "retrieved_at": "2026-05-10T01:35:28.970467+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-05-09T02:48:24Z",
+    "last_verified_at": "2026-05-10T01:35:28.970481+00:00",
     "confidence": "phase-5-manual-repair",
     "unknown_fields": [],
     "warnings": [
       "Major titles extracted from official school source (62 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
-      "University of Denver testing policy was manually repaired from the official admission standards page after the auto-crawl captured drug/alcohol compliance text.",
       "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data.",
-      "University of Denver majors and admissions fields were manually repaired from official undergraduate programs and application-checklist pages after the prior crawl captured navigation-heavy majors text and left essay/course-rigor gaps."
+      "University of Denver majors and admissions fields were manually repaired from official undergraduate programs and application-checklist pages after the prior crawl captured navigation-heavy majors text and left essay/course-rigor gaps.",
+      "University of Denver testing policy was manually repaired from the official admission standards page after the auto-crawl captured drug/alcohol compliance text."
     ]
   },
   "school_people": {

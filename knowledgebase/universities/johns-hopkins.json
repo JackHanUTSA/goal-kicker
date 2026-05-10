@@ -6,11 +6,11 @@
   "official_domain": "jhu.edu",
   "source_urls": {
     "admissions": [
-      "https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/",
       "https://admissions.jhu.edu/academics",
       "https://admissions.jhu.edu/account/login?r=https%3A%2F%2Fadmissions.jhu.edu%2Fapply%2Fstatus&cookie=1",
       "https://apply.jhu.edu/",
       "https://apply.jhu.edu/apply/first-year-applicants/",
+      "https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/",
       "https://www.commonapp.org/explore/johns-hopkins-university/",
       "https://www.jhu.edu/admissions"
     ],
@@ -136,7 +136,7 @@
   },
   "admissions": {
     "application_platform": "Common Application",
-    "testing_policy": "Johns Hopkins University requires standardized testing for first-year applicants; the official Application Deadlines & Requirements page says standardized test scores are required and reviewed as part of the holistic application review.",
+    "testing_policy": "unknown",
     "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
     "course_rigor": "unknown",
     "recommendations": "Letters of Recommendation",
@@ -181,14 +181,6 @@
       "retrieved_at": "2026-04-20T03:01:12.873733+00:00"
     },
     {
-      "field": "admissions.application_platform",
-      "claim": "Cross-verified from the Common App school page: Johns Hopkins uses the Common Application.",
-      "classification": "cross_verification",
-      "source_url": "https://www.commonapp.org/explore/johns-hopkins-university/",
-      "source_excerpt": "The Common App school profile for Johns Hopkins is itself an application-site source and lists Johns Hopkins within the Common Application explore directory.",
-      "retrieved_at": "2026-04-20T15:15:15.610513+00:00"
-    },
-    {
       "field": "school_people.popular_professors",
       "claim": "Ranked top 20 professors from RateMyProfessors by rating count and sentiment metrics.",
       "classification": "reported_profile",
@@ -219,12 +211,21 @@
       "source_url": "https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/",
       "source_excerpt": "Johns Hopkins University requires standardized testing. As part of our holistic review process, submitted scores will be taken into consideration within the context of your broader application. We will review self-reported or official test scores as part of the application.",
       "retrieved_at": "2026-05-07T10:24:38.458804+00:00"
+    },
+    {
+      "field": "admissions.application_platform",
+      "claim": "Cross-verified from the Common App school page: Johns Hopkins uses the Common Application.",
+      "classification": "cross_verification",
+      "source_url": "https://www.commonapp.org/explore/johns-hopkins-university/",
+      "source_excerpt": "The Common App school profile for Johns Hopkins is itself an application-site source and lists Johns Hopkins within the Common Application explore directory.",
+      "retrieved_at": "2026-05-10T01:35:41.018472+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-05-07T10:24:38.458804+00:00",
+    "last_verified_at": "2026-05-10T01:35:41.018478+00:00",
     "confidence": "phase-5-cross-verified",
     "unknown_fields": [
+      "admissions.testing_policy",
       "admissions.course_rigor",
       "admissions.essays"
     ],
@@ -233,10 +234,10 @@
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
       "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data.",
       "admissions.course_rigor was reset to unknown during manual cleanup because the earlier auto-extracted text was unrelated to the requested admissions field.",
       "Johns Hopkins auto-extraction captured unrelated disclosure/catalog text; testing policy, course rigor, and majors count need a cleaner official-source pass.",
-      "Johns Hopkins application platform was cross-verified from the Common App school profile, but first-year testing-policy details were not exposed there and official JHU admissions pages remained bot-protected in this environment.",
-      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
+      "Johns Hopkins application platform was cross-verified from the Common App school profile, but first-year testing-policy details were not exposed there and official JHU admissions pages remained bot-protected in this environment."
     ]
   },
   "school_people": {

@@ -85,16 +85,16 @@
       "Dental Hygiene",
       "Earth Sciences",
       "Economics",
-      "Economics – Business",
-      "Education – Integrated Language Arts/English Education",
-      "Education – Integrated Social Studies",
-      "Education – Middle Childhood Education",
-      "Education – Primary Education",
-      "Education – Science and Mathematics Education",
-      "Education – Special Education",
-      "Education – Teaching English to Speakers of Other Languages",
-      "Education – Technical Education and Training",
-      "Education – World Language Education",
+      "Economics \u2013 Business",
+      "Education \u2013 Integrated Language Arts/English Education",
+      "Education \u2013 Integrated Social Studies",
+      "Education \u2013 Middle Childhood Education",
+      "Education \u2013 Primary Education",
+      "Education \u2013 Science and Mathematics Education",
+      "Education \u2013 Special Education",
+      "Education \u2013 Teaching English to Speakers of Other Languages",
+      "Education \u2013 Technical Education and Training",
+      "Education \u2013 World Language Education",
       "Electrical and Computer Engineering",
       "Engineering Physics",
       "Engineering Technology",
@@ -161,12 +161,12 @@
       "Molecular Genetics",
       "Moving-Image Production",
       "Music",
-      "Music – Composition",
-      "Music – Education",
-      "Music – Jazz Studies",
-      "Music – Performance (orchestral instruments)",
-      "Music – Performance (piano)",
-      "Music – Performance (voice)",
+      "Music \u2013 Composition",
+      "Music \u2013 Education",
+      "Music \u2013 Jazz Studies",
+      "Music \u2013 Performance (orchestral instruments)",
+      "Music \u2013 Performance (piano)",
+      "Music \u2013 Performance (voice)",
       "Natural Resource Management",
       "Neuroscience",
       "Nursing",
@@ -249,14 +249,6 @@
       "retrieved_at": "2026-04-20T03:03:38.095857+00:00"
     },
     {
-      "field": "admissions.testing_policy",
-      "claim": "Ohio State requires ACT or SAT scores for first-year applicants to the Columbus campus, and it says there are no minimum ACT or SAT score requirements.",
-      "classification": "official_requirement",
-      "source_url": "https://undergrad.osu.edu/apply/freshmen-columbus/apply-step-by-step",
-      "source_excerpt": "Yes, standardized test scores from ACT or SAT are required for first-year applicants to the Columbus campus.",
-      "retrieved_at": "2026-04-20T03:48:33.020354+00:00"
-    },
-    {
       "field": "school_people.popular_professors",
       "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
       "classification": "reported_profile",
@@ -287,10 +279,18 @@
       "source_url": "https://undergrad.osu.edu/majors-and-academics/majors",
       "source_excerpt": "Accounting; Actuarial Science; Aerospace Engineering; African American and African Studies; Agribusiness; Agribusiness and Applied Economics; Agricultural Communication; Agricultural Systems Management; Agriscience Education; Agronomy; Ancient History and Classics; Animal Production and Management",
       "retrieved_at": "2026-05-09T07:16:27.319950+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Ohio State requires ACT or SAT scores for first-year applicants to the Columbus campus, and it says there are no minimum ACT or SAT score requirements.",
+      "classification": "official_requirement",
+      "source_url": "https://undergrad.osu.edu/apply/freshmen-columbus/apply-step-by-step",
+      "source_excerpt": "Yes, standardized test scores from ACT or SAT are required for first-year applicants to the Columbus campus.",
+      "retrieved_at": "2026-05-10T01:35:28.968491+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-05-09T07:16:27.319950+00:00",
+    "last_verified_at": "2026-05-10T01:35:28.968513+00:00",
     "confidence": "phase-5-manual-repair",
     "unknown_fields": [
       "admissions.course_rigor",
@@ -301,8 +301,8 @@
       "Major titles extracted from official school source (172 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
-      "Ohio State testing policy was manually repaired from the official undergraduate admissions page after the auto-crawl captured unrelated SB 1 compliance text.",
-      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data.",
+      "Ohio State testing policy was manually repaired from the official undergraduate admissions page after the auto-crawl captured unrelated SB 1 compliance text."
     ]
   },
   "school_people": {
@@ -381,7 +381,7 @@
         {
           "rank": 1,
           "name": "Harlan Ellison",
-          "description": "American writer (1934–2018)",
+          "description": "American writer (1934\u20132018)",
           "wikipedia_title": "Harlan Ellison",
           "wikipedia_url": "https://en.wikipedia.org/wiki/Harlan_Ellison",
           "recent_pageviews": 555805,
@@ -399,7 +399,7 @@
         {
           "rank": 3,
           "name": "Roy Lichtenstein",
-          "description": "American pop artist (1923–1997)",
+          "description": "American pop artist (1923\u20131997)",
           "wikipedia_title": "Roy Lichtenstein",
           "wikipedia_url": "https://en.wikipedia.org/wiki/Roy_Lichtenstein",
           "recent_pageviews": 231012,
@@ -408,7 +408,7 @@
         {
           "rank": 4,
           "name": "James Thurber",
-          "description": "American cartoonist, author, journalist, and playwright (1894–1961)",
+          "description": "American cartoonist, author, journalist, and playwright (1894\u20131961)",
           "wikipedia_title": "James Thurber",
           "wikipedia_url": "https://en.wikipedia.org/wiki/James_Thurber",
           "recent_pageviews": 90004,
@@ -444,7 +444,7 @@
         {
           "rank": 8,
           "name": "Gene Sharp",
-          "description": "American political scientist (1928–2018)",
+          "description": "American political scientist (1928\u20132018)",
           "wikipedia_title": "Gene Sharp",
           "wikipedia_url": "https://en.wikipedia.org/wiki/Gene_Sharp",
           "recent_pageviews": 38472,

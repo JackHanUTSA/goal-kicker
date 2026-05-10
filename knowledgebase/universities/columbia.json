@@ -131,38 +131,6 @@
   },
   "evidence": [
     {
-      "field": "admissions.application_platform",
-      "claim": "Common Application, Coalition Application, or QuestBridge Application",
-      "classification": "cross_verification",
-      "source_url": "https://www.commonapp.org/explore/columbia-university/",
-      "source_excerpt": "We ask first-year applicants to submit the Common Application, Coalition Application or QuestBridge Application with Columbia-specific questions, a secondary school report, two teacher recommendations and optional SAT or ACT scores (self-reported).",
-      "retrieved_at": "2026-04-20T15:15:15.610316+00:00"
-    },
-    {
-      "field": "admissions.testing_policy",
-      "claim": "Cross-verified from the Common App school page: Columbia lists optional SAT or ACT scores (self-reported) for first-year applicants.",
-      "classification": "cross_verification",
-      "source_url": "https://www.commonapp.org/explore/columbia-university/",
-      "source_excerpt": "We ask first-year applicants to submit the Common Application, Coalition Application or QuestBridge Application with Columbia-specific questions, a secondary school report, two teacher recommendations and optional SAT or ACT scores (self-reported).",
-      "retrieved_at": "2026-04-20T15:15:15.610327+00:00"
-    },
-    {
-      "field": "admissions.recommendations",
-      "claim": "Cross-verified from the Common App school page: Columbia lists a secondary school report and two teacher recommendations for first-year applicants.",
-      "classification": "cross_verification",
-      "source_url": "https://www.commonapp.org/explore/columbia-university/",
-      "source_excerpt": "We ask first-year applicants to submit the Common Application, Coalition Application or QuestBridge Application with Columbia-specific questions, a secondary school report, two teacher recommendations and optional SAT or ACT scores (self-reported).",
-      "retrieved_at": "2026-04-20T15:15:15.610329+00:00"
-    },
-    {
-      "field": "admissions.essays",
-      "claim": "Cross-verified from the Common App school page: Columbia lists Columbia-specific questions as part of the first-year application.",
-      "classification": "cross_verification",
-      "source_url": "https://www.commonapp.org/explore/columbia-university/",
-      "source_excerpt": "We ask first-year applicants to submit the Common Application, Coalition Application or QuestBridge Application with Columbia-specific questions, a secondary school report, two teacher recommendations and optional SAT or ACT scores (self-reported).",
-      "retrieved_at": "2026-04-20T15:15:15.610331+00:00"
-    },
-    {
       "field": "majors.titles",
       "claim": "Extracted 57 official undergraduate department/program titles.",
       "classification": "official_recommendation",
@@ -201,10 +169,42 @@
       "source_url": "https://bulletin.columbia.edu/columbia-college/departments-instruction/",
       "source_excerpt": "This section provides information about the academic departments, institutes, centers, and programs that offer one or more undergraduate program(s) of study (i.e., majors, minors, and/or special programs).",
       "retrieved_at": "2026-05-08T20:20:27Z"
+    },
+    {
+      "field": "admissions.application_platform",
+      "claim": "Common Application, Coalition Application, or QuestBridge Application",
+      "classification": "cross_verification",
+      "source_url": "https://www.commonapp.org/explore/columbia-university/",
+      "source_excerpt": "We ask first-year applicants to submit the Common Application, Coalition Application or QuestBridge Application with Columbia-specific questions, a secondary school report, two teacher recommendations and optional SAT or ACT scores (self-reported).",
+      "retrieved_at": "2026-05-10T01:35:41.017800+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Cross-verified from the Common App school page: Columbia lists optional SAT or ACT scores (self-reported) for first-year applicants.",
+      "classification": "cross_verification",
+      "source_url": "https://www.commonapp.org/explore/columbia-university/",
+      "source_excerpt": "We ask first-year applicants to submit the Common Application, Coalition Application or QuestBridge Application with Columbia-specific questions, a secondary school report, two teacher recommendations and optional SAT or ACT scores (self-reported).",
+      "retrieved_at": "2026-05-10T01:35:41.017813+00:00"
+    },
+    {
+      "field": "admissions.recommendations",
+      "claim": "Cross-verified from the Common App school page: Columbia lists a secondary school report and two teacher recommendations for first-year applicants.",
+      "classification": "cross_verification",
+      "source_url": "https://www.commonapp.org/explore/columbia-university/",
+      "source_excerpt": "We ask first-year applicants to submit the Common Application, Coalition Application or QuestBridge Application with Columbia-specific questions, a secondary school report, two teacher recommendations and optional SAT or ACT scores (self-reported).",
+      "retrieved_at": "2026-05-10T01:35:41.017817+00:00"
+    },
+    {
+      "field": "admissions.essays",
+      "claim": "Cross-verified from the Common App school page: Columbia lists Columbia-specific questions as part of the first-year application.",
+      "classification": "cross_verification",
+      "source_url": "https://www.commonapp.org/explore/columbia-university/",
+      "source_excerpt": "We ask first-year applicants to submit the Common Application, Coalition Application or QuestBridge Application with Columbia-specific questions, a secondary school report, two teacher recommendations and optional SAT or ACT scores (self-reported).",
+      "retrieved_at": "2026-05-10T01:35:41.017819+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-05-08T20:20:27Z",
+    "last_verified_at": "2026-05-10T01:35:41.017825+00:00",
     "confidence": "phase-5-cross-verified",
     "unknown_fields": [
       "admissions.course_rigor",
@@ -214,9 +214,9 @@
       "Major titles extracted from official school source (57 titles).",
       "Phase 4 structured upgrade applied to top-10 expansion schools.",
       "Columbia admissions pages returned 403 / CloudFront blocks in this environment.",
-      "Columbia admissions fields were cross-verified from the Common App school profile because official Columbia admissions pages were bot-protected in this environment.",
       "Columbia majors count and titles now rely on the accessible official Columbia College Bulletin departments/programs page rather than the noisier A\u2013Z index fallback.",
-      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data.",
+      "Columbia admissions fields were cross-verified from the Common App school profile because official Columbia admissions pages were bot-protected in this environment."
     ]
   },
   "school_people": {

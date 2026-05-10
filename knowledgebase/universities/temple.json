@@ -647,14 +647,6 @@
       "retrieved_at": "2026-04-20T03:07:50.658531+00:00"
     },
     {
-      "field": "admissions.testing_policy",
-      "claim": "Temple is test-optional for first-year applicants; SAT or ACT scores are entirely optional and are not required for admission.",
-      "classification": "official_requirement",
-      "source_url": "https://admissions.temple.edu/apply/first-year-students/test-optional",
-      "source_excerpt": "Standardized test scores are otherwise entirely optional and in no way required for admission.",
-      "retrieved_at": "2026-04-20T03:48:33.021807+00:00"
-    },
-    {
       "field": "school_people.popular_professors",
       "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
       "classification": "reported_profile",
@@ -677,10 +669,18 @@
       "source_url": "https://www.temple.edu/academics/degree-programs",
       "source_excerpt": "Access Temple (Intensive English Language Program); Accomplished Teaching; Accountancy; Accounting; Accounting Technology; Acting; Actuarial Science; Adult Learning and Training; Adult Learning, Training and Organizational Development; Advanced Biotherapeutics; Advanced Core Health Science; Advanced Core Medical Science",
       "retrieved_at": "2026-05-07T17:12:04.683680+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Temple is test-optional for first-year applicants; SAT or ACT scores are entirely optional and are not required for admission.",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.temple.edu/apply/first-year-students/test-optional",
+      "source_excerpt": "Standardized test scores are otherwise entirely optional and in no way required for admission.",
+      "retrieved_at": "2026-05-10T01:35:28.971428+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-05-07T17:05:47.391482+00:00",
+    "last_verified_at": "2026-05-10T01:35:28.971444+00:00",
     "confidence": "phase-5-manual-repair",
     "unknown_fields": [
       "admissions.course_rigor",
@@ -692,10 +692,10 @@
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
       "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data.",
       "admissions.course_rigor was reset to unknown during manual cleanup because the earlier auto-extracted text was unrelated to the requested admissions field.",
       "admissions.recommendations was reset to unknown during manual cleanup because the earlier auto-extracted text was unrelated to the requested admissions field.",
-      "Temple testing policy was manually repaired from the official first-year test-optional page after the auto-crawl missed a clean policy sentence.",
-      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
+      "Temple testing policy was manually repaired from the official first-year test-optional page after the auto-crawl missed a clean policy sentence."
     ]
   },
   "school_people": {

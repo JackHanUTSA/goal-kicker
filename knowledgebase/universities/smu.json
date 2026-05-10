@@ -119,14 +119,6 @@
       "retrieved_at": "2026-04-20T03:06:56.384959+00:00"
     },
     {
-      "field": "admissions.testing_policy",
-      "claim": "SMU is fully test-optional; applicants who do not submit ACT or SAT scores are evaluated on other factors including grades, r\u00e9sum\u00e9, essays, and recommendation letters.",
-      "classification": "official_requirement",
-      "source_url": "https://www.smu.edu/admission/apply/undergraduate-admission/testing",
-      "source_excerpt": "SMU is fully test-optional. Under SMU\u2019s test-optional policy, applicants who choose not to submit ACT or SAT scores will be evaluated on the other factors, including grades, r\u00e9sum\u00e9, essays and recommendation letters.",
-      "retrieved_at": "2026-04-20T03:48:33.020732+00:00"
-    },
-    {
       "field": "majors.titles",
       "claim": "Extracted 30 official undergraduate major/program titles",
       "classification": "official_recommendation",
@@ -149,10 +141,18 @@
       "source_url": "https://en.wikipedia.org/wiki/List_of_Southern_Methodist_University_people",
       "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, then ranked by pageviews.",
       "retrieved_at": "2026-04-25T09:04:03.059277+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "SMU is fully test-optional; applicants who do not submit ACT or SAT scores are evaluated on other factors including grades, r\u00e9sum\u00e9, essays, and recommendation letters.",
+      "classification": "official_requirement",
+      "source_url": "https://www.smu.edu/admission/apply/undergraduate-admission/testing",
+      "source_excerpt": "SMU is fully test-optional. Under SMU\u2019s test-optional policy, applicants who choose not to submit ACT or SAT scores will be evaluated on the other factors, including grades, r\u00e9sum\u00e9, essays and recommendation letters.",
+      "retrieved_at": "2026-05-10T01:35:28.969138+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-25T09:04:03.059280+00:00",
+    "last_verified_at": "2026-05-10T01:35:28.969153+00:00",
     "confidence": "phase-5-manual-repair",
     "unknown_fields": [
       "admissions.course_rigor",
@@ -163,9 +163,9 @@
       "Major titles extracted from official school source (30 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data.",
       "admissions.course_rigor was reset to unknown during manual cleanup because the earlier auto-extracted text was unrelated to the requested admissions field.",
-      "SMU testing policy was manually repaired from the official undergraduate admission testing page after the auto-crawl captured unrelated program-marketing text.",
-      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
+      "SMU testing policy was manually repaired from the official undergraduate admission testing page after the auto-crawl captured unrelated program-marketing text."
     ]
   },
   "school_people": {

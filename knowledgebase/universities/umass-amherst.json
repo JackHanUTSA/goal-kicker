@@ -118,14 +118,6 @@
       "retrieved_at": "2026-04-20T03:11:04.527895+00:00"
     },
     {
-      "field": "admissions.testing_policy",
-      "claim": "UMass Amherst is test-optional for first-year applicants and reviews applications with or without standardized test scores across all majors.",
-      "classification": "official_requirement",
-      "source_url": "https://www.umass.edu/admissions/undergraduate-admissions/connect/information-policies/test-optional-policy",
-      "source_excerpt": "At UMass Amherst, standardized tests are optional for first-year entering applicants. UMass Amherst will review applications with or without standardized test scores. The test-optional approach at UMass Amherst applies to all majors.",
-      "retrieved_at": "2026-04-20T03:48:33.021162+00:00"
-    },
-    {
       "field": "school_people.popular_professors",
       "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
       "classification": "reported_profile",
@@ -148,10 +140,18 @@
       "source_url": "https://www.umass.edu/gateway/academics/accelerated-masters-4plus1-degree",
       "source_excerpt": "Home; Diversity at UMass; The UMass Impact; Stories by Topic; Self-Guided Tours; The Amherst Area; Checklist for First-Year Applicants; Transfer Common App Guide; Checklist for Transfer Applicants; UMass Interchange; International Students; International First-Year",
       "retrieved_at": "2026-04-29T23:39:41.834982+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "UMass Amherst is test-optional for first-year applicants and reviews applications with or without standardized test scores across all majors.",
+      "classification": "official_requirement",
+      "source_url": "https://www.umass.edu/admissions/undergraduate-admissions/connect/information-policies/test-optional-policy",
+      "source_excerpt": "At UMass Amherst, standardized tests are optional for first-year entering applicants. UMass Amherst will review applications with or without standardized test scores. The test-optional approach at UMass Amherst applies to all majors.",
+      "retrieved_at": "2026-05-10T01:35:28.969986+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-29T23:39:41.834992+00:00",
+    "last_verified_at": "2026-05-10T01:35:28.970002+00:00",
     "confidence": "phase-5-manual-repair",
     "unknown_fields": [
       "admissions.course_rigor",
@@ -163,9 +163,9 @@
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
       "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data.",
       "admissions.course_rigor was reset to unknown during manual cleanup because the earlier auto-extracted text was unrelated to the requested admissions field.",
-      "UMass Amherst testing policy was manually repaired from the official admissions test-optional policy page after the auto-crawl captured a slogan.",
-      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
+      "UMass Amherst testing policy was manually repaired from the official admissions test-optional policy page after the auto-crawl captured a slogan."
     ]
   },
   "school_people": {

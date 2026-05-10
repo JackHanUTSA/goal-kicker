@@ -98,14 +98,6 @@
       "retrieved_at": "2026-04-20T03:03:21.412386+00:00"
     },
     {
-      "field": "admissions.testing_policy",
-      "claim": "UT Austin requires official SAT or ACT scores for freshman applicants to be considered, and scores must be submitted by the application deadline.",
-      "classification": "official_requirement",
-      "source_url": "https://admissions.utexas.edu/apply/freshman/",
-      "source_excerpt": "SAT and ACT official test scores must be submitted by the appropriate deadline to be considered.",
-      "retrieved_at": "2026-04-20T03:48:33.021935+00:00"
-    },
-    {
       "field": "school_people.popular_professors",
       "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
       "classification": "reported_profile",
@@ -128,10 +120,18 @@
       "source_url": "https://gradschool.utexas.edu/degrees-programs",
       "source_excerpt": "Semiconductor Science and Engineering; Information Studies - Fifth Year Integrated Program (w/ Computer Science BS); Information Studies - Fifth Year Integrated Program (w/ Informatics BA); Information Studies - Fifth Year Integrated Program (w/ Informatics BSI); Women's and Gender Studies - Fifth Year Integrated Program; Computer Science - Fifth Year Integrated Program; Global Policy Studies - DC; Public Affairs - DC",
       "retrieved_at": "2026-04-29T23:36:21.933245+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "UT Austin requires official SAT or ACT scores for freshman applicants to be considered, and scores must be submitted by the application deadline.",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.utexas.edu/apply/freshman/",
+      "source_excerpt": "SAT and ACT official test scores must be submitted by the appropriate deadline to be considered.",
+      "retrieved_at": "2026-05-10T01:35:28.971743+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-29T23:36:21.933254+00:00",
+    "last_verified_at": "2026-05-10T01:35:28.971760+00:00",
     "confidence": "phase-5-manual-repair",
     "unknown_fields": [
       "admissions.course_rigor",
@@ -144,10 +144,10 @@
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
       "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",
       "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data.",
       "admissions.course_rigor was reset to unknown during manual cleanup because the earlier auto-extracted text was unrelated to the requested admissions field.",
       "admissions.essays was reset to unknown during manual cleanup because the earlier auto-extracted text was unrelated to the requested admissions field.",
-      "UT Austin testing policy was manually repaired from the official freshman application page after the auto-crawl left testing policy unresolved.",
-      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
+      "UT Austin testing policy was manually repaired from the official freshman application page after the auto-crawl left testing policy unresolved."
     ]
   },
   "school_people": {

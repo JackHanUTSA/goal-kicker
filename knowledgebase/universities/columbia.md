@@ -9,53 +9,16 @@ status: phase-5-cross-verified
 
 # Columbia University
 
-## Official sources
-### Admissions
-- https://undergrad.admissions.columbia.edu/apply/first-year
-- https://undergrad.admissions.columbia.edu/apply/firstyear
-- https://www.commonapp.org/explore/columbia-university/
-
-### Majors
-- https://bulletin.columbia.edu/columbia-college/departments-instruction/
-- https://bulletin.columbia.edu/azindex/
-
-## Majors
-- Count: 26
-- Count method: counted extracted undergraduate-major titles from an official page
-- Titles extracted: 26
-
-### Titles
-- Applied Physics
-- Biomedical Engineering
-- Chemical Engineering
-- Civil Engineering
-- Computer Engineering
-- Computer Science
-- Earth and Environmental Engineering
-- Electrical Engineering
-- GSAS BA/MA Option
-- Industrial Engineering
-- Materials Science
-- Mechanical Engineering
-- Mining Engineering
-- Academic Requirements
-- Combined Plan Programs
-- Fees
-- Health Insurance and Other Expenses
-- Integrated B.S./M.S. Program in Biomedical Engineering
-- James H. and Christine Turk Berick Center for Student Advising
-- Joint Programs
-- Programs in Preparation for Other Professions
-- Study Abroad
-- The First Year/Sophomore Program
-- The Junior-Senior Programs
-- Undergraduate Advanced Track
-- Undergraduate Studies
+## Structured extraction
+- Application platform: Common Application, Coalition Application, or QuestBridge Application
+- Testing policy: Cross-verified from the Common App school page: Columbia lists optional SAT or ACT scores (self-reported) for first-year applicants.
+- Recommendations: Cross-verified from the Common App school page: Columbia lists a secondary school report and two teacher recommendations for first-year applicants.
+- Essays: Cross-verified from the Common App school page: Columbia lists Columbia-specific questions as part of the first-year application.
 
 ## Warnings
-- Major titles extracted from official school source (26 titles).
+- Major titles extracted from official school source (57 titles).
 - Phase 4 structured upgrade applied to top-10 expansion schools.
-- Columbia admissions pages returned 403 / CloudFront blocks in this environment during phase 4.
-- Columbia bulletin pages were partially accessible, but a reliable structured admissions extraction was not completed in this pass.
-- Columbia admissions fields were cross-verified from the Common App school profile because official Columbia admissions pages were bot-protected in this environment.
+- Columbia admissions pages returned 403 / CloudFront blocks in this environment.
+- Columbia majors count and titles now rely on the accessible official Columbia College Bulletin departments/programs page rather than the noisier A–Z index fallback.
 - School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data.
+- Columbia admissions fields were cross-verified from the Common App school profile because official Columbia admissions pages were bot-protected in this environment.

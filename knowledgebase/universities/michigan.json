@@ -54,7 +54,7 @@
       "Bachelor of Science in Biomolecular Science",
       "Bachelor of Science in Biophysics"
     ],
-    "notes": "derived from the official University of Michigan Atlas API by counting unique bachelor-level study_field values; this is an API-derived undergraduate program-field count rather than a single admissions-page sentence; titles extracted from official page: https://atlas.ai.umich.edu/api/majorlist/",
+    "notes": "derived from the official University of Michigan Atlas API by counting unique bachelor-level study_field values; this is an API-derived undergraduate program-field count rather than a single admissions-page sentence",
     "confidence": "medium"
   },
   "admissions": {
@@ -81,62 +81,6 @@
   },
   "evidence": [
     {
-      "field": "admissions.application_platform",
-      "claim": "Michigan uses the Common App or Coalition Application.",
-      "classification": "official_requirement",
-      "source_url": "https://obp.umich.edu/wp-content/uploads/pubdata/cds/cds_2022-2023_umaa.pdf",
-      "source_excerpt": "URL for school\u2019s online application: apply.commonapp.org or coalitionforcollegeaccess.org",
-      "retrieved_at": "2026-04-20T03:28:30.269887+00:00"
-    },
-    {
-      "field": "admissions.testing_policy",
-      "claim": "Michigan treats SAT or ACT scores as considered if submitted; the official Common Data Set marks SAT or ACT under \"Consider if Submitted,\" so applicants may apply without submitting scores.",
-      "classification": "official_requirement",
-      "source_url": "https://obp.umich.edu/wp-content/uploads/pubdata/cds/cds_2022-2023_umaa.pdf",
-      "source_excerpt": "In the official Common Data Set C8A table, the SAT or ACT row is marked under \u201cConsider if Submitted.\u201d",
-      "retrieved_at": "2026-04-20T03:28:30.269905+00:00"
-    },
-    {
-      "field": "admissions.gpa_policy",
-      "claim": "Michigan does not publish a minimum GPA in the source used here, but its official Common Data Set marks both academic record and academic GPA as very important in first-year admission decisions.",
-      "classification": "reported_profile",
-      "source_url": "https://obp.umich.edu/wp-content/uploads/pubdata/cds/cds_2022-2023_umaa.pdf",
-      "source_excerpt": "In the official Common Data Set C7 table, both \u201cAcademic record\u201d and \u201cAcademic GPA\u201d are marked \u201cVery Important.\u201d",
-      "retrieved_at": "2026-04-20T03:28:30.269910+00:00"
-    },
-    {
-      "field": "admissions.course_rigor",
-      "claim": "Michigan recommends a general college-preparatory program. Its official Common Data Set lists 16 required academic units, 23+ recommended units, and specifically recommends rigorous coursework such as IB, AP, A Levels, honors, advanced, accelerated, and enriched classes.",
-      "classification": "reported_profile",
-      "source_url": "https://obp.umich.edu/wp-content/uploads/pubdata/cds/cds_2022-2023_umaa.pdf",
-      "source_excerpt": "The official Common Data Set marks a general college-preparatory program as recommended and lists 16 required / 23+ recommended academic units, including IB/AP/A Levels/honors/advanced coursework.",
-      "retrieved_at": "2026-04-20T03:28:30.269914+00:00"
-    },
-    {
-      "field": "admissions.recommendations",
-      "claim": "Michigan\u2019s official Common Data Set marks recommendations as important in first-year admissions review.",
-      "classification": "reported_profile",
-      "source_url": "https://obp.umich.edu/wp-content/uploads/pubdata/cds/cds_2022-2023_umaa.pdf",
-      "source_excerpt": "The official Common Data Set C7 table marks \u201cRecommendation(s)\u201d as Important.",
-      "retrieved_at": "2026-04-20T03:28:30.269919+00:00"
-    },
-    {
-      "field": "admissions.essays",
-      "claim": "Michigan\u2019s official Common Data Set marks the application essay as important in first-year admissions review.",
-      "classification": "reported_profile",
-      "source_url": "https://obp.umich.edu/wp-content/uploads/pubdata/cds/cds_2022-2023_umaa.pdf",
-      "source_excerpt": "The official Common Data Set C7 table marks \u201cApplication Essay\u201d as Important.",
-      "retrieved_at": "2026-04-20T03:28:30.269923+00:00"
-    },
-    {
-      "field": "majors.count",
-      "claim": "Michigan Atlas API yields 146 unique bachelor-level study_field values.",
-      "classification": "reported_profile",
-      "source_url": "https://atlas.ai.umich.edu/api/majorlist/",
-      "source_excerpt": "Official Atlas API responses were aggregated and deduplicated by bachelor-level study_field, producing 146 unique bachelor study fields.",
-      "retrieved_at": "2026-04-20T03:28:30.269927+00:00"
-    },
-    {
       "field": "school_people.popular_professors",
       "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
       "classification": "reported_profile",
@@ -159,10 +103,66 @@
       "source_url": "https://atlas.ai.umich.edu/api/majorlist/",
       "source_excerpt": "Bachelor of Science in Engineering in Aerospace Engineering; Bachelor of Arts in Afroamerican and African Studies; Bachelor of Science in Afroamerican and African Studies; Bachelor of Arts in American Culture; Bachelor of Science in American Culture; Bachelor of Arts in Ancient Civilizations and Biblical Studies; Bachelor of Arts in Anthropology; Bachelor of Science in Anthropology; Bachelor of Science in Applied Exercise Science; Bachelor of Arts in Arabic,Armenian,Persian,Turkish & Islamic Studies; Bachelor of Science in Architecture; Bachelor of Arts in Art and Design",
       "retrieved_at": "2026-05-07T23:56:26.419473+00:00"
+    },
+    {
+      "field": "admissions.application_platform",
+      "claim": "Michigan uses the Common App or Coalition Application.",
+      "classification": "official_requirement",
+      "source_url": "https://obp.umich.edu/wp-content/uploads/pubdata/cds/cds_2022-2023_umaa.pdf",
+      "source_excerpt": "URL for school\u2019s online application: apply.commonapp.org or coalitionforcollegeaccess.org",
+      "retrieved_at": "2026-05-10T01:35:27.721087+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "Michigan treats SAT or ACT scores as considered if submitted; the official Common Data Set marks SAT or ACT under \"Consider if Submitted,\" so applicants may apply without submitting scores.",
+      "classification": "official_requirement",
+      "source_url": "https://obp.umich.edu/wp-content/uploads/pubdata/cds/cds_2022-2023_umaa.pdf",
+      "source_excerpt": "In the official Common Data Set C8A table, the SAT or ACT row is marked under \u201cConsider if Submitted.\u201d",
+      "retrieved_at": "2026-05-10T01:35:27.721107+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "Michigan does not publish a minimum GPA in the source used here, but its official Common Data Set marks both academic record and academic GPA as very important in first-year admission decisions.",
+      "classification": "reported_profile",
+      "source_url": "https://obp.umich.edu/wp-content/uploads/pubdata/cds/cds_2022-2023_umaa.pdf",
+      "source_excerpt": "In the official Common Data Set C7 table, both \u201cAcademic record\u201d and \u201cAcademic GPA\u201d are marked \u201cVery Important.\u201d",
+      "retrieved_at": "2026-05-10T01:35:27.721114+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "Michigan recommends a general college-preparatory program. Its official Common Data Set lists 16 required academic units, 23+ recommended units, and specifically recommends rigorous coursework such as IB, AP, A Levels, honors, advanced, accelerated, and enriched classes.",
+      "classification": "reported_profile",
+      "source_url": "https://obp.umich.edu/wp-content/uploads/pubdata/cds/cds_2022-2023_umaa.pdf",
+      "source_excerpt": "The official Common Data Set marks a general college-preparatory program as recommended and lists 16 required / 23+ recommended academic units, including IB/AP/A Levels/honors/advanced coursework.",
+      "retrieved_at": "2026-05-10T01:35:27.721120+00:00"
+    },
+    {
+      "field": "admissions.recommendations",
+      "claim": "Michigan\u2019s official Common Data Set marks recommendations as important in first-year admissions review.",
+      "classification": "reported_profile",
+      "source_url": "https://obp.umich.edu/wp-content/uploads/pubdata/cds/cds_2022-2023_umaa.pdf",
+      "source_excerpt": "The official Common Data Set C7 table marks \u201cRecommendation(s)\u201d as Important.",
+      "retrieved_at": "2026-05-10T01:35:27.721126+00:00"
+    },
+    {
+      "field": "admissions.essays",
+      "claim": "Michigan\u2019s official Common Data Set marks the application essay as important in first-year admissions review.",
+      "classification": "reported_profile",
+      "source_url": "https://obp.umich.edu/wp-content/uploads/pubdata/cds/cds_2022-2023_umaa.pdf",
+      "source_excerpt": "The official Common Data Set C7 table marks \u201cApplication Essay\u201d as Important.",
+      "retrieved_at": "2026-05-10T01:35:27.721131+00:00"
+    },
+    {
+      "field": "majors.count",
+      "claim": "Michigan Atlas API yields 146 unique bachelor-level study_field values.",
+      "classification": "reported_profile",
+      "source_url": "https://atlas.ai.umich.edu/api/majorlist/",
+      "source_excerpt": "Official Atlas API responses were aggregated and deduplicated by bachelor-level study_field, producing 146 unique bachelor study fields.",
+      "retrieved_at": "2026-05-10T01:35:27.721136+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-05-07T23:56:26.419485+00:00",
+    "last_verified_at": "2026-05-10T01:35:27.721145+00:00",
     "confidence": "phase-5-manual-repair",
     "unknown_fields": [
       "competitive_signals.projects_research"
@@ -172,9 +172,9 @@
       "Could not fetch admissions source https://admissions.umich.edu/: HTTP Error 403: Forbidden",
       "Could not fetch majors source https://admissions.umich.edu/academics-majors: HTTP Error 403: Forbidden",
       "Phase 3 structured upgrade completed with improved majors counting, admissions extraction, and query-ready records.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data.",
       "Michigan admissions pages remain bot-protected in this environment, so this record now relies on official U-M Common Data Set and official Atlas API sources.",
-      "Michigan majors count is an official-API-derived bachelor study-field count, not a single registrar sentence from the admissions site.",
-      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
+      "Michigan majors count is an official-API-derived bachelor study-field count, not a single registrar sentence from the admissions site."
     ]
   },
   "school_people": {

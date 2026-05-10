@@ -103,14 +103,6 @@
       "retrieved_at": "2026-04-20T03:12:25.426190+00:00"
     },
     {
-      "field": "admissions.testing_policy",
-      "claim": "UC Santa Cruz does not use ACT or SAT scores in its comprehensive review and selection process.",
-      "classification": "official_requirement",
-      "source_url": "https://admissions.ucsc.edu/first-year-student",
-      "source_excerpt": "UC Santa Cruz does not use standardized exam scores (ACT/SAT) in our comprehensive review and selection process.",
-      "retrieved_at": "2026-04-20T03:48:33.021289+00:00"
-    },
-    {
       "field": "school_people.popular_professors",
       "claim": "Ranked top 5 professors from RateMyProfessors by rating count and sentiment metrics.",
       "classification": "reported_profile",
@@ -133,10 +125,18 @@
       "source_url": "https://admissions.ucsc.edu/find-your-program",
       "source_excerpt": "Ancient Studies (formerly Classical Studies); Applied Linguistics and Multilingualism; Applied Physics; Art & Design: Games + Playable Media; Artificial Intelligence; Biochemistry and Molecular Biology; Biology; Biomolecular Engineering and Bioinformatics; Biotechnology; Black Studies; Business",
       "retrieved_at": "2026-04-29T23:39:59.184940+00:00"
+    },
+    {
+      "field": "admissions.testing_policy",
+      "claim": "UC Santa Cruz does not use ACT or SAT scores in its comprehensive review and selection process.",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.ucsc.edu/first-year-student",
+      "source_excerpt": "UC Santa Cruz does not use standardized exam scores (ACT/SAT) in our comprehensive review and selection process.",
+      "retrieved_at": "2026-05-10T01:35:28.970228+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-29T23:39:59.184950+00:00",
+    "last_verified_at": "2026-05-10T01:35:28.970242+00:00",
     "confidence": "phase-5-manual-repair",
     "unknown_fields": [
       "admissions.course_rigor",
@@ -147,9 +147,9 @@
       "Major titles extracted from official school source (11 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data.",
       "admissions.course_rigor was reset to unknown during manual cleanup because the earlier auto-extracted text was unrelated to the requested admissions field.",
-      "UC Santa Cruz testing policy was manually repaired from the official first-year student page after the auto-crawl captured Clery/safety disclosure text.",
-      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
+      "UC Santa Cruz testing policy was manually repaired from the official first-year student page after the auto-crawl captured Clery/safety disclosure text."
     ]
   },
   "school_people": {
