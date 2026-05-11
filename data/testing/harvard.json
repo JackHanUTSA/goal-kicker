@@ -1,18 +1,26 @@
 {
   "university": "Harvard University",
   "slug": "harvard",
-  "retrieved_at": "2026-05-09",
+  "retrieved_at": "2026-05-10",
   "scope": "policy-summary",
-  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
-  "source_url": "https://college.harvard.edu/admissions/apply/first-year-applicants",
+  "scope_note": "Harvard's official first-year application pages describe the current testing requirement and approved substitutes for exceptional access cases. Harvard does not publish per-major testing ranges here, so this panel stays school-wide and policy-focused.",
+  "source_url": "https://college.harvard.edu/admissions/apply/application-requirements",
   "source_urls": [
-    "https://college.harvard.edu/admissions/apply/first-year-applicants",
-    "https://college.harvard.edu/admissions"
+    "https://college.harvard.edu/admissions/apply/application-requirements",
+    "https://college.harvard.edu/admissions/apply/first-year-applicants"
   ],
-  "policy": "Harvard requires SAT or ACT, with alternative exams accepted in exceptional cases when those tests are not accessible.",
+  "policy": "Harvard requires the SAT or ACT. In exceptional cases when those tests are not accessible, Harvard says applicants may instead meet the requirement with AP, IB, GCSE/A-Level, or national leaving exam results.",
   "claims": [
     {
-      "claim": "Harvard requires SAT or ACT, with alternative exams accepted in exceptional cases when those tests are not accessible.",
+      "claim": "Harvard requires the SAT or ACT to meet its standardized testing requirement.",
+      "source_url": "https://college.harvard.edu/admissions/apply/application-requirements"
+    },
+    {
+      "claim": "In exceptional cases when those tests are not accessible, Harvard says AP exam results, IB actual or predicted scores, GCSE/A-Level actual or predicted results, or national leaving exam results or predictions can meet the requirement.",
+      "source_url": "https://college.harvard.edu/admissions/apply/application-requirements"
+    },
+    {
+      "claim": "AP or other examination results are not required, but may be submitted.",
       "source_url": "https://college.harvard.edu/admissions/apply/first-year-applicants"
     }
   ]

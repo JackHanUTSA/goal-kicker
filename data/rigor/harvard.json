@@ -1,37 +1,47 @@
 {
   "university": "Harvard University",
   "slug": "harvard",
-  "retrieved_at": "2026-05-09",
-  "scope": "application-guidance",
-  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
-  "source_url": "https://college.harvard.edu/admissions",
+  "retrieved_at": "2026-05-10",
+  "scope": "institution_wide",
+  "scope_note": "This panel uses Harvard's official application-requirements and first-year application pages. The guidance is school-wide and Harvard explicitly says there is no one-size-fits-all curriculum formula.",
+  "source_url": "https://college.harvard.edu/admissions/apply/application-requirements",
   "source_urls": [
-    "https://college.harvard.edu/admissions"
+    "https://college.harvard.edu/admissions/apply/application-requirements",
+    "https://college.harvard.edu/admissions/apply/first-year-applicants"
   ],
+  "audience": "first-year applicants",
   "areas": [
     {
-      "key": "course-rigor",
-      "name": "Course rigor",
+      "key": "overall-rigor",
+      "name": "Overall rigor",
       "level": "school-guidance",
-      "summary": "Harvard emphasizes academic accomplishment and broad liberal arts and sciences study, but the cited page does not provide a single minimum course-rigor formula.",
-      "detail": "Harvard emphasizes academic accomplishment and broad liberal arts and sciences study, but the cited page does not provide a single minimum course-rigor formula.",
+      "summary": "There is no one-size-fits-all curriculum, but Harvard says students should challenge themselves with courses appropriate to their context.",
+      "detail": "Harvard says there is no one-size-fits-all rule about which curriculum to study during secondary school and advises students to challenge themselves with courses deemed appropriate by their teachers and counselors rather than simply stacking the maximum number of advanced classes.",
       "color": "#60a5fa"
     },
     {
-      "key": "recommendations",
-      "name": "Recommendations",
-      "level": "application-material",
-      "summary": "Harvard requires a school report that includes a counselor letter and two teacher recommendations.",
-      "detail": "Harvard requires a school report that includes a counselor letter and two teacher recommendations.",
+      "key": "academic-balance",
+      "name": "Academic balance",
+      "level": "contextual",
+      "summary": "Harvard warns that more advanced classes are not automatically better if they create burnout.",
+      "detail": "Harvard notes that while some students thrive with many AP, IB, or other advanced courses, others benefit from a more balanced approach that leaves room for extracurricular and personal development.",
+      "color": "#a78bfa"
+    },
+    {
+      "key": "mathematics",
+      "name": "Mathematics",
+      "level": "recommended",
+      "summary": "Harvard recommends four years of math in a challenging sequence; calculus is not required.",
+      "detail": "Harvard says applicants should excel in a challenging high school math sequence corresponding to their interests and aspirations. It recommends four years of math focused on conceptual understanding and higher-order thinking, and explicitly says calculus is not required for admission.",
       "color": "#34d399"
     },
     {
-      "key": "essays",
-      "name": "Essays",
+      "key": "recommendations-and-essays",
+      "name": "Recommendations and essays",
       "level": "application-material",
-      "summary": "Harvard requires a personal essay plus five required short-answer Harvard supplement questions.",
-      "detail": "Harvard requires a personal essay plus five required short-answer Harvard supplement questions.",
-      "color": "#fbbf24"
+      "summary": "Harvard requires a school report with counselor letter, two teacher recommendations, a personal essay, and five required short-answer supplement questions.",
+      "detail": "Harvard's first-year application requires the Common Application or Coalition Application by Scoir, a school report that includes a counselor letter and transcript, two teacher recommendations from different academic subjects, the personal essay, and five required short-answer Harvard supplement questions with 150-word limits.",
+      "color": "#fb7185"
     }
   ]
 }

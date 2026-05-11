@@ -14,7 +14,9 @@
       "https://admissions.yale.edu/majors",
       "https://catalog.yale.edu/ycps/majors-in-yale-college/"
     ],
-    "testing_policy": [],
+    "testing_policy": [
+      "https://admissions.yale.edu/standardized-testing"
+    ],
     "general": [
       "https://www.yale.edu"
     ],
@@ -130,7 +132,7 @@
       "Statistics and Data Science",
       "Theater, Dance, and Performance Studies",
       "Urban Studies",
-      "Women\u2019s, Gender, and Sexuality Studies"
+      "Women’s, Gender, and Sexuality Studies"
     ],
     "notes": "titles extracted from Yale's official Yale College Programs of Study majors page; degree suffixes were removed from the published major labels while keeping Yale's official major names.",
     "confidence": "medium",
@@ -138,11 +140,11 @@
   },
   "admissions": {
     "application_platform": null,
-    "testing_policy": "Yale uses a test-flexible policy that requires first-year applicants to submit scores from one or more of the following: ACT, AP, IB, or SAT.",
-    "gpa_policy": "Yale does not publish a minimum GPA on the cited admissions pages.",
-    "course_rigor": "The cited Yale admissions pages do not provide a single minimum course-rigor formula.",
+    "testing_policy": "Yale's test-flexible policy requires first-year applicants to submit scores from one or more of the following exams: ACT, AP, IB, or SAT; Yale considers self-reported scores and requires official results before enrollment.",
+    "gpa_policy": "Yale does not publish a minimum GPA cutoff on the cited official pages and instead says the high school transcript is the most important document, looking for students who took a broad range of challenging courses and did well.",
+    "course_rigor": "Yale says academic strength is the first consideration and looks for students who have consistently taken a broad range of challenging courses and done well, while evaluating each applicant in context.",
     "recommendations": "Yale requires letters of recommendation from two teachers and one counselor, plus a school report with transcript.",
-    "essays": "Yale requires Yale-specific short essays for first-year applicants.",
+    "essays": "Yale requires Yale-specific short-answer writing and one essay response for Common App or Coalition applicants.",
     "portfolio_or_audition": null,
     "international_notes": null,
     "deadlines": []
@@ -622,7 +624,7 @@
         {
           "rank": 1,
           "name": "Mohamed Diallo",
-          "bio": "Yale Library says Mohamed Diallo \u201926 is using archival research and interactive mapping to reconstruct the history of Yale\u2019s early Black students.",
+          "bio": "Yale Library says Mohamed Diallo ’26 is using archival research and interactive mapping to reconstruct the history of Yale’s early Black students.",
           "description": "Student researcher and digital-history project builder.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -641,7 +643,7 @@
         {
           "rank": 2,
           "name": "Hadas Dabas",
-          "bio": "Yale GSAS says Hadas Dabas \u201925 PhD was named a 2026 Schmidt Science Fellow and plans to pivot from genetics to climate-focused fungal engineering.",
+          "bio": "Yale GSAS says Hadas Dabas ’25 PhD was named a 2026 Schmidt Science Fellow and plans to pivot from genetics to climate-focused fungal engineering.",
           "description": "Schmidt Science Fellow and genetics PhD alumna.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -660,7 +662,7 @@
         {
           "rank": 3,
           "name": "Anna Bargman",
-          "bio": "Yale News says Anna Bargman \u201925, after captaining Yale women\u2019s hockey, reunited professionally with teammate Elle Hartje on the New York Sirens roster.",
+          "bio": "Yale News says Anna Bargman ’25, after captaining Yale women’s hockey, reunited professionally with teammate Elle Hartje on the New York Sirens roster.",
           "description": "Professional hockey player and former Yale captain.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -679,7 +681,7 @@
         {
           "rank": 4,
           "name": "Elle Hartje",
-          "bio": "Yale News says Elle Hartje \u201924 captained Yale women\u2019s hockey before joining the New York Sirens in the Professional Women\u2019s Hockey League.",
+          "bio": "Yale News says Elle Hartje ’24 captained Yale women’s hockey before joining the New York Sirens in the Professional Women’s Hockey League.",
           "description": "Professional hockey player and former Yale captain.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -698,7 +700,7 @@
         {
           "rank": 5,
           "name": "Conor Rooney",
-          "bio": "Yale Chemistry says Conor Rooney \u201924 PhD returned to campus as keynote speaker after launching Oxylus Energy to commercialize carbon-conversion technology developed during his doctoral work.",
+          "bio": "Yale Chemistry says Conor Rooney ’24 PhD returned to campus as keynote speaker after launching Oxylus Energy to commercialize carbon-conversion technology developed during his doctoral work.",
           "description": "Climate-tech founder and chemistry PhD alumnus.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -717,7 +719,7 @@
         {
           "rank": 6,
           "name": "Jinali Mody",
-          "bio": "Yale News says Jinali Mody \u201923 MEM, founder and CEO of a startup making plant-based leather from crop waste, was named a 2025 UN Young Champion of the Earth.",
+          "bio": "Yale News says Jinali Mody ’23 MEM, founder and CEO of a startup making plant-based leather from crop waste, was named a 2025 UN Young Champion of the Earth.",
           "description": "Climate-tech founder making plant-based leather.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -736,7 +738,7 @@
         {
           "rank": 7,
           "name": "Kimberly Hill",
-          "bio": "Yale Divinity School says Kimberly Hill \u201900 MAR wrote the romantic comedy play Joy Meets Girl while weaving in scriptural themes beneath its humor.",
+          "bio": "Yale Divinity School says Kimberly Hill ’00 MAR wrote the romantic comedy play Joy Meets Girl while weaving in scriptural themes beneath its humor.",
           "description": "Playwright and Yale Divinity alumna.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -755,7 +757,7 @@
         {
           "rank": 8,
           "name": "Derek Chang",
-          "bio": "Yale News says Derek Chang \u201989, president and CEO of Liberty Media, was appointed a successor trustee of the Yale Corporation.",
+          "bio": "Yale News says Derek Chang ’89, president and CEO of Liberty Media, was appointed a successor trustee of the Yale Corporation.",
           "description": "Media executive and Yale Corporation successor trustee.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -774,7 +776,7 @@
         {
           "rank": 9,
           "name": "Philippe Costeletos",
-          "bio": "Yale News says Philippe Costeletos \u201987, founder of Stemar Capital Partners, was appointed a successor trustee of the Yale Corporation.",
+          "bio": "Yale News says Philippe Costeletos ’87, founder of Stemar Capital Partners, was appointed a successor trustee of the Yale Corporation.",
           "description": "Investor and Yale Corporation successor trustee.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -793,7 +795,7 @@
         {
           "rank": 10,
           "name": "Min Jin Lee",
-          "bio": "Yale News says Min Jin Lee \u201990, a celebrated novelist, essayist, editor, and critic, returned to campus as the 2026 Class Day speaker.",
+          "bio": "Yale News says Min Jin Lee ’90, a celebrated novelist, essayist, editor, and critic, returned to campus as the 2026 Class Day speaker.",
           "description": "Novelist, essayist, and critic.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -812,7 +814,7 @@
         {
           "rank": 11,
           "name": "Melissa Matthes",
-          "bio": "Yale Divinity School says Melissa Matthes \u201909 MDiv teaches religion and ethics at the U.S. Coast Guard Academy and brings a strong sense of mission and service to her work.",
+          "bio": "Yale Divinity School says Melissa Matthes ’09 MDiv teaches religion and ethics at the U.S. Coast Guard Academy and brings a strong sense of mission and service to her work.",
           "description": "Educator in religion and ethics at a U.S. service academy.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -831,7 +833,7 @@
         {
           "rank": 12,
           "name": "Joe Tsai",
-          "bio": "Yale Ventures says Joe Tsai \u201986, \u201990 JD, co-founder and chairman of Alibaba Group, was chosen to keynote the 2026 Yale Innovation Summit.",
+          "bio": "Yale Ventures says Joe Tsai ’86, ’90 JD, co-founder and chairman of Alibaba Group, was chosen to keynote the 2026 Yale Innovation Summit.",
           "description": "Alibaba co-founder and business leader.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -850,7 +852,7 @@
         {
           "rank": 13,
           "name": "Bob Rifkin",
-          "bio": "Yale Insights says Bob Rifkin \u201989, board president of the Belmont Voice, is helping rebuild local news through a nonprofit community-journalism model.",
+          "bio": "Yale Insights says Bob Rifkin ’89, board president of the Belmont Voice, is helping rebuild local news through a nonprofit community-journalism model.",
           "description": "Nonprofit local-news leader.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -869,7 +871,7 @@
         {
           "rank": 14,
           "name": "Spencer Reece",
-          "bio": "Yale Divinity School says the Rev. Spencer Reece \u201911 MDiv is a priest and poet whose recent sermon reflected on church, community, and blessing.",
+          "bio": "Yale Divinity School says the Rev. Spencer Reece ’11 MDiv is a priest and poet whose recent sermon reflected on church, community, and blessing.",
           "description": "Priest and poet.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -888,7 +890,7 @@
         {
           "rank": 15,
           "name": "Jill Lepore",
-          "bio": "Yale News says historian Jill Lepore \u201995 PhD used her Tanner Lectures at Yale to examine fears of an \u2018artificial state\u2019 shaped by technology and science fiction.",
+          "bio": "Yale News says historian Jill Lepore ’95 PhD used her Tanner Lectures at Yale to examine fears of an ‘artificial state’ shaped by technology and science fiction.",
           "description": "Historian and public intellectual.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -907,7 +909,7 @@
         {
           "rank": 16,
           "name": "Josh Geballe",
-          "bio": "Yale Alumni Association says Josh Geballe \u201997, \u201902 MBA serves as Yale\u2019s senior associate provost for entrepreneurship and innovation and managing director of Yale Ventures.",
+          "bio": "Yale Alumni Association says Josh Geballe ’97, ’02 MBA serves as Yale’s senior associate provost for entrepreneurship and innovation and managing director of Yale Ventures.",
           "description": "Entrepreneurship and innovation leader at Yale.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -926,7 +928,7 @@
         {
           "rank": 17,
           "name": "Linda Rottenberg",
-          "bio": "Yale Ventures says Linda Rottenberg \u201993 built Endeavor to back ambitious entrepreneurs and prove that talent is everywhere.",
+          "bio": "Yale Ventures says Linda Rottenberg ’93 built Endeavor to back ambitious entrepreneurs and prove that talent is everywhere.",
           "description": "Endeavor co-founder and entrepreneurship leader.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -945,7 +947,7 @@
         {
           "rank": 18,
           "name": "Chimamanda Ngozi Adichie",
-          "bio": "Yale MacMillan Center says Chimamanda Ngozi Adichie \u201908 returned to Yale to discuss writing craft and the responsibility of shaping narrative.",
+          "bio": "Yale MacMillan Center says Chimamanda Ngozi Adichie ’08 returned to Yale to discuss writing craft and the responsibility of shaping narrative.",
           "description": "Internationally acclaimed novelist and essayist.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -963,8 +965,8 @@
         },
         {
           "rank": 19,
-          "name": "Kristr\u00fan Frostad\u00f3ttir",
-          "bio": "Yale Jackson School says Kristr\u00fan Frostad\u00f3ttir MA \u201916 returned to Yale as Iceland\u2019s prime minister and spoke about the country\u2019s strengths and policy direction.",
+          "name": "Kristrún Frostadóttir",
+          "bio": "Yale Jackson School says Kristrún Frostadóttir MA ’16 returned to Yale as Iceland’s prime minister and spoke about the country’s strengths and policy direction.",
           "description": "Prime minister of Iceland.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -983,7 +985,7 @@
         {
           "rank": 20,
           "name": "Caroline Nguyen",
-          "bio": "Yale Alumni Association says Caroline Nguyen \u201913 leads the AAAYA Southern California chapter and uses Lunar New Year gatherings to strengthen cross-generational Yale alumni connections.",
+          "bio": "Yale Alumni Association says Caroline Nguyen ’13 leads the AAAYA Southern California chapter and uses Lunar New Year gatherings to strengthen cross-generational Yale alumni connections.",
           "description": "Alumni-community leader and AAAYA chapter head.",
           "wikipedia_title": null,
           "wikipedia_url": null,

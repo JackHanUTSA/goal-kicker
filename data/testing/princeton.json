@@ -1,21 +1,31 @@
 {
   "university": "Princeton University",
   "slug": "princeton",
-  "retrieved_at": "2026-05-09",
+  "retrieved_at": "2026-05-10",
   "scope": "policy-summary",
-  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
-  "source_url": "https://admission.princeton.edu/apply/application-checklist",
+  "scope_note": "Princeton's official testing page explains both the current temporary test-optional policy and the planned return to required SAT/ACT testing for the next cycle. Princeton does not publish per-major testing ranges here, so this panel stays school-wide.",
+  "source_url": "https://admission.princeton.edu/apply/standardized-testing",
   "source_urls": [
-    "https://admission.princeton.edu/apply/application-checklist",
     "https://admission.princeton.edu/apply/standardized-testing",
-    "https://admission.princeton.edu/apply/princeton-specific-questions",
-    "https://www.princeton.edu"
+    "https://admission.princeton.edu/apply/application-checklist"
   ],
-  "policy": "Princeton is test-optional for first-year applicants applying for fall 2026 and fall 2027 entry; Princeton says it will once again require testing for students applying for fall 2028 entry.",
+  "policy": "Princeton is test-optional for first-year applicants seeking fall 2026 or fall 2027 entry, and it will return to requiring the SAT or ACT for applicants seeking fall 2028 entry.",
   "claims": [
     {
-      "claim": "Princeton is test-optional for first-year applicants applying for fall 2026 and fall 2027 entry; Princeton says it will once again require testing for students applying for fall 2028 entry.",
-      "source_url": "https://admission.princeton.edu/apply/application-checklist"
+      "claim": "Princeton will return to requiring standardized testing for undergraduate admission beginning with the 2027-28 admission cycle.",
+      "source_url": "https://admission.princeton.edu/apply/standardized-testing"
+    },
+    {
+      "claim": "First-year applicants seeking to enroll in fall 2028 will need to submit either SAT or ACT scores.",
+      "source_url": "https://admission.princeton.edu/apply/standardized-testing"
+    },
+    {
+      "claim": "There are no minimum test score requirements for admission.",
+      "source_url": "https://admission.princeton.edu/apply/standardized-testing"
+    },
+    {
+      "claim": "Princeton has no preference for the SAT versus the ACT.",
+      "source_url": "https://admission.princeton.edu/apply/standardized-testing"
     }
   ]
 }

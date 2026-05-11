@@ -12,7 +12,10 @@
       "https://college.harvard.edu/academics",
       "https://college.harvard.edu/academics/liberal-arts-sciences/concentrations"
     ],
-    "testing_policy": [],
+    "testing_policy": [
+      "https://college.harvard.edu/admissions/apply/application-requirements",
+      "https://college.harvard.edu/admissions/apply/first-year-applicants"
+    ],
     "general": [],
     "professors": [
       "https://www.ratemyprofessors.com/school/399"
@@ -78,11 +81,11 @@
   },
   "admissions": {
     "application_platform": null,
-    "testing_policy": "Harvard requires SAT or ACT, with alternative exams accepted in exceptional cases when those tests are not accessible.",
-    "gpa_policy": "Harvard does not state a simple minimum GPA on the cited first-year page.",
-    "course_rigor": "Harvard emphasizes academic accomplishment and broad liberal arts and sciences study, but the cited page does not provide a single minimum course-rigor formula.",
-    "recommendations": "Harvard requires a school report that includes a counselor letter and two teacher recommendations.",
-    "essays": "Harvard requires a personal essay plus five required short-answer Harvard supplement questions.",
+    "testing_policy": "Harvard requires the SAT or ACT; in exceptional cases when those tests are not accessible, Harvard says applicants may instead meet the requirement with AP, IB, GCSE/A-Level, or national leaving exam results.",
+    "gpa_policy": "Harvard does not publish a minimum GPA cutoff on its official application page and instead emphasizes challenging coursework, transcript strength, and performance over time.",
+    "course_rigor": "Harvard says there is no one-size-fits-all curriculum, but applicants should challenge themselves with courses appropriate to their context; it specifically recommends four years of math in a challenging sequence and says calculus is not required.",
+    "recommendations": "Harvard requires a school report with counselor letter and transcript plus two teacher recommendations from different academic subjects.",
+    "essays": "Harvard requires the personal essay and five required short-answer Harvard supplement questions with 150-word limits.",
     "portfolio_or_audition": null,
     "international_notes": null,
     "deadlines": []
@@ -580,7 +583,7 @@
         {
           "rank": 1,
           "name": "Maria Perez-Matos",
-          "bio": "Harvard GSAS says Maria Perez-Matos PhD \u201925 studies molecular mechanisms of aging and hopes her longevity research will help people live healthier, longer lives.",
+          "bio": "Harvard GSAS says Maria Perez-Matos PhD ’25 studies molecular mechanisms of aging and hopes her longevity research will help people live healthier, longer lives.",
           "description": "Longevity researcher and recent GSAS PhD alumna.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -599,7 +602,7 @@
         {
           "rank": 2,
           "name": "Jonny Kim",
-          "bio": "Harvard Gazette says Jonny Kim, MD \u201916 is a NASA astronaut, Harvard-trained physician, and decorated Navy SEAL veteran chosen to address Harvard Alumni Day.",
+          "bio": "Harvard Gazette says Jonny Kim, MD ’16 is a NASA astronaut, Harvard-trained physician, and decorated Navy SEAL veteran chosen to address Harvard Alumni Day.",
           "description": "NASA astronaut, physician, and former Navy SEAL.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -618,7 +621,7 @@
         {
           "rank": 3,
           "name": "Amy Huang",
-          "bio": "Harvard Alumni says Amy Huang \u201917 wants to help the world find new ways of feeding itself through work focused on food systems and sustainability.",
+          "bio": "Harvard Alumni says Amy Huang ’17 wants to help the world find new ways of feeding itself through work focused on food systems and sustainability.",
           "description": "Food-systems entrepreneur and sustainability-focused alumna.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -637,7 +640,7 @@
         {
           "rank": 4,
           "name": "Kristen Faulkner",
-          "bio": "Harvard Alumni says cyclist Kristen Faulkner \u201916 turned a borrowed bike and a new hobby into Olympic gold.",
+          "bio": "Harvard Alumni says cyclist Kristen Faulkner ’16 turned a borrowed bike and a new hobby into Olympic gold.",
           "description": "Olympic cyclist.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -656,7 +659,7 @@
         {
           "rank": 5,
           "name": "Kirsten Van Fossen",
-          "bio": "Harvard SEAS says Kirsten Van Fossen SB \u201912 is using electrochemistry to turn carbon dioxide into usable sustainable fuel.",
+          "bio": "Harvard SEAS says Kirsten Van Fossen SB ’12 is using electrochemistry to turn carbon dioxide into usable sustainable fuel.",
           "description": "Clean-energy entrepreneur working on carbon-to-fuel systems.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -675,7 +678,7 @@
         {
           "rank": 6,
           "name": "Aaron Sabin",
-          "bio": "Harvard GSAS says Aaron Sabin MS/MBA \u201923 is developing a practical carbon-capture approach intended to remove billions of tons of CO2 from the atmosphere.",
+          "bio": "Harvard GSAS says Aaron Sabin MS/MBA ’23 is developing a practical carbon-capture approach intended to remove billions of tons of CO2 from the atmosphere.",
           "description": "Climate-tech entrepreneur focused on carbon capture.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -694,7 +697,7 @@
         {
           "rank": 7,
           "name": "Nina Sayles",
-          "bio": "Harvard Gazette says Nina Sayles MPH/MUP \u201922 is scaling local agriculture to address nutrition, sustainability, and food insecurity.",
+          "bio": "Harvard Gazette says Nina Sayles MPH/MUP ’22 is scaling local agriculture to address nutrition, sustainability, and food insecurity.",
           "description": "Public-health and urban-planning alumna focused on food systems.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -713,7 +716,7 @@
         {
           "rank": 8,
           "name": "Jacqueline Ashmore",
-          "bio": "Harvard Alumni says Jacqueline Ashmore PhD \u201903, executive vice president of engineering at New Leaf Energy, leads development of solar, storage, and wind technologies.",
+          "bio": "Harvard Alumni says Jacqueline Ashmore PhD ’03, executive vice president of engineering at New Leaf Energy, leads development of solar, storage, and wind technologies.",
           "description": "Clean-energy engineering executive.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -732,7 +735,7 @@
         {
           "rank": 9,
           "name": "Brooke Ellison",
-          "bio": "Harvard Alumni says Brooke Ellison AB \u201900, MPP \u201904 advocates for disability inclusion and helped launch Harvard\u2019s disability-focused Shared Interest Group.",
+          "bio": "Harvard Alumni says Brooke Ellison AB ’00, MPP ’04 advocates for disability inclusion and helped launch Harvard’s disability-focused Shared Interest Group.",
           "description": "Disability-inclusion advocate and public-policy alumna.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -770,7 +773,7 @@
         {
           "rank": 11,
           "name": "Tracy Moore II",
-          "bio": "Harvard Gazette says Tracy \u201cTy\u201d Moore II \u201906 entered the Harvard Alumni Association presidency focused on relationship-building, identity, and connection across differences.",
+          "bio": "Harvard Gazette says Tracy “Ty” Moore II ’06 entered the Harvard Alumni Association presidency focused on relationship-building, identity, and connection across differences.",
           "description": "Harvard Alumni Association president and community-builder.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -789,7 +792,7 @@
         {
           "rank": 12,
           "name": "William Makris",
-          "bio": "Harvard Gazette says William Makris EdM \u201900 became incoming HAA board president with a goal of helping alumni share experiences and learn from one another.",
+          "bio": "Harvard Gazette says William Makris EdM ’00 became incoming HAA board president with a goal of helping alumni share experiences and learn from one another.",
           "description": "Incoming Harvard Alumni Association board president.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -808,7 +811,7 @@
         {
           "rank": 13,
           "name": "Allyson Mendenhall",
-          "bio": "Harvard Gazette says Allyson Mendenhall AB \u201990, MLA \u201999 became the first Graduate School of Design alum to serve as HAA president and emphasized inclusive alumni experiences.",
+          "bio": "Harvard Gazette says Allyson Mendenhall AB ’90, MLA ’99 became the first Graduate School of Design alum to serve as HAA president and emphasized inclusive alumni experiences.",
           "description": "Harvard Alumni Association president and design alumna.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -827,7 +830,7 @@
         {
           "rank": 14,
           "name": "Mary Louise Kelly",
-          "bio": "Harvard Gazette says Mary Louise Kelly \u201993 is an award-winning journalist, broadcaster, and author selected as featured speaker for Harvard Alumni Day.",
+          "bio": "Harvard Gazette says Mary Louise Kelly ’93 is an award-winning journalist, broadcaster, and author selected as featured speaker for Harvard Alumni Day.",
           "description": "Journalist, broadcaster, and author.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -846,7 +849,7 @@
         {
           "rank": 15,
           "name": "Sewell Chan",
-          "bio": "Harvard Gazette says distinguished journalist Sewell Chan AB \u201998 was chosen by classmates to serve as chief marshal of alumni for his 25th reunion.",
+          "bio": "Harvard Gazette says distinguished journalist Sewell Chan AB ’98 was chosen by classmates to serve as chief marshal of alumni for his 25th reunion.",
           "description": "Journalist and alumni chief marshal.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -865,7 +868,7 @@
         {
           "rank": 16,
           "name": "Nozipo Maraire",
-          "bio": "Harvard Alumni says neurosurgeon, author, and green-energy entrepreneur Nozipo Maraire AB \u201987 is changing the conversation about climate change and Africa.",
+          "bio": "Harvard Alumni says neurosurgeon, author, and green-energy entrepreneur Nozipo Maraire AB ’87 is changing the conversation about climate change and Africa.",
           "description": "Neurosurgeon, author, and green-energy entrepreneur.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -884,7 +887,7 @@
         {
           "rank": 17,
           "name": "Christian Cooper",
-          "bio": "Harvard Alumni says Christian Cooper \u201984 combines birding, storytelling, and science communication and encourages people to \u2018nerd out and look up.\u2019",
+          "bio": "Harvard Alumni says Christian Cooper ’84 combines birding, storytelling, and science communication and encourages people to ‘nerd out and look up.’",
           "description": "Naturalist, writer, and science communicator.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -903,7 +906,7 @@
         {
           "rank": 18,
           "name": "Saul Perlmutter",
-          "bio": "Harvard Alumni says Saul Perlmutter \u201981 received a Nobel Prize in physics after the middle-of-the-night call that every scientist dreams about.",
+          "bio": "Harvard Alumni says Saul Perlmutter ’81 received a Nobel Prize in physics after the middle-of-the-night call that every scientist dreams about.",
           "description": "Nobel Prize-winning physicist.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -922,7 +925,7 @@
         {
           "rank": 19,
           "name": "Andrew I. Caster",
-          "bio": "Harvard Alumni says Andrew I. Caster AB \u201976, MD \u201980 established a legacy gift to endow a Harvard Medical School professorship in support of biomedical research.",
+          "bio": "Harvard Alumni says Andrew I. Caster AB ’76, MD ’80 established a legacy gift to endow a Harvard Medical School professorship in support of biomedical research.",
           "description": "Physician and Harvard Medical School benefactor.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -941,7 +944,7 @@
         {
           "rank": 20,
           "name": "Jacqueline Jacobs Caster",
-          "bio": "Harvard Alumni says Jacqueline Jacobs Caster MCRP \u201983 joined Andrew I. Caster in creating a legacy gift to endow a Harvard Medical School professorship.",
+          "bio": "Harvard Alumni says Jacqueline Jacobs Caster MCRP ’83 joined Andrew I. Caster in creating a legacy gift to endow a Harvard Medical School professorship.",
           "description": "Philanthropist and Harvard benefactor.",
           "wikipedia_title": null,
           "wikipedia_url": null,

@@ -1,15 +1,26 @@
 {
   "university": "Yale University",
   "slug": "yale",
-  "retrieved_at": "2026-05-09",
-  "scope": "policy-summary",
-  "scope_note": "Goal Kicker currently exports GPA-policy notes for this school. Where the school does not publish a hard GPA cutoff or admitted-student GPA distribution, the panel says that directly instead of inventing a threshold.",
+  "retrieved_at": "2026-05-10",
+  "scope": "official-policy-summary",
+  "scope_note": "Yale's official admissions pages do not publish a minimum GPA cutoff or admitted-student GPA distribution. This panel summarizes what Yale officially says about transcript strength, course choice, and context-based review instead of inventing a GPA threshold.",
   "source_urls": [
-    "https://admissions.yale.edu/requirements",
-    "https://admissions.yale.edu/standardized-testing",
-    "https://admissions.yale.edu/essay-topics",
-    "https://www.yale.edu"
+    "https://admissions.yale.edu/what-yale-looks-for",
+    "https://admissions.yale.edu/requirements"
   ],
-  "policy_summary": "Yale does not publish a minimum GPA on the cited admissions pages.",
-  "what_mit_does_say": []
+  "policy_summary": "Yale does not state a minimum required GPA on the cited official pages. Instead, it says the high school transcript is the single most important document and looks for students who have taken a broad range of challenging courses and done well.",
+  "what_mit_does_say": [
+    {
+      "claim": "Yale says the single most important document in the application is the high school transcript.",
+      "source_url": "https://admissions.yale.edu/what-yale-looks-for"
+    },
+    {
+      "claim": "Yale looks for students who have consistently taken a broad range of challenging courses in high school and have done well.",
+      "source_url": "https://admissions.yale.edu/what-yale-looks-for"
+    },
+    {
+      "claim": "Applicants are considered within their own context so that no student is disadvantaged for not taking advantage of a resource that was not available to them.",
+      "source_url": "https://admissions.yale.edu/what-yale-looks-for"
+    }
+  ]
 }

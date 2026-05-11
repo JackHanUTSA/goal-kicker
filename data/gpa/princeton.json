@@ -1,15 +1,30 @@
 {
   "university": "Princeton University",
   "slug": "princeton",
-  "retrieved_at": "2026-05-09",
-  "scope": "policy-summary",
-  "scope_note": "Goal Kicker currently exports GPA-policy notes for this school. Where the school does not publish a hard GPA cutoff or admitted-student GPA distribution, the panel says that directly instead of inventing a threshold.",
+  "retrieved_at": "2026-05-10",
+  "scope": "official-policy-summary",
+  "scope_note": "Princeton's official admissions pages do not publish a minimum GPA cutoff or admitted-student GPA distribution. This panel summarizes what Princeton officially says about preparation, context, and readiness for its academic environment.",
   "source_urls": [
-    "https://admission.princeton.edu/apply/application-checklist",
-    "https://admission.princeton.edu/apply/standardized-testing",
-    "https://admission.princeton.edu/apply/princeton-specific-questions",
-    "https://www.princeton.edu"
+    "https://admission.princeton.edu/apply/before-you-apply",
+    "https://admission.princeton.edu/apply/standardized-testing"
   ],
-  "policy_summary": "Princeton does not publish a minimum GPA on the cited admissions pages.",
-  "what_mit_does_say": []
+  "policy_summary": "Princeton does not state a minimum GPA on the cited official pages. Instead, it frames evaluation around whether students are prepared to thrive in Princeton's rigorous academic environment, with full consideration for the opportunities available at their school.",
+  "what_mit_does_say": [
+    {
+      "claim": "Princeton says its goal is to find students who will thrive in Princeton's rigorous academic environment.",
+      "source_url": "https://admission.princeton.edu/apply/before-you-apply"
+    },
+    {
+      "claim": "Its recommended course of study is not a list of admission requirements.",
+      "source_url": "https://admission.princeton.edu/apply/before-you-apply"
+    },
+    {
+      "claim": "Princeton says not all secondary schools offer the same academic opportunities and gives full consideration to students who do not have access to all of the suggested courses.",
+      "source_url": "https://admission.princeton.edu/apply/before-you-apply"
+    },
+    {
+      "claim": "Princeton says there are no minimum test score requirements for admission, reinforcing its broader holistic review approach.",
+      "source_url": "https://admission.princeton.edu/apply/standardized-testing"
+    }
+  ]
 }

@@ -14,7 +14,9 @@
       "https://admission.princeton.edu/academics/degrees-departments",
       "https://www.princeton.edu/academics"
     ],
-    "testing_policy": [],
+    "testing_policy": [
+      "https://admission.princeton.edu/apply/standardized-testing"
+    ],
     "general": [
       "https://www.princeton.edu"
     ],
@@ -92,11 +94,11 @@
   },
   "admissions": {
     "application_platform": null,
-    "testing_policy": "Princeton is test-optional for first-year applicants applying for fall 2026 and fall 2027 entry; Princeton says it will once again require testing for students applying for fall 2028 entry.",
-    "gpa_policy": "Princeton does not publish a minimum GPA on the cited admissions pages.",
-    "course_rigor": "No simple minimum course-rigor formula is stated on the cited Princeton pages, but Princeton asks for teacher recommendations from higher level courses in core academic areas.",
-    "recommendations": "Princeton requires a counselor recommendation plus two teacher recommendations from higher level courses in different academic areas.",
-    "essays": "Princeton requires Princeton-specific questions and a graded written paper for first-year applicants.",
+    "testing_policy": "Princeton is test-optional for first-year applicants seeking fall 2026 or fall 2027 entry, and it will return to requiring the SAT or ACT for applicants seeking fall 2028 entry.",
+    "gpa_policy": "Princeton does not publish a minimum GPA on the cited official pages and instead frames evaluation around readiness for its rigorous academic environment in the context of available school opportunities.",
+    "course_rigor": "Princeton presents a suggested course of study rather than rigid requirements: if possible, students should complete four years of English, four years of math, four years of one language, at least two years of laboratory science, and at least two years of history while taking the most rigorous available courses.",
+    "recommendations": "Princeton requires a counselor recommendation and two teacher recommendations from higher-level courses in different core academic areas.",
+    "essays": "Princeton requires Princeton-specific questions and a graded written paper, preferably in English or history.",
     "portfolio_or_audition": null,
     "international_notes": null,
     "deadlines": []
@@ -569,7 +571,7 @@
         {
           "rank": 1,
           "name": "Fei-Fei Li",
-          "bio": "Princeton Alumni describes Fei-Fei Li \u201999 as the Sequoia Capital Professor in Computer Science at Stanford University and co-director of Stanford HAI, highlighting more than 25 years of work advancing AI, computer vision, deep learning, and healthcare AI systems.",
+          "bio": "Princeton Alumni describes Fei-Fei Li ’99 as the Sequoia Capital Professor in Computer Science at Stanford University and co-director of Stanford HAI, highlighting more than 25 years of work advancing AI, computer vision, deep learning, and healthcare AI systems.",
           "description": "Stanford computer scientist and AI leader.",
           "wikipedia_title": "Fei-Fei Li",
           "wikipedia_url": "https://en.wikipedia.org/wiki/Fei-Fei_Li",
@@ -607,7 +609,7 @@
         {
           "rank": 3,
           "name": "Mimi Onuoha",
-          "bio": "Princeton Alumni says media artist and researcher Mimi Onuoha \u201911 examines how technology shapes culture and behavior, especially how lived experiences are converted into data and represented or misrepresented.",
+          "bio": "Princeton Alumni says media artist and researcher Mimi Onuoha ’11 examines how technology shapes culture and behavior, especially how lived experiences are converted into data and represented or misrepresented.",
           "description": "Media artist and researcher focused on data and technology.",
           "wikipedia_title": "Mimi Onuoha",
           "wikipedia_url": "https://en.wikipedia.org/wiki/Mimi_Onuoha",
@@ -626,7 +628,7 @@
         {
           "rank": 4,
           "name": "Jordan Salama",
-          "bio": "Princeton Alumni says Jordan Salama \u201919, after publishing his second book, was set to lead a Princeton Journeys trip to Buenos Aires designed for recent alumni.",
+          "bio": "Princeton Alumni says Jordan Salama ’19, after publishing his second book, was set to lead a Princeton Journeys trip to Buenos Aires designed for recent alumni.",
           "description": "Author and Princeton Journeys trip leader.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -645,7 +647,7 @@
         {
           "rank": 5,
           "name": "Daniella Cohen",
-          "bio": "Princeton Alumni says Daniella Cohen \u201922 co-founded GIVE, a nonprofit that connects students worldwide through pen-pal writing exchanges, and highlights her involvement with the Princeton Prize in Race Relations.",
+          "bio": "Princeton Alumni says Daniella Cohen ’22 co-founded GIVE, a nonprofit that connects students worldwide through pen-pal writing exchanges, and highlights her involvement with the Princeton Prize in Race Relations.",
           "description": "Nonprofit co-founder and Princeton Prize in Race Relations volunteer.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -664,7 +666,7 @@
         {
           "rank": 6,
           "name": "Lou Chen",
-          "bio": "Princeton Alumni says Lou Chen \u201919 helped grow a volunteer violin-lesson effort into a broader Trenton arts and music program connecting Princeton and Trenton communities.",
+          "bio": "Princeton Alumni says Lou Chen ’19 helped grow a volunteer violin-lesson effort into a broader Trenton arts and music program connecting Princeton and Trenton communities.",
           "description": "Community arts organizer and Trenton music-program builder.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -683,7 +685,7 @@
         {
           "rank": 7,
           "name": "Karthick Ramakrishnan",
-          "bio": "Princeton Alumni says Karthick Ramakrishnan *02, president of the Association of Princeton Graduate Alumni, works to ensure graduate students and graduate alumni are recognized contributors to Princeton\u2019s excellence.",
+          "bio": "Princeton Alumni says Karthick Ramakrishnan *02, president of the Association of Princeton Graduate Alumni, works to ensure graduate students and graduate alumni are recognized contributors to Princeton’s excellence.",
           "description": "Association of Princeton Graduate Alumni president and graduate-alumni advocate.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -702,7 +704,7 @@
         {
           "rank": 8,
           "name": "Mary Newburn",
-          "bio": "Princeton Alumni says Mary Newburn \u201997 served as president of the Alumni Association and chair of the Alumni Council, emphasizing belonging and community-building among Tigers.",
+          "bio": "Princeton Alumni says Mary Newburn ’97 served as president of the Alumni Association and chair of the Alumni Council, emphasizing belonging and community-building among Tigers.",
           "description": "Former Princeton Alumni Association president and Alumni Council chair.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -721,7 +723,7 @@
         {
           "rank": 9,
           "name": "Monica Moore Thompson",
-          "bio": "Princeton Alumni says Monica Moore Thompson \u201989 became president of the Alumni Association and chair of the Alumni Council, with a leadership focus on unity across the alumni community.",
+          "bio": "Princeton Alumni says Monica Moore Thompson ’89 became president of the Alumni Association and chair of the Alumni Council, with a leadership focus on unity across the alumni community.",
           "description": "Princeton Alumni Association president and Alumni Council chair.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -740,7 +742,7 @@
         {
           "rank": 10,
           "name": "Henry Von Kohorn",
-          "bio": "Princeton Alumni says Henry Von Kohorn \u201966 founded the Princeton Prize in Race Relations to honor high school students advancing racial equity and to serve the nation through Princeton\u2019s outreach.",
+          "bio": "Princeton Alumni says Henry Von Kohorn ’66 founded the Princeton Prize in Race Relations to honor high school students advancing racial equity and to serve the nation through Princeton’s outreach.",
           "description": "Founder of the Princeton Prize in Race Relations.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -759,7 +761,7 @@
         {
           "rank": 11,
           "name": "David Foster",
-          "bio": "Princeton Alumni says David Foster \u201901 views establishing a scholarship as a \u2018triple win\u2019 and highlights his deepening appreciation for the Princeton alumni experience across life stages.",
+          "bio": "Princeton Alumni says David Foster ’01 views establishing a scholarship as a ‘triple win’ and highlights his deepening appreciation for the Princeton alumni experience across life stages.",
           "description": "Alumni donor and scholarship benefactor.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -778,7 +780,7 @@
         {
           "rank": 12,
           "name": "Adam Lichtenstein",
-          "bio": "Princeton Alumni says Adam Lichtenstein \u201995 *10 returned to earn a master\u2019s in finance and later served in several Alumni Council leadership roles, including treasurer.",
+          "bio": "Princeton Alumni says Adam Lichtenstein ’95 *10 returned to earn a master’s in finance and later served in several Alumni Council leadership roles, including treasurer.",
           "description": "Finance alumnus and Alumni Council treasurer.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -797,7 +799,7 @@
         {
           "rank": 13,
           "name": "Eric Plummer",
-          "bio": "Princeton Alumni says Eric Plummer \u201910 sees the Princeton connection as life-changing and has been especially involved in recent-alumni engagement through the Alumni Council.",
+          "bio": "Princeton Alumni says Eric Plummer ’10 sees the Princeton connection as life-changing and has been especially involved in recent-alumni engagement through the Alumni Council.",
           "description": "Alumni Council leader focused on recent alumni engagement.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -816,7 +818,7 @@
         {
           "rank": 14,
           "name": "Ryan Ruskin",
-          "bio": "Princeton Alumni says Ryan Ruskin \u201990 has remained deeply involved with Princeton for decades and describes his long-term commitment to the University community.",
+          "bio": "Princeton Alumni says Ryan Ruskin ’90 has remained deeply involved with Princeton for decades and describes his long-term commitment to the University community.",
           "description": "Longtime Princeton alumni volunteer and community leader.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -835,7 +837,7 @@
         {
           "rank": 15,
           "name": "Steven Marcus",
-          "bio": "Princeton Alumni says Steven Marcus \u201910, chair of the Princeton Prize in Race Relations, is inspired by both teen winners and alumni volunteers working on racial equity.",
+          "bio": "Princeton Alumni says Steven Marcus ’10, chair of the Princeton Prize in Race Relations, is inspired by both teen winners and alumni volunteers working on racial equity.",
           "description": "Chair of the Princeton Prize in Race Relations.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -854,7 +856,7 @@
         {
           "rank": 16,
           "name": "Melissa Zdrodowski",
-          "bio": "Princeton Alumni says Melissa Zdrodowski \u201994 uses her communications and technology skills to help bring generations of Tigers together through Alumni Council service.",
+          "bio": "Princeton Alumni says Melissa Zdrodowski ’94 uses her communications and technology skills to help bring generations of Tigers together through Alumni Council service.",
           "description": "Alumni communications and technology leader.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -873,7 +875,7 @@
         {
           "rank": 17,
           "name": "Myles Cohen",
-          "bio": "Princeton Alumni says Myles Cohen \u201963 established a scholarship as an accelerated expression of gratitude for the aid he once received from Princeton.",
+          "bio": "Princeton Alumni says Myles Cohen ’63 established a scholarship as an accelerated expression of gratitude for the aid he once received from Princeton.",
           "description": "Scholarship donor and member of the 1746 Society.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -892,7 +894,7 @@
         {
           "rank": 18,
           "name": "Jacklyn Boney Bruce",
-          "bio": "Princeton Alumni says Jacklyn Boney Bruce \u201999 credits Princeton with giving her confidence to pursue her interests and now wants future students to have the same opportunity.",
+          "bio": "Princeton Alumni says Jacklyn Boney Bruce ’99 credits Princeton with giving her confidence to pursue her interests and now wants future students to have the same opportunity.",
           "description": "1746 Society member and future-focused alumni donor.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -911,7 +913,7 @@
         {
           "rank": 19,
           "name": "Bliss Freytag Smith",
-          "bio": "Princeton Alumni says Bliss Freytag Smith \u201987, vice chair of the Committee on Regional Associations, sees Princeton as a continuing source of community, friendship, and opportunity.",
+          "bio": "Princeton Alumni says Bliss Freytag Smith ’87, vice chair of the Committee on Regional Associations, sees Princeton as a continuing source of community, friendship, and opportunity.",
           "description": "Regional alumni-association leader and volunteer.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -930,7 +932,7 @@
         {
           "rank": 20,
           "name": "Robin Resch",
-          "bio": "Princeton Alumni says artist Robin Resch *03 created the Reunions program cover by drawing on memories of the P-rade and the community\u2019s visual energy and diversity.",
+          "bio": "Princeton Alumni says artist Robin Resch *03 created the Reunions program cover by drawing on memories of the P-rade and the community’s visual energy and diversity.",
           "description": "Artist and Reunions program cover contributor.",
           "wikipedia_title": null,
           "wikipedia_url": null,

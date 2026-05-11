@@ -1,20 +1,29 @@
 {
   "university": "Yale University",
   "slug": "yale",
-  "retrieved_at": "2026-05-09",
+  "retrieved_at": "2026-05-10",
   "scope": "policy-summary",
-  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "scope_note": "Yale's official testing page explains its test-flexible policy and how self-reported scores are handled. Yale also publishes middle-80% score ranges for enrolled first-years, but those ranges are class-wide rather than major-specific.",
   "source_url": "https://admissions.yale.edu/standardized-testing",
   "source_urls": [
-    "https://admissions.yale.edu/standardized-testing",
-    "https://admissions.yale.edu/requirements",
-    "https://admissions.yale.edu/essay-topics",
-    "https://www.yale.edu"
+    "https://admissions.yale.edu/standardized-testing"
   ],
-  "policy": "Yale uses a test-flexible policy that requires first-year applicants to submit scores from one or more of the following: ACT, AP, IB, or SAT.",
+  "policy": "Yale's test-flexible policy requires first-year applicants to submit scores from one or more of the following exams: ACT, AP, IB, or SAT.",
   "claims": [
     {
-      "claim": "Yale uses a test-flexible policy that requires first-year applicants to submit scores from one or more of the following: ACT, AP, IB, or SAT.",
+      "claim": "If applying without ACT or SAT scores, Yale says applicants should include results from all AP or IB subject exams completed prior to applying.",
+      "source_url": "https://admissions.yale.edu/standardized-testing"
+    },
+    {
+      "claim": "Yale considers self-reported scores when reviewing applications.",
+      "source_url": "https://admissions.yale.edu/standardized-testing"
+    },
+    {
+      "claim": "Applicants who are admitted and matriculate at Yale must provide official results of all self-reported scores prior to enrolling.",
+      "source_url": "https://admissions.yale.edu/standardized-testing"
+    },
+    {
+      "claim": "Yale says there is no minimum number of AP or IB scores required.",
       "source_url": "https://admissions.yale.edu/standardized-testing"
     }
   ]

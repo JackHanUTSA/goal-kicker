@@ -1,40 +1,48 @@
 {
   "university": "Yale University",
   "slug": "yale",
-  "retrieved_at": "2026-05-09",
-  "scope": "application-guidance",
-  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
-  "source_url": "https://admissions.yale.edu/requirements",
+  "retrieved_at": "2026-05-10",
+  "scope": "institution_wide",
+  "scope_note": "This panel uses Yale's official first-year advice, requirements, and essay pages. Yale's guidance is school-wide and contextual rather than a rigid course-count formula.",
+  "source_url": "https://admissions.yale.edu/what-yale-looks-for",
   "source_urls": [
+    "https://admissions.yale.edu/what-yale-looks-for",
     "https://admissions.yale.edu/requirements",
-    "https://admissions.yale.edu/standardized-testing",
-    "https://admissions.yale.edu/essay-topics",
-    "https://www.yale.edu"
+    "https://admissions.yale.edu/essay-topics"
   ],
+  "audience": "first-year applicants",
   "areas": [
     {
-      "key": "course-rigor",
-      "name": "Course rigor",
+      "key": "overall-rigor",
+      "name": "Overall rigor",
       "level": "school-guidance",
-      "summary": "The cited Yale admissions pages do not provide a single minimum course-rigor formula.",
-      "detail": "The cited Yale admissions pages do not provide a single minimum course-rigor formula.",
+      "summary": "Yale looks for students who have consistently taken a broad range of challenging courses and done well.",
+      "detail": "Yale says academic strength is its first consideration and that it looks for students who have consistently taken a broad range of challenging courses in high school and have done well, while evaluating each applicant in context.",
       "color": "#60a5fa"
+    },
+    {
+      "key": "context",
+      "name": "Context-based review",
+      "level": "contextual",
+      "summary": "Yale says no student is disadvantaged for not taking advantage of a resource that was not available to them.",
+      "detail": "Yale explicitly says applicants are considered within their own context so that no student is disadvantaged for lacking a course or resource that was not available at their school.",
+      "color": "#a78bfa"
     },
     {
       "key": "recommendations",
       "name": "Recommendations",
       "level": "application-material",
       "summary": "Yale requires letters of recommendation from two teachers and one counselor, plus a school report with transcript.",
-      "detail": "Yale requires letters of recommendation from two teachers and one counselor, plus a school report with transcript.",
+      "detail": "Yale's first-year requirements say the application should include letters of recommendation from two teachers and one counselor, along with the school report and transcript.",
       "color": "#34d399"
     },
     {
       "key": "essays",
       "name": "Essays",
       "level": "application-material",
-      "summary": "Yale requires Yale-specific short essays for first-year applicants.",
-      "detail": "Yale requires Yale-specific short essays for first-year applicants.",
-      "color": "#fbbf24"
+      "summary": "Yale requires Yale-specific short-answer writing plus one essay response for Common App or Coalition applicants.",
+      "detail": "Yale's essay topics page says Common Application and Coalition applicants complete short-answer questions of about 35 words, additional Yale-specific responses including a 125-word reflection, and one 400-word essay prompt. QuestBridge applicants complete the corresponding Yale questionnaire in the status portal.",
+      "color": "#fb7185"
     }
   ]
 }
