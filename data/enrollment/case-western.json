@@ -1,116 +1,812 @@
 {
   "university": "Case Western Reserve University",
   "slug": "case-western",
-  "retrieved_at": "2026-05-09",
-  "mode": "majors-list",
+  "academic_year": "Structured majors inventory",
+  "retrieved_at": "2026-05-10",
+  "mode": "mapped-majors",
   "source_url": "https://case.edu/academic-programs",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
-  "summary": {
-    "majors_count": 100,
-    "titles_count": 99,
-    "count_method": "explicit official page sentence",
-    "confidence": "medium"
-  },
-  "titles": [
-    "BS Full-Time",
-    "BS/MAcc Full-Time",
-    "BS/MS Full-Time",
-    "BA Full-Time",
-    "BA Part-Time Full-Time",
-    "BS Part-Time Full-Time",
-    "BSE Full-Time",
-    "BS/MS",
-    "BSN Full-Time",
-    "BA/MA Full-Time",
-    "Economics BA with Quantitative Methods concentration",
-    "Accounting",
-    "MAcc",
-    "BS/MAcc",
-    "Aerospace Engineering",
-    "Anthropology",
-    "Applied Data Science",
-    "Art History",
-    "MA in Art History and Museum Studies",
-    "CBM Program",
-    "Biochemistry",
-    "MBA/MS",
-    "MA/MSN",
-    "MA/MPH",
-    "MA/MSW",
-    "Biology",
-    "MS – Online",
-    "Biomedical Engineering",
-    "Biomedical sciences training program",
-    "Business Information Technology",
-    "Executive MBA",
-    "Chinese",
-    "Classics",
-    "Cognitive Science",
-    "Honors Program",
-    "Communication Sciences",
-    "Computer Engineering",
-    "Computer Science",
-    "MS (Online)",
-    "Dance",
-    "Data Science and Analytics",
-    "Economics",
-    "Electrical Engineering",
-    "MEng. – Online",
-    "Engineering Physics",
-    "English",
-    "Environmental Geology",
-    "Finance",
-    "French",
-    "MS/MA",
-    "Geological Sciences",
-    "German",
-    "History",
-    "History and Philosophy of Science",
-    "Humanity and Technology",
-    "Italian",
-    "Japanese Studies",
-    "BS/MS (Polymer Science and Engineering)",
-    "Marketing",
-    "Materials Science and Engineering",
-    "Mathematics",
-    "Mathematics and Physics",
-    "Mechanical Engineering",
-    "MS/MBA",
-    "Natural Sciences",
-    "MSW/MNO",
-    "MN (Graduate Entry)",
-    "DNP - Nurse Anesthesia",
-    "MSN/MPH",
-    "MSN/DNP",
-    "Nutrition",
-    "MS/MPH",
-    "Nutritional Biochemistry and Metabolism",
-    "Origins Sciences",
-    "Philosophy",
-    "Physics",
-    "Political Science",
-    "Polymer Science and Engineering",
-    "BS/MS (Macromolecular Science and Engineering)",
-    "Pre-Architecture",
-    "Psychology",
-    "MA (Developmental)",
-    "BA/MA",
-    "MS in Nutrition/MPH",
-    "MPH/MSW",
-    "Religious Studies",
-    "MSW (on-campus)",
-    "MSW (online)",
-    "MSW (Weekend)",
-    "3+2 Social Work",
-    "MSW/MPH",
-    "MSW/MA (Bioethics and Medical Humanities)",
-    "Sociology",
-    "Spanish",
-    "Statistics",
-    "Systems Biology",
-    "Theater",
-    "Women's and Gender Studies",
-    "World Literature"
+  "source_urls": [
+    "https://case.edu/academic-programs",
+    "https://case.edu/academics/",
+    "https://case.edu/majors",
+    "https://case.edu/programs/",
+    "https://www.case.edu"
   ],
-  "notes": "explicit official page sentence; titles extracted from official page: https://case.edu/programs/"
+  "chart_title": "Undergraduate majors map — structured inventory",
+  "major_count_label": "97 mapped majors",
+  "total_label": "equal-weight bubbles",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. To keep the majors panel visually consistent with MIT, each official undergraduate major title is mapped into a broad discipline bucket and rendered as an equal-weight bubble. Bubble size here does not indicate enrollment.",
+  "summary_note": "97 mapped majors · equal-weight bubbles · official count page says 100 majors",
+  "legend_order": [
+    "Architecture and Planning",
+    "Engineering",
+    "Science",
+    "Social Sciences",
+    "Humanities & Arts",
+    "Sloan School of Management",
+    "Interdisciplinary Programs"
+  ],
+  "totals": {
+    "mapped_major_titles": 97,
+    "official_major_count": 100
+  },
+  "notes": "explicit official page sentence explicit official page sentence; titles extracted from official page: https://case.edu/programs/ Confidence: medium.",
+  "majors": [
+    {
+      "name": "3+2 Social Work",
+      "code": "32SW",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Accounting",
+      "code": "Acco",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Aerospace Engineering",
+      "code": "AE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Anthropology",
+      "code": "Anth",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Applied Data Science",
+      "code": "ADS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Art History",
+      "code": "AH",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "BA Full-Time",
+      "code": "BFT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "BA Part-Time Full-Time",
+      "code": "BPTF",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "BA/MA",
+      "code": "BM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "BA/MA Full-Time",
+      "code": "BMFT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "BS Full-Time",
+      "code": "BFT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "BS Part-Time Full-Time",
+      "code": "BPTF",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "BS/MAcc",
+      "code": "BM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "BS/MAcc Full-Time",
+      "code": "BMFT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "BS/MS",
+      "code": "BM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "BS/MS Full-Time",
+      "code": "BMFT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "BSE Full-Time",
+      "code": "BFT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "BSN Full-Time",
+      "code": "BFT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biochemistry",
+      "code": "Bioc",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biology",
+      "code": "Biology",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biomedical Engineering",
+      "code": "BE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biomedical sciences training program",
+      "code": "BSTP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Business Information Technology",
+      "code": "BIT",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "CBM Program",
+      "code": "CP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chinese",
+      "code": "Chinese",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Classics",
+      "code": "Classics",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Cognitive Science",
+      "code": "CS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Communication Sciences",
+      "code": "CS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Engineering",
+      "code": "CE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Science",
+      "code": "CS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "DNP - Nurse Anesthesia",
+      "code": "DNA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Dance",
+      "code": "Dance",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Data Science and Analytics",
+      "code": "DSAA",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Economics",
+      "code": "Econ",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Economics BA with Quantitative Methods concentration",
+      "code": "EBWQ",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Electrical Engineering",
+      "code": "EE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Engineering Physics",
+      "code": "EP",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English",
+      "code": "English",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Geology",
+      "code": "EG",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Executive MBA",
+      "code": "EM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Finance",
+      "code": "Finance",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "French",
+      "code": "French",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Geological Sciences",
+      "code": "GS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "German",
+      "code": "German",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "History",
+      "code": "History",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "History and Philosophy of Science",
+      "code": "HAPO",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Honors Program",
+      "code": "HP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Humanity and Technology",
+      "code": "HAT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Italian",
+      "code": "Italian",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Japanese Studies",
+      "code": "JS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MA (Developmental)",
+      "code": "MD",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MA in Art History and Museum Studies",
+      "code": "MIAH",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MA/MPH",
+      "code": "MM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MA/MSN",
+      "code": "MM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MA/MSW",
+      "code": "MM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MAcc",
+      "code": "MAcc",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MBA/MS",
+      "code": "MM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MEng. – Online",
+      "code": "MO",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MN (Graduate Entry)",
+      "code": "MGE",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MPH/MSW",
+      "code": "MM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MS (Online)",
+      "code": "MO",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MS in Nutrition/MPH",
+      "code": "MINM",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MS – Online",
+      "code": "MO",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MS/MA",
+      "code": "MM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MS/MBA",
+      "code": "MM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MS/MPH",
+      "code": "MM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MSN/DNP",
+      "code": "MD",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MSN/MPH",
+      "code": "MM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MSW",
+      "code": "MSW",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MSW (Weekend)",
+      "code": "MW",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MSW (online)",
+      "code": "MO",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MSW/MA (Bioethics and Medical Humanities)",
+      "code": "MMBA",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MSW/MNO",
+      "code": "MM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MSW/MPH",
+      "code": "MM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Marketing",
+      "code": "Mark",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Materials Science and Engineering",
+      "code": "MSAE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mathematics",
+      "code": "Math",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mathematics and Physics",
+      "code": "MAP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mechanical Engineering",
+      "code": "ME",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Natural Sciences",
+      "code": "NS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Nutrition",
+      "code": "Nutr",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Nutritional Biochemistry and Metabolism",
+      "code": "NBAM",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Origins Sciences",
+      "code": "OS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Philosophy",
+      "code": "Phil",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Physics",
+      "code": "Physics",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Political Science",
+      "code": "PS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Polymer Science and Engineering",
+      "code": "PSAE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Pre-Architecture",
+      "code": "PA",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Psychology",
+      "code": "Psyc",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Religious Studies",
+      "code": "RS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Sociology",
+      "code": "Soci",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Spanish",
+      "code": "Spanish",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Statistics",
+      "code": "Stat",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Systems Biology",
+      "code": "SB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Theater",
+      "code": "Theater",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Women's and Gender Studies",
+      "code": "WSAG",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "World Literature",
+      "code": "WL",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    }
+  ]
 }

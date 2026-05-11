@@ -1,100 +1,699 @@
 {
   "university": "University of Rochester",
   "slug": "rochester",
-  "retrieved_at": "2026-05-09",
-  "mode": "majors-list",
+  "academic_year": "Structured majors inventory",
+  "retrieved_at": "2026-05-10",
+  "mode": "mapped-majors",
   "source_url": "https://www.rochester.edu/academic-programs",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
-  "summary": {
-    "majors_count": 200,
-    "titles_count": 83,
-    "count_method": "explicit official page sentence",
-    "confidence": "medium"
-  },
-  "titles": [
-    "Arabic",
-    "Art History",
-    "Astronomy",
-    "Bioethics",
-    "Biological Sciences: Biochemistry",
-    "Biological Sciences: Cell and Developmental Biology",
-    "Biological Sciences: Computational Biology",
-    "Biological Sciences: Ecology and Evolutionary Biology",
-    "Biological Sciences: Microbiology",
-    "Biological Sciences: Molecular Genetics",
-    "Biological Sciences: Neuroscience",
-    "Biotechnology",
-    "Business: Accounting",
-    "Business: Business Analytics",
-    "Business: Entrepreneurship",
-    "Business: Finance",
-    "Business: Information Systems",
-    "Chinese",
-    "Classical Civilization",
-    "Classical Civilizations of Ancient Greece and Rome",
-    "Classics",
-    "Climate Change Science",
-    "Comparative Literature",
-    "Computational Biology",
-    "Earth and Planetary Sciences",
-    "Earth, Environmental, and Planetary Sciences",
-    "East Asian Studies",
-    "English: British and American Literature",
-    "English: Creative Writing",
-    "English: Language, Media, and Communication",
-    "English: Theater",
-    "English Literature",
-    "Environmental Health",
-    "Environmental Science",
-    "Environmental Studies",
-    "Epidemiology",
-    "Ethics in Philosophy",
-    "Financial Economics",
-    "French",
-    "Geological Sciences",
-    "Geomechanics",
-    "German",
-    "Greek",
-    "Health, Behavior, and Society",
-    "Health Policy",
-    "Health Psychology",
-    "Hebrew",
-    "History of Philosophy",
-    "International Relations",
-    "Italian",
-    "Japanese",
-    "Journalism",
-    "Latin",
-    "Latin American, Caribbean, and Latinx Studies",
-    "Legal Studies",
-    "Mathematics and Statistics",
-    "Medical Physics",
-    "Movement Studies",
-    "Philosophy of Science",
-    "Politics, Philosophy, and Economics",
-    "Religion",
-    "Religion, Politics, and Society",
-    "Russian",
-    "Russian Studies",
-    "Spanish",
-    "Studio Arts",
-    "Visual Science",
-    "Writing Studies",
-    "Audio Arts and Technology",
-    "Engineering and Applied Sciences",
-    "Environmental Engineering",
-    "Optical Engineering",
-    "Accountancy",
-    "Artificial Intelligence (AI) in Business (full-time)",
-    "Business Analytics (full-time)",
-    "Business Analytics and Applied AI (online, part-time)",
-    "Finance (full-time)",
-    "Marketing Analytics (full-time)",
-    "Applied Behavior Analysis",
-    "Digitally-Rich Teaching in K-12 Schools",
-    "Leadership in Disability and Inclusive Practices",
-    "Mind/Body Healing and Wellness",
-    "Teacher Leadership"
+  "source_urls": [
+    "https://www.rochester.edu/academic-programs",
+    "https://www.rochester.edu/academics/",
+    "https://www.rochester.edu/majors",
+    "https://www.rochester.edu/academics/programs.html",
+    "https://www.rochester.edu"
   ],
-  "notes": "explicit official page sentence; titles extracted from official page: https://www.rochester.edu/academics/programs.html"
+  "chart_title": "Undergraduate majors map — structured inventory",
+  "major_count_label": "83 mapped majors",
+  "total_label": "equal-weight bubbles",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. To keep the majors panel visually consistent with MIT, each official undergraduate major title is mapped into a broad discipline bucket and rendered as an equal-weight bubble. Bubble size here does not indicate enrollment.",
+  "summary_note": "83 mapped majors · equal-weight bubbles · official count page says 200 majors",
+  "legend_order": [
+    "Engineering",
+    "Science",
+    "Social Sciences",
+    "Humanities & Arts",
+    "Sloan School of Management",
+    "Interdisciplinary Programs"
+  ],
+  "totals": {
+    "mapped_major_titles": 83,
+    "official_major_count": 200
+  },
+  "notes": "explicit official page sentence explicit official page sentence; titles extracted from official page: https://www.rochester.edu/academics/programs.html Confidence: medium.",
+  "majors": [
+    {
+      "name": "Accountancy",
+      "code": "Acco",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Applied Behavior Analysis",
+      "code": "ABA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Arabic",
+      "code": "Arabic",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Art History",
+      "code": "AH",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Artificial Intelligence (AI) in Business (full-time)",
+      "code": "AIAI",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Astronomy",
+      "code": "Astr",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Audio Arts and Technology",
+      "code": "AAAT",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bioethics",
+      "code": "Bioe",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biological Sciences: Biochemistry",
+      "code": "BSB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biological Sciences: Cell and Developmental Biology",
+      "code": "BSCA",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biological Sciences: Computational Biology",
+      "code": "BSCB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biological Sciences: Ecology and Evolutionary Biology",
+      "code": "BSEA",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biological Sciences: Microbiology",
+      "code": "BSM",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biological Sciences: Molecular Genetics",
+      "code": "BSMG",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biological Sciences: Neuroscience",
+      "code": "BSN",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biotechnology",
+      "code": "Biot",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Business Analytics (full-time)",
+      "code": "BAFT",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Business Analytics and Applied AI (online, part-time)",
+      "code": "BAAA",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Business: Accounting",
+      "code": "BA",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Business: Business Analytics",
+      "code": "BBA",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Business: Entrepreneurship",
+      "code": "BE",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Business: Finance",
+      "code": "BF",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Business: Information Systems",
+      "code": "BIS",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chinese",
+      "code": "Chinese",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Classical Civilization",
+      "code": "CC",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Classical Civilizations of Ancient Greece and Rome",
+      "code": "CCOA",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Classics",
+      "code": "Classics",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Climate Change Science",
+      "code": "CCS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Comparative Literature",
+      "code": "CL",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computational Biology",
+      "code": "CB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Digitally-Rich Teaching in K-12 Schools",
+      "code": "DRTI",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Earth and Planetary Sciences",
+      "code": "EAPS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Earth, Environmental, and Planetary Sciences",
+      "code": "EEAP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "East Asian Studies",
+      "code": "EAS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Engineering and Applied Sciences",
+      "code": "EAAS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English Literature",
+      "code": "EL",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English: British and American Literature",
+      "code": "EBAA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English: Creative Writing",
+      "code": "ECW",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English: Language, Media, and Communication",
+      "code": "ELMA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English: Theater",
+      "code": "ET",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Engineering",
+      "code": "EE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Health",
+      "code": "EH",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Science",
+      "code": "ES",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Studies",
+      "code": "ES",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Epidemiology",
+      "code": "Epid",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Ethics in Philosophy",
+      "code": "EIP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Finance (full-time)",
+      "code": "FFT",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Financial Economics",
+      "code": "FE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "French",
+      "code": "French",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Geological Sciences",
+      "code": "GS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Geomechanics",
+      "code": "Geom",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "German",
+      "code": "German",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Greek",
+      "code": "Greek",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Health Policy",
+      "code": "HP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Health Psychology",
+      "code": "HP",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Health, Behavior, and Society",
+      "code": "HBAS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Hebrew",
+      "code": "Hebrew",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "History of Philosophy",
+      "code": "HOP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "International Relations",
+      "code": "IR",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Italian",
+      "code": "Italian",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Japanese",
+      "code": "Japanese",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Journalism",
+      "code": "Jour",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Latin",
+      "code": "Latin",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Latin American, Caribbean, and Latinx Studies",
+      "code": "LACA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Leadership in Disability and Inclusive Practices",
+      "code": "LIDA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Legal Studies",
+      "code": "LS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Marketing Analytics (full-time)",
+      "code": "MAFT",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mathematics and Statistics",
+      "code": "MAS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Medical Physics",
+      "code": "MP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mind/Body Healing and Wellness",
+      "code": "MBHA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Movement Studies",
+      "code": "MS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Optical Engineering",
+      "code": "OE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Philosophy of Science",
+      "code": "POS",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Politics, Philosophy, and Economics",
+      "code": "PPAE",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Religion",
+      "code": "Religion",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Religion, Politics, and Society",
+      "code": "RPAS",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Russian",
+      "code": "Russian",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Russian Studies",
+      "code": "RS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Spanish",
+      "code": "Spanish",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Studio Arts",
+      "code": "SA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Teacher Leadership",
+      "code": "TL",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Visual Science",
+      "code": "VS",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Writing Studies",
+      "code": "WS",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    }
+  ]
 }

@@ -1,61 +1,385 @@
 {
   "university": "Brandeis University",
   "slug": "brandeis",
-  "retrieved_at": "2026-05-09",
-  "mode": "majors-list",
+  "academic_year": "Structured majors inventory",
+  "retrieved_at": "2026-05-10",
+  "mode": "mapped-majors",
   "source_url": "https://www.brandeis.edu/admissions/academics/index.html?utm_source=viewbook&utm_medium=print&utm_campaign=ugrad-admissions-Q029-book2",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
-  "summary": {
-    "majors_count": 47,
-    "titles_count": 44,
-    "count_method": "explicit official page sentence",
-    "confidence": "medium"
-  },
-  "titles": [
-    "unique and exciting careers",
-    "African and African American Studies",
-    "American Studies",
-    "Anthropology",
-    "Art History",
-    "Biochemistry",
-    "Biological Physics",
-    "Biology",
-    "Business",
-    "Classical and Early Mediterranean Studies",
-    "Communication and Media Studies",
-    "Comparative Literature and Culture",
-    "Computer Science",
-    "East Asian Studies",
-    "Economics",
-    "Your Degree, Your Way",
-    "English",
-    "Environmental Studies",
-    "European Cultural Studies",
-    "Film, Television and Interactive Media",
-    "German Studies",
-    "History",
-    "International and Global Studies",
-    "Latin American, Caribbean and Latinx Studies",
-    "Linguistics",
-    "Mathematics",
-    "Music",
-    "Near Eastern and Judaic Studies",
-    "Neuroscience",
-    "Physics",
-    "Politics",
-    "Psychology",
-    "Quantitative Economics",
-    "Russian Studies",
-    "Sociology",
-    "Studio Art",
-    "Theater Arts",
-    "Women's, Gender, and Sexuality Studies",
-    "Arabic Language, Literature and Culture",
-    "Architectural Studies",
-    "Climate Justice, Science, and Policy",
-    "History of Ideas",
-    "Journalism",
-    "Women's, Gender and Sexuality Studies"
+  "source_urls": [
+    "https://www.brandeis.edu/admissions/academics/index.html?utm_source=viewbook&utm_medium=print&utm_campaign=ugrad-admissions-Q029-book2",
+    "https://www.brandeis.edu/admissions/academics/majors-minors.html",
+    "https://www.brandeis.edu"
   ],
-  "notes": "explicit official page sentence; titles extracted from official page: https://www.brandeis.edu/admissions/academics/majors-minors.html"
+  "chart_title": "Undergraduate majors map — structured inventory",
+  "major_count_label": "44 mapped majors",
+  "total_label": "equal-weight bubbles",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. To keep the majors panel visually consistent with MIT, each official undergraduate major title is mapped into a broad discipline bucket and rendered as an equal-weight bubble. Bubble size here does not indicate enrollment.",
+  "summary_note": "44 mapped majors · equal-weight bubbles · official count page says 47 majors",
+  "legend_order": [
+    "Engineering",
+    "Science",
+    "Social Sciences",
+    "Humanities & Arts",
+    "Sloan School of Management",
+    "Interdisciplinary Programs"
+  ],
+  "totals": {
+    "mapped_major_titles": 44,
+    "official_major_count": 47
+  },
+  "notes": "explicit official page sentence explicit official page sentence; titles extracted from official page: https://www.brandeis.edu/admissions/academics/majors-minors.html Confidence: medium.",
+  "majors": [
+    {
+      "name": "African and African American Studies",
+      "code": "AAAA",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "American Studies",
+      "code": "AS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Anthropology",
+      "code": "Anth",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Arabic Language, Literature and Culture",
+      "code": "ALLA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Architectural Studies",
+      "code": "AS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Art History",
+      "code": "AH",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biochemistry",
+      "code": "Bioc",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biological Physics",
+      "code": "BP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biology",
+      "code": "Biology",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Business",
+      "code": "Business",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Classical and Early Mediterranean Studies",
+      "code": "CAEM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Climate Justice, Science, and Policy",
+      "code": "CJSA",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Communication and Media Studies",
+      "code": "CAMS",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Comparative Literature and Culture",
+      "code": "CLAC",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Science",
+      "code": "CS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "East Asian Studies",
+      "code": "EAS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Economics",
+      "code": "Econ",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English",
+      "code": "English",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Studies",
+      "code": "ES",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "European Cultural Studies",
+      "code": "ECS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Film, Television and Interactive Media",
+      "code": "FTAI",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "German Studies",
+      "code": "GS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "History",
+      "code": "History",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "History of Ideas",
+      "code": "HOI",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "International and Global Studies",
+      "code": "IAGS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Journalism",
+      "code": "Jour",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Latin American, Caribbean and Latinx Studies",
+      "code": "LACA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Linguistics",
+      "code": "Ling",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mathematics",
+      "code": "Math",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music",
+      "code": "Music",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Near Eastern and Judaic Studies",
+      "code": "NEAJ",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Neuroscience",
+      "code": "Neur",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Physics",
+      "code": "Physics",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Politics",
+      "code": "Politics",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Psychology",
+      "code": "Psyc",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Quantitative Economics",
+      "code": "QE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Russian Studies",
+      "code": "RS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Sociology",
+      "code": "Soci",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Studio Art",
+      "code": "SA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Theater Arts",
+      "code": "TA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Women's, Gender and Sexuality Studies",
+      "code": "WSGA",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Women's, Gender, and Sexuality Studies",
+      "code": "WSGA",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Your Degree, Your Way",
+      "code": "YDYW",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "unique and exciting careers",
+      "code": "UAEC",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    }
+  ]
 }

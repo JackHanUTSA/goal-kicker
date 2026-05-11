@@ -1,198 +1,1427 @@
 {
   "university": "Florida State University",
   "slug": "florida-state",
-  "retrieved_at": "2026-05-09",
-  "mode": "majors-list",
+  "academic_year": "Structured majors inventory",
+  "retrieved_at": "2026-05-10",
+  "mode": "mapped-majors",
   "source_url": "https://www.fsu.edu/academics/",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
-  "summary": {
-    "majors_count": 181,
-    "titles_count": 181,
-    "count_method": "counted extracted undergraduate-major titles from an official page",
-    "confidence": "low"
-  },
-  "titles": [
-    "Accounting (Also offered at Panama City Campus)",
-    "Actuarial Science",
-    "Advertising (Communication)",
-    "African American Studies",
-    "Ancient History",
-    "Anthropology",
-    "Applied Mathematics",
-    "Art History",
-    "Art, Studio BA",
-    "Art, Studio BFA",
-    "Athletic Training",
-    "Biochemistry",
-    "Biological Science",
-    "Biomathematics",
-    "Blindness and Low Vision",
-    "Business Administration (Panama City Campus Only)",
-    "Chemical Science",
-    "Chemistry",
-    "Chinese and Japanese",
-    "Chinese",
-    "Civics and Liberty Studies (Conscience Liberty)",
-    "Civics and Liberty Studies (Constitutional Liberty)",
-    "Civics and Liberty Studies (Economic Liberty)",
-    "Civics and Liberty Studies (Educational Liberty)",
-    "Classical Archaeology",
-    "Classical Civilization",
-    "Classics and Religion",
-    "Communication (Digital Media Production)",
-    "Communication (Media and Communication Studies)",
-    "Communication (Professional Communication) (Panama City Campus Only)",
-    "Communication Science & Disorders (Audiology & Speech Pathology)",
-    "Computational Biology (Biology)",
-    "Computational Biology (Computer Science)",
-    "Computational Science",
-    "Computer Programming and Applications BA (Also offered at Panama City Campus)",
-    "Computer Science, BA (Also offered at Panama City Campus)",
-    "Computer Science, BS (Also offered at Panama City Campus)",
-    "Crime Scene Investigation : Public Safety and Security",
-    "Criminology - Criminal Justice",
-    "Cyber Criminology (Computer Science)",
-    "Cyber Criminology (Criminology)",
-    "Dance",
-    "Design and Visual Communication",
-    "Dietetics",
-    "Economics",
-    "Elementary Education",
-    "Elementary Education PC (Panama City Campus Only)",
-    "Emergency Management",
-    "Engineering (Biomedical)",
-    "Engineering (Chemical)",
-    "Engineering (Civil) (Also offered at Panama City Campus)",
-    "Engineering (Computer) (Also offered at Panama City Campus)",
-    "Engineering (Electrical) (Also offered at Panama City Campus)",
-    "Engineering (Industrial)",
-    "Engineering (Mechanical) (Also offered at Panama City Campus)",
-    "English (Creative Writing)",
-    "English (Editing, Writing, & Media)",
-    "English (Literature, Media, and Culture)",
-    "English Education",
-    "Entrepreneurship (Commercial) (Also offered at Panama City Campus)",
-    "Entrepreneurship (STEM)",
-    "Environment and Society",
-    "Environmental Chemistry",
-    "Environmental Science & Policy",
-    "Environmental Science",
-    "Event Management",
-    "Exercise Physiology",
-    "Exploratory",
-    "Fashion, Merchandising, and Product Development",
-    "Finance",
-    "Financial Planning (Also offered at Panama City Campus)",
-    "Food and Nutrition Science",
-    "French",
-    "FSU-Teach (Applied Geosciences)",
-    "FSU-Teach (Biology)",
-    "FSU-Teach (Chemical Science)",
-    "FSU-Teach (Computer Science - Math)",
-    "FSU-Teach (Environmental Sciences)",
-    "FSU-Teach (Mathematics)",
-    "Geography",
-    "Geology",
-    "German",
-    "Global Club Management and Leadership",
-    "Greek and Latin",
-    "Greek",
-    "History",
-    "Hospitality and Tourism Management (Also offered at Panama City Campus)",
-    "Human Development and Family Sciences",
-    "Human Resource Management",
-    "Human Rights and Social Justice",
-    "Humanities",
-    "Information Technology",
-    "Information, Communication & Technology",
-    "Intelligence Studies",
-    "Interdisciplinary Medical Sciences: Clinical Professions (Also offered at Panama City Campus)",
-    "Interdisciplinary Medical Sciences: Community Patient Care",
-    "Interdisciplinary Medical Sciences: Health Management, Policy and Information",
-    "Interdisciplinary Social Science (Also offered at Panama City Campus)",
-    "Interior Design",
-    "International Affairs (Asian Studies with Emphasis in Business)",
-    "International Affairs (Asian Studies)",
-    "International Affairs (Broad Curriculum)",
-    "International Affairs (Latin American and Caribbean Studies with Emphasis in Business)",
-    "International Affairs (Latin American and Caribbean Studies)",
-    "International Affairs (Russian and East European Studies)",
-    "Italian",
-    "Japanese",
-    "Latin",
-    "Law Enforcement Intelligence : Public Safety and Security",
-    "Law Enforcement Operations : Public Safety and Security",
-    "Linguistics (General Linguistics, Linguistics & Languages)",
-    "Management (General)",
-    "Management Information Systems",
-    "Marketing",
-    "Materials Chemistry",
-    "Mathematics",
-    "Meteorology",
-    "Middle Eastern Studies",
-    "Modern Languages, Literatures, and Cultures (Chinese)",
-    "Modern Languages, Literatures, and Cultures (Dual Languages)",
-    "Modern Languages, Literatures, and Cultures (French)",
-    "Modern Languages, Literatures, and Cultures (German)",
-    "Modern Languages, Literatures, and Cultures (Italian)",
-    "Modern Languages, Literatures, and Cultures (Japanese)",
-    "Modern Languages, Literatures, and Cultures (Russian)",
-    "Modern Languages, Literatures, and Cultures (Spanish)",
-    "Modern Languages, Literatures, and Cultures (World Literature & Cultural Studies)",
-    "Motion Picture Arts (Animation & Digital Arts)",
-    "Motion Picture Arts (Production)",
-    "Music (Business)",
-    "Music (Commercial)",
-    "Music (Community)",
-    "Music (General)",
-    "Music (Jazz)",
-    "Music (Sacred)",
-    "Music Composition",
-    "Music Education (Choral)",
-    "Music Education (General)",
-    "Music Education (Instrumental)",
-    "Music Performance (Guitar)",
-    "Music Performance (Harp)",
-    "Music Performance (Jazz)",
-    "Music Performance (Organ)",
-    "Music Performance (Piano)",
-    "Music Performance (String)",
-    "Music Performance (Voice)",
-    "Music Performance (Woodwind, Brass, Percussion)",
-    "Music Theatre (College of Music)",
-    "Music Theatre (School of Theatre)",
-    "Music Theory",
-    "Music Therapy",
-    "Neuroscience: Behavioral Neuroscience",
-    "Neuroscience: Cell and Molecular Neuroscience",
-    "Nursing",
-    "Philosophy",
-    "Physical Science",
-    "Physics & Astrophysics",
-    "Physics",
-    "Political Science",
-    "Professional Communication (Panama City Campus Only)",
-    "Professional Sales",
-    "Psychology (Also offered at Panama City Campus)",
-    "Public Health (Also offered at Panama City Campus)",
-    "Public Relations (Communication)",
-    "Real Estate",
-    "Recreation and Tourism Management",
-    "Religion & Classics",
-    "Religion",
-    "Risk Management and Insurance",
-    "Russian",
-    "Social Science Education",
-    "Social Work (Also offered at Panama City Campus)",
-    "Sociology",
-    "Spanish",
-    "Special Education Teaching",
-    "Sport Management",
-    "Stage Management",
-    "Statistics",
-    "Theatre, BA",
-    "Theatre, BFA (Acting)",
-    "Women’s Studies"
+  "source_urls": [
+    "https://www.fsu.edu/academics/",
+    "https://www.fsu.edu/majors",
+    "https://academic-guide.fsu.edu/all-programs",
+    "https://www.fsu.edu"
   ],
-  "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass; titles extracted from official page: https://academic-guide.fsu.edu/all-programs"
+  "chart_title": "Undergraduate majors map — structured inventory",
+  "major_count_label": "174 mapped majors",
+  "total_label": "equal-weight bubbles",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. To keep the majors panel visually consistent with MIT, each official undergraduate major title is mapped into a broad discipline bucket and rendered as an equal-weight bubble. Bubble size here does not indicate enrollment.",
+  "summary_note": "174 mapped majors · equal-weight bubbles · official count page says 181 majors",
+  "legend_order": [
+    "Architecture and Planning",
+    "Engineering",
+    "Science",
+    "Social Sciences",
+    "Humanities & Arts",
+    "Sloan School of Management",
+    "Interdisciplinary Programs"
+  ],
+  "totals": {
+    "mapped_major_titles": 174,
+    "official_major_count": 181
+  },
+  "notes": "counted extracted undergraduate-major titles from an official page auto-enrichment could not derive a reliable major/program count from the pages reached in this pass; titles extracted from official page: https://academic-guide.fsu.edu/all-programs Confidence: low.",
+  "majors": [
+    {
+      "name": "Accounting",
+      "code": "Acco",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Actuarial Science",
+      "code": "AS",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Advertising (Communication)",
+      "code": "AC",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "African American Studies",
+      "code": "AAS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Ancient History",
+      "code": "AH",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Anthropology",
+      "code": "Anth",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Applied Mathematics",
+      "code": "AM",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Art History",
+      "code": "AH",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Art, Studio BA",
+      "code": "ASB",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Art, Studio BFA",
+      "code": "ASB",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Athletic Training",
+      "code": "AT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biochemistry",
+      "code": "Bioc",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biological Science",
+      "code": "BS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biomathematics",
+      "code": "Biom",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Blindness and Low Vision",
+      "code": "BALV",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Business Administration",
+      "code": "BA",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemical Science",
+      "code": "CS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemistry",
+      "code": "Chem",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chinese",
+      "code": "Chinese",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chinese and Japanese",
+      "code": "CAJ",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Civics and Liberty Studies",
+      "code": "CALS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Civics and Liberty Studies (Constitutional Liberty)",
+      "code": "CALS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Civics and Liberty Studies (Economic Liberty)",
+      "code": "CALS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Civics and Liberty Studies (Educational Liberty)",
+      "code": "CALS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Classical Archaeology",
+      "code": "CA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Classical Civilization",
+      "code": "CC",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Classics and Religion",
+      "code": "CAR",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Communication (Digital Media Production)",
+      "code": "CDMP",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Communication (Media and Communication Studies)",
+      "code": "CMAC",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Communication (Professional Communication)",
+      "code": "CPC",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Communication Science & Disorders (Audiology & Speech Pathology)",
+      "code": "CSD",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computational Biology",
+      "code": "CB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computational Biology (Biology)",
+      "code": "CBB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computational Science",
+      "code": "CS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Programming and Applications BA",
+      "code": "CPAA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Science",
+      "code": "CS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Crime Scene Investigation : Public Safety and Security",
+      "code": "CSIP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Criminology - Criminal Justice",
+      "code": "CCJ",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Cyber Criminology",
+      "code": "CC",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Cyber Criminology (Criminology)",
+      "code": "CCC",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Dance",
+      "code": "Dance",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Design and Visual Communication",
+      "code": "DAVC",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Dietetics",
+      "code": "Diet",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Economics",
+      "code": "Econ",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Elementary Education",
+      "code": "EE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Elementary Education PC",
+      "code": "EEP",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Emergency Management",
+      "code": "EM",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Engineering (Biomedical)",
+      "code": "EB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Engineering (Chemical)",
+      "code": "EC",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Engineering (Civil)",
+      "code": "EC",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Engineering (Computer)",
+      "code": "EC",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Engineering (Electrical)",
+      "code": "EE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Engineering (Industrial)",
+      "code": "EI",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Engineering (Mechanical)",
+      "code": "EM",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English (Creative Writing)",
+      "code": "ECW",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English (Editing, Writing, & Media)",
+      "code": "EEW",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English (Literature, Media, and Culture)",
+      "code": "ELMA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English Education",
+      "code": "EE",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Entrepreneurship",
+      "code": "Entr",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Entrepreneurship (Commercial)",
+      "code": "EC",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environment and Society",
+      "code": "EAS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Chemistry",
+      "code": "EC",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Science",
+      "code": "ES",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Science & Policy",
+      "code": "ESP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Event Management",
+      "code": "EM",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Exercise Physiology",
+      "code": "EP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Exploratory",
+      "code": "Expl",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "FSU-Teach",
+      "code": "FT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "FSU-Teach (Biology)",
+      "code": "FTB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "FSU-Teach (Mathematics)",
+      "code": "FTM",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Fashion, Merchandising, and Product Development",
+      "code": "FMAP",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Finance",
+      "code": "Finance",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Financial Planning",
+      "code": "FP",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Food and Nutrition Science",
+      "code": "FANS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "French",
+      "code": "French",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Geography",
+      "code": "Geog",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Geology",
+      "code": "Geology",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "German",
+      "code": "German",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Global Club Management and Leadership",
+      "code": "GCMA",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Greek",
+      "code": "Greek",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Greek and Latin",
+      "code": "GAL",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "History",
+      "code": "History",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Hospitality and Tourism Management",
+      "code": "HATM",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Human Development and Family Sciences",
+      "code": "HDAF",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Human Resource Management",
+      "code": "HRM",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Human Rights and Social Justice",
+      "code": "HRAS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Humanities",
+      "code": "Huma",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Information Technology",
+      "code": "IT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Information, Communication & Technology",
+      "code": "ICT",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Intelligence Studies",
+      "code": "IS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Interdisciplinary Medical Sciences: Clinical Professions",
+      "code": "IMSC",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Interdisciplinary Medical Sciences: Community Patient Care",
+      "code": "IMSC",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Interdisciplinary Medical Sciences: Health Management, Policy and Information",
+      "code": "IMSH",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Interdisciplinary Social Science",
+      "code": "ISS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Interior Design",
+      "code": "ID",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "International Affairs",
+      "code": "IA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "International Affairs (Asian Studies)",
+      "code": "IAAS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "International Affairs (Broad Curriculum)",
+      "code": "IABC",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "International Affairs (Latin American and Caribbean Studies)",
+      "code": "IALA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "International Affairs (Russian and East European Studies)",
+      "code": "IARA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Italian",
+      "code": "Italian",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Japanese",
+      "code": "Japanese",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Latin",
+      "code": "Latin",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Law Enforcement Intelligence : Public Safety and Security",
+      "code": "LEIP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Law Enforcement Operations : Public Safety and Security",
+      "code": "LEOP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Linguistics (General Linguistics, Linguistics & Languages)",
+      "code": "LGLL",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Management (General)",
+      "code": "MG",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Management Information Systems",
+      "code": "MIS",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Marketing",
+      "code": "Mark",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Materials Chemistry",
+      "code": "MC",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mathematics",
+      "code": "Math",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Meteorology",
+      "code": "Mete",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Middle Eastern Studies",
+      "code": "MES",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Modern Languages, Literatures, and Cultures (Chinese)",
+      "code": "MLLA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Modern Languages, Literatures, and Cultures (Dual Languages)",
+      "code": "MLLA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Modern Languages, Literatures, and Cultures (French)",
+      "code": "MLLA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Modern Languages, Literatures, and Cultures (German)",
+      "code": "MLLA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Modern Languages, Literatures, and Cultures (Italian)",
+      "code": "MLLA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Modern Languages, Literatures, and Cultures (Japanese)",
+      "code": "MLLA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Modern Languages, Literatures, and Cultures (Russian)",
+      "code": "MLLA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Modern Languages, Literatures, and Cultures (Spanish)",
+      "code": "MLLA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Modern Languages, Literatures, and Cultures (World Literature & Cultural Studies)",
+      "code": "MLLA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Motion Picture Arts (Animation & Digital Arts)",
+      "code": "MPAA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Motion Picture Arts (Production)",
+      "code": "MPAP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music",
+      "code": "Music",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music (Commercial)",
+      "code": "MC",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music (Community)",
+      "code": "MC",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music (General)",
+      "code": "MG",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music (Jazz)",
+      "code": "MJ",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music (Sacred)",
+      "code": "MS",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music Composition",
+      "code": "MC",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music Education (Choral)",
+      "code": "MEC",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music Education (General)",
+      "code": "MEG",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music Education (Instrumental)",
+      "code": "MEI",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music Performance (Guitar)",
+      "code": "MPG",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music Performance (Harp)",
+      "code": "MPH",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music Performance (Jazz)",
+      "code": "MPJ",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music Performance (Organ)",
+      "code": "MPO",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music Performance (Piano)",
+      "code": "MPP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music Performance (String)",
+      "code": "MPS",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music Performance (Voice)",
+      "code": "MPV",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music Performance (Woodwind, Brass, Percussion)",
+      "code": "MPWB",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music Theatre",
+      "code": "MT",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music Theory",
+      "code": "MT",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music Therapy",
+      "code": "MT",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Neuroscience: Behavioral Neuroscience",
+      "code": "NBN",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Neuroscience: Cell and Molecular Neuroscience",
+      "code": "NCAM",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Nursing",
+      "code": "Nursing",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Philosophy",
+      "code": "Phil",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Physical Science",
+      "code": "PS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Physics",
+      "code": "Physics",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Physics & Astrophysics",
+      "code": "PA",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Political Science",
+      "code": "PS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Professional Communication",
+      "code": "PC",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Professional Sales",
+      "code": "PS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Psychology",
+      "code": "Psyc",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Public Health",
+      "code": "PH",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Public Relations (Communication)",
+      "code": "PRC",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Real Estate",
+      "code": "RE",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Recreation and Tourism Management",
+      "code": "RATM",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Religion",
+      "code": "Religion",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Religion & Classics",
+      "code": "RC",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Risk Management and Insurance",
+      "code": "RMAI",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Russian",
+      "code": "Russian",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Social Science Education",
+      "code": "SSE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Social Work",
+      "code": "SW",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Sociology",
+      "code": "Soci",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Spanish",
+      "code": "Spanish",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Special Education Teaching",
+      "code": "SET",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Sport Management",
+      "code": "SM",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Stage Management",
+      "code": "SM",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Statistics",
+      "code": "Stat",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Theatre",
+      "code": "Theatre",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Women’s Studies",
+      "code": "WSS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    }
+  ]
 }

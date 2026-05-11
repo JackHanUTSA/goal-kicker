@@ -1,70 +1,460 @@
 {
   "university": "William & Mary",
   "slug": "william-and-mary",
-  "retrieved_at": "2026-05-09",
-  "mode": "majors-list",
+  "academic_year": "Structured majors inventory",
+  "retrieved_at": "2026-05-10",
+  "mode": "mapped-majors",
   "source_url": "https://www.wm.edu/academic-programs",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
-  "summary": {
-    "majors_count": 100,
-    "titles_count": 53,
-    "count_method": "explicit official page sentence",
-    "confidence": "medium"
-  },
-  "titles": [
-    "Accounting",
-    "Africana Studies",
-    "American Studies",
-    "Anthropology",
-    "Art History",
-    "Asian & Middle Eastern Studies (AMES)",
-    "Asian & Pacific Islander American Studies (APIA)",
-    "Biology",
-    "Business Administration",
-    "Business Analytics",
-    "Chemistry",
-    "Chinese Language & Culture",
-    "Classical Studies",
-    "Coastal & Marine Sciences",
-    "Computational & Applied Mathematics & Statistics",
-    "Computer Science",
-    "Data Science",
-    "Economics",
-    "Elementary Education",
-    "Engineering",
-    "English",
-    "Environment & Sustainability",
-    "European Studies",
-    "Film & Media Studies",
-    "Finance",
-    "French & Francophone Studies",
-    "Gender, Sexuality & Women’s Studies",
-    "Geology",
-    "Government",
-    "History",
-    "Human Health & Physiology",
-    "Integrative Conservation",
-    "International Relations",
-    "Japanese Studies",
-    "Latin American & Caribbean Studies",
-    "Linguistics",
-    "Marketing",
-    "Mathematics",
-    "Medieval & Renaissance Studies",
-    "Music",
-    "Neuroscience",
-    "Philosophy",
-    "Physics",
-    "Psychology",
-    "Public Health",
-    "Public Policy",
-    "Religion",
-    "Russian, East European & Eurasian Studies",
-    "Self-Designed",
-    "Sociology",
-    "Spanish (see also Hispanic Studies)",
-    "Studio Art",
-    "Theatre"
+  "source_urls": [
+    "https://www.wm.edu/academic-programs",
+    "https://www.wm.edu/academics/",
+    "https://www.wm.edu/majors",
+    "https://www.wm.edu/academics/undergraduateprograms/",
+    "https://www.wm.edu/academics/programs/",
+    "https://www.wm.edu"
   ],
-  "notes": "explicit official page sentence; titles extracted from official page: https://www.wm.edu/academics/undergraduateprograms/; titles extracted from official page: https://www.wm.edu/academics/programs/"
+  "chart_title": "Undergraduate majors map — structured inventory",
+  "major_count_label": "53 mapped majors",
+  "total_label": "equal-weight bubbles",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. To keep the majors panel visually consistent with MIT, each official undergraduate major title is mapped into a broad discipline bucket and rendered as an equal-weight bubble. Bubble size here does not indicate enrollment.",
+  "summary_note": "53 mapped majors · equal-weight bubbles · official count page says 100 majors",
+  "legend_order": [
+    "Engineering",
+    "Science",
+    "Social Sciences",
+    "Humanities & Arts",
+    "Sloan School of Management",
+    "Interdisciplinary Programs"
+  ],
+  "totals": {
+    "mapped_major_titles": 53,
+    "official_major_count": 100
+  },
+  "notes": "explicit official page sentence explicit official page sentence; titles extracted from official page: https://www.wm.edu/academics/undergraduateprograms/; titles extracted from official page: https://www.wm.edu/academics/programs/ Confidence: medium.",
+  "majors": [
+    {
+      "name": "Accounting",
+      "code": "Acco",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Africana Studies",
+      "code": "AS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "American Studies",
+      "code": "AS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Anthropology",
+      "code": "Anth",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Art History",
+      "code": "AH",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Asian & Middle Eastern Studies",
+      "code": "AME",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Asian & Pacific Islander American Studies",
+      "code": "API",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biology",
+      "code": "Biology",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Business Administration",
+      "code": "BA",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Business Analytics",
+      "code": "BA",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemistry",
+      "code": "Chem",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chinese Language & Culture",
+      "code": "CLC",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Classical Studies",
+      "code": "CS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Coastal & Marine Sciences",
+      "code": "CMS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computational & Applied Mathematics & Statistics",
+      "code": "CAM",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Science",
+      "code": "CS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Data Science",
+      "code": "DS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Economics",
+      "code": "Econ",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Elementary Education",
+      "code": "EE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Engineering",
+      "code": "Engi",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English",
+      "code": "English",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environment & Sustainability",
+      "code": "ES",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "European Studies",
+      "code": "ES",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Film & Media Studies",
+      "code": "FMS",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Finance",
+      "code": "Finance",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "French & Francophone Studies",
+      "code": "FFS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Gender, Sexuality & Women’s Studies",
+      "code": "GSW",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Geology",
+      "code": "Geology",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Government",
+      "code": "Gove",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "History",
+      "code": "History",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Human Health & Physiology",
+      "code": "HHP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Integrative Conservation",
+      "code": "IC",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "International Relations",
+      "code": "IR",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Japanese Studies",
+      "code": "JS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Latin American & Caribbean Studies",
+      "code": "LAC",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Linguistics",
+      "code": "Ling",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Marketing",
+      "code": "Mark",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mathematics",
+      "code": "Math",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Medieval & Renaissance Studies",
+      "code": "MRS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music",
+      "code": "Music",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Neuroscience",
+      "code": "Neur",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Philosophy",
+      "code": "Phil",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Physics",
+      "code": "Physics",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Psychology",
+      "code": "Psyc",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Public Health",
+      "code": "PH",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Public Policy",
+      "code": "PP",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Religion",
+      "code": "Religion",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Russian, East European & Eurasian Studies",
+      "code": "REE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Self-Designed",
+      "code": "SD",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Sociology",
+      "code": "Soci",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Spanish (see also Hispanic Studies)",
+      "code": "SSAH",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Studio Art",
+      "code": "SA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Theatre",
+      "code": "Theatre",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    }
+  ]
 }

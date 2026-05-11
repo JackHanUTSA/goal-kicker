@@ -1,44 +1,248 @@
 {
   "university": "University of Michigan",
   "slug": "michigan",
-  "retrieved_at": "2026-05-09",
-  "mode": "majors-list",
+  "academic_year": "Structured majors inventory",
+  "retrieved_at": "2026-05-10",
+  "mode": "mapped-majors",
   "source_url": "https://admissions.umich.edu/academics-majors",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
-  "summary": {
-    "majors_count": 146,
-    "titles_count": 27,
-    "count_method": "derived from the official University of Michigan Atlas API by counting unique bachelor-level study_field values; this is an API-derived undergraduate program-field count rather than a single admissions-page sentence",
-    "confidence": "medium"
-  },
-  "titles": [
-    "Bachelor of Science in Engineering in Aerospace Engineering",
-    "Bachelor of Arts in Afroamerican and African Studies",
-    "Bachelor of Science in Afroamerican and African Studies",
-    "Bachelor of Arts in American Culture",
-    "Bachelor of Science in American Culture",
-    "Bachelor of Arts in Ancient Civilizations and Biblical Studies",
-    "Bachelor of Arts in Anthropology",
-    "Bachelor of Science in Anthropology",
-    "Bachelor of Science in Applied Exercise Science",
-    "Bachelor of Arts in Arabic,Armenian,Persian,Turkish & Islamic Studies",
-    "Bachelor of Science in Architecture",
-    "Bachelor of Arts in Art and Design",
-    "Bachelor of Fine Arts in Art and Design",
-    "Bachelor of Arts in Arts and Ideas",
-    "Bachelor of Science in Arts and Ideas",
-    "Bachelor of Arts in Asian Studies",
-    "Bachelor of Science in Asian Studies",
-    "Bachelor of Science in Astronomy and Astrophysics",
-    "Bachelor of Science in Athletic Training",
-    "Bachelor of Science in Biochemistry",
-    "Bachelor of Science in Chemistry in Biochemistry",
-    "Bachelor of Science in Biology",
-    "Bachelor of Arts in Biology, Health, and Society",
-    "Bachelor of Science in Biology, Health, and Society",
-    "Bachelor of Science in Engineering in Biomedical Engineering",
-    "Bachelor of Science in Biomolecular Science",
-    "Bachelor of Science in Biophysics"
+  "source_urls": [
+    "https://admissions.umich.edu/academics-majors",
+    "https://atlas.ai.umich.edu/api/majorlist/"
   ],
-  "notes": "derived from the official University of Michigan Atlas API by counting unique bachelor-level study_field values; this is an API-derived undergraduate program-field count rather than a single admissions-page sentence; titles extracted from official page: https://atlas.ai.umich.edu/api/majorlist/"
+  "chart_title": "Undergraduate majors map — structured inventory",
+  "major_count_label": "27 mapped majors",
+  "total_label": "equal-weight bubbles",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. To keep the majors panel visually consistent with MIT, each official undergraduate major title is mapped into a broad discipline bucket and rendered as an equal-weight bubble. Bubble size here does not indicate enrollment.",
+  "summary_note": "27 mapped majors · equal-weight bubbles · official count page says 146 majors",
+  "legend_order": [
+    "Architecture and Planning",
+    "Engineering",
+    "Science",
+    "Social Sciences",
+    "Humanities & Arts",
+    "Interdisciplinary Programs"
+  ],
+  "totals": {
+    "mapped_major_titles": 27,
+    "official_major_count": 146
+  },
+  "notes": "derived from the official University of Michigan Atlas API by counting unique bachelor-level study_field values; this is an API-derived undergraduate program-field count rather than a single admissions-page sentence derived from the official University of Michigan Atlas API by counting unique bachelor-level study_field values; this is an API-derived undergraduate program-field count rather than a single admissions-page sentence Confidence: medium.",
+  "majors": [
+    {
+      "name": "Bachelor of Arts in Afroamerican and African Studies",
+      "code": "BOAI",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bachelor of Arts in American Culture",
+      "code": "BOAI",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bachelor of Arts in Ancient Civilizations and Biblical Studies",
+      "code": "BOAI",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bachelor of Arts in Anthropology",
+      "code": "BOAI",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bachelor of Arts in Arabic,Armenian,Persian,Turkish & Islamic Studies",
+      "code": "BOAI",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bachelor of Arts in Art and Design",
+      "code": "BOAI",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bachelor of Arts in Arts and Ideas",
+      "code": "BOAI",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bachelor of Arts in Asian Studies",
+      "code": "BOAI",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bachelor of Arts in Biology, Health, and Society",
+      "code": "BOAI",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bachelor of Fine Arts in Art and Design",
+      "code": "BOFA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bachelor of Science in Afroamerican and African Studies",
+      "code": "BOSI",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bachelor of Science in American Culture",
+      "code": "BOSI",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bachelor of Science in Anthropology",
+      "code": "BOSI",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bachelor of Science in Applied Exercise Science",
+      "code": "BOSI",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bachelor of Science in Architecture",
+      "code": "BOSI",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bachelor of Science in Arts and Ideas",
+      "code": "BOSI",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bachelor of Science in Asian Studies",
+      "code": "BOSI",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bachelor of Science in Astronomy and Astrophysics",
+      "code": "BOSI",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bachelor of Science in Athletic Training",
+      "code": "BOSI",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bachelor of Science in Biochemistry",
+      "code": "BOSI",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bachelor of Science in Biology",
+      "code": "BOSI",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bachelor of Science in Biology, Health, and Society",
+      "code": "BOSI",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bachelor of Science in Biomolecular Science",
+      "code": "BOSI",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bachelor of Science in Biophysics",
+      "code": "BOSI",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bachelor of Science in Chemistry in Biochemistry",
+      "code": "BOSI",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bachelor of Science in Engineering in Aerospace Engineering",
+      "code": "BOSI",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bachelor of Science in Engineering in Biomedical Engineering",
+      "code": "BOSI",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    }
+  ]
 }

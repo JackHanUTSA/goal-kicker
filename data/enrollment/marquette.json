@@ -1,27 +1,112 @@
 {
   "university": "Marquette University",
   "slug": "marquette",
-  "retrieved_at": "2026-05-09",
-  "mode": "majors-list",
+  "academic_year": "Structured majors inventory",
+  "retrieved_at": "2026-05-10",
+  "mode": "mapped-majors",
   "source_url": "https://www.marquette.edu/academics/",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
-  "summary": {
-    "majors_count": 10,
-    "titles_count": 10,
-    "count_method": "counted extracted undergraduate-major titles from an official page",
-    "confidence": "low"
-  },
-  "titles": [
-    "Explore Our Data Programs",
-    "Accounting Analytics",
-    "Business Analytics",
-    "Computer Engineering",
-    "Computer Science",
-    "Data Science",
-    "Statistical Science",
-    "Bioinformatics",
-    "Criminal Justice Data Analytics",
-    "Sports and Exercise Data Analytics"
+  "source_urls": [
+    "https://www.marquette.edu/academics/",
+    "https://www.marquette.edu/data-science/data-programs.php",
+    "https://www.marquette.edu"
   ],
-  "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass; titles extracted from official page: https://www.marquette.edu/data-science/data-programs.php"
+  "chart_title": "Undergraduate majors map — structured inventory",
+  "major_count_label": "10 mapped majors",
+  "total_label": "equal-weight bubbles",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. To keep the majors panel visually consistent with MIT, each official undergraduate major title is mapped into a broad discipline bucket and rendered as an equal-weight bubble. Bubble size here does not indicate enrollment.",
+  "summary_note": "10 mapped majors · equal-weight bubbles · official count page says 10 majors",
+  "legend_order": [
+    "Engineering",
+    "Science",
+    "Social Sciences",
+    "Sloan School of Management",
+    "Interdisciplinary Programs"
+  ],
+  "totals": {
+    "mapped_major_titles": 10,
+    "official_major_count": 10
+  },
+  "notes": "counted extracted undergraduate-major titles from an official page auto-enrichment could not derive a reliable major/program count from the pages reached in this pass; titles extracted from official page: https://www.marquette.edu/data-science/data-programs.php Confidence: low.",
+  "majors": [
+    {
+      "name": "Accounting Analytics",
+      "code": "AA",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bioinformatics",
+      "code": "Bioi",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Business Analytics",
+      "code": "BA",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Engineering",
+      "code": "CE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Science",
+      "code": "CS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Criminal Justice Data Analytics",
+      "code": "CJDA",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Data Science",
+      "code": "DS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Explore Our Data Programs",
+      "code": "EODP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Sports and Exercise Data Analytics",
+      "code": "SAED",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Statistical Science",
+      "code": "SS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    }
+  ]
 }

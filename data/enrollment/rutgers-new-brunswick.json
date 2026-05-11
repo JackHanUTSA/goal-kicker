@@ -1,27 +1,115 @@
 {
   "university": "Rutgers University-New Brunswick",
   "slug": "rutgers-new-brunswick",
-  "retrieved_at": "2026-05-09",
-  "mode": "majors-list",
+  "academic_year": "Structured majors inventory",
+  "retrieved_at": "2026-05-10",
+  "mode": "mapped-majors",
   "source_url": "https://www.rutgers.edu/academic-programs",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
-  "summary": {
-    "majors_count": 150,
-    "titles_count": 10,
-    "count_method": "explicit official page sentence",
-    "confidence": "medium"
-  },
-  "titles": [
-    "Accounting",
-    "Aerospace Engineering",
-    "African, Middle Eastern, and South Asian Languages and Literatures",
-    "Africana Studies",
-    "Agricultural and Food Systems",
-    "American Studies",
-    "Animal Science",
-    "Anthropology",
-    "Anthropology, Evolutionary",
-    "Applied Sciences Engineering"
+  "source_urls": [
+    "https://www.rutgers.edu/academic-programs",
+    "https://www.rutgers.edu/academics",
+    "https://www.rutgers.edu/majors",
+    "https://www.rutgers.edu/academics/explore-undergraduate-programs?field_location=654",
+    "https://www.rutgers.edu"
   ],
-  "notes": "explicit official page sentence; titles extracted from official page: https://www.rutgers.edu/academics/explore-undergraduate-programs?field_location=654"
+  "chart_title": "Undergraduate majors map — structured inventory",
+  "major_count_label": "10 mapped majors",
+  "total_label": "equal-weight bubbles",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. To keep the majors panel visually consistent with MIT, each official undergraduate major title is mapped into a broad discipline bucket and rendered as an equal-weight bubble. Bubble size here does not indicate enrollment.",
+  "summary_note": "10 mapped majors · equal-weight bubbles · official count page says 150 majors",
+  "legend_order": [
+    "Engineering",
+    "Science",
+    "Social Sciences",
+    "Humanities & Arts",
+    "Sloan School of Management",
+    "Interdisciplinary Programs"
+  ],
+  "totals": {
+    "mapped_major_titles": 10,
+    "official_major_count": 150
+  },
+  "notes": "explicit official page sentence explicit official page sentence; titles extracted from official page: https://www.rutgers.edu/academics/explore-undergraduate-programs?field_location=654 Confidence: medium.",
+  "majors": [
+    {
+      "name": "Accounting",
+      "code": "Acco",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Aerospace Engineering",
+      "code": "AE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "African, Middle Eastern, and South Asian Languages and Literatures",
+      "code": "AMEA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Africana Studies",
+      "code": "AS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Agricultural and Food Systems",
+      "code": "AAFS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "American Studies",
+      "code": "AS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Animal Science",
+      "code": "AS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Anthropology",
+      "code": "Anth",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Anthropology, Evolutionary",
+      "code": "AE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Applied Sciences Engineering",
+      "code": "ASE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    }
+  ]
 }

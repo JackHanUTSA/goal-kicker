@@ -1,33 +1,161 @@
 {
   "university": "Texas A&M University",
   "slug": "texas-am",
-  "retrieved_at": "2026-05-09",
-  "mode": "majors-list",
+  "academic_year": "Structured majors inventory",
+  "retrieved_at": "2026-05-10",
+  "mode": "mapped-majors",
   "source_url": "https://www.tamu.edu/academic-programs/index.html",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
-  "summary": {
-    "majors_count": 400,
-    "titles_count": 16,
-    "count_method": "explicit official page sentence",
-    "confidence": "medium"
-  },
-  "titles": [
-    "Link to Agricultural Economics",
-    "Link to Animal Science",
-    "Link to Anthropology",
-    "Link to Biochemistry",
-    "Link to Chemistry",
-    "Link to English",
-    "Link to Entomology",
-    "Link to Forensic and Investigative Sciences",
-    "Link to Genetics",
-    "Link to History",
-    "Link to Leadership",
-    "Link to Philosophy",
-    "Link to Psychological & Brain Sciences",
-    "Link to Society, Ethics and Law",
-    "Link to Sociology",
-    "Link to Soil & Crop Science"
+  "source_urls": [
+    "https://www.tamu.edu/academic-programs/index.html",
+    "https://www.tamu.edu/academics/index.html",
+    "https://www.tamu.edu/majors/index.html",
+    "https://honors.tamu.edu/about/honors-programs-directory.html",
+    "https://www.tamu.edu"
   ],
-  "notes": "explicit official page sentence; titles extracted from official page: https://honors.tamu.edu/about/honors-programs-directory.html"
+  "chart_title": "Undergraduate majors map — structured inventory",
+  "major_count_label": "16 mapped majors",
+  "total_label": "equal-weight bubbles",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. To keep the majors panel visually consistent with MIT, each official undergraduate major title is mapped into a broad discipline bucket and rendered as an equal-weight bubble. Bubble size here does not indicate enrollment.",
+  "summary_note": "16 mapped majors · equal-weight bubbles · official count page says 400 majors",
+  "legend_order": [
+    "Science",
+    "Social Sciences",
+    "Humanities & Arts",
+    "Interdisciplinary Programs"
+  ],
+  "totals": {
+    "mapped_major_titles": 16,
+    "official_major_count": 400
+  },
+  "notes": "explicit official page sentence explicit official page sentence; titles extracted from official page: https://honors.tamu.edu/about/honors-programs-directory.html Confidence: medium.",
+  "majors": [
+    {
+      "name": "Link to Agricultural Economics",
+      "code": "LTAE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Link to Animal Science",
+      "code": "LTAS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Link to Anthropology",
+      "code": "LTA",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Link to Biochemistry",
+      "code": "LTB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Link to Chemistry",
+      "code": "LTC",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Link to English",
+      "code": "LTE",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Link to Entomology",
+      "code": "LTE",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Link to Forensic and Investigative Sciences",
+      "code": "LTFA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Link to Genetics",
+      "code": "LTG",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Link to History",
+      "code": "LTH",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Link to Leadership",
+      "code": "LTL",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Link to Philosophy",
+      "code": "LTP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Link to Psychological & Brain Sciences",
+      "code": "LTP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Link to Society, Ethics and Law",
+      "code": "LTSE",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Link to Sociology",
+      "code": "LTS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Link to Soil & Crop Science",
+      "code": "LTS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    }
+  ]
 }

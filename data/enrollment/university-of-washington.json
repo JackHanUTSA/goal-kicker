@@ -1,129 +1,932 @@
 {
   "university": "University of Washington",
   "slug": "university-of-washington",
-  "retrieved_at": "2026-05-09",
-  "mode": "majors-list",
+  "academic_year": "Structured majors inventory",
+  "retrieved_at": "2026-05-10",
+  "mode": "mapped-majors",
   "source_url": "https://www.washington.edu/academic-programs",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
-  "summary": {
-    "majors_count": 112,
-    "titles_count": 112,
-    "count_method": "counted extracted undergraduate-major titles from an official page",
-    "confidence": "low"
-  },
-  "titles": [
-    "Aeronautics & Astronautics",
-    "American Ethnic Studies",
-    "American Indian Studies",
-    "Anthropology",
-    "Aquatic Conservation & Ecology",
-    "Architectural Design",
-    "Architectural Studies",
-    "Art History",
-    "Asian Languages & Cultures",
-    "Asian Studies",
-    "Astronomy",
-    "Atmospheric and Climate Science",
-    "Biochemistry",
-    "Bioengineering",
-    "Biology",
-    "Business Administration",
-    "Chemical Engineering",
-    "Chemistry",
-    "Chinese",
-    "Cinema & Media Studies",
-    "Civil Engineering",
-    "Classical Studies",
-    "Classics",
-    "Communication",
-    "Community, Environment & Planning",
-    "Comparative History of Ideas (CHID)",
-    "Comparative Literature",
-    "Comparative Religion",
-    "Computer Engineering",
-    "Computer Science",
-    "Dance",
-    "Danish",
-    "Design",
-    "Disability Studies",
-    "Drama",
-    "Early Childhood & Family Studies",
-    "Earth & Space Sciences",
-    "Economics",
-    "Education Studies",
-    "Education, Communities & Organizations",
-    "Electrical & Computer Engineering",
-    "English – Creative Writing",
-    "English – Language, Literature & Culture",
-    "Environmental Design & Sustainability",
-    "Environmental Engineering",
-    "Environmental Public Health",
-    "Environmental Studies",
-    "Ethnomusicology, B.A.",
-    "European Studies",
-    "Finnish",
-    "Food Systems, Nutrition, & Health",
-    "French",
-    "Gender, Women & Sexuality Studies",
-    "Geography",
-    "German",
-    "Global Literary Studies",
-    "Greek",
-    "Guitar, B.M.",
-    "History",
-    "History & Philosophy of Science",
-    "Human Centered Design and Engineering",
-    "Individualized Studies",
-    "Industrial Engineering",
-    "Informatics",
-    "International Studies",
-    "Italian",
-    "Japanese",
-    "Jazz Studies, B.M.",
-    "Jewish Studies",
-    "Korean",
-    "Landscape Architecture",
-    "Latin",
-    "Latin American & Caribbean Studies",
-    "Law, Societies & Justice",
-    "Linguistics",
-    "Marine Biology",
-    "Materials Science & Engineering",
-    "Mathematics",
-    "Mechanical Engineering",
-    "Medical Laboratory Science",
-    "Microbiology",
-    "Middle Eastern Languages & Cultures",
-    "Music Composition, B.M.",
-    "Music Education, B.M.",
-    "Music, B.A.",
-    "Neuroscience",
-    "Norwegian",
-    "Nursing",
-    "Oceanography",
-    "Orchestral Instruments, B.M.",
-    "Organ, B.M.",
-    "Percussion Performance, B.M.",
-    "Philosophy",
-    "Physics",
-    "Piano, B.M.",
-    "Political Science",
-    "Psychology",
-    "Public Health – Global Health",
-    "Public Service & Policy",
-    "Real Estate",
-    "Scandinavian Area Studies",
-    "Slavic Languages & Literatures",
-    "Social Welfare",
-    "Sociology",
-    "South Asian Languages & Cultures",
-    "Spanish",
-    "Speech & Hearing Sciences",
-    "Statistics",
-    "Strings, B.M.",
-    "Sustainable Bioresource Systems Engineering",
-    "Swedish",
-    "Voice, B.M."
+  "source_urls": [
+    "https://www.washington.edu/academic-programs",
+    "https://www.washington.edu/majors",
+    "https://www.washington.edu/undergraduate/programs",
+    "https://admit.washington.edu/academics/majors/",
+    "https://www.washington.edu"
   ],
-  "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass; titles extracted from official page: https://admit.washington.edu/academics/majors/"
+  "chart_title": "Undergraduate majors map — structured inventory",
+  "major_count_label": "112 mapped majors",
+  "total_label": "equal-weight bubbles",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. To keep the majors panel visually consistent with MIT, each official undergraduate major title is mapped into a broad discipline bucket and rendered as an equal-weight bubble. Bubble size here does not indicate enrollment.",
+  "summary_note": "112 mapped majors · equal-weight bubbles · official count page says 112 majors",
+  "legend_order": [
+    "Architecture and Planning",
+    "Engineering",
+    "Science",
+    "Social Sciences",
+    "Humanities & Arts",
+    "Sloan School of Management",
+    "Interdisciplinary Programs"
+  ],
+  "totals": {
+    "mapped_major_titles": 112,
+    "official_major_count": 112
+  },
+  "notes": "counted extracted undergraduate-major titles from an official page auto-enrichment could not derive a reliable major/program count from the pages reached in this pass; titles extracted from official page: https://admit.washington.edu/academics/majors/ Confidence: low.",
+  "majors": [
+    {
+      "name": "Aeronautics & Astronautics",
+      "code": "AA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "American Ethnic Studies",
+      "code": "AES",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "American Indian Studies",
+      "code": "AIS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Anthropology",
+      "code": "Anth",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Aquatic Conservation & Ecology",
+      "code": "ACE",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Architectural Design",
+      "code": "AD",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Architectural Studies",
+      "code": "AS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Art History",
+      "code": "AH",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Asian Languages & Cultures",
+      "code": "ALC",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Asian Studies",
+      "code": "AS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Astronomy",
+      "code": "Astr",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Atmospheric and Climate Science",
+      "code": "AACS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biochemistry",
+      "code": "Bioc",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bioengineering",
+      "code": "Bioe",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biology",
+      "code": "Biology",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Business Administration",
+      "code": "BA",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemical Engineering",
+      "code": "CE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemistry",
+      "code": "Chem",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chinese",
+      "code": "Chinese",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Cinema & Media Studies",
+      "code": "CMS",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Civil Engineering",
+      "code": "CE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Classical Studies",
+      "code": "CS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Classics",
+      "code": "Classics",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Communication",
+      "code": "Comm",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Community, Environment & Planning",
+      "code": "CEP",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Comparative History of Ideas",
+      "code": "CHOI",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Comparative Literature",
+      "code": "CL",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Comparative Religion",
+      "code": "CR",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Engineering",
+      "code": "CE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Science",
+      "code": "CS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Dance",
+      "code": "Dance",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Danish",
+      "code": "Danish",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Design",
+      "code": "Design",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Disability Studies",
+      "code": "DS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Drama",
+      "code": "Drama",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Early Childhood & Family Studies",
+      "code": "ECF",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Earth & Space Sciences",
+      "code": "ESS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Economics",
+      "code": "Econ",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Education Studies",
+      "code": "ES",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Education, Communities & Organizations",
+      "code": "ECO",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Electrical & Computer Engineering",
+      "code": "ECE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English – Creative Writing",
+      "code": "ECW",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English – Language, Literature & Culture",
+      "code": "ELL",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Design & Sustainability",
+      "code": "EDS",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Engineering",
+      "code": "EE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Public Health",
+      "code": "EPH",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Studies",
+      "code": "ES",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "code": "Ethn",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "European Studies",
+      "code": "ES",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Finnish",
+      "code": "Finnish",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Food Systems, Nutrition, & Health",
+      "code": "FSN",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "French",
+      "code": "French",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Gender, Women & Sexuality Studies",
+      "code": "GWS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Geography",
+      "code": "Geog",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "German",
+      "code": "German",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Global Literary Studies",
+      "code": "GLS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Greek",
+      "code": "Greek",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Guitar",
+      "code": "Guitar",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "History",
+      "code": "History",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "History & Philosophy of Science",
+      "code": "HPO",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Human Centered Design and Engineering",
+      "code": "HCDA",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Individualized Studies",
+      "code": "IS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Industrial Engineering",
+      "code": "IE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Informatics",
+      "code": "Info",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "International Studies",
+      "code": "IS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Italian",
+      "code": "Italian",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Japanese",
+      "code": "Japanese",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Jazz Studies",
+      "code": "JS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Jewish Studies",
+      "code": "JS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Korean",
+      "code": "Korean",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Landscape Architecture",
+      "code": "LA",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Latin",
+      "code": "Latin",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Latin American & Caribbean Studies",
+      "code": "LAC",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Law, Societies & Justice",
+      "code": "LSJ",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Linguistics",
+      "code": "Ling",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Marine Biology",
+      "code": "MB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Materials Science & Engineering",
+      "code": "MSE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mathematics",
+      "code": "Math",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mechanical Engineering",
+      "code": "ME",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Medical Laboratory Science",
+      "code": "MLS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Microbiology",
+      "code": "Micr",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Middle Eastern Languages & Cultures",
+      "code": "MEL",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music",
+      "code": "Music",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music Composition",
+      "code": "MC",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music Education",
+      "code": "ME",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Neuroscience",
+      "code": "Neur",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Norwegian",
+      "code": "Norw",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Nursing",
+      "code": "Nursing",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Oceanography",
+      "code": "Ocea",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Orchestral Instruments",
+      "code": "OI",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Organ",
+      "code": "Organ",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Percussion Performance",
+      "code": "PP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Philosophy",
+      "code": "Phil",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Physics",
+      "code": "Physics",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Piano",
+      "code": "Piano",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Political Science",
+      "code": "PS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Psychology",
+      "code": "Psyc",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Public Health – Global Health",
+      "code": "PHGH",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Public Service & Policy",
+      "code": "PSP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Real Estate",
+      "code": "RE",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Scandinavian Area Studies",
+      "code": "SAS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Slavic Languages & Literatures",
+      "code": "SLL",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Social Welfare",
+      "code": "SW",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Sociology",
+      "code": "Soci",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "South Asian Languages & Cultures",
+      "code": "SAL",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Spanish",
+      "code": "Spanish",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Speech & Hearing Sciences",
+      "code": "SHS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Statistics",
+      "code": "Stat",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Strings",
+      "code": "Strings",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Sustainable Bioresource Systems Engineering",
+      "code": "SBSE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Swedish",
+      "code": "Swedish",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Voice",
+      "code": "Voice",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    }
+  ]
 }

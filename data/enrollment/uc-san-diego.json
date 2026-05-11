@@ -1,174 +1,1282 @@
 {
   "university": "University of California, San Diego",
   "slug": "uc-san-diego",
-  "retrieved_at": "2026-05-09",
-  "mode": "majors-list",
+  "academic_year": "Structured majors inventory",
+  "retrieved_at": "2026-05-10",
+  "mode": "mapped-majors",
   "source_url": "https://www.ucsd.edu/academics/",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
-  "summary": {
-    "majors_count": 100,
-    "titles_count": 157,
-    "count_method": "explicit official page sentence",
-    "confidence": "medium"
-  },
-  "titles": [
-    "Astronomy & Astrophysics",
-    "Astrophysical Sciences",
-    "Anthropology (Archaeology)",
-    "Anthropology (Biological Anthropology)",
-    "Anthropology (Sociocultural Anthropology)",
-    "Anthropology with a Concentration in Climate Change and Human Solutions",
-    "Biological Anthropology",
-    "Environmental Anthropology",
-    "Bioengineering (BE) Bioengineering",
-    "Bioengineering (Biotechnology)",
-    "Bioengineering (Bioinformatics)",
-    "Bioengineering: BioSystems",
-    "Biological Sciences Biology with Specialization in Bioinformatics",
-    "Ecology, Behavior and Evolution",
-    "General Biology",
-    "Human Biology",
-    "Microbiology",
-    "Molecular and Cell Biology",
-    "Neurobiology",
-    "Black Diaspora and African American Studies",
-    "Chemical Engineering",
-    "Chemistry and Biochemistry Biochemistry",
-    "Chemistry",
-    "Environmental Chemistry",
-    "Molecular Synthesis",
-    "Pharmacological Chemistry",
-    "Chicanx and Latinx Studies",
-    "Chinese Studies",
-    "Cinematic Arts",
-    "Classical Studies",
-    "Cognitive Science",
-    "Cognitive Science with Specialization in Clinical Aspects of Cognition",
-    "Cognitive Science with Specialization in Design and Interaction",
-    "Cognitive Science with Specialization in Language and Culture",
-    "Cognitive Science with Specialization in Machine Learning and Neural Computation",
-    "Cognitive Science with Specialization in Neuroscience",
-    "Cognitive and Behavioral Neuroscience",
-    "Communication",
-    "Media Industries and Communication",
-    "Computer Science and Engineering (CSE) Computer Engineering",
-    "Computer Science",
-    "Computer Science with Specialization in Bioinformatics",
-    "Artificial Intelligence",
-    "Critical Gender Studies",
-    "Data Science",
-    "Economics Business Economics",
-    "Economics",
-    "Economics and Mathematics - Joint Major",
-    "Economics-Public Policy",
-    "Education Studies Education Sciences",
-    "Electrical and Computer Engineering (ECE) Computer Engineering",
-    "Electrical Engineering",
-    "Electrical Engineering and Society",
-    "Engineering Physics",
-    "Environmental Systems Program Environmental Systems (Earth Sciences)",
-    "Environmental Systems (Ecology, Behavior, & Evolution)",
-    "Environmental Systems (Environmental Chemistry)",
-    "Environmental Systems (Environmental Policy)",
-    "Ethnic Studies",
-    "German Studies",
-    "Global Health",
-    "Global South Studies",
-    "Herbert Wertheim School of Public Health and Human Longevity Science Public Health",
-    "Public Health with Concentration in Biostatistics",
-    "Public Health with Concentration in Climate and Environmental Sciences",
-    "Public Health with Concentration in Community Health Sciences",
-    "Public Health with Concentration in Epidemiology",
-    "Public Health with Concentration in Health Policy and Management Sciences",
-    "Public Health with Concentration in Medicine Sciences",
-    "History",
-    "Human Developmental Sciences",
-    "Human Developmental Sciences with a Specialization in Equity and Diversity",
-    "Human Developmental Sciences with a Specialization in Healthy Aging",
-    "Italian Studies",
-    "Japanese Studies",
-    "Jewish Studies",
-    "Latin American Studies",
-    "Latin American Studies with a Concentration in Mexico",
-    "Latin American Studies with a Concentration in Migration and Border Studies",
-    "Linguistics",
-    "Linguistics (Specialization in Cognition and Language)",
-    "Linguistics (Specialization in Language and Society)",
-    "Linguistics: Language Studies (Specialization in Individual Language)",
-    "Linguistics (Specialization in Speech and Language Sciences)",
-    "Literature Literary Arts",
-    "Literatures in English",
-    "Spanish Literature",
-    "World Literature and Culture",
-    "Mathematics Mathematical Biology",
-    "Mathematics (Applied)",
-    "Mathematics",
-    "Mathematics and Economics - Joint Major",
-    "Mathematics - Applied Science",
-    "Mathematics - Computer Science",
-    "Mathematics - Secondary Education",
-    "Probability and Statistics",
-    "Mechanical and Aerospace Engineering (MAE) Aerospace Engineering",
-    "Aerospace Engineering with a Specialization in Aerothermodynamics",
-    "Aerospace Engineering with a Specialization in Astrodynamics and Space Applications",
-    "Aerospace Engineering with a Specialization in Flight Dynamics and Controls",
-    "Mechanical Engineering",
-    "Mechanical Engineering with a Specialization in Controls and Robotics",
-    "Mechanical Engineering with a Specialization in Fluid Mechanics and Thermal Systems",
-    "Mechanical Engineering with a Specialization in Materials Science and Engineering",
-    "Mechanical Engineering with a Specialization in Mechanics of Materials",
-    "Mechanical Engineering with a Specialization in Renewable Energy and Environmental Flows",
-    "Music",
-    "Interdisciplinary Computing and the Arts",
-    "Music Humanities",
-    "NanoEngineering",
-    "Philosophy",
-    "Physics",
-    "Political Science",
-    "Political Science/American Politics",
-    "Political Science/Comparative Politics",
-    "Political Science/Data Analytics",
-    "Political Science/International Affairs",
-    "Political Science/International Relations",
-    "Political Science/Political Theory",
-    "Political Science/Public Law",
-    "Political Science/Public Policy",
-    "Political Science/Race, Ethnicity, and Politics",
-    "Psychology",
-    "Psychology with a Specialization in Clinical Psychology",
-    "Psychology with a Specialization in Cognitive Psychology",
-    "Psychology with a Specialization in Developmental Psychology",
-    "Psychology with a Specialization in Human Health",
-    "Psychology with a Specialization in Sensation and Perception",
-    "Psychology with a Specialization in Social Psychology",
-    "Business Psychology",
-    "Experimental Psychology",
-    "Religion, Program for the Study Of Study of Religion",
-    "Russian and Soviet Studies Russian, East European & Eurasian Studies",
-    "Scripps Institution of Oceanography Geosciences",
-    "Marine Biology",
-    "Oceanic and Atmospheric Sciences",
-    "Sociology",
-    "Sociology - International Studies",
-    "Sociology - American Studies",
-    "Sociology - Science and Medicine",
-    "Sociology - Economy and Society",
-    "Sociology - Culture and Communication",
-    "Sociology - Social Inequality",
-    "Sociology - Law and Society",
-    "Structural Engineering (SE) Structural Engineering",
-    "Structural Engineering with a Specialization in Aerospace Structures",
-    "Structural Engineering with a Specialization in Civil Structures",
-    "Structural Engineering with a Specialization in Geotechnical Engineering",
-    "Structural Engineering with a Specialization in Structural Health Monitoring/Non-Destructive Evaluation",
-    "Theatre and Dance Dance",
-    "Theatre",
-    "Urban Studies and Planning",
-    "Real Estate and Development",
-    "Visual Arts Art History/ Criticism",
-    "Media",
-    "Speculative Design",
-    "Studio"
+  "source_urls": [
+    "https://www.ucsd.edu/academics/",
+    "https://students.ucsd.edu/academics/advising/majors-minors/undergraduate-majors.html",
+    "https://www.ucsd.edu"
   ],
-  "notes": "explicit official page sentence; titles extracted from official page: https://students.ucsd.edu/academics/advising/majors-minors/undergraduate-majors.html"
+  "chart_title": "Undergraduate majors map — structured inventory",
+  "major_count_label": "156 mapped majors",
+  "total_label": "equal-weight bubbles",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. To keep the majors panel visually consistent with MIT, each official undergraduate major title is mapped into a broad discipline bucket and rendered as an equal-weight bubble. Bubble size here does not indicate enrollment.",
+  "summary_note": "156 mapped majors · equal-weight bubbles · official count page says 100 majors",
+  "legend_order": [
+    "Architecture and Planning",
+    "Engineering",
+    "Science",
+    "Social Sciences",
+    "Humanities & Arts",
+    "Sloan School of Management",
+    "Interdisciplinary Programs"
+  ],
+  "totals": {
+    "mapped_major_titles": 156,
+    "official_major_count": 100
+  },
+  "notes": "explicit official page sentence explicit official page sentence; titles extracted from official page: https://students.ucsd.edu/academics/advising/majors-minors/undergraduate-majors.html Confidence: medium.",
+  "majors": [
+    {
+      "name": "Aerospace Engineering with a Specialization in Aerothermodynamics",
+      "code": "AEWA",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Aerospace Engineering with a Specialization in Astrodynamics and Space Applications",
+      "code": "AEWA",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Aerospace Engineering with a Specialization in Flight Dynamics and Controls",
+      "code": "AEWA",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Anthropology (Archaeology)",
+      "code": "AA",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Anthropology (Biological Anthropology)",
+      "code": "ABA",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Anthropology (Sociocultural Anthropology)",
+      "code": "ASA",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Anthropology with a Concentration in Climate Change and Human Solutions",
+      "code": "AWAC",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Artificial Intelligence",
+      "code": "AI",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Astronomy & Astrophysics",
+      "code": "AA",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Astrophysical Sciences",
+      "code": "AS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bioengineering (BE) Bioengineering",
+      "code": "BBB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bioengineering (Bioinformatics)",
+      "code": "BB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bioengineering (Biotechnology)",
+      "code": "BB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bioengineering: BioSystems",
+      "code": "BB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biological Anthropology",
+      "code": "BA",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biological Sciences Biology with Specialization in Bioinformatics",
+      "code": "BSBW",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Black Diaspora and African American Studies",
+      "code": "BDAA",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Business Psychology",
+      "code": "BP",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemical Engineering",
+      "code": "CE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemistry",
+      "code": "Chem",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemistry and Biochemistry Biochemistry",
+      "code": "CABB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chicanx and Latinx Studies",
+      "code": "CALS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chinese Studies",
+      "code": "CS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Cinematic Arts",
+      "code": "CA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Classical Studies",
+      "code": "CS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Cognitive Science",
+      "code": "CS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Cognitive Science with Specialization in Clinical Aspects of Cognition",
+      "code": "CSWS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Cognitive Science with Specialization in Design and Interaction",
+      "code": "CSWS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Cognitive Science with Specialization in Language and Culture",
+      "code": "CSWS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Cognitive Science with Specialization in Machine Learning and Neural Computation",
+      "code": "CSWS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Cognitive Science with Specialization in Neuroscience",
+      "code": "CSWS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Cognitive and Behavioral Neuroscience",
+      "code": "CABN",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Communication",
+      "code": "Comm",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Science",
+      "code": "CS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Science and Engineering (CSE) Computer Engineering",
+      "code": "CSAE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Science with Specialization in Bioinformatics",
+      "code": "CSWS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Critical Gender Studies",
+      "code": "CGS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Data Science",
+      "code": "DS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Ecology, Behavior and Evolution",
+      "code": "EBAE",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Economics",
+      "code": "Econ",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Economics Business Economics",
+      "code": "EBE",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Economics and Mathematics - Joint Major",
+      "code": "EAMJ",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Economics-Public Policy",
+      "code": "EPP",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Education Studies Education Sciences",
+      "code": "ESES",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Electrical Engineering",
+      "code": "EE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Electrical Engineering and Society",
+      "code": "EEAS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Electrical and Computer Engineering (ECE) Computer Engineering",
+      "code": "EACE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Engineering Physics",
+      "code": "EP",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Anthropology",
+      "code": "EA",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Chemistry",
+      "code": "EC",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Systems (Ecology, Behavior, & Evolution)",
+      "code": "ESEB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Systems (Environmental Chemistry)",
+      "code": "ESEC",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Systems (Environmental Policy)",
+      "code": "ESEP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Systems Program Environmental Systems",
+      "code": "ESPE",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Ethnic Studies",
+      "code": "ES",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Experimental Psychology",
+      "code": "EP",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "General Biology",
+      "code": "GB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "German Studies",
+      "code": "GS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Global Health",
+      "code": "GH",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Global South Studies",
+      "code": "GSS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Herbert Wertheim School of Public Health and Human Longevity Science Public Health",
+      "code": "HWSO",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "History",
+      "code": "History",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Human Biology",
+      "code": "HB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Human Developmental Sciences",
+      "code": "HDS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Human Developmental Sciences with a Specialization in Equity and Diversity",
+      "code": "HDSW",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Human Developmental Sciences with a Specialization in Healthy Aging",
+      "code": "HDSW",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Interdisciplinary Computing and the Arts",
+      "code": "ICAT",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Italian Studies",
+      "code": "IS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Japanese Studies",
+      "code": "JS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Jewish Studies",
+      "code": "JS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Latin American Studies",
+      "code": "LAS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Latin American Studies with a Concentration in Mexico",
+      "code": "LASW",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Latin American Studies with a Concentration in Migration and Border Studies",
+      "code": "LASW",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Linguistics",
+      "code": "Ling",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Linguistics (Specialization in Cognition and Language)",
+      "code": "LSIC",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Linguistics (Specialization in Language and Society)",
+      "code": "LSIL",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Linguistics: Language Studies (Specialization in Individual Language)",
+      "code": "LLSS",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Literature Literary Arts",
+      "code": "LLA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Literatures in English",
+      "code": "LIE",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Marine Biology",
+      "code": "MB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mathematics",
+      "code": "Math",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mathematics (Applied)",
+      "code": "MA",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mathematics - Applied Science",
+      "code": "MAS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mathematics - Computer Science",
+      "code": "MCS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mathematics - Secondary Education",
+      "code": "MSE",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mathematics Mathematical Biology",
+      "code": "MMB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mathematics and Economics - Joint Major",
+      "code": "MAEJ",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mechanical Engineering",
+      "code": "ME",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mechanical Engineering with a Specialization in Controls and Robotics",
+      "code": "MEWA",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mechanical Engineering with a Specialization in Fluid Mechanics and Thermal Systems",
+      "code": "MEWA",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mechanical Engineering with a Specialization in Materials Science and Engineering",
+      "code": "MEWA",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mechanical Engineering with a Specialization in Mechanics of Materials",
+      "code": "MEWA",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mechanical Engineering with a Specialization in Renewable Energy and Environmental Flows",
+      "code": "MEWA",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mechanical and Aerospace Engineering (MAE) Aerospace Engineering",
+      "code": "MAAE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Media",
+      "code": "Media",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Media Industries and Communication",
+      "code": "MIAC",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Microbiology",
+      "code": "Micr",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Molecular Synthesis",
+      "code": "MS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Molecular and Cell Biology",
+      "code": "MACB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music",
+      "code": "Music",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music Humanities",
+      "code": "MH",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "NanoEngineering",
+      "code": "Nano",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Neurobiology",
+      "code": "Neur",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Oceanic and Atmospheric Sciences",
+      "code": "OAAS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Pharmacological Chemistry",
+      "code": "PC",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Philosophy",
+      "code": "Phil",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Physics",
+      "code": "Physics",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Political Science",
+      "code": "PS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Political Science/American Politics",
+      "code": "PSAP",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Political Science/Comparative Politics",
+      "code": "PSCP",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Political Science/Data Analytics",
+      "code": "PSDA",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Political Science/International Affairs",
+      "code": "PSIA",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Political Science/International Relations",
+      "code": "PSIR",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Political Science/Political Theory",
+      "code": "PSPT",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Political Science/Public Law",
+      "code": "PSPL",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Political Science/Public Policy",
+      "code": "PSPP",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Political Science/Race, Ethnicity, and Politics",
+      "code": "PSRE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Probability and Statistics",
+      "code": "PAS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Psychology",
+      "code": "Psyc",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Psychology with a Specialization in Clinical Psychology",
+      "code": "PWAS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Psychology with a Specialization in Cognitive Psychology",
+      "code": "PWAS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Psychology with a Specialization in Developmental Psychology",
+      "code": "PWAS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Psychology with a Specialization in Human Health",
+      "code": "PWAS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Psychology with a Specialization in Sensation and Perception",
+      "code": "PWAS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Psychology with a Specialization in Social Psychology",
+      "code": "PWAS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Public Health with Concentration in Biostatistics",
+      "code": "PHWC",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Public Health with Concentration in Climate and Environmental Sciences",
+      "code": "PHWC",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Public Health with Concentration in Community Health Sciences",
+      "code": "PHWC",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Public Health with Concentration in Epidemiology",
+      "code": "PHWC",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Public Health with Concentration in Health Policy and Management Sciences",
+      "code": "PHWC",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Public Health with Concentration in Medicine Sciences",
+      "code": "PHWC",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Real Estate and Development",
+      "code": "READ",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Religion, Program for the Study Of Study of Religion",
+      "code": "RPFT",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Russian and Soviet Studies Russian, East European & Eurasian Studies",
+      "code": "RASS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Scripps Institution of Oceanography Geosciences",
+      "code": "SIOO",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Sociology",
+      "code": "Soci",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Sociology - American Studies",
+      "code": "SAS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Sociology - Culture and Communication",
+      "code": "SCAC",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Sociology - Economy and Society",
+      "code": "SEAS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Sociology - International Studies",
+      "code": "SIS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Sociology - Law and Society",
+      "code": "SLAS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Sociology - Science and Medicine",
+      "code": "SSAM",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Sociology - Social Inequality",
+      "code": "SSI",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Spanish Literature",
+      "code": "SL",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Speculative Design",
+      "code": "SD",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Structural Engineering (SE) Structural Engineering",
+      "code": "SESS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Structural Engineering with a Specialization in Aerospace Structures",
+      "code": "SEWA",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Structural Engineering with a Specialization in Civil Structures",
+      "code": "SEWA",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Structural Engineering with a Specialization in Geotechnical Engineering",
+      "code": "SEWA",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Structural Engineering with a Specialization in Structural Health Monitoring/Non-Destructive Evaluation",
+      "code": "SEWA",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Studio",
+      "code": "Studio",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Theatre",
+      "code": "Theatre",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Theatre and Dance Dance",
+      "code": "TADD",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Urban Studies and Planning",
+      "code": "USAP",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Visual Arts Art History/ Criticism",
+      "code": "VAAH",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "World Literature and Culture",
+      "code": "WLAC",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    }
+  ]
 }

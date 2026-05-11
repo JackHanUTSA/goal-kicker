@@ -1,40 +1,206 @@
 {
   "university": "Worcester Polytechnic Institute",
   "slug": "wpi",
-  "retrieved_at": "2026-05-09",
-  "mode": "majors-list",
+  "academic_year": "Structured majors inventory",
+  "retrieved_at": "2026-05-10",
+  "mode": "mapped-majors",
   "source_url": "https://www.wpi.edu/academic-programs",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
-  "summary": {
-    "majors_count": 70,
-    "titles_count": 23,
-    "count_method": "explicit official page sentence",
-    "confidence": "medium"
-  },
-  "titles": [
-    "undergraduate and graduate degree programs",
-    "Major Qualifying Project",
-    "Prospective BME Undergraduate Students",
-    "Undergraduate Students",
-    "Breadcrumb",
-    "Student Projects",
-    "SSPS Undergraduate Degrees",
-    "Labs & Resources",
-    "Undergraduate Studies",
-    "Meet the Team",
-    "Publishing, Presenting, and Patenting",
-    "Summer Undergraduate Courses",
-    "Current WPI Students",
-    "High Achieving High School Students",
-    "Visiting Undergraduate Students",
-    "Incoming Students",
-    "Summer Sandbox Grants",
-    "Summer Sandbox Awardees",
-    "Undergraduate Awards",
-    "Great Minds Scholars Program",
-    "Pre-Professional Studies",
-    "First-Year Student Success",
-    "NSF S-STEM programs"
+  "source_urls": [
+    "https://www.wpi.edu/academic-programs",
+    "https://www.wpi.edu/academics",
+    "https://www.wpi.edu/majors",
+    "https://www.wpi.edu/undergraduate/programs",
+    "https://www.wpi.edu"
   ],
-  "notes": "explicit official page sentence; titles extracted from official page: https://www.wpi.edu/academics"
+  "chart_title": "Undergraduate majors map — structured inventory",
+  "major_count_label": "22 mapped majors",
+  "total_label": "equal-weight bubbles",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. To keep the majors panel visually consistent with MIT, each official undergraduate major title is mapped into a broad discipline bucket and rendered as an equal-weight bubble. Bubble size here does not indicate enrollment.",
+  "summary_note": "22 mapped majors · equal-weight bubbles · official count page says 70 majors",
+  "legend_order": [
+    "Interdisciplinary Programs"
+  ],
+  "totals": {
+    "mapped_major_titles": 22,
+    "official_major_count": 70
+  },
+  "notes": "explicit official page sentence explicit official page sentence; titles extracted from official page: https://www.wpi.edu/academics Confidence: medium.",
+  "majors": [
+    {
+      "name": "Breadcrumb",
+      "code": "Brea",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Current WPI Students",
+      "code": "CWS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "First-Year Student Success",
+      "code": "FYSS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Great Minds Scholars Program",
+      "code": "GMSP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "High Achieving High School Students",
+      "code": "HAHS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Incoming Students",
+      "code": "IS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Labs & Resources",
+      "code": "LR",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Major Qualifying Project",
+      "code": "MQP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Meet the Team",
+      "code": "MTT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "NSF S-STEM programs",
+      "code": "NSSP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Pre-Professional Studies",
+      "code": "PPS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Prospective BME Undergraduate Students",
+      "code": "PBUS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Publishing, Presenting, and Patenting",
+      "code": "PPAP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "SSPS Undergraduate Degrees",
+      "code": "SUD",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Student Projects",
+      "code": "SP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Summer Sandbox Awardees",
+      "code": "SSA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Summer Sandbox Grants",
+      "code": "SSG",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Undergraduate Awards",
+      "code": "UA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Undergraduate Students",
+      "code": "US",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Undergraduate Studies",
+      "code": "US",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Visiting Undergraduate Students",
+      "code": "VUS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "undergraduate and graduate degree programs",
+      "code": "UAGD",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    }
+  ]
 }

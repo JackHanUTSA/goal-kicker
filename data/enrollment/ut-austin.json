@@ -1,25 +1,96 @@
 {
   "university": "University of Texas at Austin",
   "slug": "ut-austin",
-  "retrieved_at": "2026-05-09",
-  "mode": "majors-list",
+  "academic_year": "Structured majors inventory",
+  "retrieved_at": "2026-05-10",
+  "mode": "mapped-majors",
   "source_url": "https://www.utexas.edu/academic-programs",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
-  "summary": {
-    "majors_count": 8,
-    "titles_count": 8,
-    "count_method": "counted extracted undergraduate-major titles from an official page",
-    "confidence": "low"
-  },
-  "titles": [
-    "Semiconductor Science and Engineering",
-    "Information Studies - Fifth Year Integrated Program (w/ Computer Science BS)",
-    "Information Studies - Fifth Year Integrated Program (w/ Informatics BA)",
-    "Information Studies - Fifth Year Integrated Program (w/ Informatics BSI)",
-    "Women's and Gender Studies - Fifth Year Integrated Program",
-    "Computer Science - Fifth Year Integrated Program",
-    "Global Policy Studies - DC",
-    "Public Affairs - DC"
+  "source_urls": [
+    "https://www.utexas.edu/academic-programs",
+    "https://www.utexas.edu/academics/academic-experience",
+    "https://www.utexas.edu/majors",
+    "https://gradschool.utexas.edu/degrees-programs",
+    "https://www.utexas.edu"
   ],
-  "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass; titles extracted from official page: https://gradschool.utexas.edu/degrees-programs"
+  "chart_title": "Undergraduate majors map — structured inventory",
+  "major_count_label": "8 mapped majors",
+  "total_label": "equal-weight bubbles",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. To keep the majors panel visually consistent with MIT, each official undergraduate major title is mapped into a broad discipline bucket and rendered as an equal-weight bubble. Bubble size here does not indicate enrollment.",
+  "summary_note": "8 mapped majors · equal-weight bubbles · official count page says 8 majors",
+  "legend_order": [
+    "Engineering",
+    "Social Sciences",
+    "Interdisciplinary Programs"
+  ],
+  "totals": {
+    "mapped_major_titles": 8,
+    "official_major_count": 8
+  },
+  "notes": "counted extracted undergraduate-major titles from an official page auto-enrichment could not derive a reliable major/program count from the pages reached in this pass; titles extracted from official page: https://gradschool.utexas.edu/degrees-programs Confidence: low.",
+  "majors": [
+    {
+      "name": "Computer Science - Fifth Year Integrated Program",
+      "code": "CSFY",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Global Policy Studies - DC",
+      "code": "GPSD",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Information Studies - Fifth Year Integrated Program",
+      "code": "ISFY",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Information Studies - Fifth Year Integrated Program (w/ Informatics BA)",
+      "code": "ISFY",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Information Studies - Fifth Year Integrated Program (w/ Informatics BSI)",
+      "code": "ISFY",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Public Affairs - DC",
+      "code": "PAD",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Semiconductor Science and Engineering",
+      "code": "SSAE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Women's and Gender Studies - Fifth Year Integrated Program",
+      "code": "WSAG",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    }
+  ]
 }

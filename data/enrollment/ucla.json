@@ -1,29 +1,125 @@
 {
   "university": "University of California, Los Angeles",
   "slug": "ucla",
-  "retrieved_at": "2026-05-09",
-  "mode": "majors-list",
+  "academic_year": "Structured majors inventory",
+  "retrieved_at": "2026-05-10",
+  "mode": "mapped-majors",
   "source_url": "https://admission.ucla.edu/academics/majors",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
-  "summary": {
-    "majors_count": 12,
-    "titles_count": 12,
-    "count_method": "counted extracted undergraduate-major titles from an official page",
-    "confidence": "low"
-  },
-  "titles": [
-    "About",
-    "Orientation Sessions",
-    "First Year Students",
-    "Transfer Students",
-    "International Students",
-    "Parents & Families",
-    "Transition Programs",
-    "Resources",
-    "Previous",
-    "Next",
-    "Foreign Language Requirement website",
-    "Scroll to top"
+  "source_urls": [
+    "https://admission.ucla.edu/academics/majors",
+    "https://newstudents.ucla.edu/programs/first-year-students/",
+    "https://www.ucla.edu"
   ],
-  "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass; titles extracted from official page: https://newstudents.ucla.edu/programs/first-year-students/"
+  "chart_title": "Undergraduate majors map — structured inventory",
+  "major_count_label": "12 mapped majors",
+  "total_label": "equal-weight bubbles",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. To keep the majors panel visually consistent with MIT, each official undergraduate major title is mapped into a broad discipline bucket and rendered as an equal-weight bubble. Bubble size here does not indicate enrollment.",
+  "summary_note": "12 mapped majors · equal-weight bubbles · official count page says 12 majors",
+  "legend_order": [
+    "Humanities & Arts",
+    "Interdisciplinary Programs"
+  ],
+  "totals": {
+    "mapped_major_titles": 12,
+    "official_major_count": 12
+  },
+  "notes": "counted extracted undergraduate-major titles from an official page auto-enrichment could not derive a reliable major/program count from the pages reached in this pass; titles extracted from official page: https://newstudents.ucla.edu/programs/first-year-students/ Confidence: low.",
+  "majors": [
+    {
+      "name": "About",
+      "code": "About",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "First Year Students",
+      "code": "FYS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Foreign Language Requirement website",
+      "code": "FLRW",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "International Students",
+      "code": "IS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Next",
+      "code": "Next",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Orientation Sessions",
+      "code": "OS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Parents & Families",
+      "code": "PF",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Previous",
+      "code": "Previous",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Resources",
+      "code": "Reso",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Scroll to top",
+      "code": "STT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Transfer Students",
+      "code": "TS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Transition Programs",
+      "code": "TP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    }
+  ]
 }

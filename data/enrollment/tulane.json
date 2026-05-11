@@ -1,112 +1,747 @@
 {
   "university": "Tulane University",
   "slug": "tulane",
-  "retrieved_at": "2026-05-09",
-  "mode": "majors-list",
+  "academic_year": "Structured majors inventory",
+  "retrieved_at": "2026-05-10",
+  "mode": "mapped-majors",
   "source_url": "https://tulane.edu/academics",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
-  "summary": {
-    "majors_count": 95,
-    "titles_count": 95,
-    "count_method": "counted extracted undergraduate-major titles from an official page",
-    "confidence": "low"
-  },
-  "titles": [
-    "Accounting Major, BSM",
-    "Africana Studies Major",
-    "Anthropology, BA",
-    "Anthropology, BS",
-    "Architecture, B.Arch",
-    "Architecture, BSA",
-    "Art History Major, BA",
-    "Asian Studies Major",
-    "Biological Chemistry Major",
-    "Biomedical Engineering Major",
-    "Cell and Molecular Biology Major",
-    "Chemical Engineering Major",
-    "Chemistry Major",
-    "Cinema Studies Major",
-    "Civil Engineering - Water and Environment Major",
-    "Classical Studies Major, BA",
-    "Cognitive Studies Coordinate Major",
-    "Communication Major",
-    "Computer Science Interdisciplinary Coordinate Major",
-    "Computer Science, BS",
-    "Dance, BA",
-    "Dance, BFA",
-    "Design, BA",
-    "Digital Design, Bachelor of Arts",
-    "Digital Media & Marketing Communications, Bachelor of Arts",
-    "Digital Media Practices Coordinate Major",
-    "Earth and Environmental Sciences Major",
-    "Ecology and Evolutionary Biology Major",
-    "Economics, BA",
-    "Economics, BS",
-    "Elementary Education, Bachelor of Arts",
-    "Engineering Physics Major",
-    "English Major",
-    "Environmental Biology Major",
-    "Environmental Studies Major",
-    "Exercise Science, Bachelor of Science",
-    "Finance Major, BSM",
-    "French Major",
-    "Gender and Sexuality Studies Major",
-    "German Studies Major",
-    "Greek Major, BA",
-    "Health and Wellness, Bachelor of Arts",
-    "Health Policy and Management, BS",
-    "History Major",
-    "Homeland Security, Bachelor of Arts",
-    "Human Resources, Bachelor of Arts",
-    "Humanities, Bachelor of Arts",
-    "Information Technology, Bachelor of Science",
-    "Italian Major",
-    "Jewish Studies Major",
-    "Latin American Studies Major",
-    "Latin Major",
-    "Legal Studies in Business Major, BSM",
-    "Linguistics, BA",
-    "Linguistics, BS",
-    "Management Major, BSM",
-    "Marketing Major, BSM",
-    "Mathematics Major",
-    "Medieval and Early Modern Studies Major",
-    "Middle East & North African Studies Major",
-    "Music, BA",
-    "Music, BFA",
-    "Neuroscience Major",
-    "Nursing, Bachelor of Science in Nursing",
-    "Nutrition Science, BS",
-    "Organizational Behavior and Management Studies, Bachelor of Science",
-    "Philosophy Major",
-    "Philosophy Major with Concentration in Language, Mind, and Knowledge",
-    "Philosophy Major with Concentration in Law, Morality, and Society",
-    "Physics Major",
-    "Political Economy Major with Concentration in Economics and Public Policy",
-    "Political Economy Major with Concentration in International Perspectives",
-    "Political Economy Major with Concentration in Law, Economics, and Policy",
-    "Political Economy Major with Concentration in Moral and Historical Perspectives",
-    "Political Science Major",
-    "Political Science/ International Development Major",
-    "Political Science/ International Relations Major",
-    "Portuguese Coordinate Major",
-    "Psychology Major",
-    "Public Health, BSPH",
-    "Public Relations, Bachelor of Arts",
-    "Real Estate, BS",
-    "Russian Major",
-    "Secondary Education (Grades 6-12), Coordinate Major",
-    "Secondary Education, Bachelor of Arts",
-    "Social Policy and Practice Coordinate Major",
-    "Social Sciences, Bachelor of Arts",
-    "Sociology Major",
-    "Spanish and Portuguese Major",
-    "Spanish Major",
-    "Studio Art, BA",
-    "Studio Art, BFA",
-    "Sustainable Urbanism, BS",
-    "Theatre Design, BFA",
-    "Theatre, BA"
+  "source_urls": [
+    "https://tulane.edu/academics",
+    "https://tulane.edu/majors",
+    "https://catalog.tulane.edu/programs/?optionlessH",
+    "https://www.tulane.edu"
   ],
-  "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass; titles extracted from official page: https://catalog.tulane.edu/programs/?optionlessH"
+  "chart_title": "Undergraduate majors map — structured inventory",
+  "major_count_label": "89 mapped majors",
+  "total_label": "equal-weight bubbles",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. To keep the majors panel visually consistent with MIT, each official undergraduate major title is mapped into a broad discipline bucket and rendered as an equal-weight bubble. Bubble size here does not indicate enrollment.",
+  "summary_note": "89 mapped majors · equal-weight bubbles · official count page says 95 majors",
+  "legend_order": [
+    "Architecture and Planning",
+    "Engineering",
+    "Science",
+    "Social Sciences",
+    "Humanities & Arts",
+    "Sloan School of Management",
+    "Interdisciplinary Programs"
+  ],
+  "totals": {
+    "mapped_major_titles": 89,
+    "official_major_count": 95
+  },
+  "notes": "counted extracted undergraduate-major titles from an official page auto-enrichment could not derive a reliable major/program count from the pages reached in this pass; titles extracted from official page: https://catalog.tulane.edu/programs/?optionlessH Confidence: low.",
+  "majors": [
+    {
+      "name": "Accounting Major, BSM",
+      "code": "AMB",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Africana Studies Major",
+      "code": "ASM",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Anthropology",
+      "code": "Anth",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Architecture",
+      "code": "Arch",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Architecture, BSA",
+      "code": "AB",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Art History Major",
+      "code": "AHM",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Asian Studies Major",
+      "code": "ASM",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biological Chemistry Major",
+      "code": "BCM",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biomedical Engineering Major",
+      "code": "BEM",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Cell and Molecular Biology Major",
+      "code": "CAMB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemical Engineering Major",
+      "code": "CEM",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemistry Major",
+      "code": "CM",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Cinema Studies Major",
+      "code": "CSM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Civil Engineering - Water and Environment Major",
+      "code": "CEWA",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Classical Studies Major",
+      "code": "CSM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Cognitive Studies Coordinate Major",
+      "code": "CSCM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Communication Major",
+      "code": "CM",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Science",
+      "code": "CS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Science Interdisciplinary Coordinate Major",
+      "code": "CSIC",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Dance",
+      "code": "Dance",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Design",
+      "code": "Design",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Digital Design, Bachelor of Arts",
+      "code": "DDBO",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Digital Media & Marketing Communications, Bachelor of Arts",
+      "code": "DMM",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Digital Media Practices Coordinate Major",
+      "code": "DMPC",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Earth and Environmental Sciences Major",
+      "code": "EAES",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Ecology and Evolutionary Biology Major",
+      "code": "EAEB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Economics",
+      "code": "Econ",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Elementary Education, Bachelor of Arts",
+      "code": "EEBO",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Engineering Physics Major",
+      "code": "EPM",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English Major",
+      "code": "EM",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Biology Major",
+      "code": "EBM",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Studies Major",
+      "code": "ESM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Exercise Science, Bachelor of Science",
+      "code": "ESBO",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Finance Major, BSM",
+      "code": "FMB",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "French Major",
+      "code": "FM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Gender and Sexuality Studies Major",
+      "code": "GASS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "German Studies Major",
+      "code": "GSM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Greek Major",
+      "code": "GM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Health Policy and Management",
+      "code": "HPAM",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Health and Wellness, Bachelor of Arts",
+      "code": "HAWB",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "History Major",
+      "code": "HM",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Homeland Security, Bachelor of Arts",
+      "code": "HSBO",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Human Resources, Bachelor of Arts",
+      "code": "HRBO",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Humanities, Bachelor of Arts",
+      "code": "HBOA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Information Technology, Bachelor of Science",
+      "code": "ITBO",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Italian Major",
+      "code": "IM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Jewish Studies Major",
+      "code": "JSM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Latin American Studies Major",
+      "code": "LASM",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Latin Major",
+      "code": "LM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Legal Studies in Business Major, BSM",
+      "code": "LSIB",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Linguistics",
+      "code": "Ling",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Management Major, BSM",
+      "code": "MMB",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Marketing Major, BSM",
+      "code": "MMB",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mathematics Major",
+      "code": "MM",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Medieval and Early Modern Studies Major",
+      "code": "MAEM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Middle East & North African Studies Major",
+      "code": "MEN",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music",
+      "code": "Music",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Neuroscience Major",
+      "code": "NM",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Nursing, Bachelor of Science in Nursing",
+      "code": "NBOS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Nutrition Science",
+      "code": "NS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Organizational Behavior and Management Studies, Bachelor of Science",
+      "code": "OBAM",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Philosophy Major",
+      "code": "PM",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Philosophy Major with Concentration in Language, Mind, and Knowledge",
+      "code": "PMWC",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Philosophy Major with Concentration in Law, Morality, and Society",
+      "code": "PMWC",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Physics Major",
+      "code": "PM",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Political Economy Major with Concentration in Economics and Public Policy",
+      "code": "PEMW",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Political Economy Major with Concentration in International Perspectives",
+      "code": "PEMW",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Political Economy Major with Concentration in Law, Economics, and Policy",
+      "code": "PEMW",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Political Economy Major with Concentration in Moral and Historical Perspectives",
+      "code": "PEMW",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Political Science Major",
+      "code": "PSM",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Political Science/ International Development Major",
+      "code": "PSID",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Political Science/ International Relations Major",
+      "code": "PSIR",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Portuguese Coordinate Major",
+      "code": "PCM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Psychology Major",
+      "code": "PM",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Public Health, BSPH",
+      "code": "PHB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Public Relations, Bachelor of Arts",
+      "code": "PRBO",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Real Estate",
+      "code": "RE",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Russian Major",
+      "code": "RM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Secondary Education (Grades 6-12), Coordinate Major",
+      "code": "SEG6",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Secondary Education, Bachelor of Arts",
+      "code": "SEBO",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Social Policy and Practice Coordinate Major",
+      "code": "SPAP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Social Sciences, Bachelor of Arts",
+      "code": "SSBO",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Sociology Major",
+      "code": "SM",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Spanish Major",
+      "code": "SM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Spanish and Portuguese Major",
+      "code": "SAPM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Studio Art",
+      "code": "SA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Sustainable Urbanism",
+      "code": "SU",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Theatre",
+      "code": "Theatre",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Theatre Design",
+      "code": "TD",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    }
+  ]
 }

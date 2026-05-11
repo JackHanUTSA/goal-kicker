@@ -1,75 +1,499 @@
 {
   "university": "University of Pennsylvania",
   "slug": "upenn",
-  "retrieved_at": "2026-05-09",
-  "mode": "majors-list",
+  "academic_year": "Structured majors inventory",
+  "retrieved_at": "2026-05-10",
+  "mode": "mapped-majors",
   "source_url": "https://admissions.upenn.edu/academics/exploring-academics/majors-minors",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
-  "summary": {
-    "majors_count": 86,
-    "titles_count": 58,
-    "count_method": "counted visible major/concentration/program entries listed across Penn's undergraduate schools on the official Penn Admissions 'Majors and Minors' page; minors were excluded from the count",
-    "confidence": "medium"
-  },
-  "titles": [
-    "Africana Studies",
-    "Ancient History",
-    "Anthropology",
-    "Architecture",
-    "Biochemistry",
-    "Biology",
-    "Biophysics",
-    "Chemistry",
-    "Cinema and Media Studies",
-    "Classical Studies",
-    "Cognitive Science",
-    "Communication",
-    "Comparative Literature",
-    "Criminology",
-    "Design",
-    "Digital Humanities",
-    "Earth and Environmental Science",
-    "East Asian Languages and Civilizations",
-    "Economics",
-    "English",
-    "Environmental Studies",
-    "Fine Arts",
-    "French and Francophone Studies",
-    "Gender, Sexuality and Women's Studies",
-    "German",
-    "Health and Societies",
-    "Hispanic Studies",
-    "History",
-    "History of Art",
-    "Huntsman Program in International Studies and Business",
-    "International Relations",
-    "Italian Studies",
-    "Jewish Studies",
-    "Latin American and Latinx Studies",
-    "Law and Society",
-    "Linguistics",
-    "Logic, Information and Computation",
-    "Mathematical Economics",
-    "Mathematics",
-    "Middle Eastern Languages and Cultures",
-    "Modern Middle Eastern Studies",
-    "Music",
-    "Neuroscience",
-    "Nutrition Science",
-    "Philosophy",
-    "Philosophy, Politics and Economics",
-    "Physics",
-    "Political Science",
-    "Psychology",
-    "Religious Studies",
-    "Russian and East European Studies",
-    "Science, Technology and Society",
-    "Sociology",
-    "South Asia Studies",
-    "Theatre Arts",
-    "Urban Studies",
-    "Vagelos Scholars Program in Molecular Life Sciences",
-    "Visual Studies"
+  "source_urls": [
+    "https://admissions.upenn.edu/academics/exploring-academics/majors-minors",
+    "https://academics.seas.upenn.edu/ugrad/student-handbook/programs-options/",
+    "https://apps.sas.upenn.edu/annex/majors/view/frame",
+    "https://www.upenn.edu"
   ],
-  "notes": "counted visible major/concentration/program entries listed across Penn's undergraduate schools on the official Penn Admissions 'Majors and Minors' page; minors were excluded from the count; titles extracted from official page: https://academics.seas.upenn.edu/ugrad/student-handbook/programs-options/; titles extracted from official page: https://apps.sas.upenn.edu/annex/majors/view/frame"
+  "chart_title": "Undergraduate majors map — structured inventory",
+  "major_count_label": "58 mapped majors",
+  "total_label": "equal-weight bubbles",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. To keep the majors panel visually consistent with MIT, each official undergraduate major title is mapped into a broad discipline bucket and rendered as an equal-weight bubble. Bubble size here does not indicate enrollment.",
+  "summary_note": "58 mapped majors · equal-weight bubbles · official count page says 86 majors",
+  "legend_order": [
+    "Architecture and Planning",
+    "Engineering",
+    "Science",
+    "Social Sciences",
+    "Humanities & Arts",
+    "Sloan School of Management",
+    "Interdisciplinary Programs"
+  ],
+  "totals": {
+    "mapped_major_titles": 58,
+    "official_major_count": 86
+  },
+  "notes": "counted visible major/concentration/program entries listed across Penn's undergraduate schools on the official Penn Admissions 'Majors and Minors' page; minors were excluded from the count counted visible major/concentration/program entries listed across Penn's undergraduate schools on the official Penn Admissions 'Majors and Minors' page; minors were excluded from the count; titles extracted from official page: https://academics.seas.upenn.edu/ugrad/student-handbook/programs-options/; titles extracted from official page: https://apps.sas.upenn.edu/annex/majors/view/frame Confidence: medium.",
+  "majors": [
+    {
+      "name": "Africana Studies",
+      "code": "AS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Ancient History",
+      "code": "AH",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Anthropology",
+      "code": "Anth",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Architecture",
+      "code": "Arch",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biochemistry",
+      "code": "Bioc",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biology",
+      "code": "Biology",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biophysics",
+      "code": "Biop",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemistry",
+      "code": "Chem",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Cinema and Media Studies",
+      "code": "CAMS",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Classical Studies",
+      "code": "CS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Cognitive Science",
+      "code": "CS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Communication",
+      "code": "Comm",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Comparative Literature",
+      "code": "CL",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Criminology",
+      "code": "Crim",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Design",
+      "code": "Design",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Digital Humanities",
+      "code": "DH",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Earth and Environmental Science",
+      "code": "EAES",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "East Asian Languages and Civilizations",
+      "code": "EALA",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Economics",
+      "code": "Econ",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English",
+      "code": "English",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Studies",
+      "code": "ES",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Fine Arts",
+      "code": "FA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "French and Francophone Studies",
+      "code": "FAFS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Gender, Sexuality and Women's Studies",
+      "code": "GSAW",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "German",
+      "code": "German",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Health and Societies",
+      "code": "HAS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Hispanic Studies",
+      "code": "HS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "History",
+      "code": "History",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "History of Art",
+      "code": "HOA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Huntsman Program in International Studies and Business",
+      "code": "HPII",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "International Relations",
+      "code": "IR",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Italian Studies",
+      "code": "IS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Jewish Studies",
+      "code": "JS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Latin American and Latinx Studies",
+      "code": "LAAL",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Law and Society",
+      "code": "LAS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Linguistics",
+      "code": "Ling",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Logic, Information and Computation",
+      "code": "LIAC",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mathematical Economics",
+      "code": "ME",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mathematics",
+      "code": "Math",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Middle Eastern Languages and Cultures",
+      "code": "MELA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Modern Middle Eastern Studies",
+      "code": "MMES",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music",
+      "code": "Music",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Neuroscience",
+      "code": "Neur",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Nutrition Science",
+      "code": "NS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Philosophy",
+      "code": "Phil",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Philosophy, Politics and Economics",
+      "code": "PPAE",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Physics",
+      "code": "Physics",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Political Science",
+      "code": "PS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Psychology",
+      "code": "Psyc",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Religious Studies",
+      "code": "RS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Russian and East European Studies",
+      "code": "RAEE",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Science, Technology and Society",
+      "code": "STAS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Sociology",
+      "code": "Soci",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "South Asia Studies",
+      "code": "SAS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Theatre Arts",
+      "code": "TA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Urban Studies",
+      "code": "US",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Vagelos Scholars Program in Molecular Life Sciences",
+      "code": "VSPI",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Visual Studies",
+      "code": "VS",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    }
+  ]
 }

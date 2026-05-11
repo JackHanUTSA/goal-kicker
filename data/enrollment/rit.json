@@ -1,96 +1,667 @@
 {
   "university": "Rochester Institute of Technology",
   "slug": "rit",
-  "retrieved_at": "2026-05-09",
-  "mode": "majors-list",
+  "academic_year": "Structured majors inventory",
+  "retrieved_at": "2026-05-10",
+  "mode": "mapped-majors",
   "source_url": "https://www.rit.edu/academic-programs",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
-  "summary": {
-    "majors_count": 79,
-    "titles_count": 79,
-    "count_method": "counted 79 undergraduate degree titles from RIT's official Undergraduate Degrees directory",
-    "confidence": "medium"
-  },
-  "titles": [
-    "Accounting BS",
-    "Advertising and Public Relations BS",
-    "Applied Mathematics BS",
-    "Applied Modern Language and Culture BS",
-    "Applied Statistics and Data Analytics BS",
-    "Artificial Intelligence BS",
-    "ASL-English Interpretation BS",
-    "Biochemistry BS",
-    "Bioinformatics and Computational Biology BS",
-    "Biology BS",
-    "Biomedical Engineering BS",
-    "Biomedical Sciences BS",
-    "Biotechnology and Molecular Bioscience BS",
-    "Chemical Engineering BS",
-    "Chemistry BS",
-    "Civil Engineering Technology BS",
-    "Communication BS",
-    "Community Development and Inclusive Leadership BS",
-    "Computer Engineering BS",
-    "Computer Engineering Technology BS",
-    "Computing and Information Technologies BS",
-    "Computational Mathematics BS",
-    "Computer Science BS",
-    "Criminal Justice BS",
-    "Cybersecurity BS",
-    "Diagnostic Medical Sonography (Ultrasound) BS",
-    "3D Digital Design BFA",
-    "Economics BS",
-    "Electrical Engineering BS",
-    "Electrical Engineering Technology BS",
-    "English BS",
-    "Environmental Science BS",
-    "Environmental Sustainability, Health and Safety BS",
-    "Exercise Science BS",
-    "Film and Animation BFA",
-    "Finance BS",
-    "Game Design and Development BS",
-    "Global Business Management BS",
-    "Global Futures BS",
-    "Global Public Health BS",
-    "Graphic Design BFA",
-    "History BS",
-    "Hospitality and Tourism Management BS",
-    "Humanities, Computing, and Design BS",
-    "Human-Centered Computing BS",
-    "Illustration BFA",
-    "Imaging Science BS",
-    "Individualized Program BS",
-    "Industrial Design BFA",
-    "Industrial Engineering BS",
-    "Interior Design BFA",
-    "International and Global Studies BS",
-    "Management Information Systems (MIS) BS",
-    "Marketing BS",
-    "Mechanical Engineering BS",
-    "Mechanical Engineering Technology BS",
-    "Mechatronics Engineering Technology BS",
-    "Medical Illustration BFA",
-    "Microelectronic Engineering BS",
-    "Motion Picture Science BS",
-    "Museum Studies BS",
-    "Neuroscience BS",
-    "New Media Design BFA",
-    "New Media Interactive Development BS",
-    "Nutritional Sciences BS",
-    "Packaging Science BS",
-    "Philosophy BS",
-    "Photographic and Imaging Arts BFA",
-    "Photographic Sciences BS",
-    "Physics BS",
-    "Physician Assistant BS/MS",
-    "Political Science BS",
-    "Psychology BS",
-    "Robotics and Manufacturing Engineering Technology BS",
-    "Sociology and Anthropology BS",
-    "Software Engineering BS",
-    "Studio Arts BFA",
-    "Supply Chain Management BS",
-    "Women’s, Gender, and Sexuality Studies BS"
+  "source_urls": [
+    "https://www.rit.edu/academic-programs",
+    "https://www.rit.edu/academics",
+    "https://www.rit.edu/majors",
+    "https://www.rit.edu/study/undergraduate",
+    "https://www.rit.edu"
   ],
-  "notes": "counted 79 undergraduate degree titles from RIT's official Undergraduate Degrees directory"
+  "chart_title": "Undergraduate majors map — structured inventory",
+  "major_count_label": "79 mapped majors",
+  "total_label": "equal-weight bubbles",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. To keep the majors panel visually consistent with MIT, each official undergraduate major title is mapped into a broad discipline bucket and rendered as an equal-weight bubble. Bubble size here does not indicate enrollment.",
+  "summary_note": "79 mapped majors · equal-weight bubbles · official count page says 79 majors",
+  "legend_order": [
+    "Engineering",
+    "Science",
+    "Social Sciences",
+    "Humanities & Arts",
+    "Sloan School of Management",
+    "Interdisciplinary Programs"
+  ],
+  "totals": {
+    "mapped_major_titles": 79,
+    "official_major_count": 79
+  },
+  "notes": "counted 79 undergraduate degree titles from RIT's official Undergraduate Degrees directory counted 79 undergraduate degree titles from RIT's official Undergraduate Degrees directory Confidence: medium.",
+  "majors": [
+    {
+      "name": "3D Digital Design BFA",
+      "code": "3DDB",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ASL-English Interpretation BS",
+      "code": "AEIB",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Accounting BS",
+      "code": "AB",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Advertising and Public Relations BS",
+      "code": "AAPR",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Applied Mathematics BS",
+      "code": "AMB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Applied Modern Language and Culture BS",
+      "code": "AMLA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Applied Statistics and Data Analytics BS",
+      "code": "ASAD",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Artificial Intelligence BS",
+      "code": "AIB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biochemistry BS",
+      "code": "BB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bioinformatics and Computational Biology BS",
+      "code": "BACB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biology BS",
+      "code": "BB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biomedical Engineering BS",
+      "code": "BEB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biomedical Sciences BS",
+      "code": "BSB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biotechnology and Molecular Bioscience BS",
+      "code": "BAMB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemical Engineering BS",
+      "code": "CEB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemistry BS",
+      "code": "CB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Civil Engineering Technology BS",
+      "code": "CETB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Communication BS",
+      "code": "CB",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Community Development and Inclusive Leadership BS",
+      "code": "CDAI",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computational Mathematics BS",
+      "code": "CMB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Engineering BS",
+      "code": "CEB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Engineering Technology BS",
+      "code": "CETB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Science BS",
+      "code": "CSB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computing and Information Technologies BS",
+      "code": "CAIT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Criminal Justice BS",
+      "code": "CJB",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Cybersecurity BS",
+      "code": "CB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Diagnostic Medical Sonography (Ultrasound) BS",
+      "code": "DMSU",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Economics BS",
+      "code": "EB",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Electrical Engineering BS",
+      "code": "EEB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Electrical Engineering Technology BS",
+      "code": "EETB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English BS",
+      "code": "EB",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Science BS",
+      "code": "ESB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Sustainability, Health and Safety BS",
+      "code": "ESHA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Exercise Science BS",
+      "code": "ESB",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Film and Animation BFA",
+      "code": "FAAB",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Finance BS",
+      "code": "FB",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Game Design and Development BS",
+      "code": "GDAD",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Global Business Management BS",
+      "code": "GBMB",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Global Futures BS",
+      "code": "GFB",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Global Public Health BS",
+      "code": "GPHB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Graphic Design BFA",
+      "code": "GDB",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "History BS",
+      "code": "HB",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Hospitality and Tourism Management BS",
+      "code": "HATM",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Human-Centered Computing BS",
+      "code": "HCCB",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Humanities, Computing, and Design BS",
+      "code": "HCAD",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Illustration BFA",
+      "code": "IB",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Imaging Science BS",
+      "code": "ISB",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Individualized Program BS",
+      "code": "IPB",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Industrial Design BFA",
+      "code": "IDB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Industrial Engineering BS",
+      "code": "IEB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Interior Design BFA",
+      "code": "IDB",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "International and Global Studies BS",
+      "code": "IAGS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Management Information Systems (MIS) BS",
+      "code": "MISM",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Marketing BS",
+      "code": "MB",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mechanical Engineering BS",
+      "code": "MEB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mechanical Engineering Technology BS",
+      "code": "METB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mechatronics Engineering Technology BS",
+      "code": "METB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Medical Illustration BFA",
+      "code": "MIB",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Microelectronic Engineering BS",
+      "code": "MEB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Motion Picture Science BS",
+      "code": "MPSB",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Museum Studies BS",
+      "code": "MSB",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Neuroscience BS",
+      "code": "NB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "New Media Design BFA",
+      "code": "NMDB",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "New Media Interactive Development BS",
+      "code": "NMID",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Nutritional Sciences BS",
+      "code": "NSB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Packaging Science BS",
+      "code": "PSB",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Philosophy BS",
+      "code": "PB",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Photographic Sciences BS",
+      "code": "PSB",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Photographic and Imaging Arts BFA",
+      "code": "PAIA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Physician Assistant BS/MS",
+      "code": "PABM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Physics BS",
+      "code": "PB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Political Science BS",
+      "code": "PSB",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Psychology BS",
+      "code": "PB",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Robotics and Manufacturing Engineering Technology BS",
+      "code": "RAME",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Sociology and Anthropology BS",
+      "code": "SAAB",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Software Engineering BS",
+      "code": "SEB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Studio Arts BFA",
+      "code": "SAB",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Supply Chain Management BS",
+      "code": "SCMB",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Women’s, Gender, and Sexuality Studies BS",
+      "code": "WSGA",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    }
+  ]
 }

@@ -1,366 +1,2789 @@
 {
   "university": "North Carolina State University",
   "slug": "nc-state",
-  "retrieved_at": "2026-05-09",
-  "mode": "majors-list",
+  "academic_year": "Structured majors inventory",
+  "retrieved_at": "2026-05-10",
+  "mode": "mapped-majors",
   "source_url": "https://www.ncsu.edu/academics",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
-  "summary": {
-    "majors_count": 100,
-    "titles_count": 349,
-    "count_method": "explicit official page sentence",
-    "confidence": "medium"
-  },
-  "titles": [
-    "Accounting",
-    "Aerospace Engineering",
-    "Agricultural Education",
-    "Agricultural Science",
-    "Agroecology & Sustainable Food Systems",
-    "Animal Science",
-    "Anthropology",
-    "Applied Education Studies",
-    "Arts Studies",
-    "Biochemistry",
-    "Biological, Agricultural, and Ecological Engineering",
-    "Biological and Agricultural Engineering Technology",
-    "Biological Engineering",
-    "Biological Sciences",
-    "Biomedical Engineering",
-    "Bioprocessing Science",
-    "Business Administration",
-    "Chemical Engineering",
-    "Chemistry",
-    "Civil Engineering",
-    "Communication",
-    "Computer Engineering",
-    "Computer Science",
-    "Construction Engineering",
-    "Criminology",
-    "Crop and Soil Sciences",
-    "Design Studies",
-    "Economics",
-    "Electrical Engineering",
-    "Elementary Education",
-    "Engineering",
-    "English",
-    "Environmental Engineering",
-    "Environmental Sciences",
-    "Fashion and Textile Design",
-    "Fisheries, Wildlife, and Conservation Biology",
-    "Food Science",
-    "Genetics",
-    "Geology",
-    "History",
-    "Horticultural Science",
-    "Industrial Engineering",
-    "Interdisciplinary Studies",
-    "International Studies",
-    "Leadership in the Public Sector",
-    "Marine Sciences",
-    "Materials Science and Engineering",
-    "Mathematics",
-    "Mathematics Education",
-    "Mechanical Engineering",
-    "Meteorology",
-    "Microbiology",
-    "Middle Grades Education",
-    "Music Technology",
-    "Natural Resources",
-    "Nuclear Engineering",
-    "Nutrition Sciences",
-    "Paper Science and Engineering",
-    "Philosophy",
-    "Physics",
-    "Plant Biology",
-    "Political Science",
-    "Polymer and Color Chemistry",
-    "Poultry Science",
-    "Psychology",
-    "Religious Studies",
-    "Science Education",
-    "Science, Technology and Society",
-    "Sociology",
-    "Statistics",
-    "Technology, Engineering and Design Education",
-    "Textile Engineering",
-    "Textile Technology",
-    "World Languages and Cultures",
-    "Zoology",
-    "Academic Advising",
-    "Academic Honors",
-    "Academic Policies and Procedures",
-    "Academic Standing",
-    "Adding or Changing a Program",
-    "Africana Studies Program",
-    "Agricultural Education (BS): Agricultural Business Concentration",
-    "Agricultural Education (BS): Agricultural Engineering Technology Concentration",
-    "Agricultural Education (BS): Agronomy Concentration",
-    "Agricultural Education (BS): Animal Science Concentration",
-    "Agricultural Education (BS): Horticultural Science Concentration",
-    "Agricultural Education (BS): Natural Resources Concentration",
-    "Agricultural Education (BS): Poultry Science Concentration",
-    "Agricultural Institute",
-    "Agricultural Science (BS): Online",
-    "Agroecology & Sustainable Food Systems (BS): Community Food Systems Concentration",
-    "Agroecology & Sustainable Food Systems (BS): Urban Horticulture Concentration",
-    "Animal Science (BS): Industry Concentration",
-    "Animal Science (BS): Science Concentration",
-    "Animal Science (BS): Veterinary Bioscience Concentration",
-    "Anthropology (BA): General Anthropology Concentration",
-    "Applied Education Studies (BS): Learning Design and Technology",
-    "Architecture (Bachelor): One-Year Professional Degree",
-    "Architecture (MR): History and Theory of Architecture Concentration",
-    "Art and Design",
-    "Arts Studies (BA): Film Studies Concentration",
-    "Arts Studies (BA): Music Concentration",
-    "Arts Studies (BA): Theater Concentration",
-    "Arts Studies (BA): Visual Arts Concentration",
-    "Arts Studies Program",
-    "Biological and Agricultural Engineering (MS): Systems Analysis Concentration",
-    "Biological Engineering (BS): Agricultural Engineering Concentration",
-    "Biological Engineering (BS): Bioprocessing Engineering Concentration",
-    "Biological Engineering (BS): Ecological Engineering Concentration",
-    "Biological Engineering (BS): Environmental Engineering Concentration",
-    "Biological Sciences (BS): Ecology, Evolution and Conservation Biology Concentration",
-    "Biological Sciences (BS): Human Biology Concentration",
-    "Biological Sciences (BS): Integrative Physiology and Neurobiology Concentration",
-    "Biological Sciences (BS): Molecular, Cellular, and Developmental Biology Concentration",
-    "Biological Sciences (Honors)",
-    "Biomedical Engineering Honors Program (Honors)",
-    "Biomedical Engineering (MS): MedTech Innovation and Entrepreneurship Concentration",
-    "Biomedical Engineering (MS): Traditional Concentration",
-    "Business Administration (BS): Business Analytics Concentration",
-    "Business Administration (BS): Entrepreneurship Concentration",
-    "Business Administration (BS): Finance Concentration",
-    "Business Administration (BS): Information Technology Concentration",
-    "Business Administration (BS): Undeclared",
-    "Center for Geospatial Analytics",
-    "Centers and Institutes",
-    "Chemical Engineering (BS): Biomanufacturing Sciences Concentration",
-    "Chemical Engineering (BS): Biomolecular Concentration",
-    "Chemical Engineering (BS): Honors Concentration",
-    "Chemical Engineering (BS): Nanoscience Concentration",
-    "Chemical Engineering (BS): Sustainable Engineering, Energy, and the Environment",
-    "Comparative Biomedical Sciences (MR): Food Animals Concentration (PSM)",
-    "Computer Engineering (BS): Computer Architecture and Emerging Systems Concentration",
-    "Computer Engineering (BS): Computer Systems Software Concentration",
-    "Computer Engineering (BS): Networking Hardware Concentration",
-    "Computer Engineering (BS): Networking Software Concentration",
-    "Computer Engineering (MS): Internship Concentration",
-    "Computer Networking (MS): Internship Concentration",
-    "Computer Science (BS): Artificial Intelligence Concentration",
-    "Computer Science (BS): Cybersecurity Concentration",
-    "Computer Science (BS): Game Development Concentration",
-    "Courses and Grading",
-    "Crop and Soil Sciences (BS): Agronomy",
-    "Crop and Soil Sciences (BS): Crop Biotechnology",
-    "Crop and Soil Sciences (BS): Soil Science",
-    "Crop and Soil Sciences (BS): Turfgrass Science",
-    "Curriculum and Instruction (MEd): Educational Psychology Concentration",
-    "Design Studies (BA): Business Administration Concentration",
-    "Design Studies (BA): Nonprofit Studies Concentration",
-    "Economics (BA): Business Analytics Concentration",
-    "Economics (BA): Finance Concentration",
-    "Economics (BS): Business Analytics Concentration",
-    "Economics (BS): Finance Concentration",
-    "Edward P. Fitts Department of Industrial and Systems Engineering",
-    "Electrical Engineering (BS): Analog Circuits Concentration",
-    "Electrical Engineering (BS): Biomedical Instrumentation Concentration",
-    "Electrical Engineering (BS): Communications and Signal Processing Concentration",
-    "Electrical Engineering (BS): Controls and Robotics Concentration",
-    "Electrical Engineering (BS): Digital Circuits Concentration",
-    "Electrical Engineering (BS): Electronic Devices Concentrations",
-    "Electrical Engineering (BS): Music Technology Concentration",
-    "Electrical Engineering (BS): Optics and Photonics Concentration",
-    "Electrical Engineering (BS): Power Systems Concentration",
-    "Electrical Engineering (BS): Radio Frequency Circuits Concentration",
-    "Electrical Engineering (BS): Renewable Electric Energy Systems Concentration",
-    "Electrical Engineering (MS): Internship Concentration",
-    "Electric Power System Engineering (MS): Internship Concentration",
-    "Electric Power System Engineering (MS): Wide Bandgap Power Electronics Concentration",
-    "Engineering (BS): Electrical Engineering Systems Concentration",
-    "Engineering (BS): Mechanical Engineering Systems Concentration",
-    "Engineering (BS): Mechatronics Concentration",
-    "Engineering (BS): Nuclear Power Concentration",
-    "Engineering First Year",
-    "Engineering in Havelock",
-    "Engineering (MR): Aerospace Engineering Concentration",
-    "Engineering (MR): Chemical Engineering Concentration",
-    "Engineering (MR): Computer Engineering Concentration",
-    "Engineering (MR): Computer Science Concentration",
-    "Engineering (MR): Industrial Engineering Concentration",
-    "Engineering (MR): Mechanical Engineering Concentration",
-    "Engineering (MR): Nuclear Engineering Concentration",
-    "English (BA): Creative Writing Concentration",
-    "English (BA): Film Studies Concentration",
-    "English (BA): Linguistics Concentration",
-    "English (BA): Literature Concentration",
-    "English (BA): Rhetoric and Professional Writing Concentration",
-    "English (BA): Teacher Education Concentration",
-    "English (MA): Film Studies Concentration",
-    "English (MA): Linguistics Concentration",
-    "English (MA): Literature Concentration",
-    "English (MA): Rhetoric and Composition",
-    "Environmental Design in Architecture",
-    "Environmental First Year Program",
-    "Exploratory Studies",
-    "Fashion and Textile Design (BS): Fashion Design Concentration",
-    "Fashion and Textile Design (BS): Textile Design Concentration",
-    "Field Crops Technology (AAS)",
-    "Fisheries, Wildlife, and Conservation Biology (BS): Conservation Biology Concentration",
-    "Fisheries, Wildlife, and Conservation Biology (BS): Fisheries Science Concentration",
-    "Fisheries, Wildlife, and Conservation Biology (BS): Wildlife Science Concentration",
-    "Food Science (BS): Business & Technology Concentration",
-    "Food Science (BS): Science Concentration",
-    "Foundations of Data Science (MS): Computer Science Concentration",
-    "Foundations of Data Science (MS): Statistics Concentration",
-    "General Agriculture (AAS)",
-    "General Education Program",
-    "GEP Additional Breadth",
-    "GEP Computer Literacy/Technology Fluency",
-    "GEP Foundations of American Democracy",
-    "GEP Global Knowledge",
-    "GEP Health and Exercise Studies",
-    "GEP Humanities",
-    "GEP Interdisciplinary Perspectives",
-    "GEP Introduction to Writing",
-    "GEP Natural Sciences",
-    "GEP Social Sciences",
-    "GEP Visual and Performing Arts",
-    "GEP World Language Proficiency",
-    "Getting Your Degree",
-    "Graduation Requirements",
-    "Graphic & Experience Design",
-    "History (BA): Legal History Concentration",
-    "History (BA): Teacher Education Concentration",
-    "Horticultural Science (BS): Plant Breeding and Biotechnology in Horticulture Concentration",
-    "Horticultural Science (BS): Production Systems and Entrepreneurship in Horticulture Concentration",
-    "Industrial Design",
-    "Integrative Humanities and Social Sciences",
-    "Inter-College Transfer",
-    "Interdisciplinary",
-    "Interdisciplinary Studies (BA): Africana Studies Community Studies Concentration",
-    "Interdisciplinary Studies (BA): Africana Studies Concentration",
-    "Interdisciplinary Studies (BA): Self Design Concentration",
-    "Interdisciplinary Studies (BA): Women's, Gender and Sexuality Studies Concentration",
-    "Interdisciplinary Studies (BS): Self Design Concentration",
-    "Interdisciplinary Studies (BS): Women’s, Gender and Sexuality Studies Concentration",
-    "International Studies (BA): Africa Concentration",
-    "International Studies (BA): East and Southeast Asia Concentration",
-    "International Studies (BA): Europe Concentration",
-    "International Studies (BA): Global Cultural Studies Concentration",
-    "International Studies (BA): Global Relations Concentration",
-    "International Studies (BA): Global Sustainability and Development Concentration",
-    "International Studies (BA): Latin America Concentration",
-    "International Studies (BA): South Asia and Middle East Concentration",
-    "International Studies Program",
-    "Lampe Joint Department of Biomedical Engineering",
-    "Leadership in the Public Sector (BA): Distance Education",
-    "Life Sciences First Year",
-    "Management (MR): Risk and Analytics Concentration",
-    "Marine Sciences (BS): Biological Oceanography Concentration",
-    "Marine Sciences (BS): Chemistry Concentration",
-    "Marine Sciences (BS): Geology Concentration",
-    "Marine Sciences (BS): Meteorology Concentration",
-    "Marine Sciences (BS): Physics Concentration",
-    "Materials Science and Engineering (BS): Biomaterials Concentration",
-    "Materials Science and Engineering (BS): Nanomaterials Concentration",
-    "Mathematics Education (BS): Computer Specialization",
-    "Mathematics Education (BS): Statistics Specialization",
-    "Mathematics Education, Secondary",
-    "Microbiology (BS): Microbial Biotechnology Concentration",
-    "Microbiology (BS): Microbial Health Science Concentration",
-    "Middle Grades Education (BS): English Language Arts and Social Studies Concentration",
-    "Music Technology (BS): Electronics & Circuits Concentration",
-    "Music Technology (BS): Software & Digital Hardware",
-    "Nanoengineering (MR): Biomedical Sciences in Nanoengineering Concentration",
-    "Nanoengineering (MR): Nanoelectronics and Nanophotonics Concentration",
-    "Natural Resources (BS): Ecosystem Assessment Concentration",
-    "Natural Resources (BS): Policy and Administration Concentration",
-    "Natural Resources (BS): Soil, Water and Land Use Concentration",
-    "Non-Degree Studies",
-    "North Carolina Cooperative Extension Service",
-    "Nuclear Engineering (BS): Plasma Sciences and Fusion Energy",
-    "Nuclear Engineering (BS): Radiological Engineering",
-    "Nutrition Sciences (BS): Applied Nutrition Concentration",
-    "Paper Science and Engineering (BS): Sustainable Packaging Production",
-    "Philosophy (BA): Ethics Concentration",
-    "Philosophy (BA): Philosophy and Law Concentration",
-    "Philosophy (BS): Logic, Representation and Reasoning Concentration",
-    "Physics (BS): Interdisciplinary Physics Concentration",
-    "Political Science (BA): American Politics Concentration",
-    "Political Science (BA): International Politics Concentration",
-    "Political Science (BA): Law and Justice Concentration",
-    "Political Science (BA): Public Policy Concentration",
-    "Polymer and Color Chemistry (BS): ACS Certification Concentration",
-    "Polymer and Color Chemistry (BS): Medical Sciences Concentration",
-    "Polymer and Color Chemistry (BS): Science and Operations Concentration",
-    "Poultry Science (BS): Science Concentration",
-    "Poultry Science (BS): Technology Concentration",
-    "Prestage Department of Poultry Science",
-    "Psychology (BA): General Psychology Concentration",
-    "Psychology (MS): School Psychology Concentration",
-    "Satisfactory Academic Progress",
-    "Science Education (BS): Biology Concentration",
-    "Science Education (BS): Chemistry Concentration",
-    "Science Education (BS): Earth Science Concentration",
-    "Science Education (BS): Middle Grades Science Concentration",
-    "Science Education (BS): Physics Concentration",
-    "Science Education, Secondary",
-    "Science, Technology, and Society Program",
-    "Social Work",
-    "Statistics (BS): Data Science Concentration",
-    "Statistics (MR): Biostatistics Concentration",
-    "Statistics (MR): Environmental Statistics Concentration",
-    "Statistics (MR): Financial Concentration",
-    "Statistics (MR): Statistical Genetics Concentration",
-    "Student Conduct",
-    "Student Records",
-    "Student Status and Honors",
-    "Teaching (MA): Elementary Education Concentration",
-    "Teaching (MA): English Education Concentration",
-    "Teaching (MA): K-12 Reading Concentration",
-    "Teaching (MA): Middle Grades English Language Arts Education Concentration",
-    "Teaching (MA): Middle Grades Science Concentration",
-    "Teaching (MA): Middle Grades Social Studies Concentration",
-    "Teaching (MA): Multilingual Education Concentration",
-    "Teaching (MA): Science Education Concentration",
-    "Teaching (MA): Social Studies Education Concentration",
-    "Teaching (MA): Special Education Concentration",
-    "Teaching (MA): Technology Education Concentration",
-    "Technology, Engineering and Design Education (BS): Graphic Communication Concentration",
-    "Technology, Engineering and Design Education (BS): Licensure Concentration",
-    "Textile Engineering (BS): Chemical Processing Concentration",
-    "Textile Engineering (BS): Information Systems Concentration",
-    "Textile Engineering (BS): Product Engineering Concentration",
-    "Textile Engineering Program",
-    "Textile Technology (BS): Medical Textiles Concentration",
-    "Textile Technology (BS): Supply Chain Operations Concentration",
-    "Textile Technology (BS): Technical Textiles Concentration",
-    "The First Year Experience",
-    "Transfer and Exam Credit",
-    "Catalog A-Z Index",
-    "University Advising and Exploratory Studies",
-    "University College",
-    "University Honors Program",
-    "Wilson College of Textiles",
-    "Withdrawal",
-    "Women's, Gender and Sexuality Studies Program",
-    "World Languages and Cultures (BA): Arabic Studies Concentration",
-    "World Languages and Cultures (BA): Asian Language Concentration",
-    "World Languages and Cultures (BA): Chinese Education Concentration",
-    "World Languages and Cultures (BA): French Education Concentration",
-    "World Languages and Cultures (BA): French Studies Concentration",
-    "World Languages and Cultures (BA): German Education Concentration",
-    "World Languages and Cultures (BA): German Studies Concentration",
-    "World Languages and Cultures (BA): German Studies International Economics Concentration",
-    "World Languages and Cultures (BA): German Studies Science and Technology Concentration",
-    "World Languages and Cultures (BA): Spanish Education Concentration",
-    "World Languages and Cultures (BA): Spanish Language and Literature Concentration",
-    "World Languages and Cultures (MA): French Language and Literature Concentration",
-    "World Languages and Cultures (MA): Spanish Language and Literature Concentration",
-    "Zoology (BS): Applied Zoology"
+  "source_urls": [
+    "https://www.ncsu.edu/academics",
+    "https://www.ncsu.edu/academic-programs",
+    "https://www.ncsu.edu/majors",
+    "https://www.ncsu.edu/undergraduate/programs",
+    "https://catalog.ncsu.edu/azindex/",
+    "https://www.ncsu.edu"
   ],
-  "notes": "explicit official page sentence; titles extracted from official page: https://catalog.ncsu.edu/azindex/"
+  "chart_title": "Undergraduate majors map — structured inventory",
+  "major_count_label": "344 mapped majors",
+  "total_label": "equal-weight bubbles",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. To keep the majors panel visually consistent with MIT, each official undergraduate major title is mapped into a broad discipline bucket and rendered as an equal-weight bubble. Bubble size here does not indicate enrollment.",
+  "summary_note": "344 mapped majors · equal-weight bubbles · official count page says 100 majors",
+  "legend_order": [
+    "Architecture and Planning",
+    "Engineering",
+    "Science",
+    "Social Sciences",
+    "Humanities & Arts",
+    "Sloan School of Management",
+    "Interdisciplinary Programs"
+  ],
+  "totals": {
+    "mapped_major_titles": 344,
+    "official_major_count": 100
+  },
+  "notes": "explicit official page sentence explicit official page sentence; titles extracted from official page: https://catalog.ncsu.edu/azindex/ Confidence: medium.",
+  "majors": [
+    {
+      "name": "Academic Honors",
+      "code": "AH",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Academic Policies and Procedures",
+      "code": "APAP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Academic Standing",
+      "code": "AS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Accounting",
+      "code": "Acco",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Adding or Changing a Program",
+      "code": "AOCA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Aerospace Engineering",
+      "code": "AE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Africana Studies Program",
+      "code": "ASP",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Agricultural Education",
+      "code": "AE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Agricultural Education (BS): Agricultural Business Concentration",
+      "code": "AEBA",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Agricultural Education (BS): Agricultural Engineering Technology Concentration",
+      "code": "AEBA",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Agricultural Education (BS): Agronomy Concentration",
+      "code": "AEBA",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Agricultural Education (BS): Animal Science Concentration",
+      "code": "AEBA",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Agricultural Education (BS): Horticultural Science Concentration",
+      "code": "AEBH",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Agricultural Education (BS): Natural Resources Concentration",
+      "code": "AEBN",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Agricultural Education (BS): Poultry Science Concentration",
+      "code": "AEBP",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Agricultural Institute",
+      "code": "AI",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Agricultural Science",
+      "code": "AS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Agricultural Science (BS): Online",
+      "code": "ASBO",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Agroecology & Sustainable Food Systems",
+      "code": "ASF",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Agroecology & Sustainable Food Systems (BS): Community Food Systems Concentration",
+      "code": "ASF",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Agroecology & Sustainable Food Systems (BS): Urban Horticulture Concentration",
+      "code": "ASF",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Animal Science",
+      "code": "AS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Animal Science (BS): Industry Concentration",
+      "code": "ASBI",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Animal Science (BS): Science Concentration",
+      "code": "ASBS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Animal Science (BS): Veterinary Bioscience Concentration",
+      "code": "ASBV",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Anthropology",
+      "code": "Anth",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Anthropology (BA): General Anthropology Concentration",
+      "code": "ABGA",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Applied Education Studies",
+      "code": "AES",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Applied Education Studies (BS): Learning Design and Technology",
+      "code": "AESB",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Architecture (Bachelor): One-Year Professional Degree",
+      "code": "ABOY",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Architecture (MR): History and Theory of Architecture Concentration",
+      "code": "AMHA",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Art and Design",
+      "code": "AAD",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Arts Studies",
+      "code": "AS",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Arts Studies (BA): Film Studies Concentration",
+      "code": "ASBF",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Arts Studies (BA): Music Concentration",
+      "code": "ASBM",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Arts Studies (BA): Theater Concentration",
+      "code": "ASBT",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Arts Studies (BA): Visual Arts Concentration",
+      "code": "ASBV",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Arts Studies Program",
+      "code": "ASP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biochemistry",
+      "code": "Bioc",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biological Engineering",
+      "code": "BE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biological Engineering (BS): Agricultural Engineering Concentration",
+      "code": "BEBA",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biological Engineering (BS): Bioprocessing Engineering Concentration",
+      "code": "BEBB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biological Engineering (BS): Ecological Engineering Concentration",
+      "code": "BEBE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biological Engineering (BS): Environmental Engineering Concentration",
+      "code": "BEBE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biological Sciences",
+      "code": "BS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biological Sciences (BS): Ecology, Evolution and Conservation Biology Concentration",
+      "code": "BSBE",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biological Sciences (BS): Human Biology Concentration",
+      "code": "BSBH",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biological Sciences (BS): Integrative Physiology and Neurobiology Concentration",
+      "code": "BSBI",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biological Sciences (BS): Molecular, Cellular, and Developmental Biology Concentration",
+      "code": "BSBM",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biological Sciences (Honors)",
+      "code": "BSH",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biological and Agricultural Engineering (MS): Systems Analysis Concentration",
+      "code": "BAAE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biological and Agricultural Engineering Technology",
+      "code": "BAAE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biological, Agricultural, and Ecological Engineering",
+      "code": "BAAE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biomedical Engineering",
+      "code": "BE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biomedical Engineering (MS): MedTech Innovation and Entrepreneurship Concentration",
+      "code": "BEMM",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biomedical Engineering (MS): Traditional Concentration",
+      "code": "BEMT",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biomedical Engineering Honors Program (Honors)",
+      "code": "BEHP",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bioprocessing Science",
+      "code": "BS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Business Administration",
+      "code": "BA",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Business Administration (BS): Business Analytics Concentration",
+      "code": "BABB",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Business Administration (BS): Entrepreneurship Concentration",
+      "code": "BABE",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Business Administration (BS): Finance Concentration",
+      "code": "BABF",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Business Administration (BS): Information Technology Concentration",
+      "code": "BABI",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Business Administration (BS): Undeclared",
+      "code": "BABU",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Center for Geospatial Analytics",
+      "code": "CFGA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Centers and Institutes",
+      "code": "CAI",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemical Engineering",
+      "code": "CE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemical Engineering (BS): Biomanufacturing Sciences Concentration",
+      "code": "CEBB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemical Engineering (BS): Biomolecular Concentration",
+      "code": "CEBB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemical Engineering (BS): Honors Concentration",
+      "code": "CEBH",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemical Engineering (BS): Nanoscience Concentration",
+      "code": "CEBN",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemical Engineering (BS): Sustainable Engineering, Energy, and the Environment",
+      "code": "CEBS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemistry",
+      "code": "Chem",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Civil Engineering",
+      "code": "CE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Communication",
+      "code": "Comm",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Comparative Biomedical Sciences (MR): Food Animals Concentration",
+      "code": "CBSM",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Engineering",
+      "code": "CE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Engineering (BS): Computer Architecture and Emerging Systems Concentration",
+      "code": "CEBC",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Engineering (BS): Computer Systems Software Concentration",
+      "code": "CEBC",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Engineering (BS): Networking Hardware Concentration",
+      "code": "CEBN",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Engineering (BS): Networking Software Concentration",
+      "code": "CEBN",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Engineering (MS): Internship Concentration",
+      "code": "CEMI",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Networking (MS): Internship Concentration",
+      "code": "CNMI",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Science",
+      "code": "CS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Science (BS): Artificial Intelligence Concentration",
+      "code": "CSBA",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Science (BS): Cybersecurity Concentration",
+      "code": "CSBC",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Science (BS): Game Development Concentration",
+      "code": "CSBG",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Construction Engineering",
+      "code": "CE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Courses and Grading",
+      "code": "CAG",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Criminology",
+      "code": "Crim",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Crop and Soil Sciences",
+      "code": "CASS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Crop and Soil Sciences (BS): Agronomy",
+      "code": "CASS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Crop and Soil Sciences (BS): Crop Biotechnology",
+      "code": "CASS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Crop and Soil Sciences (BS): Soil Science",
+      "code": "CASS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Crop and Soil Sciences (BS): Turfgrass Science",
+      "code": "CASS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Curriculum and Instruction (MEd): Educational Psychology Concentration",
+      "code": "CAIM",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Design Studies",
+      "code": "DS",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Design Studies (BA): Business Administration Concentration",
+      "code": "DSBB",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Design Studies (BA): Nonprofit Studies Concentration",
+      "code": "DSBN",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Economics",
+      "code": "Econ",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Economics (BA): Business Analytics Concentration",
+      "code": "EBBA",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Economics (BA): Finance Concentration",
+      "code": "EBFC",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Economics (BS): Business Analytics Concentration",
+      "code": "EBBA",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Economics (BS): Finance Concentration",
+      "code": "EBFC",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Edward P. Fitts Department of Industrial and Systems Engineering",
+      "code": "EPFD",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Electric Power System Engineering (MS): Internship Concentration",
+      "code": "EPSE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Electric Power System Engineering (MS): Wide Bandgap Power Electronics Concentration",
+      "code": "EPSE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Electrical Engineering",
+      "code": "EE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Electrical Engineering (BS): Analog Circuits Concentration",
+      "code": "EEBA",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Electrical Engineering (BS): Biomedical Instrumentation Concentration",
+      "code": "EEBB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Electrical Engineering (BS): Communications and Signal Processing Concentration",
+      "code": "EEBC",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Electrical Engineering (BS): Controls and Robotics Concentration",
+      "code": "EEBC",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Electrical Engineering (BS): Digital Circuits Concentration",
+      "code": "EEBD",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Electrical Engineering (BS): Electronic Devices Concentrations",
+      "code": "EEBE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Electrical Engineering (BS): Music Technology Concentration",
+      "code": "EEBM",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Electrical Engineering (BS): Optics and Photonics Concentration",
+      "code": "EEBO",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Electrical Engineering (BS): Power Systems Concentration",
+      "code": "EEBP",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Electrical Engineering (BS): Radio Frequency Circuits Concentration",
+      "code": "EEBR",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Electrical Engineering (BS): Renewable Electric Energy Systems Concentration",
+      "code": "EEBR",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Electrical Engineering (MS): Internship Concentration",
+      "code": "EEMI",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Elementary Education",
+      "code": "EE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Engineering",
+      "code": "Engi",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Engineering (BS): Electrical Engineering Systems Concentration",
+      "code": "EBEE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Engineering (BS): Mechanical Engineering Systems Concentration",
+      "code": "EBME",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Engineering (BS): Mechatronics Concentration",
+      "code": "EBMC",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Engineering (BS): Nuclear Power Concentration",
+      "code": "EBNP",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Engineering (MR): Aerospace Engineering Concentration",
+      "code": "EMAE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Engineering (MR): Chemical Engineering Concentration",
+      "code": "EMCE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Engineering (MR): Computer Engineering Concentration",
+      "code": "EMCE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Engineering (MR): Computer Science Concentration",
+      "code": "EMCS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Engineering (MR): Industrial Engineering Concentration",
+      "code": "EMIE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Engineering (MR): Mechanical Engineering Concentration",
+      "code": "EMME",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Engineering (MR): Nuclear Engineering Concentration",
+      "code": "EMNE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Engineering First Year",
+      "code": "EFY",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Engineering in Havelock",
+      "code": "EIH",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English",
+      "code": "English",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English (BA): Creative Writing Concentration",
+      "code": "EBCW",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English (BA): Film Studies Concentration",
+      "code": "EBFS",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English (BA): Linguistics Concentration",
+      "code": "EBLC",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English (BA): Literature Concentration",
+      "code": "EBLC",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English (BA): Rhetoric and Professional Writing Concentration",
+      "code": "EBRA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English (BA): Teacher Education Concentration",
+      "code": "EBTE",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English (MA): Film Studies Concentration",
+      "code": "EMFS",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English (MA): Linguistics Concentration",
+      "code": "EMLC",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English (MA): Literature Concentration",
+      "code": "EMLC",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English (MA): Rhetoric and Composition",
+      "code": "EMRA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Design in Architecture",
+      "code": "EDIA",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Engineering",
+      "code": "EE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental First Year Program",
+      "code": "EFYP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Sciences",
+      "code": "ES",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Exploratory Studies",
+      "code": "ES",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Fashion and Textile Design",
+      "code": "FATD",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Fashion and Textile Design (BS): Fashion Design Concentration",
+      "code": "FATD",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Fashion and Textile Design (BS): Textile Design Concentration",
+      "code": "FATD",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Field Crops Technology",
+      "code": "FCT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Fisheries, Wildlife, and Conservation Biology",
+      "code": "FWAC",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Fisheries, Wildlife, and Conservation Biology (BS): Conservation Biology Concentration",
+      "code": "FWAC",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Fisheries, Wildlife, and Conservation Biology (BS): Fisheries Science Concentration",
+      "code": "FWAC",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Fisheries, Wildlife, and Conservation Biology (BS): Wildlife Science Concentration",
+      "code": "FWAC",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Food Science",
+      "code": "FS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Food Science (BS): Business & Technology Concentration",
+      "code": "FSBB",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Food Science (BS): Science Concentration",
+      "code": "FSBS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Foundations of Data Science (MS): Computer Science Concentration",
+      "code": "FODS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Foundations of Data Science (MS): Statistics Concentration",
+      "code": "FODS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "GEP Additional Breadth",
+      "code": "GAB",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "GEP Computer Literacy/Technology Fluency",
+      "code": "GCLT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "GEP Foundations of American Democracy",
+      "code": "GFOA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "GEP Global Knowledge",
+      "code": "GGK",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "GEP Health and Exercise Studies",
+      "code": "GHAE",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "GEP Humanities",
+      "code": "GH",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "GEP Interdisciplinary Perspectives",
+      "code": "GIP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "GEP Introduction to Writing",
+      "code": "GITW",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "GEP Natural Sciences",
+      "code": "GNS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "GEP Social Sciences",
+      "code": "GSS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "GEP Visual and Performing Arts",
+      "code": "GVAP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "GEP World Language Proficiency",
+      "code": "GWLP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "General Agriculture",
+      "code": "GA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Genetics",
+      "code": "Genetics",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Geology",
+      "code": "Geology",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Getting Your Degree",
+      "code": "GYD",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Graphic & Experience Design",
+      "code": "GED",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "History",
+      "code": "History",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "History (BA): Legal History Concentration",
+      "code": "HBLH",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "History (BA): Teacher Education Concentration",
+      "code": "HBTE",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Horticultural Science",
+      "code": "HS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Horticultural Science (BS): Plant Breeding and Biotechnology in Horticulture Concentration",
+      "code": "HSBP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Horticultural Science (BS): Production Systems and Entrepreneurship in Horticulture Concentration",
+      "code": "HSBP",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Industrial Design",
+      "code": "ID",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Industrial Engineering",
+      "code": "IE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Integrative Humanities and Social Sciences",
+      "code": "IHAS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Inter-College Transfer",
+      "code": "ICT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Interdisciplinary",
+      "code": "Inte",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Interdisciplinary Studies",
+      "code": "IS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Interdisciplinary Studies (BA): Africana Studies Community Studies Concentration",
+      "code": "ISBA",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Interdisciplinary Studies (BA): Africana Studies Concentration",
+      "code": "ISBA",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Interdisciplinary Studies (BA): Self Design Concentration",
+      "code": "ISBS",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Interdisciplinary Studies (BA): Women's, Gender and Sexuality Studies Concentration",
+      "code": "ISBW",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Interdisciplinary Studies (BS): Self Design Concentration",
+      "code": "ISBS",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Interdisciplinary Studies (BS): Women’s, Gender and Sexuality Studies Concentration",
+      "code": "ISBW",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "International Studies",
+      "code": "IS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "International Studies (BA): Africa Concentration",
+      "code": "ISBA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "International Studies (BA): East and Southeast Asia Concentration",
+      "code": "ISBE",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "International Studies (BA): Europe Concentration",
+      "code": "ISBE",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "International Studies (BA): Global Cultural Studies Concentration",
+      "code": "ISBG",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "International Studies (BA): Global Relations Concentration",
+      "code": "ISBG",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "International Studies (BA): Global Sustainability and Development Concentration",
+      "code": "ISBG",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "International Studies (BA): Latin America Concentration",
+      "code": "ISBL",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "International Studies (BA): South Asia and Middle East Concentration",
+      "code": "ISBS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "International Studies Program",
+      "code": "ISP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Lampe Joint Department of Biomedical Engineering",
+      "code": "LJDO",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Leadership in the Public Sector",
+      "code": "LITP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Leadership in the Public Sector (BA): Distance Education",
+      "code": "LITP",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Life Sciences First Year",
+      "code": "LSFY",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Management (MR): Risk and Analytics Concentration",
+      "code": "MMRA",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Marine Sciences",
+      "code": "MS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Marine Sciences (BS): Biological Oceanography Concentration",
+      "code": "MSBB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Marine Sciences (BS): Chemistry Concentration",
+      "code": "MSBC",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Marine Sciences (BS): Geology Concentration",
+      "code": "MSBG",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Marine Sciences (BS): Meteorology Concentration",
+      "code": "MSBM",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Marine Sciences (BS): Physics Concentration",
+      "code": "MSBP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Materials Science and Engineering",
+      "code": "MSAE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Materials Science and Engineering (BS): Biomaterials Concentration",
+      "code": "MSAE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Materials Science and Engineering (BS): Nanomaterials Concentration",
+      "code": "MSAE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mathematics",
+      "code": "Math",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mathematics Education",
+      "code": "ME",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mathematics Education (BS): Computer Specialization",
+      "code": "MEBC",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mathematics Education (BS): Statistics Specialization",
+      "code": "MEBS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mathematics Education, Secondary",
+      "code": "MES",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mechanical Engineering",
+      "code": "ME",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Meteorology",
+      "code": "Mete",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Microbiology",
+      "code": "Micr",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Microbiology (BS): Microbial Biotechnology Concentration",
+      "code": "MBMB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Microbiology (BS): Microbial Health Science Concentration",
+      "code": "MBMH",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Middle Grades Education",
+      "code": "MGE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Middle Grades Education (BS): English Language Arts and Social Studies Concentration",
+      "code": "MGEB",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music Technology",
+      "code": "MT",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music Technology (BS): Electronics & Circuits Concentration",
+      "code": "MTBE",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music Technology (BS): Software & Digital Hardware",
+      "code": "MTBS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Nanoengineering (MR): Biomedical Sciences in Nanoengineering Concentration",
+      "code": "NMBS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Nanoengineering (MR): Nanoelectronics and Nanophotonics Concentration",
+      "code": "NMNA",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Natural Resources",
+      "code": "NR",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Natural Resources (BS): Ecosystem Assessment Concentration",
+      "code": "NRBE",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Natural Resources (BS): Policy and Administration Concentration",
+      "code": "NRBP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Natural Resources (BS): Soil, Water and Land Use Concentration",
+      "code": "NRBS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Non-Degree Studies",
+      "code": "NDS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "North Carolina Cooperative Extension Service",
+      "code": "NCCE",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Nuclear Engineering",
+      "code": "NE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Nuclear Engineering (BS): Plasma Sciences and Fusion Energy",
+      "code": "NEBP",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Nuclear Engineering (BS): Radiological Engineering",
+      "code": "NEBR",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Nutrition Sciences",
+      "code": "NS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Nutrition Sciences (BS): Applied Nutrition Concentration",
+      "code": "NSBA",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Paper Science and Engineering",
+      "code": "PSAE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Paper Science and Engineering (BS): Sustainable Packaging Production",
+      "code": "PSAE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Philosophy",
+      "code": "Phil",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Philosophy (BA): Ethics Concentration",
+      "code": "PBEC",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Philosophy (BA): Philosophy and Law Concentration",
+      "code": "PBPA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Philosophy (BS): Logic, Representation and Reasoning Concentration",
+      "code": "PBLR",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Physics",
+      "code": "Physics",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Physics (BS): Interdisciplinary Physics Concentration",
+      "code": "PBIP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Plant Biology",
+      "code": "PB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Political Science",
+      "code": "PS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Political Science (BA): American Politics Concentration",
+      "code": "PSBA",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Political Science (BA): International Politics Concentration",
+      "code": "PSBI",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Political Science (BA): Law and Justice Concentration",
+      "code": "PSBL",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Political Science (BA): Public Policy Concentration",
+      "code": "PSBP",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Polymer and Color Chemistry",
+      "code": "PACC",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Polymer and Color Chemistry (BS): ACS Certification Concentration",
+      "code": "PACC",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Polymer and Color Chemistry (BS): Medical Sciences Concentration",
+      "code": "PACC",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Polymer and Color Chemistry (BS): Science and Operations Concentration",
+      "code": "PACC",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Poultry Science",
+      "code": "PS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Poultry Science (BS): Science Concentration",
+      "code": "PSBS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Poultry Science (BS): Technology Concentration",
+      "code": "PSBT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Prestage Department of Poultry Science",
+      "code": "PDOP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Psychology",
+      "code": "Psyc",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Psychology (BA): General Psychology Concentration",
+      "code": "PBGP",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Psychology (MS): School Psychology Concentration",
+      "code": "PMSP",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Religious Studies",
+      "code": "RS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Science Education",
+      "code": "SE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Science Education (BS): Biology Concentration",
+      "code": "SEBB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Science Education (BS): Chemistry Concentration",
+      "code": "SEBC",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Science Education (BS): Earth Science Concentration",
+      "code": "SEBE",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Science Education (BS): Middle Grades Science Concentration",
+      "code": "SEBM",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Science Education (BS): Physics Concentration",
+      "code": "SEBP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Science Education, Secondary",
+      "code": "SES",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Science, Technology and Society",
+      "code": "STAS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Science, Technology, and Society Program",
+      "code": "STAS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Social Work",
+      "code": "SW",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Sociology",
+      "code": "Soci",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Statistics",
+      "code": "Stat",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Statistics (BS): Data Science Concentration",
+      "code": "SBDS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Statistics (MR): Biostatistics Concentration",
+      "code": "SMBC",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Statistics (MR): Environmental Statistics Concentration",
+      "code": "SMES",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Statistics (MR): Financial Concentration",
+      "code": "SMFC",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Statistics (MR): Statistical Genetics Concentration",
+      "code": "SMSG",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Student Conduct",
+      "code": "SC",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Student Records",
+      "code": "SR",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Student Status and Honors",
+      "code": "SSAH",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Teaching (MA): Elementary Education Concentration",
+      "code": "TMEE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Teaching (MA): English Education Concentration",
+      "code": "TMEE",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Teaching (MA): K-12 Reading Concentration",
+      "code": "TMK1",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Teaching (MA): Middle Grades English Language Arts Education Concentration",
+      "code": "TMMG",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Teaching (MA): Middle Grades Science Concentration",
+      "code": "TMMG",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Teaching (MA): Middle Grades Social Studies Concentration",
+      "code": "TMMG",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Teaching (MA): Multilingual Education Concentration",
+      "code": "TMME",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Teaching (MA): Science Education Concentration",
+      "code": "TMSE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Teaching (MA): Social Studies Education Concentration",
+      "code": "TMSS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Teaching (MA): Special Education Concentration",
+      "code": "TMSE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Teaching (MA): Technology Education Concentration",
+      "code": "TMTE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Technology, Engineering and Design Education",
+      "code": "TEAD",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Technology, Engineering and Design Education (BS): Graphic Communication Concentration",
+      "code": "TEAD",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Technology, Engineering and Design Education (BS): Licensure Concentration",
+      "code": "TEAD",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Textile Engineering",
+      "code": "TE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Textile Engineering (BS): Chemical Processing Concentration",
+      "code": "TEBC",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Textile Engineering (BS): Information Systems Concentration",
+      "code": "TEBI",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Textile Engineering (BS): Product Engineering Concentration",
+      "code": "TEBP",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Textile Engineering Program",
+      "code": "TEP",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Textile Technology",
+      "code": "TT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Textile Technology (BS): Medical Textiles Concentration",
+      "code": "TTBM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Textile Technology (BS): Supply Chain Operations Concentration",
+      "code": "TTBS",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Textile Technology (BS): Technical Textiles Concentration",
+      "code": "TTBT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "The First Year Experience",
+      "code": "TFYE",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Transfer and Exam Credit",
+      "code": "TAEC",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "University Advising and Exploratory Studies",
+      "code": "UAAE",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "University College",
+      "code": "UC",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "University Honors Program",
+      "code": "UHP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Wilson College of Textiles",
+      "code": "WCOT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Withdrawal",
+      "code": "With",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Women's, Gender and Sexuality Studies Program",
+      "code": "WSGA",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "World Languages and Cultures",
+      "code": "WLAC",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "World Languages and Cultures (BA): Arabic Studies Concentration",
+      "code": "WLAC",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "World Languages and Cultures (BA): Asian Language Concentration",
+      "code": "WLAC",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "World Languages and Cultures (BA): Chinese Education Concentration",
+      "code": "WLAC",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "World Languages and Cultures (BA): French Education Concentration",
+      "code": "WLAC",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "World Languages and Cultures (BA): French Studies Concentration",
+      "code": "WLAC",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "World Languages and Cultures (BA): German Education Concentration",
+      "code": "WLAC",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "World Languages and Cultures (BA): German Studies Concentration",
+      "code": "WLAC",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "World Languages and Cultures (BA): German Studies International Economics Concentration",
+      "code": "WLAC",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "World Languages and Cultures (BA): German Studies Science and Technology Concentration",
+      "code": "WLAC",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "World Languages and Cultures (BA): Spanish Education Concentration",
+      "code": "WLAC",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "World Languages and Cultures (BA): Spanish Language and Literature Concentration",
+      "code": "WLAC",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "World Languages and Cultures (MA): French Language and Literature Concentration",
+      "code": "WLAC",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "World Languages and Cultures (MA): Spanish Language and Literature Concentration",
+      "code": "WLAC",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Zoology",
+      "code": "Zoology",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Zoology (BS): Applied Zoology",
+      "code": "ZBAZ",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    }
+  ]
 }

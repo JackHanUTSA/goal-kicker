@@ -1,28 +1,117 @@
 {
   "university": "George Washington University",
   "slug": "george-washington",
-  "retrieved_at": "2026-05-09",
-  "mode": "majors-list",
+  "academic_year": "Structured majors inventory",
+  "retrieved_at": "2026-05-10",
+  "mode": "mapped-majors",
   "source_url": "https://www.gwu.edu/academics",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
-  "summary": {
-    "majors_count": 100,
-    "titles_count": 11,
-    "count_method": "explicit official page sentence",
-    "confidence": "medium"
-  },
-  "titles": [
-    "The included work should be your best and most recent work.",
-    "If possible, the work should be related to your area of interest.",
-    "standardized test scores",
-    "First Year Application Steps",
-    "International Application Steps",
-    "Special Interest Programs",
-    "Seven-Year B.A./M.D.",
-    "special interest program",
-    "Special Program webpage",
-    "bring credits to GW",
-    "Find your counselor"
+  "source_urls": [
+    "https://www.gwu.edu/academics",
+    "https://www.gwu.edu/majors",
+    "https://undergraduate.admissions.gwu.edu/first-year-applicants",
+    "https://www.gwu.edu"
   ],
-  "notes": "explicit official page sentence; titles extracted from official page: https://undergraduate.admissions.gwu.edu/first-year-applicants"
+  "chart_title": "Undergraduate majors map — structured inventory",
+  "major_count_label": "11 mapped majors",
+  "total_label": "equal-weight bubbles",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. To keep the majors panel visually consistent with MIT, each official undergraduate major title is mapped into a broad discipline bucket and rendered as an equal-weight bubble. Bubble size here does not indicate enrollment.",
+  "summary_note": "11 mapped majors · equal-weight bubbles · official count page says 100 majors",
+  "legend_order": [
+    "Interdisciplinary Programs"
+  ],
+  "totals": {
+    "mapped_major_titles": 11,
+    "official_major_count": 100
+  },
+  "notes": "explicit official page sentence explicit official page sentence; titles extracted from official page: https://undergraduate.admissions.gwu.edu/first-year-applicants Confidence: medium.",
+  "majors": [
+    {
+      "name": "Find your counselor",
+      "code": "FYC",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "First Year Application Steps",
+      "code": "FYAS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "If possible, the work should be related to your area of interest.",
+      "code": "IPTW",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "International Application Steps",
+      "code": "IAS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Seven-Year B.A./M.D.",
+      "code": "SYBA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Special Interest Programs",
+      "code": "SIP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Special Program webpage",
+      "code": "SPW",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "The included work should be your best and most recent work.",
+      "code": "TIWS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "bring credits to GW",
+      "code": "BCTG",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "special interest program",
+      "code": "SIP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "standardized test scores",
+      "code": "STS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    }
+  ]
 }

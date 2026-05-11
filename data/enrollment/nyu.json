@@ -1,75 +1,491 @@
 {
   "university": "New York University",
   "slug": "nyu",
-  "retrieved_at": "2026-05-09",
-  "mode": "majors-list",
+  "academic_year": "Structured majors inventory",
+  "retrieved_at": "2026-05-10",
+  "mode": "mapped-majors",
   "source_url": "https://www.nyu.edu/academics.html",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
-  "summary": {
-    "majors_count": 30,
-    "titles_count": 58,
-    "count_method": "counted 30 unique major/program-like entries from the cited official page DOM",
-    "confidence": "medium"
-  },
-  "titles": [
-    "Anand Khubani BS in Business, Technology & Entrepreneurship",
-    "Accelerated Undergraduate",
-    "NYU by NYU",
-    "Actuarial Science",
-    "Anand Khubani BS in Business, Technology & Entrepreneurship (BTE)",
-    "Animal Studies",
-    "Anthropology & Classical Civilization",
-    "Applied Psychology",
-    "Bioinformatics",
-    "Biomedical Engineering",
-    "Biomolecular Science",
-    "Biotechnology",
-    "Biotechnology & Entrepreneurship",
-    "Business",
-    "Business & Political Economy",
-    "Communicative Sciences and Disorders",
-    "Computer Engineering",
-    "Computer Science Education",
-    "Costume Studies",
-    "Cybersecurity",
-    "Data Analytics & Business Computing",
-    "Digital Communications & Media",
-    "Disability Studies",
-    "Dramatic Literature, Theater History, & the Cinema",
-    "English",
-    "Environmental Biology",
-    "Environmental Engineering",
-    "Environmental Science",
-    "Financial Engineering",
-    "Food Studies",
-    "Genetics",
-    "Genomics & Bioinformatics",
-    "Global Business",
-    "History of Education",
-    "Iberian Studies",
-    "Industrial Engineering",
-    "Integrated Design & Media",
-    "International Relations & Journalism",
-    "Journalism & Religion",
-    "Library & Information Science",
-    "Literacy Education",
-    "Luso-Brazilian Language & Literature",
-    "Management of Technology",
-    "Media, Culture, and Communication",
-    "Occupational Therapy",
-    "Physical Therapy",
-    "Public Policy",
-    "Quantitative Finance",
-    "School Counseling or Bilingual School Counseling",
-    "Science & Technology Studies",
-    "Sociology of Education",
-    "Songwriting",
-    "South Asian Studies",
-    "Statistics",
-    "Studio Art",
-    "Sustainable Urban Environments",
-    "Urban Design & Architecture Studies",
-    "World Language Education"
+  "source_urls": [
+    "https://www.nyu.edu/academics.html",
+    "https://www.nyu.edu/majors",
+    "https://www.nyu.edu/academics/academic-programs.html",
+    "https://www.nyu.edu"
   ],
-  "notes": "counted 30 unique major/program-like entries from the cited official page DOM; titles extracted from official page: https://www.nyu.edu/academics/academic-programs.html"
+  "chart_title": "Undergraduate majors map — structured inventory",
+  "major_count_label": "57 mapped majors",
+  "total_label": "equal-weight bubbles",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. To keep the majors panel visually consistent with MIT, each official undergraduate major title is mapped into a broad discipline bucket and rendered as an equal-weight bubble. Bubble size here does not indicate enrollment.",
+  "summary_note": "57 mapped majors · equal-weight bubbles · official count page says 30 majors",
+  "legend_order": [
+    "Architecture and Planning",
+    "Engineering",
+    "Science",
+    "Social Sciences",
+    "Humanities & Arts",
+    "Sloan School of Management",
+    "Interdisciplinary Programs"
+  ],
+  "totals": {
+    "mapped_major_titles": 57,
+    "official_major_count": 30
+  },
+  "notes": "counted 30 unique major/program-like entries from the cited official page DOM counted 30 unique major/program-like entries from the cited official page DOM; titles extracted from official page: https://www.nyu.edu/academics/academic-programs.html Confidence: medium.",
+  "majors": [
+    {
+      "name": "Accelerated Undergraduate",
+      "code": "AU",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Actuarial Science",
+      "code": "AS",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Anand Khubani BS in Business, Technology & Entrepreneurship",
+      "code": "AKBI",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Animal Studies",
+      "code": "AS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Anthropology & Classical Civilization",
+      "code": "ACC",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Applied Psychology",
+      "code": "AP",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bioinformatics",
+      "code": "Bioi",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biomedical Engineering",
+      "code": "BE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biomolecular Science",
+      "code": "BS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biotechnology",
+      "code": "Biot",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biotechnology & Entrepreneurship",
+      "code": "BE",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Business",
+      "code": "Business",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Business & Political Economy",
+      "code": "BPE",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Communicative Sciences and Disorders",
+      "code": "CSAD",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Engineering",
+      "code": "CE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Science Education",
+      "code": "CSE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Costume Studies",
+      "code": "CS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Cybersecurity",
+      "code": "Cybe",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Data Analytics & Business Computing",
+      "code": "DAB",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Digital Communications & Media",
+      "code": "DCM",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Disability Studies",
+      "code": "DS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Dramatic Literature, Theater History, & the Cinema",
+      "code": "DLTH",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English",
+      "code": "English",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Biology",
+      "code": "EB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Engineering",
+      "code": "EE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Science",
+      "code": "ES",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Financial Engineering",
+      "code": "FE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Food Studies",
+      "code": "FS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Genetics",
+      "code": "Genetics",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Genomics & Bioinformatics",
+      "code": "GB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Global Business",
+      "code": "GB",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "History of Education",
+      "code": "HOE",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Iberian Studies",
+      "code": "IS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Industrial Engineering",
+      "code": "IE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Integrated Design & Media",
+      "code": "IDM",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "International Relations & Journalism",
+      "code": "IRJ",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Journalism & Religion",
+      "code": "JR",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Library & Information Science",
+      "code": "LIS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Literacy Education",
+      "code": "LE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Luso-Brazilian Language & Literature",
+      "code": "LBL",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Management of Technology",
+      "code": "MOT",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Media, Culture, and Communication",
+      "code": "MCAC",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "NYU by NYU",
+      "code": "NBN",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Occupational Therapy",
+      "code": "OT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Physical Therapy",
+      "code": "PT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Public Policy",
+      "code": "PP",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Quantitative Finance",
+      "code": "QF",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "School Counseling or Bilingual School Counseling",
+      "code": "SCOB",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Science & Technology Studies",
+      "code": "STS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Sociology of Education",
+      "code": "SOE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Songwriting",
+      "code": "Song",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "South Asian Studies",
+      "code": "SAS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Statistics",
+      "code": "Stat",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Studio Art",
+      "code": "SA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Sustainable Urban Environments",
+      "code": "SUE",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Urban Design & Architecture Studies",
+      "code": "UDA",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "World Language Education",
+      "code": "WLE",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    }
+  ]
 }

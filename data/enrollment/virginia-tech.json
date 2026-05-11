@@ -1,279 +1,2131 @@
 {
   "university": "Virginia Tech",
   "slug": "virginia-tech",
-  "retrieved_at": "2026-05-09",
-  "mode": "majors-list",
+  "academic_year": "Structured majors inventory",
+  "retrieved_at": "2026-05-10",
+  "mode": "mapped-majors",
   "source_url": "https://www.vt.edu/academics.html",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
-  "summary": {
-    "majors_count": 150,
-    "titles_count": 262,
-    "count_method": "explicit official page sentence",
-    "confidence": "medium"
-  },
-  "titles": [
-    "ProgramStudy Item Accounting and Business Analysis , programStudy",
-    "ProgramStudy Item Accounting and Information Systems , programStudy",
-    "ProgramStudy Item Advertising , programStudy",
-    "ProgramStudy Item Aerospace Engineering , programStudy",
-    "ProgramStudy Item Agribusiness , programStudy",
-    "ProgramStudy Item Agricultural Technology",
-    "ProgramStudy Item Agriculture and Extension Education , programStudy",
-    "ProgramStudy Item Animal and Poultry Sciences , programStudy",
-    "ProgramStudy Item Arabic , programStudy",
-    "ProgramStudy Item Architecture , programStudy",
-    "ProgramStudy Item Art History , programStudy",
-    "ProgramStudy Item Biochemistry , programStudy",
-    "ProgramStudy Item Biological Sciences",
-    "ProgramStudy Item Biological Systems Engineering , programStudy",
-    "ProgramStudy Item Biomedical Engineering , programStudy",
-    "ProgramStudy Item Building Construction , programStudy",
-    "ProgramStudy Item Business Information Technology , programStudy",
-    "ProgramStudy Item Business",
-    "ProgramStudy Item Career and Technical Education , programStudy",
-    "ProgramStudy Item Career and Technical Education - Agriculture Education , programStudy",
-    "ProgramStudy Item Chemical Engineering , programStudy",
-    "ProgramStudy Item Chemistry , programStudy",
-    "ProgramStudy Item Cinema , programStudy",
-    "ProgramStudy Item Civil Engineering , programStudy",
-    "ProgramStudy Item Classical Studies , programStudy",
-    "ProgramStudy Item Clinical Neuroscience , programStudy",
-    "ProgramStudy Item Cognitive and Behavioral Neuroscience , programStudy",
-    "ProgramStudy Item Communication , programStudy",
-    "ProgramStudy Item Community Economic Development , programStudy",
-    "ProgramStudy Item Community and Leadership Development , programStudy",
-    "ProgramStudy Item Computational and Systems Neuroscience , programStudy",
-    "ProgramStudy Item Computational Modeling and Data Analytics , programStudy",
-    "ProgramStudy Item Computer Engineering , programStudy",
-    "ProgramStudy Item Computer Science , programStudy",
-    "ProgramStudy Item Consumer Studies , programStudy",
-    "ProgramStudy Item Creative Technologies , programStudy",
-    "ProgramStudy Item Creative Writing , programStudy",
-    "ProgramStudy Item Criminology , programStudy",
-    "ProgramStudy Item Crop and Soil Sciences , programStudy",
-    "ProgramStudy Item Dairy Science , programStudy",
-    "ProgramStudy Item Early Childhood Development and Education , programStudy",
-    "ProgramStudy Item Ecological Restoration , programStudy",
-    "ProgramStudy Item Economics , programStudy",
-    "ProgramStudy Item Electrical Engineering , programStudy",
-    "ProgramStudy Item Elementary Education",
-    "ProgramStudy Item Engineering Science and Mechanics , programStudy",
-    "ProgramStudy Item English , programStudy",
-    "ProgramStudy Item English Language Arts Education , programStudy",
-    "ProgramStudy Item Environment, Development, and Global Economy , programStudy",
-    "ProgramStudy Item Environmental Conservation and Society , programStudy",
-    "ProgramStudy Item Environmental Data Science , programStudy",
-    "ProgramStudy Item Environmental Horticulture , programStudy",
-    "ProgramStudy Item Environmental Policy and Planning , programStudy",
-    "ProgramStudy Item Environmental Science , programStudy",
-    "ProgramStudy Item Exercise & Health Sciences , programStudy",
-    "ProgramStudy Item Explore Liberal Arts and Human Sciences",
-    "ProgramStudy Item Explore Science",
-    "ProgramStudy Item Exploring Architecture, Arts, and Design",
-    "ProgramStudy Item Exploring Life Sciences",
-    "ProgramStudy Item Exploring Natural Resources",
-    "ProgramStudy Item Fashion Merchandising and Design , programStudy",
-    "ProgramStudy Item Finance , programStudy",
-    "ProgramStudy Item FinTech and Big Data Analytics , programStudy",
-    "ProgramStudy Item Fish Conservation , programStudy",
-    "ProgramStudy Item Food and Health Systems Economics , programStudy",
-    "ProgramStudy Item Food Science and Technology , programStudy",
-    "ProgramStudy Item Forestry , programStudy",
-    "ProgramStudy Item French , programStudy",
-    "ProgramStudy Item General Engineering , programStudy",
-    "ProgramStudy Item Geography , programStudy",
-    "ProgramStudy Item Geosciences , programStudy",
-    "ProgramStudy Item German , programStudy",
-    "ProgramStudy Item Graphic Design , programStudy",
-    "ProgramStudy Item History , programStudy",
-    "ProgramStudy Item History and Social Sciences Education , programStudy",
-    "ProgramStudy Item Human Development , programStudy",
-    "ProgramStudy Item Humanities for Public Service , programStudy",
-    "ProgramStudy Item Industrial and Systems Engineering , programStudy",
-    "ProgramStudy Item Industrial Design , programStudy",
-    "ProgramStudy Item Integrated Agriculture Technologies , programStudy",
-    "ProgramStudy Item Interior Design , programStudy",
-    "ProgramStudy Item International Relations , programStudy",
-    "ProgramStudy Item International Studies , programStudy",
-    "ProgramStudy Item International Trade and Development , programStudy",
-    "ProgramStudy Item Landscape Architecture , programStudy",
-    "ProgramStudy Item Landscape Design and Turfgrass Science , programStudy",
-    "ProgramStudy Item Mechanical Engineering , programStudy",
-    "ProgramStudy Item Medicinal Chemistry , programStudy",
-    "ProgramStudy Item Meteorology , programStudy",
-    "ProgramStudy Item Microbiology , programStudy",
-    "ProgramStudy Item Mining Engineering , programStudy",
-    "ProgramStudy Item Multimedia Journalism , programStudy",
-    "ProgramStudy Item Music , programStudy",
-    "ProgramStudy Item Nanomedicine , programStudy",
-    "ProgramStudy Item Nanoscience , programStudy",
-    "ProgramStudy Item National Security and Foreign Affairs , programStudy",
-    "ProgramStudy Item Neuroscience , programStudy",
-    "ProgramStudy Item Nutrition and Dietetics , programStudy",
-    "ProgramStudy Item Ocean Engineering , programStudy",
-    "ProgramStudy Item Packaging Systems and Design , programStudy",
-    "ProgramStudy Item Philosophy , programStudy",
-    "ProgramStudy Item Philosophy, Politics, and Economics , programStudy",
-    "ProgramStudy Item Physics , programStudy",
-    "ProgramStudy Item Plant Science , programStudy",
-    "ProgramStudy Item Political Science , programStudy",
-    "ProgramStudy Item Polymer Chemistry , programStudy",
-    "ProgramStudy Item Psychology , programStudy",
-    "ProgramStudy Item Public Health , programStudy",
-    "ProgramStudy Item Public Relations , programStudy",
-    "ProgramStudy Item Real Estate for Commercial Properties , programStudy",
-    "ProgramStudy Item Real Estate for Residential Properties , programStudy",
-    "ProgramStudy Item Religion and Culture , programStudy",
-    "ProgramStudy Item Residential Environments and Design , programStudy",
-    "ProgramStudy Item Russian , programStudy",
-    "ProgramStudy Item Smart and Sustainable Cities , programStudy",
-    "ProgramStudy Item Sociology , programStudy",
-    "ProgramStudy Item Spanish , programStudy",
-    "ProgramStudy Item Sports Media and Analytics , programStudy",
-    "ProgramStudy Item Statistics , programStudy",
-    "ProgramStudy Item Studio Art , programStudy",
-    "ProgramStudy Item Sustainable Biomaterials , programStudy",
-    "ProgramStudy Item Systems Biology , programStudy",
-    "ProgramStudy Item Technical and Scientific Communication , programStudy",
-    "ProgramStudy Item Technology Education , programStudy",
-    "ProgramStudy Item Theatre Arts , programStudy",
-    "ProgramStudy Item University Studies",
-    "ProgramStudy Item Wildlife Conservation , programStudy",
-    "ProgramStudy Item Pre-Health Professions , programStudy",
-    "Accounting and Business Analysis , programStudy",
-    "Accounting and Information Systems , programStudy",
-    "Advertising , programStudy",
-    "Aerospace Engineering , programStudy",
-    "Agribusiness , programStudy",
-    "Agriculture and Extension Education , programStudy",
-    "Animal and Poultry Sciences , programStudy",
-    "Arabic , programStudy",
-    "Architecture , programStudy",
-    "Art History , programStudy",
-    "Biochemistry , programStudy",
-    "Biological Sciences (Biology) , programStudy",
-    "Biological Systems Engineering , programStudy",
-    "Biomedical Engineering , programStudy",
-    "Building Construction , programStudy",
-    "Business Information Technology , programStudy",
-    "Business (undecided) , programStudy",
-    "Career and Technical Education , programStudy",
-    "Career and Technical Education - Agriculture Education , programStudy",
-    "Chemical Engineering , programStudy",
-    "Chemistry , programStudy",
-    "Cinema , programStudy",
-    "Civil Engineering , programStudy",
-    "Classical Studies , programStudy",
-    "Clinical Neuroscience , programStudy",
-    "Cognitive and Behavioral Neuroscience , programStudy",
-    "Communication , programStudy",
-    "Community Economic Development , programStudy",
-    "Community and Leadership Development , programStudy",
-    "Computational and Systems Neuroscience , programStudy",
-    "Computational Modeling and Data Analytics , programStudy",
-    "Computer Engineering , programStudy",
-    "Computer Science , programStudy",
-    "Consumer Studies , programStudy",
-    "Creative Technologies , programStudy",
-    "Creative Writing , programStudy",
-    "Criminology , programStudy",
-    "Crop and Soil Sciences , programStudy",
-    "Dairy Science , programStudy",
-    "Early Childhood Development and Education , programStudy",
-    "Ecological Restoration , programStudy",
-    "Economics , programStudy",
-    "Electrical Engineering , programStudy",
-    "Elementary Education (PK-6) , programStudy",
-    "Engineering Science and Mechanics , programStudy",
-    "English , programStudy",
-    "English Language Arts Education , programStudy",
-    "Environment, Development, and Global Economy , programStudy",
-    "Environmental Conservation and Society , programStudy",
-    "Environmental Data Science , programStudy",
-    "Environmental Horticulture , programStudy",
-    "Environmental Policy and Planning , programStudy",
-    "Environmental Science , programStudy",
-    "Exercise & Health Sciences , programStudy",
-    "Explore Liberal Arts and Human Sciences (Undecided) , programStudy",
-    "Explore Science (undecided) , programStudy",
-    "Exploring Architecture, Arts, and Design (undecided) , programStudy",
-    "Exploring Life Sciences (undecided) , programStudy",
-    "Exploring Natural Resources (undecided) , programStudy",
-    "Fashion Merchandising and Design , programStudy",
-    "Finance , programStudy",
-    "FinTech and Big Data Analytics , programStudy",
-    "Fish Conservation , programStudy",
-    "Food and Health Systems Economics , programStudy",
-    "Food Science and Technology , programStudy",
-    "Forestry , programStudy",
-    "French , programStudy",
-    "General Engineering , programStudy",
-    "Geography , programStudy",
-    "Geosciences , programStudy",
-    "German , programStudy",
-    "Graphic Design , programStudy",
-    "History , programStudy",
-    "History and Social Sciences Education , programStudy",
-    "Human Development , programStudy",
-    "Humanities for Public Service , programStudy",
-    "Industrial and Systems Engineering , programStudy",
-    "Industrial Design , programStudy",
-    "Integrated Agriculture Technologies , programStudy",
-    "Interior Design , programStudy",
-    "International Relations , programStudy",
-    "International Studies , programStudy",
-    "International Trade and Development , programStudy",
-    "Landscape Architecture , programStudy",
-    "Landscape Design and Turfgrass Science , programStudy",
-    "Management , programStudy",
-    "Management Consulting and Analytics , programStudy",
-    "Materials Science and Engineering , programStudy",
-    "Mathematics , programStudy",
-    "Mathematics Education , programStudy",
-    "Mechanical Engineering , programStudy",
-    "Medicinal Chemistry , programStudy",
-    "Meteorology , programStudy",
-    "Microbiology , programStudy",
-    "Mining Engineering , programStudy",
-    "Multimedia Journalism , programStudy",
-    "Music , programStudy",
-    "Nanomedicine , programStudy",
-    "Nanoscience , programStudy",
-    "National Security and Foreign Affairs , programStudy",
-    "Neuroscience , programStudy",
-    "Nutrition and Dietetics , programStudy",
-    "Ocean Engineering , programStudy",
-    "Packaging Systems and Design , programStudy",
-    "Philosophy , programStudy",
-    "Philosophy, Politics, and Economics , programStudy",
-    "Physics , programStudy",
-    "Plant Science , programStudy",
-    "Political Science , programStudy",
-    "Polymer Chemistry , programStudy",
-    "Psychology , programStudy",
-    "Public Health , programStudy",
-    "Public Relations , programStudy",
-    "Real Estate for Commercial Properties , programStudy",
-    "Real Estate for Residential Properties , programStudy",
-    "Religion and Culture , programStudy",
-    "Residential Environments and Design , programStudy",
-    "Russian , programStudy",
-    "Smart and Sustainable Cities , programStudy",
-    "Sociology , programStudy",
-    "Spanish , programStudy",
-    "Sports Media and Analytics , programStudy",
-    "Statistics , programStudy",
-    "Studio Art , programStudy",
-    "Sustainable Biomaterials , programStudy",
-    "Sustainable Systems Science (S3) , programStudy",
-    "Systems Biology , programStudy",
-    "Technical and Scientific Communication , programStudy",
-    "Technology Education , programStudy",
-    "Theatre Arts , programStudy",
-    "University Studies (undecided) , programStudy",
-    "Wildlife Conservation , programStudy",
-    "click here",
-    "Pre-Health Professions , programStudy"
+  "source_urls": [
+    "https://www.vt.edu/academics.html",
+    "https://www.vt.edu/academics/majors.html",
+    "https://www.vt.edu/admissions/undergraduate/apply.html?utm_campaign=fy26enrollment&utm_source=billboard&utm_medium=ooh&utm_program=undergrad",
+    "https://www.vt.edu"
   ],
-  "notes": "explicit official page sentence; titles extracted from official page: https://www.vt.edu/academics/majors.html"
+  "chart_title": "Undergraduate majors map — structured inventory",
+  "major_count_label": "262 mapped majors",
+  "total_label": "equal-weight bubbles",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. To keep the majors panel visually consistent with MIT, each official undergraduate major title is mapped into a broad discipline bucket and rendered as an equal-weight bubble. Bubble size here does not indicate enrollment.",
+  "summary_note": "262 mapped majors · equal-weight bubbles · official count page says 150 majors",
+  "legend_order": [
+    "Architecture and Planning",
+    "Engineering",
+    "Science",
+    "Social Sciences",
+    "Humanities & Arts",
+    "Sloan School of Management",
+    "Interdisciplinary Programs"
+  ],
+  "totals": {
+    "mapped_major_titles": 262,
+    "official_major_count": 150
+  },
+  "notes": "explicit official page sentence explicit official page sentence; titles extracted from official page: https://www.vt.edu/academics/majors.html Confidence: medium.",
+  "majors": [
+    {
+      "name": "Accounting and Business Analysis , programStudy",
+      "code": "AABA",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Accounting and Information Systems , programStudy",
+      "code": "AAIS",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Advertising , programStudy",
+      "code": "AP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Aerospace Engineering , programStudy",
+      "code": "AEP",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Agribusiness , programStudy",
+      "code": "AP",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Agriculture and Extension Education , programStudy",
+      "code": "AAEE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Animal and Poultry Sciences , programStudy",
+      "code": "AAPS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Arabic , programStudy",
+      "code": "AP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Architecture , programStudy",
+      "code": "AP",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Art History , programStudy",
+      "code": "AHP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biochemistry , programStudy",
+      "code": "BP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biological Sciences (Biology) , programStudy",
+      "code": "BSBP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biological Systems Engineering , programStudy",
+      "code": "BSEP",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biomedical Engineering , programStudy",
+      "code": "BEP",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Building Construction , programStudy",
+      "code": "BCP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Business (undecided) , programStudy",
+      "code": "BUP",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Business Information Technology , programStudy",
+      "code": "BITP",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Career and Technical Education , programStudy",
+      "code": "CATE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Career and Technical Education - Agriculture Education , programStudy",
+      "code": "CATE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemical Engineering , programStudy",
+      "code": "CEP",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemistry , programStudy",
+      "code": "CP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Cinema , programStudy",
+      "code": "CP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Civil Engineering , programStudy",
+      "code": "CEP",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Classical Studies , programStudy",
+      "code": "CSP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Clinical Neuroscience , programStudy",
+      "code": "CNP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Cognitive and Behavioral Neuroscience , programStudy",
+      "code": "CABN",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Communication , programStudy",
+      "code": "CP",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Community Economic Development , programStudy",
+      "code": "CEDP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Community and Leadership Development , programStudy",
+      "code": "CALD",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computational Modeling and Data Analytics , programStudy",
+      "code": "CMAD",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computational and Systems Neuroscience , programStudy",
+      "code": "CASN",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Engineering , programStudy",
+      "code": "CEP",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Science , programStudy",
+      "code": "CSP",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Consumer Studies , programStudy",
+      "code": "CSP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Creative Technologies , programStudy",
+      "code": "CTP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Creative Writing , programStudy",
+      "code": "CWP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Criminology , programStudy",
+      "code": "CP",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Crop and Soil Sciences , programStudy",
+      "code": "CASS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Dairy Science , programStudy",
+      "code": "DSP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Early Childhood Development and Education , programStudy",
+      "code": "ECDA",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Ecological Restoration , programStudy",
+      "code": "ERP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Economics , programStudy",
+      "code": "EP",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Electrical Engineering , programStudy",
+      "code": "EEP",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Elementary Education (PK-6) , programStudy",
+      "code": "EEP6",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Engineering Science and Mechanics , programStudy",
+      "code": "ESAM",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English , programStudy",
+      "code": "EP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English Language Arts Education , programStudy",
+      "code": "ELAE",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environment, Development, and Global Economy , programStudy",
+      "code": "EDAG",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Conservation and Society , programStudy",
+      "code": "ECAS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Data Science , programStudy",
+      "code": "EDSP",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Horticulture , programStudy",
+      "code": "EHP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Policy and Planning , programStudy",
+      "code": "EPAP",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Science , programStudy",
+      "code": "ESP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Exercise & Health Sciences , programStudy",
+      "code": "EHS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Explore Liberal Arts and Human Sciences (Undecided) , programStudy",
+      "code": "ELAA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Explore Science (undecided) , programStudy",
+      "code": "ESUP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Exploring Architecture, Arts, and Design (undecided) , programStudy",
+      "code": "EAAA",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Exploring Life Sciences (undecided) , programStudy",
+      "code": "ELSU",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Exploring Natural Resources (undecided) , programStudy",
+      "code": "ENRU",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Fashion Merchandising and Design , programStudy",
+      "code": "FMAD",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "FinTech and Big Data Analytics , programStudy",
+      "code": "FABD",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Finance , programStudy",
+      "code": "FP",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Fish Conservation , programStudy",
+      "code": "FCP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Food Science and Technology , programStudy",
+      "code": "FSAT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Food and Health Systems Economics , programStudy",
+      "code": "FAHS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Forestry , programStudy",
+      "code": "FP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "French , programStudy",
+      "code": "FP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "General Engineering , programStudy",
+      "code": "GEP",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Geography , programStudy",
+      "code": "GP",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Geosciences , programStudy",
+      "code": "GP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "German , programStudy",
+      "code": "GP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Graphic Design , programStudy",
+      "code": "GDP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "History , programStudy",
+      "code": "HP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "History and Social Sciences Education , programStudy",
+      "code": "HASS",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Human Development , programStudy",
+      "code": "HDP",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Humanities for Public Service , programStudy",
+      "code": "HFPS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Industrial Design , programStudy",
+      "code": "IDP",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Industrial and Systems Engineering , programStudy",
+      "code": "IASE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Integrated Agriculture Technologies , programStudy",
+      "code": "IATP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Interior Design , programStudy",
+      "code": "IDP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "International Relations , programStudy",
+      "code": "IRP",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "International Studies , programStudy",
+      "code": "ISP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "International Trade and Development , programStudy",
+      "code": "ITAD",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Landscape Architecture , programStudy",
+      "code": "LAP",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Landscape Design and Turfgrass Science , programStudy",
+      "code": "LDAT",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Management , programStudy",
+      "code": "MP",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Management Consulting and Analytics , programStudy",
+      "code": "MCAA",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Materials Science and Engineering , programStudy",
+      "code": "MSAE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mathematics , programStudy",
+      "code": "MP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mathematics Education , programStudy",
+      "code": "MEP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mechanical Engineering , programStudy",
+      "code": "MEP",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Medicinal Chemistry , programStudy",
+      "code": "MCP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Meteorology , programStudy",
+      "code": "MP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Microbiology , programStudy",
+      "code": "MP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mining Engineering , programStudy",
+      "code": "MEP",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Multimedia Journalism , programStudy",
+      "code": "MJP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music , programStudy",
+      "code": "MP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Nanomedicine , programStudy",
+      "code": "NP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Nanoscience , programStudy",
+      "code": "NP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "National Security and Foreign Affairs , programStudy",
+      "code": "NSAF",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Neuroscience , programStudy",
+      "code": "NP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Nutrition and Dietetics , programStudy",
+      "code": "NADP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Ocean Engineering , programStudy",
+      "code": "OEP",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Packaging Systems and Design , programStudy",
+      "code": "PSAD",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Philosophy , programStudy",
+      "code": "PP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Philosophy, Politics, and Economics , programStudy",
+      "code": "PPAE",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Physics , programStudy",
+      "code": "PP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Plant Science , programStudy",
+      "code": "PSP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Political Science , programStudy",
+      "code": "PSP",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Polymer Chemistry , programStudy",
+      "code": "PCP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Pre-Health Professions , programStudy",
+      "code": "PHPP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Accounting and Business Analysis , programStudy",
+      "code": "PIAA",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Accounting and Information Systems , programStudy",
+      "code": "PIAA",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Advertising , programStudy",
+      "code": "PIAP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Aerospace Engineering , programStudy",
+      "code": "PIAE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Agribusiness , programStudy",
+      "code": "PIAP",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Agricultural Technology",
+      "code": "PIAT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Agriculture and Extension Education , programStudy",
+      "code": "PIAA",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Animal and Poultry Sciences , programStudy",
+      "code": "PIAA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Arabic , programStudy",
+      "code": "PIAP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Architecture , programStudy",
+      "code": "PIAP",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Art History , programStudy",
+      "code": "PIAH",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Biochemistry , programStudy",
+      "code": "PIBP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Biological Sciences",
+      "code": "PIBS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Biological Systems Engineering , programStudy",
+      "code": "PIBS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Biomedical Engineering , programStudy",
+      "code": "PIBE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Building Construction , programStudy",
+      "code": "PIBC",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Business",
+      "code": "PIB",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Business Information Technology , programStudy",
+      "code": "PIBI",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Career and Technical Education , programStudy",
+      "code": "PICA",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Career and Technical Education - Agriculture Education , programStudy",
+      "code": "PICA",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Chemical Engineering , programStudy",
+      "code": "PICE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Chemistry , programStudy",
+      "code": "PICP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Cinema , programStudy",
+      "code": "PICP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Civil Engineering , programStudy",
+      "code": "PICE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Classical Studies , programStudy",
+      "code": "PICS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Clinical Neuroscience , programStudy",
+      "code": "PICN",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Cognitive and Behavioral Neuroscience , programStudy",
+      "code": "PICA",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Communication , programStudy",
+      "code": "PICP",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Community Economic Development , programStudy",
+      "code": "PICE",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Community and Leadership Development , programStudy",
+      "code": "PICA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Computational Modeling and Data Analytics , programStudy",
+      "code": "PICM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Computational and Systems Neuroscience , programStudy",
+      "code": "PICA",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Computer Engineering , programStudy",
+      "code": "PICE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Computer Science , programStudy",
+      "code": "PICS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Consumer Studies , programStudy",
+      "code": "PICS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Creative Technologies , programStudy",
+      "code": "PICT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Creative Writing , programStudy",
+      "code": "PICW",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Criminology , programStudy",
+      "code": "PICP",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Crop and Soil Sciences , programStudy",
+      "code": "PICA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Dairy Science , programStudy",
+      "code": "PIDS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Early Childhood Development and Education , programStudy",
+      "code": "PIEC",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Ecological Restoration , programStudy",
+      "code": "PIER",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Economics , programStudy",
+      "code": "PIEP",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Electrical Engineering , programStudy",
+      "code": "PIEE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Elementary Education",
+      "code": "PIEE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Engineering Science and Mechanics , programStudy",
+      "code": "PIES",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item English , programStudy",
+      "code": "PIEP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item English Language Arts Education , programStudy",
+      "code": "PIEL",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Environment, Development, and Global Economy , programStudy",
+      "code": "PIED",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Environmental Conservation and Society , programStudy",
+      "code": "PIEC",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Environmental Data Science , programStudy",
+      "code": "PIED",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Environmental Horticulture , programStudy",
+      "code": "PIEH",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Environmental Policy and Planning , programStudy",
+      "code": "PIEP",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Environmental Science , programStudy",
+      "code": "PIES",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Exercise & Health Sciences , programStudy",
+      "code": "PIE",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Explore Liberal Arts and Human Sciences",
+      "code": "PIEL",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Explore Science",
+      "code": "PIES",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Exploring Architecture, Arts, and Design",
+      "code": "PIEA",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Exploring Life Sciences",
+      "code": "PIEL",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Exploring Natural Resources",
+      "code": "PIEN",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Fashion Merchandising and Design , programStudy",
+      "code": "PIFM",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item FinTech and Big Data Analytics , programStudy",
+      "code": "PIFA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Finance , programStudy",
+      "code": "PIFP",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Fish Conservation , programStudy",
+      "code": "PIFC",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Food Science and Technology , programStudy",
+      "code": "PIFS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Food and Health Systems Economics , programStudy",
+      "code": "PIFA",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Forestry , programStudy",
+      "code": "PIFP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item French , programStudy",
+      "code": "PIFP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item General Engineering , programStudy",
+      "code": "PIGE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Geography , programStudy",
+      "code": "PIGP",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Geosciences , programStudy",
+      "code": "PIGP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item German , programStudy",
+      "code": "PIGP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Graphic Design , programStudy",
+      "code": "PIGD",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item History , programStudy",
+      "code": "PIHP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item History and Social Sciences Education , programStudy",
+      "code": "PIHA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Human Development , programStudy",
+      "code": "PIHD",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Humanities for Public Service , programStudy",
+      "code": "PIHF",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Industrial Design , programStudy",
+      "code": "PIID",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Industrial and Systems Engineering , programStudy",
+      "code": "PIIA",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Integrated Agriculture Technologies , programStudy",
+      "code": "PIIA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Interior Design , programStudy",
+      "code": "PIID",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item International Relations , programStudy",
+      "code": "PIIR",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item International Studies , programStudy",
+      "code": "PIIS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item International Trade and Development , programStudy",
+      "code": "PIIT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Landscape Architecture , programStudy",
+      "code": "PILA",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Landscape Design and Turfgrass Science , programStudy",
+      "code": "PILD",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Mechanical Engineering , programStudy",
+      "code": "PIME",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Medicinal Chemistry , programStudy",
+      "code": "PIMC",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Meteorology , programStudy",
+      "code": "PIMP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Microbiology , programStudy",
+      "code": "PIMP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Mining Engineering , programStudy",
+      "code": "PIME",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Multimedia Journalism , programStudy",
+      "code": "PIMJ",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Music , programStudy",
+      "code": "PIMP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Nanomedicine , programStudy",
+      "code": "PINP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Nanoscience , programStudy",
+      "code": "PINP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item National Security and Foreign Affairs , programStudy",
+      "code": "PINS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Neuroscience , programStudy",
+      "code": "PINP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Nutrition and Dietetics , programStudy",
+      "code": "PINA",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Ocean Engineering , programStudy",
+      "code": "PIOE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Packaging Systems and Design , programStudy",
+      "code": "PIPS",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Philosophy , programStudy",
+      "code": "PIPP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Philosophy, Politics, and Economics , programStudy",
+      "code": "PIPP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Physics , programStudy",
+      "code": "PIPP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Plant Science , programStudy",
+      "code": "PIPS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Political Science , programStudy",
+      "code": "PIPS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Polymer Chemistry , programStudy",
+      "code": "PIPC",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Pre-Health Professions , programStudy",
+      "code": "PIPH",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Psychology , programStudy",
+      "code": "PIPP",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Public Health , programStudy",
+      "code": "PIPH",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Public Relations , programStudy",
+      "code": "PIPR",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Real Estate for Commercial Properties , programStudy",
+      "code": "PIRE",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Real Estate for Residential Properties , programStudy",
+      "code": "PIRE",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Religion and Culture , programStudy",
+      "code": "PIRA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Residential Environments and Design , programStudy",
+      "code": "PIRE",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Russian , programStudy",
+      "code": "PIRP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Smart and Sustainable Cities , programStudy",
+      "code": "PISA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Sociology , programStudy",
+      "code": "PISP",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Spanish , programStudy",
+      "code": "PISP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Sports Media and Analytics , programStudy",
+      "code": "PISM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Statistics , programStudy",
+      "code": "PISP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Studio Art , programStudy",
+      "code": "PISA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Sustainable Biomaterials , programStudy",
+      "code": "PISB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Systems Biology , programStudy",
+      "code": "PISB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Technical and Scientific Communication , programStudy",
+      "code": "PITA",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Technology Education , programStudy",
+      "code": "PITE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Theatre Arts , programStudy",
+      "code": "PITA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item University Studies",
+      "code": "PIUS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "ProgramStudy Item Wildlife Conservation , programStudy",
+      "code": "PIWC",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Psychology , programStudy",
+      "code": "PP",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Public Health , programStudy",
+      "code": "PHP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Public Relations , programStudy",
+      "code": "PRP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Real Estate for Commercial Properties , programStudy",
+      "code": "REFC",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Real Estate for Residential Properties , programStudy",
+      "code": "REFR",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Religion and Culture , programStudy",
+      "code": "RACP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Residential Environments and Design , programStudy",
+      "code": "READ",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Russian , programStudy",
+      "code": "RP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Smart and Sustainable Cities , programStudy",
+      "code": "SASC",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Sociology , programStudy",
+      "code": "SP",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Spanish , programStudy",
+      "code": "SP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Sports Media and Analytics , programStudy",
+      "code": "SMAA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Statistics , programStudy",
+      "code": "SP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Studio Art , programStudy",
+      "code": "SAP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Sustainable Biomaterials , programStudy",
+      "code": "SBP",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Sustainable Systems Science (S3) , programStudy",
+      "code": "SSSS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Systems Biology , programStudy",
+      "code": "SBP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Technical and Scientific Communication , programStudy",
+      "code": "TASC",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Technology Education , programStudy",
+      "code": "TEP",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Theatre Arts , programStudy",
+      "code": "TAP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "University Studies (undecided) , programStudy",
+      "code": "USUP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Wildlife Conservation , programStudy",
+      "code": "WCP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "click here",
+      "code": "CH",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    }
+  ]
 }

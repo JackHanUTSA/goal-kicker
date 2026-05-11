@@ -1,33 +1,160 @@
 {
   "university": "Oregon State University",
   "slug": "oregon-state",
-  "retrieved_at": "2026-05-09",
-  "mode": "majors-list",
+  "academic_year": "Structured majors inventory",
+  "retrieved_at": "2026-05-10",
+  "mode": "mapped-majors",
   "source_url": "https://oregonstate.edu/academics",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
-  "summary": {
-    "majors_count": 200,
-    "titles_count": 16,
-    "count_method": "explicit official page sentence",
-    "confidence": "medium"
-  },
-  "titles": [
-    "Liberal Studies",
-    "Aging Studies",
-    "Climate Change Solutions",
-    "Cybersecurity",
-    "Design for Social Impact",
-    "Environmental Justice",
-    "Food in Culture and Social Justice",
-    "Geographic Information Science (GIScience)",
-    "Global Learning",
-    "Horticultural Therapy",
-    "Humanitarian Engineering",
-    "Medical Humanities",
-    "Organizational Leadership",
-    "Women, Gender, and Sexuality Studies",
-    "Undergraduate Degrees & Courses Undergraduate Degrees",
-    "Honors Degree"
+  "source_urls": [
+    "https://oregonstate.edu/academics",
+    "https://oregonstate.edu/majors",
+    "https://ecampus.oregonstate.edu/online-degrees/topics/",
+    "https://www.oregonstate.edu"
   ],
-  "notes": "explicit official page sentence; titles extracted from official page: https://ecampus.oregonstate.edu/online-degrees/topics/"
+  "chart_title": "Undergraduate majors map — structured inventory",
+  "major_count_label": "16 mapped majors",
+  "total_label": "equal-weight bubbles",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. To keep the majors panel visually consistent with MIT, each official undergraduate major title is mapped into a broad discipline bucket and rendered as an equal-weight bubble. Bubble size here does not indicate enrollment.",
+  "summary_note": "16 mapped majors · equal-weight bubbles · official count page says 200 majors",
+  "legend_order": [
+    "Engineering",
+    "Social Sciences",
+    "Humanities & Arts",
+    "Interdisciplinary Programs"
+  ],
+  "totals": {
+    "mapped_major_titles": 16,
+    "official_major_count": 200
+  },
+  "notes": "explicit official page sentence explicit official page sentence; titles extracted from official page: https://ecampus.oregonstate.edu/online-degrees/topics/ Confidence: medium.",
+  "majors": [
+    {
+      "name": "Aging Studies",
+      "code": "AS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Climate Change Solutions",
+      "code": "CCS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Cybersecurity",
+      "code": "Cybe",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Design for Social Impact",
+      "code": "DFSI",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Justice",
+      "code": "EJ",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Food in Culture and Social Justice",
+      "code": "FICA",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Geographic Information Science",
+      "code": "GIS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Global Learning",
+      "code": "GL",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Honors Degree",
+      "code": "HD",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Horticultural Therapy",
+      "code": "HT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Humanitarian Engineering",
+      "code": "HE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Liberal Studies",
+      "code": "LS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Medical Humanities",
+      "code": "MH",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Organizational Leadership",
+      "code": "OL",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Undergraduate Degrees & Courses Undergraduate Degrees",
+      "code": "UDC",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Women, Gender, and Sexuality Studies",
+      "code": "WGAS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    }
+  ]
 }

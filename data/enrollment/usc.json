@@ -1,23 +1,78 @@
 {
   "university": "University of Southern California",
   "slug": "usc",
-  "retrieved_at": "2026-05-09",
-  "mode": "majors-list",
+  "academic_year": "Structured majors inventory",
+  "retrieved_at": "2026-05-10",
+  "mode": "mapped-majors",
   "source_url": "https://admission.usc.edu/learn/academic-life/",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
-  "summary": {
-    "majors_count": 6,
-    "titles_count": 6,
-    "count_method": "counted extracted undergraduate-major titles from an official page",
-    "confidence": "low"
-  },
-  "titles": [
-    "Dornsife College of Letters, Arts and Sciences",
-    "Iovine and Young Academy for Arts, Technology and the Business of Innovation",
-    "USC School of Architecture",
-    "Roski School of Art and Design",
-    "USC School of Dramatic Arts",
-    "Marshall School of Business (World Bachelor in Business)"
+  "source_urls": [
+    "https://admission.usc.edu/learn/academic-life/",
+    "https://admission.usc.edu/prospective-students/how-to-apply/first-year-students/",
+    "https://www.usc.edu"
   ],
-  "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass; titles extracted from official page: https://admission.usc.edu/prospective-students/how-to-apply/first-year-students/"
+  "chart_title": "Undergraduate majors map — structured inventory",
+  "major_count_label": "6 mapped majors",
+  "total_label": "equal-weight bubbles",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. To keep the majors panel visually consistent with MIT, each official undergraduate major title is mapped into a broad discipline bucket and rendered as an equal-weight bubble. Bubble size here does not indicate enrollment.",
+  "summary_note": "6 mapped majors · equal-weight bubbles · official count page says 6 majors",
+  "legend_order": [
+    "Architecture and Planning",
+    "Humanities & Arts",
+    "Sloan School of Management"
+  ],
+  "totals": {
+    "mapped_major_titles": 6,
+    "official_major_count": 6
+  },
+  "notes": "counted extracted undergraduate-major titles from an official page auto-enrichment could not derive a reliable major/program count from the pages reached in this pass; titles extracted from official page: https://admission.usc.edu/prospective-students/how-to-apply/first-year-students/ Confidence: low.",
+  "majors": [
+    {
+      "name": "Dornsife College of Letters, Arts and Sciences",
+      "code": "DCOL",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Iovine and Young Academy for Arts, Technology and the Business of Innovation",
+      "code": "IAYA",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Marshall School of Business",
+      "code": "MSOB",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Roski School of Art and Design",
+      "code": "RSOA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "USC School of Architecture",
+      "code": "USOA",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "USC School of Dramatic Arts",
+      "code": "USOD",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    }
+  ]
 }

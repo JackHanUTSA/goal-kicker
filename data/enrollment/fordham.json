@@ -1,26 +1,94 @@
 {
   "university": "Fordham University",
   "slug": "fordham",
-  "retrieved_at": "2026-05-09",
-  "mode": "majors-list",
+  "academic_year": "Structured majors inventory",
+  "retrieved_at": "2026-05-10",
+  "mode": "mapped-majors",
   "source_url": "https://www.fordham.edu/academic-programs",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
-  "summary": {
-    "majors_count": 36,
-    "titles_count": 9,
-    "count_method": "counted 36 unique major/program-like entries from the cited official page DOM",
-    "confidence": "medium"
-  },
-  "titles": [
-    "8 schools. 3 campuses.",
-    "The Jesuit Tradition",
-    "Colleges and Schools",
-    "Undergraduate Education",
-    "core curriculum",
-    "major",
-    "Undergraduate Schools",
-    "Core Curriculum",
-    "Virtual Tour"
+  "source_urls": [
+    "https://www.fordham.edu/academic-programs",
+    "https://www.fordham.edu/academics/",
+    "https://www.fordham.edu/majors",
+    "https://www.fordham.edu"
   ],
-  "notes": "counted 36 unique major/program-like entries from the cited official page DOM; titles extracted from official page: https://www.fordham.edu/academics/"
+  "chart_title": "Undergraduate majors map — structured inventory",
+  "major_count_label": "8 mapped majors",
+  "total_label": "equal-weight bubbles",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. To keep the majors panel visually consistent with MIT, each official undergraduate major title is mapped into a broad discipline bucket and rendered as an equal-weight bubble. Bubble size here does not indicate enrollment.",
+  "summary_note": "8 mapped majors · equal-weight bubbles · official count page says 36 majors",
+  "legend_order": [
+    "Social Sciences",
+    "Interdisciplinary Programs"
+  ],
+  "totals": {
+    "mapped_major_titles": 8,
+    "official_major_count": 36
+  },
+  "notes": "counted 36 unique major/program-like entries from the cited official page DOM counted 36 unique major/program-like entries from the cited official page DOM; titles extracted from official page: https://www.fordham.edu/academics/ Confidence: medium.",
+  "majors": [
+    {
+      "name": "8 schools. 3 campuses.",
+      "code": "8S3C",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Colleges and Schools",
+      "code": "CAS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "The Jesuit Tradition",
+      "code": "TJT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Undergraduate Education",
+      "code": "UE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Undergraduate Schools",
+      "code": "US",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Virtual Tour",
+      "code": "VT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "core curriculum",
+      "code": "CC",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "major",
+      "code": "major",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    }
+  ]
 }

@@ -1,26 +1,102 @@
 {
   "university": "Yeshiva University",
   "slug": "yeshiva",
-  "retrieved_at": "2026-05-09",
-  "mode": "majors-list",
+  "academic_year": "Structured majors inventory",
+  "retrieved_at": "2026-05-10",
+  "mode": "mapped-majors",
   "source_url": "https://www.yu.edu/academics",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
-  "summary": {
-    "majors_count": 32,
-    "titles_count": 9,
-    "count_method": "counted 32 unique major/program-like entries from the cited official page DOM",
-    "confidence": "medium"
-  },
-  "titles": [
-    "BA/MA Program: Stern College for Women/Yeshiva College",
-    "Two-Year Teacher Program",
-    "BA/MA Program: Stern College for Women/Yeshiva College (One Year)",
-    "Azrieli-GPATS Joint Program",
-    "PELE Chinuch Fellowship",
-    "Mid-Career Fellowship Program",
-    "Wurzweiler in Israel",
-    "Life",
-    "Start an Application"
+  "source_urls": [
+    "https://www.yu.edu/academics",
+    "https://www.yu.edu/majors",
+    "https://www.yu.edu/graduate",
+    "https://www.yu.edu"
   ],
-  "notes": "counted 32 unique major/program-like entries from the cited official page DOM; titles extracted from official page: https://www.yu.edu/graduate"
+  "chart_title": "Undergraduate majors map — structured inventory",
+  "major_count_label": "9 mapped majors",
+  "total_label": "equal-weight bubbles",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. To keep the majors panel visually consistent with MIT, each official undergraduate major title is mapped into a broad discipline bucket and rendered as an equal-weight bubble. Bubble size here does not indicate enrollment.",
+  "summary_note": "9 mapped majors · equal-weight bubbles · official count page says 32 majors",
+  "legend_order": [
+    "Humanities & Arts",
+    "Interdisciplinary Programs"
+  ],
+  "totals": {
+    "mapped_major_titles": 9,
+    "official_major_count": 32
+  },
+  "notes": "counted 32 unique major/program-like entries from the cited official page DOM counted 32 unique major/program-like entries from the cited official page DOM; titles extracted from official page: https://www.yu.edu/graduate Confidence: medium.",
+  "majors": [
+    {
+      "name": "Azrieli-GPATS Joint Program",
+      "code": "AGJP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "BA/MA Program: Stern College for Women/Yeshiva College",
+      "code": "BMPS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "BA/MA Program: Stern College for Women/Yeshiva College (One Year)",
+      "code": "BMPS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Life",
+      "code": "Life",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mid-Career Fellowship Program",
+      "code": "MCFP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "PELE Chinuch Fellowship",
+      "code": "PCF",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Start an Application",
+      "code": "SAA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Two-Year Teacher Program",
+      "code": "TYTP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Wurzweiler in Israel",
+      "code": "WII",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    }
+  ]
 }

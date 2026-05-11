@@ -1,253 +1,1867 @@
 {
   "university": "Auburn University",
   "slug": "auburn",
-  "retrieved_at": "2026-05-09",
-  "mode": "majors-list",
+  "academic_year": "Structured majors inventory",
+  "retrieved_at": "2026-05-10",
+  "mode": "mapped-majors",
   "source_url": "https://bulletin.auburn.edu/undergraduate/majors/",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
-  "summary": {
-    "majors_count": 236,
-    "titles_count": 236,
-    "count_method": "counted extracted undergraduate-major titles from an official page",
-    "confidence": "low"
-  },
-  "titles": [
-    "Agricultural Business & Economics",
-    "Agricultural Communications",
-    "Agricultural Science",
-    "Animal Sciences — Animal Industries Option",
-    "Animal Sciences — Pre-Veterinary & Animal Biosciences Option",
-    "Applied Biotechnology– BS",
-    "Crop and Soil Sciences",
-    "Crop and Soil Sciences — Turfgrass Option",
-    "Environmental Science",
-    "Fisheries, Aquaculture, and Aquatic Sciences — Fisheries and Aquaculture Option",
-    "Fisheries, Aquaculture, and Aquatic Sciences — Pre-Professional Option",
-    "Horticulture — Fruit and Vegetable Production Track",
-    "Horticulture — Landscape Horticulture Track",
-    "Horticulture — Nursery and Greenhouse Science Track",
-    "Horticulture — Pre-Landscape Architecture Track",
-    "Poultry Science — Production Option",
-    "Poultry Science — Pre-Veterinary Medicine Option",
-    "Architecture Architecture",
-    "Architecture",
-    "Building Science",
-    "Environmental Design",
-    "Environmental Design — Pre-Landscape Architecture",
-    "Graphic Design",
-    "Accountancy — On-Campus Option for First Degree Candidates",
-    "Accountancy — Online Option for Second Degree Candidates",
-    "Business Administration — On-Campus Option",
-    "Business Administration — Online Degree Completer Program",
-    "Business Analytics",
-    "Finance",
-    "Management",
-    "Marketing",
-    "Agriscience Education",
-    "Chemistry Education",
-    "Collaborative Teacher Special Education: K–12",
-    "Early Childhood Education",
-    "Early Childhood/Elementary Special Education: P–6",
-    "Elementary Education",
-    "English Language Arts Education/English",
-    "Exercise, Performance, & Health Optimization",
-    "Exercise Science",
-    "French Education",
-    "General Science Education",
-    "General Social Science Education/History",
-    "German Education",
-    "Mathematics Education",
-    "Physics Education",
-    "Rehabilitation and Disability Studies",
-    "Spanish Education –BS",
-    "Computer Science",
-    "Forestry",
-    "Geospatial Information Science",
-    "Sustainable Packaging",
-    "Wildlife Sciences — Pre-Veterinary Medicine",
-    "Global Studies in Human Sciences",
-    "Human Development and Family Science",
-    "Human Development and Family Science — Child Life Option",
-    "Human Development and Family Science — Early Child Development",
-    "Interior Design",
-    "Nutrition — Nutrition/Dietetics Option",
-    "Nutrition — Nutrition Science Option",
-    "Nutrition — Nutrition Wellness Option",
-    "Philanthropy and Non-Profit Studies",
-    "Anthropology",
-    "Art History Option",
-    "Art Studio/Fine Arts",
-    "Communication",
-    "Economics — Primary Track",
-    "Economics — Quantitative Track",
-    "English — Creative Writing Option",
-    "English — Literature Option",
-    "English — Professional and Public Writing Option",
-    "Film and Media Studies",
-    "Film and Media Studies — Film Option",
-    "French",
-    "French — International Trade Option",
-    "German",
-    "German — International Trade Option",
-    "Health Services Administration",
-    "History– BA",
-    "International Studies",
-    "Journalism",
-    "Journalism — Sports Production Option",
-    "Law and Justice",
-    "Music",
-    "Neuroscience",
-    "Philosophy",
-    "Political Science",
-    "Professional Flight",
-    "Psychology",
-    "Public Administration",
-    "Public Relations",
-    "Social Work",
-    "Sociology",
-    "Spanish",
-    "Spanish — International Trade Option",
-    "Speech, Language, and Hearing Sciences",
-    "Theatre",
-    "Theatre/Fine Arts — Design/Technology Track",
-    "Theatre/Fine Arts — Music Theatre Track",
-    "Theatre/Fine Arts — Performance Track",
-    "Nursing — Traditional",
-    "Drug and Biopharmaceutical Sciences",
-    "Pre-Pharmacy",
-    "Pre-Medicine, Pre-Dental, Pre-Optometry",
-    "Pre-Anesthesiologist Assistant",
-    "Health Sciences, Pre-Physical Therapy, Pre-Physician Assistant",
-    "Chemistry",
-    "Biochemistry Option",
-    "Genetics",
-    "Pre-Veterinary Medicine",
-    "Geography and Environmental Studies",
-    "Geology –BS Geology — Earth System Science Option",
-    "Geology — Earth System Science Option",
-    "Laboratory Science",
-    "Laboratory Science - Histotechnology Track",
-    "Laboratory Science — Pre-Medicine",
-    "Laboratory Science — Pre-Physician Assistant",
-    "Marine Biology",
-    "Mathematics",
-    "Medical Laboratory Science",
-    "Pre-Medical, Pre-Dental, Pre-Optometry",
-    "Pre-Physical Therapy, Pre-Physician Assistant",
-    "Microbial, Cellular and Molecular Biology — Microbiology Option",
-    "Microbial, Cellular and Molecular Biology — Cell & Molecular Biology Option",
-    "Organismal Biology — Conservation & Biodiversity Option",
-    "Organismal Biology — Ecology, Evolution & Behavior Option",
-    "Organismal Biology — Integrative Biology Option",
-    "Physics",
-    "Public and One Health",
-    "Interdisciplinary University Studies",
-    "Chemistry, BA",
-    "Chemistry, BA — Forensics Track",
-    "Chemistry, BA — Concentrations in Pre-Medicine, Pre-Dental, Pre-Optometry",
-    "Chemistry, BS",
-    "Nursing — RN",
-    "Raymond J. Harbert College of Business",
-    "Samuel Ginn College of Engineering",
-    "University College",
-    "Biosystems Engineering – BBSE",
-    "Biosystems Engineering — Bioprocess Engineering Option – BBSE",
-    "Biosystems Engineering — Ecological Engineering Option – BBSE",
-    "Biosystems Engineering — Forest Engineering Option – BBSE",
-    "Architecture (Foundation Unit)",
-    "Architecture (Summer Design)",
-    "Industrial Design – BIND",
-    "Architecture/Interior Architecture (Foundation Unit) – BIARCH",
-    "Architecture/Interior Architecture (Summer Design) – BIARCH",
-    "Landscape Architecture – BLA",
-    "Music Education: Instrumental and Vocal – BMED",
-    "Science Teaching",
-    "Aerospace Engineering – BAE",
-    "Chemical Engineering – BCHE",
-    "Civil Engineering – BCE",
-    "Computer Engineering – BCPE",
-    "Computer Science — Online Degree Completer Program – BCS",
-    "Electrical Engineering – BEE",
-    "Industrial and Systems Engineering – BISE",
-    "Materials Engineering – BMTLE",
-    "Mechanical Engineering – BME",
-    "Software Engineering – BSWE",
-    "Forest Engineering Option – BBSE",
-    "Nutrition — Nutrition Science Option (pre-professional)",
-    "Music: Commercial Music track – BMU",
-    "Music: Composition (Technology) track – BMU",
-    "Music: Instrumental track – BMU",
-    "Music: Piano track – BMU",
-    "Music: Voice track – BMU",
-    "Chemistry (BA) — Forensics Track",
-    "Geology –BS",
-    "Accountancy",
-    "Actuarial Science",
-    "Aerospace Engineering",
-    "Applied Biotechnology",
-    "Architecture/Interior Architecture (Foundation Unit)",
-    "Architecture/Interior Architecture (Summer Design)",
-    "Art History",
-    "Biochemistry",
-    "Biomedical Sciences",
-    "Interdisciplinary Health Sciences",
-    "Biosystems Engineering",
-    "Biosystems Engineering (Bioprocess Engineering option)",
-    "Biosystems Engineering (Ecological Engineering option)",
-    "Biosystems Engineering (Forest Engineering option)",
-    "Business Administration/Business Administration Online Degree Completer Program",
-    "Chemical Engineering",
-    "Forensics Track",
-    "Civil Engineering",
-    "Collaborative Teacher Education",
-    "Computer Engineering",
-    "Computer Science (Online",
-    "Crop and Soil Sciences — Turfgrass Track",
-    "​ Back to top",
-    "Early Childhood Special Education",
-    "Electrical Engineering",
-    "English — Creative Writing",
-    "English — Literature",
-    "English — Professional Writing and Literacy Studies",
-    "Exercise, Performance & Health Optimization",
-    "French International Trade",
-    "General Science Education — Geology/Education System",
-    "Geology",
-    "German International Trade",
-    "History",
-    "Horticulture — Fruit and Vegetable Production Emphasis",
-    "Horticulture — Landscape Horticulture Emphasis",
-    "Horticulture — Nursery and Greenhouse Science Emphasis",
-    "Horticulture — Pre-Landscape Architecture Emphasis",
-    "Human Development and Family Studies",
-    "Human Development and Family Studies — Child Life Option",
-    "Human Development and Family Studies — Child Development Option",
-    "Industrial Design",
-    "Industrial and Systems Engineering",
-    "Landscape Architecture",
-    "Materials Engineering",
-    "Mechanical Engineering",
-    "Microbial, Cellular and Molecular Biology — Microbiology Option (MCMB)",
-    "Microbial, Cellular and Molecular Biology — Cell & Molecular Biology Option (MCCM)",
-    "Pre-Veterinary",
-    "Music Education: Instrumental and Vocal",
-    "Music Theater",
-    "Music: Commercial Music track",
-    "Music: Composition (Technology) track",
-    "Music: Instrumental track",
-    "Music: Piano track",
-    "Music: Voice track",
-    "Pre-Health Professional Curricula",
-    "Pre-Veterinary Medicine/Wildlife Sciences",
-    "Software Engineering",
-    "Spanish Education",
-    "Spanish International Trade",
-    "Sustainable Biomaterials and Packaging",
-    "Theatre — Design / Technology",
-    "Theatre — Music Theatre",
-    "Theatre — Performance",
-    "Veterinary Medicine",
-    "Wildlife Sciences, Pre-Veterinary Medicine Concentration"
+  "source_urls": [
+    "https://bulletin.auburn.edu/undergraduate/majors/",
+    "https://www.auburn.edu/academic-programs",
+    "https://www.auburn.edu/academics",
+    "https://www.auburn.edu"
   ],
-  "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass; titles extracted from official page: https://bulletin.auburn.edu/undergraduate/majors/"
+  "chart_title": "Undergraduate majors map — structured inventory",
+  "major_count_label": "229 mapped majors",
+  "total_label": "equal-weight bubbles",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. To keep the majors panel visually consistent with MIT, each official undergraduate major title is mapped into a broad discipline bucket and rendered as an equal-weight bubble. Bubble size here does not indicate enrollment.",
+  "summary_note": "229 mapped majors · equal-weight bubbles · official count page says 236 majors",
+  "legend_order": [
+    "Architecture and Planning",
+    "Engineering",
+    "Science",
+    "Social Sciences",
+    "Humanities & Arts",
+    "Sloan School of Management",
+    "Interdisciplinary Programs"
+  ],
+  "totals": {
+    "mapped_major_titles": 229,
+    "official_major_count": 236
+  },
+  "notes": "counted extracted undergraduate-major titles from an official page auto-enrichment could not derive a reliable major/program count from the pages reached in this pass; titles extracted from official page: https://bulletin.auburn.edu/undergraduate/majors/ Confidence: low.",
+  "majors": [
+    {
+      "name": "Accountancy",
+      "code": "Acco",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Accountancy — On-Campus Option for First Degree Candidates",
+      "code": "AOCO",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Accountancy — Online Option for Second Degree Candidates",
+      "code": "AOOF",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Actuarial Science",
+      "code": "AS",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Aerospace Engineering",
+      "code": "AE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Aerospace Engineering – BAE",
+      "code": "AEB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Agricultural Business & Economics",
+      "code": "ABE",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Agricultural Communications",
+      "code": "AC",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Agricultural Science",
+      "code": "AS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Agriscience Education",
+      "code": "AE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Animal Sciences — Animal Industries Option",
+      "code": "ASAI",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Animal Sciences — Pre-Veterinary & Animal Biosciences Option",
+      "code": "ASPV",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Anthropology",
+      "code": "Anth",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Applied Biotechnology",
+      "code": "AB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Applied Biotechnology– BS",
+      "code": "ABB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Architecture",
+      "code": "Arch",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Architecture (Foundation Unit)",
+      "code": "AFU",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Architecture (Summer Design)",
+      "code": "ASD",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Architecture Architecture",
+      "code": "AA",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Architecture/Interior Architecture (Foundation Unit)",
+      "code": "AIAF",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Architecture/Interior Architecture (Foundation Unit) – BIARCH",
+      "code": "AIAF",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Architecture/Interior Architecture (Summer Design)",
+      "code": "AIAS",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Architecture/Interior Architecture (Summer Design) – BIARCH",
+      "code": "AIAS",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Art History",
+      "code": "AH",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Art History Option",
+      "code": "AHO",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Art Studio/Fine Arts",
+      "code": "ASFA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biochemistry",
+      "code": "Bioc",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biochemistry Option",
+      "code": "BO",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biomedical Sciences",
+      "code": "BS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biosystems Engineering",
+      "code": "BE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biosystems Engineering – BBSE",
+      "code": "BEB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biosystems Engineering — Bioprocess Engineering Option – BBSE",
+      "code": "BEBE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biosystems Engineering — Ecological Engineering Option – BBSE",
+      "code": "BEEE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biosystems Engineering — Forest Engineering Option – BBSE",
+      "code": "BEFE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Building Science",
+      "code": "BS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Business Administration — On-Campus Option",
+      "code": "BAOC",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Business Administration — Online Degree Completer Program",
+      "code": "BAOD",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Business Administration/Business Administration Online Degree Completer Program",
+      "code": "BABA",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Business Analytics",
+      "code": "BA",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemical Engineering",
+      "code": "CE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemical Engineering – BCHE",
+      "code": "CEB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemistry",
+      "code": "Chem",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemistry (BA) — Forensics Track",
+      "code": "CBFT",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemistry Education",
+      "code": "CE",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemistry, BA — Concentrations in Pre-Medicine, Pre-Dental, Pre-Optometry",
+      "code": "CBCI",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemistry, BA — Forensics Track",
+      "code": "CBFT",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Civil Engineering",
+      "code": "CE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Civil Engineering – BCE",
+      "code": "CEB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Collaborative Teacher Education",
+      "code": "CTE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Collaborative Teacher Special Education: K–12",
+      "code": "CTSE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Communication",
+      "code": "Comm",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Engineering",
+      "code": "CE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Engineering – BCPE",
+      "code": "CEB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Science",
+      "code": "CS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Science (Online",
+      "code": "CSO",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Science — Online Degree Completer Program – BCS",
+      "code": "CSOD",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Crop and Soil Sciences",
+      "code": "CASS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Crop and Soil Sciences — Turfgrass Option",
+      "code": "CASS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Crop and Soil Sciences — Turfgrass Track",
+      "code": "CASS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Drug and Biopharmaceutical Sciences",
+      "code": "DABS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Early Childhood Education",
+      "code": "ECE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Early Childhood Special Education",
+      "code": "ECSE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Early Childhood/Elementary Special Education: P–6",
+      "code": "ECES",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Economics — Primary Track",
+      "code": "EPT",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Economics — Quantitative Track",
+      "code": "EQT",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Electrical Engineering",
+      "code": "EE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Electrical Engineering – BEE",
+      "code": "EEB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Elementary Education",
+      "code": "EE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English Language Arts Education/English",
+      "code": "ELAE",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English — Creative Writing",
+      "code": "ECW",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English — Creative Writing Option",
+      "code": "ECWO",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English — Literature",
+      "code": "EL",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English — Literature Option",
+      "code": "ELO",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English — Professional Writing and Literacy Studies",
+      "code": "EPWA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English — Professional and Public Writing Option",
+      "code": "EPAP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Design",
+      "code": "ED",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Design — Pre-Landscape Architecture",
+      "code": "EDPL",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Science",
+      "code": "ES",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Exercise Science",
+      "code": "ES",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Exercise, Performance & Health Optimization",
+      "code": "EPH",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Exercise, Performance, & Health Optimization",
+      "code": "EPH",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Film and Media Studies",
+      "code": "FAMS",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Film and Media Studies — Film Option",
+      "code": "FAMS",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Finance",
+      "code": "Finance",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Fisheries, Aquaculture, and Aquatic Sciences — Fisheries and Aquaculture Option",
+      "code": "FAAA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Fisheries, Aquaculture, and Aquatic Sciences — Pre-Professional Option",
+      "code": "FAAA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Forensics Track",
+      "code": "FT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Forest Engineering Option – BBSE",
+      "code": "FEOB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Forestry",
+      "code": "Forestry",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "French",
+      "code": "French",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "French Education",
+      "code": "FE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "French International Trade",
+      "code": "FIT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "French — International Trade Option",
+      "code": "FITO",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "General Science Education",
+      "code": "GSE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "General Science Education — Geology/Education System",
+      "code": "GSEG",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "General Social Science Education/History",
+      "code": "GSSE",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Genetics",
+      "code": "Genetics",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Geography and Environmental Studies",
+      "code": "GAES",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Geology",
+      "code": "Geology",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Geology –BS",
+      "code": "GB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Geology –BS Geology — Earth System Science Option",
+      "code": "GBGE",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Geology — Earth System Science Option",
+      "code": "GESS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Geospatial Information Science",
+      "code": "GIS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "German",
+      "code": "German",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "German Education",
+      "code": "GE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "German International Trade",
+      "code": "GIT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "German — International Trade Option",
+      "code": "GITO",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Global Studies in Human Sciences",
+      "code": "GSIH",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Graphic Design",
+      "code": "GD",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Health Sciences, Pre-Physical Therapy, Pre-Physician Assistant",
+      "code": "HSPP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Health Services Administration",
+      "code": "HSA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "History",
+      "code": "History",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "History– BA",
+      "code": "HB",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Horticulture — Fruit and Vegetable Production Emphasis",
+      "code": "HFAV",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Horticulture — Fruit and Vegetable Production Track",
+      "code": "HFAV",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Horticulture — Landscape Horticulture Emphasis",
+      "code": "HLHE",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Horticulture — Landscape Horticulture Track",
+      "code": "HLHT",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Horticulture — Nursery and Greenhouse Science Emphasis",
+      "code": "HNAG",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Horticulture — Nursery and Greenhouse Science Track",
+      "code": "HNAG",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Horticulture — Pre-Landscape Architecture Emphasis",
+      "code": "HPLA",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Horticulture — Pre-Landscape Architecture Track",
+      "code": "HPLA",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Human Development and Family Science",
+      "code": "HDAF",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Human Development and Family Science — Child Life Option",
+      "code": "HDAF",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Human Development and Family Science — Early Child Development",
+      "code": "HDAF",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Human Development and Family Studies",
+      "code": "HDAF",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Human Development and Family Studies — Child Development Option",
+      "code": "HDAF",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Human Development and Family Studies — Child Life Option",
+      "code": "HDAF",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Industrial Design",
+      "code": "ID",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Industrial Design – BIND",
+      "code": "IDB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Industrial and Systems Engineering",
+      "code": "IASE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Industrial and Systems Engineering – BISE",
+      "code": "IASE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Interdisciplinary Health Sciences",
+      "code": "IHS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Interdisciplinary University Studies",
+      "code": "IUS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Interior Design",
+      "code": "ID",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "International Studies",
+      "code": "IS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Journalism",
+      "code": "Jour",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Journalism — Sports Production Option",
+      "code": "JSPO",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Laboratory Science",
+      "code": "LS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Laboratory Science - Histotechnology Track",
+      "code": "LSHT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Laboratory Science — Pre-Medicine",
+      "code": "LSPM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Laboratory Science — Pre-Physician Assistant",
+      "code": "LSPP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Landscape Architecture",
+      "code": "LA",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Landscape Architecture – BLA",
+      "code": "LAB",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Law and Justice",
+      "code": "LAJ",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Management",
+      "code": "Mana",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Marine Biology",
+      "code": "MB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Marketing",
+      "code": "Mark",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Materials Engineering",
+      "code": "ME",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Materials Engineering – BMTLE",
+      "code": "MEB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mathematics",
+      "code": "Math",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mathematics Education",
+      "code": "ME",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mechanical Engineering",
+      "code": "ME",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mechanical Engineering – BME",
+      "code": "MEB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Medical Laboratory Science",
+      "code": "MLS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Microbial, Cellular and Molecular Biology — Cell & Molecular Biology Option",
+      "code": "MCAM",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Microbial, Cellular and Molecular Biology — Microbiology Option",
+      "code": "MCAM",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music",
+      "code": "Music",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music Education: Instrumental and Vocal",
+      "code": "MEIA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music Education: Instrumental and Vocal – BMED",
+      "code": "MEIA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music Theater",
+      "code": "MT",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music: Commercial Music track",
+      "code": "MCMT",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music: Commercial Music track – BMU",
+      "code": "MCMT",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music: Composition (Technology) track",
+      "code": "MCTT",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music: Composition (Technology) track – BMU",
+      "code": "MCTT",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music: Instrumental track",
+      "code": "MIT",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music: Instrumental track – BMU",
+      "code": "MITB",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music: Piano track",
+      "code": "MPT",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music: Piano track – BMU",
+      "code": "MPTB",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music: Voice track",
+      "code": "MVT",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music: Voice track – BMU",
+      "code": "MVTB",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Neuroscience",
+      "code": "Neur",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Nursing — RN",
+      "code": "NR",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Nursing — Traditional",
+      "code": "NT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Nutrition — Nutrition Science Option",
+      "code": "NNSO",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Nutrition — Nutrition Science Option (pre-professional)",
+      "code": "NNSO",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Nutrition — Nutrition Wellness Option",
+      "code": "NNWO",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Nutrition — Nutrition/Dietetics Option",
+      "code": "NNDO",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Organismal Biology — Conservation & Biodiversity Option",
+      "code": "OBC",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Organismal Biology — Ecology, Evolution & Behavior Option",
+      "code": "OBEE",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Organismal Biology — Integrative Biology Option",
+      "code": "OBIB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Philanthropy and Non-Profit Studies",
+      "code": "PANP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Philosophy",
+      "code": "Phil",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Physics",
+      "code": "Physics",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Physics Education",
+      "code": "PE",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Political Science",
+      "code": "PS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Poultry Science — Pre-Veterinary Medicine Option",
+      "code": "PSPV",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Poultry Science — Production Option",
+      "code": "PSPO",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Pre-Anesthesiologist Assistant",
+      "code": "PAA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Pre-Health Professional Curricula",
+      "code": "PHPC",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Pre-Medical, Pre-Dental, Pre-Optometry",
+      "code": "PMPD",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Pre-Medicine, Pre-Dental, Pre-Optometry",
+      "code": "PMPD",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Pre-Pharmacy",
+      "code": "PP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Pre-Physical Therapy, Pre-Physician Assistant",
+      "code": "PPTP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Pre-Veterinary",
+      "code": "PV",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Pre-Veterinary Medicine",
+      "code": "PVM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Pre-Veterinary Medicine/Wildlife Sciences",
+      "code": "PVMW",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Professional Flight",
+      "code": "PF",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Psychology",
+      "code": "Psyc",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Public Administration",
+      "code": "PA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Public Relations",
+      "code": "PR",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Public and One Health",
+      "code": "PAOH",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Raymond J. Harbert College of Business",
+      "code": "RJHC",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Rehabilitation and Disability Studies",
+      "code": "RADS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Samuel Ginn College of Engineering",
+      "code": "SGCO",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Science Teaching",
+      "code": "ST",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Social Work",
+      "code": "SW",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Sociology",
+      "code": "Soci",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Software Engineering",
+      "code": "SE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Software Engineering – BSWE",
+      "code": "SEB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Spanish",
+      "code": "Spanish",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Spanish Education",
+      "code": "SE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Spanish Education –BS",
+      "code": "SEB",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Spanish International Trade",
+      "code": "SIT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Spanish — International Trade Option",
+      "code": "SITO",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Speech, Language, and Hearing Sciences",
+      "code": "SLAH",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Sustainable Biomaterials and Packaging",
+      "code": "SBAP",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Sustainable Packaging",
+      "code": "SP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Theatre",
+      "code": "Theatre",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Theatre — Design / Technology",
+      "code": "TDT",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Theatre — Music Theatre",
+      "code": "TMT",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Theatre — Performance",
+      "code": "TP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Theatre/Fine Arts — Design/Technology Track",
+      "code": "TFAD",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Theatre/Fine Arts — Music Theatre Track",
+      "code": "TFAM",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Theatre/Fine Arts — Performance Track",
+      "code": "TFAP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "University College",
+      "code": "UC",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Veterinary Medicine",
+      "code": "VM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Wildlife Sciences — Pre-Veterinary Medicine",
+      "code": "WSPV",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Wildlife Sciences, Pre-Veterinary Medicine Concentration",
+      "code": "WSPV",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "​ Back to top",
+      "code": "BTT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    }
+  ]
 }

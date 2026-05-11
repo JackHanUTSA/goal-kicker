@@ -1,45 +1,261 @@
 {
   "university": "Carnegie Mellon University",
   "slug": "carnegie-mellon",
-  "retrieved_at": "2026-05-09",
-  "mode": "majors-list",
+  "academic_year": "Structured majors inventory",
+  "retrieved_at": "2026-05-10",
+  "mode": "mapped-majors",
   "source_url": "https://www.cmu.edu/academic-programs",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
-  "summary": {
-    "majors_count": 28,
-    "titles_count": 28,
-    "count_method": "counted extracted undergraduate-major titles from an official page",
-    "confidence": "medium"
-  },
-  "titles": [
-    "Biomedical Engineering",
-    "Chemical Engineering",
-    "Civil & Environmental Engineering",
-    "Electrical and Computer Engineering",
-    "Engineering and Public Policy",
-    "Engineering Design, Innovation and Entrepreneurship (EDIE)",
-    "Materials Science & Engineering",
-    "Mechanical Engineering",
-    "Economics",
-    "English",
-    "History",
-    "Carnegie Mellon Institute for Strategy and Technology",
-    "Interdisciplinary Programs in Dietrich",
-    "Philosophy",
-    "Psychology",
-    "Social and Decision Sciences",
-    "Statistics & Data Science",
-    "Biological Sciences",
-    "Chemistry",
-    "Mathematical Sciences",
-    "Physics",
-    "Artificial Intelligence",
-    "Computational Biology",
-    "Computer Science",
-    "Human-Computer Interaction",
-    "Robotics",
-    "BXA Intercollege Degree Programs",
-    "IDeATe"
+  "source_urls": [
+    "https://www.cmu.edu/academic-programs",
+    "https://www.cmu.edu/academics",
+    "https://www.cmu.edu/majors",
+    "https://www.cmu.edu/admission/",
+    "https://www.cmu.edu/admission/majors-programs/college-of-engineering",
+    "https://www.cmu.edu/admission/majors-programs",
+    "https://www.cmu.edu"
   ],
-  "notes": "explicit official page sentence; titles extracted from official page: https://www.cmu.edu/admission/; titles extracted from official page: https://www.cmu.edu/admission/majors-programs/college-of-engineering"
+  "chart_title": "Undergraduate majors map — structured inventory",
+  "major_count_label": "28 mapped majors",
+  "total_label": "equal-weight bubbles",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. To keep the majors panel visually consistent with MIT, each official undergraduate major title is mapped into a broad discipline bucket and rendered as an equal-weight bubble. Bubble size here does not indicate enrollment.",
+  "summary_note": "28 mapped majors · equal-weight bubbles · official count page says 28 majors",
+  "legend_order": [
+    "Engineering",
+    "Science",
+    "Social Sciences",
+    "Humanities & Arts",
+    "Sloan School of Management",
+    "Interdisciplinary Programs"
+  ],
+  "totals": {
+    "mapped_major_titles": 28,
+    "official_major_count": 28
+  },
+  "notes": "counted extracted undergraduate-major titles from an official page explicit official page sentence; titles extracted from official page: https://www.cmu.edu/admission/; titles extracted from official page: https://www.cmu.edu/admission/majors-programs/college-of-engineering Confidence: medium.",
+  "majors": [
+    {
+      "name": "Artificial Intelligence",
+      "code": "AI",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "BXA Intercollege Degree Programs",
+      "code": "BIDP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biological Sciences",
+      "code": "BS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biomedical Engineering",
+      "code": "BE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Carnegie Mellon Institute for Strategy and Technology",
+      "code": "CMIF",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemical Engineering",
+      "code": "CE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemistry",
+      "code": "Chem",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Civil & Environmental Engineering",
+      "code": "CEE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computational Biology",
+      "code": "CB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Science",
+      "code": "CS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Economics",
+      "code": "Econ",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Electrical and Computer Engineering",
+      "code": "EACE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Engineering Design, Innovation and Entrepreneurship",
+      "code": "EDIA",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Engineering and Public Policy",
+      "code": "EAPP",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English",
+      "code": "English",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "History",
+      "code": "History",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Human-Computer Interaction",
+      "code": "HCI",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "IDeATe",
+      "code": "IDeATe",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Interdisciplinary Programs in Dietrich",
+      "code": "IPID",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Materials Science & Engineering",
+      "code": "MSE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mathematical Sciences",
+      "code": "MS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mechanical Engineering",
+      "code": "ME",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Philosophy",
+      "code": "Phil",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Physics",
+      "code": "Physics",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Psychology",
+      "code": "Psyc",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Robotics",
+      "code": "Robotics",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Social and Decision Sciences",
+      "code": "SADS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Statistics & Data Science",
+      "code": "SDS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    }
+  ]
 }

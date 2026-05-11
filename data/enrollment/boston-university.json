@@ -1,252 +1,1917 @@
 {
   "university": "Boston University",
   "slug": "boston-university",
-  "retrieved_at": "2026-05-09",
-  "mode": "majors-list",
+  "academic_year": "Structured majors inventory",
+  "retrieved_at": "2026-05-10",
+  "mode": "mapped-majors",
   "source_url": "https://www.bu.edu/academic-programs",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
-  "summary": {
-    "majors_count": 300,
-    "titles_count": 235,
-    "count_method": "explicit official page sentence",
-    "confidence": "medium"
-  },
-  "titles": [
-    "Acting",
-    "Advertising COM",
-    "African American & Black Diaspora Studies CAS",
-    "American Studies CAS",
-    "Ancient Greek & Latin",
-    "Ancient Greek Language & Culture",
-    "Ancient Greek/Literary Translation",
-    "Anthropology with a Specialization in Anthropology, Health & Medicine",
-    "Anthropology with a Specialization in Biological Anthropology",
-    "Anthropology with a Specialization in Sociocultural Anthropology",
-    "Anthropology & Religion",
-    "Archaeological & Environmental Sciences",
-    "Archaeological & Environmental Sciences/Archaeology",
-    "Archaeology",
-    "Architectural Studies",
-    "Art Education",
-    "Art History",
-    "Art & Architecture, History of",
-    "Asian Studies",
-    "Astronomy",
-    "Astronomy & Physics",
-    "Astrophysics & Space Physics",
-    "Behavior & Health",
-    "Bilingual Education/Teaching English to Speakers of Other Languages",
-    "Biochemistry & Molecular Biology",
-    "Biochemistry & Molecular Biology/Biotechnology",
-    "Bioinformatics CDS",
-    "Biology CAS/GRS",
-    "Biology MET",
-    "Biology with a Specialization in Behavioral Biology",
-    "Biology with a Specialization in Cell Biology, Molecular Biology & Genetics",
-    "Biology with a Specialization in Ecology & Conservation Biology",
-    "Biology with a Specialization in Neurobiology",
-    "Biomedical Engineering",
-    "Biostatistics",
-    "Business Administration",
-    "Business Administration/Business Analytics",
-    "Chemistry CAS/GRS",
-    "Chemistry & Physics",
-    "Chemistry: Chemical Biology",
-    "Teaching of Chemistry",
-    "Chinese Language & Literature",
-    "Chinese/Literary Translation",
-    "Cinema & Media Studies",
-    "Classical Civilization",
-    "Classical Studies",
-    "Classics & Archaeology",
-    "Classics & Philosophy",
-    "Classics & Religion",
-    "Comparative Literature",
-    "Comparative Literature/Literary Translation",
-    "Composition & Music Theory",
-    "Computer Engineering",
-    "Computer Science & Economics",
-    "Computer Science CAS/GRS",
-    "Computer Science MET",
-    "Costume Design & Production",
-    "Criminal Justice",
-    "Data Science",
-    "Deaf Studies",
-    "Early Childhood Education",
-    "Earth & Environmental Sciences",
-    "Economics CAS/GRS",
-    "Economics MET",
-    "Economics, Quantitative",
-    "Education & Human Development",
-    "Education & Human Development/Applied Human Development",
-    "Education & Human Development/Educational Policy Studies",
-    "Education & Human Development/TESOL & Applied Linguistics",
-    "Education & Human Development/TESOL Multilingual Learner Education",
-    "Electrical Engineering",
-    "Elementary Education",
-    "Energy & Environment",
-    "English",
-    "English & American Literature",
-    "English Education",
-    "Environmental Analysis & Policy",
-    "European Studies",
-    "Film & Television",
-    "French & Linguistics",
-    "French Studies",
-    "French Studies/Literary Translation",
-    "German Language & Literature",
-    "German/Literary Translation",
-    "Graphic Design",
-    "Greek—Ancient",
-    "Health Science",
-    "History CAS/GRS",
-    "History MET",
-    "History of Art & Architecture",
-    "Holocaust, Genocide & Human Rights Studies",
-    "Hospitality Administration",
-    "Hospitality Administration & Gastronomy",
-    "Hospitality & Communication",
-    "Human Physiology",
-    "Interdisciplinary Studies",
-    "International Relations",
-    "International Relations/International Affairs",
-    "Italian",
-    "Italian & Linguistics",
-    "Italian Studies",
-    "Japanese & Linguistics",
-    "Japanese Language & Literature",
-    "Japanese/Literary Translation",
-    "Journalism",
-    "Korean Language & Literature",
-    "Latin American Studies",
-    "Latin Language & Culture",
-    "Latin/Literary Translation",
-    "Lighting Design",
-    "Linguistics CAS/GRS",
-    "Linguistics & African Languages",
-    "Linguistics & Computer Science",
-    "Linguistics & Philosophy",
-    "Linguistics and Speech, Language & Hearing Sciences CAS/GRS",
-    "Linguistics and Speech, Language & Hearing Sciences SAR",
-    "Management Studies",
-    "Marine Science",
-    "Mathematics",
-    "Mathematics MET",
-    "Mathematics/Biostatistics",
-    "Mathematics & Computer Science",
-    "Mathematics & Philosophy",
-    "Mathematics & Physics",
-    "Mathematics Education",
-    "Mechanical Engineering",
-    "Media Science",
-    "Middle East & North Africa Studies",
-    "Middle Eastern and South Asian Languages & Literatures",
-    "Modern Foreign Language Education",
-    "Music",
-    "Musicology",
-    "Music Education",
-    "Music Performance",
-    "Neuroscience",
-    "Nutrition",
-    "Painting",
-    "Performance, Music",
-    "Philosophy CAS/GRS",
-    "Philosophy MET",
-    "Philosophy & Neuroscience",
-    "Philosophy & Physics",
-    "Philosophy & Political Science",
-    "Philosophy & Psychology",
-    "Philosophy & Religion",
-    "Physical Therapy",
-    "Physics",
-    "Physics & Computer Science",
-    "Political Science",
-    "Premedical Studies",
-    "Printmaking",
-    "Psychology CAS/GRS",
-    "Psychology MET",
-    "Public Health SAR/SPH",
-    "Public Health CAS/SPH",
-    "Public Relations",
-    "Religion CAS/GRS",
-    "Remote Sensing & Geospatial Sciences",
-    "Russian Language & Literature",
-    "Scene Design",
-    "Scene Painting",
-    "Science Education",
-    "Sculpture",
-    "Social Studies Education",
-    "Sociology CAS/GRS",
-    "Sociology MET",
-    "Sound Design",
-    "Spanish",
-    "Spanish & Linguistics",
-    "Spanish/Literary Translation",
-    "Special Education",
-    "Speech, Language & Hearing Sciences",
-    "Statistics & Computer Science",
-    "Technical Production",
-    "Telecommunication",
-    "Television",
-    "Theatre Arts",
-    "Theatre–Technical Production",
-    "Urban Affairs",
-    "Filter by Program Type",
-    "GRAD Cert",
-    "UND Cert",
-    "BA-to-MFA",
-    "MSD/CAGS",
-    "DScD",
-    "DScD/CAGS",
-    "BA-to-MA",
-    "BFA/MA",
-    "BA/MA",
-    "BA-to-MS",
-    "MEng",
-    "MBA/MSDT",
-    "BSBA-to-MSBA",
-    "MBA/MPH",
-    "Hybrid Graduate Program",
-    "Online Graduate Program",
-    "BA/MFA",
-    "accelerated degree completion program",
-    "GRAD Certs",
-    "MFA–Costume Design",
-    "MFA–Costume Production",
-    "MS (online)",
-    "BS-to-MS",
-    "BS-to-MS (Bioinformatics)",
-    "Cert Clin Derm",
-    "International Cert of Achievement",
-    "MS/MBA",
-    "BS-to-EdM",
-    "BS-to-MA",
-    "Cert",
-    "MS/MPH",
-    "offered through advanced levels",
-    "BS/MLA",
-    "MA/MBA",
-    "MSL-TAX",
-    "MMEDIC",
-    "BM-to-MM",
-    "PP-OTD",
-    "BS/DPT",
-    "MBA/MS",
-    "MSD (Applied Biomechanics)/CAGS",
-    "MSD (Dental Biomaterials)/CAGS",
-    "DScD (Applied Biomechanics)/CAGS",
-    "DScD (Dental Biomaterials)/CAGS",
-    "DrPH",
-    "BS-to-MPH",
-    "BA-to-MPH",
-    "MSW/MPH",
-    "MSW Online",
-    "MSW/EdM",
-    "MSW/MTS",
-    "BS-to-MS-SLP",
-    "BFA—Design & Production",
-    "BFA—Performance",
-    "DMin"
+  "source_urls": [
+    "https://www.bu.edu/academic-programs",
+    "https://www.bu.edu/academics/",
+    "https://www.bu.edu/majors",
+    "https://www.bu.edu/undergraduate/programs",
+    "https://www.bu.edu/academics/degree-programs/",
+    "https://www.bu.edu"
   ],
-  "notes": "explicit official page sentence; titles extracted from official page: https://www.bu.edu/academics/degree-programs/"
+  "chart_title": "Undergraduate majors map — structured inventory",
+  "major_count_label": "235 mapped majors",
+  "total_label": "equal-weight bubbles",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. To keep the majors panel visually consistent with MIT, each official undergraduate major title is mapped into a broad discipline bucket and rendered as an equal-weight bubble. Bubble size here does not indicate enrollment.",
+  "summary_note": "235 mapped majors · equal-weight bubbles · official count page says 300 majors",
+  "legend_order": [
+    "Architecture and Planning",
+    "Engineering",
+    "Science",
+    "Social Sciences",
+    "Humanities & Arts",
+    "Sloan School of Management",
+    "Interdisciplinary Programs"
+  ],
+  "totals": {
+    "mapped_major_titles": 235,
+    "official_major_count": 300
+  },
+  "notes": "explicit official page sentence explicit official page sentence; titles extracted from official page: https://www.bu.edu/academics/degree-programs/ Confidence: medium.",
+  "majors": [
+    {
+      "name": "Acting",
+      "code": "Acting",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Advertising COM",
+      "code": "AC",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "African American & Black Diaspora Studies CAS",
+      "code": "AAB",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "American Studies CAS",
+      "code": "ASC",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Ancient Greek & Latin",
+      "code": "AGL",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Ancient Greek Language & Culture",
+      "code": "AGL",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Ancient Greek/Literary Translation",
+      "code": "AGLT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Anthropology & Religion",
+      "code": "AR",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Anthropology with a Specialization in Anthropology, Health & Medicine",
+      "code": "AWAS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Anthropology with a Specialization in Biological Anthropology",
+      "code": "AWAS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Anthropology with a Specialization in Sociocultural Anthropology",
+      "code": "AWAS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Archaeological & Environmental Sciences",
+      "code": "AES",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Archaeological & Environmental Sciences/Archaeology",
+      "code": "AES",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Archaeology",
+      "code": "Arch",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Architectural Studies",
+      "code": "AS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Art & Architecture, History of",
+      "code": "AAH",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Art Education",
+      "code": "AE",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Art History",
+      "code": "AH",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Asian Studies",
+      "code": "AS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Astronomy",
+      "code": "Astr",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Astronomy & Physics",
+      "code": "AP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Astrophysics & Space Physics",
+      "code": "ASP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "BA-to-MA",
+      "code": "BTM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "BA-to-MFA",
+      "code": "BTM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "BA-to-MPH",
+      "code": "BTM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "BA-to-MS",
+      "code": "BTM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "BA/MA",
+      "code": "BM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "BA/MFA",
+      "code": "BM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "BFA/MA",
+      "code": "BM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "BFA—Design & Production",
+      "code": "BDP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "BFA—Performance",
+      "code": "BP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "BM-to-MM",
+      "code": "BTM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "BS-to-EdM",
+      "code": "BTE",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "BS-to-MA",
+      "code": "BTM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "BS-to-MPH",
+      "code": "BTM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "BS-to-MS",
+      "code": "BTM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "BS-to-MS (Bioinformatics)",
+      "code": "BTMB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "BS-to-MS-SLP",
+      "code": "BTMS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "BS/DPT",
+      "code": "BD",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "BS/MLA",
+      "code": "BM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "BSBA-to-MSBA",
+      "code": "BTM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Behavior & Health",
+      "code": "BH",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bilingual Education/Teaching English to Speakers of Other Languages",
+      "code": "BETE",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biochemistry & Molecular Biology",
+      "code": "BMB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biochemistry & Molecular Biology/Biotechnology",
+      "code": "BMB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bioinformatics CDS",
+      "code": "BC",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biology CAS/GRS",
+      "code": "BCG",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biology MET",
+      "code": "BM",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biology with a Specialization in Behavioral Biology",
+      "code": "BWAS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biology with a Specialization in Cell Biology, Molecular Biology & Genetics",
+      "code": "BWAS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biology with a Specialization in Ecology & Conservation Biology",
+      "code": "BWAS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biology with a Specialization in Neurobiology",
+      "code": "BWAS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biomedical Engineering",
+      "code": "BE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biostatistics",
+      "code": "Bios",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Business Administration",
+      "code": "BA",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Business Administration/Business Analytics",
+      "code": "BABA",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Cert",
+      "code": "Cert",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Cert Clin Derm",
+      "code": "CCD",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemistry & Physics",
+      "code": "CP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemistry CAS/GRS",
+      "code": "CCG",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemistry: Chemical Biology",
+      "code": "CCB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chinese Language & Literature",
+      "code": "CLL",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chinese/Literary Translation",
+      "code": "CLT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Cinema & Media Studies",
+      "code": "CMS",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Classical Civilization",
+      "code": "CC",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Classical Studies",
+      "code": "CS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Classics & Archaeology",
+      "code": "CA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Classics & Philosophy",
+      "code": "CP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Classics & Religion",
+      "code": "CR",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Comparative Literature",
+      "code": "CL",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Comparative Literature/Literary Translation",
+      "code": "CLLT",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Composition & Music Theory",
+      "code": "CMT",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Engineering",
+      "code": "CE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Science & Economics",
+      "code": "CSE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Science CAS/GRS",
+      "code": "CSCG",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Science MET",
+      "code": "CSM",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Costume Design & Production",
+      "code": "CDP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Criminal Justice",
+      "code": "CJ",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "DMin",
+      "code": "DMin",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "DScD",
+      "code": "DScD",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "DScD (Applied Biomechanics)/CAGS",
+      "code": "DABC",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "DScD (Dental Biomaterials)/CAGS",
+      "code": "DDBC",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "DScD/CAGS",
+      "code": "DC",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Data Science",
+      "code": "DS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Deaf Studies",
+      "code": "DS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "DrPH",
+      "code": "DrPH",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Early Childhood Education",
+      "code": "ECE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Earth & Environmental Sciences",
+      "code": "EES",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Economics CAS/GRS",
+      "code": "ECG",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Economics MET",
+      "code": "EM",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Economics, Quantitative",
+      "code": "EQ",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Education & Human Development",
+      "code": "EHD",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Education & Human Development/Applied Human Development",
+      "code": "EHD",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Education & Human Development/Educational Policy Studies",
+      "code": "EHD",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Education & Human Development/TESOL & Applied Linguistics",
+      "code": "EHD",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Education & Human Development/TESOL Multilingual Learner Education",
+      "code": "EHD",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Electrical Engineering",
+      "code": "EE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Elementary Education",
+      "code": "EE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Energy & Environment",
+      "code": "EE",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English",
+      "code": "English",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English & American Literature",
+      "code": "EAL",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English Education",
+      "code": "EE",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Analysis & Policy",
+      "code": "EAP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "European Studies",
+      "code": "ES",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Film & Television",
+      "code": "FT",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Filter by Program Type",
+      "code": "FBPT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "French & Linguistics",
+      "code": "FL",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "French Studies",
+      "code": "FS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "French Studies/Literary Translation",
+      "code": "FSLT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "GRAD Cert",
+      "code": "GC",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "GRAD Certs",
+      "code": "GC",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "German Language & Literature",
+      "code": "GLL",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "German/Literary Translation",
+      "code": "GLT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Graphic Design",
+      "code": "GD",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Greek—Ancient",
+      "code": "GA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Health Science",
+      "code": "HS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "History CAS/GRS",
+      "code": "HCG",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "History MET",
+      "code": "HM",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "History of Art & Architecture",
+      "code": "HOA",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Holocaust, Genocide & Human Rights Studies",
+      "code": "HGH",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Hospitality & Communication",
+      "code": "HC",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Hospitality Administration",
+      "code": "HA",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Hospitality Administration & Gastronomy",
+      "code": "HAG",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Human Physiology",
+      "code": "HP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Hybrid Graduate Program",
+      "code": "HGP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Interdisciplinary Studies",
+      "code": "IS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "International Cert of Achievement",
+      "code": "ICOA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "International Relations",
+      "code": "IR",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "International Relations/International Affairs",
+      "code": "IRIA",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Italian",
+      "code": "Italian",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Italian & Linguistics",
+      "code": "IL",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Italian Studies",
+      "code": "IS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Japanese & Linguistics",
+      "code": "JL",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Japanese Language & Literature",
+      "code": "JLL",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Japanese/Literary Translation",
+      "code": "JLT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Journalism",
+      "code": "Jour",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Korean Language & Literature",
+      "code": "KLL",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Latin American Studies",
+      "code": "LAS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Latin Language & Culture",
+      "code": "LLC",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Latin/Literary Translation",
+      "code": "LLT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Lighting Design",
+      "code": "LD",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Linguistics & African Languages",
+      "code": "LAL",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Linguistics & Computer Science",
+      "code": "LCS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Linguistics & Philosophy",
+      "code": "LP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Linguistics CAS/GRS",
+      "code": "LCG",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Linguistics and Speech, Language & Hearing Sciences CAS/GRS",
+      "code": "LASL",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Linguistics and Speech, Language & Hearing Sciences SAR",
+      "code": "LASL",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MA/MBA",
+      "code": "MM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MBA/MPH",
+      "code": "MM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MBA/MS",
+      "code": "MM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MBA/MSDT",
+      "code": "MM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MEng",
+      "code": "MEng",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MFA–Costume Design",
+      "code": "MCD",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MFA–Costume Production",
+      "code": "MCP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MMEDIC",
+      "code": "MMEDIC",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MS (online)",
+      "code": "MO",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MS/MBA",
+      "code": "MM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MS/MPH",
+      "code": "MM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MSD (Applied Biomechanics)/CAGS",
+      "code": "MABC",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MSD (Dental Biomaterials)/CAGS",
+      "code": "MDBC",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MSD/CAGS",
+      "code": "MC",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MSL-TAX",
+      "code": "MT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MSW Online",
+      "code": "MO",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MSW/EdM",
+      "code": "ME",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MSW/MPH",
+      "code": "MM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "MSW/MTS",
+      "code": "MM",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Management Studies",
+      "code": "MS",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Marine Science",
+      "code": "MS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mathematics",
+      "code": "Math",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mathematics & Computer Science",
+      "code": "MCS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mathematics & Philosophy",
+      "code": "MP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mathematics & Physics",
+      "code": "MP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mathematics Education",
+      "code": "ME",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mathematics MET",
+      "code": "MM",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mathematics/Biostatistics",
+      "code": "MB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mechanical Engineering",
+      "code": "ME",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Media Science",
+      "code": "MS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Middle East & North Africa Studies",
+      "code": "MEN",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Middle Eastern and South Asian Languages & Literatures",
+      "code": "MEAS",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Modern Foreign Language Education",
+      "code": "MFLE",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music",
+      "code": "Music",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music Education",
+      "code": "ME",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music Performance",
+      "code": "MP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Musicology",
+      "code": "Musi",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Neuroscience",
+      "code": "Neur",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Nutrition",
+      "code": "Nutr",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Online Graduate Program",
+      "code": "OGP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "PP-OTD",
+      "code": "PO",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Painting",
+      "code": "Painting",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Performance, Music",
+      "code": "PM",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Philosophy & Neuroscience",
+      "code": "PN",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Philosophy & Physics",
+      "code": "PP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Philosophy & Political Science",
+      "code": "PPS",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Philosophy & Psychology",
+      "code": "PP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Philosophy & Religion",
+      "code": "PR",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Philosophy CAS/GRS",
+      "code": "PCG",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Philosophy MET",
+      "code": "PM",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Physical Therapy",
+      "code": "PT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Physics",
+      "code": "Physics",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Physics & Computer Science",
+      "code": "PCS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Political Science",
+      "code": "PS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Premedical Studies",
+      "code": "PS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Printmaking",
+      "code": "Prin",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Psychology CAS/GRS",
+      "code": "PCG",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Psychology MET",
+      "code": "PM",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Public Health CAS/SPH",
+      "code": "PHCS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Public Health SAR/SPH",
+      "code": "PHSS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Public Relations",
+      "code": "PR",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Religion CAS/GRS",
+      "code": "RCG",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Remote Sensing & Geospatial Sciences",
+      "code": "RSG",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Russian Language & Literature",
+      "code": "RLL",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Scene Design",
+      "code": "SD",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Scene Painting",
+      "code": "SP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Science Education",
+      "code": "SE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Sculpture",
+      "code": "Scul",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Social Studies Education",
+      "code": "SSE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Sociology CAS/GRS",
+      "code": "SCG",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Sociology MET",
+      "code": "SM",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Sound Design",
+      "code": "SD",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Spanish",
+      "code": "Spanish",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Spanish & Linguistics",
+      "code": "SL",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Spanish/Literary Translation",
+      "code": "SLT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Special Education",
+      "code": "SE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Speech, Language & Hearing Sciences",
+      "code": "SLH",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Statistics & Computer Science",
+      "code": "SCS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Teaching of Chemistry",
+      "code": "TOC",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Technical Production",
+      "code": "TP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Telecommunication",
+      "code": "Tele",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Television",
+      "code": "Tele",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Theatre Arts",
+      "code": "TA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Theatre–Technical Production",
+      "code": "TTP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "UND Cert",
+      "code": "UC",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Urban Affairs",
+      "code": "UA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "accelerated degree completion program",
+      "code": "ADCP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "offered through advanced levels",
+      "code": "OTAL",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    }
+  ]
 }

@@ -1,186 +1,1389 @@
 {
   "university": "Syracuse University",
   "slug": "syracuse",
-  "retrieved_at": "2026-05-09",
-  "mode": "majors-list",
+  "academic_year": "Structured majors inventory",
+  "retrieved_at": "2026-05-10",
+  "mode": "mapped-majors",
   "source_url": "https://www.syracuse.edu/academic-programs/",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
-  "summary": {
-    "majors_count": 200,
-    "titles_count": 169,
-    "count_method": "explicit official page sentence",
-    "confidence": "medium"
-  },
-  "titles": [
-    "Find a Program",
-    "Accounting B.S.",
-    "African American Studies B.A.",
-    "Anthropology B.A.",
-    "Architecture B.Arch",
-    "Art History B.A.",
-    "Art Photography B.F.A.",
-    "Biology B.A.",
-    "Chemistry B.A.",
-    "Classics (Greek and Latin) B.A.",
-    "Communication Sciences and Disorders B.S.",
-    "Communication and Rhetorical Studies B.S.",
-    "Computer Engineering B.S.",
-    "Computer Science B.S.",
-    "Design Studies B.S.",
-    "Earth Sciences B.A.",
-    "Economics B.S.",
-    "Electrical Engineering B.S.",
-    "English and Textual Studies",
-    "Entrepreneurship and Emerging Enterprises",
-    "Finance B.S.",
-    "Fine Arts B.A.",
-    "Forensic Science B.A.",
-    "French and Francophone Studies B.A.",
-    "Geography B.A.",
-    "History B.A.",
-    "History of Architecture B.A.",
-    "Human Development and Family Science B.S.",
-    "Linguistics Studies B.A.",
-    "Mathematics B.A.",
-    "Middle Eastern Studies B.A.",
-    "Music History and Cultures B.A.",
-    "Music Industry B.Mus.",
-    "Nutrition Science B.S.",
-    "Philosophy B.A.",
-    "Physics B.A.",
-    "Policy Studies",
-    "Political Science B.A.",
-    "Psychology B.A.",
-    "Public Health B.S.",
-    "Real Estate B.S.",
-    "Religion B.A.",
-    "Sociology B.A.",
-    "Sport Analytics B.S.",
-    "Women's and Gender Studies B.A.",
-    "Creative Leadership Online B.P.S.",
-    "Healthcare Administration Online B.P.S.",
-    "Applied Data and Predictive Analytics Online B.P.S.",
-    "Advertising B.S.",
-    "Aerospace Engineering B.S.",
-    "Biochemistry",
-    "Biomedical Engineering",
-    "Biotechnology B.S.",
-    "Business Analytics B.S.",
-    "Chemical Engineering B.S.",
-    "Civil Engineering B.S.",
-    "Communications Design",
-    "Computer Art and Animation B.F.A.",
-    "Creative Writing B.A.",
-    "Digital Humanities B.A.",
-    "Environment, Sustainability, and Policy B.A.",
-    "Environmental Engineering B.S.",
-    "Ethics B.A.",
-    "Fashion Design B.F.A.",
-    "Film B.F.A.",
-    "German Language, Literature, and Culture B.A.",
-    "Health Humanities B.A.",
-    "Health and Exercise Science B.S.",
-    "Illustration B.F.A.",
-    "Industrial and Interaction Design B.I.D.",
-    "Innovation, Society, and Technology B.S.",
-    "International Relations B.A.",
-    "Italian Language, Literature, and Culture B.A.",
-    "Latino-Latin American Studies B.A.",
-    "Management B.S.",
-    "Mechanical Engineering B.S.",
-    "Modern Foreign Languages B.A.",
-    "Modern Jewish Studies B.A.",
-    "Music B.A.",
-    "Music Composition B.Mus.",
-    "Music Education (PreK-Grade 12) B.Mus.",
-    "Musical Theater B.F.A.",
-    "Neuroscience B.A.",
-    "Nutrition B.S.",
-    "Performance B.Mus.",
-    "Political Philosophy",
-    "Public Relations B.S.",
-    "Recording and Entertainment Industries B.S.",
-    "Russian Language, Literature, and Culture B.A.",
-    "Selected Studies in Education B.S.",
-    "Social Work B.S.",
-    "Sound Recording Technology B.Mus.",
-    "Spanish Language, Literature, and Culture B.A.",
-    "Statistics B.S.",
-    "Studio Arts B.F.A.",
-    "Studio Arts B.S.",
-    "Television, Radio and Film B.S.",
-    "Theater Design and Technology B.F.A.",
-    "Writing and Rhetoric B.A.",
-    "Acting B.F.A.",
-    "Applied Data Science B.S.",
-    "Environmental Geoscience B.S.",
-    "Visual Communications B.A.",
-    "Law, Society and Policy B.A.",
-    "Computer Programming Online B.P.S.",
-    "Chemistry B.S.",
-    "Classical Civilization",
-    "Mathematics B.S.",
-    "Neuroscience B.S.",
-    "Physics B.S.",
-    "Statistics B.A.",
-    "Environmental and Interior Design B.F.A.",
-    "Economics B.A.",
-    "International Relations B.S.",
-    "Psychology B.S.",
-    "Geology B.S.",
-    "Biology B.S.",
-    "Forensic Science B.S.",
-    "Environment, Sustainability, and Policy B.S.",
-    "Inclusive Childhood Education B.S.",
-    "Inclusive Adolescent Education B.S.",
-    "Strategic Communications Online B.S.",
-    "Journalism",
-    "Astronomy B.A.",
-    "Health Humanities B.S.",
-    "AI in Business Process Automation Online B.P.S",
-    "Pre-Med/Pre-Health",
-    "Communications and Writing",
-    "Visual Arts, Architecture, Film, and Design",
-    "Teaching and Human Services",
-    "Policy, Government, and Social Justice",
-    "Business and Technology",
-    "Music and Drama",
-    "Aerospace Engineering",
-    "Biology",
-    "Biotechnology",
-    "Computer Science",
-    "Geography",
-    "Health and Exercise Science",
-    "Human Development and Family Science",
-    "Nutrition Science and Dietetics",
-    "Bioengineering",
-    "Chemistry (Medicinal Chemistry Track)",
-    "Communication Sciences and Disorders",
-    "Physics",
-    "Public Health",
-    "Communication and Rhetorical Studies",
-    "Inclusive Adolescent Education",
-    "Visual Communications",
-    "Art Photography",
-    "Television, Radio, and Film",
-    "Writing and Rhetoric",
-    "Computer Art and Animation",
-    "Environmental and Interior Design",
-    "Fashion Design",
-    "Industrial and Interaction Design",
-    "Theater Design and Technology",
-    "Inclusive Childhood Education",
-    "Selected Studies in Education",
-    "Social Work",
-    "Environment, Sustainability, and Policy",
-    "Ethics",
-    "Economics",
-    "Real Estate",
-    "Recording and Entertainment Industries (The Bandier Program)",
-    "Sound Recording Technology",
-    "Acting",
-    "Music Industry",
-    "Musical Theater"
+  "source_urls": [
+    "https://www.syracuse.edu/academic-programs/",
+    "https://www.syracuse.edu/academics/",
+    "https://www.syracuse.edu/majors/",
+    "https://www.syracuse.edu/undergraduate/programs/",
+    "https://www.syracuse.edu/academics/selecting-a-major/",
+    "https://www.syracuse.edu"
   ],
-  "notes": "explicit official page sentence; titles extracted from official page: https://www.syracuse.edu/academics/selecting-a-major/"
+  "chart_title": "Undergraduate majors map — structured inventory",
+  "major_count_label": "169 mapped majors",
+  "total_label": "equal-weight bubbles",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. To keep the majors panel visually consistent with MIT, each official undergraduate major title is mapped into a broad discipline bucket and rendered as an equal-weight bubble. Bubble size here does not indicate enrollment.",
+  "summary_note": "169 mapped majors · equal-weight bubbles · official count page says 200 majors",
+  "legend_order": [
+    "Architecture and Planning",
+    "Engineering",
+    "Science",
+    "Social Sciences",
+    "Humanities & Arts",
+    "Sloan School of Management",
+    "Interdisciplinary Programs"
+  ],
+  "totals": {
+    "mapped_major_titles": 169,
+    "official_major_count": 200
+  },
+  "notes": "explicit official page sentence explicit official page sentence; titles extracted from official page: https://www.syracuse.edu/academics/selecting-a-major/ Confidence: medium.",
+  "majors": [
+    {
+      "name": "AI in Business Process Automation Online B.P.S",
+      "code": "AIBP",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Accounting B.S.",
+      "code": "ABS",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Acting",
+      "code": "Acting",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Acting B.F.A.",
+      "code": "ABFA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Advertising B.S.",
+      "code": "ABS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Aerospace Engineering",
+      "code": "AE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Aerospace Engineering B.S.",
+      "code": "AEBS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "African American Studies B.A.",
+      "code": "AASB",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Anthropology B.A.",
+      "code": "ABA",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Applied Data Science B.S.",
+      "code": "ADSB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Applied Data and Predictive Analytics Online B.P.S.",
+      "code": "ADAP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Architecture B.Arch",
+      "code": "ABA",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Art History B.A.",
+      "code": "AHBA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Art Photography",
+      "code": "AP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Art Photography B.F.A.",
+      "code": "APBF",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Astronomy B.A.",
+      "code": "ABA",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biochemistry",
+      "code": "Bioc",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bioengineering",
+      "code": "Bioe",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biology",
+      "code": "Biology",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biology B.A.",
+      "code": "BBA",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biology B.S.",
+      "code": "BBS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biomedical Engineering",
+      "code": "BE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biotechnology",
+      "code": "Biot",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biotechnology B.S.",
+      "code": "BBS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Business Analytics B.S.",
+      "code": "BABS",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Business and Technology",
+      "code": "BAT",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemical Engineering B.S.",
+      "code": "CEBS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemistry (Medicinal Chemistry Track)",
+      "code": "CMCT",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemistry B.A.",
+      "code": "CBA",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemistry B.S.",
+      "code": "CBS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Civil Engineering B.S.",
+      "code": "CEBS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Classical Civilization",
+      "code": "CC",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Classics (Greek and Latin) B.A.",
+      "code": "CGAL",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Communication Sciences and Disorders",
+      "code": "CSAD",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Communication Sciences and Disorders B.S.",
+      "code": "CSAD",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Communication and Rhetorical Studies",
+      "code": "CARS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Communication and Rhetorical Studies B.S.",
+      "code": "CARS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Communications Design",
+      "code": "CD",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Communications and Writing",
+      "code": "CAW",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Art and Animation",
+      "code": "CAAA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Art and Animation B.F.A.",
+      "code": "CAAA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Engineering B.S.",
+      "code": "CEBS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Programming Online B.P.S.",
+      "code": "CPOB",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Science",
+      "code": "CS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Science B.S.",
+      "code": "CSBS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Creative Leadership Online B.P.S.",
+      "code": "CLOB",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Creative Writing B.A.",
+      "code": "CWBA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Design Studies B.S.",
+      "code": "DSBS",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Digital Humanities B.A.",
+      "code": "DHBA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Earth Sciences B.A.",
+      "code": "ESBA",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Economics",
+      "code": "Econ",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Economics B.A.",
+      "code": "EBA",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Economics B.S.",
+      "code": "EBS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Electrical Engineering B.S.",
+      "code": "EEBS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English and Textual Studies",
+      "code": "EATS",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Entrepreneurship and Emerging Enterprises",
+      "code": "EAEE",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environment, Sustainability, and Policy",
+      "code": "ESAP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environment, Sustainability, and Policy B.A.",
+      "code": "ESAP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environment, Sustainability, and Policy B.S.",
+      "code": "ESAP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Engineering B.S.",
+      "code": "EEBS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Geoscience B.S.",
+      "code": "EGBS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental and Interior Design",
+      "code": "EAID",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental and Interior Design B.F.A.",
+      "code": "EAID",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Ethics",
+      "code": "Ethics",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Ethics B.A.",
+      "code": "EBA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Fashion Design",
+      "code": "FD",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Fashion Design B.F.A.",
+      "code": "FDBF",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Film B.F.A.",
+      "code": "FBFA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Finance B.S.",
+      "code": "FBS",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Find a Program",
+      "code": "FAP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Fine Arts B.A.",
+      "code": "FABA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Forensic Science B.A.",
+      "code": "FSBA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Forensic Science B.S.",
+      "code": "FSBS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "French and Francophone Studies B.A.",
+      "code": "FAFS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Geography",
+      "code": "Geog",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Geography B.A.",
+      "code": "GBA",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Geology B.S.",
+      "code": "GBS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "German Language, Literature, and Culture B.A.",
+      "code": "GLLA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Health Humanities B.A.",
+      "code": "HHBA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Health Humanities B.S.",
+      "code": "HHBS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Health and Exercise Science",
+      "code": "HAES",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Health and Exercise Science B.S.",
+      "code": "HAES",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Healthcare Administration Online B.P.S.",
+      "code": "HAOB",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "History B.A.",
+      "code": "HBA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "History of Architecture B.A.",
+      "code": "HOAB",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Human Development and Family Science",
+      "code": "HDAF",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Human Development and Family Science B.S.",
+      "code": "HDAF",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Illustration B.F.A.",
+      "code": "IBFA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Inclusive Adolescent Education",
+      "code": "IAE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Inclusive Adolescent Education B.S.",
+      "code": "IAEB",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Inclusive Childhood Education",
+      "code": "ICE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Inclusive Childhood Education B.S.",
+      "code": "ICEB",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Industrial and Interaction Design",
+      "code": "IAID",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Industrial and Interaction Design B.I.D.",
+      "code": "IAID",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Innovation, Society, and Technology B.S.",
+      "code": "ISAT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "International Relations B.A.",
+      "code": "IRBA",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "International Relations B.S.",
+      "code": "IRBS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Italian Language, Literature, and Culture B.A.",
+      "code": "ILLA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Journalism",
+      "code": "Jour",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Latino-Latin American Studies B.A.",
+      "code": "LLAS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Law, Society and Policy B.A.",
+      "code": "LSAP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Linguistics Studies B.A.",
+      "code": "LSBA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Management B.S.",
+      "code": "MBS",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mathematics B.A.",
+      "code": "MBA",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mathematics B.S.",
+      "code": "MBS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mechanical Engineering B.S.",
+      "code": "MEBS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Middle Eastern Studies B.A.",
+      "code": "MESB",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Modern Foreign Languages B.A.",
+      "code": "MFLB",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Modern Jewish Studies B.A.",
+      "code": "MJSB",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music B.A.",
+      "code": "MBA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music Composition B.Mus.",
+      "code": "MCBM",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music Education (PreK-Grade 12) B.Mus.",
+      "code": "MEPG",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music History and Cultures B.A.",
+      "code": "MHAC",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music Industry",
+      "code": "MI",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music Industry B.Mus.",
+      "code": "MIBM",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Music and Drama",
+      "code": "MAD",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Musical Theater",
+      "code": "MT",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Musical Theater B.F.A.",
+      "code": "MTBF",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Neuroscience B.A.",
+      "code": "NBA",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Neuroscience B.S.",
+      "code": "NBS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Nutrition B.S.",
+      "code": "NBS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Nutrition Science B.S.",
+      "code": "NSBS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Nutrition Science and Dietetics",
+      "code": "NSAD",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Performance B.Mus.",
+      "code": "PBM",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Philosophy B.A.",
+      "code": "PBA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Physics",
+      "code": "Physics",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Physics B.A.",
+      "code": "PBA",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Physics B.S.",
+      "code": "PBS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Policy Studies",
+      "code": "PS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Policy, Government, and Social Justice",
+      "code": "PGAS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Political Philosophy",
+      "code": "PP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Political Science B.A.",
+      "code": "PSBA",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Pre-Med/Pre-Health",
+      "code": "PMPH",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Psychology B.A.",
+      "code": "PBA",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Psychology B.S.",
+      "code": "PBS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Public Health",
+      "code": "PH",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Public Health B.S.",
+      "code": "PHBS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Public Relations B.S.",
+      "code": "PRBS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Real Estate",
+      "code": "RE",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Real Estate B.S.",
+      "code": "REBS",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Recording and Entertainment Industries (The Bandier Program)",
+      "code": "RAEI",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Recording and Entertainment Industries B.S.",
+      "code": "RAEI",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Religion B.A.",
+      "code": "RBA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Russian Language, Literature, and Culture B.A.",
+      "code": "RLLA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Selected Studies in Education",
+      "code": "SSIE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Selected Studies in Education B.S.",
+      "code": "SSIE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Social Work",
+      "code": "SW",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Social Work B.S.",
+      "code": "SWBS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Sociology B.A.",
+      "code": "SBA",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Sound Recording Technology",
+      "code": "SRT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Sound Recording Technology B.Mus.",
+      "code": "SRTB",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Spanish Language, Literature, and Culture B.A.",
+      "code": "SLLA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Sport Analytics B.S.",
+      "code": "SABS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Statistics B.A.",
+      "code": "SBA",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Statistics B.S.",
+      "code": "SBS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Strategic Communications Online B.S.",
+      "code": "SCOB",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Studio Arts B.F.A.",
+      "code": "SABF",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Studio Arts B.S.",
+      "code": "SABS",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Teaching and Human Services",
+      "code": "TAHS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Television, Radio and Film B.S.",
+      "code": "TRAF",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Television, Radio, and Film",
+      "code": "TRAF",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Theater Design and Technology",
+      "code": "TDAT",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Theater Design and Technology B.F.A.",
+      "code": "TDAT",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Visual Arts, Architecture, Film, and Design",
+      "code": "VAAF",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Visual Communications",
+      "code": "VC",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Visual Communications B.A.",
+      "code": "VCBA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Women's and Gender Studies B.A.",
+      "code": "WSAG",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Writing and Rhetoric",
+      "code": "WAR",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Writing and Rhetoric B.A.",
+      "code": "WARB",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    }
+  ]
 }

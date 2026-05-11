@@ -1,40 +1,207 @@
 {
   "university": "Purdue University",
   "slug": "purdue",
-  "retrieved_at": "2026-05-09",
-  "mode": "majors-list",
+  "academic_year": "Structured majors inventory",
+  "retrieved_at": "2026-05-10",
+  "mode": "mapped-majors",
   "source_url": "https://www.purdue.edu/home/academics/",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
-  "summary": {
-    "majors_count": 400,
-    "titles_count": 23,
-    "count_method": "explicit official page sentence",
-    "confidence": "medium"
-  },
-  "titles": [
-    "Graduate and Undergraduate Programs Lists",
-    "Combined Degree Programs (Purdue Undergraduate/Graduate)",
-    "Undergraduate Requirements",
-    "Undergraduate Outcomes-based Core Curriculum",
-    "Exploratory Studies (Undergraduate)",
-    "Joint and Special Programs (Graduate & Undergraduate)",
-    "Chinese Studies: World Languages Teaching Concentration, BA",
-    "French: World Languages Teaching Concentration, BA",
-    "German: World Languages Teaching Concentration, BA",
-    "Japanese: World Languages Teaching Concentration, BA",
-    "Natural Resources and Environmental Science: Climate and Energy Solutions Concentration, BS",
-    "Natural Resources and Environmental Science: Emerging Environmental Challenges Concentration, BS",
-    "Natural Resources and Environmental Science: Environmental Policy and Analysis Concentration, BS",
-    "Natural Resources and Environmental Science: Environmental Quality And Restoration Concentration, BS",
-    "Natural Resources and Environmental Science: Sustainability Science Concentration, BS",
-    "Political Science: American Politics Concentration, BA",
-    "Political Science: Comparative and International Politics Concentration, BA",
-    "Political Science: Environmental Politics and Policy Concentration, BA",
-    "Political Science: Law and Political Thought Concentration, BA",
-    "Political Science: National and International Security Concentration, BA",
-    "Political Science: Politics of Groups, Organizations, and Representation Concentration, BA",
-    "Political Science: Public Policy Concentration, BA",
-    "Spanish: World Languages Teaching Concentration, BA"
+  "source_urls": [
+    "https://www.purdue.edu/home/academics/",
+    "https://catalog.purdue.edu/content.php?catoid=18&navoid=23648",
+    "https://www.purdue.edu"
   ],
-  "notes": "explicit official page sentence; titles extracted from official page: https://catalog.purdue.edu/content.php?catoid=18&navoid=23648"
+  "chart_title": "Undergraduate majors map — structured inventory",
+  "major_count_label": "22 mapped majors",
+  "total_label": "equal-weight bubbles",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. To keep the majors panel visually consistent with MIT, each official undergraduate major title is mapped into a broad discipline bucket and rendered as an equal-weight bubble. Bubble size here does not indicate enrollment.",
+  "summary_note": "22 mapped majors · equal-weight bubbles · official count page says 400 majors",
+  "legend_order": [
+    "Science",
+    "Social Sciences",
+    "Humanities & Arts",
+    "Interdisciplinary Programs"
+  ],
+  "totals": {
+    "mapped_major_titles": 22,
+    "official_major_count": 400
+  },
+  "notes": "explicit official page sentence explicit official page sentence; titles extracted from official page: https://catalog.purdue.edu/content.php?catoid=18&navoid=23648 Confidence: medium.",
+  "majors": [
+    {
+      "name": "Chinese Studies: World Languages Teaching Concentration",
+      "code": "CSWL",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Combined Degree Programs (Purdue Undergraduate/Graduate)",
+      "code": "CDPP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Exploratory Studies (Undergraduate)",
+      "code": "ESU",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "French: World Languages Teaching Concentration",
+      "code": "FWLT",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "German: World Languages Teaching Concentration",
+      "code": "GWLT",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Graduate and Undergraduate Programs Lists",
+      "code": "GAUP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Japanese: World Languages Teaching Concentration",
+      "code": "JWLT",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Joint and Special Programs (Graduate & Undergraduate)",
+      "code": "JASP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Natural Resources and Environmental Science: Climate and Energy Solutions Concentration",
+      "code": "NRAE",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Natural Resources and Environmental Science: Emerging Environmental Challenges Concentration",
+      "code": "NRAE",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Natural Resources and Environmental Science: Environmental Policy and Analysis Concentration",
+      "code": "NRAE",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Natural Resources and Environmental Science: Environmental Quality And Restoration Concentration",
+      "code": "NRAE",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Natural Resources and Environmental Science: Sustainability Science Concentration",
+      "code": "NRAE",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Political Science: American Politics Concentration",
+      "code": "PSAP",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Political Science: Comparative and International Politics Concentration",
+      "code": "PSCA",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Political Science: Environmental Politics and Policy Concentration",
+      "code": "PSEP",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Political Science: Law and Political Thought Concentration",
+      "code": "PSLA",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Political Science: National and International Security Concentration",
+      "code": "PSNA",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Political Science: Politics of Groups, Organizations, and Representation Concentration",
+      "code": "PSPO",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Political Science: Public Policy Concentration",
+      "code": "PSPP",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Spanish: World Languages Teaching Concentration",
+      "code": "SWLT",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Undergraduate Outcomes-based Core Curriculum",
+      "code": "UOBC",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    }
+  ]
 }

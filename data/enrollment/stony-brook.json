@@ -1,48 +1,280 @@
 {
   "university": "Stony Brook University",
   "slug": "stony-brook",
-  "retrieved_at": "2026-05-09",
-  "mode": "majors-list",
+  "academic_year": "Structured majors inventory",
+  "retrieved_at": "2026-05-10",
+  "mode": "mapped-majors",
   "source_url": "https://www.stonybrook.edu/academic-programs",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
-  "summary": {
-    "majors_count": 200,
-    "titles_count": 31,
-    "count_method": "explicit official page sentence",
-    "confidence": "medium"
-  },
-  "titles": [
-    "The SBU Difference",
-    "Pre-College Programs at Stony Brook",
-    "Cost & Aid",
-    "Visit",
-    "Request Info",
-    "back",
-    "The Education",
-    "Careers & Outcomes",
-    "Location",
-    "First Year/Freshman",
-    "Transfer",
-    "International",
-    "Second Degree",
-    "Majors & Degrees",
-    "Pre-Professional Programs",
-    "Accelerated/Combined Degrees",
-    "Honors Programs",
-    "Scholarships",
-    "Value",
-    "Campus Tour Opportunities",
-    "Highlights from Current Students",
-    "Virtual Info Sessions",
-    "Maps & Directions",
-    "Careers and Outcomes",
-    "Majors and Degrees",
-    "Information For",
-    "College Counselors",
-    "High School",
-    "Homeschoolers",
-    "Veterans",
-    "Outreach"
+  "source_urls": [
+    "https://www.stonybrook.edu/academic-programs",
+    "https://www.stonybrook.edu/academics/",
+    "https://www.stonybrook.edu/majors",
+    "https://www.stonybrook.edu/undergraduate/programs",
+    "https://www.stonybrook.edu/undergraduate-admissions/info-for/pre-college-programs.php",
+    "https://www.stonybrook.edu"
   ],
-  "notes": "explicit official page sentence; titles extracted from official page: https://www.stonybrook.edu/undergraduate-admissions/info-for/pre-college-programs.php"
+  "chart_title": "Undergraduate majors map — structured inventory",
+  "major_count_label": "31 mapped majors",
+  "total_label": "equal-weight bubbles",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. To keep the majors panel visually consistent with MIT, each official undergraduate major title is mapped into a broad discipline bucket and rendered as an equal-weight bubble. Bubble size here does not indicate enrollment.",
+  "summary_note": "31 mapped majors · equal-weight bubbles · official count page says 200 majors",
+  "legend_order": [
+    "Social Sciences",
+    "Interdisciplinary Programs"
+  ],
+  "totals": {
+    "mapped_major_titles": 31,
+    "official_major_count": 200
+  },
+  "notes": "explicit official page sentence explicit official page sentence; titles extracted from official page: https://www.stonybrook.edu/undergraduate-admissions/info-for/pre-college-programs.php Confidence: medium.",
+  "majors": [
+    {
+      "name": "Accelerated/Combined Degrees",
+      "code": "ACD",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Campus Tour Opportunities",
+      "code": "CTO",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Careers & Outcomes",
+      "code": "CO",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Careers and Outcomes",
+      "code": "CAO",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "College Counselors",
+      "code": "CC",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Cost & Aid",
+      "code": "CA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "First Year/Freshman",
+      "code": "FYF",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "High School",
+      "code": "HS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Highlights from Current Students",
+      "code": "HFCS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Homeschoolers",
+      "code": "Home",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Honors Programs",
+      "code": "HP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Information For",
+      "code": "IF",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "International",
+      "code": "Inte",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Location",
+      "code": "Location",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Majors & Degrees",
+      "code": "MD",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Majors and Degrees",
+      "code": "MAD",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Maps & Directions",
+      "code": "MD",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Outreach",
+      "code": "Outreach",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Pre-College Programs at Stony Brook",
+      "code": "PCPA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Pre-Professional Programs",
+      "code": "PPP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Request Info",
+      "code": "RI",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Scholarships",
+      "code": "Scho",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Second Degree",
+      "code": "SD",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "The Education",
+      "code": "TE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "The SBU Difference",
+      "code": "TSD",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Transfer",
+      "code": "Transfer",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Value",
+      "code": "Value",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Veterans",
+      "code": "Veterans",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Virtual Info Sessions",
+      "code": "VIS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Visit",
+      "code": "Visit",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "back",
+      "code": "back",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    }
+  ]
 }

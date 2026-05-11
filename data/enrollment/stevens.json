@@ -1,52 +1,317 @@
 {
   "university": "Stevens Institute of Technology",
   "slug": "stevens",
-  "retrieved_at": "2026-05-09",
-  "mode": "majors-list",
+  "academic_year": "Structured majors inventory",
+  "retrieved_at": "2026-05-10",
+  "mode": "mapped-majors",
   "source_url": "https://www.stevens.edu/academic-programs",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
-  "summary": {
-    "majors_count": 35,
-    "titles_count": 35,
-    "count_method": "explicit official page sentence",
-    "confidence": "medium"
-  },
-  "titles": [
-    "Chemical Biology",
-    "Accounting & Analytics",
-    "Artificial Intelligence",
-    "Biology",
-    "Biomedical Engineering",
-    "Chemical Engineering",
-    "Chemistry",
-    "Civil Engineering",
-    "Computer Engineering",
-    "Computer Science",
-    "Cybersecurity",
-    "Electrical Engineering",
-    "Engineering - Naval Engineering Concentration",
-    "Engineering Management",
-    "Environmental Engineering",
-    "Economics",
-    "Finance",
-    "Quantitative Finance",
-    "Engineering (General)",
-    "Industrial and Systems Engineering",
-    "Business & Technology",
-    "Information Systems",
-    "Bachelor's in Literature",
-    "Management",
-    "Marketing Innovation & Analytics",
-    "Mathematics",
-    "Mechanical Engineering",
-    "Bachelor’s in Music and Technology",
-    "Bachelor's in Philosophy",
-    "Physics",
-    "Bachelor's in Quantitative Social Science",
-    "Bachelor's in Science Communication",
-    "Bachelor's in Science, Technology and Society",
-    "Software Engineering",
-    "Bachelor’s in Visual Arts and Technology"
+  "source_urls": [
+    "https://www.stevens.edu/academic-programs",
+    "https://www.stevens.edu/academics",
+    "https://www.stevens.edu/majors",
+    "https://www.stevens.edu/undergraduate/programs",
+    "https://www.stevens.edu/academics/undergraduate-study",
+    "https://www.stevens.edu/academics/program-finder",
+    "https://www.stevens.edu"
   ],
-  "notes": "explicit official page sentence; titles extracted from official page: https://www.stevens.edu/academics/undergraduate-study; titles extracted from official page: https://www.stevens.edu/academics/program-finder"
+  "chart_title": "Undergraduate majors map — structured inventory",
+  "major_count_label": "35 mapped majors",
+  "total_label": "equal-weight bubbles",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. To keep the majors panel visually consistent with MIT, each official undergraduate major title is mapped into a broad discipline bucket and rendered as an equal-weight bubble. Bubble size here does not indicate enrollment.",
+  "summary_note": "35 mapped majors · equal-weight bubbles · official count page says 35 majors",
+  "legend_order": [
+    "Engineering",
+    "Science",
+    "Social Sciences",
+    "Humanities & Arts",
+    "Sloan School of Management",
+    "Interdisciplinary Programs"
+  ],
+  "totals": {
+    "mapped_major_titles": 35,
+    "official_major_count": 35
+  },
+  "notes": "explicit official page sentence explicit official page sentence; titles extracted from official page: https://www.stevens.edu/academics/undergraduate-study; titles extracted from official page: https://www.stevens.edu/academics/program-finder Confidence: medium.",
+  "majors": [
+    {
+      "name": "Accounting & Analytics",
+      "code": "AA",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Artificial Intelligence",
+      "code": "AI",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bachelor's in Literature",
+      "code": "BSIL",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bachelor's in Philosophy",
+      "code": "BSIP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bachelor's in Quantitative Social Science",
+      "code": "BSIQ",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bachelor's in Science Communication",
+      "code": "BSIS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bachelor's in Science, Technology and Society",
+      "code": "BSIS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bachelor’s in Music and Technology",
+      "code": "BSIM",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Bachelor’s in Visual Arts and Technology",
+      "code": "BSIV",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biology",
+      "code": "Biology",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biomedical Engineering",
+      "code": "BE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Business & Technology",
+      "code": "BT",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemical Biology",
+      "code": "CB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemical Engineering",
+      "code": "CE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemistry",
+      "code": "Chem",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Civil Engineering",
+      "code": "CE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Engineering",
+      "code": "CE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Science",
+      "code": "CS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Cybersecurity",
+      "code": "Cybe",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Economics",
+      "code": "Econ",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Electrical Engineering",
+      "code": "EE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Engineering (General)",
+      "code": "EG",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Engineering - Naval Engineering Concentration",
+      "code": "ENEC",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Engineering Management",
+      "code": "EM",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Engineering",
+      "code": "EE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Finance",
+      "code": "Finance",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Industrial and Systems Engineering",
+      "code": "IASE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Information Systems",
+      "code": "IS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Management",
+      "code": "Mana",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Marketing Innovation & Analytics",
+      "code": "MIA",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mathematics",
+      "code": "Math",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mechanical Engineering",
+      "code": "ME",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Physics",
+      "code": "Physics",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Quantitative Finance",
+      "code": "QF",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Software Engineering",
+      "code": "SE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    }
+  ]
 }

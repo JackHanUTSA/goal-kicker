@@ -1,30 +1,128 @@
 {
   "university": "University of Minnesota Twin Cities",
   "slug": "minnesota-twin-cities",
-  "retrieved_at": "2026-05-09",
-  "mode": "majors-list",
+  "academic_year": "Structured majors inventory",
+  "retrieved_at": "2026-05-10",
+  "mode": "mapped-majors",
   "source_url": "https://www.umn.edu/academic-programs",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
-  "summary": {
-    "majors_count": 13,
-    "titles_count": 13,
-    "count_method": "counted extracted undergraduate-major titles from an official page",
-    "confidence": "low"
-  },
-  "titles": [
-    "BA in Global Studies",
-    "Career Exploration",
-    "Learning Abroad",
-    "Real-World Experience",
-    "Courses",
-    "Scholarships & Grants",
-    "Advising",
-    "Meet Our Students",
-    "Transfer Guide",
-    "Career Paths",
-    "second language requirement",
-    "Global Studies Department Advising",
-    "University of Minnesota Global Undergraduate Leaders Program"
+  "source_urls": [
+    "https://www.umn.edu/academic-programs",
+    "https://www.umn.edu/academics",
+    "https://www.umn.edu/majors",
+    "https://www.umn.edu/undergraduate/programs",
+    "https://cla.umn.edu/global-studies/undergraduate/major-minor/ba-global-studies",
+    "https://www.umn.edu"
   ],
-  "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass; titles extracted from official page: https://cla.umn.edu/global-studies/undergraduate/major-minor/ba-global-studies"
+  "chart_title": "Undergraduate majors map — structured inventory",
+  "major_count_label": "12 mapped majors",
+  "total_label": "equal-weight bubbles",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. To keep the majors panel visually consistent with MIT, each official undergraduate major title is mapped into a broad discipline bucket and rendered as an equal-weight bubble. Bubble size here does not indicate enrollment.",
+  "summary_note": "12 mapped majors · equal-weight bubbles · official count page says 13 majors",
+  "legend_order": [
+    "Humanities & Arts",
+    "Interdisciplinary Programs"
+  ],
+  "totals": {
+    "mapped_major_titles": 12,
+    "official_major_count": 13
+  },
+  "notes": "counted extracted undergraduate-major titles from an official page auto-enrichment could not derive a reliable major/program count from the pages reached in this pass; titles extracted from official page: https://cla.umn.edu/global-studies/undergraduate/major-minor/ba-global-studies Confidence: low.",
+  "majors": [
+    {
+      "name": "Advising",
+      "code": "Advising",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "BA in Global Studies",
+      "code": "BIGS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Career Exploration",
+      "code": "CE",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Career Paths",
+      "code": "CP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Global Studies Department Advising",
+      "code": "GSDA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Learning Abroad",
+      "code": "LA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Meet Our Students",
+      "code": "MOS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Real-World Experience",
+      "code": "RWE",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Scholarships & Grants",
+      "code": "SG",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Transfer Guide",
+      "code": "TG",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "University of Minnesota Global Undergraduate Leaders Program",
+      "code": "UOMG",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "second language requirement",
+      "code": "SLR",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    }
+  ]
 }

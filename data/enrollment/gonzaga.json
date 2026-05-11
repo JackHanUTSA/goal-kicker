@@ -1,53 +1,302 @@
 {
   "university": "Gonzaga University",
   "slug": "gonzaga",
-  "retrieved_at": "2026-05-09",
-  "mode": "majors-list",
+  "academic_year": "Structured majors inventory",
+  "retrieved_at": "2026-05-10",
+  "mode": "mapped-majors",
   "source_url": "https://www.gonzaga.edu/academic-programs",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
-  "summary": {
-    "majors_count": 53,
-    "titles_count": 36,
-    "count_method": "explicit official page sentence",
-    "confidence": "medium"
-  },
-  "titles": [
-    "Gonzaga Home",
-    "Skip Navigation",
-    "University Navigation",
-    "Why Gonzaga?",
-    "Info For",
-    "Visit",
-    "Accepted Students",
-    "Excellent Academics & Programs",
-    "Affordability",
-    "Successful Outcomes",
-    "Internship Opportunities",
-    "Zags Lead",
-    "Explore GU",
-    "Videos",
-    "First-Year Students",
-    "Transfer Students",
-    "Dates & Deadlines",
-    "Deferred Students",
-    "Check Your Application Status",
-    "For Accepted Students",
-    "Scholarship Opportunities",
-    "Ways to Visit",
-    "Accepted Student Day (GEL)",
-    "Group Visits",
-    "Traveling to Campus",
-    "Connect with us Virtually",
-    "Request Info",
-    "Find your Counselor",
-    "Información en Español",
-    "Meet GU Students",
-    "Future Zag Parents",
-    "High School Counselor Information",
-    "Connect with Us Virtually",
-    "Successful Outcomes Successful Outcomes Gonzaga graduates explore, inspire and improve the world.",
-    "Find Your Counselor",
-    "Toggle Passion Finder"
+  "source_urls": [
+    "https://www.gonzaga.edu/academic-programs",
+    "https://www.gonzaga.edu/academics",
+    "https://www.gonzaga.edu/majors",
+    "https://www.gonzaga.edu/undergraduate-admission",
+    "https://www.gonzaga.edu"
   ],
-  "notes": "explicit official page sentence; titles extracted from official page: https://www.gonzaga.edu/undergraduate-admission"
+  "chart_title": "Undergraduate majors map — structured inventory",
+  "major_count_label": "34 mapped majors",
+  "total_label": "equal-weight bubbles",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. To keep the majors panel visually consistent with MIT, each official undergraduate major title is mapped into a broad discipline bucket and rendered as an equal-weight bubble. Bubble size here does not indicate enrollment.",
+  "summary_note": "34 mapped majors · equal-weight bubbles · official count page says 53 majors",
+  "legend_order": [
+    "Interdisciplinary Programs"
+  ],
+  "totals": {
+    "mapped_major_titles": 34,
+    "official_major_count": 53
+  },
+  "notes": "explicit official page sentence explicit official page sentence; titles extracted from official page: https://www.gonzaga.edu/undergraduate-admission Confidence: medium.",
+  "majors": [
+    {
+      "name": "Accepted Student Day",
+      "code": "ASD",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Accepted Students",
+      "code": "AS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Affordability",
+      "code": "Affo",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Check Your Application Status",
+      "code": "CYAS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Connect with us Virtually",
+      "code": "CWUV",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Dates & Deadlines",
+      "code": "DD",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Deferred Students",
+      "code": "DS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Excellent Academics & Programs",
+      "code": "EAP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Explore GU",
+      "code": "EG",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Find your Counselor",
+      "code": "FYC",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "First-Year Students",
+      "code": "FYS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "For Accepted Students",
+      "code": "FAS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Future Zag Parents",
+      "code": "FZP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Gonzaga Home",
+      "code": "GH",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Group Visits",
+      "code": "GV",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "High School Counselor Information",
+      "code": "HSCI",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Info For",
+      "code": "IF",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Información en Español",
+      "code": "INEE",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Internship Opportunities",
+      "code": "IO",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Meet GU Students",
+      "code": "MGS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Request Info",
+      "code": "RI",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Scholarship Opportunities",
+      "code": "SO",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Skip Navigation",
+      "code": "SN",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Successful Outcomes",
+      "code": "SO",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Successful Outcomes Successful Outcomes Gonzaga graduates explore, inspire and improve the world.",
+      "code": "SOSO",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Toggle Passion Finder",
+      "code": "TPF",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Transfer Students",
+      "code": "TS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Traveling to Campus",
+      "code": "TTC",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "University Navigation",
+      "code": "UN",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Videos",
+      "code": "Videos",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Visit",
+      "code": "Visit",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Ways to Visit",
+      "code": "WTV",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Why Gonzaga?",
+      "code": "WG",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Zags Lead",
+      "code": "ZL",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    }
+  ]
 }

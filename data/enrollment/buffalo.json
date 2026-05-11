@@ -1,107 +1,756 @@
 {
   "university": "University at Buffalo",
   "slug": "buffalo",
-  "retrieved_at": "2026-05-09",
-  "mode": "majors-list",
+  "academic_year": "Structured majors inventory",
+  "retrieved_at": "2026-05-10",
+  "mode": "mapped-majors",
   "source_url": "https://www.buffalo.edu/academic-programs.html",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
-  "summary": {
-    "majors_count": 350,
-    "titles_count": 90,
-    "count_method": "explicit official page sentence",
-    "confidence": "medium"
-  },
-  "titles": [
-    "2/2/26 Anthropology BA/MA",
-    "2/2/26 Biological Sciences BA/MS",
-    "3/21/25 Biomedical Engineering BS/MBA",
-    "8/4/25 Business Administration BS/MBA",
-    "6/2/25 Econometrics and Quantitative Economics BA/MS",
-    "3/21/25 Economics BA/MA",
-    "3/21/25 Electrical Engineering BS/Business Administration MBA",
-    "3/21/25 English BA/MA",
-    "3/21/25 Exercise Science BS/DPT",
-    "3/21/25 Exercise Science BS/MS",
-    "3/21/25 Global Affairs BA/MA",
-    "9/22/25 Industrial Engineering BS/Business Administration MBA",
-    "3/21/25 Mechanical Engineering BS/Business Administration MBA",
-    "9/26/25 Media Study",
-    "3/21/25 Medicinal Chemistry BS/MS",
-    "3/21/25 Neuroscience BS/MS",
-    "3/21/25 Pharmaceutical Sciences BS/MS",
-    "3/21/25 Pharmacology and Toxicology BS/MS",
-    "3/21/25 Political Science BA/MA",
-    "2/18/26 Public Health BS/MPH",
-    "11/17/25 Studio Art",
-    "8/18/25 Adult/Gerontology Nurse Practitioner (Post-MS) DNP",
-    "8/18/25 Adult/Gerontology Nurse Practitioner DNP",
-    "8/18/25 Affordable Housing",
-    "8/18/25 Biology Education: Adolescence EDM",
-    "8/18/25 Business Administration (Full Time) MBA",
-    "4/6/26 Chemical Engineering ME",
-    "8/18/25 Chemistry Education: Adolescence EdM",
-    "8/18/25 Child Health Nurse Practitioner (Post-MS) DNP",
-    "8/18/25 Childhood Education (Grades 1-6) EdM",
-    "8/18/25 Childhood Education With Bilingual Extension (Grades 1-6) EdM",
-    "3/20/26 Communicative Disorders and Sciences AuD",
-    "8/18/25 Computer Science Education EdM",
-    "8/18/25 Dance MFA",
-    "4/6/26 Data Sciences and Applications MPS",
-    "4/15/26 Dentistry DDS",
-    "8/18/25 Early Childhood Education (Birth to Grade 2) EdM",
-    "8/18/25 Early Childhood Education With Bilingual Extension (Birth to Grade 2) EdM",
-    "8/18/25 Early Childhood/Childhood Education (Birth to Grade 6) EdM",
-    "8/18/25 Earth Science Education: Adolescence EdM",
-    "8/18/25 Education Studies EdM",
-    "8/18/25 Educational Culture, Policy and Society EdM",
-    "4/6/26 Electrical Engineering ME",
-    "8/18/25 English Education Studies EdM",
-    "8/18/25 English Education: Adolescence EdM",
-    "8/18/25 English for Speakers of Other Languages EdM",
-    "8/18/25 Family Nurse Practitioner (Post-MS) DNP",
-    "8/18/25 Family Nurse Practitioner DNP",
-    "8/18/25 Fine Arts MFA",
-    "8/18/25 French Education: Adolescence EdM",
-    "4/28/26 Higher Education Administration EdM",
-    "8/18/25 Higher Education and Student Affairs EdM",
-    "4/15/26 International Dentist Program DDS",
-    "8/18/25 Latin Education: Adolescence EdM",
-    "4/9/26 Learning Sciences and Educational Technology EdM",
-    "8/18/25 Literacy Education Studies EdM",
-    "8/18/25 Literacy Specialist EdM",
-    "8/18/25 Media Arts Production MFA",
-    "8/18/25 Music Education Studies EDM",
-    "8/18/25 Music Education, Initial/Professional EdM",
-    "8/18/25 Music Performance MM",
-    "8/18/25 Nurse Anesthesia (Post-MS) DNP",
-    "8/18/25 Nurse Anesthesia DNP",
-    "8/18/25 Online Professional Business Administration MBA",
-    "8/18/25 Physical Therapy DPT",
-    "8/18/25 Physics Education: Adolescence EdM",
-    "8/18/25 Psychiatric/Mental Health Nurse Practitioner (Post-MS) DNP",
-    "8/18/25 Psychiatric/Mental Health Nurse Practitioner DNP",
-    "3/16/26 Public Health: Addictions MPH (In Person or Hybrid)",
-    "3/16/26 Public Health: Addictions MPH (Online)",
-    "3/16/26 Public Health: Biostatistics MPH (In Person or Hybrid)",
-    "3/16/26 Public Health: Environmental Health MPH (In Person or Hybrid)",
-    "3/16/26 Public Health: Epidemiology MPH (In Person or Hybrid)",
-    "3/16/26 Public Health: Epidemiology MPH (Online)",
-    "3/16/26 Public Health: Health Equity MPH (In Person or Hybrid)",
-    "3/16/26 Public Health: Health Equity MPH (Online)",
-    "3/16/26 Public Health: Health Services Administration MPH (In Person or Hybrid)",
-    "3/16/26 Public Health: Health Services Administration MPH (Online)",
-    "3/16/26 Public Health: Individualized MPH (In Person or Hybrid)",
-    "3/16/26 Public Health: Individualized MPH (Online)",
-    "8/18/25 Qualitative Methodology AC",
-    "8/18/25 School Counseling EdM",
-    "8/18/25 Social Studies Education: Adolescence EdM",
-    "8/18/25 Social Welfare Online DSW",
-    "8/18/25 Social Work MBA/MSW",
-    "8/18/25 Social Work MPH/MSW",
-    "8/18/25 Spanish Education: Adolescence EdM",
-    "8/18/25 Teaching English to Speakers of Other Languages EdM",
-    "8/18/25 Urban Planning MUP",
-    "8/18/25 Women's Health Nurse Practitioner (Post-MS) DNP"
+  "source_urls": [
+    "https://www.buffalo.edu/academic-programs.html",
+    "https://www.buffalo.edu/home/academics.html",
+    "https://www.buffalo.edu/majors.html",
+    "https://www.buffalo.edu/grad/explore/about/programs.html",
+    "https://www.buffalo.edu"
   ],
-  "notes": "explicit official page sentence; titles extracted from official page: https://www.buffalo.edu/grad/explore/about/programs.html"
+  "chart_title": "Undergraduate majors map — structured inventory",
+  "major_count_label": "90 mapped majors",
+  "total_label": "equal-weight bubbles",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. To keep the majors panel visually consistent with MIT, each official undergraduate major title is mapped into a broad discipline bucket and rendered as an equal-weight bubble. Bubble size here does not indicate enrollment.",
+  "summary_note": "90 mapped majors · equal-weight bubbles · official count page says 350 majors",
+  "legend_order": [
+    "Architecture and Planning",
+    "Engineering",
+    "Science",
+    "Social Sciences",
+    "Humanities & Arts",
+    "Sloan School of Management",
+    "Interdisciplinary Programs"
+  ],
+  "totals": {
+    "mapped_major_titles": 90,
+    "official_major_count": 350
+  },
+  "notes": "explicit official page sentence explicit official page sentence; titles extracted from official page: https://www.buffalo.edu/grad/explore/about/programs.html Confidence: medium.",
+  "majors": [
+    {
+      "name": "11/17/25 Studio Art",
+      "code": "112S",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "2/18/26 Public Health BS/MPH",
+      "code": "212P",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "2/2/26 Anthropology BA/MA",
+      "code": "222A",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "2/2/26 Biological Sciences BA/MS",
+      "code": "222B",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "3/16/26 Public Health: Addictions MPH (In Person or Hybrid)",
+      "code": "312P",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "3/16/26 Public Health: Addictions MPH (Online)",
+      "code": "312P",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "3/16/26 Public Health: Biostatistics MPH (In Person or Hybrid)",
+      "code": "312P",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "3/16/26 Public Health: Environmental Health MPH (In Person or Hybrid)",
+      "code": "312P",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "3/16/26 Public Health: Epidemiology MPH (In Person or Hybrid)",
+      "code": "312P",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "3/16/26 Public Health: Epidemiology MPH (Online)",
+      "code": "312P",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "3/16/26 Public Health: Health Equity MPH (In Person or Hybrid)",
+      "code": "312P",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "3/16/26 Public Health: Health Equity MPH (Online)",
+      "code": "312P",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "3/16/26 Public Health: Health Services Administration MPH (In Person or Hybrid)",
+      "code": "312P",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "3/16/26 Public Health: Health Services Administration MPH (Online)",
+      "code": "312P",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "3/16/26 Public Health: Individualized MPH (In Person or Hybrid)",
+      "code": "312P",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "3/16/26 Public Health: Individualized MPH (Online)",
+      "code": "312P",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "3/20/26 Communicative Disorders and Sciences AuD",
+      "code": "322C",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "3/21/25 Biomedical Engineering BS/MBA",
+      "code": "322B",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "3/21/25 Economics BA/MA",
+      "code": "322E",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "3/21/25 Electrical Engineering BS/Business Administration MBA",
+      "code": "322E",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "3/21/25 English BA/MA",
+      "code": "322E",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "3/21/25 Exercise Science BS/DPT",
+      "code": "322E",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "3/21/25 Exercise Science BS/MS",
+      "code": "322E",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "3/21/25 Global Affairs BA/MA",
+      "code": "322G",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "3/21/25 Mechanical Engineering BS/Business Administration MBA",
+      "code": "322M",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "3/21/25 Medicinal Chemistry BS/MS",
+      "code": "322M",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "3/21/25 Neuroscience BS/MS",
+      "code": "322N",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "3/21/25 Pharmaceutical Sciences BS/MS",
+      "code": "322P",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "3/21/25 Pharmacology and Toxicology BS/MS",
+      "code": "322P",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "3/21/25 Political Science BA/MA",
+      "code": "322P",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "4/15/26 Dentistry DDS",
+      "code": "412D",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "4/15/26 International Dentist Program DDS",
+      "code": "412I",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "4/28/26 Higher Education Administration EdM",
+      "code": "422H",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "4/6/26 Chemical Engineering ME",
+      "code": "462C",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "4/6/26 Data Sciences and Applications MPS",
+      "code": "462D",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "4/6/26 Electrical Engineering ME",
+      "code": "462E",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "4/9/26 Learning Sciences and Educational Technology EdM",
+      "code": "492L",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "6/2/25 Econometrics and Quantitative Economics BA/MS",
+      "code": "622E",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Adult/Gerontology Nurse Practitioner (Post-MS) DNP",
+      "code": "812A",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Adult/Gerontology Nurse Practitioner DNP",
+      "code": "812A",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Affordable Housing",
+      "code": "812A",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Biology Education: Adolescence EDM",
+      "code": "812B",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Business Administration (Full Time) MBA",
+      "code": "812B",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Chemistry Education: Adolescence EdM",
+      "code": "812C",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Child Health Nurse Practitioner (Post-MS) DNP",
+      "code": "812C",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Childhood Education (Grades 1-6) EdM",
+      "code": "812C",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Childhood Education With Bilingual Extension (Grades 1-6) EdM",
+      "code": "812C",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Computer Science Education EdM",
+      "code": "812C",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Dance MFA",
+      "code": "812D",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Early Childhood Education (Birth to Grade 2) EdM",
+      "code": "812E",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Early Childhood Education With Bilingual Extension (Birth to Grade 2) EdM",
+      "code": "812E",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Early Childhood/Childhood Education (Birth to Grade 6) EdM",
+      "code": "812E",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Earth Science Education: Adolescence EdM",
+      "code": "812E",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Education Studies EdM",
+      "code": "812E",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Educational Culture, Policy and Society EdM",
+      "code": "812E",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 English Education Studies EdM",
+      "code": "812E",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 English Education: Adolescence EdM",
+      "code": "812E",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 English for Speakers of Other Languages EdM",
+      "code": "812E",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Family Nurse Practitioner (Post-MS) DNP",
+      "code": "812F",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Family Nurse Practitioner DNP",
+      "code": "812F",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Fine Arts MFA",
+      "code": "812F",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 French Education: Adolescence EdM",
+      "code": "812F",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Higher Education and Student Affairs EdM",
+      "code": "812H",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Latin Education: Adolescence EdM",
+      "code": "812L",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Literacy Education Studies EdM",
+      "code": "812L",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Literacy Specialist EdM",
+      "code": "812L",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Media Arts Production MFA",
+      "code": "812M",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Music Education Studies EDM",
+      "code": "812M",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Music Education, Initial/Professional EdM",
+      "code": "812M",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Music Performance MM",
+      "code": "812M",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Nurse Anesthesia (Post-MS) DNP",
+      "code": "812N",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Nurse Anesthesia DNP",
+      "code": "812N",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Online Professional Business Administration MBA",
+      "code": "812O",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Physical Therapy DPT",
+      "code": "812P",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Physics Education: Adolescence EdM",
+      "code": "812P",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Psychiatric/Mental Health Nurse Practitioner (Post-MS) DNP",
+      "code": "812P",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Psychiatric/Mental Health Nurse Practitioner DNP",
+      "code": "812P",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Qualitative Methodology AC",
+      "code": "812Q",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 School Counseling EdM",
+      "code": "812S",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Social Studies Education: Adolescence EdM",
+      "code": "812S",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Social Welfare Online DSW",
+      "code": "812S",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Social Work MBA/MSW",
+      "code": "812S",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Social Work MPH/MSW",
+      "code": "812S",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Spanish Education: Adolescence EdM",
+      "code": "812S",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Teaching English to Speakers of Other Languages EdM",
+      "code": "812T",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Urban Planning MUP",
+      "code": "812U",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/18/25 Women's Health Nurse Practitioner (Post-MS) DNP",
+      "code": "812W",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "8/4/25 Business Administration BS/MBA",
+      "code": "842B",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "9/22/25 Industrial Engineering BS/Business Administration MBA",
+      "code": "922I",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "9/26/25 Media Study",
+      "code": "922M",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    }
+  ]
 }

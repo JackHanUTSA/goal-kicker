@@ -1,39 +1,198 @@
 {
   "university": "University of Delaware",
   "slug": "university-of-delaware",
-  "retrieved_at": "2026-05-09",
-  "mode": "majors-list",
+  "academic_year": "Structured majors inventory",
+  "retrieved_at": "2026-05-10",
+  "mode": "mapped-majors",
   "source_url": "https://www.udel.edu/academics/",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
-  "summary": {
-    "majors_count": 4,
-    "titles_count": 22,
-    "count_method": "explicit official page sentence",
-    "confidence": "medium"
-  },
-  "titles": [
-    "Self-Reported Transcript and Academic Record System",
-    "Accelerate-U Delaware",
-    "Major Finder",
-    "Honors College",
-    "World Scholars",
-    "Scholars and Fellows",
-    "Plan Your Visit",
-    "Financing Your Degree",
-    "In-State Freshmen",
-    "Out-of-State Freshmen",
-    "Transfer Students",
-    "International Students",
-    "Admitted Students",
-    "Pre-College Programs",
-    "Edge Summer College Program",
-    "College Readiness Scholars Institute",
-    "Meet Your Counselor",
-    "School and Independent Counselors",
-    "Student stories",
-    "Hear from our students",
-    "Graduate Program Finder",
-    "Virtual Tour"
+  "source_urls": [
+    "https://www.udel.edu/academics/",
+    "https://www1.udel.edu/academic-programs",
+    "https://www1.udel.edu/majors",
+    "https://www.udel.edu/apply/undergraduate-admissions/",
+    "https://www.udel.edu"
   ],
-  "notes": "explicit official page sentence; titles extracted from official page: https://www.udel.edu/apply/undergraduate-admissions/"
+  "chart_title": "Undergraduate majors map — structured inventory",
+  "major_count_label": "21 mapped majors",
+  "total_label": "equal-weight bubbles",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. To keep the majors panel visually consistent with MIT, each official undergraduate major title is mapped into a broad discipline bucket and rendered as an equal-weight bubble. Bubble size here does not indicate enrollment.",
+  "summary_note": "21 mapped majors · equal-weight bubbles · official count page says 4 majors",
+  "legend_order": [
+    "Interdisciplinary Programs"
+  ],
+  "totals": {
+    "mapped_major_titles": 21,
+    "official_major_count": 4
+  },
+  "notes": "explicit official page sentence explicit official page sentence; titles extracted from official page: https://www.udel.edu/apply/undergraduate-admissions/ Confidence: medium.",
+  "majors": [
+    {
+      "name": "Accelerate-U Delaware",
+      "code": "AUD",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Admitted Students",
+      "code": "AS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "College Readiness Scholars Institute",
+      "code": "CRSI",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Edge Summer College Program",
+      "code": "ESCP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Financing Your Degree",
+      "code": "FYD",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Hear from our students",
+      "code": "HFOS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Honors College",
+      "code": "HC",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "In-State Freshmen",
+      "code": "ISF",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "International Students",
+      "code": "IS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Major Finder",
+      "code": "MF",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Meet Your Counselor",
+      "code": "MYC",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Out-of-State Freshmen",
+      "code": "OOSF",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Plan Your Visit",
+      "code": "PYV",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Pre-College Programs",
+      "code": "PCP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Scholars and Fellows",
+      "code": "SAF",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "School and Independent Counselors",
+      "code": "SAIC",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Self-Reported Transcript and Academic Record System",
+      "code": "SRTA",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Student stories",
+      "code": "SS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Transfer Students",
+      "code": "TS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Virtual Tour",
+      "code": "VT",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "World Scholars",
+      "code": "WS",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    }
+  ]
 }

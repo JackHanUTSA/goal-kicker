@@ -1,24 +1,88 @@
 {
   "university": "American University",
   "slug": "american",
-  "retrieved_at": "2026-05-09",
-  "mode": "majors-list",
+  "academic_year": "Structured majors inventory",
+  "retrieved_at": "2026-05-10",
+  "mode": "mapped-majors",
   "source_url": "https://www.american.edu/academic-programs",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
-  "summary": {
-    "majors_count": 7,
-    "titles_count": 7,
-    "count_method": "counted extracted undergraduate-major titles from an official page",
-    "confidence": "low"
-  },
-  "titles": [
-    "Start your journey at AU in Washington, DC.",
-    "Discover Your Future with AU",
-    "Or browse by",
-    "Pursue Your Purpose",
-    "Find your AU opportunity. Challenge accepted.",
-    "Are you interested in...",
-    "Professional Learning"
+  "source_urls": [
+    "https://www.american.edu/academic-programs",
+    "https://www.american.edu/academics",
+    "https://www.american.edu/majors",
+    "https://www.american.edu/undergraduate/programs",
+    "https://www.american.edu/",
+    "https://www.american.edu"
   ],
-  "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass; titles extracted from official page: https://www.american.edu/"
+  "chart_title": "Undergraduate majors map — structured inventory",
+  "major_count_label": "7 mapped majors",
+  "total_label": "equal-weight bubbles",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. To keep the majors panel visually consistent with MIT, each official undergraduate major title is mapped into a broad discipline bucket and rendered as an equal-weight bubble. Bubble size here does not indicate enrollment.",
+  "summary_note": "7 mapped majors · equal-weight bubbles · official count page says 7 majors",
+  "legend_order": [
+    "Humanities & Arts",
+    "Interdisciplinary Programs"
+  ],
+  "totals": {
+    "mapped_major_titles": 7,
+    "official_major_count": 7
+  },
+  "notes": "counted extracted undergraduate-major titles from an official page auto-enrichment could not derive a reliable major/program count from the pages reached in this pass; titles extracted from official page: https://www.american.edu/ Confidence: low.",
+  "majors": [
+    {
+      "name": "Are you interested in...",
+      "code": "AYII",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Discover Your Future with AU",
+      "code": "DYFW",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Find your AU opportunity. Challenge accepted.",
+      "code": "FYAO",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Or browse by",
+      "code": "OBB",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Professional Learning",
+      "code": "PL",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Pursue Your Purpose",
+      "code": "PYP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Start your journey at AU in Washington, DC.",
+      "code": "SYJA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    }
+  ]
 }

@@ -1,44 +1,248 @@
 {
   "university": "Harvard University",
   "slug": "harvard",
-  "retrieved_at": "2026-05-09",
-  "mode": "majors-list",
+  "academic_year": "Structured majors inventory",
+  "retrieved_at": "2026-05-10",
+  "mode": "mapped-majors",
   "source_url": "https://college.harvard.edu/academics",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
-  "summary": {
-    "majors_count": 50,
-    "titles_count": 27,
-    "count_method": "official Harvard page states 50 undergraduate fields of study (concentrations)",
-    "confidence": "medium"
-  },
-  "titles": [
-    "special concentration",
-    "Visit the Astrophysics Page",
-    "Visit the Biomedical Engineering Page",
-    "Visit the Chemistry Page",
-    "Visit the Computer Science Page",
-    "Visit the Earth and Planetary Sciences Page",
-    "Visit the Economics Page",
-    "Visit the Electrical Engineering Page",
-    "Visit the English Page",
-    "Visit the Environmental Science and Engineering Page",
-    "Visit the Government Page",
-    "Visit the History Page",
-    "Visit the History and Science Page",
-    "Visit the History of Art and Architecture Page",
-    "Visit the Human Developmental and Regenerative Biology Page",
-    "concentration information",
-    "Visit the Molecular and Cellular Biology Page",
-    "Visit the Music Page",
-    "Visit the Neuroscience Page",
-    "Visit the Philosophy Page",
-    "Visit the Psychology Page",
-    "Visit the Romance Languages and Literature Page",
-    "Visit the Sociology Page",
-    "Visit the South Asian Studies Page",
-    "Visit the Statistics Page",
-    "Visit the Studies of Women, Gender, and Sexuality Page",
-    "Office of Undergraduate Education"
+  "source_urls": [
+    "https://college.harvard.edu/academics",
+    "https://college.harvard.edu/academics/liberal-arts-sciences/concentrations"
   ],
-  "notes": "official Harvard page states 50 undergraduate fields of study (concentrations); titles extracted from official page: https://college.harvard.edu/academics/liberal-arts-sciences/concentrations"
+  "chart_title": "Undergraduate majors map — structured inventory",
+  "major_count_label": "27 mapped majors",
+  "total_label": "equal-weight bubbles",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. To keep the majors panel visually consistent with MIT, each official undergraduate major title is mapped into a broad discipline bucket and rendered as an equal-weight bubble. Bubble size here does not indicate enrollment.",
+  "summary_note": "27 mapped majors · equal-weight bubbles · official count page says 50 majors",
+  "legend_order": [
+    "Architecture and Planning",
+    "Engineering",
+    "Science",
+    "Social Sciences",
+    "Humanities & Arts",
+    "Interdisciplinary Programs"
+  ],
+  "totals": {
+    "mapped_major_titles": 27,
+    "official_major_count": 50
+  },
+  "notes": "official Harvard page states 50 undergraduate fields of study (concentrations) official Harvard page states 50 undergraduate fields of study (concentrations); titles extracted from official page: https://college.harvard.edu/academics/liberal-arts-sciences/concentrations Confidence: medium.",
+  "majors": [
+    {
+      "name": "Office of Undergraduate Education",
+      "code": "OOUE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Visit the Astrophysics Page",
+      "code": "VTAP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Visit the Biomedical Engineering Page",
+      "code": "VTBE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Visit the Chemistry Page",
+      "code": "VTCP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Visit the Computer Science Page",
+      "code": "VTCS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Visit the Earth and Planetary Sciences Page",
+      "code": "VTEA",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Visit the Economics Page",
+      "code": "VTEP",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Visit the Electrical Engineering Page",
+      "code": "VTEE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Visit the English Page",
+      "code": "VTEP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Visit the Environmental Science and Engineering Page",
+      "code": "VTES",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Visit the Government Page",
+      "code": "VTGP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Visit the History Page",
+      "code": "VTHP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Visit the History and Science Page",
+      "code": "VTHA",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Visit the History of Art and Architecture Page",
+      "code": "VTHO",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Visit the Human Developmental and Regenerative Biology Page",
+      "code": "VTHD",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Visit the Molecular and Cellular Biology Page",
+      "code": "VTMA",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Visit the Music Page",
+      "code": "VTMP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Visit the Neuroscience Page",
+      "code": "VTNP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Visit the Philosophy Page",
+      "code": "VTPP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Visit the Psychology Page",
+      "code": "VTPP",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Visit the Romance Languages and Literature Page",
+      "code": "VTRL",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Visit the Sociology Page",
+      "code": "VTSP",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Visit the South Asian Studies Page",
+      "code": "VTSA",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Visit the Statistics Page",
+      "code": "VTSP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Visit the Studies of Women, Gender, and Sexuality Page",
+      "code": "VTSO",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "concentration information",
+      "code": "CI",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "special concentration",
+      "code": "SC",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    }
+  ]
 }

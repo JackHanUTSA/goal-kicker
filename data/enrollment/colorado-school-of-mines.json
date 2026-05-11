@@ -1,34 +1,170 @@
 {
   "university": "Colorado School of Mines",
   "slug": "colorado-school-of-mines",
-  "retrieved_at": "2026-05-09",
-  "mode": "majors-list",
+  "academic_year": "Structured majors inventory",
+  "retrieved_at": "2026-05-10",
+  "mode": "mapped-majors",
   "source_url": "https://www.mines.edu/academic-programs",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
-  "summary": {
-    "majors_count": 60,
-    "titles_count": 17,
-    "count_method": "counted extracted undergraduate-major titles from an official page",
-    "confidence": "low"
-  },
-  "titles": [
-    "Applied Mathematics and Statistics",
-    "Chemical and Biological Engineering",
-    "Civil and Environmental Engineering",
-    "Chemistry",
-    "Computer Science",
-    "Economics and Business",
-    "Engineering, Design and Society",
-    "Electrical Engineering",
-    "Geology and Geological Engineering",
-    "Geophysics",
-    "Mechanical Engineering",
-    "Metallurgical and Materials Engineering",
-    "Mining Engineering",
-    "Petroleum Engineering",
-    "Physics",
-    "Quantitative Biosciences and Engineering",
-    "Download Page (PDF)"
+  "source_urls": [
+    "https://www.mines.edu/academic-programs",
+    "https://www.mines.edu/academics/",
+    "https://www.mines.edu/majors",
+    "https://catalog.mines.edu/azindex/",
+    "https://catalog.mines.edu/undergraduate/programs/",
+    "https://www.mines.edu"
   ],
-  "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass; titles extracted from official page: https://catalog.mines.edu/azindex/; titles extracted from official page: https://catalog.mines.edu/undergraduate/programs/"
+  "chart_title": "Undergraduate majors map — structured inventory",
+  "major_count_label": "17 mapped majors",
+  "total_label": "equal-weight bubbles",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. To keep the majors panel visually consistent with MIT, each official undergraduate major title is mapped into a broad discipline bucket and rendered as an equal-weight bubble. Bubble size here does not indicate enrollment.",
+  "summary_note": "17 mapped majors · equal-weight bubbles · official count page says 60 majors",
+  "legend_order": [
+    "Engineering",
+    "Science",
+    "Sloan School of Management",
+    "Interdisciplinary Programs"
+  ],
+  "totals": {
+    "mapped_major_titles": 17,
+    "official_major_count": 60
+  },
+  "notes": "counted extracted undergraduate-major titles from an official page auto-enrichment could not derive a reliable major/program count from the pages reached in this pass; titles extracted from official page: https://catalog.mines.edu/azindex/; titles extracted from official page: https://catalog.mines.edu/undergraduate/programs/ Confidence: low.",
+  "majors": [
+    {
+      "name": "Applied Mathematics and Statistics",
+      "code": "AMAS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemical and Biological Engineering",
+      "code": "CABE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemistry",
+      "code": "Chem",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Civil and Environmental Engineering",
+      "code": "CAEE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Science",
+      "code": "CS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Download Page",
+      "code": "DP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Economics and Business",
+      "code": "EAB",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Electrical Engineering",
+      "code": "EE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Engineering, Design and Society",
+      "code": "EDAS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Geology and Geological Engineering",
+      "code": "GAGE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Geophysics",
+      "code": "Geop",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mechanical Engineering",
+      "code": "ME",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Metallurgical and Materials Engineering",
+      "code": "MAME",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Mining Engineering",
+      "code": "ME",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Petroleum Engineering",
+      "code": "PE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Physics",
+      "code": "Physics",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Quantitative Biosciences and Engineering",
+      "code": "QBAE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    }
+  ]
 }

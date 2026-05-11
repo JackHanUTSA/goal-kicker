@@ -1,31 +1,145 @@
 {
   "university": "University of Tennessee, Knoxville",
   "slug": "tennessee-knoxville",
-  "retrieved_at": "2026-05-09",
-  "mode": "majors-list",
+  "academic_year": "Structured majors inventory",
+  "retrieved_at": "2026-05-10",
+  "mode": "mapped-majors",
   "source_url": "https://www.utk.edu/academics",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
-  "summary": {
-    "majors_count": 14,
-    "titles_count": 14,
-    "count_method": "counted extracted undergraduate-major titles from an official page",
-    "confidence": "low"
-  },
-  "titles": [
-    "Request more info",
-    "Agriculture and natural resources",
-    "Architecture and design",
-    "Art and performance",
-    "Business",
-    "Communication and information sciences",
-    "Education",
-    "English and literature",
-    "Health, wellness, and human sciences",
-    "Languages, cultures, and humanities",
-    "Law and justice",
-    "Science",
-    "Social science and social work",
-    "Veterinary"
+  "source_urls": [
+    "https://www.utk.edu/academics",
+    "https://www.utk.edu/majors",
+    "https://www.utk.edu/academics/areas-of-study/agriculture-natural-resources-programs",
+    "https://www.utk.edu"
   ],
-  "notes": "auto-enrichment could not derive a reliable major/program count from the pages reached in this pass; titles extracted from official page: https://www.utk.edu/academics/areas-of-study/agriculture-natural-resources-programs"
+  "chart_title": "Undergraduate majors map — structured inventory",
+  "major_count_label": "14 mapped majors",
+  "total_label": "equal-weight bubbles",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. To keep the majors panel visually consistent with MIT, each official undergraduate major title is mapped into a broad discipline bucket and rendered as an equal-weight bubble. Bubble size here does not indicate enrollment.",
+  "summary_note": "14 mapped majors · equal-weight bubbles · official count page says 14 majors",
+  "legend_order": [
+    "Architecture and Planning",
+    "Social Sciences",
+    "Humanities & Arts",
+    "Sloan School of Management",
+    "Interdisciplinary Programs"
+  ],
+  "totals": {
+    "mapped_major_titles": 14,
+    "official_major_count": 14
+  },
+  "notes": "counted extracted undergraduate-major titles from an official page auto-enrichment could not derive a reliable major/program count from the pages reached in this pass; titles extracted from official page: https://www.utk.edu/academics/areas-of-study/agriculture-natural-resources-programs Confidence: low.",
+  "majors": [
+    {
+      "name": "Agriculture and natural resources",
+      "code": "AANR",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Architecture and design",
+      "code": "AAD",
+      "school": "Architecture and Planning",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Art and performance",
+      "code": "AAP",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Business",
+      "code": "Business",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Communication and information sciences",
+      "code": "CAIS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Education",
+      "code": "Educ",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English and literature",
+      "code": "EAL",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Health, wellness, and human sciences",
+      "code": "HWAH",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Languages, cultures, and humanities",
+      "code": "LCAH",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Law and justice",
+      "code": "LAJ",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Request more info",
+      "code": "RMI",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Science",
+      "code": "Science",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Social science and social work",
+      "code": "SSAS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Veterinary",
+      "code": "Vete",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    }
+  ]
 }

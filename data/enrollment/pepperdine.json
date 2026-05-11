@@ -1,31 +1,137 @@
 {
   "university": "Pepperdine University",
   "slug": "pepperdine",
-  "retrieved_at": "2026-05-09",
-  "mode": "majors-list",
+  "academic_year": "Structured majors inventory",
+  "retrieved_at": "2026-05-10",
+  "mode": "mapped-majors",
   "source_url": "https://www.pepperdine.edu/academic-programs",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. This panel shows the structured undergraduate majors inventory currently stored in the knowledgebase.",
-  "summary": {
-    "majors_count": 46,
-    "titles_count": 14,
-    "count_method": "explicit official page sentence",
-    "confidence": "medium"
-  },
-  "titles": [
-    "Schools of Pepperdine",
-    "Seaver College of Letters, Arts, and Sciences",
-    "Caruso School of Law",
-    "Graziadio Business School",
-    "Graduate School of Education and Psychology",
-    "International Programs",
-    "Meet the Faculty",
-    "Accreditation",
-    "Seaver College",
-    "expected learning outcomes",
-    "Academic Calendar",
-    "Academic Catalog",
-    "Centers and Institutes",
-    "Faculty"
+  "source_urls": [
+    "https://www.pepperdine.edu/academic-programs",
+    "https://www.pepperdine.edu/academics/",
+    "https://www.pepperdine.edu/majors",
+    "https://www.pepperdine.edu/undergraduate/programs",
+    "https://www.pepperdine.edu"
   ],
-  "notes": "explicit official page sentence; titles extracted from official page: https://www.pepperdine.edu/academics/"
+  "chart_title": "Undergraduate majors map — structured inventory",
+  "major_count_label": "13 mapped majors",
+  "total_label": "equal-weight bubbles",
+  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. To keep the majors panel visually consistent with MIT, each official undergraduate major title is mapped into a broad discipline bucket and rendered as an equal-weight bubble. Bubble size here does not indicate enrollment.",
+  "summary_note": "13 mapped majors · equal-weight bubbles · official count page says 46 majors",
+  "legend_order": [
+    "Social Sciences",
+    "Humanities & Arts",
+    "Sloan School of Management",
+    "Interdisciplinary Programs"
+  ],
+  "totals": {
+    "mapped_major_titles": 13,
+    "official_major_count": 46
+  },
+  "notes": "explicit official page sentence explicit official page sentence; titles extracted from official page: https://www.pepperdine.edu/academics/ Confidence: medium.",
+  "majors": [
+    {
+      "name": "Academic Calendar",
+      "code": "AC",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Accreditation",
+      "code": "Accr",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Caruso School of Law",
+      "code": "CSOL",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Centers and Institutes",
+      "code": "CAI",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Faculty",
+      "code": "Faculty",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Graduate School of Education and Psychology",
+      "code": "GSOE",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Graziadio Business School",
+      "code": "GBS",
+      "school": "Sloan School of Management",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "International Programs",
+      "code": "IP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Meet the Faculty",
+      "code": "MTF",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Schools of Pepperdine",
+      "code": "SOP",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Seaver College",
+      "code": "SC",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Seaver College of Letters, Arts, and Sciences",
+      "code": "SCOL",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "expected learning outcomes",
+      "code": "ELO",
+      "school": "Interdisciplinary Programs",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    }
+  ]
 }
