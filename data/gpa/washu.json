@@ -1,16 +1,11 @@
 {
   "university": "Washington University in St. Louis",
   "slug": "washu",
-  "retrieved_at": "2026-05-09",
+  "retrieved_at": "2026-05-10",
   "scope": "policy-summary",
-  "scope_note": "Goal Kicker currently exports GPA-policy notes for this school. Where the school does not publish a hard GPA cutoff or admitted-student GPA distribution, the panel says that directly instead of inventing a threshold.",
+  "scope_note": "Washington University in St. Louis does not publish a minimum GPA cutoff or admitted-student GPA distribution on the cited official pages used here. The policy section stays official; the estimate card below is third-party and directional.",
   "source_urls": [
-    "https://admissions.washu.edu/how-to-apply/",
-    "https://admissions.washu.edu/",
-    "https://admissions.washu.edu/academics/",
-    "https://washu.edu/admission-aid/",
-    "https://washu.edu/apply",
-    "https://www.wustl.edu"
+    "https://admissions.washu.edu/how-to-apply/"
   ],
   "policy_summary": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
   "what_mit_does_say": [
@@ -18,5 +13,19 @@
       "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
       "source_url": "https://admissions.washu.edu/how-to-apply/"
     }
-  ]
+  ],
+  "recommended_gpa": {
+    "summary": "Washington University in St. Louis does not publish HS GPA data for its incoming class on the cited official pages. The estimate below is a third-party directional reference, not an official WashU cutoff.",
+    "estimates": [
+      {
+        "source": "PrepScholar",
+        "value": "4.19",
+        "scale": "weighted, 4.0 scale",
+        "label": "Weighted (estimate)",
+        "method": "Estimated by PrepScholar because the university did not officially report an average incoming high-school GPA on the cited admissions pages.",
+        "url": "https://www.prepscholar.com/sat/s/colleges/Washington-University-In-St-Louis-admission-requirements"
+      }
+    ],
+    "interpretation": "This estimate points to near-straight-A grades in rigorous coursework. WashU's official admissions language remains the policy source; the estimate is only a directional reference."
+  }
 }

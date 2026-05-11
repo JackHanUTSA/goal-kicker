@@ -1,16 +1,11 @@
 {
   "university": "Vanderbilt University",
   "slug": "vanderbilt",
-  "retrieved_at": "2026-05-09",
+  "retrieved_at": "2026-05-10",
   "scope": "policy-summary",
-  "scope_note": "Goal Kicker currently exports GPA-policy notes for this school. Where the school does not publish a hard GPA cutoff or admitted-student GPA distribution, the panel says that directly instead of inventing a threshold.",
+  "scope_note": "Vanderbilt University does not publish a minimum GPA cutoff or admitted-student GPA distribution on the cited official pages used here. The policy section stays official; the estimate card below is third-party and directional.",
   "source_urls": [
-    "https://admissions.vanderbilt.edu/",
-    "https://apply.vanderbilt.edu/apply/",
-    "https://www.vanderbilt.edu/admission",
-    "https://www.vanderbilt.edu/admissions",
-    "https://www.vanderbilt.edu/apply",
-    "https://www.vanderbilt.edu"
+    "https://admissions.vanderbilt.edu/"
   ],
   "policy_summary": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
   "what_mit_does_say": [
@@ -18,5 +13,19 @@
       "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
       "source_url": "https://admissions.vanderbilt.edu/"
     }
-  ]
+  ],
+  "recommended_gpa": {
+    "summary": "Vanderbilt does not publish HS GPA data for its incoming class on the cited official pages. The estimate below is a third-party directional reference, not an official Vanderbilt cutoff.",
+    "estimates": [
+      {
+        "source": "PrepScholar",
+        "value": "3.89",
+        "scale": "weighted, 4.0 scale",
+        "label": "Weighted (estimate)",
+        "method": "Estimated by PrepScholar because the university did not officially report an average incoming high-school GPA on the cited admissions pages.",
+        "url": "https://www.prepscholar.com/sat/s/colleges/Vanderbilt-admission-requirements"
+      }
+    ],
+    "interpretation": "This estimate points to a very strong grade profile, even though it sits below the 4.x weighted estimates seen at some peers. Treat it as a directional benchmark rather than an official Vanderbilt minimum."
+  }
 }

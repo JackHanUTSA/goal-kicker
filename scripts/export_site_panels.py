@@ -257,6 +257,11 @@ def write_json(path: Path, payload: dict[str, Any], force: bool) -> bool:
         incoming_is_fallback = payload.get("mode") == "majors-list"
         if existing_is_rich and incoming_is_fallback:
             return False
+        if isinstance(existing, dict) and path.parent.name == "gpa":
+            if existing.get("recommended_gpa") and not payload.get("recommended_gpa"):
+                payload["recommended_gpa"] = existing["recommended_gpa"]
+            if existing.get("scope_note") and payload.get("scope_note", "").startswith("Goal Kicker currently exports GPA-policy notes"):
+                payload["scope_note"] = existing["scope_note"]
         if not force:
             return False
     path.parent.mkdir(parents=True, exist_ok=True)

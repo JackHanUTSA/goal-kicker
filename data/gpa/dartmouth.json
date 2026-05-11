@@ -3,7 +3,7 @@
   "slug": "dartmouth",
   "retrieved_at": "2026-05-10",
   "scope": "policy-summary",
-  "scope_note": "Goal Kicker currently exports GPA-policy notes for this school. Where the school does not publish a hard GPA cutoff or admitted-student GPA distribution, the panel says that directly instead of inventing a threshold.",
+  "scope_note": "Dartmouth College does not publish a minimum GPA cutoff or admitted-student GPA distribution on the cited official pages used here. The policy section stays official; the estimate card below is third-party and directional.",
   "source_urls": [
     "https://admissions.dartmouth.edu/apply/counselors"
   ],
@@ -13,5 +13,19 @@
       "claim": "Dartmouth does not publish a minimum GPA on the cited official admissions pages. Dartmouth says a top secondary school GPA can predict college success, but it evaluates grade trends and transcript context rather than using GPA alone as a cutoff.",
       "source_url": "https://admissions.dartmouth.edu/apply/counselors"
     }
-  ]
+  ],
+  "recommended_gpa": {
+    "summary": "Dartmouth does not publish HS GPA data for its incoming class on the cited official pages. The estimate below is a third-party directional reference, not an official Dartmouth cutoff.",
+    "estimates": [
+      {
+        "source": "PrepScholar",
+        "value": "4.11",
+        "scale": "weighted, 4.0 scale",
+        "label": "Weighted (estimate)",
+        "method": "Estimated by PrepScholar because the university did not officially report an average incoming high-school GPA on the cited admissions pages.",
+        "url": "https://www.prepscholar.com/sat/s/colleges/Dartmouth-admission-requirements"
+      }
+    ],
+    "interpretation": "This estimate suggests that successful applicants usually present extremely strong grades, but Dartmouth's official guidance still points readers back to transcript context and grade trends instead of a hard minimum."
+  }
 }

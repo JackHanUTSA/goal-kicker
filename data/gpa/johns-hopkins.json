@@ -3,7 +3,7 @@
   "slug": "johns-hopkins",
   "retrieved_at": "2026-05-10",
   "scope": "policy-summary",
-  "scope_note": "Goal Kicker currently exports GPA-policy notes for this school. Where the school does not publish a hard GPA cutoff or admitted-student GPA distribution, the panel says that directly instead of inventing a threshold.",
+  "scope_note": "Johns Hopkins University does not publish a minimum GPA cutoff or admitted-student GPA distribution on the cited official pages used here. The policy section stays official; the estimate card below is third-party and directional.",
   "source_urls": [
     "https://apply.jhu.edu/college-planning-guide/preparing-for-college/"
   ],
@@ -13,5 +13,19 @@
       "claim": "Johns Hopkins does not publish a minimum GPA on the cited official admissions pages. Hopkins says it reviews applications holistically in the context of a student's school and recommends a challenging high school curriculum rather than a fixed GPA cutoff.",
       "source_url": "https://apply.jhu.edu/college-planning-guide/preparing-for-college/"
     }
-  ]
+  ],
+  "recommended_gpa": {
+    "summary": "Johns Hopkins does not publish HS GPA data for its incoming class on the cited official pages. The estimate below is a third-party directional reference, not an official Hopkins cutoff.",
+    "estimates": [
+      {
+        "source": "PrepScholar",
+        "value": "3.93",
+        "scale": "weighted, 4.0 scale",
+        "label": "Weighted (estimate)",
+        "method": "Estimated by PrepScholar because the university did not officially report an average incoming high-school GPA on the cited admissions pages.",
+        "url": "https://www.prepscholar.com/sat/s/colleges/Johns-Hopkins-admission-requirements"
+      }
+    ],
+    "interpretation": "This estimate points to an applicant pool with very strong grades, but Hopkins' official process remains holistic and school-context driven. Treat the number as directional rather than required."
+  }
 }
