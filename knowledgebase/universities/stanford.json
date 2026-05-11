@@ -175,14 +175,14 @@
     "confidence": "medium"
   },
   "admissions": {
-    "application_platform": null,
-    "testing_policy": "ACT or SAT scores are required for first-year and transfer students; Stanford also says there are no minimum test scores required for admission.",
-    "gpa_policy": "No explicit minimum GPA found in the cited Stanford first-year pages.",
-    "course_rigor": "Stanford says every component of the application is valuable and that there is no score guaranteeing admission; the cited pages do not state a simple minimum course-rigor formula.",
-    "recommendations": "Stanford requires a school report form and counselor letter of recommendation plus letters of recommendation from two teachers.",
-    "essays": "Stanford's first-year application materials include application and essays guidance, but a structured official essay-count extraction was not completed in this pass.",
+    "application_platform": "Common Application",
+    "testing_policy": "ACT or SAT scores are required for first-year applicants. Stanford says there are no minimum test scores required for admission and no score that guarantees admission.",
+    "gpa_policy": "Stanford does not publish a minimum GPA cutoff on its first-year admissions pages; instead, it says courses and grades matter and points applicants to rigorous academic preparation.",
+    "course_rigor": "Stanford recommends rigorous coursework each year, roughly five academic courses per semester, and strong performance across English, math, social studies, science, and world language.",
+    "recommendations": "Stanford requires a school report form and counselor recommendation plus letters of recommendation from two academic teachers.",
+    "essays": "Applicants submit the Common Application personal essay and Stanford Questions, including several short questions plus three short essays of 100 to 250 words each.",
     "portfolio_or_audition": null,
-    "international_notes": null,
+    "international_notes": "Students pursuing an international curriculum should send academic results and predictions if available.",
     "deadlines": []
   },
   "competitive_signals": {

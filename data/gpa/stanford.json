@@ -1,12 +1,34 @@
 {
   "university": "Stanford University",
   "slug": "stanford",
-  "retrieved_at": "2026-05-09",
-  "scope": "policy-summary",
-  "scope_note": "Goal Kicker currently exports GPA-policy notes for this school. Where the school does not publish a hard GPA cutoff or admitted-student GPA distribution, the panel says that directly instead of inventing a threshold.",
+  "retrieved_at": "2026-05-10",
+  "scope": "official-policy-summary",
+  "scope_note": "Stanford's official first-year admissions pages do not publish a minimum GPA cutoff or admitted-student GPA distribution. This panel therefore summarizes what Stanford officially says about grades, course strength, and academic preparation instead of inventing a GPA threshold.",
   "source_urls": [
-    "https://admission.stanford.edu/"
+    "https://admission.stanford.edu/apply/first-year/prepare.html",
+    "https://admission.stanford.edu/apply/first-year/testing.html"
   ],
-  "policy_summary": "No explicit minimum GPA found in the cited Stanford first-year pages.",
-  "what_mit_does_say": []
+  "policy_summary": "Stanford does not state a minimum required GPA on its first-year admissions pages. Instead, it tells applicants that courses and grades matter and evaluates them in the context of rigorous academic preparation.",
+  "what_mit_does_say": [
+    {
+      "claim": "Your courses and grades matter.",
+      "source_url": "https://admission.stanford.edu/apply/first-year/prepare.html"
+    },
+    {
+      "claim": "Stanford says a strong academic foundation prepares students to thrive in its fast-paced and rigorous quarter system.",
+      "source_url": "https://admission.stanford.edu/apply/first-year/prepare.html"
+    },
+    {
+      "claim": "Stanford does not have a set of required courses for admission.",
+      "source_url": "https://admission.stanford.edu/apply/first-year/prepare.html"
+    },
+    {
+      "claim": "Stanford says students who demonstrate success and mastery in its recommended curriculum are prepared for the academic rigors at Stanford.",
+      "source_url": "https://admission.stanford.edu/apply/first-year/prepare.html"
+    },
+    {
+      "claim": "Stanford reviews applications holistically and says there are no minimum test scores required for admission and no score that guarantees admission.",
+      "source_url": "https://admission.stanford.edu/apply/first-year/testing.html"
+    }
+  ]
 }

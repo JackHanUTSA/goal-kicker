@@ -1,29 +1,73 @@
 {
   "university": "Stanford University",
   "slug": "stanford",
-  "retrieved_at": "2026-05-09",
-  "scope": "application-guidance",
-  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
-  "source_url": "https://admission.stanford.edu/",
+  "retrieved_at": "2026-05-10",
+  "scope": "institution_wide",
+  "scope_note": "This panel uses Stanford's official first-year academic-preparation page. The recommendations are school-wide and Stanford explicitly says they are recommendations, not rigid admission requirements or major-specific formulas.",
+  "source_url": "https://admission.stanford.edu/apply/first-year/prepare.html",
   "source_urls": [
-    "https://admission.stanford.edu/"
+    "https://admission.stanford.edu/apply/first-year/prepare.html",
+    "https://admission.stanford.edu/apply/first-year/forms.html",
+    "https://admission.stanford.edu/apply/first-year/apply.html"
   ],
+  "audience": "first-year applicants",
   "areas": [
     {
-      "key": "course-rigor",
-      "name": "Course rigor",
+      "key": "overall-rigor",
+      "name": "Overall rigor",
       "level": "school-guidance",
-      "summary": "Stanford says every component of the application is valuable and that there is no score guaranteeing admission; the cited pages do not state a simple minimum course-rigor formula.",
-      "detail": "Stanford says every component of the application is valuable and that there is no score guaranteeing admission; the cited pages do not state a simple minimum course-rigor formula.",
+      "summary": "Take rigorous courses each year and roughly five academic courses per semester, including senior year.",
+      "detail": "Stanford says applicants should take rigorous courses that build mastery of academic subjects each year, achieve at a high level across the five core liberal arts and science areas, and take approximately five academic courses each semester, including during the final year.",
       "color": "#60a5fa"
     },
     {
-      "key": "recommendations",
-      "name": "Recommendations",
-      "level": "application-material",
-      "summary": "Stanford requires a school report form and counselor letter of recommendation plus letters of recommendation from two teachers.",
-      "detail": "Stanford requires a school report form and counselor letter of recommendation plus letters of recommendation from two teachers.",
+      "key": "english",
+      "name": "English",
+      "level": "recommended",
+      "summary": "Four years, with an emphasis on writing and literature.",
+      "detail": "Stanford lists four years of English, with an emphasis on writing and literature, in its recommended high school curriculum.",
+      "color": "#f59e0b"
+    },
+    {
+      "key": "mathematics",
+      "name": "Mathematics",
+      "level": "recommended",
+      "summary": "Four years of rigorous mathematics, including calculus.",
+      "detail": "Stanford's recommended curriculum calls for four years of rigorous mathematics, including calculus.",
       "color": "#34d399"
+    },
+    {
+      "key": "history-social-studies",
+      "name": "History/Social Studies",
+      "level": "recommended",
+      "summary": "Minimum three years.",
+      "detail": "Stanford recommends at least three years of history or social studies in high school.",
+      "color": "#a78bfa"
+    },
+    {
+      "key": "science",
+      "name": "Science",
+      "level": "recommended",
+      "summary": "Minimum three years across courses like biology, chemistry, physics, computer science, human anatomy, and environmental science.",
+      "detail": "Stanford recommends at least three years of science and specifically lists examples such as biology, chemistry, physics, computer science, human anatomy, and environmental science.",
+      "color": "#22d3ee"
+    },
+    {
+      "key": "world-language",
+      "name": "World Language",
+      "level": "recommended",
+      "summary": "Minimum three years of the same language.",
+      "detail": "Stanford recommends at least three years of the same world language in high school.",
+      "color": "#f472b6"
+    },
+    {
+      "key": "recommendations-and-essays",
+      "name": "Recommendations and essays",
+      "level": "application-material",
+      "summary": "Two academic teacher recommendations are required, and Stanford also requires its own short-answer and short-essay questions through the Common Application.",
+      "detail": "Stanford requires letters of recommendation from two academic teachers and a school report/counselor recommendation. It also says applicants complete the Common Application personal essay plus the Stanford Questions, including several short questions and three short essays of 100 to 250 words each.",
+      "color": "#fb7185"
     }
-  ]
+  ],
+  "international_note": "Stanford's forms page says students pursuing an international curriculum should send academic results and predictions if available; the prepare page also notes that course availability and scheduling limits can be explained in the Additional Information section."
 }

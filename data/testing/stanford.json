@@ -1,22 +1,44 @@
 {
   "university": "Stanford University",
   "slug": "stanford",
-  "retrieved_at": "2026-05-09",
-  "scope": "policy-summary",
-  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "retrieved_at": "2026-05-10",
+  "class_label": "Class of 2028 submitted scores",
+  "scope": "submitted_scores",
+  "scope_note": "Stanford's official testing page gives the current first-year testing policy and class-wide middle-50% ranges for students in the Class of 2028 who submitted scores. Stanford does not publish per-major testing ranges, so this panel stays school-wide.",
   "source_url": "https://admission.stanford.edu/apply/first-year/testing.html",
   "source_urls": [
-    "https://admission.stanford.edu/apply/first-year/testing.html",
-    "https://admission.stanford.edu/"
+    "https://admission.stanford.edu/apply/first-year/testing.html"
   ],
-  "policy": "ACT or SAT scores are required for first-year and transfer students; Stanford also says there are no minimum test scores required for admission.",
+  "policy": "ACT or SAT scores are required for first-year applicants. Stanford says there are no minimum test scores required for admission and no score that guarantees admission.",
+  "ranges": [
+    {
+      "test": "SAT Total",
+      "p25": 1510,
+      "p75": 1570,
+      "max": 1600
+    },
+    {
+      "test": "ACT Composite",
+      "p25": 34,
+      "p75": 35,
+      "max": 36
+    }
+  ],
   "claims": [
     {
-      "claim": "ACT or SAT scores are required for first-year and transfer students.",
+      "claim": "Standardized testing is one of the application requirements that can highlight academic preparedness.",
       "source_url": "https://admission.stanford.edu/apply/first-year/testing.html"
     },
     {
-      "claim": "ACT or SAT scores are required for first-year and transfer students; Stanford also says there are no minimum test scores required for admission.",
+      "claim": "Please self-report your highest ACT and/or SAT scores in the testing section of the application; Stanford reviews either self-reported or official scores for application review.",
+      "source_url": "https://admission.stanford.edu/apply/first-year/testing.html"
+    },
+    {
+      "claim": "If admitted and enrolled, official ACT and/or SAT scores matching the self-reported results are required.",
+      "source_url": "https://admission.stanford.edu/apply/first-year/testing.html"
+    },
+    {
+      "claim": "Stanford does not have a preferred exam (ACT vs. SAT).",
       "source_url": "https://admission.stanford.edu/apply/first-year/testing.html"
     }
   ]
