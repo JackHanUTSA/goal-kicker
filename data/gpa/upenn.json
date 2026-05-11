@@ -1,16 +1,26 @@
 {
   "university": "University of Pennsylvania",
   "slug": "upenn",
-  "retrieved_at": "2026-05-09",
-  "scope": "policy-summary",
-  "scope_note": "Goal Kicker currently exports GPA-policy notes for this school. Where the school does not publish a hard GPA cutoff or admitted-student GPA distribution, the panel says that directly instead of inventing a threshold.",
+  "retrieved_at": "2026-05-10",
+  "scope": "official-policy-summary",
+  "scope_note": "Penn does not publish a minimum GPA cutoff on these admissions pages. This panel instead summarizes the official transcript/context guidance used in review.",
   "source_urls": [
-    "https://admissions.upenn.edu/how-to-apply/preparing-your-application/testing",
     "https://admissions.upenn.edu/how-to-apply/preparing-your-application/academics",
-    "https://admissions.upenn.edu/how-to-apply/preparing-your-application/letters-of-recommendation",
-    "https://admissions.upenn.edu/how-to-apply/preparing-your-application/writing",
-    "https://www.upenn.edu"
+    "https://admissions.upenn.edu/how-to-apply/preparing-your-application/testing"
   ],
-  "policy_summary": "Penn does not publish a minimum GPA on the cited admissions pages.",
-  "what_mit_does_say": []
+  "policy_summary": "Penn does not publish a minimum GPA. Instead, it reviews grades in core subjects, the school profile, and whether the transcript prepares the student for the undergraduate school or program they selected.",
+  "what_mit_does_say": [
+    {
+      "claim": "Penn reviews each school profile to understand course offerings, grading scale, and opportunities.",
+      "source_url": "https://admissions.upenn.edu/how-to-apply/preparing-your-application/academics"
+    },
+    {
+      "claim": "Penn asks whether grades in core subjects show readiness for the specific academic program chosen by the applicant.",
+      "source_url": "https://admissions.upenn.edu/how-to-apply/preparing-your-application/academics"
+    },
+    {
+      "claim": "Penn also says there is no minimum score required on the SAT or ACT to apply.",
+      "source_url": "https://admissions.upenn.edu/how-to-apply/preparing-your-application/testing"
+    }
+  ]
 }

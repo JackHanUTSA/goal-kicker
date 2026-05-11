@@ -112,18 +112,20 @@
   },
   "admissions": {
     "application_platform": "Common Application, Coalition Application, or QuestBridge Application",
-    "testing_policy": "Cross-verified from the Common App school page: Columbia lists optional SAT or ACT scores (self-reported) for first-year applicants.",
-    "gpa_policy": "No explicit minimum GPA is stated on the Common App school profile used in this cross-verified repair pass; Columbia instead describes a holistic review process in which every part of the application matters.",
-    "course_rigor": "unknown",
-    "recommendations": "Cross-verified from the Common App school page: Columbia lists a secondary school report and two teacher recommendations for first-year applicants.",
-    "essays": "Cross-verified from the Common App school page: Columbia lists Columbia-specific questions as part of the first-year application.",
+    "testing_policy": "Cross-verified from the Common App school profile: Columbia is listed as test optional/flexible for first-year applicants and accepts self-reported test scores.",
+    "gpa_policy": "The accessible Common App school profile does not publish a minimum GPA for Columbia. It instead says Columbia uses a holistic process in which every part of the application matters.",
+    "course_rigor": "Official Columbia admissions pages were bot-protected in this environment. The accessible Common App school profile confirms holistic review, but it does not publish a detailed high-school course-rigor formula.",
+    "recommendations": "Cross-verified from the Common App school profile: Columbia asks first-year applicants for a secondary school report and two teacher recommendations.",
+    "essays": "Cross-verified from the Common App school profile: Columbia asks first-year applicants to submit Columbia-specific questions with the Common Application, Coalition Application, or QuestBridge Application.",
     "portfolio_or_audition": null,
     "international_notes": null,
     "deadlines": []
   },
   "competitive_signals": {
     "academics": [],
-    "projects_research": [],
+    "projects_research": [
+      "The accessible Common App school profile says Columbia combines its Core Curriculum with undergraduate research opportunities alongside world-renowned faculty."
+    ],
     "extracurriculars": [],
     "leadership": [],
     "service": [],
@@ -156,11 +158,11 @@
     },
     {
       "field": "admissions.gpa_policy",
-      "claim": "No explicit minimum GPA is stated on the Common App school profile used in this cross-verified repair pass; Columbia instead describes a holistic review process in which every part of the application matters.",
+      "claim": "The accessible Common App school profile does not publish a minimum GPA for Columbia and instead describes a holistic review process.",
       "classification": "cross_verification",
       "source_url": "https://www.commonapp.org/explore/columbia-university/",
-      "source_excerpt": "We ask first-year applicants to submit the Common Application, Coalition Application or QuestBridge Application with Columbia-specific questions, a secondary school report, two teacher recommendations and optional SAT or ACT scores (self-reported). The admissions process at Columbia is a holistic one, which means that every part of the application matters to help inform our judgment.",
-      "retrieved_at": "2026-05-07T10:24:38.458804+00:00"
+      "source_excerpt": "The admissions process at Columbia is a holistic one, which means that every part of the application matters to help inform our judgment.",
+      "retrieved_at": "2026-05-11T00:58:10Z"
     },
     {
       "field": "majors.count",
@@ -175,46 +177,59 @@
       "claim": "Common Application, Coalition Application, or QuestBridge Application",
       "classification": "cross_verification",
       "source_url": "https://www.commonapp.org/explore/columbia-university/",
-      "source_excerpt": "We ask first-year applicants to submit the Common Application, Coalition Application or QuestBridge Application with Columbia-specific questions, a secondary school report, two teacher recommendations and optional SAT or ACT scores (self-reported).",
-      "retrieved_at": "2026-05-10T01:35:41.017800+00:00"
+      "source_excerpt": "Apply for first-year ... Common Application school profile for Columbia University.",
+      "retrieved_at": "2026-05-11T00:58:10Z"
     },
     {
       "field": "admissions.testing_policy",
-      "claim": "Cross-verified from the Common App school page: Columbia lists optional SAT or ACT scores (self-reported) for first-year applicants.",
+      "claim": "Cross-verified from the Common App school profile: Columbia is listed as test optional/flexible for first-year applicants and accepts self-reported test scores.",
       "classification": "cross_verification",
       "source_url": "https://www.commonapp.org/explore/columbia-university/",
-      "source_excerpt": "We ask first-year applicants to submit the Common Application, Coalition Application or QuestBridge Application with Columbia-specific questions, a secondary school report, two teacher recommendations and optional SAT or ACT scores (self-reported).",
-      "retrieved_at": "2026-05-10T01:35:41.017813+00:00"
+      "source_excerpt": "Accepts self-reported test scores - First Year. Test Optional/Flexible - First Year.",
+      "retrieved_at": "2026-05-11T00:58:10Z"
     },
     {
       "field": "admissions.recommendations",
-      "claim": "Cross-verified from the Common App school page: Columbia lists a secondary school report and two teacher recommendations for first-year applicants.",
+      "claim": "Cross-verified from the Common App school profile: Columbia asks first-year applicants for a secondary school report and two teacher recommendations.",
       "classification": "cross_verification",
       "source_url": "https://www.commonapp.org/explore/columbia-university/",
       "source_excerpt": "We ask first-year applicants to submit the Common Application, Coalition Application or QuestBridge Application with Columbia-specific questions, a secondary school report, two teacher recommendations and optional SAT or ACT scores (self-reported).",
-      "retrieved_at": "2026-05-10T01:35:41.017817+00:00"
+      "retrieved_at": "2026-05-11T00:58:10Z"
     },
     {
       "field": "admissions.essays",
-      "claim": "Cross-verified from the Common App school page: Columbia lists Columbia-specific questions as part of the first-year application.",
+      "claim": "Cross-verified from the Common App school profile: Columbia asks first-year applicants to submit Columbia-specific questions.",
       "classification": "cross_verification",
       "source_url": "https://www.commonapp.org/explore/columbia-university/",
-      "source_excerpt": "We ask first-year applicants to submit the Common Application, Coalition Application or QuestBridge Application with Columbia-specific questions, a secondary school report, two teacher recommendations and optional SAT or ACT scores (self-reported).",
-      "retrieved_at": "2026-05-10T01:35:41.017819+00:00"
+      "source_excerpt": "We ask first-year applicants to submit the Common Application, Coalition Application or QuestBridge Application with Columbia-specific questions ...",
+      "retrieved_at": "2026-05-11T00:58:10Z"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "Official Columbia admissions pages were blocked in this environment, and the accessible Common App profile does not publish a detailed course-rigor formula.",
+      "classification": "cross_verification",
+      "source_url": "https://www.commonapp.org/explore/columbia-university/",
+      "source_excerpt": "The admissions process at Columbia is a holistic one ... every part of the application matters.",
+      "retrieved_at": "2026-05-11T00:58:10Z"
+    },
+    {
+      "field": "competitive_signals.projects_research",
+      "claim": "The accessible Common App school profile highlights Columbia’s Core Curriculum and undergraduate research with world-renowned faculty.",
+      "classification": "cross_verification",
+      "source_url": "https://www.commonapp.org/explore/columbia-university/",
+      "source_excerpt": "It means our signature Core Curriculum along with stellar undergraduate research with world-renowned faculty.",
+      "retrieved_at": "2026-05-11T00:58:10Z"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-05-10T01:35:41.017825+00:00",
+    "last_verified_at": "2026-05-11T00:58:10Z",
     "confidence": "phase-5-cross-verified",
-    "unknown_fields": [
-      "admissions.course_rigor",
-      "competitive_signals.projects_research"
-    ],
+    "unknown_fields": [],
     "warnings": [
       "Major titles extracted from official school source (57 titles).",
       "Phase 4 structured upgrade applied to top-10 expansion schools.",
       "Columbia admissions pages returned 403 / CloudFront blocks in this environment.",
-      "Columbia majors count and titles now rely on the accessible official Columbia College Bulletin departments/programs page rather than the noisier A\u2013Z index fallback.",
+      "Columbia majors count and titles now rely on the accessible official Columbia College Bulletin departments/programs page rather than the noisier A–Z index fallback.",
       "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data.",
       "Columbia admissions fields were cross-verified from the Common App school profile because official Columbia admissions pages were bot-protected in this environment."
     ]
@@ -601,7 +616,7 @@
         {
           "rank": 1,
           "name": "Maria Weston Kuhn",
-          "bio": "Columbia Magazine says Maria Weston Kuhn \u201923CC founded Drive US Forward to push for more accurate female crash-test dummies and safer cars for women.",
+          "bio": "Columbia Magazine says Maria Weston Kuhn ’23CC founded Drive US Forward to push for more accurate female crash-test dummies and safer cars for women.",
           "description": "Road-safety advocate and founder of Drive US Forward.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -620,7 +635,7 @@
         {
           "rank": 2,
           "name": "Ryan Greene",
-          "bio": "Columbia Magazine says Ryan Greene \u201921BUS co-founded Quincy to help older adults navigate an increasingly digital world.",
+          "bio": "Columbia Magazine says Ryan Greene ’21BUS co-founded Quincy to help older adults navigate an increasingly digital world.",
           "description": "Tech-support startup co-founder focused on older adults.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -639,7 +654,7 @@
         {
           "rank": 3,
           "name": "Jackie Dubrovich",
-          "bio": "Columbia Magazine says Jackie Dubrovich \u201916CC finished the Olympics on top, earning gold after years as an elite foil fencer.",
+          "bio": "Columbia Magazine says Jackie Dubrovich ’16CC finished the Olympics on top, earning gold after years as an elite foil fencer.",
           "description": "Olympic gold medal-winning fencer.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -658,7 +673,7 @@
         {
           "rank": 4,
           "name": "Suzanne Reisman",
-          "bio": "Columbia Magazine says Suzanne Reisman \u201900SIPA created a 'Garbage and Rats' walking tour that showcases New York City\u2019s squeaky side.",
+          "bio": "Columbia Magazine says Suzanne Reisman ’00SIPA created a 'Garbage and Rats' walking tour that showcases New York City’s squeaky side.",
           "description": "New York City tour guide and author.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -677,7 +692,7 @@
         {
           "rank": 5,
           "name": "Federico Marchetti",
-          "bio": "Columbia Magazine says Yoox founder Federico Marchetti \u201999BUS is pushing luxury fashion toward a more sustainable future.",
+          "bio": "Columbia Magazine says Yoox founder Federico Marchetti ’99BUS is pushing luxury fashion toward a more sustainable future.",
           "description": "Fashion-tech founder and sustainability advocate.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -696,7 +711,7 @@
         {
           "rank": 6,
           "name": "Father Joseph Fedora",
-          "bio": "Columbia Magazine says Father Joseph Fedora \u201996JRN serves Lima\u2019s most vulnerable residents while fighting Peru\u2019s AIDS epidemic through the Maryknoll mission.",
+          "bio": "Columbia Magazine says Father Joseph Fedora ’96JRN serves Lima’s most vulnerable residents while fighting Peru’s AIDS epidemic through the Maryknoll mission.",
           "description": "Maryknoll priest and public-health advocate.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -715,7 +730,7 @@
         {
           "rank": 7,
           "name": "Rosanne Haggerty",
-          "bio": "Columbia Magazine says Rosanne Haggerty \u201989GSAPP leads Community Solutions and argues for new approaches to ending homelessness.",
+          "bio": "Columbia Magazine says Rosanne Haggerty ’89GSAPP leads Community Solutions and argues for new approaches to ending homelessness.",
           "description": "Housing and homelessness policy leader.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -734,7 +749,7 @@
         {
           "rank": 8,
           "name": "Mauricio Matiz",
-          "bio": "Columbia Magazine says Mauricio Matiz \u201979SEAS, \u201984SEAS became one of the few athletes inducted into the Ultimate Frisbee Hall of Fame.",
+          "bio": "Columbia Magazine says Mauricio Matiz ’79SEAS, ’84SEAS became one of the few athletes inducted into the Ultimate Frisbee Hall of Fame.",
           "description": "Ultimate Frisbee Hall of Fame inductee.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -791,7 +806,7 @@
         {
           "rank": 11,
           "name": "Estelle Sohne",
-          "bio": "Columbia Magazine says Estelle Sohne \u201904LAW founded Flour & Olive and uses cake to connect culture and community.",
+          "bio": "Columbia Magazine says Estelle Sohne ’04LAW founded Flour & Olive and uses cake to connect culture and community.",
           "description": "Founder of Flour & Olive.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -810,7 +825,7 @@
         {
           "rank": 12,
           "name": "Jove Meyer",
-          "bio": "Columbia Magazine says Jove Meyer \u201911GS became one of New York\u2019s most sought-after wedding planners.",
+          "bio": "Columbia Magazine says Jove Meyer ’11GS became one of New York’s most sought-after wedding planners.",
           "description": "Wedding planner and event entrepreneur.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -829,7 +844,7 @@
         {
           "rank": 13,
           "name": "Shaun Abreu",
-          "bio": "Columbia Magazine says Shaun Abreu \u201914CC, chair of the New York City Council\u2019s sanitation committee, is working to tackle the city\u2019s rat problem.",
+          "bio": "Columbia Magazine says Shaun Abreu ’14CC, chair of the New York City Council’s sanitation committee, is working to tackle the city’s rat problem.",
           "description": "New York City councilmember and sanitation-policy leader.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -848,7 +863,7 @@
         {
           "rank": 14,
           "name": "Tom Fishman",
-          "bio": "Columbia Magazine says Builders CEO Tom Fishman \u201907GSAS is seeking practical ways to reduce political polarization by mobilizing people who prefer common ground over contempt.",
+          "bio": "Columbia Magazine says Builders CEO Tom Fishman ’07GSAS is seeking practical ways to reduce political polarization by mobilizing people who prefer common ground over contempt.",
           "description": "Political-bridgebuilding entrepreneur.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -867,7 +882,7 @@
         {
           "rank": 15,
           "name": "Angela Co",
-          "bio": "Columbia Magazine says Angela Co \u201905GSAPP uses Bird Collective and NYC Bird Alliance to protect regional birdlife while blending entrepreneurship with conservation.",
+          "bio": "Columbia Magazine says Angela Co ’05GSAPP uses Bird Collective and NYC Bird Alliance to protect regional birdlife while blending entrepreneurship with conservation.",
           "description": "Bird-conservation entrepreneur.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -886,7 +901,7 @@
         {
           "rank": 16,
           "name": "Gerard Papa",
-          "bio": "Columbia Magazine says Gerard Papa \u201972CC, \u201974SIPA, \u201975LAW has used Brooklyn\u2019s Flames program to bring New York kids together through basketball since 1974.",
+          "bio": "Columbia Magazine says Gerard Papa ’72CC, ’74SIPA, ’75LAW has used Brooklyn’s Flames program to bring New York kids together through basketball since 1974.",
           "description": "Youth basketball program founder and community leader.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -905,7 +920,7 @@
         {
           "rank": 17,
           "name": "Kenneth Cobb",
-          "bio": "Columbia Magazine says Kenneth Cobb \u201978GSAS serves as a keeper of New York City\u2019s public records and civic history.",
+          "bio": "Columbia Magazine says Kenneth Cobb ’78GSAS serves as a keeper of New York City’s public records and civic history.",
           "description": "Historian and steward of New York City public records.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -924,7 +939,7 @@
         {
           "rank": 18,
           "name": "Hal Hinkle",
-          "bio": "Columbia Magazine says Hal Hinkle \u201976BUS, \u201912GSAS, CEO of BamCore, applies business and science to climate challenges involving construction materials and carbon impacts.",
+          "bio": "Columbia Magazine says Hal Hinkle ’76BUS, ’12GSAS, CEO of BamCore, applies business and science to climate challenges involving construction materials and carbon impacts.",
           "description": "Climate-focused business executive and builder of low-carbon materials.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -943,7 +958,7 @@
         {
           "rank": 19,
           "name": "Charles Conconi",
-          "bio": "Columbia Magazine says Charles Conconi \u201992CC is building more economically sustainable tourism by highlighting hidden gems of rural Sri Lanka.",
+          "bio": "Columbia Magazine says Charles Conconi ’92CC is building more economically sustainable tourism by highlighting hidden gems of rural Sri Lanka.",
           "description": "Travel entrepreneur focused on sustainable tourism.",
           "wikipedia_title": null,
           "wikipedia_url": null,

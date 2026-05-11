@@ -111,12 +111,12 @@
     "confidence": "medium"
   },
   "admissions": {
-    "application_platform": null,
-    "testing_policy": "UChicago is test-optional and says submitting an SAT or ACT is optional and not required for admission; it also uses a 'No Harm' testing policy.",
-    "gpa_policy": "UChicago does not publish a minimum GPA on the cited admissions page.",
-    "course_rigor": "UChicago does not provide a single minimum course-rigor formula on the cited required-materials page.",
-    "recommendations": "UChicago requires two teacher evaluations and a secondary school report with school counselor recommendation.",
-    "essays": "UChicago requires two supplemental essays overall, and its supplement specifically includes one extended essay and one short 'why UChicago' essay.",
+    "application_platform": "UChicago accepts Apply Coalition, Powered by Scoir or the Common Application.",
+    "testing_policy": "UChicago is test-optional. It says SAT or ACT scores are optional and not required for admission, uses a No Harm testing policy, and allows self-reported scores with official reports required only after admission and enrollment.",
+    "gpa_policy": "UChicago does not publish a minimum GPA. Instead, it reads the transcript across all four years to see whether students challenged themselves productively and performed well in the courses available at their school.",
+    "course_rigor": "UChicago does not publish a fixed course checklist, but it says the transcript should show that students challenged themselves productively across four years and took advantage of the opportunities available at their high school.",
+    "recommendations": "UChicago requires a secondary school report and transcript plus two teacher recommendations from academic-subject teachers who know the applicant’s academic interests and classroom contributions.",
+    "essays": "UChicago requires the main application personal statement plus two UChicago supplement essays: one extended essay from its prompt list and one short why-UChicago essay.",
     "portfolio_or_audition": null,
     "international_notes": null,
     "deadlines": []
@@ -124,7 +124,7 @@
   "competitive_signals": {
     "academics": [],
     "projects_research": [
-      "UChicago says extracurricular activities help show what is meaningful, worthwhile, or interesting to you outside of class."
+      "UChicago says extracurriculars can include anything meaningful outside class and home-schooled applicants often submit research abstracts among their supplemental materials."
     ],
     "extracurriculars": [],
     "leadership": [],
@@ -142,35 +142,35 @@
     },
     {
       "field": "admissions.testing_policy",
-      "claim": "UChicago is test-optional and says submitting an SAT or ACT is optional and not required for admission; it also uses a 'No Harm' testing policy.",
+      "claim": "UChicago is test-optional, applies a No Harm review policy, and allows self-reported scores with official reports required only for enrolling admitted students.",
       "classification": "official_requirement",
       "source_url": "https://collegeadmissions.uchicago.edu/apply/application/required-materials/",
-      "source_excerpt": "Submitting an SAT or ACT is optional and not required for admission. In addition to being test-optional, UChicago practices a 'No Harm' policy for application review when considering SAT or ACT scores.",
-      "retrieved_at": "2026-04-17T16:56:49.340462+00:00"
+      "source_excerpt": "Submitting an SAT or ACT is optional and not required for admission ... UChicago practices a \"No Harm\" policy ... Students sharing self-reported scores will not be required to submit official score reports unless they are admitted and choose to enroll.",
+      "retrieved_at": "2026-05-11T00:58:10Z"
     },
     {
       "field": "admissions.recommendations",
-      "claim": "UChicago requires two teacher evaluations and a secondary school report with school counselor recommendation.",
+      "claim": "UChicago requires a secondary school report and transcript plus two teacher recommendations from academic-subject teachers.",
       "classification": "official_requirement",
       "source_url": "https://collegeadmissions.uchicago.edu/apply/application/required-materials/",
-      "source_excerpt": "Two Teacher Evaluations ... We require two recommendations from teachers who have taught you in an academic subject ... Secondary School Report and School Counselor Recommendation.",
-      "retrieved_at": "2026-04-17T16:56:49.340463+00:00"
+      "source_excerpt": "Ask your secondary school counselor to complete the Secondary School Report ... We require two recommendations from teachers who have taught you in an academic subject ...",
+      "retrieved_at": "2026-05-11T00:58:10Z"
     },
     {
       "field": "admissions.essays",
-      "claim": "UChicago requires two supplemental essays overall, and its supplement specifically includes one extended essay and one short 'why UChicago' essay.",
+      "claim": "UChicago requires a personal statement and two supplemental essays: one extended essay and one short why-UChicago essay.",
       "classification": "official_requirement",
       "source_url": "https://collegeadmissions.uchicago.edu/apply/application/required-materials/",
-      "source_excerpt": "If you apply to the University of Chicago, you will also submit two supplemental essays ... The University of Chicago Supplement requires one extended essay ... and one short essay on why you would like to attend the University of Chicago.",
-      "retrieved_at": "2026-04-17T16:56:49.340465+00:00"
+      "source_excerpt": "If you apply to the University of Chicago, you will also submit two supplemental essays ... one extended essay ... and one short essay on why you would like to attend the University of Chicago.",
+      "retrieved_at": "2026-05-11T00:58:10Z"
     },
     {
       "field": "competitive_signals.projects_research",
-      "claim": "UChicago says extracurricular activities help show what is meaningful, worthwhile, or interesting to you outside of class.",
-      "classification": "reported_profile",
+      "claim": "UChicago’s application guidance treats meaningful extracurricular work broadly, and for home-schooled applicants it explicitly lists research abstracts as an example supplemental material.",
+      "classification": "official_recommendation",
       "source_url": "https://collegeadmissions.uchicago.edu/apply/application/required-materials/",
-      "source_excerpt": "Colleges ask for extracurricular information not because they have any specific expectation or preference for how you spend your time, but to see what's meaningful, worthwhile, or interesting to you.",
-      "retrieved_at": "2026-04-17T16:56:49.340467+00:00"
+      "source_excerpt": "Supplemental Materials ... Extracurricular projects such as artwork, a research abstract, or writing.",
+      "retrieved_at": "2026-05-11T00:58:10Z"
     },
     {
       "field": "school_people.popular_professors",
@@ -195,10 +195,34 @@
       "source_url": "https://collegeadmissions.uchicago.edu/academics/areas-of-study/",
       "source_excerpt": "Anthropology; Archaeology; Art History; Astrophysics; Biological Chemistry; Biological Sciences; Chemistry; Cinema and Media Studies; Classical Studies; Climate and Sustainable Growth; Cognitive Science; Comparative Human Development",
       "retrieved_at": "2026-05-07T12:37:26Z"
+    },
+    {
+      "field": "admissions.application_platform",
+      "claim": "UChicago accepts Apply Coalition, Powered by Scoir or the Common Application.",
+      "classification": "official_requirement",
+      "source_url": "https://collegeadmissions.uchicago.edu/apply/application/required-materials/",
+      "source_excerpt": "UChicago accepts Apply Coalition, Powered by Scoir or the Common Application.",
+      "retrieved_at": "2026-05-11T00:58:10Z"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "UChicago does not publish a minimum GPA and instead reviews the transcript across all four years in the context of the school.",
+      "classification": "official_requirement",
+      "source_url": "https://collegeadmissions.uchicago.edu/apply/application/required-materials/",
+      "source_excerpt": "In reading your application, your transcript will serve as a roadmap of your academic path in high school. We will be looking at your academic record across all four years of high school ... Your transcript is considered in the context of your high school.",
+      "retrieved_at": "2026-05-11T00:58:10Z"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "UChicago says it looks for students who challenged themselves productively in available coursework rather than publishing a fixed minimum course formula.",
+      "classification": "official_requirement",
+      "source_url": "https://collegeadmissions.uchicago.edu/apply/application/required-materials/",
+      "source_excerpt": "We will be looking ... primarily to see that you have challenged yourself productively in your course selection and done well in those courses. Course offerings and opportunities can look very different from one high school to the next, and we want to see how you took advantage of what was available to you.",
+      "retrieved_at": "2026-05-11T00:58:10Z"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-05-07T12:37:26Z",
+    "last_verified_at": "2026-05-11T00:58:10Z",
     "confidence": "phase-5-manual-repair",
     "unknown_fields": [],
     "warnings": [

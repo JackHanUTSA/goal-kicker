@@ -1,17 +1,21 @@
 {
   "university": "California Institute of Technology",
   "slug": "caltech",
-  "retrieved_at": "2026-05-09",
-  "scope": "policy-summary",
-  "scope_note": "Goal Kicker currently exports GPA-policy notes for this school. Where the school does not publish a hard GPA cutoff or admitted-student GPA distribution, the panel says that directly instead of inventing a threshold.",
+  "retrieved_at": "2026-05-10",
+  "scope": "official-policy-summary",
+  "scope_note": "Caltech’s official first-year application pages do not publish a minimum GPA cutoff or admitted-student GPA distribution. This panel therefore summarizes the transcript materials Caltech actually requires.",
   "source_urls": [
-    "https://www.admissions.caltech.edu/apply/first-year-applicants/application-requirements",
-    "https://www.admissions.caltech.edu/apply/first-year-applicants/standardized-tests",
-    "https://www.admissions.caltech.edu/apply/first-year-applicants/academic-requirements-for-first-year-applicants",
-    "https://www.admissions.caltech.edu/apply/first-year-applicants/letters-of-recommendation",
-    "https://www.admissions.caltech.edu/apply/first-year-applicants/supplemental-application-essays",
-    "https://www.caltech.edu"
+    "https://www.admissions.caltech.edu/apply/first-year-applicants/application-requirements"
   ],
-  "policy_summary": "Caltech does not publish a minimum GPA on the cited admissions pages.",
-  "what_mit_does_say": []
+  "policy_summary": "Caltech does not publish a minimum GPA. Instead, it requires official secondary-school transcripts, a school report, and a mid-year report when senior grades become available.",
+  "what_mit_does_say": [
+    {
+      "claim": "Official transcripts from secondary school grades 9-11 must be submitted by a school official.",
+      "source_url": "https://www.admissions.caltech.edu/apply/first-year-applicants/application-requirements"
+    },
+    {
+      "claim": "Caltech also requires a school report from the high-school counselor and a mid-year report once first-term senior grades are available.",
+      "source_url": "https://www.admissions.caltech.edu/apply/first-year-applicants/application-requirements"
+    }
+  ]
 }

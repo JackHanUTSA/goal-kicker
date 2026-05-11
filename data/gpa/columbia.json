@@ -1,19 +1,21 @@
 {
   "university": "Columbia University",
   "slug": "columbia",
-  "retrieved_at": "2026-05-09",
-  "scope": "policy-summary",
-  "scope_note": "Goal Kicker currently exports GPA-policy notes for this school. Where the school does not publish a hard GPA cutoff or admitted-student GPA distribution, the panel says that directly instead of inventing a threshold.",
+  "retrieved_at": "2026-05-10",
+  "scope": "official-policy-summary",
+  "scope_note": "The accessible Common App school profile does not publish a GPA threshold for Columbia. This panel therefore summarizes the holistic-review language it does expose and explicitly notes the source limitation.",
   "source_urls": [
     "https://www.commonapp.org/explore/columbia-university/",
-    "https://undergrad.admissions.columbia.edu/apply/first-year",
-    "https://undergrad.admissions.columbia.edu/apply/firstyear",
-    "https://www.columbia.edu"
+    "https://undergrad.admissions.columbia.edu/apply/first-year"
   ],
-  "policy_summary": "No explicit minimum GPA is stated on the Common App school profile used in this cross-verified repair pass; Columbia instead describes a holistic review process in which every part of the application matters.",
+  "policy_summary": "The accessible Common App school profile does not publish a minimum GPA for Columbia. It instead describes a holistic admissions process in which every part of the application matters.",
   "what_mit_does_say": [
     {
-      "claim": "No explicit minimum GPA is stated on the Common App school profile used in this cross-verified repair pass; Columbia instead describes a holistic review process in which every part of the application matters.",
+      "claim": "The accessible Common App school profile does not show a minimum GPA cutoff for Columbia.",
+      "source_url": "https://www.commonapp.org/explore/columbia-university/"
+    },
+    {
+      "claim": "The profile describes Columbia’s admissions process as holistic rather than formulaic.",
       "source_url": "https://www.commonapp.org/explore/columbia-university/"
     }
   ]

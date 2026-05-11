@@ -1,38 +1,46 @@
 {
   "university": "University of Chicago",
   "slug": "uchicago",
-  "retrieved_at": "2026-05-09",
-  "scope": "application-guidance",
-  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
+  "retrieved_at": "2026-05-10",
+  "scope": "institution_wide",
+  "scope_note": "This panel uses UChicago’s official required-materials page. The school does not publish a rigid curriculum checklist here, so the emphasis is on transcript strength, contextual rigor, and application materials.",
   "source_url": "https://collegeadmissions.uchicago.edu/apply/application/required-materials/",
   "source_urls": [
-    "https://collegeadmissions.uchicago.edu/apply/application/required-materials/",
-    "https://www.uchicago.edu"
+    "https://collegeadmissions.uchicago.edu/apply/application/required-materials/"
   ],
+  "audience": "first-year applicants",
   "areas": [
     {
-      "key": "course-rigor",
-      "name": "Course rigor",
-      "level": "school-guidance",
-      "summary": "UChicago does not provide a single minimum course-rigor formula on the cited required-materials page.",
-      "detail": "UChicago does not provide a single minimum course-rigor formula on the cited required-materials page.",
+      "key": "transcript-rigor",
+      "name": "Transcript rigor",
+      "level": "contextual",
+      "summary": "UChicago does not publish a fixed course checklist, but it wants the transcript to show four years of productive challenge in available coursework.",
+      "detail": "UChicago says it reads the high-school transcript as a roadmap of the applicant’s academic path and looks for evidence that the student challenged themselves productively, did well in those courses, and took advantage of what their school offered.",
       "color": "#60a5fa"
+    },
+    {
+      "key": "applications",
+      "name": "Application platforms",
+      "level": "application-material",
+      "summary": "UChicago accepts either Apply Coalition, Powered by Scoir or the Common Application.",
+      "detail": "UChicago tells applicants to choose a single platform—Apply Coalition, Powered by Scoir or the Common Application—and treats both equally in the admissions process.",
+      "color": "#a78bfa"
     },
     {
       "key": "recommendations",
       "name": "Recommendations",
       "level": "application-material",
-      "summary": "UChicago requires two teacher evaluations and a secondary school report with school counselor recommendation.",
-      "detail": "UChicago requires two teacher evaluations and a secondary school report with school counselor recommendation.",
+      "summary": "UChicago requires a counselor report and two teacher recommendations from academic-subject teachers.",
+      "detail": "UChicago asks the secondary-school counselor to submit the school report and transcript, and it requires two recommendations from teachers who taught the applicant in academic subjects such as math, science, history, English, social studies, or foreign language.",
       "color": "#34d399"
     },
     {
       "key": "essays",
       "name": "Essays",
       "level": "application-material",
-      "summary": "UChicago requires two supplemental essays overall, and its supplement specifically includes one extended essay and one short 'why UChicago' essay.",
-      "detail": "UChicago requires two supplemental essays overall, and its supplement specifically includes one extended essay and one short 'why UChicago' essay.",
-      "color": "#fbbf24"
+      "summary": "UChicago requires a personal statement plus two supplemental essays: one extended essay and one short why-UChicago essay.",
+      "detail": "The official required-materials page says applicants complete the main application personal statement and a UChicago supplement consisting of one extended essay chosen from the school’s prompt list and one short essay about why they want to attend UChicago.",
+      "color": "#fb7185"
     }
   ]
 }

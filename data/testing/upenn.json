@@ -1,21 +1,25 @@
 {
   "university": "University of Pennsylvania",
   "slug": "upenn",
-  "retrieved_at": "2026-05-09",
+  "retrieved_at": "2026-05-10",
   "scope": "policy-summary",
-  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "scope_note": "Penn’s official testing page focuses on current policy, superscoring, waivers, and self-reporting rather than score ranges. This panel stays policy-focused and school-wide.",
   "source_url": "https://admissions.upenn.edu/how-to-apply/preparing-your-application/testing",
   "source_urls": [
-    "https://admissions.upenn.edu/how-to-apply/preparing-your-application/testing",
-    "https://admissions.upenn.edu/how-to-apply/preparing-your-application/academics",
-    "https://admissions.upenn.edu/how-to-apply/preparing-your-application/letters-of-recommendation",
-    "https://admissions.upenn.edu/how-to-apply/preparing-your-application/writing",
-    "https://www.upenn.edu"
+    "https://admissions.upenn.edu/how-to-apply/preparing-your-application/testing"
   ],
-  "policy": "Penn requires applicants to submit the SAT or ACT for the 2025-26 application cycle, with a waiver available for hardship cases.",
+  "policy": "Penn requires the SAT or ACT for the 2025-26 application cycle. Applicants who have not taken the test and face hardship may request a waiver, Penn permits self-reported SAT/ACT scores, and it superscores both exams.",
   "claims": [
     {
-      "claim": "Penn requires applicants to submit the SAT or ACT for the 2025-26 application cycle, with a waiver available for hardship cases.",
+      "claim": "Penn requires the SAT or ACT for the 2025-26 application cycle.",
+      "source_url": "https://admissions.upenn.edu/how-to-apply/preparing-your-application/testing"
+    },
+    {
+      "claim": "Applicants who have not taken the SAT or ACT and face hardship may request a testing waiver.",
+      "source_url": "https://admissions.upenn.edu/how-to-apply/preparing-your-application/testing"
+    },
+    {
+      "claim": "Penn allows self-reported SAT/ACT scores and superscores both the SAT and ACT.",
       "source_url": "https://admissions.upenn.edu/how-to-apply/preparing-your-application/testing"
     }
   ]

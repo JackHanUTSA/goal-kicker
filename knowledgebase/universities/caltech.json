@@ -89,12 +89,12 @@
     "confidence": "medium"
   },
   "admissions": {
-    "application_platform": null,
-    "testing_policy": "Caltech requires first-year applicants to submit either the SAT or the ACT.",
-    "gpa_policy": "Caltech does not publish a minimum GPA on the cited admissions pages.",
-    "course_rigor": "Caltech expects mastery in four years of math including calculus, one year each of physics and chemistry, one year of biology recommended, four years of English, and two years of history and/or social sciences with three or more years recommended.",
-    "recommendations": "Caltech requires two teacher or instructor recommendations, one STEM and one humanities/social sciences.",
-    "essays": "Caltech requires multiple supplemental essay responses, including a required STEM academic interest question, one STEM experience prompt, a creativity in action question, and two required short-answer questions.",
+    "application_platform": "Caltech accepts the Common App or QuestBridge Application for first-year applicants.",
+    "testing_policy": "Caltech requires first-year applicants to submit either the SAT or the ACT. If applicants have taken AP or IB exams, Caltech also asks them to submit those scores.",
+    "gpa_policy": "Caltech does not publish a minimum GPA. Instead, it requires official secondary-school transcripts for grades 9-11, a school report, and a mid-year senior report when available.",
+    "course_rigor": "Caltech expects mastery in four years of math including calculus, one year each of physics and chemistry, one year of biology recommended, four years of English, and two years of history and/or social sciences with three or more years recommended. If calculus, chemistry, or physics is unavailable because of an unresolvable conflict, Caltech allows specific AP, IB, or Schoolhouse.world substitutes with counselor documentation.",
+    "recommendations": "Caltech requires two teacher or instructor recommendations: one from STEM (calculus or beyond, chemistry, physics, or biology) and one from humanities or social sciences.",
+    "essays": "Caltech requires supplemental essays alongside the application, including a required STEM academic-interest question, one STEM experience prompt, a creativity-in-action response, and two short-answer responses chosen from four prompts.",
     "portfolio_or_audition": null,
     "international_notes": null,
     "deadlines": []
@@ -102,7 +102,7 @@
   "competitive_signals": {
     "academics": [],
     "projects_research": [
-      "Caltech highlights undergraduate research as a core part of the undergraduate experience."
+      "Caltech welcomes optional supplemental research papers or publications, with a citation if published plus a recommendation letter and research description."
     ],
     "extracurriculars": [],
     "leadership": [],
@@ -120,43 +120,43 @@
     },
     {
       "field": "admissions.testing_policy",
-      "claim": "Caltech requires first-year applicants to submit either the SAT or the ACT.",
+      "claim": "Caltech requires first-year applicants to submit either the SAT or the ACT, and applicants who have taken AP or IB exams are asked to submit those scores as well.",
       "classification": "official_requirement",
-      "source_url": "https://www.admissions.caltech.edu/apply/first-year-applicants/standardized-tests",
-      "source_excerpt": "Caltech requires first-year applicants to submit either the SAT or the ACT for admissions to Caltech.",
-      "retrieved_at": "2026-04-17T16:56:49.340335+00:00"
+      "source_url": "https://www.admissions.caltech.edu/apply/first-year-applicants/application-requirements",
+      "source_excerpt": "Standardized Tests Score: We require either the SAT or ACT test scores. If you have taken AP or IB examinations, you will be asked to submit those scores as well.",
+      "retrieved_at": "2026-05-11T00:58:10Z"
     },
     {
       "field": "admissions.course_rigor",
-      "claim": "Caltech expects mastery in four years of math including calculus, one year each of physics and chemistry, one year of biology recommended, four years of English, and two years of history and/or social sciences with three or more years recommended.",
-      "classification": "reported_profile",
+      "claim": "Caltech expects mastery in calculus, physics, chemistry, English, and history/social sciences, with specific substitute pathways when core courses are unavailable.",
+      "classification": "official_requirement",
       "source_url": "https://www.admissions.caltech.edu/apply/first-year-applicants/academic-requirements-for-first-year-applicants",
-      "source_excerpt": "Four years of math, including one year of calculus ... One year of physics ... One year of chemistry ... One year of biology (recommended) ... Four years of English ... Two years of history and/or social sciences courses (3+ years recommended).",
-      "retrieved_at": "2026-04-17T16:56:49.340337+00:00"
+      "source_excerpt": "To prepare for core, students must demonstrate mastery in the following subjects: Four years of math, including one year of calculus ... One year of physics ... One year of chemistry ... If a student is unable to take a calculus, chemistry, and/or physics course in high school ... Caltech will accept examination scores or the course challenge through Schoolhouse.world ...",
+      "retrieved_at": "2026-05-11T00:58:10Z"
     },
     {
       "field": "admissions.recommendations",
-      "claim": "Caltech requires two teacher or instructor recommendations, one STEM and one humanities/social sciences.",
+      "claim": "Caltech requires two teacher or instructor recommendations: one STEM and one humanities or social sciences.",
       "classification": "official_requirement",
-      "source_url": "https://www.admissions.caltech.edu/apply/first-year-applicants/letters-of-recommendation",
-      "source_excerpt": "Caltech requires letters of recommendation from two teachers or instructors ... One letter each from the subjects below: STEM ... Humanities/Social Sciences ...",
-      "retrieved_at": "2026-04-17T16:56:49.340339+00:00"
+      "source_url": "https://www.admissions.caltech.edu/apply/first-year-applicants/application-requirements",
+      "source_excerpt": "Letters of Recommendation: 1 STEM: Calculus (or beyond), Chemistry, Physics, or Biology; 1 Humanities or Social Sciences: English, History, Government, or Economics.",
+      "retrieved_at": "2026-05-11T00:58:10Z"
     },
     {
       "field": "admissions.essays",
-      "claim": "Caltech requires multiple supplemental essay responses, including a required STEM academic interest question, one STEM experience prompt, a creativity in action question, and two required short-answer questions.",
+      "claim": "Caltech requires supplemental essays including a STEM academic-interest question, one STEM experience prompt, a creativity-in-action response, and two short-answer responses chosen from four prompts.",
       "classification": "official_requirement",
       "source_url": "https://www.admissions.caltech.edu/apply/first-year-applicants/supplemental-application-essays",
-      "source_excerpt": "Required STEM Academic Interest Question ... Select one of the following two STEM Experience prompts ... Creativity in Action Question ... Required Short Answer Questions ... Choose two of the four questions below and answer both.",
-      "retrieved_at": "2026-04-17T16:56:49.340341+00:00"
+      "source_excerpt": "Required STEM Academic Interest Question ... Select one of the following two STEM Experience prompts ... Creativity in Action Question ... Choose two of the four questions below and answer both.",
+      "retrieved_at": "2026-05-11T00:58:10Z"
     },
     {
       "field": "competitive_signals.projects_research",
-      "claim": "Caltech highlights undergraduate research as a core part of the undergraduate experience.",
-      "classification": "reported_profile",
-      "source_url": "https://www.admissions.caltech.edu/why-caltech/research/undergraduate-research",
-      "source_excerpt": "Undergraduate Research - Undergraduate Admissions",
-      "retrieved_at": "2026-04-17T16:56:49.340343+00:00"
+      "claim": "Caltech explicitly welcomes optional supplemental research materials, including papers or publications.",
+      "classification": "official_recommendation",
+      "source_url": "https://www.admissions.caltech.edu/apply/first-year-applicants/application-requirements",
+      "source_excerpt": "Supplemental Materials ... Research paper or publication preferred (citation if published, letter of recommendation, and research description required).",
+      "retrieved_at": "2026-05-11T00:58:10Z"
     },
     {
       "field": "majors.titles",
@@ -181,10 +181,26 @@
       "source_url": "https://en.wikipedia.org/wiki/List_of_California_Institute_of_Technology_people",
       "source_excerpt": "Candidates were harvested from school-specific Wikipedia alumni/people pages or categories, filtered to likely people, and ranked by pageviews. Major-specific and last-10-years filtering requires stronger school-specific alumni sources than this generic pipeline currently has.",
       "retrieved_at": "2026-04-27T07:05:32.474176+00:00"
+    },
+    {
+      "field": "admissions.application_platform",
+      "claim": "Caltech accepts the Common App or QuestBridge Application for first-year applicants.",
+      "classification": "official_requirement",
+      "source_url": "https://www.admissions.caltech.edu/apply/first-year-applicants/application-requirements",
+      "source_excerpt": "Application materials: Common App or QuestBridge Application.",
+      "retrieved_at": "2026-05-11T00:58:10Z"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "Caltech does not publish a minimum GPA; it instead requires official secondary-school transcripts, a school report, and a mid-year report.",
+      "classification": "official_requirement",
+      "source_url": "https://www.admissions.caltech.edu/apply/first-year-applicants/application-requirements",
+      "source_excerpt": "Official transcripts from your secondary school (grades 9-11 ...). Mid-Year Report (due when first term senior grades are available at your school).",
+      "retrieved_at": "2026-05-11T00:58:10Z"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-27T07:05:32.474181+00:00",
+    "last_verified_at": "2026-05-11T00:58:10Z",
     "confidence": "phase-4-top10-structured",
     "unknown_fields": [],
     "warnings": [

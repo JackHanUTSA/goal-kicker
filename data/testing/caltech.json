@@ -1,23 +1,23 @@
 {
   "university": "California Institute of Technology",
   "slug": "caltech",
-  "retrieved_at": "2026-05-09",
+  "retrieved_at": "2026-05-10",
   "scope": "policy-summary",
-  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
-  "source_url": "https://www.admissions.caltech.edu/apply/first-year-applicants/standardized-tests",
+  "scope_note": "Caltech’s official first-year applicant pages describe a required SAT/ACT policy rather than publishing score bands here. This panel stays policy-focused and adds the related AP/IB submission note from Caltech’s application checklist.",
+  "source_url": "https://www.admissions.caltech.edu/apply/first-year-applicants/application-requirements",
   "source_urls": [
-    "https://www.admissions.caltech.edu/apply/first-year-applicants/standardized-tests",
     "https://www.admissions.caltech.edu/apply/first-year-applicants/application-requirements",
-    "https://www.admissions.caltech.edu/apply/first-year-applicants/academic-requirements-for-first-year-applicants",
-    "https://www.admissions.caltech.edu/apply/first-year-applicants/letters-of-recommendation",
-    "https://www.admissions.caltech.edu/apply/first-year-applicants/supplemental-application-essays",
-    "https://www.caltech.edu"
+    "https://www.admissions.caltech.edu/apply/first-year-applicants/standardized-tests"
   ],
-  "policy": "Caltech requires first-year applicants to submit either the SAT or the ACT.",
+  "policy": "Caltech requires first-year applicants to submit either the SAT or the ACT. If applicants have taken AP or IB exams, Caltech also asks them to submit those scores.",
   "claims": [
     {
       "claim": "Caltech requires first-year applicants to submit either the SAT or the ACT.",
       "source_url": "https://www.admissions.caltech.edu/apply/first-year-applicants/standardized-tests"
+    },
+    {
+      "claim": "If applicants have taken AP or IB examinations, Caltech says they will be asked to submit those scores as well.",
+      "source_url": "https://www.admissions.caltech.edu/apply/first-year-applicants/application-requirements"
     }
   ]
 }

@@ -1,18 +1,25 @@
 {
   "university": "University of Chicago",
   "slug": "uchicago",
-  "retrieved_at": "2026-05-09",
+  "retrieved_at": "2026-05-10",
   "scope": "policy-summary",
-  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "scope_note": "UChicago’s official required-materials page is explicit about policy rather than score bands, so this panel stays school-wide and policy-focused.",
   "source_url": "https://collegeadmissions.uchicago.edu/apply/application/required-materials/",
   "source_urls": [
-    "https://collegeadmissions.uchicago.edu/apply/application/required-materials/",
-    "https://www.uchicago.edu"
+    "https://collegeadmissions.uchicago.edu/apply/application/required-materials/"
   ],
-  "policy": "UChicago is test-optional and says submitting an SAT or ACT is optional and not required for admission; it also uses a 'No Harm' testing policy.",
+  "policy": "UChicago is test-optional. It says SAT or ACT scores are optional and not required, applies a No Harm testing policy, and allows self-reported scores with official reports required only after admission and enrollment.",
   "claims": [
     {
-      "claim": "UChicago is test-optional and says submitting an SAT or ACT is optional and not required for admission; it also uses a 'No Harm' testing policy.",
+      "claim": "Submitting an SAT or ACT is optional and not required for admission.",
+      "source_url": "https://collegeadmissions.uchicago.edu/apply/application/required-materials/"
+    },
+    {
+      "claim": "UChicago says any submitted SAT or ACT score is used only if it helps the applicant under its No Harm testing policy.",
+      "source_url": "https://collegeadmissions.uchicago.edu/apply/application/required-materials/"
+    },
+    {
+      "claim": "Students may self-report scores and only enrolling admitted students must later send official reports.",
       "source_url": "https://collegeadmissions.uchicago.edu/apply/application/required-materials/"
     }
   ]

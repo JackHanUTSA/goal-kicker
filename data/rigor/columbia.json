@@ -1,32 +1,47 @@
 {
   "university": "Columbia University",
   "slug": "columbia",
-  "retrieved_at": "2026-05-09",
-  "scope": "application-guidance",
-  "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
-  "source_url": "https://undergrad.admissions.columbia.edu/apply/first-year",
+  "retrieved_at": "2026-05-10",
+  "scope": "cross-verified-summary",
+  "scope_note": "Official Columbia admissions pages were blocked here, so this panel only uses the accessible Common App school profile plus the site’s public description. It stays honest about what was and was not explicitly available.",
+  "source_url": "https://www.commonapp.org/explore/columbia-university/",
   "source_urls": [
-    "https://undergrad.admissions.columbia.edu/apply/first-year",
-    "https://undergrad.admissions.columbia.edu/apply/firstyear",
     "https://www.commonapp.org/explore/columbia-university/",
-    "https://www.columbia.edu"
+    "https://undergrad.admissions.columbia.edu/apply/first-year"
   ],
+  "audience": "first-year applicants",
   "areas": [
+    {
+      "key": "course-rigor-availability",
+      "name": "Course-rigor guidance availability",
+      "level": "source-limited",
+      "summary": "The accessible Common App profile does not publish a detailed Columbia course-rigor formula.",
+      "detail": "Columbia’s official admissions pages were bot-protected in this environment. The accessible Common App profile confirms a holistic review process but does not provide the kind of explicit high-school course checklist that some peers publish.",
+      "color": "#60a5fa"
+    },
+    {
+      "key": "academic-model",
+      "name": "Academic model",
+      "level": "school-profile",
+      "summary": "The accessible Common App profile highlights Columbia’s Core Curriculum and undergraduate research with faculty.",
+      "detail": "Common App’s Columbia profile describes the school as combining its signature Core Curriculum with small classes, labs, and stellar undergraduate research with world-renowned faculty.",
+      "color": "#a78bfa"
+    },
     {
       "key": "recommendations",
       "name": "Recommendations",
       "level": "application-material",
-      "summary": "Cross-verified from the Common App school page: Columbia lists a secondary school report and two teacher recommendations for first-year applicants.",
-      "detail": "Cross-verified from the Common App school page: Columbia lists a secondary school report and two teacher recommendations for first-year applicants.",
+      "summary": "Cross-verified from the Common App school profile: Columbia asks for a secondary school report and two teacher recommendations.",
+      "detail": "The accessible Common App profile says first-year applicants submit Columbia-specific questions alongside a secondary school report and two teacher recommendations.",
       "color": "#34d399"
     },
     {
       "key": "essays",
       "name": "Essays",
       "level": "application-material",
-      "summary": "Cross-verified from the Common App school page: Columbia lists Columbia-specific questions as part of the first-year application.",
-      "detail": "Cross-verified from the Common App school page: Columbia lists Columbia-specific questions as part of the first-year application.",
-      "color": "#fbbf24"
+      "summary": "Cross-verified from the Common App school profile: Columbia asks applicants to complete Columbia-specific questions.",
+      "detail": "The accessible Common App profile says first-year applicants submit Columbia-specific questions with the Common Application, Coalition Application, or QuestBridge Application.",
+      "color": "#fb7185"
     }
   ]
 }

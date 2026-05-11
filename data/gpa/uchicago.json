@@ -1,13 +1,21 @@
 {
   "university": "University of Chicago",
   "slug": "uchicago",
-  "retrieved_at": "2026-05-09",
-  "scope": "policy-summary",
-  "scope_note": "Goal Kicker currently exports GPA-policy notes for this school. Where the school does not publish a hard GPA cutoff or admitted-student GPA distribution, the panel says that directly instead of inventing a threshold.",
+  "retrieved_at": "2026-05-10",
+  "scope": "official-policy-summary",
+  "scope_note": "UChicago does not publish a minimum GPA cutoff here. This panel instead summarizes how the transcript is reviewed on the official required-materials page.",
   "source_urls": [
-    "https://collegeadmissions.uchicago.edu/apply/application/required-materials/",
-    "https://www.uchicago.edu"
+    "https://collegeadmissions.uchicago.edu/apply/application/required-materials/"
   ],
-  "policy_summary": "UChicago does not publish a minimum GPA on the cited admissions page.",
-  "what_mit_does_say": []
+  "policy_summary": "UChicago does not publish a minimum GPA. Instead, it reviews the transcript across all four years to see whether students challenged themselves productively and did well in the courses available at their school.",
+  "what_mit_does_say": [
+    {
+      "claim": "UChicago says the transcript serves as a roadmap of the applicant’s academic path across all four years of high school.",
+      "source_url": "https://collegeadmissions.uchicago.edu/apply/application/required-materials/"
+    },
+    {
+      "claim": "UChicago considers the transcript in the context of the high school’s offerings and opportunities.",
+      "source_url": "https://collegeadmissions.uchicago.edu/apply/application/required-materials/"
+    }
+  ]
 }

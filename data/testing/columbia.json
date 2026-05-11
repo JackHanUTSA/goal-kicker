@@ -1,20 +1,22 @@
 {
   "university": "Columbia University",
   "slug": "columbia",
-  "retrieved_at": "2026-05-09",
+  "retrieved_at": "2026-05-10",
   "scope": "policy-summary",
-  "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
+  "scope_note": "Columbia’s official admissions pages were bot-protected in this environment, so this panel stays strictly limited to what the accessible Common App school profile explicitly shows.",
   "source_url": "https://www.commonapp.org/explore/columbia-university/",
   "source_urls": [
     "https://www.commonapp.org/explore/columbia-university/",
-    "https://undergrad.admissions.columbia.edu/apply/first-year",
-    "https://undergrad.admissions.columbia.edu/apply/firstyear",
-    "https://www.columbia.edu"
+    "https://undergrad.admissions.columbia.edu/apply/first-year"
   ],
-  "policy": "Cross-verified from the Common App school page: Columbia lists optional SAT or ACT scores (self-reported) for first-year applicants.",
+  "policy": "Cross-verified from the accessible Common App school profile: Columbia is listed as test optional/flexible for first-year applicants and accepts self-reported test scores.",
   "claims": [
     {
-      "claim": "Cross-verified from the Common App school page: Columbia lists optional SAT or ACT scores (self-reported) for first-year applicants.",
+      "claim": "The Common App school profile labels Columbia as Test Optional/Flexible for first-year applicants.",
+      "source_url": "https://www.commonapp.org/explore/columbia-university/"
+    },
+    {
+      "claim": "The Common App school profile says Columbia accepts self-reported test scores for first-year applicants.",
       "source_url": "https://www.commonapp.org/explore/columbia-university/"
     }
   ]
