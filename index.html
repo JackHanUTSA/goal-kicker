@@ -250,16 +250,17 @@ function renderTesting(t){
   const g = t.general || {};
   const fmt = n => n==null?'—':n.toLocaleString();
   const pct = n => n==null?'—':(n*100).toFixed(1)+'%';
-  const stats = [
-    ['Applications', fmt(g.applications)],
-    ['Admits', fmt(g.admits)],
-    ['Admit rate', pct(g.admit_rate)],
-    ['Early Action', g.early_action_admits!=null ? fmt(g.early_action_admits)+' / '+fmt(g.early_action_applicants) : null],
-    ['Regular Action', g.regular_action_admits!=null ? fmt(g.regular_action_admits)+' / '+fmt(g.regular_action_applicants) : null],
-    ['International', g.international_admits!=null ? fmt(g.international_admits)+' / '+fmt(g.international_applicants) : null],
-  ].filter(x => x[1] != null);
-  const statsHtml = stats.length ? '<div class="gen-stats">'+stats.map(s=>'<div class="gs"><div class="v">'+esc(s[1])+'</div><div class="k">'+esc(s[0])+'</div></div>').join('')+'</div>' : '';
-  const claims = (t.claims || []).map(c =>
+  const statEntries = [
+    g.applications != null ? ['Applications', fmt(g.applications)] : null,
+    g.admits != null ? ['Admits', fmt(g.admits)] : null,
+    g.admit_rate != null ? ['Admit rate', pct(g.admit_rate)] : null,
+    (g.early_action_admits != null && g.early_action_applicants != null) ? ['Early Action', fmt(g.early_action_admits)+' / '+fmt(g.early_action_applicants)] : null,
+    (g.regular_action_admits != null && g.regular_action_applicants != null) ? ['Regular Action', fmt(g.regular_action_admits)+' / '+fmt(g.regular_action_applicants)] : null,
+    (g.international_admits != null && g.international_applicants != null) ? ['International', fmt(g.international_admits)+' / '+fmt(g.international_applicants)] : null,
+  ].filter(Boolean);
+  const statsHtml = statEntries.length ? '<div class="gen-stats">'+statEntries.map(s=>'<div class="gs"><div class="v">'+esc(s[1])+'</div><div class="k">'+esc(s[0])+'</div></div>').join('')+'</div>' : '';
+  const claimRows = (t.claims || []).filter(c => c && c.claim && c.claim.trim() && c.claim.trim() !== (t.policy || '').trim());
+  const claims = claimRows.map(c =>
     '<li>'+esc(c.claim)+(c.source_url ? '<a class="src-link" href="'+esc(c.source_url)+'">source</a>' : '')+'</li>'
   ).join('');
   const sourceLinks = (t.source_urls || []).map(u => '<a href="'+esc(u)+'">source</a>').join(' · ');
@@ -274,7 +275,8 @@ function renderTesting(t){
 }
 
 function renderGpa(g){
-  const claims = (g.what_mit_does_say || []).map(c =>
+  const claimRows = (g.what_mit_does_say || []).filter(c => c && c.claim && c.claim.trim() && c.claim.trim() !== (g.policy_summary || '').trim());
+  const claims = claimRows.map(c =>
     '<li>'+esc(c.claim)+(c.source_url ? '<a class="src-link" href="'+esc(c.source_url)+'">source</a>' : '')+'</li>'
   ).join('');
   const sourceLinks = (g.source_urls || []).map(u => '<a href="'+esc(u)+'">source</a>').join(' · ');
@@ -307,10 +309,13 @@ function renderGpa(g){
 function renderRigor(r){
   const cards = (r.areas || []).map(a => {
     const color = a.color || '#60a5fa';
+    const summary = (a.summary || '').trim();
+    const detail = (a.detail || '').trim();
+    const detailHtml = detail && detail !== summary ? '<div class="area-detail">'+esc(detail)+'</div>' : '';
     return '<div class="area-card" style="border-left-color:'+color+'">'+
       '<div class="area-head"><span class="area-name">'+esc(a.name)+'</span><span class="area-level" style="background:'+color+'22;color:'+color+';border-color:'+color+'55">'+esc(a.level||'')+'</span></div>'+
-      '<div class="area-summary">'+esc(a.summary||'')+'</div>'+
-      (a.detail ? '<div class="area-detail">'+esc(a.detail)+'</div>' : '')+
+      '<div class="area-summary">'+esc(summary)+'</div>'+
+      detailHtml+
       '</div>';
   }).join('');
   const sourceLinks = (r.source_urls || []).map(u => '<a href="'+esc(u)+'">source</a>').join(' · ');
