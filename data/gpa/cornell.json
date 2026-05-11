@@ -3,29 +3,45 @@
   "slug": "cornell",
   "retrieved_at": "2026-05-10",
   "scope": "policy-summary",
-  "scope_note": "Cornell University does not publish a minimum GPA cutoff or admitted-student GPA distribution on the cited official pages used here. The policy section stays official; the estimate card below is third-party and directional.",
+  "scope_note": "Cornell does not publish a minimum GPA cutoff, an admitted-student GPA distribution, or any GPA breakdown by major. The cited first-year admissions page focuses on transcripts, school context, and recommendation materials rather than a posted GPA target.",
   "source_urls": [
     "https://admissions.cornell.edu/how-to-apply/first-year-applicants"
   ],
-  "policy_summary": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+  "policy_summary": "Cornell does not state a minimum required GPA on its cited first-year admissions page. Cornell instead requires full transcript reporting, midyear grades when available, and recommendation materials that describe academic strengths in context.",
   "what_mit_does_say": [
     {
-      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "claim": "Cornell does not publish a minimum GPA cutoff for first-year applicants on its cited admissions page.",
+      "source_url": "https://admissions.cornell.edu/how-to-apply/first-year-applicants"
+    },
+    {
+      "claim": "Cornell requires official high school/secondary school transcripts with grades from 9th through 11th grade plus in-progress 12th-grade courses, and later requests midyear grades when available.",
+      "source_url": "https://admissions.cornell.edu/how-to-apply/first-year-applicants"
+    },
+    {
+      "claim": "Cornell says teacher evaluations should highlight the applicant’s academic strengths and classroom contributions, and the counselor recommendation should present accomplishments in the context of the high school.",
       "source_url": "https://admissions.cornell.edu/how-to-apply/first-year-applicants"
     }
   ],
   "recommended_gpa": {
-    "summary": "Cornell does not publish HS GPA data for its incoming class on the cited official pages. The estimate below is a third-party directional reference, not an official Cornell cutoff.",
+    "summary": "Cornell does not publish HS GPA data for its incoming class. The numbers below are third-party estimates, not official Cornell figures. Use them as directional references, not cutoffs.",
     "estimates": [
       {
         "source": "PrepScholar",
-        "value": "4.18",
+        "value": "4.07",
         "scale": "weighted, 4.0 scale",
         "label": "Weighted (estimate)",
-        "method": "Estimated by PrepScholar because the university did not officially report an average incoming high-school GPA on the cited admissions pages.",
-        "url": "https://www.prepscholar.com/sat/s/colleges/Cornell-University-admission-requirements"
+        "method": "Estimated using data from over 1,000 schools, because Cornell did not officially report its average GPA.",
+        "url": "https://www.prepscholar.com/sat/s/colleges/Cornell-admission-requirements"
+      },
+      {
+        "source": "CollegeSimply",
+        "value": "3.90",
+        "scale": "unweighted, 4.0 scale",
+        "label": "Unweighted (prediction)",
+        "method": "Predicted by a CollegeSimply algorithm using Cornell's test scores and a large sample of college GPA data, because Cornell has not published HS GPA data for incoming freshmen.",
+        "url": "https://www.collegesimply.com/colleges/new-york/cornell-university/admission/"
       }
     ],
-    "interpretation": "This estimate points to a very high-achieving applicant pool with strong grades in rigorous courses. Treat the number as directional, not as an official Cornell threshold."
+    "interpretation": "Both third-party estimates land in the A/A- zone. The weighted 4.07 points to strong grades plus rigorous coursework, while the unweighted 3.90 reflects near-straight-A classroom performance."
   }
 }

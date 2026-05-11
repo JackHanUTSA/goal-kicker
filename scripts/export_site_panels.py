@@ -258,10 +258,18 @@ def write_json(path: Path, payload: dict[str, Any], force: bool) -> bool:
         if existing_is_rich and incoming_is_fallback:
             return False
         if isinstance(existing, dict) and path.parent.name == "gpa":
+            existing_claims = existing.get("what_mit_does_say") or []
+            incoming_claims = payload.get("what_mit_does_say") or []
             if existing.get("recommended_gpa") and not payload.get("recommended_gpa"):
                 payload["recommended_gpa"] = existing["recommended_gpa"]
             if existing.get("scope_note") and payload.get("scope_note", "").startswith("Goal Kicker currently exports GPA-policy notes"):
                 payload["scope_note"] = existing["scope_note"]
+            if len(existing_claims) > len(incoming_claims):
+                payload["what_mit_does_say"] = existing_claims
+            if existing.get("policy_summary") and not is_meaningful(payload.get("policy_summary")):
+                payload["policy_summary"] = existing["policy_summary"]
+            if existing.get("policy_summary") and "auto-enrichment pass" in str(payload.get("policy_summary", "")).lower():
+                payload["policy_summary"] = existing["policy_summary"]
         if not force:
             return False
     path.parent.mkdir(parents=True, exist_ok=True)

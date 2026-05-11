@@ -3,29 +3,46 @@
   "slug": "johns-hopkins",
   "retrieved_at": "2026-05-10",
   "scope": "policy-summary",
-  "scope_note": "Johns Hopkins University does not publish a minimum GPA cutoff or admitted-student GPA distribution on the cited official pages used here. The policy section stays official; the estimate card below is third-party and directional.",
+  "scope_note": "Johns Hopkins does not publish a minimum GPA cutoff, an admitted-student GPA distribution, or any GPA breakdown by major. Their cited admissions guidance emphasizes holistic review and course rigor rather than a numeric GPA threshold.",
   "source_urls": [
-    "https://apply.jhu.edu/college-planning-guide/preparing-for-college/"
+    "https://apply.jhu.edu/college-planning-guide/preparing-for-college/",
+    "https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/"
   ],
-  "policy_summary": "Johns Hopkins does not publish a minimum GPA on the cited official admissions pages. Hopkins says it reviews applications holistically in the context of a student's school and recommends a challenging high school curriculum rather than a fixed GPA cutoff.",
+  "policy_summary": "Johns Hopkins does not state a minimum required GPA on its cited admissions pages. Hopkins says it reviews applications holistically in the context of a student and school, and recommends a challenging curriculum rather than a fixed GPA cutoff.",
   "what_mit_does_say": [
     {
-      "claim": "Johns Hopkins does not publish a minimum GPA on the cited official admissions pages. Hopkins says it reviews applications holistically in the context of a student's school and recommends a challenging high school curriculum rather than a fixed GPA cutoff.",
+      "claim": "Johns Hopkins does not publish a minimum GPA cutoff for first-year applicants on its cited admissions pages.",
       "source_url": "https://apply.jhu.edu/college-planning-guide/preparing-for-college/"
+    },
+    {
+      "claim": "Johns Hopkins says it reviews applications holistically and takes both the student’s personal context and school context into account.",
+      "source_url": "https://apply.jhu.edu/college-planning-guide/preparing-for-college/"
+    },
+    {
+      "claim": "Johns Hopkins says strong applicants pursue a challenging high school curriculum, and it requires a secondary school report plus two teacher evaluations.",
+      "source_url": "https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/"
     }
   ],
   "recommended_gpa": {
-    "summary": "Johns Hopkins does not publish HS GPA data for its incoming class on the cited official pages. The estimate below is a third-party directional reference, not an official Hopkins cutoff.",
+    "summary": "Johns Hopkins does not publish HS GPA data for its incoming class. The numbers below are third-party estimates, not official Hopkins figures. Use them as directional references, not cutoffs.",
     "estimates": [
       {
         "source": "PrepScholar",
         "value": "3.93",
         "scale": "weighted, 4.0 scale",
         "label": "Weighted (estimate)",
-        "method": "Estimated by PrepScholar because the university did not officially report an average incoming high-school GPA on the cited admissions pages.",
+        "method": "Estimated using data from over 1,000 schools, because Johns Hopkins did not officially report its average GPA.",
         "url": "https://www.prepscholar.com/sat/s/colleges/Johns-Hopkins-admission-requirements"
+      },
+      {
+        "source": "CollegeSimply",
+        "value": "3.92",
+        "scale": "unweighted, 4.0 scale",
+        "label": "Unweighted (prediction)",
+        "method": "Predicted by CollegeSimply from Johns Hopkins's published test-score profile and a large sample of college GPA data, because Johns Hopkins has not published HS GPA data for incoming freshmen.",
+        "url": "https://www.collegesimply.com/colleges/maryland/johns-hopkins-university/admission/"
       }
     ],
-    "interpretation": "This estimate points to an applicant pool with very strong grades, but Hopkins' official process remains holistic and school-context driven. Treat the number as directional rather than required."
+    "interpretation": "These two third-party estimates are tightly clustered around A/A- work. The weighted 3.93 and unweighted 3.92 both suggest that admitted applicants usually present consistently excellent grades, even though Hopkins does not publish an official GPA average."
   }
 }

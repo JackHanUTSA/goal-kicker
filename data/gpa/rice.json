@@ -3,29 +3,45 @@
   "slug": "rice",
   "retrieved_at": "2026-05-10",
   "scope": "policy-summary",
-  "scope_note": "Rice University does not publish a minimum GPA cutoff or admitted-student GPA distribution on the cited official pages used here. The policy section stays official; the estimate card below is third-party and directional.",
+  "scope_note": "Rice does not publish a minimum GPA cutoff, an admitted-student GPA distribution, or any GPA breakdown by major. The cited application page focuses on official transcript and recommendation materials instead of a posted GPA threshold.",
   "source_urls": [
     "https://admission.rice.edu/apply/first-year-domestic-applicants"
   ],
-  "policy_summary": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+  "policy_summary": "Rice does not state a minimum required GPA on its cited first-year application page. Rice instead requires official transcripts and recommendation letters, and frames academic readiness through holistic review rather than a published GPA cutoff.",
   "what_mit_does_say": [
     {
-      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "claim": "Rice does not publish a minimum GPA cutoff for first-year applicants on its cited admissions page.",
+      "source_url": "https://admission.rice.edu/apply/first-year-domestic-applicants"
+    },
+    {
+      "claim": "Rice requires official high school/secondary school transcripts with grades from 9th through 11th grade plus courses being taken in 12th grade.",
+      "source_url": "https://admission.rice.edu/apply/first-year-domestic-applicants"
+    },
+    {
+      "claim": "Rice says the counselor and teacher recommendations should highlight the student’s accomplishments and academic strengths in the context of the high school and classroom.",
       "source_url": "https://admission.rice.edu/apply/first-year-domestic-applicants"
     }
   ],
   "recommended_gpa": {
-    "summary": "Rice does not publish HS GPA data for its incoming class on the cited official pages. The estimate below is a third-party directional reference, not an official Rice cutoff.",
+    "summary": "Rice does not publish HS GPA data for its incoming class. The numbers below are third-party estimates, not official Rice figures. Use them as directional references, not cutoffs.",
     "estimates": [
       {
         "source": "PrepScholar",
-        "value": "4.17",
+        "value": "4.12",
         "scale": "weighted, 4.0 scale",
         "label": "Weighted (estimate)",
-        "method": "Estimated by PrepScholar because the university did not officially report an average incoming high-school GPA on the cited admissions pages.",
-        "url": "https://www.prepscholar.com/sat/s/colleges/Rice-University-admission-requirements"
+        "method": "Estimated using data from over 1,000 schools, because Rice did not officially report its average GPA.",
+        "url": "https://www.prepscholar.com/sat/s/colleges/Rice-admission-requirements"
+      },
+      {
+        "source": "CollegeSimply",
+        "value": "3.96",
+        "scale": "unweighted, 4.0 scale",
+        "label": "Unweighted (prediction)",
+        "method": "Predicted by a CollegeSimply algorithm using Rice's test scores and a large sample of college GPA data, because Rice has not published HS GPA data for incoming freshmen.",
+        "url": "https://www.collegesimply.com/colleges/texas/rice-university/admission/"
       }
     ],
-    "interpretation": "This estimate points to near-straight-A performance in advanced coursework. Rice's official admissions materials remain the policy source; this number is only a directional benchmark."
+    "interpretation": "Both estimates point to very high grades. The weighted 4.12 suggests many successful applicants combine A-range marks with advanced courses; the unweighted 3.96 is roughly an A/A- transcript."
   }
 }

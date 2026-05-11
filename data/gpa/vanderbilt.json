@@ -3,29 +3,45 @@
   "slug": "vanderbilt",
   "retrieved_at": "2026-05-10",
   "scope": "policy-summary",
-  "scope_note": "Vanderbilt University does not publish a minimum GPA cutoff or admitted-student GPA distribution on the cited official pages used here. The policy section stays official; the estimate card below is third-party and directional.",
+  "scope_note": "Vanderbilt does not publish a minimum GPA cutoff, an admitted-student GPA distribution, or any GPA breakdown by major. Its admissions philosophy explicitly says it does not use grade-point-average cutoffs.",
   "source_urls": [
-    "https://admissions.vanderbilt.edu/"
+    "https://admissions.vanderbilt.edu/apply/"
   ],
-  "policy_summary": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+  "policy_summary": "Vanderbilt does not state a minimum required GPA on its cited apply page. Vanderbilt explicitly says it uses holistic review and does not employ cutoffs for standardized testing or grade point averages.",
   "what_mit_does_say": [
     {
-      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
-      "source_url": "https://admissions.vanderbilt.edu/"
+      "claim": "Vanderbilt explicitly says it does not employ cutoffs for grade point averages in its holistic admissions review process.",
+      "source_url": "https://admissions.vanderbilt.edu/apply/"
+    },
+    {
+      "claim": "Vanderbilt says it looks for students who have demonstrated strong academic skills and intellectual curiosity.",
+      "source_url": "https://admissions.vanderbilt.edu/apply/"
+    },
+    {
+      "claim": "Vanderbilt says competitive applicants typically take a very rigorous course load and challenge themselves at the highest levels of the available curriculum.",
+      "source_url": "https://admissions.vanderbilt.edu/apply/"
     }
   ],
   "recommended_gpa": {
-    "summary": "Vanderbilt does not publish HS GPA data for its incoming class on the cited official pages. The estimate below is a third-party directional reference, not an official Vanderbilt cutoff.",
+    "summary": "Vanderbilt does not publish HS GPA data for its incoming class. The numbers below are third-party estimates, not official Vanderbilt figures. Use them as directional references, not cutoffs.",
     "estimates": [
       {
         "source": "PrepScholar",
-        "value": "3.89",
+        "value": "4.0",
         "scale": "weighted, 4.0 scale",
         "label": "Weighted (estimate)",
-        "method": "Estimated by PrepScholar because the university did not officially report an average incoming high-school GPA on the cited admissions pages.",
+        "method": "Estimated using data from over 1,000 schools, because Vanderbilt did not officially report its average GPA.",
         "url": "https://www.prepscholar.com/sat/s/colleges/Vanderbilt-admission-requirements"
+      },
+      {
+        "source": "CollegeSimply",
+        "value": "3.89",
+        "scale": "unweighted, 4.0 scale",
+        "label": "Unweighted (prediction)",
+        "method": "Predicted by CollegeSimply from Vanderbilt's published test-score profile and a large sample of college GPA data, because Vanderbilt has not published HS GPA data for incoming freshmen.",
+        "url": "https://www.collegesimply.com/colleges/tennessee/vanderbilt-university/admission/"
       }
     ],
-    "interpretation": "This estimate points to a very strong grade profile, even though it sits below the 4.x weighted estimates seen at some peers. Treat it as a directional benchmark rather than an official Vanderbilt minimum."
+    "interpretation": "Both estimates still describe elite grades, even though Vanderbilt says it does not use GPA cutoffs. The weighted 4.0 suggests many admitted students pair top marks with strong rigor; the unweighted 3.89 is about an A/A- average."
   }
 }

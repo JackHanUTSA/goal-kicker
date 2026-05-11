@@ -3,29 +3,46 @@
   "slug": "dartmouth",
   "retrieved_at": "2026-05-10",
   "scope": "policy-summary",
-  "scope_note": "Dartmouth College does not publish a minimum GPA cutoff or admitted-student GPA distribution on the cited official pages used here. The policy section stays official; the estimate card below is third-party and directional.",
+  "scope_note": "Dartmouth does not publish a minimum GPA cutoff, an admitted-student GPA distribution, or any GPA breakdown by major. Their cited admissions guidance says transcript context and grade trends matter more than a single numeric cutoff.",
   "source_urls": [
-    "https://admissions.dartmouth.edu/apply/counselors"
+    "https://admissions.dartmouth.edu/apply/counselors",
+    "https://admissions.dartmouth.edu/glossary-term/recommendations"
   ],
-  "policy_summary": "Dartmouth does not publish a minimum GPA on the cited official admissions pages. Dartmouth says a top secondary school GPA can predict college success, but it evaluates grade trends and transcript context rather than using GPA alone as a cutoff.",
+  "policy_summary": "Dartmouth does not state a minimum required GPA on its cited admissions pages. Dartmouth says a top secondary school GPA is useful, but it evaluates grade trends and transcript context rather than using GPA alone as a cutoff.",
   "what_mit_does_say": [
     {
-      "claim": "Dartmouth does not publish a minimum GPA on the cited official admissions pages. Dartmouth says a top secondary school GPA can predict college success, but it evaluates grade trends and transcript context rather than using GPA alone as a cutoff.",
+      "claim": "Dartmouth does not publish a minimum GPA cutoff for first-year applicants on its cited admissions pages.",
+      "source_url": "https://admissions.dartmouth.edu/apply/counselors"
+    },
+    {
+      "claim": "Dartmouth says a top secondary school GPA is only part of how it evaluates applicants, and that it reads each transcript and school profile closely.",
+      "source_url": "https://admissions.dartmouth.edu/apply/counselors"
+    },
+    {
+      "claim": "Dartmouth says applicants typically pursue the most rigorous coursework available to them, especially in their areas of greatest interest.",
       "source_url": "https://admissions.dartmouth.edu/apply/counselors"
     }
   ],
   "recommended_gpa": {
-    "summary": "Dartmouth does not publish HS GPA data for its incoming class on the cited official pages. The estimate below is a third-party directional reference, not an official Dartmouth cutoff.",
+    "summary": "Dartmouth does not publish HS GPA data for its incoming class. The numbers below are third-party estimates, not official Dartmouth figures. Use them as directional references, not cutoffs.",
     "estimates": [
       {
         "source": "PrepScholar",
         "value": "4.11",
         "scale": "weighted, 4.0 scale",
         "label": "Weighted (estimate)",
-        "method": "Estimated by PrepScholar because the university did not officially report an average incoming high-school GPA on the cited admissions pages.",
+        "method": "Estimated using data from over 1,000 schools, because Dartmouth did not officially report its average GPA.",
         "url": "https://www.prepscholar.com/sat/s/colleges/Dartmouth-admission-requirements"
+      },
+      {
+        "source": "CollegeSimply",
+        "value": "3.90",
+        "scale": "unweighted, 4.0 scale",
+        "label": "Unweighted (prediction)",
+        "method": "Predicted by a CollegeSimply algorithm using Dartmouth's test scores and a large sample of college GPA data, because Dartmouth has not published HS GPA data for incoming freshmen.",
+        "url": "https://www.collegesimply.com/colleges/new-hampshire/dartmouth-college/admission/"
       }
     ],
-    "interpretation": "This estimate suggests that successful applicants usually present extremely strong grades, but Dartmouth's official guidance still points readers back to transcript context and grade trends instead of a hard minimum."
+    "interpretation": "Both estimates indicate a transcript full of top grades. The weighted 4.11 suggests many competitive applicants combine A-range marks with advanced courses; the unweighted 3.90 is roughly an A/A- average."
   }
 }

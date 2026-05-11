@@ -3,29 +3,45 @@
   "slug": "northwestern",
   "retrieved_at": "2026-05-10",
   "scope": "policy-summary",
-  "scope_note": "Northwestern University does not publish a minimum GPA cutoff or admitted-student GPA distribution on the cited official pages used here. The policy section stays official; the estimate card below is third-party and directional.",
+  "scope_note": "Northwestern does not publish a minimum GPA cutoff, an admitted-student GPA distribution, or any GPA breakdown by major. Their cited admissions materials frame academic review in context rather than around a numeric threshold.",
   "source_urls": [
     "https://admissions.northwestern.edu/apply/requirements.html"
   ],
-  "policy_summary": "Northwestern does not publish a minimum GPA on the cited official admissions pages. Instead, Northwestern asks counselors to contextualize a student's overall high school curriculum and invites applicants to explain circumstances that significantly affected academic performance.",
+  "policy_summary": "Northwestern does not state a minimum required GPA on its cited admissions page. Instead, Northwestern asks counselors to contextualize a student’s curriculum and invites applicants to explain circumstances that significantly affected academic performance.",
   "what_mit_does_say": [
     {
-      "claim": "Northwestern does not publish a minimum GPA on the cited official admissions pages. Instead, Northwestern asks counselors to contextualize a student's overall high school curriculum and invites applicants to explain circumstances that significantly affected academic performance.",
+      "claim": "Northwestern does not publish a minimum GPA cutoff for first-year applicants on its cited admissions page.",
+      "source_url": "https://admissions.northwestern.edu/apply/requirements.html"
+    },
+    {
+      "claim": "Northwestern asks the counselor recommendation to speak to the student’s overall high school curriculum and involvement within the context of that high school.",
+      "source_url": "https://admissions.northwestern.edu/apply/requirements.html"
+    },
+    {
+      "claim": "Northwestern explicitly invites applicants to use the Additional Information section to explain circumstances that significantly affected academic performance.",
       "source_url": "https://admissions.northwestern.edu/apply/requirements.html"
     }
   ],
   "recommended_gpa": {
-    "summary": "Northwestern does not publish HS GPA data for its incoming class on the cited official pages. The estimate below is a third-party directional reference, not an official Northwestern cutoff.",
+    "summary": "Northwestern does not publish HS GPA data for its incoming class. The numbers below are third-party estimates, not official Northwestern figures. Use them as directional references, not cutoffs.",
     "estimates": [
       {
         "source": "PrepScholar",
-        "value": "4.17",
+        "value": "4.1",
         "scale": "weighted, 4.0 scale",
         "label": "Weighted (estimate)",
-        "method": "Estimated by PrepScholar because the university did not officially report an average incoming high-school GPA on the cited admissions pages.",
+        "method": "Estimated using data from over 1,000 schools, because Northwestern did not officially report its average GPA.",
         "url": "https://www.prepscholar.com/sat/s/colleges/Northwestern-admission-requirements"
+      },
+      {
+        "source": "CollegeSimply",
+        "value": "3.92",
+        "scale": "unweighted, 4.0 scale",
+        "label": "Unweighted (prediction)",
+        "method": "Predicted by a CollegeSimply algorithm using Northwestern's test scores and a large sample of college GPA data, because Northwestern has not published HS GPA data for incoming freshmen.",
+        "url": "https://www.collegesimply.com/colleges/illinois/northwestern-university/admission/"
       }
     ],
-    "interpretation": "This estimate points to near-straight-A grades plus rigorous coursework. Northwestern's official materials emphasize transcript context and explanatory context over any fixed GPA bar."
+    "interpretation": "Both estimates land in the near-straight-A range. The weighted 4.1 implies a highly rigorous schedule with top marks, while the unweighted 3.92 points to an A/A- level transcript."
   }
 }

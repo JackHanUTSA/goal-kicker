@@ -3,29 +3,45 @@
   "slug": "duke",
   "retrieved_at": "2026-05-10",
   "scope": "policy-summary",
-  "scope_note": "Duke University does not publish a minimum GPA cutoff or admitted-student GPA distribution on the cited official pages used here. The policy section stays official; the estimate card below is third-party and directional.",
+  "scope_note": "Duke does not publish a minimum GPA cutoff, an admitted-student GPA distribution, or any GPA breakdown by major. Their stated process is contextual and holistic, not numeric.",
   "source_urls": [
     "https://admissions.duke.edu/what-we-look-for/"
   ],
-  "policy_summary": "Duke does not publish a minimum GPA on the cited admissions pages. Instead, Duke says academic performance as measured by grades in academic courses is one of its five primary review factors and evaluates those grades alongside course rigor.",
+  "policy_summary": "Duke does not state a minimum required GPA on its cited admissions page. Duke says it evaluates applicants in the context of their opportunities and challenges, with academic program rigor and grades in academic courses among its primary review factors.",
   "what_mit_does_say": [
     {
-      "claim": "Duke does not publish a minimum GPA on the cited admissions pages. Instead, Duke says academic performance as measured by grades in academic courses is one of its five primary review factors and evaluates those grades alongside course rigor.",
+      "claim": "Duke does not publish a minimum GPA cutoff for first-year applicants on its cited admissions page.",
+      "source_url": "https://admissions.duke.edu/what-we-look-for/"
+    },
+    {
+      "claim": "Duke says it considers applicants in the context of their opportunities and challenges when discussing applications in committee.",
+      "source_url": "https://admissions.duke.edu/what-we-look-for/"
+    },
+    {
+      "claim": "Duke says two of its five primary admissions factors are 'the rigor of a candidate’s academic program' and 'academic performance as measured by grades in academic courses.'",
       "source_url": "https://admissions.duke.edu/what-we-look-for/"
     }
   ],
   "recommended_gpa": {
-    "summary": "Duke does not publish HS GPA data for its incoming class on the cited official pages. The estimate below is a third-party directional reference, not an official Duke cutoff.",
+    "summary": "Duke does not publish HS GPA data for its incoming class. The numbers below are third-party estimates, not official Duke figures. Use them as directional references, not cutoffs.",
     "estimates": [
       {
         "source": "PrepScholar",
-        "value": "4.20",
+        "value": "4.13",
         "scale": "weighted, 4.0 scale",
         "label": "Weighted (estimate)",
-        "method": "Estimated by PrepScholar because the university did not officially report an average incoming high-school GPA on the cited admissions pages.",
+        "method": "Estimated using data from over 1,000 schools, because Duke did not officially report its average GPA.",
         "url": "https://www.prepscholar.com/sat/s/colleges/Duke-admission-requirements"
+      },
+      {
+        "source": "CollegeSimply",
+        "value": "3.94",
+        "scale": "unweighted, 4.0 scale",
+        "label": "Unweighted (prediction)",
+        "method": "Predicted by a CollegeSimply algorithm using Duke's test scores and a large sample of college GPA data, because Duke has not published HS GPA data for incoming freshmen.",
+        "url": "https://www.collegesimply.com/colleges/north-carolina/duke-university/admission/"
       }
     ],
-    "interpretation": "This estimate points to near-straight-A high school performance in a rigorous schedule. Use Duke's official review language above as the real policy; the number is only a directional benchmark."
+    "interpretation": "Both estimates point to near-straight-A performance. The weighted 4.13 suggests many successful applicants pair top grades with advanced coursework; the unweighted 3.94 is roughly an A average."
   }
 }

@@ -3,29 +3,46 @@
   "slug": "washu",
   "retrieved_at": "2026-05-10",
   "scope": "policy-summary",
-  "scope_note": "Washington University in St. Louis does not publish a minimum GPA cutoff or admitted-student GPA distribution on the cited official pages used here. The policy section stays official; the estimate card below is third-party and directional.",
+  "scope_note": "WashU does not publish a minimum GPA cutoff, an admitted-student GPA distribution, or any GPA breakdown by major. Its admissions materials emphasize holistic review and broad academic opportunity rather than a posted numeric GPA threshold.",
   "source_urls": [
+    "https://admissions.washu.edu/",
     "https://admissions.washu.edu/how-to-apply/"
   ],
-  "policy_summary": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+  "policy_summary": "WashU does not state a minimum required GPA on its cited admissions pages. WashU describes its process as holistic and points applicants toward broad academic flexibility rather than a published GPA cutoff.",
   "what_mit_does_say": [
     {
-      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "claim": "WashU does not publish a minimum GPA cutoff for first-year applicants on its cited admissions pages.",
+      "source_url": "https://admissions.washu.edu/how-to-apply/"
+    },
+    {
+      "claim": "WashU’s admissions site describes the university as using a holistic admissions process.",
+      "source_url": "https://admissions.washu.edu/"
+    },
+    {
+      "claim": "WashU highlights a robust and flexible curriculum across more than 100 fields of study rather than a major-specific GPA requirement.",
       "source_url": "https://admissions.washu.edu/how-to-apply/"
     }
   ],
   "recommended_gpa": {
-    "summary": "Washington University in St. Louis does not publish HS GPA data for its incoming class on the cited official pages. The estimate below is a third-party directional reference, not an official WashU cutoff.",
+    "summary": "WashU does not publish HS GPA data for its incoming class. The numbers below are third-party estimates, not official WashU figures. Use them as directional references, not cutoffs.",
     "estimates": [
       {
         "source": "PrepScholar",
-        "value": "4.19",
+        "value": "4.15",
         "scale": "weighted, 4.0 scale",
         "label": "Weighted (estimate)",
-        "method": "Estimated by PrepScholar because the university did not officially report an average incoming high-school GPA on the cited admissions pages.",
-        "url": "https://www.prepscholar.com/sat/s/colleges/Washington-University-In-St-Louis-admission-requirements"
+        "method": "Estimated using data from over 1,000 schools, because WashU did not officially report its average GPA.",
+        "url": "https://www.prepscholar.com/sat/s/colleges/WashU-admission-requirements"
+      },
+      {
+        "source": "CollegeSimply",
+        "value": "3.92",
+        "scale": "unweighted, 4.0 scale",
+        "label": "Unweighted (prediction)",
+        "method": "Predicted by a CollegeSimply algorithm using WashU's test scores and a large sample of college GPA data, because WashU has not published HS GPA data for incoming freshmen.",
+        "url": "https://www.collegesimply.com/colleges/missouri/washington-university-in-st-louis/admission/"
       }
     ],
-    "interpretation": "This estimate points to near-straight-A grades in rigorous coursework. WashU's official admissions language remains the policy source; the estimate is only a directional reference."
+    "interpretation": "Both estimates still indicate near-straight-A work. The weighted 4.15 points to heavy rigor plus top marks, while the unweighted 3.92 corresponds to roughly an A/A- classroom record."
   }
 }

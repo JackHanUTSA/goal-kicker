@@ -3,29 +3,45 @@
   "slug": "brown",
   "retrieved_at": "2026-05-10",
   "scope": "policy-summary",
-  "scope_note": "Brown University does not publish a minimum GPA cutoff or admitted-student GPA distribution on the cited official pages used here. The policy section stays official; the estimate card below is third-party and directional.",
+  "scope_note": "Brown does not publish a minimum GPA cutoff, an admitted-student GPA distribution, or any GPA breakdown by major. The cited application materials emphasize official school records and contextual review rather than a posted numeric GPA threshold.",
   "source_urls": [
     "https://admission.brown.edu/first-year/application-checklist"
   ],
-  "policy_summary": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+  "policy_summary": "Brown does not state a minimum required GPA on its cited application checklist. Brown instead requires official transcript and school-report materials, and its admissions pages emphasize context-based review rather than published numerical cutoffs.",
   "what_mit_does_say": [
     {
-      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+      "claim": "Brown does not publish a minimum GPA cutoff for first-year applicants on its cited admissions page.",
+      "source_url": "https://admission.brown.edu/first-year/application-checklist"
+    },
+    {
+      "claim": "Brown requires an official high school transcript, a School Report, and a Midyear School Report/Transcript submitted by school officials.",
+      "source_url": "https://admission.brown.edu/first-year/application-checklist"
+    },
+    {
+      "claim": "Brown requires counselor and teacher recommendations, and says testing is considered in context rather than through a minimum-score cutoff.",
       "source_url": "https://admission.brown.edu/first-year/application-checklist"
     }
   ],
   "recommended_gpa": {
-    "summary": "Brown does not publish HS GPA data for its incoming class on the cited official pages. The estimate below is a third-party directional reference, not an official Brown cutoff.",
+    "summary": "Brown does not publish HS GPA data for its incoming class. The numbers below are third-party estimates, not official Brown figures. Use them as directional references, not cutoffs.",
     "estimates": [
       {
         "source": "PrepScholar",
-        "value": "4.18",
+        "value": "4.08",
         "scale": "weighted, 4.0 scale",
         "label": "Weighted (estimate)",
-        "method": "Estimated by PrepScholar because the university did not officially report an average incoming high-school GPA on the cited admissions pages.",
-        "url": "https://www.prepscholar.com/sat/s/colleges/Brown-University-admission-requirements"
+        "method": "Estimated using data from over 1,000 schools, because Brown did not officially report its average GPA.",
+        "url": "https://www.prepscholar.com/sat/s/colleges/Brown-admission-requirements"
+      },
+      {
+        "source": "CollegeSimply",
+        "value": "3.94",
+        "scale": "unweighted, 4.0 scale",
+        "label": "Unweighted (prediction)",
+        "method": "Predicted by a CollegeSimply algorithm using Brown's test scores and a large sample of college GPA data, because Brown has not published HS GPA data for incoming freshmen.",
+        "url": "https://www.collegesimply.com/colleges/rhode-island/brown-university/admission/"
       }
     ],
-    "interpretation": "This estimate points to near-straight-A grades in a demanding curriculum. Brown's official pages should still be treated as the policy source; the estimate is only a directional reference."
+    "interpretation": "The two estimates both describe near-straight-A performance. The weighted 4.08 suggests strong grades in advanced classes, while the unweighted 3.94 corresponds to about an A average."
   }
 }
