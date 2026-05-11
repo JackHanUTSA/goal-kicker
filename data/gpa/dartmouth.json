@@ -5,21 +5,13 @@
   "scope": "policy-summary",
   "scope_note": "Goal Kicker currently exports GPA-policy notes for this school. Where the school does not publish a hard GPA cutoff or admitted-student GPA distribution, the panel says that directly instead of inventing a threshold.",
   "source_urls": [
-    "https://admissions.dartmouth.edu/",
-    "https://www.dartmouth.edu/admission",
-    "https://www.dartmouth.edu/apply",
-    "https://admissions.dartmouth.edu/apply-dartmouth",
-    "https://admissions.dartmouth.edu/apply/testing-policy",
-    "https://admissions.dartmouth.edu/apply/counselors",
-    "https://admissions.dartmouth.edu/glossary-term/recommendations",
-    "https://admissions.dartmouth.edu/glossary-term/writing-supplement",
-    "https://www.dartmouth.edu"
+    "https://admissions.dartmouth.edu/apply/counselors"
   ],
-  "policy_summary": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+  "policy_summary": "Dartmouth does not publish a minimum GPA on the cited official admissions pages. Dartmouth says a top secondary school GPA can predict college success, but it evaluates grade trends and transcript context rather than using GPA alone as a cutoff.",
   "what_mit_does_say": [
     {
-      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
-      "source_url": "https://admissions.dartmouth.edu/"
+      "claim": "Dartmouth does not publish a minimum GPA on the cited official admissions pages. Dartmouth says a top secondary school GPA can predict college success, but it evaluates grade trends and transcript context rather than using GPA alone as a cutoff.",
+      "source_url": "https://admissions.dartmouth.edu/apply/counselors"
     }
   ]
 }

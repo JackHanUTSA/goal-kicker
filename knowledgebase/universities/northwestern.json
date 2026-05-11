@@ -141,7 +141,7 @@
   "admissions": {
     "application_platform": "Northwestern accepts the Common Application or Coalition with Scoir; eligible students may also apply through QuestBridge.",
     "testing_policy": "Northwestern is test-optional for first-year and transfer applicants and does not require ACT or SAT scores; if students submit scores, there is no preference between the SAT and ACT.",
-    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "gpa_policy": "Northwestern does not publish a minimum GPA on the cited official admissions pages. Instead, Northwestern asks counselors to contextualize a student's overall high school curriculum and invites applicants to explain circumstances that significantly affected academic performance.",
     "course_rigor": "Northwestern reviews a student’s overall high school curriculum in context and asks the counselor recommendation to speak to that curriculum and the student’s involvement within the high school environment.",
     "recommendations": "Northwestern requires two letters of recommendation: one from a high school counselor and one from a teacher in a core subject area, ideally from junior or senior year.",
     "essays": "Northwestern requires a 300-word contextual question for Common Application and Coalition with Scoir applicants, plus one or two additional short supplemental responses of under 200 words each.",
@@ -178,11 +178,11 @@
     },
     {
       "field": "admissions.gpa_policy",
-      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
-      "classification": "reported_profile",
+      "claim": "Northwestern does not publish a minimum GPA on the cited official admissions pages. Instead, Northwestern asks counselors to contextualize a student's overall high school curriculum and invites applicants to explain circumstances that significantly affected academic performance.",
+      "classification": "official_requirement",
       "source_url": "https://admissions.northwestern.edu/apply/requirements.html",
-      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
-      "retrieved_at": "2026-04-20T03:01:16.166086+00:00"
+      "source_excerpt": "One letter should come from your high school counselor ... who can best speak to your overall high school curriculum and involvement within the context of your high school ... Use the “Additional Information” section ... to share any information that may have significantly impacted your academic performance.",
+      "retrieved_at": "2026-05-11T01:27:42.838061+00:00"
     },
     {
       "field": "admissions.course_rigor",
@@ -258,7 +258,7 @@
     }
   ],
   "verification": {
-    "last_verified_at": "2026-05-11T01:13:00.869597+00:00",
+    "last_verified_at": "2026-05-11T01:27:42.838061+00:00",
     "confidence": "phase-5-manual-repair",
     "unknown_fields": [],
     "warnings": [

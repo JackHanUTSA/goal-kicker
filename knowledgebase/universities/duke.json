@@ -119,7 +119,7 @@
   "admissions": {
     "application_platform": "First-year applicants apply through the Common Application; eligible students may apply through QuestBridge.",
     "testing_policy": "Duke is test-optional for both first-year and transfer applicants in the 2026-2027 admissions cycle, and students who apply without SAT or ACT scores are not disadvantaged.",
-    "gpa_policy": "Duke does not publish a minimum GPA on the cited admissions pages.",
+    "gpa_policy": "Duke does not publish a minimum GPA on the cited admissions pages. Instead, Duke says academic performance as measured by grades in academic courses is one of its five primary review factors and evaluates those grades alongside course rigor.",
     "course_rigor": "Duke evaluates the rigor of a candidate's academic program and generally expects students to enroll in five academic courses per year, taking the best available and most challenging courses; Pratt applicants must complete calculus and are strongly encouraged to take physics.",
     "recommendations": "Duke requires a secondary school report with counselor recommendation and two teacher recommendations.",
     "essays": "Duke requires a one-page personal essay plus short-answer questions specific to Duke.",
@@ -217,10 +217,18 @@
       "source_url": "https://admissions.duke.edu/apply/",
       "source_excerpt": "Common Application or QuestBridge Application for eligible students.",
       "retrieved_at": "2026-05-11T01:13:00.869597+00:00"
+    },
+    {
+      "field": "admissions.gpa_policy",
+      "claim": "Duke does not publish a minimum GPA on the cited admissions pages. Instead, Duke says academic performance as measured by grades in academic courses is one of its five primary review factors and evaluates those grades alongside course rigor.",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.duke.edu/what-we-look-for/",
+      "source_excerpt": "The rigor of a candidate's academic program ... Academic performance as measured by grades in academic courses ... Enroll in the best available and most challenging courses.",
+      "retrieved_at": "2026-05-11T01:27:42.838061+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-05-11T01:13:00.869597+00:00",
+    "last_verified_at": "2026-05-11T01:27:42.838061+00:00",
     "confidence": "phase-4-top10-structured",
     "unknown_fields": [],
     "warnings": [

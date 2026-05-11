@@ -136,6 +136,14 @@ const SCHOOL_COLORS={"Architecture and Planning":"#a78bfa","Engineering":"#60a5f
 let D=[],sk='rank',sd=1;
 const $=id=>document.getElementById(id),tb=$('tb'),q=$('q'),f=$('f'),c=$('c'),tip=$('tip');
 const esc=s=>s==null?'':String(s).replace(/[&<>"']/g,x=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[x]);
+function sourceLabel(url, idx){
+  try{
+    const host=new URL(url).hostname.replace(/^www\./,'');
+    return host || ('source '+(idx+1));
+  }catch(e){
+    return 'source '+(idx+1);
+  }
+}
 const detailCache={},enrollCache={},testCache={},gpaCache={},rigorCache={};
 
 function tryFetchJson(slug, sub, cache){
@@ -275,11 +283,12 @@ function renderTesting(t){
 }
 
 function renderGpa(g){
-  const claimRows = (g.what_mit_does_say || []).filter(c => c && c.claim && c.claim.trim() && c.claim.trim() !== (g.policy_summary || '').trim());
+  const summary=(g.policy_summary || '').trim();
+  const claimRows = (g.what_mit_does_say || []).filter(c => c && c.claim && c.claim.trim() && c.claim.trim() !== summary);
   const claims = claimRows.map(c =>
-    '<li>'+esc(c.claim)+(c.source_url ? '<a class="src-link" href="'+esc(c.source_url)+'">source</a>' : '')+'</li>'
+    '<li>'+esc(c.claim)+(c.source_url ? '<a class="src-link" href="'+esc(c.source_url)+'">'+esc(sourceLabel(c.source_url, 0))+'</a>' : '')+'</li>'
   ).join('');
-  const sourceLinks = (g.source_urls || []).map(u => '<a href="'+esc(u)+'">source</a>').join(' · ');
+  const sourceLinks = (g.source_urls || []).map((u,i) => '<a href="'+esc(u)+'">'+esc(sourceLabel(u, i))+'</a>').join(' · ');
   const rg = g.recommended_gpa;
   const recCards = rg && rg.estimates ? rg.estimates.map(e =>
     '<div class="rec-gpa-card">'+
@@ -297,11 +306,12 @@ function renderGpa(g){
     (rg.interpretation ? '<div class="rec-gpa-interp"><strong>Interpretation:</strong>'+esc(rg.interpretation)+'</div>' : '')+
     '</div>'
   ) : '';
+  const supportingBlock = claims ? '<ul class="policy-list">'+claims+'</ul>' : '<div class="policy-summary"><em>No numeric GPA cutoff or admitted-student GPA distribution is published in the current cited official material.</em></div>';
   return '<div class="chartbox">'+
-    '<div class="chart-title">Published GPA information <span class="src">'+sourceLinks+'</span></div>'+
+    '<div class="chart-title">Official GPA / grades context <span class="src">'+sourceLinks+'</span></div>'+
     (g.scope_note ? '<div class="scope-note"><strong>Scope:</strong> '+esc(g.scope_note)+'</div>' : '')+
-    (g.policy_summary ? '<div class="policy-summary">'+esc(g.policy_summary)+'</div>' : '')+
-    (claims ? '<ul class="policy-list">'+claims+'</ul>' : '')+
+    (summary ? '<div class="policy-summary">'+esc(summary)+'</div>' : '')+
+    supportingBlock+
     recBlock+
     '</div>';
 }

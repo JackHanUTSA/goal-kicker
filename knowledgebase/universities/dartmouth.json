@@ -101,7 +101,7 @@
   "admissions": {
     "application_platform": "Dartmouth accepts the Common Application, and eligible students may apply through QuestBridge.",
     "testing_policy": "Dartmouth requires standardized testing. Students attending high school in the United States must submit SAT or ACT results; students outside the U.S. may satisfy the requirement through SAT/ACT or approved national or diploma exam pathways.",
-    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "gpa_policy": "Dartmouth does not publish a minimum GPA on the cited official admissions pages. Dartmouth says a top secondary school GPA can predict college success, but it evaluates grade trends and transcript context rather than using GPA alone as a cutoff.",
     "course_rigor": "Dartmouth reviews curriculum in the context of what is available at a student’s school and says its applicants typically pursue the most rigorous coursework available, especially in their areas of greatest interest.",
     "recommendations": "For first-year applicants, Dartmouth requires a counselor evaluation and two teacher recommendations, and it strongly encourages a peer recommendation.",
     "essays": "Dartmouth requires a writing supplement with Dartmouth-specific short essay prompts, including a 100-word response required of all applicants.",
@@ -130,11 +130,11 @@
     },
     {
       "field": "admissions.gpa_policy",
-      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
-      "classification": "reported_profile",
-      "source_url": "https://admissions.dartmouth.edu/",
-      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
-      "retrieved_at": "2026-04-20T03:01:20.990759+00:00"
+      "claim": "Dartmouth does not publish a minimum GPA on the cited official admissions pages. Dartmouth says a top secondary school GPA can predict college success, but it evaluates grade trends and transcript context rather than using GPA alone as a cutoff.",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.dartmouth.edu/apply/counselors",
+      "source_excerpt": "A top secondary school GPA is an indicator that a candidate is likely to do well in college. However, this is only part of the way we look at a student's GPA in the application process. Grade trends ... we read each student's transcript and school profile closely.",
+      "retrieved_at": "2026-05-11T01:27:42.838061+00:00"
     },
     {
       "field": "school_people.popular_professors",
@@ -194,7 +194,7 @@
     }
   ],
   "verification": {
-    "last_verified_at": "2026-05-11T01:13:00.869597+00:00",
+    "last_verified_at": "2026-05-11T01:27:42.838061+00:00",
     "confidence": "phase-5-manual-repair",
     "unknown_fields": [],
     "warnings": [

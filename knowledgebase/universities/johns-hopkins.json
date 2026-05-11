@@ -139,7 +139,7 @@
   "admissions": {
     "application_platform": "Johns Hopkins accepts first-year applications through the Common Application or Coalition on Scoir.",
     "testing_policy": "Johns Hopkins requires standardized testing for first-year applicants and reviews self-reported or official SAT/ACT scores as part of holistic review.",
-    "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+    "gpa_policy": "Johns Hopkins does not publish a minimum GPA on the cited official admissions pages. Hopkins says it reviews applications holistically in the context of a student's school and recommends a challenging high school curriculum rather than a fixed GPA cutoff.",
     "course_rigor": "Johns Hopkins looks for students who pursue a challenging high school curriculum and take courses that challenge and excite them across academic areas, in the context of the opportunities available at their school.",
     "recommendations": "Johns Hopkins requires a secondary school report and two teacher evaluations from school-based recommenders.",
     "essays": "Johns Hopkins requires the Hopkins supplement, which includes a supplemental essay.",
@@ -160,11 +160,11 @@
   "evidence": [
     {
       "field": "admissions.gpa_policy",
-      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
-      "classification": "reported_profile",
-      "source_url": "https://admissions.jhu.edu/account/login?r=https%3A%2F%2Fadmissions.jhu.edu%2Fapply%2Fstatus&cookie=1",
-      "source_excerpt": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
-      "retrieved_at": "2026-04-20T03:01:12.873726+00:00"
+      "claim": "Johns Hopkins does not publish a minimum GPA on the cited official admissions pages. Hopkins says it reviews applications holistically in the context of a student's school and recommends a challenging high school curriculum rather than a fixed GPA cutoff.",
+      "classification": "official_requirement",
+      "source_url": "https://apply.jhu.edu/college-planning-guide/preparing-for-college/",
+      "source_excerpt": "We review applications holistically, meaning we take your personal context—as well as your school's—into account... If you're pursuing a challenging high school curriculum ... you're well positioned to present a strong application... The most important thing when building your class schedule is to take courses that challenge and excite you.",
+      "retrieved_at": "2026-05-11T01:27:42.838061+00:00"
     },
     {
       "field": "admissions.course_rigor",
@@ -232,7 +232,7 @@
     }
   ],
   "verification": {
-    "last_verified_at": "2026-05-11T01:13:00.869597+00:00",
+    "last_verified_at": "2026-05-11T01:27:42.838061+00:00",
     "confidence": "phase-5-manual-repair",
     "unknown_fields": [],
     "warnings": [

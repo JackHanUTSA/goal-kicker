@@ -5,22 +5,13 @@
   "scope": "policy-summary",
   "scope_note": "Goal Kicker currently exports GPA-policy notes for this school. Where the school does not publish a hard GPA cutoff or admitted-student GPA distribution, the panel says that directly instead of inventing a threshold.",
   "source_urls": [
-    "https://admissions.jhu.edu/account/login?r=https%3A%2F%2Fadmissions.jhu.edu%2Fapply%2Fstatus&cookie=1",
-    "https://admissions.jhu.edu/academics",
-    "https://apply.jhu.edu/",
-    "https://apply.jhu.edu/apply/first-year-applicants/",
-    "https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/",
-    "https://www.commonapp.org/explore/johns-hopkins-university/",
-    "https://www.jhu.edu/admissions",
-    "https://apply.jhu.edu/how-to-apply/what-we-look-for/",
-    "https://apply.jhu.edu/college-planning-guide/preparing-for-college/",
-    "https://www.jhu.edu"
+    "https://apply.jhu.edu/college-planning-guide/preparing-for-college/"
   ],
-  "policy_summary": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
+  "policy_summary": "Johns Hopkins does not publish a minimum GPA on the cited official admissions pages. Hopkins says it reviews applications holistically in the context of a student's school and recommends a challenging high school curriculum rather than a fixed GPA cutoff.",
   "what_mit_does_say": [
     {
-      "claim": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
-      "source_url": "https://admissions.jhu.edu/account/login?r=https%3A%2F%2Fadmissions.jhu.edu%2Fapply%2Fstatus&cookie=1"
+      "claim": "Johns Hopkins does not publish a minimum GPA on the cited official admissions pages. Hopkins says it reviews applications holistically in the context of a student's school and recommends a challenging high school curriculum rather than a fixed GPA cutoff.",
+      "source_url": "https://apply.jhu.edu/college-planning-guide/preparing-for-college/"
     }
   ]
 }

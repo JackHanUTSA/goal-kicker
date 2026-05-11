@@ -154,11 +154,20 @@ def build_testing_payload(record: dict[str, Any]) -> dict[str, Any] | None:
 def build_gpa_payload(record: dict[str, Any]) -> dict[str, Any] | None:
     admissions = record.get("admissions", {})
     policy = norm_text(admissions.get("gpa_policy"))
-    urls = admissions_source_urls(record, "admissions.gpa_policy")
+    evidence_rows = evidence_for_field(record, "admissions.gpa_policy")
+    urls = []
+    seen_urls = set()
+    for item in evidence_rows:
+        src = item.get("source_url")
+        if src and src not in seen_urls:
+            seen_urls.add(src)
+            urls.append(src)
+    if not urls:
+        urls = admissions_source_urls(record, "admissions.gpa_policy")
     if not policy and not urls:
         return None
     claims = []
-    for item in evidence_for_field(record, "admissions.gpa_policy"):
+    for item in evidence_rows:
         claim = norm_text(item.get("claim"))
         if claim:
             claims.append({"claim": claim, "source_url": item.get("source_url")})

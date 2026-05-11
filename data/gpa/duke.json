@@ -5,10 +5,13 @@
   "scope": "policy-summary",
   "scope_note": "Goal Kicker currently exports GPA-policy notes for this school. Where the school does not publish a hard GPA cutoff or admitted-student GPA distribution, the panel says that directly instead of inventing a threshold.",
   "source_urls": [
-    "https://admissions.duke.edu/apply/",
-    "https://admissions.duke.edu/what-we-look-for/",
-    "https://www.duke.edu"
+    "https://admissions.duke.edu/what-we-look-for/"
   ],
-  "policy_summary": "Duke does not publish a minimum GPA on the cited admissions pages.",
-  "what_mit_does_say": []
+  "policy_summary": "Duke does not publish a minimum GPA on the cited admissions pages. Instead, Duke says academic performance as measured by grades in academic courses is one of its five primary review factors and evaluates those grades alongside course rigor.",
+  "what_mit_does_say": [
+    {
+      "claim": "Duke does not publish a minimum GPA on the cited admissions pages. Instead, Duke says academic performance as measured by grades in academic courses is one of its five primary review factors and evaluates those grades alongside course rigor.",
+      "source_url": "https://admissions.duke.edu/what-we-look-for/"
+    }
+  ]
 }
