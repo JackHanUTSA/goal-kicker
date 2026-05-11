@@ -139,12 +139,12 @@
     "source_url": "https://catalogs.northwestern.edu/undergraduate/programs-az/"
   },
   "admissions": {
-    "application_platform": "Common Application",
-    "testing_policy": "Self-reporting SAT and/or ACT scores",
+    "application_platform": "Northwestern accepts the Common Application or Coalition with Scoir; eligible students may also apply through QuestBridge.",
+    "testing_policy": "Northwestern is test-optional for first-year and transfer applicants and does not require ACT or SAT scores; if students submit scores, there is no preference between the SAT and ACT.",
     "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
-    "course_rigor": "A strong high school curriculum, including a year of calculus, is required for admission.",
-    "recommendations": "Letters of Recommendation",
-    "essays": "Personal Statement and Supplemental Essay(s)",
+    "course_rigor": "Northwestern reviews a student’s overall high school curriculum in context and asks the counselor recommendation to speak to that curriculum and the student’s involvement within the high school environment.",
+    "recommendations": "Northwestern requires two letters of recommendation: one from a high school counselor and one from a teacher in a core subject area, ideally from junior or senior year.",
+    "essays": "Northwestern requires a 300-word contextual question for Common Application and Coalition with Scoir applicants, plus one or two additional short supplemental responses of under 200 words each.",
     "portfolio_or_audition": null,
     "international_notes": null,
     "deadlines": []
@@ -170,11 +170,11 @@
     },
     {
       "field": "admissions.testing_policy",
-      "claim": "Self-reporting SAT and/or ACT scores",
+      "claim": "Northwestern is test-optional for first-year and transfer applicants and does not require ACT or SAT scores; if students submit scores, there is no preference between the SAT and ACT.",
       "classification": "official_requirement",
       "source_url": "https://admissions.northwestern.edu/apply/requirements.html",
-      "source_excerpt": "Self-reporting SAT and/or ACT scores",
-      "retrieved_at": "2026-04-20T03:01:16.166083+00:00"
+      "source_excerpt": "Northwestern follows a test-optional policy and will not require ACT or SAT scores from first-year or transfer candidates. If students choose to take an SAT or ACT, there is no preference for either exam.",
+      "retrieved_at": "2026-05-11T01:13:00.869597+00:00"
     },
     {
       "field": "admissions.gpa_policy",
@@ -186,27 +186,27 @@
     },
     {
       "field": "admissions.course_rigor",
-      "claim": "A strong high school curriculum, including a year of calculus, is required for admission.",
+      "claim": "Northwestern reviews a student’s overall high school curriculum in context and asks the counselor recommendation to speak to that curriculum and the student’s involvement within the high school environment.",
       "classification": "reported_profile",
       "source_url": "https://admissions.northwestern.edu/apply/requirements.html",
-      "source_excerpt": "A strong high school curriculum, including a year of calculus, is required for admission.",
-      "retrieved_at": "2026-04-20T03:01:16.166089+00:00"
+      "source_excerpt": "One letter should come from your high school counselor ... who can best speak to your overall high school curriculum and involvement within the context of your high school.",
+      "retrieved_at": "2026-05-11T01:13:00.869597+00:00"
     },
     {
       "field": "admissions.recommendations",
-      "claim": "Letters of Recommendation",
+      "claim": "Northwestern requires two letters of recommendation: one from a high school counselor and one from a teacher in a core subject area, ideally from junior or senior year.",
       "classification": "official_requirement",
       "source_url": "https://admissions.northwestern.edu/apply/requirements.html",
-      "source_excerpt": "Letters of Recommendation",
-      "retrieved_at": "2026-04-20T03:01:16.166091+00:00"
+      "source_excerpt": "We require two letters of recommendation. One letter should come from your high school counselor... The second letter should come from one of your teachers... most likely from one of your core subject areas, in your junior or senior year.",
+      "retrieved_at": "2026-05-11T01:13:00.869597+00:00"
     },
     {
       "field": "admissions.essays",
-      "claim": "Personal Statement and Supplemental Essay(s)",
+      "claim": "Northwestern requires a 300-word contextual question for Common Application and Coalition with Scoir applicants, plus one or two additional short supplemental responses of under 200 words each.",
       "classification": "official_requirement",
       "source_url": "https://admissions.northwestern.edu/apply/requirements.html",
-      "source_excerpt": "Personal Statement and Supplemental Essay(s)",
-      "retrieved_at": "2026-04-20T03:01:16.166094+00:00"
+      "source_excerpt": "The following question is required for all Common Application and Coalition with Scoir applicants... Please respond in 300 words or fewer... We encourage you to answer at least one and no more than two of the following questions. Please respond in fewer than 200 words per question.",
+      "retrieved_at": "2026-05-11T01:13:00.869597+00:00"
     },
     {
       "field": "majors.titles",
@@ -247,10 +247,18 @@
       "source_url": "https://catalogs.northwestern.edu/undergraduate/programs-az/",
       "source_excerpt": "Composition; Jazz Studies; Music Education; Music Cognition; Music Theory; Musicology; Piano; String Instruments; Voice and Opera; Winds and Percussion Instruments; Human Communication Sciences; Communication Studies",
       "retrieved_at": "2026-05-09T05:06:05.628587+00:00"
+    },
+    {
+      "field": "admissions.application_platform",
+      "claim": "Northwestern accepts the Common Application or Coalition with Scoir; eligible students may also apply through QuestBridge.",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.northwestern.edu/apply/requirements.html",
+      "source_excerpt": "The following question is required for all Common Application and Coalition with Scoir applicants (optional for QuestBridge applicants).",
+      "retrieved_at": "2026-05-11T01:13:00.869597+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-05-09T05:06:05.628589+00:00",
+    "last_verified_at": "2026-05-11T01:13:00.869597+00:00",
     "confidence": "phase-5-manual-repair",
     "unknown_fields": [],
     "warnings": [
@@ -643,7 +651,7 @@
         {
           "rank": 1,
           "name": "Sharon Bowen",
-          "bio": "Northwestern Magazine says Sharon Bowen \u201982 JD, MBA, \u201923 H is chair of the New York Stock Exchange board of directors and highlights a career in corporate law and financial regulation marked by barrier-breaking leadership and mentoring.",
+          "bio": "Northwestern Magazine says Sharon Bowen ’82 JD, MBA, ’23 H is chair of the New York Stock Exchange board of directors and highlights a career in corporate law and financial regulation marked by barrier-breaking leadership and mentoring.",
           "description": "Chair of the New York Stock Exchange board and financial-regulation leader.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -662,7 +670,7 @@
         {
           "rank": 2,
           "name": "Michael D. Greenberg",
-          "bio": "Northwestern Alumni says Michael D. Greenberg \u201989 has been one of ESPN\u2019s signature faces and voices for more than 25 years, hosting Get Up, Sunday NFL Countdown, annual NFL Draft coverage, and bestselling books.",
+          "bio": "Northwestern Alumni says Michael D. Greenberg ’89 has been one of ESPN’s signature faces and voices for more than 25 years, hosting Get Up, Sunday NFL Countdown, annual NFL Draft coverage, and bestselling books.",
           "description": "ESPN broadcaster and bestselling sports author.",
           "wikipedia_title": "Mike Greenberg",
           "wikipedia_url": "https://en.wikipedia.org/wiki/Mike_Greenberg",
@@ -681,7 +689,7 @@
         {
           "rank": 3,
           "name": "Richard Kind",
-          "bio": "Northwestern Now says Richard Kind graduated from Northwestern in 1978 and describes his long acting career across Broadway, Hollywood, and voice roles such as Inside Out and A Bug\u2019s Life.",
+          "bio": "Northwestern Now says Richard Kind graduated from Northwestern in 1978 and describes his long acting career across Broadway, Hollywood, and voice roles such as Inside Out and A Bug’s Life.",
           "description": "Actor and voice performer with a long stage and screen career.",
           "wikipedia_title": "Richard Kind",
           "wikipedia_url": "https://en.wikipedia.org/wiki/Richard_Kind",
@@ -700,7 +708,7 @@
         {
           "rank": 4,
           "name": "Judith Toland",
-          "bio": "Northwestern Alumni says Judith Toland \u201994 is an award-winning transformational marketing executive whose work has spanned Meta, Monsanto, Ford, GE, and Wells Fargo, and notes her vice-presidential audience-marketing role at Meta.",
+          "bio": "Northwestern Alumni says Judith Toland ’94 is an award-winning transformational marketing executive whose work has spanned Meta, Monsanto, Ford, GE, and Wells Fargo, and notes her vice-presidential audience-marketing role at Meta.",
           "description": "Fortune 500 marketing executive and Meta vice president.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -719,7 +727,7 @@
         {
           "rank": 5,
           "name": "T. Bondurant French",
-          "bio": "Northwestern Alumni says T. Bondurant French \u201975, \u201976 MBA is chairman of Adams Street Partners, one of the oldest and largest private-equity firms in the United States, and a longtime Northwestern trustee and campaign leader.",
+          "bio": "Northwestern Alumni says T. Bondurant French ’75, ’76 MBA is chairman of Adams Street Partners, one of the oldest and largest private-equity firms in the United States, and a longtime Northwestern trustee and campaign leader.",
           "description": "Private-equity executive, Adams Street Partners chairman, and Northwestern trustee.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -738,7 +746,7 @@
         {
           "rank": 6,
           "name": "Barbara Stewart",
-          "bio": "Northwestern Alumni says Barbara Stewart \u201985, \u201995 MBA led AmeriCorps as its Senate-confirmed CEO from 2018 through 2021 after leadership roles at JPMorgan Chase and in Illinois government, and co-founded the Bowe Stewart Foundation.",
+          "bio": "Northwestern Alumni says Barbara Stewart ’85, ’95 MBA led AmeriCorps as its Senate-confirmed CEO from 2018 through 2021 after leadership roles at JPMorgan Chase and in Illinois government, and co-founded the Bowe Stewart Foundation.",
           "description": "Former AmeriCorps CEO and corporate, government, and nonprofit leader.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -757,7 +765,7 @@
         {
           "rank": 7,
           "name": "Renetta McCann",
-          "bio": "Northwestern Alumni identifies Renetta McCann \u201978, \u201912 MS as a 2024 Northwestern Alumni Medal recipient and describes her as a global leader in advertising, media, and organizational change.",
+          "bio": "Northwestern Alumni identifies Renetta McCann ’78, ’12 MS as a 2024 Northwestern Alumni Medal recipient and describes her as a global leader in advertising, media, and organizational change.",
           "description": "Advertising, media, and organizational-change executive.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -776,7 +784,7 @@
         {
           "rank": 8,
           "name": "William Osborn",
-          "bio": "Northwestern Alumni identifies William Osborn \u201969, \u201973 MBA, \u201918 H as a 2024 Northwestern Alumni Medal recipient and describes him as a business, civic, and University leader.",
+          "bio": "Northwestern Alumni identifies William Osborn ’69, ’73 MBA, ’18 H as a 2024 Northwestern Alumni Medal recipient and describes him as a business, civic, and University leader.",
           "description": "Business and civic leader honored for University leadership.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -795,7 +803,7 @@
         {
           "rank": 9,
           "name": "Willard S. Evans Jr.",
-          "bio": "Northwestern Alumni identifies Willard S. Evans Jr. \u201977, \u201981 MBA as a 2024 Northwestern Alumni Medal recipient and describes him as a forward-thinking business and nonprofit leader.",
+          "bio": "Northwestern Alumni identifies Willard S. Evans Jr. ’77, ’81 MBA as a 2024 Northwestern Alumni Medal recipient and describes him as a forward-thinking business and nonprofit leader.",
           "description": "Business and nonprofit leader honored by the Northwestern Alumni Association.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -814,7 +822,7 @@
         {
           "rank": 10,
           "name": "Steve Schnur",
-          "bio": "Northwestern Alumni says Steve Schnur \u201996, \u201997 MA is chief operating officer of real estate development and investing firm CRG, a former Northwestern quarterback who led the Wildcats to the 1996 Rose Bowl and now mentors students and alumni.",
+          "bio": "Northwestern Alumni says Steve Schnur ’96, ’97 MA is chief operating officer of real estate development and investing firm CRG, a former Northwestern quarterback who led the Wildcats to the 1996 Rose Bowl and now mentors students and alumni.",
           "description": "CRG COO, former Northwestern quarterback, and alumni volunteer leader.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -833,7 +841,7 @@
         {
           "rank": 11,
           "name": "Thomas Z. Hayward Jr.",
-          "bio": "Northwestern Alumni says Thomas Z. Hayward Jr. \u201962, \u201965 JD was a Northwestern life trustee, past president of the Northwestern Alumni Association, and a longtime leader of reunions and University initiatives.",
+          "bio": "Northwestern Alumni says Thomas Z. Hayward Jr. ’62, ’65 JD was a Northwestern life trustee, past president of the Northwestern Alumni Association, and a longtime leader of reunions and University initiatives.",
           "description": "Law alumnus, Northwestern life trustee, and former NAA president.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -852,7 +860,7 @@
         {
           "rank": 12,
           "name": "Jermaine McGill",
-          "bio": "Northwestern Alumni says Jermaine McGill \u201905 founded Meet the Heroes, expanding it from an interactive Black history event into a nonprofit that works with schools in North Carolina.",
+          "bio": "Northwestern Alumni says Jermaine McGill ’05 founded Meet the Heroes, expanding it from an interactive Black history event into a nonprofit that works with schools in North Carolina.",
           "description": "Founder of the Meet the Heroes educational nonprofit.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -871,7 +879,7 @@
         {
           "rank": 13,
           "name": "Emmet Smith",
-          "bio": "Northwestern Alumni says Emmet Smith \u201921 built a post-graduation acting career through Chicago theater, joined the first tour of Harry Potter and the Cursed Child, and landed his first feature-film lead in Mr. Santa.",
+          "bio": "Northwestern Alumni says Emmet Smith ’21 built a post-graduation acting career through Chicago theater, joined the first tour of Harry Potter and the Cursed Child, and landed his first feature-film lead in Mr. Santa.",
           "description": "Actor, singer-songwriter, and touring theater performer.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -890,7 +898,7 @@
         {
           "rank": 14,
           "name": "Gabby Birenbaum",
-          "bio": "Northwestern Alumni says Gabby Birenbaum \u201921 became the Washington correspondent at The Nevada Independent after earlier work at The Washington Monthly, covering the 2024 presidential election, Congress, and both the Biden and Trump administrations.",
+          "bio": "Northwestern Alumni says Gabby Birenbaum ’21 became the Washington correspondent at The Nevada Independent after earlier work at The Washington Monthly, covering the 2024 presidential election, Congress, and both the Biden and Trump administrations.",
           "description": "Washington correspondent covering national politics.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -909,7 +917,7 @@
         {
           "rank": 15,
           "name": "Christina Gutierrez",
-          "bio": "Northwestern Alumni says Christina Gutierrez \u201920 has dedicated her career to expanding access to higher education and serves as associate director of recruitment and outreach at Chicago State University.",
+          "bio": "Northwestern Alumni says Christina Gutierrez ’20 has dedicated her career to expanding access to higher education and serves as associate director of recruitment and outreach at Chicago State University.",
           "description": "Higher-education access leader and Chicago State recruitment executive.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -928,7 +936,7 @@
         {
           "rank": 16,
           "name": "Nancy Le",
-          "bio": "Northwestern Alumni says Nancy Le \u201920 has worked across public health, life-sciences consulting, and government oversight, completed a Columbia MPH, and now works at ATI Advisory on prescription-drug reimbursement and pricing policy.",
+          "bio": "Northwestern Alumni says Nancy Le ’20 has worked across public health, life-sciences consulting, and government oversight, completed a Columbia MPH, and now works at ATI Advisory on prescription-drug reimbursement and pricing policy.",
           "description": "Health-policy consultant focused on population health and equity.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -947,7 +955,7 @@
         {
           "rank": 17,
           "name": "Jay Towns",
-          "bio": "Northwestern Alumni says Jay Towns \u201922 works as a creative at FCB Chicago, runs a photography business, consults startups on branding, and was named to the 2025 ADCOLOR Futures cohort.",
+          "bio": "Northwestern Alumni says Jay Towns ’22 works as a creative at FCB Chicago, runs a photography business, consults startups on branding, and was named to the 2025 ADCOLOR Futures cohort.",
           "description": "Creative advertiser, photographer, and ADCOLOR Futures honoree.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -966,7 +974,7 @@
         {
           "rank": 18,
           "name": "Carol Seungwon Lee",
-          "bio": "Northwestern Alumni says Carol Seungwon Lee \u201921 moved to New York to help reopen Broadway on Waitress, later joined Mr. Saturday Night, and developed a theater-administration career spanning commercial and nonprofit theater.",
+          "bio": "Northwestern Alumni says Carol Seungwon Lee ’21 moved to New York to help reopen Broadway on Waitress, later joined Mr. Saturday Night, and developed a theater-administration career spanning commercial and nonprofit theater.",
           "description": "Broadway company-management professional and theater administrator.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -985,7 +993,7 @@
         {
           "rank": 19,
           "name": "Vanessa Garcia",
-          "bio": "Northwestern Alumni says Vanessa Garcia \u201922 works as a financial risk consultant, serves on the Association of Latino Professionals for America\u2019s Student Affairs Committee, and leads community engagement for Northwestern\u2019s Latino Alumni Association board.",
+          "bio": "Northwestern Alumni says Vanessa Garcia ’22 works as a financial risk consultant, serves on the Association of Latino Professionals for America’s Student Affairs Committee, and leads community engagement for Northwestern’s Latino Alumni Association board.",
           "description": "Financial risk consultant and Latino-professional community leader.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -1004,7 +1012,7 @@
         {
           "rank": 20,
           "name": "Noelle Palmer",
-          "bio": "Northwestern Alumni says Noelle Palmer \u201923 expanded the queer art business she started at Northwestern into a brand stocked in more than 100 stores nationwide while also building an acting career and large social-media audience.",
+          "bio": "Northwestern Alumni says Noelle Palmer ’23 expanded the queer art business she started at Northwestern into a brand stocked in more than 100 stores nationwide while also building an acting career and large social-media audience.",
           "description": "Queer artist, entrepreneur, and actor.",
           "wikipedia_title": null,
           "wikipedia_url": null,

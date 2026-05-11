@@ -117,12 +117,12 @@
     "confidence": "medium"
   },
   "admissions": {
-    "application_platform": null,
-    "testing_policy": "Duke is test-optional for first-year and transfer applicants in the 2026-2027 admissions cycle.",
+    "application_platform": "First-year applicants apply through the Common Application; eligible students may apply through QuestBridge.",
+    "testing_policy": "Duke is test-optional for both first-year and transfer applicants in the 2026-2027 admissions cycle, and students who apply without SAT or ACT scores are not disadvantaged.",
     "gpa_policy": "Duke does not publish a minimum GPA on the cited admissions pages.",
-    "course_rigor": "Duke says it is guided by the rigor of a candidate's academic program and generally expects students to enroll in five academic courses per year, taking the best available and most challenging courses.",
+    "course_rigor": "Duke evaluates the rigor of a candidate's academic program and generally expects students to enroll in five academic courses per year, taking the best available and most challenging courses; Pratt applicants must complete calculus and are strongly encouraged to take physics.",
     "recommendations": "Duke requires a secondary school report with counselor recommendation and two teacher recommendations.",
-    "essays": "Duke requires a one-page personal essay and short-answer questions specific to Duke.",
+    "essays": "Duke requires a one-page personal essay plus short-answer questions specific to Duke.",
     "portfolio_or_audition": null,
     "international_notes": null,
     "deadlines": []
@@ -148,19 +148,19 @@
     },
     {
       "field": "admissions.testing_policy",
-      "claim": "Duke is test-optional for first-year and transfer applicants in the 2026-2027 admissions cycle.",
+      "claim": "Duke is test-optional for both first-year and transfer applicants in the 2026-2027 admissions cycle, and students who apply without SAT or ACT scores are not disadvantaged.",
       "classification": "official_requirement",
       "source_url": "https://admissions.duke.edu/apply/",
       "source_excerpt": "Duke University is test-optional for both first-year and transfer applicants in the 2026-2027 admissions cycle. Students who apply without SAT or ACT scores this year will not be at a disadvantage.",
-      "retrieved_at": "2026-04-17T16:56:49.340824+00:00"
+      "retrieved_at": "2026-05-11T01:13:00.869597+00:00"
     },
     {
       "field": "admissions.course_rigor",
-      "claim": "Duke says it is guided by the rigor of a candidate's academic program and generally expects students to enroll in five academic courses per year, taking the best available and most challenging courses.",
+      "claim": "Duke evaluates the rigor of a candidate's academic program and generally expects students to enroll in five academic courses per year, taking the best available and most challenging courses; Pratt applicants must complete calculus and are strongly encouraged to take physics.",
       "classification": "reported_profile",
       "source_url": "https://admissions.duke.edu/what-we-look-for/",
-      "source_excerpt": "The rigor of a candidate's academic program ... Enroll in the best available and most challenging courses. We generally expect students to enroll in five academic courses per year.",
-      "retrieved_at": "2026-04-17T16:56:49.340825+00:00"
+      "source_excerpt": "The rigor of a candidate's academic program ... Enroll in the best available and most challenging courses. We generally expect students to enroll in five academic courses per year... For students applying to the Pratt School of Engineering, we require coursework in calculus and strongly recommend physics.",
+      "retrieved_at": "2026-05-11T01:13:00.869597+00:00"
     },
     {
       "field": "admissions.recommendations",
@@ -168,15 +168,15 @@
       "classification": "official_requirement",
       "source_url": "https://admissions.duke.edu/apply/",
       "source_excerpt": "Secondary School Report with Counselor Recommendation Two Teacher Recommendations",
-      "retrieved_at": "2026-04-17T16:56:49.340827+00:00"
+      "retrieved_at": "2026-05-11T01:13:00.869597+00:00"
     },
     {
       "field": "admissions.essays",
-      "claim": "Duke requires a one-page personal essay and short-answer questions specific to Duke.",
+      "claim": "Duke requires a one-page personal essay plus short-answer questions specific to Duke.",
       "classification": "official_requirement",
       "source_url": "https://admissions.duke.edu/what-we-look-for/",
       "source_excerpt": "Applications for admission require a one-page personal essay, along with short-answer questions specific to Duke.",
-      "retrieved_at": "2026-04-17T16:56:49.340829+00:00"
+      "retrieved_at": "2026-05-11T01:13:00.869597+00:00"
     },
     {
       "field": "competitive_signals.projects_research",
@@ -209,10 +209,18 @@
       "source_url": "https://admissions.duke.edu/academic-possibilities/",
       "source_excerpt": "African & African American Studies; Art History; Art History: Architecture; Art History: Museum Theory & Practice; Art History & Visual Arts; Asian and Middle Eastern Studies; Biology; Biomedical Engineering; Biophysics; Brazilian and Global Portuguese Studies; Chemistry; Civil Engineering",
       "retrieved_at": "2026-04-29T23:59:40.475138+00:00"
+    },
+    {
+      "field": "admissions.application_platform",
+      "claim": "First-year applicants apply through the Common Application; eligible students may apply through QuestBridge.",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.duke.edu/apply/",
+      "source_excerpt": "Common Application or QuestBridge Application for eligible students.",
+      "retrieved_at": "2026-05-11T01:13:00.869597+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-29T23:59:40.475147+00:00",
+    "last_verified_at": "2026-05-11T01:13:00.869597+00:00",
     "confidence": "phase-4-top10-structured",
     "unknown_fields": [],
     "warnings": [
@@ -604,7 +612,7 @@
         {
           "rank": 1,
           "name": "Gabriela Asturias",
-          "bio": "Duke Mag profiles Gabriela Asturias \u201917 as a physician-scientist in psychiatry and a global mental health entrepreneur focused on building scalable, community-based mental health systems in low- and middle-income countries, especially Guatemala, while serving as a Stanford psychiatry resident and co-founding MiResource and FUNDEGUA.",
+          "bio": "Duke Mag profiles Gabriela Asturias ’17 as a physician-scientist in psychiatry and a global mental health entrepreneur focused on building scalable, community-based mental health systems in low- and middle-income countries, especially Guatemala, while serving as a Stanford psychiatry resident and co-founding MiResource and FUNDEGUA.",
           "description": "Physician-scientist in psychiatry and global mental health entrepreneur.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -623,7 +631,7 @@
         {
           "rank": 2,
           "name": "Brinnae Bent",
-          "bio": "Duke Mag profiles Brinnae Bent M.S.\u201918, Ph.D.\u201921 as Duke faculty, director of the TRUST Lab, associate director of the Society-Centered AI Initiative, and executive director of Tensor & Trust.",
+          "bio": "Duke Mag profiles Brinnae Bent M.S.’18, Ph.D.’21 as Duke faculty, director of the TRUST Lab, associate director of the Society-Centered AI Initiative, and executive director of Tensor & Trust.",
           "description": "Duke AI faculty leader and TRUST Lab director.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -642,8 +650,8 @@
         {
           "rank": 3,
           "name": "Lexie Brown",
-          "bio": "Duke Mag profiles Lexie Brown \u201917, M.M.S.\u201918 as an eight-year WNBA veteran, member of the 2021 champion Chicago Sky, co-host of the podcast \u201cFull Circle,\u201d chairperson of Athletes Unlimited Pro Basketball, and player representative for the Women\u2019s National Basketball Players Association.",
-          "description": "WNBA veteran and women\u2019s basketball leader.",
+          "bio": "Duke Mag profiles Lexie Brown ’17, M.M.S.’18 as an eight-year WNBA veteran, member of the 2021 champion Chicago Sky, co-host of the podcast “Full Circle,” chairperson of Athletes Unlimited Pro Basketball, and player representative for the Women’s National Basketball Players Association.",
+          "description": "WNBA veteran and women’s basketball leader.",
           "wikipedia_title": null,
           "wikipedia_url": null,
           "confirmation_url": "https://dukemag.duke.edu/stories/lexie-brown-17-mms18",
@@ -661,7 +669,7 @@
         {
           "rank": 4,
           "name": "Stefanie Feldman",
-          "bio": "Duke Mag profiles Stefanie Feldman \u201910 as national policy director for Joe Biden\u2019s 2020 presidential campaign and a senior policy advisor in the Biden White House.",
+          "bio": "Duke Mag profiles Stefanie Feldman ’10 as national policy director for Joe Biden’s 2020 presidential campaign and a senior policy advisor in the Biden White House.",
           "description": "National policy strategist and White House advisor.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -680,7 +688,7 @@
         {
           "rank": 5,
           "name": "Eric Oberstein",
-          "bio": "Duke Mag profiles Eric Oberstein \u201907 as a multiple Grammy- and Latin Grammy-winning producer, artist manager, curator, consultant, and educator who runs Eric Oberstein Productions and also teaches at Teachers College, Columbia University, and George Mason University.",
+          "bio": "Duke Mag profiles Eric Oberstein ’07 as a multiple Grammy- and Latin Grammy-winning producer, artist manager, curator, consultant, and educator who runs Eric Oberstein Productions and also teaches at Teachers College, Columbia University, and George Mason University.",
           "description": "Grammy-winning producer and arts manager.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -699,7 +707,7 @@
         {
           "rank": 6,
           "name": "David Rokeach",
-          "bio": "Duke Mag profiles David Rokeach M.B.A.\u201915 as director of strategy for Gemini at Google DeepMind.",
+          "bio": "Duke Mag profiles David Rokeach M.B.A.’15 as director of strategy for Gemini at Google DeepMind.",
           "description": "Google DeepMind strategy director.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -718,7 +726,7 @@
         {
           "rank": 7,
           "name": "Gina Wilson",
-          "bio": "Duke Mag profiles Gina Wilson M.S.N.\u201914, D.N.P.\u201916 as a nurse practitioner and founder of For Mamas, a nonprofit dedicated to reducing neonatal mortality in Zanzibar, while also working in pediatric primary care and managing a school-based health center in Durham.",
+          "bio": "Duke Mag profiles Gina Wilson M.S.N.’14, D.N.P.’16 as a nurse practitioner and founder of For Mamas, a nonprofit dedicated to reducing neonatal mortality in Zanzibar, while also working in pediatric primary care and managing a school-based health center in Durham.",
           "description": "Nurse practitioner and global maternal-health nonprofit founder.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -737,7 +745,7 @@
         {
           "rank": 8,
           "name": "Rachel Draelos",
-          "bio": "Duke Mag profiles Rachel Draelos M.S.\u201919, Ph.D.\u201922, M.D.\u201922 as founder and principal consultant of Glass Box Medicine, a health care AI consulting firm.",
+          "bio": "Duke Mag profiles Rachel Draelos M.S.’19, Ph.D.’22, M.D.’22 as founder and principal consultant of Glass Box Medicine, a health care AI consulting firm.",
           "description": "Health care AI founder and consultant.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -756,7 +764,7 @@
         {
           "rank": 9,
           "name": "Megan Ken",
-          "bio": "Duke Mag profiles Megan Ken Ph.D.\u201922, M.D.\u201923 as a faculty member at Scripps Research whose lab studies RNA structural dynamics in viruses to better understand viral biology and develop new antiviral drugs.",
+          "bio": "Duke Mag profiles Megan Ken Ph.D.’22, M.D.’23 as a faculty member at Scripps Research whose lab studies RNA structural dynamics in viruses to better understand viral biology and develop new antiviral drugs.",
           "description": "Scripps virus-RNA researcher and antiviral-drug scientist.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -775,7 +783,7 @@
         {
           "rank": 10,
           "name": "Julian Xie",
-          "bio": "Duke Mag profiles Julian Xie \u201915, M.P.P.\u201920, M.D.\u201921 as director of the Medicaid and Food Security Network at Share Our Strength.",
+          "bio": "Duke Mag profiles Julian Xie ’15, M.P.P.’20, M.D.’21 as director of the Medicaid and Food Security Network at Share Our Strength.",
           "description": "Medicaid and food-security policy leader.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -794,7 +802,7 @@
         {
           "rank": 11,
           "name": "Shree Bose",
-          "bio": "Duke Mag profiles Shree Bose M.D./Ph.D.\u201923 as founder of Piper, a company that creates electrical engineering kits for students.",
+          "bio": "Duke Mag profiles Shree Bose M.D./Ph.D.’23 as founder of Piper, a company that creates electrical engineering kits for students.",
           "description": "Founder of STEM education company Piper.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -813,7 +821,7 @@
         {
           "rank": 12,
           "name": "Nathaniel Hill",
-          "bio": "Duke Mag profiles Nathaniel Hill \u201912 as founder of Broadway Plus, a company that creates VIP experiences, educational workshops, and private events connecting audiences and organizations with Broadway.",
+          "bio": "Duke Mag profiles Nathaniel Hill ’12 as founder of Broadway Plus, a company that creates VIP experiences, educational workshops, and private events connecting audiences and organizations with Broadway.",
           "description": "Broadway Plus founder and theater entrepreneur.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -832,7 +840,7 @@
         {
           "rank": 13,
           "name": "Lucie Zhang",
-          "bio": "Duke Mag profiles Lucie Zhang \u201910 as a member of Netflix\u2019s social media marketing team who previously served as social media director at Vogue.",
+          "bio": "Duke Mag profiles Lucie Zhang ’10 as a member of Netflix’s social media marketing team who previously served as social media director at Vogue.",
           "description": "Netflix social media marketing executive.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -851,7 +859,7 @@
         {
           "rank": 14,
           "name": "Sophia Ulman",
-          "bio": "Duke Mag profiles Sophia Ulman \u201916 as division director of movement science at Scottish Rite for Children.",
+          "bio": "Duke Mag profiles Sophia Ulman ’16 as division director of movement science at Scottish Rite for Children.",
           "description": "Movement-science director at Scottish Rite for Children.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -870,7 +878,7 @@
         {
           "rank": 15,
           "name": "Zach Corse",
-          "bio": "Duke Mag profiles Zach Corse \u201911 as a research engineer at NVIDIA developing AI frameworks for simulation and spatial computing.",
+          "bio": "Duke Mag profiles Zach Corse ’11 as a research engineer at NVIDIA developing AI frameworks for simulation and spatial computing.",
           "description": "NVIDIA research engineer in AI simulation and spatial computing.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -889,7 +897,7 @@
         {
           "rank": 16,
           "name": "Amanda Morrall",
-          "bio": "Duke Mag profiles Amanda Morrall \u201911 as executive director of Founder Forward, host of the podcast \u201cConfessions of a Changemaker,\u201d and an Obama Scholar.",
+          "bio": "Duke Mag profiles Amanda Morrall ’11 as executive director of Founder Forward, host of the podcast “Confessions of a Changemaker,” and an Obama Scholar.",
           "description": "Founder Forward executive director and changemaker podcast host.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -908,7 +916,7 @@
         {
           "rank": 17,
           "name": "Brandon Putnam",
-          "bio": "Duke Mag profiles Brandon Putnam \u201913 as a brand marketing and strategy leader with the National Football League Players Association.",
+          "bio": "Duke Mag profiles Brandon Putnam ’13 as a brand marketing and strategy leader with the National Football League Players Association.",
           "description": "NFLPA brand marketing and strategy leader.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -927,8 +935,8 @@
         {
           "rank": 18,
           "name": "Laura Anderson Kirby",
-          "bio": "Duke Mag profiles Laura Anderson Kirby \u201911 as a child psychologist and children\u2019s book author.",
-          "description": "Child psychologist and children\u2019s author.",
+          "bio": "Duke Mag profiles Laura Anderson Kirby ’11 as a child psychologist and children’s book author.",
+          "description": "Child psychologist and children’s author.",
           "wikipedia_title": null,
           "wikipedia_url": null,
           "confirmation_url": "https://dukemag.duke.edu/stories/laura-anderson-kirby-11",
@@ -946,7 +954,7 @@
         {
           "rank": 19,
           "name": "Vanessa Ferrero",
-          "bio": "Duke Mag profiles Vanessa Ferrero M.E.M.\u201918 as an energy consultant at Lux Research who advises utilities and oil-and-gas companies on decarbonization strategy, technology innovation, and emerging industry trends.",
+          "bio": "Duke Mag profiles Vanessa Ferrero M.E.M.’18 as an energy consultant at Lux Research who advises utilities and oil-and-gas companies on decarbonization strategy, technology innovation, and emerging industry trends.",
           "description": "Energy consultant focused on decarbonization strategy.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -965,7 +973,7 @@
         {
           "rank": 20,
           "name": "Jonathan A. Osei",
-          "bio": "Duke Mag profiles Jonathan A. Osei \u201918 as career services manager at Project for Pride in Living, focused on expanding opportunity for lower-income residents and communities of color in the Twin Cities.",
+          "bio": "Duke Mag profiles Jonathan A. Osei ’18 as career services manager at Project for Pride in Living, focused on expanding opportunity for lower-income residents and communities of color in the Twin Cities.",
           "description": "Career-services leader focused on economic opportunity.",
           "wikipedia_title": null,
           "wikipedia_url": null,

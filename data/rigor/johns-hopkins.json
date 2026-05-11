@@ -1,28 +1,46 @@
 {
   "university": "Johns Hopkins University",
   "slug": "johns-hopkins",
-  "retrieved_at": "2026-05-09",
+  "retrieved_at": "2026-05-10",
   "scope": "application-guidance",
   "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
-  "source_url": "https://admissions.jhu.edu/account/login?r=https%3A%2F%2Fadmissions.jhu.edu%2Fapply%2Fstatus&cookie=1",
+  "source_url": "https://apply.jhu.edu/college-planning-guide/preparing-for-college/",
   "source_urls": [
-    "https://admissions.jhu.edu/account/login?r=https%3A%2F%2Fadmissions.jhu.edu%2Fapply%2Fstatus&cookie=1",
-    "https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/",
+    "https://apply.jhu.edu/college-planning-guide/preparing-for-college/",
     "https://admissions.jhu.edu/academics",
+    "https://admissions.jhu.edu/account/login?r=https%3A%2F%2Fadmissions.jhu.edu%2Fapply%2Fstatus&cookie=1",
     "https://apply.jhu.edu/",
     "https://apply.jhu.edu/apply/first-year-applicants/",
+    "https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/",
     "https://www.commonapp.org/explore/johns-hopkins-university/",
     "https://www.jhu.edu/admissions",
+    "https://apply.jhu.edu/how-to-apply/what-we-look-for/",
     "https://www.jhu.edu"
   ],
   "areas": [
     {
+      "key": "course-rigor",
+      "name": "Course rigor",
+      "level": "school-guidance",
+      "summary": "Johns Hopkins looks for students who pursue a challenging high school curriculum and take courses that challenge and excite them across academic areas, in the context of the opportunities available at their school.",
+      "detail": "Johns Hopkins looks for students who pursue a challenging high school curriculum and take courses that challenge and excite them across academic areas, in the context of the opportunities available at their school.",
+      "color": "#60a5fa"
+    },
+    {
       "key": "recommendations",
       "name": "Recommendations",
       "level": "application-material",
-      "summary": "Letters of Recommendation",
-      "detail": "Letters of Recommendation",
+      "summary": "Johns Hopkins requires a secondary school report and two teacher evaluations from school-based recommenders.",
+      "detail": "Johns Hopkins requires a secondary school report and two teacher evaluations from school-based recommenders.",
       "color": "#34d399"
+    },
+    {
+      "key": "essays",
+      "name": "Essays",
+      "level": "application-material",
+      "summary": "Johns Hopkins requires the Hopkins supplement, which includes a supplemental essay.",
+      "detail": "Johns Hopkins requires the Hopkins supplement, which includes a supplemental essay.",
+      "color": "#fbbf24"
     }
   ]
 }

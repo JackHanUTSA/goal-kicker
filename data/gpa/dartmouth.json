@@ -1,13 +1,18 @@
 {
   "university": "Dartmouth College",
   "slug": "dartmouth",
-  "retrieved_at": "2026-05-09",
+  "retrieved_at": "2026-05-10",
   "scope": "policy-summary",
   "scope_note": "Goal Kicker currently exports GPA-policy notes for this school. Where the school does not publish a hard GPA cutoff or admitted-student GPA distribution, the panel says that directly instead of inventing a threshold.",
   "source_urls": [
     "https://admissions.dartmouth.edu/",
     "https://www.dartmouth.edu/admission",
     "https://www.dartmouth.edu/apply",
+    "https://admissions.dartmouth.edu/apply-dartmouth",
+    "https://admissions.dartmouth.edu/apply/testing-policy",
+    "https://admissions.dartmouth.edu/apply/counselors",
+    "https://admissions.dartmouth.edu/glossary-term/recommendations",
+    "https://admissions.dartmouth.edu/glossary-term/writing-supplement",
     "https://www.dartmouth.edu"
   ],
   "policy_summary": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",

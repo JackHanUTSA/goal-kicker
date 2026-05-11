@@ -1,15 +1,45 @@
 {
   "university": "Dartmouth College",
   "slug": "dartmouth",
-  "retrieved_at": "2026-05-09",
+  "retrieved_at": "2026-05-10",
   "scope": "application-guidance",
   "scope_note": "This panel summarizes the structured course-rigor and application-guidance notes currently exported for this school. It remains source-backed and does not infer missing requirements.",
-  "source_url": "https://admissions.dartmouth.edu/",
+  "source_url": "https://admissions.dartmouth.edu/apply/counselors",
   "source_urls": [
+    "https://admissions.dartmouth.edu/apply/counselors",
     "https://admissions.dartmouth.edu/",
     "https://www.dartmouth.edu/admission",
     "https://www.dartmouth.edu/apply",
+    "https://admissions.dartmouth.edu/apply-dartmouth",
+    "https://admissions.dartmouth.edu/apply/testing-policy",
+    "https://admissions.dartmouth.edu/glossary-term/recommendations",
+    "https://admissions.dartmouth.edu/glossary-term/writing-supplement",
     "https://www.dartmouth.edu"
   ],
-  "areas": []
+  "areas": [
+    {
+      "key": "course-rigor",
+      "name": "Course rigor",
+      "level": "school-guidance",
+      "summary": "Dartmouth reviews curriculum in the context of what is available at a student’s school and says its applicants typically pursue the most rigorous coursework available, especially in their areas of greatest interest.",
+      "detail": "Dartmouth reviews curriculum in the context of what is available at a student’s school and says its applicants typically pursue the most rigorous coursework available, especially in their areas of greatest interest.",
+      "color": "#60a5fa"
+    },
+    {
+      "key": "recommendations",
+      "name": "Recommendations",
+      "level": "application-material",
+      "summary": "For first-year applicants, Dartmouth requires a counselor evaluation and two teacher recommendations, and it strongly encourages a peer recommendation.",
+      "detail": "For first-year applicants, Dartmouth requires a counselor evaluation and two teacher recommendations, and it strongly encourages a peer recommendation.",
+      "color": "#34d399"
+    },
+    {
+      "key": "essays",
+      "name": "Essays",
+      "level": "application-material",
+      "summary": "Dartmouth requires a writing supplement with Dartmouth-specific short essay prompts, including a 100-word response required of all applicants.",
+      "detail": "Dartmouth requires a writing supplement with Dartmouth-specific short essay prompts, including a 100-word response required of all applicants.",
+      "color": "#fbbf24"
+    }
+  ]
 }

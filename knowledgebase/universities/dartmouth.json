@@ -8,7 +8,12 @@
     "admissions": [
       "https://admissions.dartmouth.edu/",
       "https://www.dartmouth.edu/admission",
-      "https://www.dartmouth.edu/apply"
+      "https://www.dartmouth.edu/apply",
+      "https://admissions.dartmouth.edu/apply-dartmouth",
+      "https://admissions.dartmouth.edu/apply/testing-policy",
+      "https://admissions.dartmouth.edu/apply/counselors",
+      "https://admissions.dartmouth.edu/glossary-term/recommendations",
+      "https://admissions.dartmouth.edu/glossary-term/writing-supplement"
     ],
     "majors": [
       "https://www.dartmouth.edu/academics",
@@ -71,7 +76,7 @@
       "Middle Eastern Studies",
       "Native American Studies",
       "Quantitative Social Science",
-      "Women\u2019s, Gender, & Sexuality Studies",
+      "Women’s, Gender, & Sexuality Studies",
       "Biological Sciences",
       "Chemistry",
       "Climate Science",
@@ -94,12 +99,12 @@
     "confidence": "low"
   },
   "admissions": {
-    "application_platform": null,
-    "testing_policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+    "application_platform": "Dartmouth accepts the Common Application, and eligible students may apply through QuestBridge.",
+    "testing_policy": "Dartmouth requires standardized testing. Students attending high school in the United States must submit SAT or ACT results; students outside the U.S. may satisfy the requirement through SAT/ACT or approved national or diploma exam pathways.",
     "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
-    "course_rigor": "unknown",
-    "recommendations": "unknown",
-    "essays": "unknown",
+    "course_rigor": "Dartmouth reviews curriculum in the context of what is available at a student’s school and says its applicants typically pursue the most rigorous coursework available, especially in their areas of greatest interest.",
+    "recommendations": "For first-year applicants, Dartmouth requires a counselor evaluation and two teacher recommendations, and it strongly encourages a peer recommendation.",
+    "essays": "Dartmouth requires a writing supplement with Dartmouth-specific short essay prompts, including a 100-word response required of all applicants.",
     "portfolio_or_audition": null,
     "international_notes": null,
     "deadlines": []
@@ -117,11 +122,11 @@
   "evidence": [
     {
       "field": "admissions.testing_policy",
-      "claim": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+      "claim": "Dartmouth requires standardized testing. Students attending high school in the United States must submit SAT or ACT results; students outside the U.S. may satisfy the requirement through SAT/ACT or approved national or diploma exam pathways.",
       "classification": "official_requirement",
-      "source_url": "https://admissions.dartmouth.edu/",
-      "source_excerpt": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
-      "retrieved_at": "2026-04-20T03:01:20.990749+00:00"
+      "source_url": "https://admissions.dartmouth.edu/apply/testing-policy",
+      "source_excerpt": "Standardized testing is a required element of Dartmouth's undergraduate application... Students who attend(ed) high school within the United States must submit results of either the SAT or ACT... Students who attend(ed) high school outside of the United States may fulfill Dartmouth's standardized testing requirement in one of five ways.",
+      "retrieved_at": "2026-05-11T01:13:00.869597+00:00"
     },
     {
       "field": "admissions.gpa_policy",
@@ -154,21 +159,47 @@
       "source_url": "https://home.dartmouth.edu/academics/undergraduate-arts-sciences/majors-and-minors",
       "source_excerpt": "Art & Performing Arts; Engineering; Art History; Film and Media Studies; Music; Studio Art; Theater; Engineering Sciences; Biomedical Engineering Sciences; Engineering Physics; Human-Centered Design; Materials Science",
       "retrieved_at": "2026-05-07T02:17:09.895090+00:00"
+    },
+    {
+      "field": "admissions.application_platform",
+      "claim": "Dartmouth accepts the Common Application, and eligible students may apply through QuestBridge.",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.dartmouth.edu/apply-dartmouth",
+      "source_excerpt": "Common Application. As an applicant to Dartmouth, you must also fill out the Dartmouth Writing Supplement... once we have received your QuestBridge application.",
+      "retrieved_at": "2026-05-11T01:13:00.869597+00:00"
+    },
+    {
+      "field": "admissions.course_rigor",
+      "claim": "Dartmouth reviews curriculum in the context of what is available at a student’s school and says its applicants typically pursue the most rigorous coursework available, especially in their areas of greatest interest.",
+      "classification": "reported_profile",
+      "source_url": "https://admissions.dartmouth.edu/apply/counselors",
+      "source_excerpt": "Rigor of curriculum. Our Admissions Committee will also look at the candidate's curriculum within the context of what is available at their school. Typically, our applicants pursue the most rigorous coursework available to them, particularly in their areas of greatest interest.",
+      "retrieved_at": "2026-05-11T01:13:00.869597+00:00"
+    },
+    {
+      "field": "admissions.recommendations",
+      "claim": "For first-year applicants, Dartmouth requires a counselor evaluation and two teacher recommendations, and it strongly encourages a peer recommendation.",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.dartmouth.edu/glossary-term/recommendations",
+      "source_excerpt": "For first-year applicants, Dartmouth requires three recommendations and strongly encourages a fourth: Required Counselor Evaluation ... Early Decision and Regular Decision applicants are required to submit two teacher recommendations... Strongly Encouraged Peer Recommendation.",
+      "retrieved_at": "2026-05-11T01:13:00.869597+00:00"
+    },
+    {
+      "field": "admissions.essays",
+      "claim": "Dartmouth requires a writing supplement with Dartmouth-specific short essay prompts, including a 100-word response required of all applicants.",
+      "classification": "official_requirement",
+      "source_url": "https://admissions.dartmouth.edu/glossary-term/writing-supplement",
+      "source_excerpt": "The writing supplement includes questions specific to Dartmouth... Required of all applicants. Please respond in 100 words or fewer.",
+      "retrieved_at": "2026-05-11T01:13:00.869597+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-05-07T02:17:09.895099+00:00",
-    "confidence": "phase-5-auto-enriched",
-    "unknown_fields": [
-      "admissions.course_rigor",
-      "admissions.recommendations",
-      "admissions.essays"
-    ],
+    "last_verified_at": "2026-05-11T01:13:00.869597+00:00",
+    "confidence": "phase-5-manual-repair",
+    "unknown_fields": [],
     "warnings": [
       "Major titles extracted from official school source (51 titles).",
-      "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
-      "Testing policy needs manual confirmation; the crawler did not find a clean official testing-policy sentence.",
       "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page.",
       "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data.",
       "School-people enrichment includes school-specific override data sourced from official university domains for populated sections."
@@ -544,7 +575,7 @@
         {
           "rank": 1,
           "name": "Kaya Thomas",
-          "bio": "Dartmouth Alumni says Kaya Thomas \u201917 founded Milk Diary after becoming a new parent and previously created We Read Too to help readers discover books by and about people of color.",
+          "bio": "Dartmouth Alumni says Kaya Thomas ’17 founded Milk Diary after becoming a new parent and previously created We Read Too to help readers discover books by and about people of color.",
           "description": "Software developer and founder of Milk Diary and We Read Too.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -563,8 +594,8 @@
         {
           "rank": 2,
           "name": "Nick Gutierrez",
-          "bio": "Dartmouth Alumni says Nick Gutierrez \u201916 TH\u201916 completed Dartmouth\u2019s demanding dual engineering path and reflects on the workload and value of the Thayer experience.",
-          "description": "Engineering alumnus featured in Dartmouth\u2019s Thayer scholarship campaign story.",
+          "bio": "Dartmouth Alumni says Nick Gutierrez ’16 TH’16 completed Dartmouth’s demanding dual engineering path and reflects on the workload and value of the Thayer experience.",
+          "description": "Engineering alumnus featured in Dartmouth’s Thayer scholarship campaign story.",
           "wikipedia_title": null,
           "wikipedia_url": null,
           "confirmation_url": "https://alumni.dartmouth.edu/stories-news/you-need-keep-your-eyes-prize-day-one-112-128-132",
@@ -582,7 +613,7 @@
         {
           "rank": 3,
           "name": "Lucas Katler",
-          "bio": "Dartmouth Alumni says Lucas Katler \u201915 became a Tony Award-winning producer and now runs his own production company in New York City.",
+          "bio": "Dartmouth Alumni says Lucas Katler ’15 became a Tony Award-winning producer and now runs his own production company in New York City.",
           "description": "Tony Award-winning producer and theater entrepreneur.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -601,7 +632,7 @@
         {
           "rank": 4,
           "name": "Mateo Romero",
-          "bio": "Dartmouth Alumni describes Mateo Romero \u201989 as an acclaimed visual artist whose work preserves, documents, and celebrates Indigenous culture.",
+          "bio": "Dartmouth Alumni describes Mateo Romero ’89 as an acclaimed visual artist whose work preserves, documents, and celebrates Indigenous culture.",
           "description": "Visual artist and member of the Cochiti Pueblo Tribe.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -620,7 +651,7 @@
         {
           "rank": 5,
           "name": "Ricki Fairley",
-          "bio": "Dartmouth Alumni says Ricki Fairley \u201978 turned her experience with breast cancer into advocacy work that educates industry and helps Black women combat the disease.",
+          "bio": "Dartmouth Alumni says Ricki Fairley ’78 turned her experience with breast cancer into advocacy work that educates industry and helps Black women combat the disease.",
           "description": "Breast cancer advocate and communications leader.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -639,7 +670,7 @@
         {
           "rank": 6,
           "name": "Hung Raghavan",
-          "bio": "Dartmouth Alumni says Hung Raghavan \u201999 is making a planned gift to Dartmouth and reflects on how significant the College was in her life and family story.",
+          "bio": "Dartmouth Alumni says Hung Raghavan ’99 is making a planned gift to Dartmouth and reflects on how significant the College was in her life and family story.",
           "description": "Alumna and philanthropic supporter of Dartmouth.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -658,7 +689,7 @@
         {
           "rank": 7,
           "name": "Sharat Raghavan",
-          "bio": "Dartmouth Alumni says Sharat Raghavan \u201998 is making a planned gift to Dartmouth and describes it as a meaningful way to contribute to the College.",
+          "bio": "Dartmouth Alumni says Sharat Raghavan ’98 is making a planned gift to Dartmouth and describes it as a meaningful way to contribute to the College.",
           "description": "Alumnus and philanthropic supporter of Dartmouth.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -677,7 +708,7 @@
         {
           "rank": 8,
           "name": "Peter Pappas",
-          "bio": "Dartmouth Alumni says Peter Pappas \u201958 built a long career in chemistry and later used charitable remainder unitrusts to benefit both his family and Dartmouth.",
+          "bio": "Dartmouth Alumni says Peter Pappas ’58 built a long career in chemistry and later used charitable remainder unitrusts to benefit both his family and Dartmouth.",
           "description": "Chemist, academic, and charitable supporter of Dartmouth.",
           "wikipedia_title": null,
           "wikipedia_url": null,
@@ -696,8 +727,8 @@
         {
           "rank": 9,
           "name": "Ann Fritz Hackett",
-          "bio": "Dartmouth Alumni says Ann Fritz Hackett \u201976 was part of Dartmouth\u2019s first fully coeducational class and reflects on helping the institution change from the beginning.",
-          "description": "Member of Dartmouth\u2019s first matriculated coeducational class and Centennial Circle alumna.",
+          "bio": "Dartmouth Alumni says Ann Fritz Hackett ’76 was part of Dartmouth’s first fully coeducational class and reflects on helping the institution change from the beginning.",
+          "description": "Member of Dartmouth’s first matriculated coeducational class and Centennial Circle alumna.",
           "wikipedia_title": null,
           "wikipedia_url": null,
           "confirmation_url": "https://alumni.dartmouth.edu/stories-news/breaking-glass-ceilings-and-just-breaking-glass-112-114",
@@ -715,8 +746,8 @@
         {
           "rank": 10,
           "name": "Martha Johnson Beattie",
-          "bio": "Dartmouth Alumni says Martha Johnson Beattie \u201976 was among the women in Dartmouth\u2019s first matriculated coeducational class and a member of the Centennial Circle.",
-          "description": "Member of Dartmouth\u2019s first matriculated coeducational class and Centennial Circle alumna.",
+          "bio": "Dartmouth Alumni says Martha Johnson Beattie ’76 was among the women in Dartmouth’s first matriculated coeducational class and a member of the Centennial Circle.",
+          "description": "Member of Dartmouth’s first matriculated coeducational class and Centennial Circle alumna.",
           "wikipedia_title": null,
           "wikipedia_url": null,
           "confirmation_url": "https://alumni.dartmouth.edu/stories-news/breaking-glass-ceilings-and-just-breaking-glass-112-114",

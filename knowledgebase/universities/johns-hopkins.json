@@ -12,7 +12,9 @@
       "https://apply.jhu.edu/apply/first-year-applicants/",
       "https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/",
       "https://www.commonapp.org/explore/johns-hopkins-university/",
-      "https://www.jhu.edu/admissions"
+      "https://www.jhu.edu/admissions",
+      "https://apply.jhu.edu/how-to-apply/what-we-look-for/",
+      "https://apply.jhu.edu/college-planning-guide/preparing-for-college/"
     ],
     "majors": [
       "https://admissions.jhu.edu/academics",
@@ -135,12 +137,12 @@
     "confidence": "low"
   },
   "admissions": {
-    "application_platform": "Common Application",
-    "testing_policy": "unknown",
+    "application_platform": "Johns Hopkins accepts first-year applications through the Common Application or Coalition on Scoir.",
+    "testing_policy": "Johns Hopkins requires standardized testing for first-year applicants and reviews self-reported or official SAT/ACT scores as part of holistic review.",
     "gpa_policy": "No explicit minimum GPA was found on the cited official pages used in this auto-enrichment pass.",
-    "course_rigor": "unknown",
-    "recommendations": "Letters of Recommendation",
-    "essays": "unknown",
+    "course_rigor": "Johns Hopkins looks for students who pursue a challenging high school curriculum and take courses that challenge and excite them across academic areas, in the context of the opportunities available at their school.",
+    "recommendations": "Johns Hopkins requires a secondary school report and two teacher evaluations from school-based recommenders.",
+    "essays": "Johns Hopkins requires the Hopkins supplement, which includes a supplemental essay.",
     "portfolio_or_audition": null,
     "international_notes": null,
     "deadlines": []
@@ -166,19 +168,19 @@
     },
     {
       "field": "admissions.course_rigor",
-      "claim": "Rigor, Reproducibility and Responsibility in Scientific Practice, Certificate",
+      "claim": "Johns Hopkins looks for students who pursue a challenging high school curriculum and take courses that challenge and excite them across academic areas, in the context of the opportunities available at their school.",
       "classification": "reported_profile",
-      "source_url": "https://admissions.jhu.edu/account/login?r=https%3A%2F%2Fadmissions.jhu.edu%2Fapply%2Fstatus&cookie=1",
-      "source_excerpt": "Rigor, Reproducibility and Responsibility in Scientific Practice, Certificate",
-      "retrieved_at": "2026-04-20T03:01:12.873730+00:00"
+      "source_url": "https://apply.jhu.edu/college-planning-guide/preparing-for-college/",
+      "source_excerpt": "If you’re pursuing a challenging high school curriculum... We consider how you challenge yourself within the opportunities available to you... The most important thing when building your class schedule is to take courses that challenge and excite you.",
+      "retrieved_at": "2026-05-11T01:13:00.869597+00:00"
     },
     {
       "field": "admissions.recommendations",
-      "claim": "Letters of Recommendation",
+      "claim": "Johns Hopkins requires a secondary school report and two teacher evaluations from school-based recommenders.",
       "classification": "official_requirement",
-      "source_url": "https://admissions.jhu.edu/account/login?r=https%3A%2F%2Fadmissions.jhu.edu%2Fapply%2Fstatus&cookie=1",
-      "source_excerpt": "Letters of Recommendation",
-      "retrieved_at": "2026-04-20T03:01:12.873733+00:00"
+      "source_url": "https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/",
+      "source_excerpt": "Request the Following Materials From Your School: Your secondary school report ... Two teacher evaluations.",
+      "retrieved_at": "2026-05-11T01:13:00.869597+00:00"
     },
     {
       "field": "school_people.popular_professors",
@@ -206,38 +208,39 @@
     },
     {
       "field": "admissions.testing_policy",
-      "claim": "Johns Hopkins University requires standardized testing for first-year applicants; the official Application Deadlines & Requirements page says standardized test scores are required and reviewed as part of the holistic application review.",
+      "claim": "Johns Hopkins requires standardized testing for first-year applicants and reviews self-reported or official SAT/ACT scores as part of holistic review.",
       "classification": "official_requirement",
       "source_url": "https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/",
       "source_excerpt": "Johns Hopkins University requires standardized testing. As part of our holistic review process, submitted scores will be taken into consideration within the context of your broader application. We will review self-reported or official test scores as part of the application.",
-      "retrieved_at": "2026-05-07T10:24:38.458804+00:00"
+      "retrieved_at": "2026-05-11T01:13:00.869597+00:00"
     },
     {
       "field": "admissions.application_platform",
-      "claim": "Cross-verified from the Common App school page: Johns Hopkins uses the Common Application.",
-      "classification": "cross_verification",
-      "source_url": "https://www.commonapp.org/explore/johns-hopkins-university/",
-      "source_excerpt": "The Common App school profile for Johns Hopkins is itself an application-site source and lists Johns Hopkins within the Common Application explore directory.",
-      "retrieved_at": "2026-05-10T01:35:41.018472+00:00"
+      "claim": "Johns Hopkins accepts first-year applications through the Common Application or Coalition on Scoir.",
+      "classification": "official_requirement",
+      "source_url": "https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/",
+      "source_excerpt": "Apply now through the Common Application. Apply now through Coalition on Scoir. Submit Through the Common Application or Coalition on Scoir.",
+      "retrieved_at": "2026-05-11T01:13:00.869597+00:00"
+    },
+    {
+      "field": "admissions.essays",
+      "claim": "Johns Hopkins requires the Hopkins supplement, which includes a supplemental essay.",
+      "classification": "official_requirement",
+      "source_url": "https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/",
+      "source_excerpt": "The Hopkins supplement, which includes our supplemental essay.",
+      "retrieved_at": "2026-05-11T01:13:00.869597+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-05-10T01:35:41.018478+00:00",
-    "confidence": "phase-5-cross-verified",
-    "unknown_fields": [
-      "admissions.testing_policy",
-      "admissions.course_rigor",
-      "admissions.essays"
-    ],
+    "last_verified_at": "2026-05-11T01:13:00.869597+00:00",
+    "confidence": "phase-5-manual-repair",
+    "unknown_fields": [],
     "warnings": [
       "Major titles extracted from official school source (77 titles).",
       "Phase 5 auto-enrichment completed using official-school web crawl heuristics; manual spot-checking is still recommended for edge cases.",
       "GPA policy was normalized from absence of an explicit minimum-GPA statement on the cited official pages.",
       "Majors count needs manual confirmation; the crawler did not find a clean count or stable program-list page.",
-      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data.",
-      "admissions.course_rigor was reset to unknown during manual cleanup because the earlier auto-extracted text was unrelated to the requested admissions field.",
-      "Johns Hopkins auto-extraction captured unrelated disclosure/catalog text; testing policy, course rigor, and majors count need a cleaner official-source pass.",
-      "Johns Hopkins application platform was cross-verified from the Common App school profile, but first-year testing-policy details were not exposed there and official JHU admissions pages remained bot-protected in this environment."
+      "School-people enrichment uses public third-party sources (RateMyProfessors and Wikipedia/Wikimedia), so rankings are heuristic rather than official university data."
     ]
   },
   "school_people": {

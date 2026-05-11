@@ -1,7 +1,7 @@
 {
   "university": "Johns Hopkins University",
   "slug": "johns-hopkins",
-  "retrieved_at": "2026-05-09",
+  "retrieved_at": "2026-05-10",
   "scope": "policy-summary",
   "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
   "source_url": "https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/",
@@ -13,12 +13,14 @@
     "https://apply.jhu.edu/apply/first-year-applicants/",
     "https://www.commonapp.org/explore/johns-hopkins-university/",
     "https://www.jhu.edu/admissions",
+    "https://apply.jhu.edu/how-to-apply/what-we-look-for/",
+    "https://apply.jhu.edu/college-planning-guide/preparing-for-college/",
     "https://www.jhu.edu"
   ],
-  "policy": "Johns Hopkins University requires standardized testing for first-year applicants; the official Application Deadlines & Requirements page says standardized test scores are required and reviewed as part of the holistic application review.",
+  "policy": "Johns Hopkins requires standardized testing for first-year applicants and reviews self-reported or official SAT/ACT scores as part of holistic review.",
   "claims": [
     {
-      "claim": "Johns Hopkins University requires standardized testing for first-year applicants; the official Application Deadlines & Requirements page says standardized test scores are required and reviewed as part of the holistic application review.",
+      "claim": "Johns Hopkins requires standardized testing for first-year applicants and reviews self-reported or official SAT/ACT scores as part of holistic review.",
       "source_url": "https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/"
     }
   ]

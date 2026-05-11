@@ -1,7 +1,7 @@
 {
   "university": "Duke University",
   "slug": "duke",
-  "retrieved_at": "2026-05-09",
+  "retrieved_at": "2026-05-10",
   "scope": "policy-summary",
   "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
   "source_url": "https://admissions.duke.edu/apply/",
@@ -10,10 +10,10 @@
     "https://admissions.duke.edu/what-we-look-for/",
     "https://www.duke.edu"
   ],
-  "policy": "Duke is test-optional for first-year and transfer applicants in the 2026-2027 admissions cycle.",
+  "policy": "Duke is test-optional for both first-year and transfer applicants in the 2026-2027 admissions cycle, and students who apply without SAT or ACT scores are not disadvantaged.",
   "claims": [
     {
-      "claim": "Duke is test-optional for first-year and transfer applicants in the 2026-2027 admissions cycle.",
+      "claim": "Duke is test-optional for both first-year and transfer applicants in the 2026-2027 admissions cycle, and students who apply without SAT or ACT scores are not disadvantaged.",
       "source_url": "https://admissions.duke.edu/apply/"
     }
   ]

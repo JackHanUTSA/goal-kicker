@@ -1,7 +1,7 @@
 {
   "university": "Northwestern University",
   "slug": "northwestern",
-  "retrieved_at": "2026-05-09",
+  "retrieved_at": "2026-05-10",
   "scope": "policy-summary",
   "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
   "source_url": "https://admissions.northwestern.edu/apply/requirements.html",
@@ -14,10 +14,10 @@
     "https://www.northwestern.edu/apply",
     "https://www.northwestern.edu"
   ],
-  "policy": "Self-reporting SAT and/or ACT scores",
+  "policy": "Northwestern is test-optional for first-year and transfer applicants and does not require ACT or SAT scores; if students submit scores, there is no preference between the SAT and ACT.",
   "claims": [
     {
-      "claim": "Self-reporting SAT and/or ACT scores",
+      "claim": "Northwestern is test-optional for first-year and transfer applicants and does not require ACT or SAT scores; if students submit scores, there is no preference between the SAT and ACT.",
       "source_url": "https://admissions.northwestern.edu/apply/requirements.html"
     }
   ]

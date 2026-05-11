@@ -1,21 +1,26 @@
 {
   "university": "Dartmouth College",
   "slug": "dartmouth",
-  "retrieved_at": "2026-05-09",
+  "retrieved_at": "2026-05-10",
   "scope": "policy-summary",
   "scope_note": "Goal Kicker currently exports testing-policy summaries for this school. If official score distributions were not captured, the panel stays policy-only rather than inventing ranges.",
-  "source_url": "https://admissions.dartmouth.edu/",
+  "source_url": "https://admissions.dartmouth.edu/apply/testing-policy",
   "source_urls": [
+    "https://admissions.dartmouth.edu/apply/testing-policy",
     "https://admissions.dartmouth.edu/",
     "https://www.dartmouth.edu/admission",
     "https://www.dartmouth.edu/apply",
+    "https://admissions.dartmouth.edu/apply-dartmouth",
+    "https://admissions.dartmouth.edu/apply/counselors",
+    "https://admissions.dartmouth.edu/glossary-term/recommendations",
+    "https://admissions.dartmouth.edu/glossary-term/writing-supplement",
     "https://www.dartmouth.edu"
   ],
-  "policy": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
+  "policy": "Dartmouth requires standardized testing. Students attending high school in the United States must submit SAT or ACT results; students outside the U.S. may satisfy the requirement through SAT/ACT or approved national or diploma exam pathways.",
   "claims": [
     {
-      "claim": "Testing policy could not be confidently extracted from the cited official pages in this auto-enrichment pass.",
-      "source_url": "https://admissions.dartmouth.edu/"
+      "claim": "Dartmouth requires standardized testing. Students attending high school in the United States must submit SAT or ACT results; students outside the U.S. may satisfy the requirement through SAT/ACT or approved national or diploma exam pathways.",
+      "source_url": "https://admissions.dartmouth.edu/apply/testing-policy"
     }
   ]
 }
