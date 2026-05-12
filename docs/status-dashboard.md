@@ -1,6 +1,6 @@
 # Goal Kicker Status Dashboard
 
-Last audited: 2026-05-09 09:35 UTC
+Last audited: 2026-05-12 06:53 UTC
 
 ## Current completion
 
@@ -10,6 +10,7 @@ Last audited: 2026-05-09 09:35 UTC
 - Professor coverage present: 100 / 100
 - Alumni coverage present: 100 / 100
 - Overall structured completion estimate: 100.0%
+- Site panel coverage present: 100 / 100 schools × 4 panel types
 
 ## What changed most recently
 
@@ -46,7 +47,7 @@ Every school now has at least:
 
 ## Recommended next focus
 
-1. Repair the remaining lowest-title schools first: USC, American, UT Austin, Fordham, Yeshiva, Emory, Marquette, and Rutgers–New Brunswick
+1. Site panels are now complete for ranks 3–100 as well as the two pilot schools; prioritize quality upgrades instead of raw panel-count expansion
 2. Improve Baylor from recovered homepage-directory titles to a direct majors-page or catalog-derived official census once an accessible official source path exists in this environment
 3. Improve source quality for professor verification beyond RateMyProfessors-derived fallbacks
 4. Continue replacing low-quality or clearly off-target admissions text in residual partial records
