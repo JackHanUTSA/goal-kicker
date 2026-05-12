@@ -138,6 +138,8 @@ tests/test_subject_recommender.py ...                                    [100%]
 <div id="tip" class="tooltip"></div>
 <script>
 const RAW='./';
+const CACHE_BUST = new URLSearchParams(location.search).get('bust');
+const withBust = path => CACHE_BUST ? path + (path.includes('?') ? '&' : '?') + 'bust=' + encodeURIComponent(CACHE_BUST) : path;
 const SCHOOL_COLORS={"Architecture and Planning":"#a78bfa","Engineering":"#60a5fa","Humanities, Arts, and Social Sciences":"#fbbf24","Sloan School of Management":"#f87171","Science":"#34d399","Natural Sciences":"#34d399","Social Sciences":"#fbbf24","Humanities & Arts":"#a78bfa","Interdisciplinary Programs":"#f87171"};
 let D=[],sk='rank',sd=1;
 const $=id=>document.getElementById(id),tb=$('tb'),q=$('q'),f=$('f'),c=$('c'),tip=$('tip');
@@ -154,14 +156,14 @@ const detailCache={},enrollCache={},testCache={},gpaCache={},rigorCache={};
 
 function tryFetchJson(slug, sub, cache){
   if(cache[slug]!==undefined) return Promise.resolve();
-  return fetch(RAW+'data/'+sub+'/'+slug+'.json').then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{cache[slug]=d}).catch(()=>{cache[slug]=null});
+  return fetch(withBust(RAW+'data/'+sub+'/'+slug+'.json')).then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{cache[slug]=d}).catch(()=>{cache[slug]=null});
 }
 
 async function loadDetail(slug,el){
   if(detailCache[slug]){renderDetail(slug,detailCache[slug],el);wireToggles(slug,el);return}
   el.innerHTML='<div class="detail">Loading…</div>';
   try{
-    const detailPromise = fetch(RAW+'knowledgebase/universities/'+slug+'.json').then(r=>r.json());
+    const detailPromise = fetch(withBust(RAW+'knowledgebase/universities/'+slug+'.json')).then(r=>r.json());
     const auxPromise = Promise.all([
       tryFetchJson(slug,'enrollment',enrollCache),
       tryFetchJson(slug,'testing',testCache),
@@ -491,5 +493,5 @@ tb.innerHTML=rs.map(r=>'<tr class="r" data-slug="'+esc(r.slug)+'"><td class="rk"
 document.querySelectorAll('tr.r').forEach(tr=>tr.addEventListener('click',()=>{const slug=tr.getAttribute('data-slug');const det=document.getElementById('d-'+slug);if(!det)return;const wasShown=det.classList.contains('show');document.querySelectorAll('tr.det').forEach(d=>d.classList.remove('show'));if(!wasShown){det.classList.add('show');loadDetail(slug,det.querySelector('td'))}}))}
 document.querySelectorAll('th[data-s]').forEach(th=>th.addEventListener('click',()=>{const k=th.getAttribute('data-s');if(sk===k)sd=-sd;else{sk=k;sd=1}render()}));
 q.addEventListener('input',render);f.addEventListener('change',render);
-fetch(RAW+'data/top50_universities.json').then(r=>r.json()).then(rows=>{D=rows;$('su').textContent=rows.length;render()}).catch(e=>{tb.innerHTML='<tr><td colspan="3" class="loading">Failed to load list — '+e+'</td></tr>'});
+fetch(withBust(RAW+'data/top50_universities.json')).then(r=>r.json()).then(rows=>{D=rows;$('su').textContent=rows.length;render()}).catch(e=>{tb.innerHTML='<tr><td colspan="3" class="loading">Failed to load list — '+e+'</td></tr>'});
 </script></body></html>
