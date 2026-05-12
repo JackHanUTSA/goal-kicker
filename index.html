@@ -74,6 +74,12 @@ svg.bubbles text{fill:#fff;font-size:10px;pointer-events:none;text-anchor:middle
 .gen-stats .gs .k{color:var(--muted);font-size:11px;margin-top:1px}
 .majors-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:8px;margin-top:12px}
 .majors-chip{background:#0e1014;border:1px solid var(--border);border-radius:6px;padding:9px 11px;font-size:12px;color:#d7dce6}
+.share-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px;margin-top:12px}
+.share-card{background:#0e1014;border:1px solid var(--border);border-radius:8px;padding:12px 14px;border-left:4px solid var(--accent)}
+.share-card .share-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px;margin-bottom:6px}
+.share-card .share-name{font-size:14px;font-weight:700;color:var(--text)}
+.share-card .share-value{font-size:22px;font-weight:800;color:var(--text);font-variant-numeric:tabular-nums}
+.share-card .share-school{font-size:12px;color:var(--muted)}
 .src-links{display:flex;flex-wrap:wrap;gap:8px 12px;font-size:11px;color:var(--muted)}
 .src-links a{color:var(--accent-2)}
 .policy-list{margin:8px 0 0;padding:0;list-style:none}
@@ -179,6 +185,11 @@ function shell(id, slug){ return '<div class="toggle-wrap" id="'+id+'-'+esc(slug
 function summarizeEnrollmentBox(majorsRecord, enrollData){
   if(enrollData){
     if(enrollData.summary_note) return enrollData.summary_note;
+    if(enrollData.mode === 'group-shares' && Array.isArray(enrollData.shares) && enrollData.shares.length){
+      const shareLabel = enrollData.major_count_label || (enrollData.shares.length + ' official groups');
+      const totalLabel = enrollData.total_label || 'official share breakdown';
+      return shareLabel + ' · ' + totalLabel;
+    }
     const majors = (enrollData.majors || []).filter(m => m.total > 0);
     if(majors.length){
       const totalStudents = majors.reduce((s,m)=>s+(m.total||0),0);
@@ -372,6 +383,24 @@ function formatMetric(value, suffix=''){
 }
 
 function renderChart(d){
+  if(d.mode==='group-shares' && Array.isArray(d.shares)){
+    const shares = d.shares.map(item => {
+      const color = SCHOOL_COLORS[item.school] || '#888';
+      return '<div class="share-card" style="border-left-color:'+color+'">'+
+        '<div class="share-head"><span class="share-name">'+esc(item.name)+'</span><span class="share-value">'+esc(item.value)+'</span></div>'+
+        '<div class="share-school">'+esc(item.school || '')+'</div>'+
+      '</div>';
+    }).join('');
+    const metaBits=[d.major_count_label,d.total_label].filter(Boolean);
+    const sourceLinks = (d.source_urls || []).map((u,i) => '<a href="'+esc(u)+'">'+esc(sourceLabel(u, i))+'</a>').join(' · ');
+    return '<div class="chartbox">'+
+      '<div class="chart-title">'+esc(d.chart_title || 'Official enrollment share breakdown')+' <span class="src">'+(sourceLinks || esc(metaBits.join(' · ')))+'</span></div>'+
+      (metaBits.length ? '<div class="chart-meta">'+metaBits.map(text=>'<span class="chart-pill">'+esc(text)+'</span>').join('')+'</div>' : '')+
+      (d.scope_note ? '<div class="scope-note"><strong>Scope:</strong> '+esc(d.scope_note)+'</div>' : '')+
+      (d.notes ? '<div class="chart-note"><strong>Method:</strong>'+esc(d.notes)+'</div>' : '')+
+      '<div class="share-grid">'+shares+'</div>'+
+      '</div>';
+  }
   if(d.mode==='majors-list' || d.titles){
     const titles = (d.titles || []).map(t => '<div class="majors-chip">'+esc(t)+'</div>').join('');
     const summary = d.summary || {};

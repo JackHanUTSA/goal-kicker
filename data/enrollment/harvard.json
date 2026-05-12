@@ -7,12 +7,12 @@
   "source_urls": [
     "https://college.harvard.edu/admissions/admissions-statistics"
   ],
+  "mode": "group-shares",
   "chart_title": "Declared concentration groups among enrolling students — Class of 2029",
   "major_count_label": "6 official concentration groups",
   "total_label": "share of 1,675 enrolling students",
-  "value_suffix": "%",
-  "scope_note": "Harvard's currently accessible official admissions statistics page publishes enrolling-student shares by broad concentration group, not a source-backed per-major registered-student breakdown. This panel now uses Harvard's official group shares instead of equal-weight placeholder bubbles.",
-  "notes": "Method: values come from Harvard's Admissions Statistics page for the Class of 2029. Bubble size reflects the published percentage share for each broad concentration group among enrolling students. Harvard does not provide per-major registered-student counts on this cited page, so this is a group-level official override rather than a major-by-major census. The Special Concentration bubble uses 0.5% only as a visualization midpoint for Harvard's published '<1%' bucket label.",
+  "scope_note": "Harvard's currently accessible official admissions statistics page publishes enrolling-student shares by broad concentration group, not a source-backed per-major registered-student breakdown. This panel now shows Harvard's exact official group-share labels instead of equal-weight placeholder bubbles or interpolated percentages.",
+  "notes": "Method: values come directly from Harvard's official Admissions Statistics page for the Class of 2029. Because Harvard publishes one bucket as '<1%' and does not provide underlying per-major headcounts on this cited page, the panel renders an exact grouped-share list rather than a size-encoded bubble chart that would require invented interpolation.",
   "totals": {
     "enrolling_students_class_2029": 1675,
     "published_groups": 6
@@ -24,60 +24,42 @@
     "Engineering",
     "Interdisciplinary Programs"
   ],
-  "majors": [
+  "shares": [
     {
       "name": "Humanities",
       "code": "Hum",
       "school": "Humanities & Arts",
-      "primary": 12,
-      "secondary": 0,
-      "total": 12,
-      "total_display": "12%"
+      "value": "12%"
     },
     {
       "name": "Social Sciences",
       "code": "SocSci",
       "school": "Social Sciences",
-      "primary": 35,
-      "secondary": 0,
-      "total": 35,
-      "total_display": "35%"
+      "value": "35%"
     },
     {
       "name": "Natural Sciences",
       "code": "NatSci",
       "school": "Science",
-      "primary": 27,
-      "secondary": 0,
-      "total": 27,
-      "total_display": "27%"
+      "value": "27%"
     },
     {
       "name": "Engineering",
       "code": "Eng",
       "school": "Engineering",
-      "primary": 25,
-      "secondary": 0,
-      "total": 25,
-      "total_display": "25%"
+      "value": "25%"
     },
     {
       "name": "Special Concentration",
       "code": "Spec",
       "school": "Interdisciplinary Programs",
-      "primary": 0.5,
-      "secondary": 0,
-      "total": 0.5,
-      "total_display": "<1%"
+      "value": "<1%"
     },
     {
       "name": "Undecided",
       "code": "Undec",
       "school": "Interdisciplinary Programs",
-      "primary": 1,
-      "secondary": 0,
-      "total": 1,
-      "total_display": "1%"
+      "value": "1%"
     }
   ]
 }
