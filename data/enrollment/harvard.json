@@ -2,18 +2,17 @@
   "university": "Harvard University",
   "slug": "harvard",
   "academic_year": "Structured majors inventory",
-  "retrieved_at": "2026-05-10",
+  "retrieved_at": "2026-05-11",
   "mode": "mapped-majors",
-  "source_url": "https://college.harvard.edu/academics",
+  "source_url": "https://college.harvard.edu/academics/liberal-arts-sciences/concentrations",
   "source_urls": [
-    "https://college.harvard.edu/academics",
     "https://college.harvard.edu/academics/liberal-arts-sciences/concentrations"
   ],
   "chart_title": "Undergraduate majors map — structured inventory",
-  "major_count_label": "27 mapped majors",
+  "major_count_label": "49 mapped majors",
   "total_label": "equal-weight bubbles",
-  "scope_note": "This school does not yet have a source-backed per-major enrollment breakdown in Goal Kicker. To keep the majors panel visually consistent with MIT, each official undergraduate major title is mapped into a broad discipline bucket and rendered as an equal-weight bubble. Bubble size here does not indicate enrollment.",
-  "summary_note": "27 mapped majors · equal-weight bubbles · official count page says 50 majors",
+  "scope_note": "Harvard's public concentrations directory does not publish a source-backed per-major enrollment breakdown. This panel uses Harvard's official concentration titles and groups them into broad discipline buckets with equal-weight bubbles, so bubble size here does not indicate enrollment.",
+  "summary_note": "49 mapped majors · equal-weight bubbles · official count page says 50 undergraduate fields of study",
   "legend_order": [
     "Architecture and Planning",
     "Engineering",
@@ -23,223 +22,399 @@
     "Interdisciplinary Programs"
   ],
   "totals": {
-    "mapped_major_titles": 27,
+    "mapped_major_titles": 49,
     "official_major_count": 50
   },
-  "notes": "official Harvard page states 50 undergraduate fields of study (concentrations) official Harvard page states 50 undergraduate fields of study (concentrations); titles extracted from official page: https://college.harvard.edu/academics/liberal-arts-sciences/concentrations Confidence: medium.",
+  "notes": "Harvard's overview says there are 50 undergraduate fields of study. The current directory lists 49 concentration cards and separately links the Special Concentration pathway, which explains the 49-vs-50 display gap.",
   "majors": [
     {
-      "name": "Office of Undergraduate Education",
-      "code": "OOUE",
+      "name": "African and African American Studies",
+      "code": "AAAA",
       "school": "Social Sciences",
       "primary": 1,
       "secondary": 0,
       "total": 1
     },
     {
-      "name": "Visit the Astrophysics Page",
-      "code": "VTAP",
-      "school": "Science",
-      "primary": 1,
-      "secondary": 0,
-      "total": 1
-    },
-    {
-      "name": "Visit the Biomedical Engineering Page",
-      "code": "VTBE",
-      "school": "Engineering",
-      "primary": 1,
-      "secondary": 0,
-      "total": 1
-    },
-    {
-      "name": "Visit the Chemistry Page",
-      "code": "VTCP",
-      "school": "Science",
-      "primary": 1,
-      "secondary": 0,
-      "total": 1
-    },
-    {
-      "name": "Visit the Computer Science Page",
-      "code": "VTCS",
-      "school": "Engineering",
-      "primary": 1,
-      "secondary": 0,
-      "total": 1
-    },
-    {
-      "name": "Visit the Earth and Planetary Sciences Page",
-      "code": "VTEA",
-      "school": "Science",
-      "primary": 1,
-      "secondary": 0,
-      "total": 1
-    },
-    {
-      "name": "Visit the Economics Page",
-      "code": "VTEP",
+      "name": "Anthropology",
+      "code": "Anth",
       "school": "Social Sciences",
       "primary": 1,
       "secondary": 0,
       "total": 1
     },
     {
-      "name": "Visit the Electrical Engineering Page",
-      "code": "VTEE",
-      "school": "Engineering",
+      "name": "Applied Math",
+      "code": "AM",
+      "school": "Science",
       "primary": 1,
       "secondary": 0,
       "total": 1
     },
     {
-      "name": "Visit the English Page",
-      "code": "VTEP",
+      "name": "Art, Film, and Visual Studies",
+      "code": "AFAV",
       "school": "Humanities & Arts",
       "primary": 1,
       "secondary": 0,
       "total": 1
     },
     {
-      "name": "Visit the Environmental Science and Engineering Page",
-      "code": "VTES",
+      "name": "Astrophysics",
+      "code": "Astr",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Biomedical Engineering",
+      "code": "BE",
       "school": "Engineering",
       "primary": 1,
       "secondary": 0,
       "total": 1
     },
     {
-      "name": "Visit the Government Page",
-      "code": "VTGP",
+      "name": "Chemical and Physical Biology",
+      "code": "CAPB",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemistry",
+      "code": "Chem",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Chemistry and Physics",
+      "code": "CAP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Classics",
+      "code": "Classics",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Comparative Literature",
+      "code": "CL",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Comparative Study of Religion",
+      "code": "CSOR",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Computer Science",
+      "code": "CS",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Earth and Planetary Sciences",
+      "code": "EAPS",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "East Asian Studies",
+      "code": "EAS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Economics",
+      "code": "Econ",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Electrical Engineering",
+      "code": "EE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Engineering Sciences",
+      "code": "ES",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "English",
+      "code": "English",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Science and Engineering",
+      "code": "ESAE",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Environmental Science and Public Policy",
+      "code": "ESAP",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Folklore and Mythology",
+      "code": "FAM",
       "school": "Interdisciplinary Programs",
       "primary": 1,
       "secondary": 0,
       "total": 1
     },
     {
-      "name": "Visit the History Page",
-      "code": "VTHP",
+      "name": "Germanic Languages and Literature",
+      "code": "GLAL",
       "school": "Humanities & Arts",
       "primary": 1,
       "secondary": 0,
       "total": 1
     },
     {
-      "name": "Visit the History and Science Page",
-      "code": "VTHA",
+      "name": "Government",
+      "code": "Gove",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "History",
+      "code": "History",
       "school": "Humanities & Arts",
       "primary": 1,
       "secondary": 0,
       "total": 1
     },
     {
-      "name": "Visit the History of Art and Architecture Page",
-      "code": "VTHO",
+      "name": "History and Literature",
+      "code": "HAL",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "History and Science",
+      "code": "HAS",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "History of Art and Architecture",
+      "code": "HOAA",
       "school": "Architecture and Planning",
       "primary": 1,
       "secondary": 0,
       "total": 1
     },
     {
-      "name": "Visit the Human Developmental and Regenerative Biology Page",
-      "code": "VTHD",
+      "name": "Human Developmental and Regenerative Biology",
+      "code": "HDAR",
       "school": "Science",
       "primary": 1,
       "secondary": 0,
       "total": 1
     },
     {
-      "name": "Visit the Molecular and Cellular Biology Page",
-      "code": "VTMA",
+      "name": "Human Evolutionary Biology",
+      "code": "HEB",
       "school": "Science",
       "primary": 1,
       "secondary": 0,
       "total": 1
     },
     {
-      "name": "Visit the Music Page",
-      "code": "VTMP",
+      "name": "Integrative Biology",
+      "code": "IB",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Linguistics",
+      "code": "Ling",
       "school": "Humanities & Arts",
       "primary": 1,
       "secondary": 0,
       "total": 1
     },
     {
-      "name": "Visit the Neuroscience Page",
-      "code": "VTNP",
+      "name": "Mathematics",
+      "code": "Math",
       "school": "Science",
       "primary": 1,
       "secondary": 0,
       "total": 1
     },
     {
-      "name": "Visit the Philosophy Page",
-      "code": "VTPP",
-      "school": "Humanities & Arts",
+      "name": "Mechanical Engineering",
+      "code": "ME",
+      "school": "Engineering",
       "primary": 1,
       "secondary": 0,
       "total": 1
     },
     {
-      "name": "Visit the Psychology Page",
-      "code": "VTPP",
-      "school": "Social Sciences",
-      "primary": 1,
-      "secondary": 0,
-      "total": 1
-    },
-    {
-      "name": "Visit the Romance Languages and Literature Page",
-      "code": "VTRL",
-      "school": "Humanities & Arts",
-      "primary": 1,
-      "secondary": 0,
-      "total": 1
-    },
-    {
-      "name": "Visit the Sociology Page",
-      "code": "VTSP",
-      "school": "Social Sciences",
-      "primary": 1,
-      "secondary": 0,
-      "total": 1
-    },
-    {
-      "name": "Visit the South Asian Studies Page",
-      "code": "VTSA",
-      "school": "Social Sciences",
-      "primary": 1,
-      "secondary": 0,
-      "total": 1
-    },
-    {
-      "name": "Visit the Statistics Page",
-      "code": "VTSP",
+      "name": "Molecular and Cellular Biology",
+      "code": "MACB",
       "school": "Science",
       "primary": 1,
       "secondary": 0,
       "total": 1
     },
     {
-      "name": "Visit the Studies of Women, Gender, and Sexuality Page",
-      "code": "VTSO",
+      "name": "Music",
+      "code": "Music",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Near Eastern Languages and Civilizations",
+      "code": "NELA",
+      "school": "Engineering",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Neuroscience",
+      "code": "Neur",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Philosophy",
+      "code": "Phil",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Physics",
+      "code": "Physics",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Psychology",
+      "code": "Psyc",
       "school": "Social Sciences",
       "primary": 1,
       "secondary": 0,
       "total": 1
     },
     {
-      "name": "concentration information",
-      "code": "CI",
-      "school": "Interdisciplinary Programs",
+      "name": "Romance Languages and Literature",
+      "code": "RLAL",
+      "school": "Humanities & Arts",
       "primary": 1,
       "secondary": 0,
       "total": 1
     },
     {
-      "name": "special concentration",
-      "code": "SC",
-      "school": "Interdisciplinary Programs",
+      "name": "Slavic Literatures and Cultures",
+      "code": "SLAC",
+      "school": "Humanities & Arts",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Social Studies",
+      "code": "SS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Sociology",
+      "code": "Soci",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "South Asian Studies",
+      "code": "SAS",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Statistics",
+      "code": "Stat",
+      "school": "Science",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Studies of Women, Gender, and Sexuality",
+      "code": "SOWG",
+      "school": "Social Sciences",
+      "primary": 1,
+      "secondary": 0,
+      "total": 1
+    },
+    {
+      "name": "Theater, Dance & Media",
+      "code": "TDM",
+      "school": "Humanities & Arts",
       "primary": 1,
       "secondary": 0,
       "total": 1

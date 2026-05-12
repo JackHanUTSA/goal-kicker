@@ -1,29 +1,30 @@
 {
   "university": "Harvard University",
   "slug": "harvard",
-  "retrieved_at": "2026-05-10",
-  "scope": "official-policy-summary",
-  "scope_note": "Harvard's official application pages do not publish a minimum GPA cutoff or admitted-student GPA distribution. This panel therefore summarizes what Harvard officially says about courses, grades, and transcript review instead of inventing a GPA threshold.",
   "source_urls": [
-    "https://college.harvard.edu/admissions/apply/application-requirements"
+    "https://college.harvard.edu/admissions/apply/application-requirements",
+    "https://oira.harvard.edu/files/2024/05/CDS_2023-2024-Final-4755619e875b1241.pdf"
   ],
-  "policy_summary": "Harvard does not state a minimum required GPA on its official application-requirements page. Instead, it emphasizes challenging coursework, performance over time, and transcript review in context.",
-  "what_mit_does_say": [
+  "retrieved_at": "2026-05-11",
+  "scope": "no_per_major_data",
+  "scope_note": "Harvard does not publish GPA data by major. The figures below are official school-wide first-year GPA statistics from Harvard's Common Data Set plus Harvard's published holistic-review language.",
+  "policy_summary": "Harvard does not publish a minimum GPA cutoff on its application requirements page. In Harvard's 2023-24 Common Data Set, the average high school GPA for first-time, first-year students who submitted GPA was 4.2, and 74.02% of enrolled students were reported in the 4.0 GPA bin on the CDS 4.0-scale ranges.",
+  "what_school_does_say": [
     {
-      "claim": "There is no 'one size fits all' rule about which curriculum to study during secondary school years.",
+      "claim": "Harvard does not list a minimum required GPA for first-year applicants on its application requirements page.",
       "source_url": "https://college.harvard.edu/admissions/apply/application-requirements"
     },
     {
-      "claim": "Students should challenge themselves by taking courses deemed appropriate by their teachers and counselors.",
+      "claim": "Harvard says high school grades in a rigorous academic program can help assess readiness, but most applicants and admitted students already have outstanding academic records, so grades alone are hard to use to differentiate applications.",
       "source_url": "https://college.harvard.edu/admissions/apply/application-requirements"
     },
     {
-      "claim": "Applicants to Harvard should excel in a challenging high school math sequence, and Harvard recommends four years of math courses in high school.",
-      "source_url": "https://college.harvard.edu/admissions/apply/application-requirements"
+      "claim": "Harvard's 2023-24 Common Data Set reports an average high school GPA of 4.2 for first-time, first-year students who submitted GPA.",
+      "source_url": "https://oira.harvard.edu/files/2024/05/CDS_2023-2024-Final-4755619e875b1241.pdf"
     },
     {
-      "claim": "Harvard requires a midyear school report so it can review performance in the first half of senior year coursework.",
-      "source_url": "https://college.harvard.edu/admissions/apply/application-requirements"
+      "claim": "The same Common Data Set reports that 74.02% of enrolled first-year students were in the 4.0 GPA bin, 19.67% were between 3.75 and 3.99, and 4.10% were between 3.50 and 3.74 on its 4.0-scale GPA ranges.",
+      "source_url": "https://oira.harvard.edu/files/2024/05/CDS_2023-2024-Final-4755619e875b1241.pdf"
     }
   ]
 }

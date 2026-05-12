@@ -1,15 +1,69 @@
 {
   "university": "Harvard University",
   "slug": "harvard",
-  "retrieved_at": "2026-05-10",
-  "scope": "policy-summary",
-  "scope_note": "Harvard's official first-year application pages describe the current testing requirement and approved substitutes for exceptional access cases. Harvard does not publish per-major testing ranges here, so this panel stays school-wide and policy-focused.",
+  "class_label": "Official school-wide testing data",
   "source_url": "https://college.harvard.edu/admissions/apply/application-requirements",
   "source_urls": [
     "https://college.harvard.edu/admissions/apply/application-requirements",
-    "https://college.harvard.edu/admissions/apply/first-year-applicants"
+    "https://college.harvard.edu/admissions/admissions-statistics",
+    "https://oira.harvard.edu/files/2024/05/CDS_2023-2024-Final-4755619e875b1241.pdf"
   ],
-  "policy": "Harvard requires the SAT or ACT. In exceptional cases when those tests are not accessible, Harvard says applicants may instead meet the requirement with AP, IB, GCSE/A-Level, or national leaving exam results.",
+  "retrieved_at": "2026-05-11",
+  "scope": "class_wide",
+  "scope_note": "Harvard's admissions site publishes the current testing policy and Class of 2029 application counts, while the most detailed official SAT/ACT percentile ranges appear in Harvard's 2023-24 Common Data Set for enrolled first-year students. Harvard does not publish testing ranges by major.",
+  "policy": "Harvard requires the SAT or ACT. In exceptional access cases, applicants may satisfy the testing requirement with AP, IB, GCSE/A-Level, or national leaving exam results or predictions.",
+  "ranges": [
+    {
+      "test": "SAT ERW",
+      "p25": 740,
+      "p75": 780,
+      "max": 800
+    },
+    {
+      "test": "SAT Math",
+      "p25": 760,
+      "p75": 800,
+      "max": 800
+    },
+    {
+      "test": "ACT Composite",
+      "p25": 34,
+      "p75": 36,
+      "max": 36
+    },
+    {
+      "test": "ACT Math",
+      "p25": 33,
+      "p75": 36,
+      "max": 36
+    },
+    {
+      "test": "ACT English",
+      "p25": 35,
+      "p75": 36,
+      "max": 36
+    },
+    {
+      "test": "ACT Reading",
+      "p25": 34,
+      "p75": 36,
+      "max": 36
+    },
+    {
+      "test": "ACT Science",
+      "p25": 33,
+      "p75": 36,
+      "max": 36
+    }
+  ],
+  "general": {
+    "applications": 47893,
+    "admits": 2003,
+    "admit_rate": 0.0418,
+    "enrolling": 1675,
+    "waitlist_admits": 75,
+    "first_generation_share": "20%"
+  },
   "claims": [
     {
       "claim": "Harvard requires the SAT or ACT to meet its standardized testing requirement.",
@@ -20,8 +74,12 @@
       "source_url": "https://college.harvard.edu/admissions/apply/application-requirements"
     },
     {
-      "claim": "AP or other examination results are not required, but may be submitted.",
-      "source_url": "https://college.harvard.edu/admissions/apply/first-year-applicants"
+      "claim": "Harvard says there are no test-score cutoffs and that it does not admit “by the numbers.”",
+      "source_url": "https://college.harvard.edu/admissions/apply/application-requirements"
+    },
+    {
+      "claim": "Applicants may self-report SAT or ACT scores, and enrolling students later submit official scores.",
+      "source_url": "https://college.harvard.edu/admissions/apply/application-requirements"
     }
   ]
 }

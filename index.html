@@ -284,7 +284,8 @@ function renderTesting(t){
 
 function renderGpa(g){
   const summary=(g.policy_summary || '').trim();
-  const claimRows = (g.what_mit_does_say || []).filter(c => c && c.claim && c.claim.trim() && c.claim.trim() !== summary);
+  const gpaClaims = g.what_school_does_say || g.what_mit_does_say || [];
+  const claimRows = gpaClaims.filter(c => c && c.claim && c.claim.trim() && c.claim.trim() !== summary);
   const claims = claimRows.map(c =>
     '<li>'+esc(c.claim)+(c.source_url ? '<a class="src-link" href="'+esc(c.source_url)+'">'+esc(sourceLabel(c.source_url, 0))+'</a>' : '')+'</li>'
   ).join('');
