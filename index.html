@@ -362,6 +362,15 @@ function packBubbles(items, W, H){
   return nodes;
 }
 
+function formatMetric(value, suffix=''){
+  if(value == null || value === '') return '';
+  const num = Number(value);
+  const base = Number.isFinite(num)
+    ? (Number.isInteger(num) ? num.toLocaleString() : num.toLocaleString(undefined, {maximumFractionDigits: 1}))
+    : String(value);
+  return base + suffix;
+}
+
 function renderChart(d){
   if(d.mode==='majors-list' || d.titles){
     const titles = (d.titles || []).map(t => '<div class="majors-chip">'+esc(t)+'</div>').join('');
@@ -389,7 +398,8 @@ function renderChart(d){
   const uniformTotals = maxTotal === minTotal;
   const minR = uniformTotals ? (majors.length > 180 ? 5 : majors.length > 120 ? 6 : majors.length > 80 ? 7 : 8) : 10;
   const maxR = uniformTotals ? (majors.length > 180 ? 11 : majors.length > 120 ? 13 : majors.length > 80 ? 16 : majors.length > 50 ? 20 : 24) : 58;
-  const items=majors.map(m=>{const r=minR+(maxR-minR)*Math.sqrt(m.total/maxTotal);return {...m,r};});
+  const valueSuffix = d.value_suffix || '';
+  const items=majors.map(m=>{const r=minR+(maxR-minR)*Math.sqrt(m.total/maxTotal);return {...m,r,totalDisplay:(m.total_display || formatMetric(m.total, valueSuffix))};});
   const nodes=packBubbles(items,W,H);
   const totalStudents=majors.reduce((s,m)=>s+m.total,0);
   const legendOrder=(d.legend_order||[]);
@@ -400,8 +410,8 @@ function renderChart(d){
     const color=SCHOOL_COLORS[n.school]||'#888';
     const showLabel=n.r>=20;
     const label=showLabel?'<text x="'+n.x.toFixed(1)+'" y="'+(n.y+3).toFixed(1)+'" font-size="'+(n.r>40?12:10)+'" font-weight="600">'+esc(shortLabel(n.name,n.r,n.code))+'</text>':'';
-    const subLabel=n.r>=30?'<text x="'+n.x.toFixed(1)+'" y="'+(n.y+18).toFixed(1)+'" font-size="10" opacity="0.85">'+n.total+'</text>':'';
-    return '<g class="b" data-name="'+esc(n.name)+'" data-code="'+esc(n.code||'')+'" data-school="'+esc(n.school)+'" data-total="'+n.total+'" data-primary="'+n.primary+'" data-secondary="'+n.secondary+'"><circle cx="'+n.x.toFixed(1)+'" cy="'+n.y.toFixed(1)+'" r="'+n.r.toFixed(1)+'" fill="'+color+'" fill-opacity="0.78" stroke="'+color+'" stroke-width="1.4"/>'+label+subLabel+'</g>';
+    const subLabel=n.r>=30?'<text x="'+n.x.toFixed(1)+'" y="'+(n.y+18).toFixed(1)+'" font-size="10" opacity="0.85">'+esc(n.totalDisplay)+'</text>':'';
+    return '<g class="b" data-name="'+esc(n.name)+'" data-code="'+esc(n.code||'')+'" data-school="'+esc(n.school)+'" data-total="'+n.total+'" data-total-display="'+esc(n.totalDisplay)+'" data-primary="'+n.primary+'" data-secondary="'+n.secondary+'"><circle cx="'+n.x.toFixed(1)+'" cy="'+n.y.toFixed(1)+'" r="'+n.r.toFixed(1)+'" fill="'+color+'" fill-opacity="0.78" stroke="'+color+'" stroke-width="1.4"/>'+label+subLabel+'</g>';
   }).join('');
   const chartTitle=d.chart_title || ('Undergraduate majors by enrollment — '+esc(d.academic_year || d.academic_term || 'Current'));
   const majorLabel=d.major_count_label || (majors.length+' majors');
@@ -434,7 +444,7 @@ function bindBubbleHover(scope){
   scope.querySelectorAll('svg.bubbles .b').forEach(g=>{
     g.addEventListener('mousemove',ev=>{
       const n=g.dataset;
-      tip.innerHTML='<strong>'+esc(n.name)+(n.code?' ('+esc(n.code)+')':'')+'</strong><br><span style="color:#9aa1ad">'+esc(n.school)+'</span><br>Primary: '+n.primary+' · Secondary: '+n.secondary+'<br>Total: <strong>'+n.total+'</strong>';
+      tip.innerHTML='<strong>'+esc(n.name)+(n.code?' ('+esc(n.code)+')':'')+'</strong><br><span style="color:#9aa1ad">'+esc(n.school)+'</span><br>Primary: '+n.primary+' · Secondary: '+n.secondary+'<br>Total: <strong>'+(n.totalDisplay || n.total)+'</strong>';
       tip.style.display='block';
       const x=Math.min(window.innerWidth-280,ev.clientX+12);
       tip.style.left=x+'px';tip.style.top=(ev.clientY+12)+'px';
