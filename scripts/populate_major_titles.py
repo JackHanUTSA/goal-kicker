@@ -15,7 +15,7 @@ from typing import Iterable
 from urllib.parse import parse_qs, unquote, urljoin, urlparse, urlsplit
 
 import requests
-from bs4 import BeautifulSoup, Tag
+from bs4 import BeautifulSoup, NavigableString, Tag
 
 ROOT = Path(__file__).resolve().parents[1]
 UNI_DIR = ROOT / "knowledgebase" / "universities"
@@ -213,6 +213,7 @@ def normalize_title(value: str) -> str:
     title = re.sub(r"\s+[–—-]\s+(BA|BS|BFA|BSE|BArch|BM|BMus|BBA|BSA|BAS|BSBA|BSN|BSc|BFS|BPhil|SB|AB|ScB|BE|BEng|BASc)\b.*$", "", title, flags=re.I)
     title = re.sub(r"\((BA|BS|BFA|BSE|BArch|BM|BMus|BBA|BSA|BAS|BSBA|BSN|BSc|BFS|BPhil|SB|AB|ScB|BE|BEng|BASc)[^)]*\)$", "", title, flags=re.I)
     title = re.sub(r"\s*\[[^\]]+\]$", "", title)
+    title = re.sub(r"\s+\d{1,2}$", "", title)
     title = re.sub(r"\*+$", "", title).strip()
     title = title.strip(" -–—,;:/")
     title = title.replace("/Second Major", "")
@@ -819,7 +820,7 @@ def fetch_school_specific_titles(record: dict) -> tuple[list[str], str | None]:
     if slug == "njit":
         return fetch_titles_from_single_page(record, "https://catalog.njit.edu/programs/")
     if slug == "ut-austin":
-        return fetch_titles_from_single_page(record, "https://catalog.utexas.edu/undergraduate/")
+        return fetch_titles_from_single_page(record, "https://admissions.utexas.edu/explore/colleges-degrees/")
     return [], None
 
 
@@ -1077,32 +1078,46 @@ def extract_titles_from_page(page: dict, record: dict) -> list[str]:
         if njit_titles:
             return dedupe_keep_order(njit_titles)
 
-    if record["slug"] == "ut-austin" and "catalog.utexas.edu/undergraduate/" in page["url"]:
+    if record["slug"] == "ut-austin" and "admissions.utexas.edu/explore/colleges-degrees/" in page["url"]:
         ut_titles: list[str] = []
-        for anchor in soup.find_all("a", href=True):
-            href = urljoin(page["url"], anchor["href"])
-            if "/undergraduate/" not in href:
+        reject_patterns = [
+            r"^undeclared\b",
+            r"\bhonors\b",
+            r"integrated master",
+            r"suggested arrangement of courses",
+            r"\bddp\b",
+            r"^arts$",
+            r"^arts, plan i$",
+            r"^arts, plan ii$",
+            r"^education$",
+            r"^fine arts$",
+            r"^music$",
+            r"^science and arts$",
+            r"^science in ",
+            r"^arts in ",
+            r"^lyndon b\. johnson school of public affairs$",
+            r"^lyndon b\. johnson school of public affairs faculty$",
+        ]
+        reject_re = re.compile("|".join(f"(?:{pattern})" for pattern in reject_patterns), re.I)
+        for block in soup.select("div.college.spacerMob-s.spacer-m"):
+            top_list = block.select_one("ul.ulAltBg")
+            if top_list is None:
                 continue
-            if "/suggested-arrangement-of-courses/" in href or "/minor-and-certificate-programs/" in href:
-                continue
-            text = strip_text(anchor.get_text(" ", strip=True))
-            lowered = text.lower()
-            if not text or lowered in {
-                "degrees and programs",
-                "undergraduate degrees",
-                "degree programs",
-                "simultaneous majors",
-                "minor and certificate programs",
-                "programs and centers",
-            }:
-                continue
-            if "/m." in lowered or "/phd" in lowered or "certificate" in lowered or "minor" in lowered:
-                continue
-            if not (re.search(r"\bB(?:achelor|\.)", text) or href.count("/") >= 8):
-                continue
-            text = re.sub(r"^(?:Bachelor of |Bachelor's in |BS |BA |BBA |BFA |BJ |BSA |BArch )", "", text).strip()
-            text = re.sub(r"\s*\((?:BA|BS|BBA|BFA|BJ|BSA|BArch|BSAdv|BSComm(?:&Lead|Stds)?|BSPR|BSRTF|BSSLH)\)$", "", text).strip()
-            add_candidate(ut_titles, text)
+            for li in top_list.find_all("li", recursive=False):
+                direct_text = " ".join(
+                    str(node).strip() for node in li.contents if isinstance(node, NavigableString)
+                ).strip()
+                if direct_text:
+                    title = normalize_title(direct_text)
+                    if title and not reject_re.search(title):
+                        add_candidate(ut_titles, title)
+                nested = li.find("ul", recursive=False)
+                if nested is None:
+                    continue
+                for sub in nested.find_all("li", recursive=False):
+                    title = normalize_title(sub.get_text(" ", strip=True))
+                    if title and not reject_re.search(title):
+                        add_candidate(ut_titles, title)
         if ut_titles:
             return dedupe_keep_order(ut_titles)
 
@@ -1473,11 +1488,20 @@ def save_markdown(record: dict) -> None:
         for url in record.get("source_urls", {}).get(group, []):
             lines.append(f"- {url}")
         lines.append("")
+    admissions = record.get("admissions", {})
     lines.extend(
         [
-            "## Majors",
-            f"- Count: {record['majors']['count']}",
+            "## Structured extraction",
+            f"- Majors count: {record['majors']['count']}",
             f"- Count method: {record['majors']['count_method']}",
+            f"- Application platform: {admissions.get('application_platform') or 'unknown'}",
+            f"- Testing policy: {admissions.get('testing_policy') or 'unknown'}",
+            f"- GPA policy: {admissions.get('gpa_policy') or 'unknown'}",
+            f"- Course rigor: {admissions.get('course_rigor') or 'unknown'}",
+            f"- Recommendations: {admissions.get('recommendations') or 'unknown'}",
+            f"- Essays: {admissions.get('essays') or 'unknown'}",
+            "",
+            "## Majors",
             f"- Titles extracted: {len(record['majors'].get('titles', []))}",
             "",
         ]
@@ -1494,7 +1518,7 @@ def save_markdown(record: dict) -> None:
     )
     for warning in record.get("verification", {}).get("warnings", []):
         lines.append(f"- {warning}")
-    (UNI_DIR / f"{record['slug']}.md").write_text("\n".join(lines))
+    (UNI_DIR / f"{record['slug']}.md").write_text("\n".join(lines) + "\n")
 
 
 def latest_titles_source_url(record: dict) -> str | None:

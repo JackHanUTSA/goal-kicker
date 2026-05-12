@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-09T09:34:54.373333+00:00",
+  "generated_at": "2026-05-12T05:30:46.879338+00:00",
   "schools_total": 100,
   "schools_with_titles": 100,
   "schools_without_titles": 0,
@@ -22,7 +22,7 @@
       "slug": "harvard",
       "rank": 3,
       "majors_count": 50,
-      "titles_count": 27,
+      "titles_count": 50,
       "titles_source_url": "https://college.harvard.edu/academics/liberal-arts-sciences/concentrations"
     },
     {
@@ -252,9 +252,9 @@
     {
       "slug": "ut-austin",
       "rank": 36,
-      "majors_count": 8,
-      "titles_count": 8,
-      "titles_source_url": "https://gradschool.utexas.edu/degrees-programs"
+      "majors_count": 182,
+      "titles_count": 182,
+      "titles_source_url": "https://admissions.utexas.edu/explore/colleges-degrees/"
     },
     {
       "slug": "uiuc",
