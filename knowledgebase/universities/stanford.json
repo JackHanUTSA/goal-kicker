@@ -13,7 +13,9 @@
       "https://majors.stanford.edu/majors"
     ],
     "testing_policy": [],
-    "general": [],
+    "general": [
+      "https://admission.stanford.edu/apply/selection/index.html"
+    ],
     "professors": [
       "https://profiles.stanford.edu/",
       "https://profiles.stanford.edu/browse/school-of-engineering?affiliations=capFaculty",
@@ -187,7 +189,10 @@
   },
   "competitive_signals": {
     "academics": [],
-    "projects_research": [],
+    "projects_research": [
+      "Stanford says it wants to learn about the ways applicants have expanded their perspective and sought new opportunities.",
+      "Stanford says it hopes to see how an applicant's energy, curiosity, and optimism would make a mark on Stanford and the world."
+    ],
     "extracurriculars": [],
     "leadership": [],
     "service": [],
@@ -281,14 +286,20 @@
       "source_url": "https://majors.stanford.edu/majors",
       "source_excerpt": "Aeronautics and Astronautics; African and African American Studies; African Studies; American Studies; Anthropology; Applied Physics; Archaeology; Art History; Art Practice; Asian American Studies; Atmosphere/Energy; Bioengineering",
       "retrieved_at": "2026-04-29T23:59:27.355556+00:00"
+    },
+    {
+      "field": "competitive_signals.projects_research",
+      "claim": "Stanford says it wants to learn about applicants' intellectual horizons, the ways they sought new opportunities, and how their energy and curiosity would make a mark on Stanford and the world.",
+      "classification": "official_recommendation",
+      "source_url": "https://admission.stanford.edu/apply/selection/index.html",
+      "source_excerpt": "Intellectual Vitality ... Through your application, we hope to learn about your intellectual horizons. We want to hear about the ways you have expanded your perspective and sought new opportunities. We hope to envision how your energy, curiosity, and optimism would make a mark on Stanford and the world.",
+      "retrieved_at": "2026-05-13T01:49:49.879452+00:00"
     }
   ],
   "verification": {
-    "last_verified_at": "2026-04-29T23:59:27.355564+00:00",
+    "last_verified_at": "2026-05-13T01:49:49.879452+00:00",
     "confidence": "phase-3-structured",
-    "unknown_fields": [
-      "competitive_signals.projects_research"
-    ],
+    "unknown_fields": [],
     "warnings": [
       "Major titles extracted from official school source (102 titles).",
       "Phase 3 structured upgrade completed with improved majors counting, admissions extraction, and query-ready records.",
